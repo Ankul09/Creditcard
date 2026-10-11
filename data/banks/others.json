@@ -1622,6 +1622,80 @@
       "retrieved_on": "2026-10-11",
       "last_verified": null,
       "notes": "3 pts/Rs150 at Rs0.25. Rent 1% processing fee. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "issuer": "RBL Bank",
+      "forex_markup": null,
+      "data_status": "unverified",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "excludes": [
+        "jewellery"
+      ],
+      "name": "IndianOil RBL Bank XTRA",
+      "annual_fee": 1500,
+      "fee_waiver_spend": 275000,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "indianoil",
+            "iocl"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.075,
+          "cap_inr": 1000,
+          "desc": "15 fuel points per Rs100 at IOCL outlets, 1 FP = Rs0.50 (~7.5%); cap 2,000 FP/month (third-party) = Rs1,000. Separate 1% surcharge waiver (cap Rs200/month) not included, effective ~8.5%"
+        }
+      ],
+      "source_url": "https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card",
+        "https://www.rbl.bank.in/value-calculator/indianoil-rbl-bank-xtra-credit-card",
+        "https://cardadvisor.in/cards/rbl-indianoil-xtra",
+        "https://cardadvisor.in/articles/rbl-indianoil-xtra-credit-card-review-2026"
+      ],
+      "confidence": "medium",
+      "notes": "Added after user flagged it missing. Fee Rs1,500+GST and 15 FP/Rs100 from RBL page snippet; the 2,000 FP/month cap and Rs2.75L waiver partly third-party. Fuel points redeemable only at IndianOil stations at Rs0.50. Non-fuel 2 pts/Rs100 (~1%). Welcome 3,000 FP after Rs500 spend in 30 days; 1,000 FP per Rs75k quarterly spend. Jewellery exclusion assumed, not confirmed. Verify cap on RBL MITC."
+    },
+    {
+      "issuer": "RBL Bank",
+      "forex_markup": null,
+      "data_status": "unverified",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "excludes": [
+        "jewellery"
+      ],
+      "name": "IndianOil RBL Bank Credit Card",
+      "annual_fee": null,
+      "fee_waiver_spend": 175000,
+      "base_rate": null,
+      "rules": [
+        {
+          "merchants": [
+            "indianoil",
+            "iocl"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.05,
+          "cap_inr": 500,
+          "desc": "5% valueback: 10 fuel points per Rs100 at IOCL (1 FP = Rs0.50); cap 1,000 FP/month = Rs500; plus 1% surcharge waiver (not included)"
+        }
+      ],
+      "source_url": "https://www.rblbank.com/personal-banking/cards/credit-cards/indianoil-rbl-bank-credit-card",
+      "source_type": "third_party",
+      "sources": [
+        "https://www.rblbank.com/personal-banking/cards/credit-cards/indianoil-rbl-bank-credit-card",
+        "https://cardadvisor.in/articles/rbl-indianoil-xtra-credit-card-review-2026"
+      ],
+      "confidence": "low",
+      "notes": "Annual fee not found. Figures from a third-party review comparing it with the XTRA. Verify on RBL's page."
     }
   ],
   "offers": [],
@@ -1632,6 +1706,7 @@
     "Not found/covered: Amex Gold Charge as a separate card (Amex Gold Card included), Kotak Royale Signature (listed Discontinued by Kotak), YES Ace/Prosperity/Private, IDFC FIRST Diamond Reserve/Private/Ashva/Gaj/WOW, AU Ananta/Vetta/Xcite/Zenith+/Ixigo, RBL Apex/Lumiere/Nova/Shoprite, SC Rewards/Platinum Rewards/EaseMyTrip/Digismart, IndusInd Celesta/Crest/Avios/Pinnacle.",
     "Amex India new applications paused (all cards); Kotak Royale Signature discontinued; OneCard applications reportedly paused.",
     "cap_inr for many rules is derived from point caps x point value; source conflicts noted per card. Point values vary by redemption route (e.g. IDFC Mayura 0.25 vs 0.50; YES 0.10-0.25; SC Rs1 vs 0.25); base_rate uses conservative baseline.",
-    "IDFC FIRST Wealth page shows finance charge 0.71%/month which looks like a source error."
+    "IDFC FIRST Wealth page shows finance charge 0.71%/month which looks like a source error.",
+    "RBL IndianOil cards were missing from the first pass; added 2026-10-11. Check for other co-brand fuel cards (e.g. Kotak, IDFC, Yes, AU, Federal, Standard Chartered) - none were searched specifically."
   ]
 }

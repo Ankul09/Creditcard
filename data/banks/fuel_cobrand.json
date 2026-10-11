@@ -1,0 +1,476 @@
+{
+ "cards": [
+  {
+   "name": "IndianOil Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "annual_fee": 449,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "desc": "24 reward points per Rs150 at IndianOil outlets, 1 RP = Rs0.25 (issuer value chart). 1% fuel surcharge waiver (txns Rs100-5,000, max Rs100 per statement cycle, IndianOil only, not on UPI) is separate and NOT included in rate. Total up to 5% per issuer.",
+     "cap_inr": 300
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining"
+     ],
+     "rate": 0.02,
+     "desc": "12 RP per Rs150 on select MCCs (5812,5814,5813,5411,5311,5399,5422,5451,5499,5441), shared 800 RP/cycle cap at Rs0.25",
+     "cap_inr": 200
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "insurance",
+    "utility_bills",
+    "education",
+    "government"
+   ],
+   "source_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/indian-oil-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/indian-oil-credit-card.html",
+    "https://cardadvisor.in/articles/indianoil-kotak-credit-card-review-2026"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fuel rate, caps, fee Rs449 and waiver Rs50,000 from Kotak official page; cap_inr = 1,200 RP x Rs0.25. Base 3 RP/Rs150 = 0.5%; UPI also 0.5%. Fuel at non-IndianOil pumps earns only general rate. Forex markup not stated. Fee excludes GST. Application status not confirmed."
+  },
+  {
+   "name": "IndianOil Axis Bank Credit Card",
+   "issuer": "Axis Bank",
+   "annual_fee": 500,
+   "fee_waiver_spend": 350000,
+   "forex_markup": 0.035,
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "desc": "20 EDGE points per Rs100 at IOCL on txns Rs400-4,000, 1 EDGE point = Rs0.20; up to Rs5,000 fuel spend/month. 1% fuel surcharge waiver capped Rs50 per cycle (not in rate).",
+     "cap_inr": 200
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "5 EDGE points per Rs100 on txns Rs100-5,000, up to Rs5,000 online spend/month at Rs0.20",
+     "cap_inr": 50
+    }
+   ],
+   "excludes": [
+    "utility_bills",
+    "education",
+    "rent",
+    "wallet_load",
+    "government",
+    "insurance",
+    "cash_advance",
+    "toll",
+    "gift_cards",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/axis-indianoil",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/axis-indianoil",
+    "https://www.axis.bank.in/docs/default-source/default-document-library/credit-cards/terms-and-conditions-indian-oil-credit-card.pdf",
+    "https://paisabazaar.com/credit-card/indianoil-axis-bank-credit-card-review/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official Axis T&C PDF (1 page, June 2025 revision) read: confirms only the reward exclusion list; earn rates come from cardadvisor (page dated 4 Sep 2026). Fee Rs500 + Rs500 joining, excl GST; waiver Rs3.5L (older sources say Rs50,000). Welcome up to 1,250 EDGE points. Other spend 1 pt/Rs100 = 0.2%. Axis menu also lists an 'IndianOil Easy' card, not researched."
+  },
+  {
+   "name": "IndianOil Axis Bank Premium Credit Card",
+   "issuer": "Axis Bank",
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "desc": "6 EDGE Miles per Rs150 at IOCL; ~4% assumes Rs1 per Mile when redeemed at IOCL fuel (statement credit only ~Rs0.20/pt). 1% fuel surcharge waiver (conflict: 'unlimited' vs Rs400-4,000 band) not in rate.",
+     "cap_inr": 600
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "fuel_surcharge",
+    "emi",
+    "government",
+    "toll",
+    "gift_cards"
+   ],
+   "source_url": "https://cardadvisor.in/cards/axis-indianoil-premium",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/axis-indianoil-premium",
+    "https://www.bankbazaar.com/credit-card/fuel-credit-cards.html",
+    "https://www.axis.bank.in/cards/credit-card/indianoil-premium-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "NEW APPLICATIONS PAUSED per cardadvisor; existing holders keep it. cap_inr = 600 Miles/month (~Rs15,000 spend). Fee waiver conflict: Rs30,000 (cardadvisor) vs Rs1 lakh (bankbazaar). Groceries 2 Miles/Rs150 up to Rs5,000, other 1 Mile/Rs150 (value unclear, rules omitted). Official Axis page could not be read (navigation only)."
+  },
+  {
+   "name": "IDFC FIRST HPCL Power+ Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "annual_fee": 499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0,
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "desc": "30X reward points per Rs150 at HPCL, 1 RP = Rs0.25 (issuer savings calc shows 5%). NO 1% fuel surcharge waiver. HP Pay app adds 6 Happy Coins per Rs100 (~1.5%, HPCL currency, max 600 coins/month on Rs10,000) not in rate. Cap 2,400 RP/cycle per cardadvisor (not seen on issuer page).",
+     "cap_inr": 600
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "30X per Rs150 on grocery and utility; utility cap Rs2,000/cycle unverified per cardadvisor"
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+    "https://cardadvisor.in/cards/idfc-hpcl-power"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "30X/Rs150 and Happy Coins from IDFC official page. Fee Rs499 joining/annual and waiver Rs1.5L from cardadvisor only. Issuer headline 'up to 6.5%' = 5% + 1.5% HP Pay. Base 3X per Rs150 = 0.5%. Zero forex stated on issuer page. Non-HPCL fuel earns nothing (cardadvisor). Conflicting hotel/flight bonus figures omitted."
+  },
+  {
+   "name": "IDFC FIRST HPCL Power Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "annual_fee": 199,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.035,
+     "desc": "21X reward points per Rs150 at HPCL, 1 RP = Rs0.25 (issuer savings calc: Rs2,100 on Rs60,000 = 3.5%). No fuel surcharge waiver. HP Pay app adds 6 Happy Coins per Rs100 (~1.5%) not in rate. Fuel cap unknown."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Entry variant on same issuer page: joining and annual fee Rs199, annual fee reversed on a spend threshold not captured. 15X on grocery/utility/FASTag, 2X other (RP per Rs150). Caps, forex markup, exclusions not read."
+  },
+  {
+   "name": "HPCL ENERGIE BOBCARD",
+   "issuer": "BOBCARD (Bank of Baroda)",
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "desc": "24 RP per Rs150 at eligible HPCL outlets (incl. LPG, HP Pay app purchases; not HP Pay wallet load/direct debit), 1 RP = Rs0.25. 1% fuel surcharge waiver on Rs400-5,000, max Rs100 per statement, not in rate. Since 15 Jul 2026 only on HPCL outlets on the BOBCARD eligible MID/TID list. Cap 1,000 RP/statement per cardadvisor.",
+     "cap_inr": 250
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0167,
+     "desc": "10 RP per Rs150 on utility bills and departmental stores, shares the same 1,000 RP cap at Rs0.25"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "education",
+    "insurance"
+   ],
+   "source_url": "https://www.bobcard.co.in/credit-card-types/hpcl-energie",
+   "source_type": "official",
+   "sources": [
+    "https://www.bobcard.co.in/credit-card-types/hpcl-energie",
+    "https://cardadvisor.in/articles/hpcl-energie-bobcard-credit-card-review-2026"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: 24 RP/Rs150 (4%) + 1% waiver, fee Rs499 waived at Rs50,000, 1 RP = Rs0.25, waiver cap Rs100/statement. Cap, forex 3.5%, 2 RP/Rs150 other from cardadvisor. Conflict: BOB MITC footnote reportedly says waiver-eligible fuel txns earn no points, which would contradict stacking. Rupay only. Many MCCs (5411 supermarkets, tolls etc.) earn nothing."
+  },
+  {
+   "name": "ICICI HPCL Coral Credit Card",
+   "issuer": "ICICI Bank",
+   "annual_fee": 199,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.025,
+     "desc": "2.5% cashback at HPCL pumps, capped Rs100/month (issuer). Plus 1% fuel surcharge waiver on txns Rs400-4,000 at HPCL via ICICI POS (cap Rs500/month per cardadvisor, unverified), not in rate. Issuer says up to 3.5% total.",
+     "cap_inr": 100
+    }
+   ],
+   "excludes": [
+    "rent",
+    "cash_advance",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+    "https://cardadvisor.in/cards/icici-hpcl-coral"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs199 joining/annual excl GST, waiver Rs50,000, forex 3.5% from issuer. Other earn 2 RP per Rs100 (Rs0.25 assumed by cardadvisor, redemption up to Rs0.40). Cardadvisor changelog claims fuel stopped earning points Jan 2026 but cashback still listed; cashback treated as active."
+  },
+  {
+   "name": "Standard Chartered Super Value Titanium",
+   "issuer": "Standard Chartered Bank",
+   "annual_fee": 750,
+   "fee_waiver_spend": 90000,
+   "forex_markup": 0.035,
+   "base_rate": 0.0017,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback at ALL fuel stations, only txns of Rs2,000 or below, max Rs100 per txn, Rs200 per statement cycle, credited to R360 portal. 1% fuel surcharge waiver discontinued 25 Aug 2024.",
+     "cap_inr": 200
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on phone bills (Rs200/cycle) and utility bills (Rs100/cycle) via SC bill pay only, min Rs750 per txn, max Rs100 per txn",
+     "cap_inr": 100
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.sc.bank.in/credit-cards/super-value-titanium/",
+   "source_type": "official",
+   "sources": [
+    "https://www.sc.bank.in/credit-cards/super-value-titanium/",
+    "https://cardadvisor.in/cards/sc-super-value-titanium"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only card found with a flat any-pump fuel rule. Other spend 1 RP per Rs150 (Rs0.25 assumed, cardadvisor). Fee Rs750 + GST, waiver Rs90,000 per cardadvisor; forex 3.5% per issuer FAQ. Application status not confirmed."
+  },
+  {
+   "name": "IndusInd Bank Jio-bp Mobility+ Credit Card",
+   "issuer": "IndusInd Bank",
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "jio-bp",
+      "jiobp"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.03,
+     "desc": "12 Smiles per Rs100 at Jio-bp (fuel, EV charging, wildbean, convenience store), 1 Smile = Rs0.25 (cardadvisor's estimate; IndusInd publishes no rupee value). 1% fuel surcharge waiver at all Jio-bp stations (no cap stated) not in rate. Cap 1,200 Smiles per statement cycle. Smiles redeem only at Jio-bp outlets.",
+     "cap_inr": 300
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.0125,
+     "desc": "5 Smiles per Rs100 on dining, supermarket, grocery at Rs0.25"
+    }
+   ],
+   "excludes": [
+    "fuel_non_jio_bp",
+    "insurance",
+    "government",
+    "utility_bills",
+    "rent"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/jio-bp-mobility-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/jio-bp-mobility-credit-card.html",
+    "https://www.jiobp.com/indusind-jio-bp-credit-card",
+    "https://cardadvisor.in/articles/indusind-jio-bp-mobility-plus-credit-card-review-2026"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates and 1,200-Smile cap from issuer page; fees (nil renewal, Rs499 joining waived on Rs10,000 in 90 days) and 3.5% forex from cardadvisor, forex FAQ on issuer page agrees. Other spend 2 Smiles/Rs100. Milestone conflict: issuer says 4,000 bonus Smiles at Rs2L, another section 2,000+2,000; 200 Smiles/cycle on Rs4,000+ Jio-bp spend. 1% + GST fee on fuel above Rs30,000/cycle per cardadvisor. Launched Dec 2025, RuPay."
+  },
+  {
+   "name": "American Express Platinum Card (Charge)",
+   "issuer": "American Express India",
+   "annual_fee": 66000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.075,
+     "desc": "ShopWise/Rewards Xcelerator 12.5 MR per Rs100 at Rs0.60/pt (third_party, unverified)",
+     "cap_inr": 15000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.045,
+     "desc": "3X MR on international spend = 7.5 MR per Rs100 at Rs0.60 (issuer says 3X; base is 1 MR per Rs40)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.03,
+     "desc": "5 MR per Rs100 at any OMC pump (petrol, diesel, CNG): 1 base + 4 bonus. Bonus capped at 5,000 MR per calendar month (Rs1.25L fuel spend); cap_inr = 6,250 MR x Rs0.60. Rs0.60/MR is an assumed value (redemption range Rs0.25 to Rs0.80); at Rs0.25 the rate is 1.25%. No surcharge waiver; Amex charges a convenience fee at pumps (2021: 1%+GST at IOCL/BPCL, nil at HPCL up to Rs5,000, 2%+GST others) - verify.",
+     "cap_inr": 3750
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.015,
+     "desc": "Not addressed by source; assumed base 1 MR/Rs40 at Rs0.60 (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "utility_bills",
+    "insurance"
+   ],
+   "source_url": "https://www.americanexpress.com/in/benefits/the-platinum-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.americanexpress.com/in/benefits/the-platinum-card/",
+    "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+    "https://livefromalounge.com/amex-platinum-fuel-spends/",
+    "https://cardadvisor.in/cards/amex-platinum-charge"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "VERIFIED against Amex India Platinum benefits page: 5 MR per Rs100 on fuel (1 base + 4 bonus, effective 1 Jun 2021, bonus max 5,000 MR/calendar month). The old cap conflict (Rs3,000 vs 5,000 pts) is explained: 5,000 pts is the BONUS cap; Rs3,000 = 5,000 x Rs0.60 excludes base points. Official page is a 2021-dated T&C block still live in Oct 2026; no 2026 change found, Mobikwik lists '5X per Rs40' (conflict, unconfirmed). Amex Gold Charge lost fuel earn Jun 2025; Platinum Travel earns none on fuel. Official base rate is 1 MR per Rs40 (was shown as Rs50/100 elsewhere), consistent with base_rate 1.5% at Rs0.60. New applications paused. Fee excl 18% GST. Jewellery and online_shopping rules not re-verified."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "BPCL: no co-brand card beyond existing BPCL SBI Card and Octane found (no BPCL card from other issuers).",
+  "Shell and Nayara: no India co-branded or reward credit card found.",
+  "Reliance: only IndusInd Jio-bp Mobility+ found; no Reliance Retail/SBI fuel card seen.",
+  "Axis 'IndianOil Easy' card listed in Axis menu but not researched; Axis IOCL official earn rates not confirmed (T&C PDF is a revision notice only).",
+  "Axis IndianOil Premium: paused to new applicants; fee waiver (Rs30k vs Rs1L) and 1 Mile value unresolved.",
+  "General any-pump fuel earn: only SC Super Value Titanium and Amex Platinum Charge found; Amex Gold Charge removed fuel earn Jun 2025; other issuers (Yes, AU, Federal, HSBC, BoB, PNB, Canara, Union, Paytm SBI, Bajaj RBL) not exhaustively checked, most existing entries exclude fuel.",
+  "SBI IndianOil / HDFC HPCL / Axis HPCL / Citi: no card found in searches.",
+  "IDFC FIRST HPCL Power: waiver threshold, caps, forex not captured.",
+  "Unverified caps and fees taken from cardadvisor: IDFC Power+ 2,400 RP cap and Rs499 fee, BoB 1,000 RP cap, Coral surcharge cap."
+ ]
+}

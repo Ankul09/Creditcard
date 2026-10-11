@@ -1,0 +1,354 @@
+{
+  "cards": [
+    {
+      "name": "HDFC Regalia Gold",
+      "issuer": "HDFC Bank",
+      "annual_fee": 2500,
+      "fee_waiver_spend": 400000,
+      "forex_markup": null,
+      "base_rate": 0.013,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.013,
+          "desc": "Jewellery earns base points with a monthly cap; cap amount not found"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "wallet_load",
+        "government",
+        "digital_gold"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+        "https://cardadvisor.in/cards/hdfc-regalia-gold",
+        "https://cardadvisor.in/articles/hdfc-regalia-gold-optimization-2026"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Annual fee 2,500 not seen on official page (only the 2,500 benefit value). Waiver at 4L spend (official page). Base earn: 4 RP per Rs150 on official page; third parties estimate ~1.3% value. One source says base earn cut to 5 RP/Rs200 on 15 May 2026; official page links a PDF of changes effective 15 May 2026 that was not read. Jewellery monthly cap amount unknown. Milestones: Rs5,000 flight vouchers at 5L and 7.5L spend; Rs1,500 Myntra/Nykaa vouchers per Rs1.5L quarterly spend. 12 domestic + 6 intl lounge visits."
+    },
+    {
+      "name": "HDFC Infinia",
+      "issuer": "HDFC Bank",
+      "annual_fee": 12500,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.02,
+      "base_rate": 0.033,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.033,
+          "desc": "Jewellery earns base points with monthly caps; cap amount not found"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "wallet_load",
+        "government"
+      ],
+      "source_url": "https://cardtrail.in/compare/hdfc-bank-credit-cards-complete-guide/",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardtrail.in/compare/hdfc-bank-credit-cards-complete-guide/",
+        "https://livefromalounge.com/hdfc-bank-bonus-points/",
+        "https://news.onepercentclub.io/credit-cards/new-reward-point-rules-for-hdfc-bank-credit-card-effective-from-october-1-2024/16710/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Invitation-only. Waiver at 10L spend. Forex 2%. Tanishq voucher redemption capped at 50,000 points per calendar quarter (Infinia/Infinia Metal). SmartBuy accelerators with monthly bonus cap ~15K RP (aggregator claim). Jewellery earn cap unknown; exclusions list inferred from HDFC general rules."
+    },
+    {
+      "name": "HDFC Millennia",
+      "issuer": "HDFC Bank",
+      "annual_fee": 1000,
+      "fee_waiver_spend": 100000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "amazon",
+            "flipkart",
+            "myntra",
+            "swiggy",
+            "zomato",
+            "uber"
+          ],
+          "categories": [
+            "online_shopping",
+            "dining"
+          ],
+          "rate": 0.05,
+          "cap_inr": 1000
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardexpress.in/cards/hdfc-millennia",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardexpress.in/cards/hdfc-millennia",
+        "https://www.paisabazaar.com/credit-card/compare-hdfc-millennia-vs-flipkart-axis-vs-amazon-icici/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Annual fee 1,000 + GST, waived at 1L spend. 5% on partner brands, cap Rs1,000/month cashback; 1% elsewhere. Forex 3.5%. 4 domestic lounge visits/yr. Jewellery treatment and exclusions NOT found - verify before trusting jewellery ranking."
+    },
+    {
+      "name": "SBI Cashback",
+      "issuer": "SBI Card",
+      "annual_fee": 999,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping",
+            "dining",
+            "travel",
+            "groceries"
+          ],
+          "rate": 0.05,
+          "cap_inr": 2000,
+          "desc": "5% on online spends, Rs2,000 per statement cycle; offline 1% capped separately at Rs2,000; combined max Rs4,000"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "insurance",
+        "education",
+        "railways",
+        "emi",
+        "government",
+        "gaming",
+        "toll"
+      ],
+      "source_url": "https://www.sbicard.com/en/faq/cashback-sbi-card-faq.page",
+      "source_type": "official",
+      "sources": [
+        "https://www.sbicard.com/en/faq/cashback-sbi-card-faq.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/cashback-tnc-ekit.pdf",
+        "https://www.sbicard.com/en/customer-notices.page",
+        "https://1finance.co.in/blog/sbi-cashback-credit-card-review-2026/"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee 999 + GST, waived at 2L annual spend (third-party). Official FAQ: 5% online / 1% offline, Rs2,000 cap each, Rs4,000 combined per statement cycle. Official notices say benefits revised effective 1 Apr 2026; revision details NOT read, so caps/exclusions may differ. Jewellery excluded (MCC 5944, 5094), online and offline (third-party). 1% fuel surcharge waiver Rs500-3,000, max Rs100/cycle. Rule applies 5% to all online categories we model."
+    },
+    {
+      "name": "Axis ACE",
+      "issuer": "Axis Bank",
+      "annual_fee": 499,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.035,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.05,
+          "desc": "5% on bill payments via Google Pay; cap not found"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "rent",
+        "wallet_load",
+        "education",
+        "government",
+        "insurance",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-tnc/terms-and-conditions-for-ace-credit-card.pdf",
+      "source_type": "official",
+      "sources": [
+        "https://www.axisbank.com/docs/default-source/default-document-library/credit-card-tnc/terms-and-conditions-for-ace-credit-card.pdf",
+        "https://groww.in/credit-card/axis-bank-ace-credit-card",
+        "https://cardinsider.com/blog/axis-bank-ace-credit-card-vs-amazon-pay-icici-credit-card/"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official T&C PDF could not be fetched (redirect loop); figures from third parties quoting June 2025 terms. Fee ~499 + GST, waived at 2L. Gold & Jewellery excluded from cashback. Forex 3.5%. 4 domestic lounge visits. Utility/telecom excluded unless paid via Google Pay."
+    },
+    {
+      "name": "Axis Magnus",
+      "issuer": "Axis Bank",
+      "annual_fee": 12500,
+      "fee_waiver_spend": 2500000,
+      "forex_markup": null,
+      "base_rate": 0.012,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "insurance",
+        "gold",
+        "rent",
+        "wallet_load"
+      ],
+      "source_url": "https://www.paisabazaar.com/credit-card/axis-magnus-devaluation/",
+      "source_type": "third_party",
+      "sources": [
+        "https://www.paisabazaar.com/credit-card/axis-magnus-devaluation/",
+        "https://www.cardexpert.in/axis-magnus-credit-card-review/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Data from a 2025 devaluation review. Reward 12 RP/Rs200: ~1.2% on Edge portal, ~2.4% via transfers (we use 1.2% conservatively). Waiver needs >25L spend. Insurance, fuel, gold & jewellery stopped earning after 2025 devaluation. Official terms not read."
+    },
+    {
+      "name": "ICICI Amazon Pay",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0199,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "amazon"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "desc": "5% on Amazon for Prime members; 3% non-Prime is NOT modelled"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "rent",
+        "utilities",
+        "international"
+      ],
+      "source_url": "https://cardinsider.com/blog/axis-bank-ace-credit-card-vs-amazon-pay-icici-credit-card/",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardinsider.com/blog/axis-bank-ace-credit-card-vs-amazon-pay-icici-credit-card/",
+        "https://cardtrail.in/vs/axis-ace-vs-icici-amazon-pay/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free. Official page returned 404 on the URL tried. Sources list 'no rewards on gold, rent, utilities, international'. 'Jewellery' treated as excluded because gold is; an unverified forum post says Amazon stopped gold cashback. Forex 1.99%."
+    },
+    {
+      "name": "ICICI Sapphiro",
+      "issuer": "ICICI Bank",
+      "annual_fee": 3500,
+      "fee_waiver_spend": 600000,
+      "forex_markup": null,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.04,
+          "desc": "4 RP per Rs100 on international spend; point value assumed Re1"
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/cards/icici-sapphiro",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/icici-sapphiro",
+        "https://www.paisabazaar.com/credit-card/icici-bank-sapphiro-credit-card-review/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Joining fee 6,500 + GST, annual 3,500 + GST, waived at 6L. Domestic ~0.5%. 2026 devaluation tied lounges to Rs75k/quarter spend. Exclusions incl. jewellery NOT found."
+    },
+    {
+      "name": "SBI Elite",
+      "issuer": "SBI Card",
+      "annual_fee": 4999,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.0199,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.025,
+          "desc": "5X points on dining and groceries; ~2.5% per source"
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/compare/icici-sapphiro-vs-sbi-elite",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/compare/icici-sapphiro-vs-sbi-elite",
+        "https://www.paisabazaar.com/credit-card/compare-icici-sapphiro-vs-sbi-card-elite/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Waiver at 10L. Forex 1.99%. 8 domestic + 6 intl lounge visits. Rs5,000 welcome voucher. Exclusions incl. jewellery NOT found."
+    },
+    {
+      "name": "Amex Platinum Travel",
+      "issuer": "American Express",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://cardexpress.in/comparisons/air-india-sbi-vs-amex-platinum-travel",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardexpress.in/comparisons/air-india-sbi-vs-amex-platinum-travel",
+        "https://cardtrail.in/compare/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee conflicts across sources (5,000 vs 6,000 + GST). Base ~1%. Reported 2026 overhaul: Taj voucher milestone raised to 7L spend, reduced points. Exclusions incl. jewellery NOT found."
+    }
+  ],
+  "offers": []
+}

@@ -1,0 +1,545 @@
+{
+  "cards": [
+    {
+      "name": "Cashback SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 999,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping",
+            "dining",
+            "travel"
+          ],
+          "rate": 0.05,
+          "cap_inr": 2000,
+          "desc": "5% cashback on online spend (not in excluded categories); capped Rs2,000 per statement cycle (~Rs40,000 online spend)."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "other",
+            "groceries"
+          ],
+          "rate": 0.01,
+          "cap_inr": 2000,
+          "desc": "1% cashback on offline spend; separate Rs2,000 cap per cycle (combined ceiling Rs4,000)."
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "utilities",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "education",
+        "railways",
+        "emi",
+        "gaming",
+        "tolls",
+        "government"
+      ],
+      "source_url": "https://www.sbicard.com/en/customer-notices.page",
+      "source_type": "official",
+      "sources": [
+        "https://www.sbicard.com/en/customer-notices.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
+        "https://cardadvisor.in/articles/sbi-cashback-credit-card-review-2026",
+        "https://livefromalounge.com/sbicards-cashback-card-imposes-new-restrictions-effective-april-1-2026/"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official notice page confirms revision effective 1 Apr 2026 (notice 27 Feb 2026) but gives no specifics; the revised PDF could not be downloaded (connection reset). Specifics from third parties (cardadvisor, livefromalounge, search summary quoting notice): combined cap cut from Rs5,000 to Rs4,000/cycle with 5% online capped Rs2,000 and 1% offline capped Rs2,000; new exclusions gaming, tolls, government added. Jewellery is excluded (no cashback). Fee Rs999+GST, waived at Rs2L (cardadvisor, Aug 2026). Forex 3.5% (cardadvisor). Merchant/Flexipay EMI excluded. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "Titan SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 2999,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [
+            "Tanishq"
+          ],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.03,
+          "desc": "3% value-back as Titan gift vouchers at Tanishq; cap Rs25,000 per QUARTER (cardadvisor; official page confirms quarterly cap, amount from third party). Not cash."
+        },
+        {
+          "merchants": [
+            "Mia",
+            "CaratLane",
+            "Zoya"
+          ],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback at Mia, CaratLane, Zoya; cap Rs10,000 per quarter (third-party)."
+        },
+        {
+          "merchants": [
+            "World of Titan",
+            "Taneira",
+            "Titan Eye+",
+            "Helios",
+            "Fastrack",
+            "Skinn",
+            "Irth",
+            "Sonata"
+          ],
+          "categories": [
+            "other"
+          ],
+          "rate": 0.075,
+          "desc": "7.5% cashback at Titan group brands; cap Rs10,000 per quarter (third-party)."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "other",
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.015,
+          "cap_inr": 1500,
+          "desc": "6 RP per Rs100 elsewhere (4 RP = Rs1); cap 6,000 pts (Rs1,500) per month per cardadvisor."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent",
+        "utilities",
+        "government",
+        "emi"
+      ],
+      "source_url": "https://www.sbicard.com/en/personal/credit-cards/shopping/titan-sbi-card.page",
+      "source_type": "official",
+      "sources": [
+        "https://www.sbicard.com/en/personal/credit-cards/shopping/titan-sbi-card.page",
+        "https://cardadvisor.in/cards/sbi-titan",
+        "https://www.bankbazaar.com/credit-card/titan-sbi-credit-card.html"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page snippet (via search) confirms fee Rs2,999+tax, waiver Rs3L, 3% Tanishq vouchers (quarterly cap), 5% Mia/CaratLane/Zoya, 7.5% Titan brands; direct page fetch returned only navigation so cap amounts, 6 RP rate and exclusions come from cardadvisor/other reviews. Conflict: another review says 10 RP/Rs100 on chemist, pharmacy, sports, dining, movies. Welcome 12,000 RP (~Rs3,000) as Titan vouchers; milestones Rs5,000 voucher at 5L, Rs10,000 at 10L (Titan stores only). Lounges: 8 domestic/4 intl (cardadvisor) vs 4 intl (official snippet). Point expiry 24 months. Jewellery at non-Titan merchants: not confirmed excluded or included. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SBI Card Elite",
+      "issuer": "SBI Card",
+      "annual_fee": 4999,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.0199,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.025,
+          "cap_inr": 2500,
+          "desc": "5X (10 RP per Rs100 style, ~2.5% at Rs0.25/pt) on dining, groceries, department stores; shared cap 10,000 pts/month (~Rs2,500)."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "gaming",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-elite",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-elite",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide",
+        "https://www.bankbazaar.com/credit-card/sbi-card-elite.html",
+        "https://cardexpress.in/cards/sbi-elite"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs4,999+GST, waived at Rs10L. Base 2 RP/Rs100 (~0.5%) at Rs0.25/pt. Forex 1.99% (+GST). Milestones up to 50,000 RP at 3L/4L/5L/8L. 8 domestic + 6 intl lounge visits. Club Vistara/Trident Privilege removed. Jewellery treatment unknown. Not verified against official MITC. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SBI Card Prime",
+      "issuer": "SBI Card",
+      "annual_fee": 2999,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.025,
+          "cap_inr": 1875,
+          "desc": "10 RP per Rs100 (~2.5%) on dining, groceries, department stores, movies; shared cap 7,500 pts/month."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "gaming",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-prime",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-prime",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs2,999+GST, waiver Rs3L. Base 2 RP/Rs100. Rs7,000 Yatra/Pantaloons voucher at 5L. Jewellery treatment unknown. cap_inr is an interpretation of 7,500 pts cap. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SimplyCLICK SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 499,
+      "fee_waiver_spend": 100000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.0125,
+          "desc": "5X (~1.25%) on other online spends."
+        },
+        {
+          "merchants": [
+            "BookMyShow",
+            "Apollo 24|7",
+            "Domino's",
+            "IGP",
+            "Myntra",
+            "Yatra",
+            "Netmeds",
+            "Cleartrip",
+            "Swiggy"
+          ],
+          "categories": [
+            "online_shopping",
+            "dining",
+            "travel"
+          ],
+          "rate": 0.025,
+          "desc": "10X (~2.5%) on listed online partners; partner list differs across sections."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent",
+        "government",
+        "gaming",
+        "cash_advance",
+        "emi"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-simply-click",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-simply-click",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs499+GST, waiver Rs1L. Amazon dropped from 10X, now 5X. 1X offline. Milestone Rs2,000 vouchers at 1L and 2L. Caps not found. Jewellery online treatment unknown. CardTrail claims 2026 cap tightening but unconfirmed by SBI. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SimplySAVE SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 499,
+      "fee_waiver_spend": 100000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0017,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.017,
+          "cap_inr": 1250,
+          "desc": "10 RP per Rs150 (~1.7%) on dining, movies, groceries, department stores; shared cap 5,000 pts/month."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "gaming",
+        "government",
+        "cash_advance",
+        "emi"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-simply-save",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-simply-save",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs499+GST, waiver Rs1L. Other spend 1 RP/Rs150. Another aggregator quoted 0.7% rates; conflict unresolved. Jewellery unknown. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SBI Card Aurum",
+      "issuer": "SBI Card",
+      "annual_fee": 9999,
+      "fee_waiver_spend": 1200000,
+      "forex_markup": 0.0199,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "gaming"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-aurum",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-aurum",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Invite-only. Fee Rs9,999+GST, waiver Rs12L. 4 RP/Rs100 (~1%). Milestone vouchers (Tata CLiQ, Taj, Apple) conflict between pages. Jewellery unknown. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "Flipkart SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 500,
+      "fee_waiver_spend": 350000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "Myntra"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.075,
+          "desc": "7.5% on Myntra; cap Rs4,000 per quarter (cardadvisor; another figure Rs1,333/month cited)."
+        },
+        {
+          "merchants": [
+            "Flipkart",
+            "Shopsy",
+            "Cleartrip"
+          ],
+          "categories": [
+            "online_shopping",
+            "travel"
+          ],
+          "rate": 0.05,
+          "desc": "5% on Flipkart, Shopsy, Cleartrip; Rs4,000/quarter cap per tier."
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "wallet_load",
+        "rent",
+        "government",
+        "education",
+        "insurance",
+        "gaming",
+        "emi",
+        "cash_advance",
+        "gift_cards"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-flipkart",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-flipkart",
+        "https://cardadvisor.in/articles/sbi-flipkart-review-2026"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs500+GST, reversed at Rs3.5L. 1% elsewhere; 4% at four unnamed merchants. Jewellery excluded per cardadvisor. Possible joining fee waiver for cards sourced 1 Sep-31 Oct 2026 (ambiguous). "
+    },
+    {
+      "name": "IRCTC SBI Card Premier",
+      "issuer": "SBI Card",
+      "annual_fee": 1499,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "rules": [],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-irctc-premier",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-irctc-premier",
+        "https://www.paisabazaar.com/sbi-bank/irctc-sbi-card-premier/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs1,499+GST, waiver Rs2L. ~10% on IRCTC AC tickets, 5% air bookings, 3X dining/utilities, 1 pt/Rs125 elsewhere. Point value conflict (Rs0.25 vs Rs1 for IRCTC redemption). Jewellery unknown.",
+      "base_rate": null
+    },
+    {
+      "name": "IRCTC SBI Card Platinum",
+      "issuer": "SBI Card",
+      "annual_fee": 500,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "rules": [],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-irctc-platinum",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-irctc-platinum"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs500+GST (Groww says Rs300 renewal; conflict). Up to 10% on IRCTC AC tickets, 1 pt/Rs125 elsewhere. No waiver found.",
+      "base_rate": null
+    },
+    {
+      "name": "BPCL SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 499,
+      "fee_waiver_spend": 100000,
+      "forex_markup": null,
+      "rules": [
+        {
+          "merchants": [
+            "BPCL"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.0425,
+          "desc": "13X points at BPCL (~4.25% incl. 1% surcharge waiver per cardadvisor)."
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/articles/sbi-bpcl-review-2026",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/articles/sbi-bpcl-review-2026",
+        "https://www.sbicard.com/en/customer-notices.page"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official notice: from 1 May 2026 renewal fee reversal threshold raised Rs50,000 to Rs1L. Welcome 2,000 pts. Non-fuel rates not found.",
+      "base_rate": null
+    },
+    {
+      "name": "BPCL SBI Card Octane",
+      "issuer": "SBI Card",
+      "annual_fee": 1499,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [
+            "BPCL"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.0725,
+          "cap_inr": 625,
+          "desc": "25 RP/Rs100 at BPCL plus surcharge waiver (~7.25% claimed); cap 2,500 pts/month. Surcharge waiver cap conflict (Rs100/month vs up to Rs4,000 txn)."
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/cards/sbi-bpcl-octane",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-bpcl-octane",
+        "https://www.bankbazaar.com/credit-card/fuel-credit-cards.html"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs1,499+GST, waiver Rs2L. Rs2,000 voucher at Rs3L. cap_inr computed from 2,500 pts at Rs0.25 (7.25% claim may be inflated by surcharge waiver)."
+    },
+    {
+      "name": "Air India SBI Signature Card",
+      "issuer": "SBI Card",
+      "annual_fee": 4999,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/cards/sbi-air-india-signature",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-air-india-signature"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Closed to new applicants since 10 Oct 2024 (existing holders only). 10 RP/Rs100 on Air India, 4 RP/Rs100 other; conflicting figure of 30 RP/Rs100 from CreditMantri. 1 RP = 1 Maharaja point. Exempt from 60,000 pts/month statement credit cap."
+    }
+  ],
+  "offers": [],
+  "gaps": [
+    "Cashback card revised PDF (cashback-revised.pdf) not downloadable (connection reset, no pdftotext); specifics from third parties.",
+    "No SBI jewellery offers with valid_till >= 2026-10-11 found; only expired (Akshaya Tritiya 2025: Tanishq Rs4,000 off on Rs80,000, Malabar Rs2,500; Diwali 2020 etc.). Check sbicard.com offers page for Diwali/Dhanteras 2026.",
+    "Jewellery (MCC 5944/5094) exclusion not confirmed for Elite, Prime, SimplyCLICK, SimplySAVE, Aurum, IRCTC, BPCL; only Cashback and Flipkart list it.",
+    "Not covered: Lifestyle Home Centre SBI Card, Reliance SBI, Miles, PhonePe (rewards revised 1 Jul 2026), Tata/IndiGo variants, Yatra, etc.",
+    "Titan card: quarterly caps not expressible in monthly cap_inr (omitted); sbicard.com official page content not fetchable; welcome and milestone terms third-party.",
+    "Most cards: official MITC/T&C PDFs not read; forex markup missing for IRCTC/BPCL/Air India cards.",
+    "Rate semantic: RP value assumed Rs0.25 (4 RP = Rs1) per third parties."
+  ]
+}

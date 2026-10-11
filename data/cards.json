@@ -1,107 +1,2100 @@
 {
-  "_note": "ILLUSTRATIVE SAMPLE DATA. Rates and caps are approximate placeholders; verify against issuer T&Cs before relying on them. 'rate' is the effective return as a fraction of spend (reward value in INR). 'cap_inr' is the max reward value per statement month for that rule. 'excludes' lists categories that earn no rewards. 'offers' are merchant/bank promotions that stack on top of rewards; check 'valid_till'.",
+  "_note": "Merged from data/banks/*.json by merge.py. Publicly sourced and UNVERIFIED; last_verified stays null until a human confirms a record. 'rate' = effective reward value as a fraction of spend; 'cap_inr' = max reward value per statement month (omitted if unknown); 'excludes' = categories earning nothing.",
   "cards": [
     {
-      "name": "Sample Cashback Card",
-      "issuer": "Example Bank",
-      "annual_fee": 500,
+      "name": "HDFC Regalia Gold",
+      "issuer": "HDFC Bank",
+      "annual_fee": 2500,
+      "fee_waiver_spend": 400000,
+      "forex_markup": 0.02,
+      "base_rate": 0.0125,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0125,
+          "desc": "5 RP per Rs200 (cut from 4 RP per Rs150 on 15 May 2026) on eligible retail spends incl. jewellery (no exclusion found). Value Rs0.50/RP SmartBuy flights/hotels; Rs0.65 on exclusive Gold catalogue (1.625%); Rs0.35 products/vouchers; statement credit Rs0.20 per page vs Rs0.15 per MITC (from 1 Nov 2025). cap_inr = 50,000 RP statement-cycle cap at Rs0.50.",
+          "cap_inr": 25000
+        },
+        {
+          "merchants": [
+            "Myntra",
+            "Nykaa",
+            "Reliance Digital",
+            "Marks & Spencer"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.0125,
+          "desc": "Base 5 RP per Rs200; additional 5X RP at Myntra, Nykaa, Reliance Digital, Marks & Spencer capped at 5,000 RP per month across brands (whether 5X includes base not clear)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-gold-credit-card/pdfs/regalia-gold-credit-card-reward-points-t-and-cs.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Regalia-Gold-Product-feature-change.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Waiver Rs4L spend. Devaluation effective 15 May 2026: earn cut from 4 RP/Rs150 (~1.33% pts) to 5 RP/Rs200 (2.5 RP per Rs100); effective value 1.25% at Rs0.50/RP. Domestic lounge 3 per quarter only if Rs60,000 spent in prior quarter from 1 Jul 2026; 6 international Priority Pass unchanged. Reissue fee Rs199. Boarding Edge: 2 benefits per quarter. Milestones: Rs5,000 flight vouchers at Rs5L and Rs7.5L spend; Rs1,500 Myntra/Nykaa vouchers per Rs1.5L quarterly spend. Max 50,000 RP per cycle. Forex 2% from product page (MITC fee table layout ambiguous). Earlier cards.json guess of a 'digital_gold' exclusion and 'jewellery monthly cap' not found in official docs. MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Infinia",
+      "issuer": "HDFC Bank",
+      "annual_fee": 12500,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.02,
+      "base_rate": 0.0333,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0333,
+          "desc": "5 RP per Rs150 on retail spends incl. jewellery (no exclusion found). Value Rs1/RP only when redeemed for SmartBuy flights/hotels or Apple products and Tanishq vouchers; Rs0.50 other vouchers, Rs0.30 cashback. Tanishq voucher redemption capped at 50,000 RP per calendar quarter and max 70% of bill by points. cap_inr = 2,00,000 RP statement-cycle earn cap valued at Rs1/RP.",
+          "cap_inr": 200000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "other"
+          ],
+          "rate": 0.0333,
+          "desc": "5 RP per Rs150 on eligible retail spends, valued Rs1/RP on SmartBuy travel (Rs0.50 vouchers, Rs0.30 cashback)",
+          "cap_inr": 200000
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi",
+        "online_gaming"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/infinia-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/rewards-points-program-terms-and-conditions.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: Infinia Metal Edition, invite only, Rs12,500 joining/renewal (MITC also lists older non-metal Infinia at Rs10,000 with Rs8L waiver). Waiver at Rs10L spend. Forex 2%. 5 RP per Rs150; SmartBuy up to 10X (accelerated RP monthly cap 15,000 RP, brand vouchers via GyFTR/Woohoo capped 3,000 accelerated RP per month from 1 Jul 2026). Max 2,00,000 RP earn per statement cycle. Flights/hotels redemption cap 1.5L RP per month; cashback redemption 50,000 RP per month; Apple products 1 per quarter. Fuel earns no points (fuel surcharge waiver 1% up to Rs1,000/cycle). Effective rate 3.33% assumes Rs1/RP; not affected by 15 May 2026 change (Infinia excluded). MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Millennia",
+      "issuer": "HDFC Bank",
+      "annual_fee": 1000,
+      "fee_waiver_spend": 100000,
+      "forex_markup": null,
       "base_rate": 0.01,
       "rules": [
         {
           "merchants": [
-            "amazon",
-            "flipkart",
-            "myntra"
+            "Amazon",
+            "BookMyShow",
+            "Cult.fit",
+            "Flipkart",
+            "Myntra",
+            "Sony LIV",
+            "Swiggy",
+            "Tata CLiQ",
+            "Uber",
+            "Zomato"
           ],
           "categories": [
             "online_shopping"
           ],
           "rate": 0.05,
+          "desc": "5% CashBack (CashPoints, 1 CP = Rs1) on 10 online merchants, non-EMI only; cap 1,000 CashPoints per cycle",
+          "cap_inr": 1000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery",
+            "groceries",
+            "dining",
+            "bill_payments",
+            "travel",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% CashBack on other spends (jewellery not excluded); separate cap 1,000 CashPoints per cycle (~Rs1L spend)",
           "cap_inr": 1000
         }
       ],
       "excludes": [
-        "jewellery"
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi",
+        "education_third_party"
       ],
-      "source_url": null,
-      "last_verified": null
+      "source_url": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/pdf/millennia-tnc-20th-jul26.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official T&C published 20 Jul 2026. Waiver Rs1L annual spend. Milestone: Rs1,000 voucher or 1 domestic lounge per Rs1L quarterly spend. Forex markup not found for this card (MITC table layout ambiguous). Conflict inside T&C: one clause says gift/prepaid card and voucher purchases are 'other spends' at 1%, another says MCC 6540 (wallet/prepaid loads) earn nothing. Unaffected by 15 May 2026 change per third-party summaries. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
     },
     {
-      "name": "Sample Dining & Travel Card",
-      "issuer": "Example Bank",
-      "annual_fee": 2500,
+      "name": "SBI Cashback",
+      "issuer": "SBI Card",
+      "annual_fee": 999,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping",
+            "dining",
+            "travel",
+            "groceries"
+          ],
+          "rate": 0.05,
+          "cap_inr": 2000,
+          "desc": "5% on online spends, Rs2,000 per statement cycle; offline 1% capped separately at Rs2,000; combined max Rs4,000"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "insurance",
+        "education",
+        "railways",
+        "emi",
+        "government",
+        "gaming",
+        "toll"
+      ],
+      "source_url": "https://www.sbicard.com/en/faq/cashback-sbi-card-faq.page",
+      "source_type": "official",
+      "sources": [
+        "https://www.sbicard.com/en/faq/cashback-sbi-card-faq.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/cashback-tnc-ekit.pdf",
+        "https://www.sbicard.com/en/customer-notices.page",
+        "https://1finance.co.in/blog/sbi-cashback-credit-card-review-2026/"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee 999 + GST, waived at 2L annual spend (third-party). Official FAQ: 5% online / 1% offline, Rs2,000 cap each, Rs4,000 combined per statement cycle. Official notices say benefits revised effective 1 Apr 2026; revision details NOT read, so caps/exclusions may differ. Jewellery excluded (MCC 5944, 5094), online and offline (third-party). 1% fuel surcharge waiver Rs500-3,000, max Rs100/cycle. Rule applies 5% to all online categories we model."
+    },
+    {
+      "name": "Axis ACE",
+      "issuer": "Axis Bank",
+      "annual_fee": 499,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.035,
       "base_rate": 0.015,
       "rules": [
         {
           "merchants": [
+            "google pay"
+          ],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback on utility bills, DTH and mobile recharges paid via Google Pay only; cap not stated on page"
+        },
+        {
+          "merchants": [
             "swiggy",
-            "zomato"
+            "zomato",
+            "ola"
+          ],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.04,
+          "desc": "4% cashback on Swiggy, Zomato, Ola; cap not stated"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "emi",
+        "wallet_load",
+        "cash_advance",
+        "rent",
+        "insurance",
+        "education",
+        "government",
+        "financial_institutions",
+        "utilities_outside_gpay",
+        "telecom_outside_gpay",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/credit-card/terms-and-conditions-axis-bank-ace-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official ACE page: 5% GPay bills, 4% Swiggy/Zomato/Ola, 1.5% other. Official Apr 2024 T&C revision explicitly excludes 'purchase of jewelry items' and 'purchase of gold' from cashback. Fee 499 waived at Rs2L spend in anniversary year (MITC). Lounge needs Rs50k spend in prior 3 months (4 domestic/yr per third parties; not re-verified). Monthly cashback caps for 5%/4% categories not found. Old 2% figure (older aggregators) is obsolete; conflicts with ACE entry in cards.json (Gpay 5% only). Cashback is cash value (rate = Re1 per Re1). Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Magnus",
+      "issuer": "Axis Bank",
+      "annual_fee": 12500,
+      "fee_waiver_spend": 2500000,
+      "forex_markup": 0.02,
+      "base_rate": 0.012,
+      "rules": [
+        {
+          "merchants": [
+            "axis travel edge"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.06,
+          "desc": "5X EDGE points via Travel EDGE (60 pts/Rs200, third-party; official page says only '5X'); value at Rs0.20/pt"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "government",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+        "https://cardexpert.in/axis-magnus-review/",
+        "https://www.paisabazaar.com/credit-card/axis-magnus-devaluation/"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: 12 EDGE Reward points/Rs200 up to Rs1.5L spend per calendar month, 35 pts/Rs200 on incremental spend above Rs1.5L (35 pts capped up to credit limit + 1.5L), 2 partner miles per 5 points. Base 1.2% assumes Rs0.20/point (third-party; higher if transferred, ~2.4%). Spend above 1.5L/month earns ~3.5% (not modelled as rule). Fee 12,500 waived at Rs25L eligible spend (MITC); excluded from waiver spend: rent, wallet, utilities, govt, EMI, insurance, gold, fuel, gift cards (from 28 Aug 2026). Gold/jewellery no-earn is from third-party sources (cardexpert, paisabazaar), official Magnus T&C not read. Forex 2% (MITC). Apr 2026 devaluation reports (pickmywork, third party): transfer ratio 5:2 and partner removals. Rent capped Rs50k/month per cardexpert. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "ICICI Amazon Pay",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0199,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "amazon"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "desc": "5% for Prime members (3% non-Prime) on Amazon.in as Amazon Pay balance; 2% on Amazon Pay partner merchants; 1% elsewhere. Non-Prime 3% not modelled. No cap found."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "dining",
+            "travel",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% on spends outside Amazon (official)"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "rent",
+        "utilities",
+        "insurance",
+        "education",
+        "tax",
+        "wallet_load",
+        "emi",
+        "upi",
+        "gaming"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+        "https://cardexpress.in/mcc-guide/exclusions/icici-amazon-pay",
+        "https://savesage.club/credit-card/icici-amazon-pay"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: lifetime free, 5%/3% Amazon, 1% other, forex 1.99%, 1% fuel surcharge waiver, invite-only. Jewellery exclusion is from third-party MCC list (5094 Precious Stones/Metals/Jewelry, 5944 Jewelry Stores) - not on official page. Savesage also lists International, Utilities, Education, Tax as zero-earn; official page says 1% on non-Amazon spends, so conflict on international. Cashback credited as Amazon Pay balance (value Re1). Excluded from Kalyan/Tanishq ICICI offers historically. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Sapphiro",
+      "issuer": "ICICI Bank",
+      "annual_fee": 3500,
+      "fee_waiver_spend": 600000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.01,
+          "desc": "4 RP per Rs100 on international spend; at ~Rs0.25/RP = ~1% (earlier file assumed Re1/RP = 4%, which is not supported for this tier)"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery appears NOT excluded (third-party MCC list excludes only fuel, wallet funding, rent); earns 2 RP/Rs100 base. Unconfirmed by ICICI."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+        "https://cardexpress.in/mcc-guide/exclusions/icici-sapphiro",
+        "https://cardexpress.in/cards/icici-sapphiro",
+        "https://savesage.club/credit-card/icici-sapphiro"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining Rs6,500+GST, annual Rs3,500+GST waived on >Rs6L spend; forex 3.5% (official; earlier file had null); 2 RP/Rs100 domestic, 4 RP/Rs100 international, 1 RP/Rs100 utilities and insurance; milestone 4,000 RP at Rs4L then 2,000 per Rs1L (max 20,000/yr); 4 domestic lounge visits/quarter on Rs75k prior-quarter spend, 2 intl/yr. Point value not stated officially; Savesage gives 0.5%-1% return, so base 0.5% is the conservative end. Fuel/wallet/rent exclusions from cardexpress (dated 31 Aug 2026 issuer terms); no cap found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "SBI Elite",
+      "issuer": "SBI Card",
+      "annual_fee": 4999,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.0199,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.025,
+          "desc": "5X points on dining and groceries; ~2.5% per source"
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/compare/icici-sapphiro-vs-sbi-elite",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/compare/icici-sapphiro-vs-sbi-elite",
+        "https://www.paisabazaar.com/credit-card/compare-icici-sapphiro-vs-sbi-card-elite/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Waiver at 10L. Forex 1.99%. 8 domestic + 6 intl lounge visits. Rs5,000 welcome voucher. Exclusions incl. jewellery NOT found."
+    },
+    {
+      "name": "Amex Platinum Travel",
+      "issuer": "American Express",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://cardexpress.in/comparisons/air-india-sbi-vs-amex-platinum-travel",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardexpress.in/comparisons/air-india-sbi-vs-amex-platinum-travel",
+        "https://cardtrail.in/compare/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee conflicts across sources (5,000 vs 6,000 + GST). Base ~1%. Reported 2026 overhaul: Taj voucher milestone raised to 7L spend, reduced points. Exclusions incl. jewellery NOT found."
+    },
+    {
+      "name": "Flipkart Axis Bank",
+      "issuer": "Axis Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 350000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "myntra"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.075,
+          "desc": "7.5% on Myntra, cap Rs4,000 per statement quarter"
+        },
+        {
+          "merchants": [
+            "flipkart",
+            "cleartrip"
+          ],
+          "categories": [
+            "online_shopping",
+            "travel"
+          ],
+          "rate": 0.05,
+          "desc": "5% on Flipkart and Cleartrip, cap Rs4,000 per statement quarter per merchant"
+        },
+        {
+          "merchants": [
+            "swiggy",
+            "uber"
+          ],
+          "categories": [
+            "dining",
+            "travel"
+          ],
+          "rate": 0.04,
+          "desc": "Unlimited 4% on preferred merchants (merchant list per third-party sources: Swiggy, Uber etc.; confirm)"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "emi",
+        "wallet_load",
+        "rent",
+        "utilities",
+        "telecom",
+        "insurance",
+        "education",
+        "government",
+        "financial_institutions",
+        "cash_advance",
+        "gift_cards"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/terms-and-conditions-flipkart-axis-bank-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/cashback-tncs---final.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 7.5% Myntra (from 20 Jun 2025, was 1%), 5% Flipkart/Cleartrip, 4% preferred, 1% other. Caps are per statement QUARTER so cap_inr omitted. Cashback T&C explicitly excludes gold in any form incl. jewellery and MCC 'Clock, Jewelry, Watch and Silverware Stores' (5944). Waiver Rs3.5L (official page/MITC; older sources say Rs2L). Domestic lounge discontinued 20 Jun 2025; welcome voucher cut to Rs250. Flipkart Axis Bank Super Elite is a separate card, not covered. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Atlas",
+      "issuer": "Axis Bank",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.02,
+      "rules": [
+        {
+          "merchants": [
+            "axis travel edge"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.05,
+          "cap_inr": 10000,
+          "desc": "5 EDGE Miles per Rs100 on Travel EDGE, airlines, hotels up to Rs2L spend/month (=10,000 miles); 2 miles per Rs100 beyond. 1 EDGE Mile valued Re1 on Axis page (transfer value differs)"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "rent",
+        "wallet_load",
+        "government",
+        "insurance",
+        "fuel",
+        "utilities",
+        "telecom",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-atlas-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-atlas-credit-card",
+        "https://campaign.axis.bank.in/generic/axis-atlas-credit-card-terms-and-conditions.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: 2 EDGE Miles/Rs100 base, 5/Rs100 travel; 1 EDGE Mile = Re1 (Axis value chart); base_rate 2% uses that. Official 20 Apr 2024 revision: gold/jewellery (MCC 5094, 5944), rent, wallet, govt, insurance, fuel, utilities/telecom excluded from miles AND milestone/tier spends; accelerated travel capped at Rs2L/month; Group A transfer cap 30k miles/yr, Group B 1.2L, total 1.5L; milestone miles cut to max 10,000 (3L/7.5L/15L); concierge and tier airport benefits discontinued. 2026 (third party): Accor/Marriott/Qatar removed 2 Apr 2026, partner group changes 23 Sep 2026. Forex 3.5% per official MITC/page (some third parties claim 2%: conflict, official used). No spend-based fee waiver. Fee 5,000 joining and annual. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Horizon",
+      "issuer": "Axis Bank",
+      "annual_fee": 3000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.02,
+      "rules": [
+        {
+          "merchants": [
+            "axis travel edge"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.05,
+          "desc": "5 EDGE Miles per Rs100 on Travel EDGE and direct airline spends; cap not stated"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.02,
+          "desc": "Horizon T&C do not list gold/jewellery as excluded; 2 EDGE Miles per Rs100 on other spends (1 mile approx Re1 per Axis renewal-benefit wording). Verify on first jewellery transaction"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "wallet_load",
+        "gift_cards",
+        "utilities",
+        "telecom",
+        "insurance",
+        "education",
+        "government",
+        "toll",
+        "transport"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/credit-cards/terms-and-conditions-for-horizon-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/revision-terms-and-conditions-horizon-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "KEY FINDING: official Horizon T&C exclusion list (Transportation & Tolls, Utilities & Telecom, Insurance, Educational Institutions, Govt Institutions, Wallet/Gift cards, Rent, Fuel) does NOT include gold/jewellery, unlike Atlas/Magnus/Reserve/Select/Privilege. So jewellery appears to earn 2 miles/Rs100 (~2% at Re1/mile; miles value is an assumption, 1500 miles described as worth Rs1,500 in renewal benefit). Fee 3,000 joining+annual (Nil for Burgundy savings accounts opened on/after 1 Jul 2026); no spend-based waiver found. 2 intl lounge visits per quarter plus domestic. Forex 3.5%, DCC raised from 1.5% to 3.5% eff 21 Aug 2026. Confidence medium because absence-of-exclusion is inferred and MCC-level treatment unverified. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Reserve",
+      "issuer": "Axis Bank",
+      "annual_fee": 50000,
+      "fee_waiver_spend": 3500000,
+      "forex_markup": 0.015,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.03,
+          "desc": "30 EDGE pts per Rs200 on international spend (third-party), value Rs0.20/pt; capped at credit limit per calendar month"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "wallet_load",
+        "government",
+        "rent",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/reserve-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/reserve-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+        "https://a2622016.axisbank.com/docs/default-source/default-document-library/credit-cards/reserve-credit-card-terms-and-conditions.pdf",
+        "https://cardexpress.in/cards/axis-reserve"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Base 15 EDGE pts/Rs200 domestic (1.5% at Rs0.20/pt) is third-party (cardexpress). Official: fee 50,000 waived at Rs35L eligible spend (MITC) - cardexpress says 25L (conflict, official used). Official 20 Apr 2024 revision: insurance, fuel, gold/jewellery, wallet no longer earn. Forex 1.5% (MITC). Invite/high-income card. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Select",
+      "issuer": "Axis Bank",
+      "annual_fee": 3000,
+      "fee_waiver_spend": 800000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "online_shopping"
+          ],
+          "rate": 0.02,
+          "cap_inr": 400,
+          "desc": "2X (20 pts/Rs200) on 'Retail shopping' (dept stores, grocery, clothing/accessory stores) up to Rs20,000 cumulative spend per month; value Rs0.20/pt"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "telecom",
+        "education",
+        "government",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 10 EDGE pts per Rs200 (welcome 10,000 pts = Rs2,000 so Rs0.20/pt, base 1%); 2X on retail shopping to Rs20k/month. Gold/Jewellery explicitly no points. Fee 3,000 waived at Rs8L (excl rent, fuel, insurance, gold, wallet etc.). From 1 Oct 2026 non-rewarding categories incl gold/jewellery also excluded from the Rs3L lounge/Priority Pass renewal threshold; movie BOGO needs Rs25k spend in prior 3 months from 1 Nov 2026. DCC 3.5% from 28 Aug 2026. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Privilege",
+      "issuer": "Axis Bank",
+      "annual_fee": 1500,
+      "fee_waiver_spend": 500000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "education",
+        "government",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 10 EDGE pts per Rs200 domestic and international (1% at Rs0.20/pt; welcome 12,500 pts = Rs2,500). Insurance, rent, fuel, education, utilities, govt, wallet, Gold & Jewelry, gift cards, tolls earn nothing. Fee 1,500 waived at Rs5L (gold/jewellery excluded from threshold). 2 domestic lounge visits/quarter needing Rs50k spend in prior 3 months. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis My Zone",
+      "issuer": "Axis Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.004,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "movies",
+        "fuel",
+        "insurance",
+        "wallet_load",
+        "rent",
+        "utilities",
+        "education",
+        "government",
+        "emi",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 4 EDGE pts per Rs200 (0.4% at Rs0.20/pt; value assumed). Explicitly no points on Movie, Fuel, Insurance, Wallet, Rent, Utilities, Education, Govt, EMI, Jewellery, Gift cards, tolls. Fee 500 joining+annual; waiver threshold not found. Rs50k/3-month spend for lounge. Rs120 Swiggy and District movie offers not modelled. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Neo",
+      "issuer": "Axis Bank",
+      "annual_fee": 250,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.001,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 1 EDGE pt per Rs200 (0.1% at Rs0.20/pt assumed). Fee 250 joining+annual (MITC); waiver not found. Value comes from offers (Zomato Rs120 off, Blinkit 10%, Paytm 5% utilities, Cleartrip) not modelled. Reward exclusion list (incl jewellery) NOT found on page: likely excludes gold/jewellery like other EDGE cards but unverified. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Airtel Axis Bank",
+      "issuer": "Axis Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "airtel thanks"
+          ],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.25,
+          "desc": "25% on Airtel mobile/broadband/WiFi/DTH via Airtel Thanks app; monthly cap = 2x base cashback earned that month"
+        },
+        {
+          "merchants": [
+            "zomato",
+            "blinkit"
+          ],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.1,
+          "cap_inr": 200,
+          "desc": "10% value back, max Rs200 per partner per month, min Rs499 order"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: 25% Airtel bills, 10% other utilities via Airtel Thanks (cap = base cashback), 1% other; cashback 'not applicable on excluded MCC categories' (list not on page; jewellery treatment unverified, likely excluded). Fee 500 waived at Rs2L (MITC). Third-party (pickmywork) says Apr 2026 changes: cap logic changed, Swiggy/BigBasket removed, lounge dropped. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Cashback",
+      "issuer": "Axis Bank",
+      "annual_fee": 1000,
+      "fee_waiver_spend": 400000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0075,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "cap_inr": 4000,
+          "desc": "Tiered monthly online cashback: 2% on first Rs5,000, 5% on Rs5,000-40,000, 7% above Rs40,000; max Rs4,000 per statement month; MCC exclusions apply (list not found)"
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: online 2/5/7% tiers (cap Rs4,000/month), 0.75% offline & travel, 0.5% utilities up to Rs100. Fee 1,000 waived at Rs4L (new cards). Excluded category list not found, so jewellery treatment unknown: online jewellery may or may not earn. Do not rank for jewellery until verified. Rate 5% is a mid-tier placeholder. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Olympus",
+      "issuer": "Axis Bank",
+      "annual_fee": 20000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.018,
+      "base_rate": null,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Only fee (20,000), forex 1.8% from MITC. Reward rates not collected. Not a retail-reachable card (invite-only). Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Primus",
+      "issuer": "Axis Bank",
+      "annual_fee": 300000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": null,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Only fee data from MITC (3,00,000 for cards issued after 31 Jul 2024; 1,80,000 earlier) and nil forex. Reward rates not collected. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "HDFC Diners Club Black Metal Edition",
+      "issuer": "HDFC Bank",
+      "annual_fee": 10000,
+      "fee_waiver_spend": 800000,
+      "forex_markup": 0.02,
+      "base_rate": 0.0333,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0333,
+          "desc": "5 RP per Rs150 on retail spends incl. jewellery (no exclusion found); value Rs1/RP via SmartBuy flights/hotels, up to Rs0.50 products/vouchers, up to Rs0.30 cashback. cap_inr = 75,000 RP per statement cycle at Rs1/RP.",
+          "cap_inr": 75000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.0667,
+          "desc": "2X (10 RP per Rs150) at standalone restaurants (MCC 5812/5813/5814) on Saturdays and Sundays only; valued at Rs1/RP"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi",
+        "online_gaming"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-metal-edition-credit-card/diners-club-metal-tandc.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs10,000; waiver Rs8L spend in 12 months (MITC and page). Forex 2%. 10,000 bonus RP per quarter on Rs4L spend. Max 75,000 RP per statement cycle. Flights/hotels redemption up to 70%, 75,000 RP per month cap. Unaffected by 15 May 2026 change (Diners Black excluded). MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Diners Club Black",
+      "issuer": "HDFC Bank",
+      "annual_fee": 10000,
+      "fee_waiver_spend": 500000,
+      "forex_markup": 0.02,
+      "base_rate": 0.0333,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0333,
+          "desc": "5 RP per Rs150 on retail spends incl. jewellery (no exclusion found); value Rs1/RP SmartBuy flights/hotels, Rs0.50 products/vouchers, Rs0.30 cashback. cap_inr = 75,000 RP per statement cycle at Rs1/RP.",
+          "cap_inr": 75000
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi",
+        "online_gaming"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/diners-club-black-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-credit-card/pdfs/T%20and%20C%20Diners%20Club%20Black.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs10,000; waiver Rs5L annual spend (MITC; page says Rs5L). Forex 2%. 2X weekend dining, up to 10X on SmartBuy hotels/flights. Max 75,000 RP per statement cycle. Non-metal variant may be closed to new applicants; page still live. MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Regalia",
+      "issuer": "HDFC Bank",
+      "annual_fee": 2500,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "4 RP per Rs200 on retail spends incl. jewellery (no exclusion found); Rs0.50/RP on SmartBuy flights/hotels, Rs0.35 products/vouchers, Rs0.15 cashback. cap_inr = 50,000 RP per statement cycle at Rs0.50.",
+          "cap_inr": 25000
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/regalia-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs2,500, waiver Rs3L (MITC). Forex 3.5% per product page. 4 RP per Rs200; up to 5X on SmartBuy. Not listed among cards changed on 15 May 2026 in third-party summaries (pickmywork.com, livefromalounge.com) - not verified officially. MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Diners Club Privilege",
+      "issuer": "HDFC Bank",
+      "annual_fee": 1000,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "4 RP per Rs200 (cut from 4 RP per Rs150 on 15 May 2026) on eligible retail spends incl. jewellery (no exclusion found); Rs0.50/RP SmartBuy flights/hotels, up to Rs0.35 catalogue, Rs0.20 cashback. cap_inr = 50,000 RP statement cycle cap at Rs0.50.",
+          "cap_inr": 25000
+        },
+        {
+          "merchants": [
+            "Swiggy",
+            "Zomato"
           ],
           "categories": [
             "dining"
           ],
           "rate": 0.05,
+          "desc": "5X (20 RP per Rs200) on Swiggy and Zomato online food orders; additional 4X capped at 2,500 RP per month; at Rs0.50/RP"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Diners-Privilege-Product-Feature-Change.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Waiver Rs3L spend. Devaluation 15 May 2026: 4 RP per Rs150 to 4 RP per Rs200 (effective 1.0% at Rs0.50/RP). Lounge: 2 domestic + 1 international per quarter only on Rs60,000 spend in prior quarter from 1 Jul 2026. Forex 3.5%. Max 50,000 RP per cycle. Dining rate derived from page (5X on 4 RP/Rs200). MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Swiggy HDFC Bank Credit Card",
+      "issuer": "HDFC Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "Swiggy"
+          ],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.1,
+          "desc": "10% cashback on Swiggy app (food, Instamart, Dineout); cap Rs1,500 per billing cycle; min txn Rs249",
           "cap_inr": 1500
         },
         {
           "merchants": [],
           "categories": [
-            "travel"
-          ],
-          "rate": 0.04,
-          "cap_inr": 2000
-        }
-      ],
-      "excludes": [],
-      "source_url": null,
-      "last_verified": null
-    },
-    {
-      "name": "Sample Grocery & Fuel Card",
-      "issuer": "Example Bank",
-      "annual_fee": 750,
-      "base_rate": 0.01,
-      "rules": [
-        {
-          "merchants": [
-            "bigbasket",
-            "blinkit",
-            "zepto"
-          ],
-          "categories": [
-            "groceries"
+            "online_shopping"
           ],
           "rate": 0.05,
-          "cap_inr": 800
+          "desc": "5% cashback on select online merchants/MCCs (apparel, electronics, pharmacy, local cabs, etc.); cap Rs1,500 per billing cycle",
+          "cap_inr": 1500
         },
         {
           "merchants": [],
           "categories": [
-            "fuel"
+            "groceries",
+            "bill_payments",
+            "travel",
+            "other"
           ],
-          "rate": 0.03,
-          "cap_inr": 300
+          "rate": 0.01,
+          "desc": "1% cashback on other categories; cap Rs500 per billing cycle",
+          "cap_inr": 500
         }
       ],
       "excludes": [
-        "jewellery"
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi",
+        "jewellery",
+        "gift_cards",
+        "gaming",
+        "education"
       ],
-      "source_url": null,
-      "last_verified": null
+      "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-18092026.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Jewellery explicitly excluded (MCC 5094/5944 per Ornge/BLCK tables) - earns 0. Max Rs3,500 cashback per statement cycle (MITC). Legacy variant: HDFC is migrating holders to Swiggy Ornge/BLCK (FAQ dated 29 Sep 2026); may be closed to new applicants. Smartbuy portal spends also excluded. Waiver Rs2L. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
     },
     {
-      "name": "Sample Premium Rewards Card",
-      "issuer": "Example Bank",
-      "annual_fee": 5000,
+      "name": "HDFC Swiggy BLCK",
+      "issuer": "HDFC Bank",
+      "annual_fee": 1000,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "Swiggy"
+          ],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.1,
+          "desc": "10% cashback on Swiggy app (food, Instamart, Dineout); cap Rs1,500 per billing cycle; min txn Rs249",
+          "cap_inr": 1500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback on select online merchants/MCCs (Amazon, Flipkart, Myntra, Nykaa, Cleartrip, Ajio, Netflix, Hotstar, BookMyShow, Meesho etc.); cap Rs1,500 per billing cycle",
+          "cap_inr": 1500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "bill_payments",
+            "travel",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% cashback on other categories; cap Rs1,000 per billing cycle",
+          "cap_inr": 1000
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi",
+        "jewellery",
+        "gift_cards",
+        "gaming",
+        "education",
+        "smartbuy_portal"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-blck-hdfc-bank-credit-card/pdf/tncs-swiggy-blck-hdfc-bank-credit-card-22092026.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs1,000 (joining waived on Rs75,000 spend in 90 days); renewal waiver Rs2L. Max Rs4,000 cashback per statement cycle (MITC). Jewellery MCC 5094/5944 and gift cards (5947) excluded. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Swiggy Ornge",
+      "issuer": "HDFC Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 150000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "Swiggy"
+          ],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback on Swiggy app (food, Instamart, Dineout); cap Rs1,500 per billing cycle; min txn Rs249",
+          "cap_inr": 1500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback on select online merchants/MCCs; cap not stated in the table (overall Rs2,500 per cycle per MITC)"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "bill_payments",
+            "travel",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% cashback on other categories; cap Rs1,000 per billing cycle",
+          "cap_inr": 1000
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi",
+        "jewellery",
+        "gift_cards",
+        "gaming",
+        "education",
+        "smartbuy_portal"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-ornge-hdfc-bank-credit-card/pdf/tncs-swiggy-ornge-hdfc-bank-credit-card-22092026.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Renewal waiver Rs1.5L spend. Max Rs2,500 cashback per statement cycle (MITC). Jewellery MCC 5094/5944 excluded. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Tata Neu Infinity",
+      "issuer": "HDFC Bank",
+      "annual_fee": 1499,
+      "fee_waiver_spend": 300000,
+      "forex_markup": null,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [
+            "Tanishq",
+            "Titan"
+          ],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.05,
+          "desc": "5% NeuCoins (1.5% base + 3.5% additional) at Tanishq and Titan (partner Tata brands, non-EMI, in-store/online). Eligible spend capped Rs6,00,000 per month and Rs18,00,000 per year, so cap_inr = Rs30,000 per month. 1 NeuCoin = Rs1 on Tata Neu eligible purchases. NeuPass extra 5% does NOT apply to Tanishq.",
+          "cap_inr": 30000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery",
+            "other"
+          ],
+          "rate": 0.015,
+          "desc": "1.5% NeuCoins on non-Tata brand retail spends and merchant EMI; jewellery at other jewellers not excluded in the exclusion list"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent",
+        "government",
+        "online_gaming",
+        "smart_emi"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-infinity-credit-card/pdf/tata_neu_infinity_card_tnc.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card/pdfs/TATA_Neu_List_Brands.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs1,499, waiver Rs3L. NeuCoins: 5% partner Tata brands, 1.5% others, UPI 0.5%-1.5% (cap 500/month). Grocery/utility/telecom/insurance capped 2,000 NeuCoins per month each; max 50,000 NeuCoins per statement cycle (MITC). Tanishq/Titan added to partner brands from 1 Jan 2023. 3.5% additional NeuCoins posts next day since 26 Dec 2025. Merchant EMI NeuCoins on billing since 17 Nov 2025 changed. Forex markup not found. Unchanged on 15 May 2026. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Tata Neu Plus",
+      "issuer": "HDFC Bank",
+      "annual_fee": 499,
+      "fee_waiver_spend": 100000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "Tanishq",
+            "Titan"
+          ],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.02,
+          "desc": "2% NeuCoins (1% base + 1% additional) at Tanishq and Titan (partner Tata brands, non-EMI). Eligible spend capped Rs3,00,000 per month and Rs9,00,000 per year, so cap_inr = Rs6,000 per month. 1 NeuCoin = Rs1.",
+          "cap_inr": 6000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% NeuCoins on non-Tata brand retail spends; jewellery at other jewellers not excluded"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent",
+        "government",
+        "online_gaming",
+        "smart_emi"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card/pdfs/tata_neu_plus_card_tnc.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs499 (page), waiver Rs1L spend; MITC fee table layout ambiguous for this card. Grocery capped 1,000 NeuCoins per month, max 25,000 NeuCoins per cycle. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC MoneyBack+",
+      "issuer": "HDFC Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 50000,
+      "forex_markup": null,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [
+            "Amazon",
+            "BigBasket",
+            "Flipkart",
+            "Reliance Smart SuperStore",
+            "Swiggy"
+          ],
+          "categories": [
+            "online_shopping",
+            "groceries"
+          ],
+          "rate": 0.025,
+          "desc": "10X CashPoints (20 CP per Rs200) at Amazon, BigBasket, Flipkart, Reliance Smart SuperStore, Swiggy (non-EMI); cap 2,500 CP per month; value up to Rs0.25/CP",
+          "cap_inr": 625
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery",
+            "other"
+          ],
+          "rate": 0.0025,
+          "desc": "2 CashPoints per Rs200 on other spends (jewellery not excluded in T&C); up to Rs0.25 per CP; statement cap 15,000 RP"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "rent",
+        "government",
+        "wallet_load"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/moneyback-plus-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/moneyback-plus-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/moneyback-plus-credit-card/pdf/MBPlus-TnCs.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "T&C published 15 May 2026. Waiver Rs50,000. CashPoint value 'up to Rs0.25' (MITC cashback redemption Rs0.20 per point from 1 Nov 2025 - conflict; rate uses 0.25 upper bound, at Rs0.20 base rate is 0.2%). Max 15,000 RP per cycle. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Freedom",
+      "issuer": "HDFC Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 50000,
+      "forex_markup": null,
+      "base_rate": 0.00075,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery",
+            "other"
+          ],
+          "rate": 0.00075,
+          "desc": "1 CashPoint per Rs200 on other spends (jewellery not excluded); Rs0.15 per CashPoint for cashback redemption"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "rent",
+        "government",
+        "wallet_load"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/freedom-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/freedom-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/freedom-credit-card/freedom-tncs.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "T&C dated 15 May 2026. 10X CashPoints (10 CP per Rs200) at BigBasket, BookMyShow, OYO, Swiggy, Uber capped 2,500 CP per month. Rate 0.075% = 1 CP/Rs200 x Rs0.15. Waiver Rs50,000. Max 15,000 RP per cycle. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Pixel Play",
+      "issuer": "HDFC Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 100000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping",
+            "travel",
+            "dining"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback on customer-chosen two packs (e.g. BookMyShow+Zomato, MakeMyTrip+Uber, Blinkit+Reliance Smart Bazaar, electronics); cap 500 CashPoints per month",
+          "cap_inr": 500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.03,
+          "desc": "3% cashback on one chosen e-commerce platform; cap 500 CashPoints per month",
+          "cap_inr": 500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% on all other spends; jewellery not in the excluded MCC list; cap 15,000 CashPoints per month (assuming 1 CP = Rs1)",
+          "cap_inr": 15000
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "emi"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/fifa-pixel-credit-card/pdf/terms-and-conditions-pixel-play-credit-card-08072026.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs500 (waived on Rs20,000 spend in 90 days); renewal waiver Rs1L. Cashback 5% on SmartBuy capped 500 CP per month. Excluded MCCs: 1361,5172,5541,5542,5983,9752,6513,6540,7349,9211,9222,9223,9311,9399,9402,9405,9950. Insurance capped 2,000 CP/month; txns below Rs100 earn nothing. CashPoint value Rs1 assumed from '1% cashback' wording. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Pixel Go",
+      "issuer": "HDFC Bank",
+      "annual_fee": 250,
+      "fee_waiver_spend": 50000,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% CashBack on eligible transactions (jewellery eligibility not verified); 5% on SmartBuy"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs250, waiver Rs50,000 spend; joining fee waived on Rs10,000 in 90 days. Only the product page was read; T&C not read so caps, exclusions and jewellery treatment unconfirmed. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC IndianOil",
+      "issuer": "HDFC Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 50000,
+      "forex_markup": null,
+      "base_rate": null,
+      "rules": [
+        {
+          "merchants": [
+            "indianoil",
+            "iocl"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.05,
+          "desc": "5% Fuel Points at IOCL outlets (IOCL POS only); cap 250 FP per month in first 6 months then 150 FP per month. 1 FP = 1 RP"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "bill_payments"
+          ],
+          "rate": 0.05,
+          "desc": "5% Fuel Points on groceries and bill payments; cap 100 FP per month per category; min txn Rs150"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel_non_iocl",
+        "rent",
+        "government",
+        "emi",
+        "wallet_load",
+        "insurance"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/indian-oil-hdfc-bank-credit-card/T-and-C-Indian-Oil-Credit-Card.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Jewellery explicitly excluded from the 1 FP per Rs150 base earn. Base: 1 Fuel Point per Rs150 on other categories; FP value not stated clearly (redemption table shows Rs0.20 per RP for statement balance), so base_rate left null. Waiver Rs50,000. Max 25,000 RP per cycle. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "HDFC Marriott Bonvoy",
+      "issuer": "HDFC Bank",
+      "annual_fee": 3000,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "base_rate": null,
+      "rules": [],
+      "excludes": [
+        "emi",
+        "online_gaming",
+        "fuel",
+        "wallet_load",
+        "government",
+        "rent",
+        "gift_cards"
+      ],
+      "source_url": "https://www.hdfc.bank.in/credit-cards/marriott-bonvoy-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.hdfc.bank.in/credit-cards/marriott-bonvoy-credit-card",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/marriott-bonvoy-credit/terms-and-condition.pdf",
+        "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Earn: 8 Marriott Bonvoy Points per Rs150 at Marriott properties (up to Rs10L/month); 4 per Rs150 on travel, dining, entertainment (up to Rs5L/month); 2 per Rs150 on other eligible spends (jewellery not excluded in list), groceries 2 per Rs150 up to Rs1.5L per month. Rupee value per Marriott point is not given in HDFC docs, so base_rate and rules omitted. Fee Rs3,000; no waiver threshold found. Terms published 28 Sep 2026. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict)."
+    },
+    {
+      "name": "ICICI Rubyx",
+      "issuer": "ICICI Bank",
+      "annual_fee": 2000,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.01,
+          "desc": "4 RP/Rs100 international; ~1% at Rs0.25/RP"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+        "https://cardexpress.in/cards/icici-rubyx"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining Rs3,000+GST, annual Rs2,000+GST waived on >Rs3L; forex 3.5%; 2 RP/Rs100 domestic, 4 intl, 1 utilities/insurance; no points on fuel (official FAQ), 1% fuel surcharge waiver Rs400-4,000; milestone 3,000 RP at Rs3L + 1,500 per extra Rs1L (max 15,000/yr); lounge needs Rs75k prior quarter. Wallet/rent exclusions assumed from ICICI-wide terms; jewellery treatment NOT found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Coral",
+      "issuer": "ICICI Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 150000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+        "https://cardexpress.in/cards/icici-coral",
+        "https://savesage.club/credit-card/icici-coral"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining Rs500+GST, annual Rs500+GST waived on >Rs1.5L; forex 3.5%; 2 RP/Rs100 retail, 1 RP utilities/insurance; milestone 2,000 RP at Rs2L + 1,000 per Rs1L (max 10,000/yr); 1% fuel waiver at HPCL; 1 domestic lounge/quarter on Rs75k. Savesage return 0.25%-0.5% (conflicts with 0.5% base used here). Jewellery treatment NOT found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Emeralde",
+      "issuer": "ICICI Bank",
+      "annual_fee": 12000,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.02,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "government",
+        "gaming",
+        "emi",
+        "wallet_load"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+        "https://savesage.club/credit-card/icici-emeralde"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining and annual Rs12,000+GST (waived on >Rs10L), forex 2%, 4 RP/Rs100 domestic and intl, 1 RP utilities/insurance; unlimited domestic+intl lounge; golf; BookMyShow BOGO up to Rs750. Jewellery exclusion only from Savesage (third-party). Savesage return 0.25%-1% (1% = 4RP at Rs0.25). Accelerated iShop cap 15,000 RP/month. Add-on card fee per Savesage Rs0. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Emeralde Private Metal",
+      "issuer": "ICICI Bank",
+      "annual_fee": 12499,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.02,
+      "base_rate": 0.012,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "bill_payments"
+          ],
+          "rate": 0.012,
+          "cap_inr": 400,
+          "desc": "Grocery, utilities, education: max 1,000 RP per category per statement cycle (official); cap_inr = 1,000 RP x Rs0.40. Insurance max 5,000 RP/cycle."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.012,
+          "desc": "Jewellery not in third-party zero-earn list; earns 6 RP/Rs200. At Rs1/RP via vouchers up to 3%, but jewellery vouchers are NetBanking-only now."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "emi",
+        "wallet_load",
+        "gaming",
+        "upi"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+        "https://savesage.club/credit-card/icici-emeralde-private-metal",
+        "https://cardexpress.in/cards/icici-emeralde-private-metal",
+        "https://oga-prod.angelone.in/news/stocks/icici-bank-revises-credit-card-rules-for-2026-new-fees-reward-changes-and-discontinued-benefits"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Invite-only. Official: joining/annual Rs12,499+GST waived on >Rs10L; forex 2%; 6 RP per Rs200 retail; 12,500 RP + Taj Epicure joining benefit; unlimited lounges and golf; Plus card Rs3,500 for cards issued after 15 Jan 2026 (third-party). Point value: 1 RP = Re1 on portal/vouchers (cardexpress; ~3% base), Rs0.40 statement credit (cap 50k RP/cycle), Savesage says 0.25%-1% return, so base 1.2% (Rs0.40) used conservatively; up to 3% if redeemed at Re1. iShop hotels 12X / flights 6X capped 18,000 bonus RP/month, 10,000/day (Savesage). Zero-earn per Savesage: EMI, government, rent, wallets, fuel, gaming, UPI. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Times Black",
+      "issuer": "ICICI Bank",
+      "annual_fee": 20000,
+      "fee_waiver_spend": 2500000,
+      "forex_markup": 0.0149,
       "base_rate": 0.02,
       "rules": [
         {
           "merchants": [],
           "categories": [
-            "travel",
-            "dining"
+            "international"
           ],
-          "rate": 0.033,
+          "rate": 0.025,
+          "desc": "2.5% on international spend (official), at up to Re1/RP"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.02,
+          "cap_inr": 2000,
+          "desc": "Utilities/insurance/education/government: max 5,000 RP per statement cycle (official); cap_inr assumes Rs0.40/RP"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.02,
+          "desc": "Not excluded per official FAQ (only fuel, rent, EMI excluded); 2% at up to Re1/RP; Rs0.40/RP statement credit gives 0.8%"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "emi",
+        "wallet_load",
+        "gaming",
+        "upi"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+        "https://savesage.club/credit-card/icici-times-black"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining/annual Rs20,000+GST (waived >Rs25L), forex 1.49%, 2% points on domestic eligible transactions, 2.5% intl, value of 1 RP up to Re1 but Rs0.40 when redeemed against statement. Fuel, rent, EMI earn nothing (official); wallets/UPI/gaming/education per Savesage. Premium, Visa only. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI HPCL Super Saver",
+      "issuer": "ICICI Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 150000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [
+            "hpcl"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.05,
+          "cap_inr": 200,
+          "desc": "5% at HPCL pumps / HP Pay = 4% cashback (cap Rs200/month) + 1% surcharge waiver; cap applies to the 4% part"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "bill_payments"
+          ],
+          "rate": 0.05,
+          "cap_inr": 100,
+          "desc": "20 RP/Rs100 on groceries, utilities, department stores; cap 400 RP/month (official FAQ) = ~Rs100 at Rs0.25/RP; Savesage says per statement cycle"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "rent",
+        "wallet_load",
+        "gaming",
+        "upi"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+        "https://savesage.club/credit-card/icici-hpcl-super-saver"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining/annual Rs500+GST waived >Rs1.5L; forex 3.5%; 2 RP/Rs100 retail; 2,000 RP joining benefit. Jewellery/fuel(points)/rent/wallet exclusions from Savesage only. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Platinum Chip",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "rent",
+        "wallet_load",
+        "gaming"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+        "https://savesage.club/credit-card/icici-platinum-chip"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: lifetime free, forex 3.5%, 2 RP/Rs100 retail, 1 RP utilities/insurance, 1% fuel waiver at HPCL (Rs400-4,000). Jewellery exclusion from Savesage (third-party). Savesage return 0.25%-0.5%. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI MakeMyTrip Signature",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.00625,
+      "rules": [
+        {
+          "merchants": [
+            "makemytrip"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.02,
+          "desc": "4 myCash per Rs200 on hotels (2%), 2 per Rs200 flights (1%); myCash usable only on MakeMyTrip, assumed 1 myCash = Re1"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining Rs2,500+GST, no annual fee, forex 3.5%, 1.25 myCash per Rs200 domestic; milestones 1,100 myCash at Rs2.5L, 4,000 at Rs5L. Page states no longer accepting applications. Domestic lounge needs Rs75k prior quarter from 1 Jul 2026. Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI MakeMyTrip Platinum",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [
+            "makemytrip"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.015,
+          "desc": "3 myCash per Rs200 hotels, 2 flights (1%); myCash only on MMT, assumed Re1"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining Rs500+GST, no annual fee, forex 3.5%, 1 myCash per Rs200 domestic; page notes no longer accepting applications (note text names Signature variant). Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Manchester United Signature",
+      "issuer": "ICICI Bank",
+      "annual_fee": null,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "base_rate": 0.005,
+      "rules": [],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+      "source_type": "third_party",
+      "sources": [
+        "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+        "https://cardtrail.in/vs/icici-manchester-united-signature-vs-shoppers-stop-black-hdfc-bank/",
+        "https://cardexpress.in/cards/icici-manchester-united"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page could not be read (URL returned generic page). Fee conflict: cardtrail Rs2,499 (waiver Rs2.5L) vs cardexpress Rs499 (waiver Rs1.3L); fee left null. Paisabazaar: 3 RP/Rs100 domestic, 4 intl, no fuel points; base ~0.5% at ~Rs0.25/RP. Platinum variant not found. Exclusions/jewellery not found."
+    },
+    {
+      "name": "American Express Platinum Travel",
+      "issuer": "American Express India",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "Jewellery not addressed by source; assumed base 1 MR per Rs50 at Rs0.50/pt (unconfirmed). Amex reserves right to decline jewellery transactions per old offer T&Cs."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "insurance",
+        "utility_bills",
+        "cash_advance",
+        "emi_at_pos"
+      ],
+      "source_url": "https://cardadvisor.in/cards/amex-platinum-travel",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/amex-platinum-travel"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "1 MR/Rs50. Point value Rs0.50 baseline; statement credit ~Rs0.25; transfers 0.50-0.80. New applications paused in India (since ~Mar 2025, no reopening date). Milestones: Rs4L -> 10,000 MR; Rs7L -> Rs20,000 Taj voucher (Rs1.9L milestone removed 10 Sep 2026). Lounge needs Rs1L prior-quarter spend from 1 Oct 2026. Post-purchase/SafeKey EMI still earns. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "American Express Gold Card",
+      "issuer": "American Express India",
+      "annual_fee": 4500,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "desc": "ShopWise e-vouchers only: 10 MR per Rs100 at Rs0.50/pt",
+          "cap_inr": 12500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.01,
+          "desc": "Utility bills 1%, cap 10,000 pts/month",
           "cap_inr": 5000
         },
         {
@@ -110,44 +2103,2380 @@
             "jewellery"
           ],
           "rate": 0.01,
-          "cap_inr": 2000
+          "desc": "Jewellery not addressed by source; assumed base rate (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "insurance",
+        "utility_bills",
+        "cash_advance",
+        "emi_at_pos"
+      ],
+      "source_url": "https://cardadvisor.in/cards/amex-gold",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/amex-gold"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "This is the Gold Card (Charge-style MR earn), not Gold Charge/SmartEarn. New applications paused in India (since ~Mar 2025, no reopening date). First-year fee Rs1,000+GST per source. Monthly milestone 1,000 pts for 6 txns >=Rs1,000. Fuel earn removed 12 Jun 2025. Reward Multiplier brand bonuses end 30 Sep 2026. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "American Express Platinum Reserve",
+      "issuer": "American Express India",
+      "annual_fee": 10000,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.03,
+          "desc": "ShopWise e-vouchers 6 MR per Rs100 at Rs0.50/pt",
+          "cap_inr": 12500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "Jewellery not addressed by source; assumed base rate (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "insurance",
+        "utility_bills",
+        "cash_advance",
+        "emi_at_pos",
+        "emi_conversion"
+      ],
+      "source_url": "https://cardadvisor.in/cards/amex-platinum-reserve",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/amex-platinum-reserve"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "1 MR/Rs50; 24K Gold Collection ~Rs0.58/pt. Rent not excluded from earn per source. Monthly Rs1,000 voucher at Rs50k spend (max Rs12,000/yr). Legacy 'Option 1' Rs50,000 foundation fee variant mentioned. New applications paused in India (since ~Mar 2025, no reopening date). Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "American Express Platinum Card (Charge)",
+      "issuer": "American Express India",
+      "annual_fee": 66000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.075,
+          "desc": "ShopWise/Rewards Xcelerator 12.5 MR per Rs100 at Rs0.60/pt",
+          "cap_inr": 15000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.045,
+          "desc": "7.5 MR per Rs100"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.03,
+          "desc": "5 MR per Rs100; source cap conflict Rs3,000 vs 5,000 pts/month",
+          "cap_inr": 3000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.015,
+          "desc": "Jewellery not addressed by source; assumed base 2.5 MR/Rs100 at Rs0.60 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "utility_bills",
+        "insurance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/amex-platinum-charge",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/amex-platinum-charge"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Charge card, invitation-level. Point value Rs0.60 baseline per source (others use 0.50). Renewal voucher up to Rs35,000 at Rs20L spend. Welcome benefit conflicts (Rs30,000 vs 60,000). New applications paused in India (since ~Mar 2025, no reopening date). Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "American Express SmartEarn",
+      "issuer": "American Express India",
+      "annual_fee": 495,
+      "fee_waiver_spend": 40000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "Flipkart",
+            "Uber",
+            "BookMyShow",
+            "Ajio",
+            "Nykaa",
+            "PVR",
+            "Blinkit",
+            "Myntra"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.1,
+          "desc": "Flipkart, Uber, BookMyShow, Ajio, Nykaa, PVR, Blinkit, Myntra 10X (20 pts/Rs100); shared cap 500 pts/month",
+          "cap_inr": 250
+        },
+        {
+          "merchants": [
+            "Amazon"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "desc": "Amazon 5X; cap 250 pts/month",
+          "cap_inr": 125
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "Jewellery not addressed; assumed base rate (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "insurance",
+        "utility_bills",
+        "cash_advance",
+        "emi_at_pos"
+      ],
+      "source_url": "https://cardadvisor.in/cards/amex-smartearn",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/amex-smartearn"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "The SmartEarn offers microsite is where jewellery offers appear (all found expired). New applications paused in India (since ~Mar 2025, no reopening date). Milestones Rs500 voucher at Rs1.2L/1.8L/2.4L. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "American Express Membership Rewards Credit Card",
+      "issuer": "American Express India",
+      "annual_fee": 4500,
+      "fee_waiver_spend": 150000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "Jewellery not addressed by source; assumed base rate (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "insurance",
+        "utility_bills",
+        "cash_advance",
+        "emi_at_pos"
+      ],
+      "source_url": "https://cardadvisor.in/cards/amex-mrcc",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/amex-mrcc"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "50% fee waiver at Rs90k-1.5L. Joining fee Rs1,000. Milestones 1,000 pts per Rs20k/month or 4 txns >=Rs1,500. New applications paused in India (since ~Mar 2025, no reopening date). Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IndusInd Legend",
+      "issuer": "IndusInd Bank",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.018,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery not addressed by source; weekday base 1 RP/Rs100 at Rs0.50 (weekend 2 RP = 1%) (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/indusind-legend",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/indusind-legend",
+        "https://www.indusind.bank.in/iblogs/credit-card/top-credit-card-offers-jewellery-purchases/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Joining fee Rs5,000+GST one-time; annual fee nil (hub says lifetime free - conflict). Weekday 1 RP/Rs100, weekend 2 RP/Rs100; point value Rs0.50 cash (0.35 catalogue, 0.25 airline). Education/govt/insurance/rent/utility 0.7 RP/Rs100. 3,000 RP at Rs5L spend. Cash redemption max 5,000 pts/month, fee Rs149+GST. DCC 2% from 15 Jun 2026. Another source says milestone 4,000 RP at Rs6L - conflict. Kalyan jewellery offer ended 31 Mar 2025. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IndusInd Pioneer Heritage",
+      "issuer": "IndusInd Bank",
+      "annual_fee": 25000,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.0,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.025,
+          "desc": "2.5 RP/Rs100 at Rs1 (source value inconsistent)"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "Jewellery not addressed; assumed 1 RP/Rs100 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/indusind-pioneer-heritage",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/indusind-pioneer-heritage"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Joining fee Rs1,00,000+GST (invite section says Rs90,000). Point value conflict: Rs1 cash credit vs Rs0.35 catalogue; cash cap 30,000 RP/month. Education/govt/insurance/rent/utility 0.7 RP/Rs100. Forex cut to 0% 5 Oct 2024. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IndusInd Pioneer Legacy",
+      "issuer": "IndusInd Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.018,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "Jewellery not addressed; weekday 1 RP/Rs100 at Rs1 (weekend 2 RP) (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/indusind-pioneer-legacy",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/indusind-pioneer-legacy"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Invite-only. Joining Rs50,000+GST (Rs5,000 for existing Legacy customers); no annual fee. 4,000 RP at Rs5L. Cash cap 20,000 RP/month. Complimentary variant forex 3.5%. Source gives point value Rs1 cash credit, Rs0.35 catalogue. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IndusInd Tiger",
+      "issuer": "IndusInd Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.015,
+      "base_rate": 0.004,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.004,
+          "desc": "Jewellery not addressed; base 1 RP/Rs100 at Rs0.40 for first Rs1L annual spend, rising to 6X above Rs5L (0.4%->2.4%) (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/indusind-tiger",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/indusind-tiger"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free. Annual incremental ladder 1X/2X/4X/6X at Rs1L/2.5L/5L. Cash redemption cap 5,000 pts/month. Utility, insurance, govt, education, rent earn base 1X only. 1% fee on wallet loads >Rs20k/cycle. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Kotak White Reserve",
+      "issuer": "Kotak Mahindra Bank",
+      "annual_fee": 12500,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.02,
+      "base_rate": 0.0,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0,
+          "desc": "No per-spend earn; rewards via White Pass milestones only (~1.7% at Rs3L to ~2.5% at Rs1Cr effective). Jewellery treatment not stated."
         }
       ],
       "excludes": [],
-      "source_url": null,
-      "last_verified": null
+      "source_url": "https://cardadvisor.in/cards/kotak-white-reserve",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/kotak-white-reserve"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Zero base earn; milestone ladder Rs3L->Rs5,000 ... Rs1Cr->Rs2.5L cumulative. White Pass Rs1 on Unbox, Rs0.70 cashback; expires 15 months. Fuel waiver 1% cap Rs4,500/month. Only one of White/White Reserve per customer. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Kotak White",
+      "issuer": "Kotak Mahindra Bank",
+      "annual_fee": 3000,
+      "fee_waiver_spend": 500000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0,
+          "desc": "No per-spend earn; White Pass milestones only (~1.2% at Rs5L). Jewellery treatment not stated."
+        }
+      ],
+      "excludes": [
+        "education",
+        "transport"
+      ],
+      "source_url": "https://cardadvisor.in/cards/kotak-white",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/kotak-white"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Milestones: Rs2L->Rs2,000, 4L->6,000 cum., 6L->12,000, 9L->19,000, 12L->27,000. Education & transport earn nothing from 1 Apr 2026. 2% fee on rent. Forex 3.5% + GST. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Kotak Solitaire",
+      "issuer": "Kotak Mahindra Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.015,
+          "desc": "Jewellery not addressed; 3 Air Miles/Rs100 at Rs0.50 voucher (Rs1 on Unbox = 3%) (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "rent",
+        "wallet_load",
+        "fuel",
+        "utility_bills",
+        "insurance",
+        "education",
+        "government",
+        "online_gaming",
+        "emi",
+        "international"
+      ],
+      "source_url": "https://cardadvisor.in/cards/kotak-solitaire",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/kotak-solitaire"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Free while in Solitaire program (invite/relationship). Unbox flights/hotels 10 Air Miles/Rs100. Value ambiguous Rs0.50-1.00/mile. International spends earn nothing per source. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Kotak Zen Signature",
+      "issuer": "Kotak Mahindra Bank",
+      "annual_fee": 1500,
+      "fee_waiver_spend": 150000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0083,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.0167,
+          "desc": "Shopping 10 pts/Rs150 at Rs0.25; shared cap 6,500 pts per cycle",
+          "cap_inr": 1625
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0167,
+          "desc": "Source: 2020 launch listed jewellery under shopping; current MITC unconfirmed",
+          "cap_inr": 1625
+        }
+      ],
+      "excludes": [
+        "wallet_load",
+        "fuel",
+        "rent",
+        "online_gaming",
+        "emi"
+      ],
+      "source_url": "https://cardadvisor.in/cards/kotak-zen-signature",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/kotak-zen-signature"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Cash value Rs0.20/pt. Milestone 7,500 pts at Rs3L or 15,000 at Rs6L. Education/insurance/utilities/government capped by spend per cycle. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Kotak League Platinum",
+      "issuer": "Kotak Mahindra Bank",
+      "annual_fee": 499,
+      "fee_waiver_spend": 50000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0027,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0027,
+          "desc": "Jewellery not addressed (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "rent",
+        "fuel",
+        "wallet_load",
+        "emi",
+        "education",
+        "insurance",
+        "government",
+        "online_gaming",
+        "railways"
+      ],
+      "source_url": "https://cardadvisor.in/cards/kotak-league-platinum",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/kotak-league-platinum"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "4 pts/Rs150 at Rs0.10; 8 pts on travel, durables, department stores and spend >Rs2L/yr. Cash redeem Rs0.07 from 1 Jun 2025. PVR/Rs10,000 pts at Rs1.25L per half-year. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "YES Bank Marquee",
+      "issuer": "YES Bank",
+      "annual_fee": 4999,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.01,
+      "base_rate": 0.0225,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.045,
+          "desc": "36 pts/Rs200 at Rs0.25 (flights/hotels value); cap 1,00,000 pts/cycle; source also mentions Rs25,000 monthly spend cap"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0225,
+          "desc": "Jewellery not stated on this card page; sibling Select/Elite+ pages exclude jewellery - check MITC"
+        }
+      ],
+      "excludes": [
+        "rent",
+        "wallet_load",
+        "fuel",
+        "government",
+        "insurance",
+        "education",
+        "emi",
+        "railways",
+        "tolls"
+      ],
+      "source_url": "https://cardadvisor.in/cards/yes-marquee",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/yes-marquee"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Joining Rs9,999+GST. Rs0.25/pt only via flights/hotels; vouchers Rs0.15, statement credit Rs0.10 (realistic base ~1.35% voucher). Points expire 36 months. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "YES Bank Select",
+      "issuer": "YES Bank",
+      "annual_fee": 599,
+      "fee_waiver_spend": 100000,
+      "forex_markup": 0.035,
+      "base_rate": 0.004,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.008,
+          "desc": "8 pts/Rs200 at Rs0.20; cap 5,000 pts per cycle",
+          "cap_inr": 1000
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "rent",
+        "wallet_load",
+        "fuel",
+        "government",
+        "insurance",
+        "education",
+        "emi",
+        "railways",
+        "tolls"
+      ],
+      "source_url": "https://cardadvisor.in/cards/yes-select",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/yes-select"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Source lists jewellery as earning NO points. Value Rs0.10-0.25/pt by route. Joining Rs599 reversed on Rs10k first-month spend. Page returned unlabeled; matched to yes-select by request order. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "YES Bank Elite+",
+      "issuer": "YES Bank",
+      "annual_fee": 999,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.03,
+      "base_rate": 0.006,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.012,
+          "desc": "12 pts/Rs200 at Rs0.20; cap 12,000 pts per cycle",
+          "cap_inr": 2400
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "rent",
+        "wallet_load",
+        "fuel",
+        "government",
+        "insurance",
+        "education",
+        "emi",
+        "railways",
+        "tolls"
+      ],
+      "source_url": "https://cardadvisor.in/cards/yes-elite-plus",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/yes-elite-plus"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Source lists jewellery as earning NO points and likely excluded from waiver targets. Forex raised to 3% on 15 Jun 2026. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "YES Bank First Exclusive (RESERV)",
+      "issuer": "YES Bank",
+      "annual_fee": 2499,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.02,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.03,
+          "desc": "24 pts/Rs200 at Rs0.25; cap 36,000 pts per cycle",
+          "cap_inr": 9000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.015,
+          "desc": "Jewellery not stated on page (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "government",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/yes-first-exclusive",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/yes-first-exclusive"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Now branded YES Bank RESERV per source. Rs0.25 only on flights/hotels; vouchers Rs0.15. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IDFC FIRST Mayura",
+      "issuer": "IDFC FIRST Bank",
+      "annual_fee": 5999,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": 0.0083,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "other"
+          ],
+          "rate": 0.0167,
+          "desc": "10 pts/Rs150 above Rs20,000/month spend and on birthday (5 pts up to Rs20k)"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.0083,
+          "desc": "5 pts/Rs150 (cut from 10 on 18 Jan 2026)"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0083,
+          "desc": "Jewellery not stated; base 5 pts/Rs150 at Rs0.25 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/idfc-mayura",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/idfc-mayura"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Point value Rs0.25 voucher/statement; Rs0.50 on in-app flights/hotels. Rent/education/govt/wallet 3 pts; insurance/utilities 1 pt. Milestone 7,500 pts at Rs8L (15,000 at Rs15L). Earning capped at credit limit per cycle. Source conflict on app-travel cap. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IDFC FIRST Select",
+      "issuer": "IDFC FIRST Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": 0.00375,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "travel",
+            "international"
+          ],
+          "rate": 0.0125,
+          "desc": "10 pts/Rs200 at Rs0.25"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.00375,
+          "desc": "Jewellery not stated; other spend 3 pts/Rs200 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/idfc-select",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/idfc-select"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free. Forex 0% per KFS 15 Sep 2026 (was 1.99%). Points expire 24 months. 1% fee on rent (min Rs249), fuel >Rs30k. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IDFC FIRST Wealth",
+      "issuer": "IDFC FIRST Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": 0.00375,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "travel",
+            "international"
+          ],
+          "rate": 0.0125,
+          "desc": "10 pts/Rs200 at Rs0.25"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.00375,
+          "desc": "Jewellery not stated; other 3 pts/Rs200 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/idfc-first-wealth",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/idfc-first-wealth"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free. Lounge/golf/movie benefits gated on Rs20k prior-month spend. Points expire 24 months. Source finance-charge field looks off (0.71%/month). Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "IDFC FIRST Millennia",
+      "issuer": "IDFC FIRST Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": 0.00375,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "travel",
+            "international"
+          ],
+          "rate": 0.0125,
+          "desc": "10 pts/Rs200 at Rs0.25"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.00375,
+          "desc": "Jewellery not stated (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/idfc-millennia",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/idfc-millennia"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free; same earn grid as Select/Wealth. Fees: 1% rent (min Rs249), 1% fuel >Rs30k/cycle. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "AU LIT",
+      "issuer": "AU Small Finance Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0349,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.025,
+          "desc": "10X pack (Rs299/90 days) 10 pts/Rs100; cap 10,000 pts/cycle",
+          "cap_inr": 2500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries"
+          ],
+          "rate": 0.05,
+          "desc": "Grocery pack Rs299/90 days; 5% cashback",
+          "cap_inr": 500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0025,
+          "desc": "Jewellery not stated; base 1 pt/Rs100 at Rs0.25; base+online cap Rs2,500/month (unconfirmed)",
+          "cap_inr": 2500
+        }
+      ],
+      "excludes": [
+        "cash_advance",
+        "emi",
+        "fuel",
+        "rent",
+        "education",
+        "government",
+        "bbps",
+        "transport"
+      ],
+      "source_url": "https://cardadvisor.in/cards/au-lit",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/au-lit"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free; paid optional packs Rs49-399/quarter. Milestone cashback 5% at Rs10k/month, 2% at Rs15k. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "AU Zenith",
+      "issuer": "AU Small Finance Bank",
+      "annual_fee": 7999,
+      "fee_waiver_spend": 500000,
+      "forex_markup": 0.0349,
+      "base_rate": 0.0075,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.0125,
+          "desc": "5 RP/Rs100 at Rs0.25; cap 5,000 RP/cycle",
+          "cap_inr": 1250
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "international"
+          ],
+          "rate": 0.0125,
+          "desc": "5 RP/Rs100"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0075,
+          "desc": "Jewellery not stated; other spend 3 RP/Rs100 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "rent",
+        "education",
+        "government",
+        "emi",
+        "fuel",
+        "cash_advance",
+        "bbps",
+        "transport",
+        "quasi_cash"
+      ],
+      "source_url": "https://cardadvisor.in/cards/au-zenith",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/au-zenith"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Forex raised to 3.49% from 1 Oct 2026. Fuel surcharge waiver cap Rs100/cycle. 1,000 RP per cycle at Rs50k spend. Taj/voucher perks withdrawn 1 Jan 2026. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "AU Altura Plus",
+      "issuer": "AU Small Finance Bank",
+      "annual_fee": 499,
+      "fee_waiver_spend": 80000,
+      "forex_markup": 0.0349,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "other"
+          ],
+          "rate": 0.015,
+          "desc": "Offline retail 1.5% cashback; cap Rs100/cycle",
+          "cap_inr": 100
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.005,
+          "desc": "2 pts/Rs100 at Rs0.25"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.015,
+          "desc": "Jewellery not stated; offline retail cashback capped Rs100/cycle (unconfirmed)",
+          "cap_inr": 100
+        }
+      ],
+      "excludes": [
+        "rent",
+        "education",
+        "government",
+        "fuel",
+        "emi",
+        "cash_advance",
+        "bbps",
+        "quasi_cash",
+        "transport"
+      ],
+      "source_url": "https://cardadvisor.in/cards/au-altura-plus",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/au-altura-plus"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Year-one waiver Rs20k in 90 days. 500 bonus pts at Rs20k monthly retail spend. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "RBL Icon",
+      "issuer": "RBL Bank",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.05,
+          "desc": "Weekend dining 20 pts/Rs100 at Rs0.25; cap 2,000 pts/month",
+          "cap_inr": 500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.05,
+          "desc": "20 pts/Rs100; cap 2,000 pts/month",
+          "cap_inr": 500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery not stated; base 2 pts/Rs100 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "rent",
+        "railways",
+        "misc_payments"
+      ],
+      "source_url": "https://cardadvisor.in/cards/rbl-icon",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/rbl-icon"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Joining Rs5,000+GST. Milestones Rs3L 10k pts, Rs5L +15k, Rs8L +20k. Waiver spend not stated. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "RBL World Safari",
+      "issuer": "RBL Bank",
+      "annual_fee": 3000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.0125,
+          "desc": "5 pts/Rs100 at Rs0.25"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery not stated; base 2 pts/Rs100 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "utility_bills",
+        "wallet_load",
+        "insurance",
+        "rent",
+        "railways",
+        "misc_payments",
+        "international_non_travel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/rbl-world-safari",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/rbl-world-safari"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Forex 0%. Milestones Rs2.5L 10k travel pts; Rs5L +15k; Rs7.5L Rs10,000 Taj voucher. Welcome Rs3,000 MMT voucher. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "RBL Platinum Maxima Plus",
+      "issuer": "RBL Bank",
+      "annual_fee": 2500,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries",
+            "international"
+          ],
+          "rate": 0.025,
+          "desc": "10 pts/Rs100 at Rs0.25; shared cap 1,000 pts/month",
+          "cap_inr": 250
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery not stated; base 2 pts/Rs100 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "utility_bills",
+        "insurance",
+        "cash_advance",
+        "rent",
+        "education",
+        "wallet_load",
+        "government",
+        "emi"
+      ],
+      "source_url": "https://cardadvisor.in/cards/rbl-platinum-maxima",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/rbl-platinum-maxima"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "No spend-based waiver per source. Milestones Rs2L/3.5L/5L 10k pts each. Real value could be as low as Rs0.11/pt. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Federal Bank Celesta",
+      "issuer": "Federal Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.02,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international",
+            "travel"
+          ],
+          "rate": 0.0075,
+          "desc": "3 pts/Rs100 at Rs0.25"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.005,
+          "desc": "2 pts/Rs100"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0025,
+          "desc": "Jewellery not stated (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "government",
+        "rent",
+        "wallet_load",
+        "cash_advance",
+        "financial_institutions"
+      ],
+      "source_url": "https://cardadvisor.in/cards/federal-celesta",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/federal-celesta"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free for customers onboarded from 3 Apr 2023. Cash-to-card Rs0.10/pt. Points valid 36 months. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Federal Bank Signet",
+      "issuer": "Federal Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.00125,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.00375,
+          "desc": "Electronics/apparel online 3 pts/Rs200 at Rs0.25"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "government",
+        "rent",
+        "wallet_load",
+        "cash_advance",
+        "financial_institutions"
+      ],
+      "source_url": "https://cardadvisor.in/cards/federal-signet",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/federal-signet"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Lifetime free for new customers. Weak earn rate. Jewellery not stated. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Scapia Federal",
+      "issuer": "Federal Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": 0.02,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.04,
+          "desc": "20 coins/Rs100 on Scapia-app travel bookings at Rs0.20/coin"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.02,
+          "desc": "Jewellery not stated; other 10 coins/Rs100 (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "insurance",
+        "rent",
+        "utility_bills"
+      ],
+      "source_url": "https://cardadvisor.in/cards/scapia-federal",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/scapia-federal"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Coins redeemable mainly for Scapia travel (not cash); coin value Rs0.20 (page also says 0.25 in places). Unlimited domestic lounge after Rs20k/cycle spend. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "OneCard",
+      "issuer": "Federal Bank / BOBCARD (multiple partner banks)",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.01,
+      "base_rate": 0.002,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.01,
+          "desc": "5X on top-2 monthly categories if Rs750+ spent in 3+ categories (~1%)"
+        }
+      ],
+      "excludes": [
+        "rent",
+        "fuel",
+        "cash_advance",
+        "wallet_load",
+        "utility_bills",
+        "money_transfer"
+      ],
+      "source_url": "https://cardadvisor.in/cards/onecard",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/onecard"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Issuer varies (BOBCARD default; Federal, CSB, SBM, South Indian, Indian Bank). New applications reportedly paused since late 2025. Point value Rs0.10 (page also cites 0.25). Bills/utilities earn nothing since 29 Aug 2026. Jewellery not stated. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Standard Chartered Ultimate",
+      "issuer": "Standard Chartered Bank India",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.02,
+      "base_rate": 0.0083,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0083,
+          "desc": "Jewellery not stated; 5 RP/Rs150 general (3.33% if RP=Rs1, 0.83% at Rs0.25 statement credit - source inconsistent)"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sc-ultimate",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sc-ultimate"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee not waivable by spend. Utilities/supermarkets/insurance/rent/schools/govt 3 RP/Rs150. Rent 1% processing fee. Duty-free 5% cashback cap Rs1,000. Renewal 5,000 pts. Headline 3.33% uses Rs1/pt catalogue value; base_rate uses conservative Rs0.25. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Standard Chartered Beyond",
+      "issuer": "Standard Chartered Bank India",
+      "annual_fee": 25000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.02,
+      "base_rate": 0.0083,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.0083,
+          "desc": "Jewellery not stated; 5 RP/Rs150 (3.33% at Rs1/pt; 0.83% at Rs0.25) (unconfirmed)"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "atm_withdrawals"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sc-beyond",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sc-beyond"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Joining Rs15,000+GST. Fee waiver via FUM Rs50L, not spend. Duty-free 15% cashback cap Rs1,500. Point value conflict (Rs1 catalogue vs Rs0.25). Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Standard Chartered Priority Visa Infinite",
+      "issuer": "Standard Chartered Bank India",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.0125,
+          "desc": "5 pts/Rs100 at Rs0.25"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery not stated (unconfirmed)"
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/cards/sc-priority-visa-infinite",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sc-priority-visa-infinite"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Free card (relationship-linked). Statement credit Rs0.20/pt. Retail fashion 5 pts/Rs100. Exclusions not on source. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Standard Chartered Smart",
+      "issuer": "Standard Chartered Bank India",
+      "annual_fee": 499,
+      "fee_waiver_spend": 120000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.02,
+          "desc": "2% cashback; cap Rs1,000/month",
+          "cap_inr": 1000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "desc": "Jewellery not stated; offline 1% cashback cap Rs500/month (unconfirmed)",
+          "cap_inr": 500
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sc-smart",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sc-smart"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "First-year fee waived for new applicants per source. Cashback redemption min Rs2,500. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Standard Chartered Manhattan Platinum",
+      "issuer": "Standard Chartered Bank India",
+      "annual_fee": 999,
+      "fee_waiver_spend": 120000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "groceries"
+          ],
+          "rate": 0.05,
+          "desc": "5% on grocery/supermarkets, min Rs1,000 per txn, Rs150 per txn cap; monthly cap Rs500",
+          "cap_inr": 500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery not stated (unconfirmed)"
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/cards/sc-manhattan-platinum",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sc-manhattan-platinum"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "3 pts/Rs150 at Rs0.25. Rent 1% processing fee. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+    },
+    {
+      "name": "Cashback SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 999,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping",
+            "dining",
+            "travel"
+          ],
+          "rate": 0.05,
+          "cap_inr": 2000,
+          "desc": "5% cashback on online spend (not in excluded categories); capped Rs2,000 per statement cycle (~Rs40,000 online spend)."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "other",
+            "groceries"
+          ],
+          "rate": 0.01,
+          "cap_inr": 2000,
+          "desc": "1% cashback on offline spend; separate Rs2,000 cap per cycle (combined ceiling Rs4,000)."
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "utilities",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "education",
+        "railways",
+        "emi",
+        "gaming",
+        "tolls",
+        "government"
+      ],
+      "source_url": "https://www.sbicard.com/en/customer-notices.page",
+      "source_type": "official",
+      "sources": [
+        "https://www.sbicard.com/en/customer-notices.page",
+        "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
+        "https://cardadvisor.in/articles/sbi-cashback-credit-card-review-2026",
+        "https://livefromalounge.com/sbicards-cashback-card-imposes-new-restrictions-effective-april-1-2026/"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official notice page confirms revision effective 1 Apr 2026 (notice 27 Feb 2026) but gives no specifics; the revised PDF could not be downloaded (connection reset). Specifics from third parties (cardadvisor, livefromalounge, search summary quoting notice): combined cap cut from Rs5,000 to Rs4,000/cycle with 5% online capped Rs2,000 and 1% offline capped Rs2,000; new exclusions gaming, tolls, government added. Jewellery is excluded (no cashback). Fee Rs999+GST, waived at Rs2L (cardadvisor, Aug 2026). Forex 3.5% (cardadvisor). Merchant/Flexipay EMI excluded. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "Titan SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 2999,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [
+            "Tanishq"
+          ],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.03,
+          "desc": "3% value-back as Titan gift vouchers at Tanishq; cap Rs25,000 per QUARTER (cardadvisor; official page confirms quarterly cap, amount from third party). Not cash."
+        },
+        {
+          "merchants": [
+            "Mia",
+            "CaratLane",
+            "Zoya"
+          ],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback at Mia, CaratLane, Zoya; cap Rs10,000 per quarter (third-party)."
+        },
+        {
+          "merchants": [
+            "World of Titan",
+            "Taneira",
+            "Titan Eye+",
+            "Helios",
+            "Fastrack",
+            "Skinn",
+            "Irth",
+            "Sonata"
+          ],
+          "categories": [
+            "other"
+          ],
+          "rate": 0.075,
+          "desc": "7.5% cashback at Titan group brands; cap Rs10,000 per quarter (third-party)."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "other",
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.015,
+          "cap_inr": 1500,
+          "desc": "6 RP per Rs100 elsewhere (4 RP = Rs1); cap 6,000 pts (Rs1,500) per month per cardadvisor."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent",
+        "utilities",
+        "government",
+        "emi"
+      ],
+      "source_url": "https://www.sbicard.com/en/personal/credit-cards/shopping/titan-sbi-card.page",
+      "source_type": "official",
+      "sources": [
+        "https://www.sbicard.com/en/personal/credit-cards/shopping/titan-sbi-card.page",
+        "https://cardadvisor.in/cards/sbi-titan",
+        "https://www.bankbazaar.com/credit-card/titan-sbi-credit-card.html"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page snippet (via search) confirms fee Rs2,999+tax, waiver Rs3L, 3% Tanishq vouchers (quarterly cap), 5% Mia/CaratLane/Zoya, 7.5% Titan brands; direct page fetch returned only navigation so cap amounts, 6 RP rate and exclusions come from cardadvisor/other reviews. Conflict: another review says 10 RP/Rs100 on chemist, pharmacy, sports, dining, movies. Welcome 12,000 RP (~Rs3,000) as Titan vouchers; milestones Rs5,000 voucher at 5L, Rs10,000 at 10L (Titan stores only). Lounges: 8 domestic/4 intl (cardadvisor) vs 4 intl (official snippet). Point expiry 24 months. Jewellery at non-Titan merchants: not confirmed excluded or included. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SBI Card Elite",
+      "issuer": "SBI Card",
+      "annual_fee": 4999,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.0199,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.025,
+          "cap_inr": 2500,
+          "desc": "5X (10 RP per Rs100 style, ~2.5% at Rs0.25/pt) on dining, groceries, department stores; shared cap 10,000 pts/month (~Rs2,500)."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "gaming",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-elite",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-elite",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide",
+        "https://www.bankbazaar.com/credit-card/sbi-card-elite.html",
+        "https://cardexpress.in/cards/sbi-elite"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs4,999+GST, waived at Rs10L. Base 2 RP/Rs100 (~0.5%) at Rs0.25/pt. Forex 1.99% (+GST). Milestones up to 50,000 RP at 3L/4L/5L/8L. 8 domestic + 6 intl lounge visits. Club Vistara/Trident Privilege removed. Jewellery treatment unknown. Not verified against official MITC. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SBI Card Prime",
+      "issuer": "SBI Card",
+      "annual_fee": 2999,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.025,
+          "cap_inr": 1875,
+          "desc": "10 RP per Rs100 (~2.5%) on dining, groceries, department stores, movies; shared cap 7,500 pts/month."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "gaming",
+        "emi",
+        "cash_advance"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-prime",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-prime",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs2,999+GST, waiver Rs3L. Base 2 RP/Rs100. Rs7,000 Yatra/Pantaloons voucher at 5L. Jewellery treatment unknown. cap_inr is an interpretation of 7,500 pts cap. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SimplyCLICK SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 499,
+      "fee_waiver_spend": 100000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.0125,
+          "desc": "5X (~1.25%) on other online spends."
+        },
+        {
+          "merchants": [
+            "BookMyShow",
+            "Apollo 24|7",
+            "Domino's",
+            "IGP",
+            "Myntra",
+            "Yatra",
+            "Netmeds",
+            "Cleartrip",
+            "Swiggy"
+          ],
+          "categories": [
+            "online_shopping",
+            "dining",
+            "travel"
+          ],
+          "rate": 0.025,
+          "desc": "10X (~2.5%) on listed online partners; partner list differs across sections."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent",
+        "government",
+        "gaming",
+        "cash_advance",
+        "emi"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-simply-click",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-simply-click",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs499+GST, waiver Rs1L. Amazon dropped from 10X, now 5X. 1X offline. Milestone Rs2,000 vouchers at 1L and 2L. Caps not found. Jewellery online treatment unknown. CardTrail claims 2026 cap tightening but unconfirmed by SBI. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SimplySAVE SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 499,
+      "fee_waiver_spend": 100000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0017,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.017,
+          "cap_inr": 1250,
+          "desc": "10 RP per Rs150 (~1.7%) on dining, movies, groceries, department stores; shared cap 5,000 pts/month."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "gaming",
+        "government",
+        "cash_advance",
+        "emi"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-simply-save",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-simply-save",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs499+GST, waiver Rs1L. Other spend 1 RP/Rs150. Another aggregator quoted 0.7% rates; conflict unresolved. Jewellery unknown. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "SBI Card Aurum",
+      "issuer": "SBI Card",
+      "annual_fee": 9999,
+      "fee_waiver_spend": 1200000,
+      "forex_markup": 0.0199,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "wallet_load",
+        "gaming"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-aurum",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-aurum",
+        "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Invite-only. Fee Rs9,999+GST, waiver Rs12L. 4 RP/Rs100 (~1%). Milestone vouchers (Tata CLiQ, Taj, Apple) conflict between pages. Jewellery unknown. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice)."
+    },
+    {
+      "name": "Flipkart SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 500,
+      "fee_waiver_spend": 350000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "Myntra"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.075,
+          "desc": "7.5% on Myntra; cap Rs4,000 per quarter (cardadvisor; another figure Rs1,333/month cited)."
+        },
+        {
+          "merchants": [
+            "Flipkart",
+            "Shopsy",
+            "Cleartrip"
+          ],
+          "categories": [
+            "online_shopping",
+            "travel"
+          ],
+          "rate": 0.05,
+          "desc": "5% on Flipkart, Shopsy, Cleartrip; Rs4,000/quarter cap per tier."
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "wallet_load",
+        "rent",
+        "government",
+        "education",
+        "insurance",
+        "gaming",
+        "emi",
+        "cash_advance",
+        "gift_cards"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-flipkart",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-flipkart",
+        "https://cardadvisor.in/articles/sbi-flipkart-review-2026"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs500+GST, reversed at Rs3.5L. 1% elsewhere; 4% at four unnamed merchants. Jewellery excluded per cardadvisor. Possible joining fee waiver for cards sourced 1 Sep-31 Oct 2026 (ambiguous). "
+    },
+    {
+      "name": "IRCTC SBI Card Premier",
+      "issuer": "SBI Card",
+      "annual_fee": 1499,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "rules": [],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-irctc-premier",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-irctc-premier",
+        "https://www.paisabazaar.com/sbi-bank/irctc-sbi-card-premier/"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs1,499+GST, waiver Rs2L. ~10% on IRCTC AC tickets, 5% air bookings, 3X dining/utilities, 1 pt/Rs125 elsewhere. Point value conflict (Rs0.25 vs Rs1 for IRCTC redemption). Jewellery unknown.",
+      "base_rate": null
+    },
+    {
+      "name": "IRCTC SBI Card Platinum",
+      "issuer": "SBI Card",
+      "annual_fee": 500,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "rules": [],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://cardadvisor.in/cards/sbi-irctc-platinum",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-irctc-platinum"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs500+GST (Groww says Rs300 renewal; conflict). Up to 10% on IRCTC AC tickets, 1 pt/Rs125 elsewhere. No waiver found.",
+      "base_rate": null
+    },
+    {
+      "name": "BPCL SBI Card",
+      "issuer": "SBI Card",
+      "annual_fee": 499,
+      "fee_waiver_spend": 100000,
+      "forex_markup": null,
+      "rules": [
+        {
+          "merchants": [
+            "BPCL"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.0425,
+          "desc": "13X points at BPCL (~4.25% incl. 1% surcharge waiver per cardadvisor)."
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/articles/sbi-bpcl-review-2026",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/articles/sbi-bpcl-review-2026",
+        "https://www.sbicard.com/en/customer-notices.page"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official notice: from 1 May 2026 renewal fee reversal threshold raised Rs50,000 to Rs1L. Welcome 2,000 pts. Non-fuel rates not found.",
+      "base_rate": null
+    },
+    {
+      "name": "BPCL SBI Card Octane",
+      "issuer": "SBI Card",
+      "annual_fee": 1499,
+      "fee_waiver_spend": 200000,
+      "forex_markup": null,
+      "base_rate": 0.0025,
+      "rules": [
+        {
+          "merchants": [
+            "BPCL"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.0725,
+          "cap_inr": 625,
+          "desc": "25 RP/Rs100 at BPCL plus surcharge waiver (~7.25% claimed); cap 2,500 pts/month. Surcharge waiver cap conflict (Rs100/month vs up to Rs4,000 txn)."
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/cards/sbi-bpcl-octane",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-bpcl-octane",
+        "https://www.bankbazaar.com/credit-card/fuel-credit-cards.html"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Fee Rs1,499+GST, waiver Rs2L. Rs2,000 voucher at Rs3L. cap_inr computed from 2,500 pts at Rs0.25 (7.25% claim may be inflated by surcharge waiver)."
+    },
+    {
+      "name": "Air India SBI Signature Card",
+      "issuer": "SBI Card",
+      "annual_fee": 4999,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://cardadvisor.in/cards/sbi-air-india-signature",
+      "source_type": "third_party",
+      "sources": [
+        "https://cardadvisor.in/cards/sbi-air-india-signature"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Closed to new applicants since 10 Oct 2024 (existing holders only). 10 RP/Rs100 on Air India, 4 RP/Rs100 other; conflicting figure of 30 RP/Rs100 from CreditMantri. 1 RP = 1 Maharaja point. Exempt from 60,000 pts/month statement credit cap."
     }
   ],
   "offers": [
     {
-      "card": "Sample Cashback Card",
+      "card": "Axis ACE",
       "merchants": [
-        "tanishq"
+        "joyalukkas"
       ],
-      "categories": [],
+      "categories": [
+        "jewellery"
+      ],
       "type": "percent",
-      "value": 0.05,
-      "min_spend": 20000,
-      "cap_inr": 7500,
-      "valid_till": "2026-11-15",
-      "desc": "5% instant discount at Tanishq",
-      "source_url": null,
-      "last_verified": null
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null,
+      "cards": [
+        "Axis ACE",
+        "Flipkart Axis Bank",
+        "Axis Atlas",
+        "Axis Horizon",
+        "Axis Magnus",
+        "Axis Reserve",
+        "Axis Select",
+        "Axis Privilege",
+        "Axis My Zone",
+        "Axis Neo",
+        "Airtel Axis Bank",
+        "Axis Cashback"
+      ]
     },
     {
-      "card": "Sample Dining & Travel Card",
-      "merchants": [],
+      "card": "Axis ACE",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null,
+      "cards": [
+        "Axis ACE",
+        "Flipkart Axis Bank",
+        "Axis Atlas",
+        "Axis Horizon",
+        "Axis Magnus",
+        "Axis Reserve",
+        "Axis Select",
+        "Axis Privilege",
+        "Axis My Zone",
+        "Axis Neo",
+        "Airtel Axis Bank",
+        "Axis Cashback"
+      ]
+    },
+    {
+      "card": "Axis ACE",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null,
+      "cards": [
+        "Axis ACE",
+        "Flipkart Axis Bank",
+        "Axis Atlas",
+        "Axis Horizon",
+        "Axis Magnus",
+        "Axis Reserve",
+        "Axis Select",
+        "Axis Privilege",
+        "Axis My Zone",
+        "Axis Neo",
+        "Airtel Axis Bank",
+        "Axis Cashback"
+      ]
+    },
+    {
+      "card": "HDFC Infinia",
+      "merchants": [
+        "Joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 2,
+      "min_spend": 75000,
+      "cap_inr": 3000,
+      "valid_till": "2026-11-10",
+      "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+      "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+      "last_verified": null,
+      "cards": [
+        "HDFC Infinia",
+        "HDFC Diners Club Black Metal Edition",
+        "HDFC Diners Club Black",
+        "HDFC Regalia Gold",
+        "HDFC Regalia",
+        "HDFC Diners Club Privilege",
+        "HDFC Millennia",
+        "HDFC MoneyBack+",
+        "HDFC Freedom",
+        "HDFC Pixel Play"
+      ]
+    },
+    {
+      "card": "HDFC Infinia",
+      "merchants": [
+        "GRT Jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 2,
+      "min_spend": 75000,
+      "cap_inr": 5000,
+      "valid_till": "2026-10-15",
+      "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+      "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+      "last_verified": null,
+      "cards": [
+        "HDFC Infinia",
+        "HDFC Diners Club Black Metal Edition",
+        "HDFC Diners Club Black",
+        "HDFC Regalia Gold",
+        "HDFC Regalia",
+        "HDFC Diners Club Privilege",
+        "HDFC Millennia",
+        "HDFC MoneyBack+",
+        "HDFC Freedom",
+        "HDFC Pixel Play"
+      ]
+    },
+    {
+      "card": "HDFC Infinia",
+      "merchants": [
+        "GRT Jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 1.5,
+      "min_spend": 20000,
+      "cap_inr": 1500,
+      "valid_till": "2026-12-31",
+      "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+      "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+      "last_verified": null,
+      "cards": [
+        "HDFC Infinia",
+        "HDFC Diners Club Black Metal Edition",
+        "HDFC Diners Club Black",
+        "HDFC Regalia Gold",
+        "HDFC Regalia",
+        "HDFC Diners Club Privilege",
+        "HDFC Millennia",
+        "HDFC MoneyBack+",
+        "HDFC Freedom",
+        "HDFC Pixel Play"
+      ]
+    },
+    {
+      "card": "HDFC Infinia",
+      "merchants": [
+        "Joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 20,
+      "valid_till": "2026-12-31",
+      "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+      "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+      "last_verified": null,
+      "cards": [
+        "HDFC Infinia",
+        "HDFC Diners Club Black Metal Edition",
+        "HDFC Diners Club Black",
+        "HDFC Regalia",
+        "HDFC Regalia Gold",
+        "HDFC Tata Neu Infinity",
+        "HDFC Tata Neu Plus"
+      ]
+    },
+    {
+      "card": "ICICI Amazon Pay",
+      "merchants": [
+        "Surat Diamonds"
+      ],
       "categories": [
         "jewellery"
       ],
       "type": "flat",
-      "value": 3000,
-      "min_spend": 100000,
-      "cap_inr": 3000,
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
       "valid_till": "2026-12-31",
-      "desc": "Flat ₹3,000 off jewellery on ₹1L+",
-      "source_url": null,
-      "last_verified": null
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null,
+      "cards": [
+        "ICICI Amazon Pay",
+        "ICICI Sapphiro",
+        "ICICI Rubyx",
+        "ICICI Coral",
+        "ICICI Emeralde",
+        "ICICI Emeralde Private Metal",
+        "ICICI Times Black",
+        "ICICI HPCL Super Saver",
+        "ICICI Platinum Chip",
+        "ICICI MakeMyTrip Signature",
+        "ICICI MakeMyTrip Platinum",
+        "ICICI Manchester United Signature"
+      ]
     }
-  ]
+  ],
+  "gaps": {
+    "manual.json": [],
+    "axis.json": [
+      "No Tanishq, Malabar, Kalyan or CaratLane Axis card offer found on axis.bank.in as of 2026-10-11. Tanishq vouchers are redeemable only via EDGE Rewards catalogue (points redemption, not a card discount). Kalyan voucher offer (Rs20k/month cap) found only in an undated document; not treated as current.",
+      "Jewellery offers listed are bank-wide (any Axis credit/debit card) and replicated per card; they expire 15 Oct 2026 (4 days after retrieval). 'value' for type percent is a fraction (0.20 = 20%). Visa/RuPay-specific jewellery offers (Giva Rs500 off Rs1,499 to 31 Dec 2026; Giva extra 25% RuPay to 31 Jul 2027) not included.",
+      "Official ACE T&C at axisbank.com redirects to a 404 on axis.bank.in; used the Apr 2024 ACE revision PDF and the MITC instead. Monthly caps for ACE 5%/4% categories not found.",
+      "Full per-card MITC reward tables not on official pages for Magnus (exact exclusions), Reserve (rates), Neo, Airtel, Cashback: jewellery treatment unverified for Neo, Airtel, Cashback.",
+      "Not covered: IndiGo Axis (BluChip value unknown; fee 799), IndiGo Premium, Vistara family, IndianOil, Samsung, Freecharge, Rewards, Pride, Buzz, Miles & More, SpiceJet, Burgundy Private, Kwik, Fibe, Google Pay Flex. MITC fee data exists for these.",
+      "EDGE point value (Rs0.20 portal/voucher; 0.5-1 via transfers) and EDGE Mile value (Re1 per Axis page) are estimates; true value depends on redemption. No official caps found for Atlas/Horizon travel earning besides Atlas Rs2L/month.",
+      "Source conflicts: Atlas forex 3.5% (official) vs 2% (third-party); Reserve waiver 35L (official MITC) vs 25L (third-party); Flipkart waiver 3.5L (official) vs 2L (older). Late-2026 changes (Aug-Nov) come partly from third-party book1a.com summarising official notices, not read directly.",
+      "pypdf/pdftotext not available; PDFs read via macOS PDFKit; MITC fee table layout was jumbled, My Zone, Neo, Horizon waiver thresholds not derivable."
+    ],
+    "hdfc.json": [
+      "No currently valid HDFC credit card offers found for Tanishq, Malabar Gold & Diamonds, Kalyan Jewellers or CaratLane on hdfc.bank.in; SmartBuy (offers.smartbuy.hdfc.bank.in) returned 403 to scripted fetch so personalised/SmartBuy-only offers were not seen.",
+      "Official HDFC jewellery offer page lists 20 offers; only Joyalukkas and GRT Jewellers offers with valid_till >= 2026-10-11 were captured. Sona Khazana, Bidhan, Gehna, Giva, Estele, Euphoria, Nnoni pages show offers but were not detailed (mostly silver/fashion jewellery).",
+      "Offer min_spend/cap/T&C for Joyalukkas 20% making-charge offer not on page (T&C collapsed); GRT offline offer ends 2026-10-15.",
+      "No explicit jewellery/gold (MCC 5944/5094) exclusion or jewellery-specific cap found in HDFC MITC v4.13 or reward T&Cs for Infinia, Diners Black, Regalia, Regalia Gold, MoneyBack+, Freedom, Diners Privilege; jewellery earn is inferred (absence of exclusion). Swiggy cards, IndianOil and Millennia-style exclusions were explicit. Third-party claims of a Regalia Gold 'digital_gold' exclusion not confirmed.",
+      "Infinia/Diners Black SmartBuy accelerated points on Tanishq vouchers: rate and monthly accelerated caps not confirmed (one aggregator says gold/jewellery excluded from SmartBuy bonus rewards, unverified).",
+      "Forex markup not found for Millennia, Swiggy cards, Tata Neu cards, MoneyBack+, Freedom, Pixel, IndianOil, Marriott (MITC fee table layout is garbled in text extraction). Product pages give 2% Infinia/Diners Black/Regalia Gold, 3.5% Regalia/Diners Privilege.",
+      "Marriott Bonvoy point rupee value and fee waiver threshold not published; base_rate omitted. IndianOil base_rate omitted (Fuel Point value unclear).",
+      "Not covered (no detailed data collected): Regalia First, Regalia Activ, Diners Club Miles/Rewardz/Premium, Doctor's Regalia, IRCTC, PhonePe Ultimo/Uno, Shoppers Stop, Pine Labs, UPI RuPay, Times, Superia, Paytm, business cards (BizBlack, BizPower, etc.). BizPower 15 May 2026 changes (5 RP/Rs200, IT/GST first-2-transactions rule, 5X cap 7,500 RP) seen only on third-party blog.",
+      "Rupee values of CashPoints/RP are redemption-dependent; rates assume the best stated common redemption (Infinia/Diners Black Rs1/RP on SmartBuy travel and Tanishq vouchers; Regalia family Rs0.50/RP) - lower for cashback redemption.",
+      "15 May 2026 changes confirmed officially for Regalia Gold (5 RP/Rs200) and Diners Privilege (4 RP/Rs200); BizPower and 'all other cards' scope from third-party only. Quarterly Rs60,000-spend lounge rule applies from 1 Jul 2026."
+    ],
+    "icici.json": [
+      "No live ICICI Kalyan, Tanishq, Malabar, Joyalukkas, TBZ or GIVA card offer found as of 2026-10-11: ICICI pages for Kalyan (to 26 Oct 2022, 23 Apr 2023), Tanishq (to 2 Nov 2023), TBZ (2021) are all marked Offer Expired; GIVA (Mar 2024) expired; Joyalukkas ICICI offer found is UK only. The only live jewellery-category offer on the ICICI Festive Bonanza page (valid to 31 Dec 2026) is Surat Diamonds (Rs5,000 off Rs15,000); other brand offers on that page are EMI-only or non-jewellery. The main /offers listing is JS-rendered and was not fully checked.",
+      "Jewellery earn status not confirmed from any ICICI source for Sapphiro, Rubyx, Coral, Emeralde, Emeralde Private, Times Black, MMT, Manchester United. Only third-party MCC lists (cardexpress/Savesage): excluded on Amazon Pay, Emeralde, HPCL Super Saver, Platinum Chip; not excluded on Sapphiro, Times Black (official FAQ), Emeralde Private. Need MCC 5944/5094 treatment from MITC/rewards T&C.",
+      "ICICI reward point rupee value not stated officially for Sapphiro/Rubyx/Coral/Platinum/Emeralde; rates use ~Rs0.25/RP (premium: Rs0.40 stmt credit) conservatively. Savesage and cardexpress conflict on effective return.",
+      "Official 2026 notices (15 Jan / 1 Feb 2026 changes, MITC, rewards T&C exclusions list) not fetched as primary docs; ICICI tnc_english.pdf and mitc_cc.pdf were read but contain no merchant-category exclusion list (only EMI, cash advance, fees excluded). 2026 devaluation details come from angelone/savesage (third party).",
+      "Cards not covered: Manchester United Platinum, Adani ICICI (Signature/Platinum), CSK, Expressions, Parakram/Parakram Select, Coral RuPay, Emirates Skywards (Rubyx/Sapphiro/Emeralde), Diamant, Alumni, Fixed-deposit-backed. Manchester United official page unreadable and fees conflict.",
+      "Monthly reward caps for base retail earn not found on any card; Amazon Pay cap not found."
+    ],
+    "others.json": [
+      "No currently valid (valid_till >= 2026-10-11) jewellery offers found for any covered issuer; offers[] is empty. Amex India Joyalukkas (till 5 Oct 2026), Kalyan (till 31 May 2026), GRT (till 30 Apr 2026) offers are expired; Amex Tanishq T&Cs are 2020-2022. IndusInd Kalyan/GIVA/Surat Diamond offers expired 31 Mar 2025. Diwali is 8 Nov 2026; Dhanteras/Diwali 2026 campaigns apparently not yet published - recheck Amex offers pages (JS-rendered, not scrapable), IndusInd/Kotak/AU/IDFC/RBL/SC offer pages late Oct.",
+      "All card data comes from aggregator CardAdvisor (pages dated 25 Sep - 5 Oct 2026); no issuer MITC/T&C PDFs were read, so all confidence is low.",
+      "Jewellery earn/exclusion treatment is not stated for most cards. Only YES Bank Select and Elite+ explicitly exclude jewellery (CardAdvisor). Check MITC for all others, especially Amex, IndusInd, Kotak, IDFC FIRST, RBL, SC.",
+      "Not found/covered: Amex Gold Charge as a separate card (Amex Gold Card included), Kotak Royale Signature (listed Discontinued by Kotak), YES Ace/Prosperity/Private, IDFC FIRST Diamond Reserve/Private/Ashva/Gaj/WOW, AU Ananta/Vetta/Xcite/Zenith+/Ixigo, RBL Apex/Lumiere/Nova/Shoprite, SC Rewards/Platinum Rewards/EaseMyTrip/Digismart, IndusInd Celesta/Crest/Avios/Pinnacle.",
+      "Amex India new applications paused (all cards); Kotak Royale Signature discontinued; OneCard applications reportedly paused.",
+      "cap_inr for many rules is derived from point caps x point value; source conflicts noted per card. Point values vary by redemption route (e.g. IDFC Mayura 0.25 vs 0.50; YES 0.10-0.25; SC Rs1 vs 0.25); base_rate uses conservative baseline.",
+      "IDFC FIRST Wealth page shows finance charge 0.71%/month which looks like a source error."
+    ],
+    "sbi.json": [
+      "Cashback card revised PDF (cashback-revised.pdf) not downloadable (connection reset, no pdftotext); specifics from third parties.",
+      "No SBI jewellery offers with valid_till >= 2026-10-11 found; only expired (Akshaya Tritiya 2025: Tanishq Rs4,000 off on Rs80,000, Malabar Rs2,500; Diwali 2020 etc.). Check sbicard.com offers page for Diwali/Dhanteras 2026.",
+      "Jewellery (MCC 5944/5094) exclusion not confirmed for Elite, Prime, SimplyCLICK, SimplySAVE, Aurum, IRCTC, BPCL; only Cashback and Flipkart list it.",
+      "Not covered: Lifestyle Home Centre SBI Card, Reliance SBI, Miles, PhonePe (rewards revised 1 Jul 2026), Tata/IndiGo variants, Yatra, etc.",
+      "Titan card: quarterly caps not expressible in monthly cap_inr (omitted); sbicard.com official page content not fetchable; welcome and milestone terms third-party.",
+      "Most cards: official MITC/T&C PDFs not read; forex markup missing for IRCTC/BPCL/Air India cards.",
+      "Rate semantic: RP value assumed Rs0.25 (4 RP = Rs1) per third parties."
+    ]
+  }
 }

@@ -1,0 +1,677 @@
+{
+  "cards": [
+    {
+      "name": "ICICI Amazon Pay",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0199,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "amazon"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "desc": "5% for Prime members (3% non-Prime) on Amazon.in as Amazon Pay balance; 2% on Amazon Pay partner merchants; 1% elsewhere. Non-Prime 3% not modelled. No cap found."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "dining",
+            "travel",
+            "other"
+          ],
+          "rate": 0.01,
+          "desc": "1% on spends outside Amazon (official)"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "rent",
+        "utilities",
+        "insurance",
+        "education",
+        "tax",
+        "wallet_load",
+        "emi",
+        "upi",
+        "gaming"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+        "https://cardexpress.in/mcc-guide/exclusions/icici-amazon-pay",
+        "https://savesage.club/credit-card/icici-amazon-pay"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: lifetime free, 5%/3% Amazon, 1% other, forex 1.99%, 1% fuel surcharge waiver, invite-only. Jewellery exclusion is from third-party MCC list (5094 Precious Stones/Metals/Jewelry, 5944 Jewelry Stores) - not on official page. Savesage also lists International, Utilities, Education, Tax as zero-earn; official page says 1% on non-Amazon spends, so conflict on international. Cashback credited as Amazon Pay balance (value Re1). Excluded from Kalyan/Tanishq ICICI offers historically. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Sapphiro",
+      "issuer": "ICICI Bank",
+      "annual_fee": 3500,
+      "fee_waiver_spend": 600000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.01,
+          "desc": "4 RP per Rs100 on international spend; at ~Rs0.25/RP = ~1% (earlier file assumed Re1/RP = 4%, which is not supported for this tier)"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.005,
+          "desc": "Jewellery appears NOT excluded (third-party MCC list excludes only fuel, wallet funding, rent); earns 2 RP/Rs100 base. Unconfirmed by ICICI."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+        "https://cardexpress.in/mcc-guide/exclusions/icici-sapphiro",
+        "https://cardexpress.in/cards/icici-sapphiro",
+        "https://savesage.club/credit-card/icici-sapphiro"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining Rs6,500+GST, annual Rs3,500+GST waived on >Rs6L spend; forex 3.5% (official; earlier file had null); 2 RP/Rs100 domestic, 4 RP/Rs100 international, 1 RP/Rs100 utilities and insurance; milestone 4,000 RP at Rs4L then 2,000 per Rs1L (max 20,000/yr); 4 domestic lounge visits/quarter on Rs75k prior-quarter spend, 2 intl/yr. Point value not stated officially; Savesage gives 0.5%-1% return, so base 0.5% is the conservative end. Fuel/wallet/rent exclusions from cardexpress (dated 31 Aug 2026 issuer terms); no cap found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Rubyx",
+      "issuer": "ICICI Bank",
+      "annual_fee": 2000,
+      "fee_waiver_spend": 300000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.01,
+          "desc": "4 RP/Rs100 international; ~1% at Rs0.25/RP"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+        "https://cardexpress.in/cards/icici-rubyx"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining Rs3,000+GST, annual Rs2,000+GST waived on >Rs3L; forex 3.5%; 2 RP/Rs100 domestic, 4 intl, 1 utilities/insurance; no points on fuel (official FAQ), 1% fuel surcharge waiver Rs400-4,000; milestone 3,000 RP at Rs3L + 1,500 per extra Rs1L (max 15,000/yr); lounge needs Rs75k prior quarter. Wallet/rent exclusions assumed from ICICI-wide terms; jewellery treatment NOT found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Coral",
+      "issuer": "ICICI Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 150000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [],
+      "excludes": [
+        "fuel",
+        "wallet_load",
+        "rent"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+        "https://cardexpress.in/cards/icici-coral",
+        "https://savesage.club/credit-card/icici-coral"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining Rs500+GST, annual Rs500+GST waived on >Rs1.5L; forex 3.5%; 2 RP/Rs100 retail, 1 RP utilities/insurance; milestone 2,000 RP at Rs2L + 1,000 per Rs1L (max 10,000/yr); 1% fuel waiver at HPCL; 1 domestic lounge/quarter on Rs75k. Savesage return 0.25%-0.5% (conflicts with 0.5% base used here). Jewellery treatment NOT found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Emeralde",
+      "issuer": "ICICI Bank",
+      "annual_fee": 12000,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.02,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "government",
+        "gaming",
+        "emi",
+        "wallet_load"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+        "https://savesage.club/credit-card/icici-emeralde"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining and annual Rs12,000+GST (waived on >Rs10L), forex 2%, 4 RP/Rs100 domestic and intl, 1 RP utilities/insurance; unlimited domestic+intl lounge; golf; BookMyShow BOGO up to Rs750. Jewellery exclusion only from Savesage (third-party). Savesage return 0.25%-1% (1% = 4RP at Rs0.25). Accelerated iShop cap 15,000 RP/month. Add-on card fee per Savesage Rs0. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Emeralde Private Metal",
+      "issuer": "ICICI Bank",
+      "annual_fee": 12499,
+      "fee_waiver_spend": 1000000,
+      "forex_markup": 0.02,
+      "base_rate": 0.012,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "bill_payments"
+          ],
+          "rate": 0.012,
+          "cap_inr": 400,
+          "desc": "Grocery, utilities, education: max 1,000 RP per category per statement cycle (official); cap_inr = 1,000 RP x Rs0.40. Insurance max 5,000 RP/cycle."
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.012,
+          "desc": "Jewellery not in third-party zero-earn list; earns 6 RP/Rs200. At Rs1/RP via vouchers up to 3%, but jewellery vouchers are NetBanking-only now."
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "government",
+        "emi",
+        "wallet_load",
+        "gaming",
+        "upi"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+        "https://savesage.club/credit-card/icici-emeralde-private-metal",
+        "https://cardexpress.in/cards/icici-emeralde-private-metal",
+        "https://oga-prod.angelone.in/news/stocks/icici-bank-revises-credit-card-rules-for-2026-new-fees-reward-changes-and-discontinued-benefits"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Invite-only. Official: joining/annual Rs12,499+GST waived on >Rs10L; forex 2%; 6 RP per Rs200 retail; 12,500 RP + Taj Epicure joining benefit; unlimited lounges and golf; Plus card Rs3,500 for cards issued after 15 Jan 2026 (third-party). Point value: 1 RP = Re1 on portal/vouchers (cardexpress; ~3% base), Rs0.40 statement credit (cap 50k RP/cycle), Savesage says 0.25%-1% return, so base 1.2% (Rs0.40) used conservatively; up to 3% if redeemed at Re1. iShop hotels 12X / flights 6X capped 18,000 bonus RP/month, 10,000/day (Savesage). Zero-earn per Savesage: EMI, government, rent, wallets, fuel, gaming, UPI. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Times Black",
+      "issuer": "ICICI Bank",
+      "annual_fee": 20000,
+      "fee_waiver_spend": 2500000,
+      "forex_markup": 0.0149,
+      "base_rate": 0.02,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.025,
+          "desc": "2.5% on international spend (official), at up to Re1/RP"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.02,
+          "cap_inr": 2000,
+          "desc": "Utilities/insurance/education/government: max 5,000 RP per statement cycle (official); cap_inr assumes Rs0.40/RP"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.02,
+          "desc": "Not excluded per official FAQ (only fuel, rent, EMI excluded); 2% at up to Re1/RP; Rs0.40/RP statement credit gives 0.8%"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "emi",
+        "wallet_load",
+        "gaming",
+        "upi"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+        "https://savesage.club/credit-card/icici-times-black"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining/annual Rs20,000+GST (waived >Rs25L), forex 1.49%, 2% points on domestic eligible transactions, 2.5% intl, value of 1 RP up to Re1 but Rs0.40 when redeemed against statement. Fuel, rent, EMI earn nothing (official); wallets/UPI/gaming/education per Savesage. Premium, Visa only. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI HPCL Super Saver",
+      "issuer": "ICICI Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 150000,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [
+            "hpcl"
+          ],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.05,
+          "cap_inr": 200,
+          "desc": "5% at HPCL pumps / HP Pay = 4% cashback (cap Rs200/month) + 1% surcharge waiver; cap applies to the 4% part"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "bill_payments"
+          ],
+          "rate": 0.05,
+          "cap_inr": 100,
+          "desc": "20 RP/Rs100 on groceries, utilities, department stores; cap 400 RP/month (official FAQ) = ~Rs100 at Rs0.25/RP; Savesage says per statement cycle"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "rent",
+        "wallet_load",
+        "gaming",
+        "upi"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+        "https://savesage.club/credit-card/icici-hpcl-super-saver"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: joining/annual Rs500+GST waived >Rs1.5L; forex 3.5%; 2 RP/Rs100 retail; 2,000 RP joining benefit. Jewellery/fuel(points)/rent/wallet exclusions from Savesage only. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Platinum Chip",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "fuel",
+        "rent",
+        "wallet_load",
+        "gaming"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+        "https://savesage.club/credit-card/icici-platinum-chip"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: lifetime free, forex 3.5%, 2 RP/Rs100 retail, 1 RP utilities/insurance, 1% fuel waiver at HPCL (Rs400-4,000). Jewellery exclusion from Savesage (third-party). Savesage return 0.25%-0.5%. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI MakeMyTrip Signature",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.00625,
+      "rules": [
+        {
+          "merchants": [
+            "makemytrip"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.02,
+          "desc": "4 myCash per Rs200 on hotels (2%), 2 per Rs200 flights (1%); myCash usable only on MakeMyTrip, assumed 1 myCash = Re1"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining Rs2,500+GST, no annual fee, forex 3.5%, 1.25 myCash per Rs200 domestic; milestones 1,100 myCash at Rs2.5L, 4,000 at Rs5L. Page states no longer accepting applications. Domestic lounge needs Rs75k prior quarter from 1 Jul 2026. Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI MakeMyTrip Platinum",
+      "issuer": "ICICI Bank",
+      "annual_fee": 0,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.005,
+      "rules": [
+        {
+          "merchants": [
+            "makemytrip"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.015,
+          "desc": "3 myCash per Rs200 hotels, 2 flights (1%); myCash only on MMT, assumed Re1"
+        }
+      ],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: joining Rs500+GST, no annual fee, forex 3.5%, 1 myCash per Rs200 domestic; page notes no longer accepting applications (note text names Signature variant). Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+    },
+    {
+      "name": "ICICI Manchester United Signature",
+      "issuer": "ICICI Bank",
+      "annual_fee": null,
+      "fee_waiver_spend": null,
+      "forex_markup": null,
+      "base_rate": 0.005,
+      "rules": [],
+      "excludes": [
+        "fuel"
+      ],
+      "source_url": "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+      "source_type": "third_party",
+      "sources": [
+        "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+        "https://cardtrail.in/vs/icici-manchester-united-signature-vs-shoppers-stop-black-hdfc-bank/",
+        "https://cardexpress.in/cards/icici-manchester-united"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page could not be read (URL returned generic page). Fee conflict: cardtrail Rs2,499 (waiver Rs2.5L) vs cardexpress Rs499 (waiver Rs1.3L); fee left null. Paisabazaar: 3 RP/Rs100 domestic, 4 intl, no fuel points; base ~0.5% at ~Rs0.25/RP. Platinum variant not found. Exclusions/jewellery not found."
+    }
+  ],
+  "offers": [
+    {
+      "card": "ICICI Amazon Pay",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Sapphiro",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Rubyx",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Coral",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Emeralde",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Emeralde Private Metal",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Times Black",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI HPCL Super Saver",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Platinum Chip",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI MakeMyTrip Signature",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI MakeMyTrip Platinum",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    },
+    {
+      "card": "ICICI Manchester United Signature",
+      "merchants": [
+        "Surat Diamonds"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 5000,
+      "min_spend": 15000,
+      "cap_inr": 5000,
+      "valid_till": "2026-12-31",
+      "desc": "Rs5,000 off on min purchase Rs15,000 at Surat Diamonds with code ICICIBNK5000 (valid on ICICI credit and debit cards and net banking, 1 May - 31 Dec 2026 per ICICI Festive Bonanza page). Card-specific eligibility (e.g. Amazon Pay) and per-card frequency not stated; T&C page not retrievable.",
+      "source_url": "https://www.icici.bank.in/campaigns/bonanza/index",
+      "last_verified": null
+    }
+  ],
+  "gaps": [
+    "No live ICICI Kalyan, Tanishq, Malabar, Joyalukkas, TBZ or GIVA card offer found as of 2026-10-11: ICICI pages for Kalyan (to 26 Oct 2022, 23 Apr 2023), Tanishq (to 2 Nov 2023), TBZ (2021) are all marked Offer Expired; GIVA (Mar 2024) expired; Joyalukkas ICICI offer found is UK only. The only live jewellery-category offer on the ICICI Festive Bonanza page (valid to 31 Dec 2026) is Surat Diamonds (Rs5,000 off Rs15,000); other brand offers on that page are EMI-only or non-jewellery. The main /offers listing is JS-rendered and was not fully checked.",
+    "Jewellery earn status not confirmed from any ICICI source for Sapphiro, Rubyx, Coral, Emeralde, Emeralde Private, Times Black, MMT, Manchester United. Only third-party MCC lists (cardexpress/Savesage): excluded on Amazon Pay, Emeralde, HPCL Super Saver, Platinum Chip; not excluded on Sapphiro, Times Black (official FAQ), Emeralde Private. Need MCC 5944/5094 treatment from MITC/rewards T&C.",
+    "ICICI reward point rupee value not stated officially for Sapphiro/Rubyx/Coral/Platinum/Emeralde; rates use ~Rs0.25/RP (premium: Rs0.40 stmt credit) conservatively. Savesage and cardexpress conflict on effective return.",
+    "Official 2026 notices (15 Jan / 1 Feb 2026 changes, MITC, rewards T&C exclusions list) not fetched as primary docs; ICICI tnc_english.pdf and mitc_cc.pdf were read but contain no merchant-category exclusion list (only EMI, cash advance, fees excluded). 2026 devaluation details come from angelone/savesage (third party).",
+    "Cards not covered: Manchester United Platinum, Adani ICICI (Signature/Platinum), CSK, Expressions, Parakram/Parakram Select, Coral RuPay, Emirates Skywards (Rubyx/Sapphiro/Emeralde), Diamant, Alumni, Fixed-deposit-backed. Manchester United official page unreadable and fees conflict.",
+    "Monthly reward caps for base retail earn not found on any card; Amazon Pay cap not found."
+  ]
+}

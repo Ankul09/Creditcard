@@ -41,9 +41,13 @@ def load_cards(path: str = DATA_PATH) -> List[dict]:
 def _matching_rule(card: dict, p: Purchase) -> Optional[dict]:
     best = None
     for rule in card["rules"]:
-        hit = (p.merchant and p.merchant.lower() in rule["merchants"]) or (
-            p.category and p.category in rule["categories"]
-        )
+        if rule.get("rate") is None:
+            continue
+        merchants = [m.lower() for m in rule["merchants"]]
+        if merchants:  # merchant-locked rule: only earns at those merchants
+            hit = bool(p.merchant) and p.merchant.lower() in merchants
+        else:
+            hit = bool(p.category) and p.category in rule["categories"]
         if hit and (best is None or rule["rate"] > best["rate"]):
             best = rule
     return best
@@ -53,15 +57,20 @@ def best_offer(card: dict, p: Purchase, offers: List[dict], today: Optional[date
     today = today or date.today()
     best_val, best_desc = 0.0, ""
     for o in offers:
-        if o["card"] != card["name"] or p.amount < o.get("min_spend", 0):
+        if card["name"] not in o.get("cards", [o["card"]]) or p.amount < (o.get("min_spend") or 0):
             continue
         if o.get("valid_till") and date.fromisoformat(o["valid_till"]) < today:
             continue
-        if not ((p.merchant and p.merchant.lower() in o["merchants"])
-                or (p.category and p.category in o["categories"])):
+        merchants = [m.lower() for m in o["merchants"]]
+        if merchants:  # merchant-locked offer
+            if not (p.merchant and p.merchant.lower() in merchants):
+                continue
+        elif not (p.category and p.category in o["categories"]):
             continue
+        if "making charges" in o.get("desc", "").lower():
+            continue  # discount applies to making charges only; share of bill unknown
         val = o["value"] if o["type"] == "flat" else p.amount * o["value"]
-        val = min(val, o.get("cap_inr", val))
+        val = min(val, o.get("cap_inr") or val)
         if val > best_val:
             best_val, best_desc = val, o["desc"]
     return best_val, best_desc
@@ -69,20 +78,25 @@ def best_offer(card: dict, p: Purchase, offers: List[dict], today: Optional[date
 
 def evaluate(card: dict, p: Purchase, offers: Optional[List[dict]] = None) -> Result:
     offer, offer_desc = best_offer(card, p, offers or [])
-    if p.category in card.get("excludes", []):
-        return Result(card, 0.0, 0.0, f"{p.category} excluded from rewards", offer, offer_desc)
     rule = _matching_rule(card, p)
+    if rule is None and p.category in card.get("excludes", []):
+        return Result(card, 0.0, 0.0, f"{p.category} excluded from rewards", offer, offer_desc)
     if rule is None:
-        reward = p.amount * card["base_rate"]
-        reason = f"base rate {card['base_rate']:.1%}"
+        reward = p.amount * (card.get("base_rate") or 0)
+        reason = f"base rate {(card.get('base_rate') or 0):.1%}"
     else:
-        boosted = min(p.amount * rule["rate"], rule["cap_inr"])
+        cap = rule.get("cap_inr")
+        boosted = p.amount * rule["rate"]
+        if cap is not None:
+            boosted = min(boosted, cap)
         # Spend beyond the cap earns the base rate.
-        capped_spend = boosted / rule["rate"]
-        reward = boosted + (p.amount - capped_spend) * card["base_rate"]
-        reason = f"{rule['rate']:.1%} on this category (cap ₹{rule['cap_inr']:,}/month)"
-        if boosted >= rule["cap_inr"]:
-            reason += ", cap reached"
+        capped_spend = boosted / rule["rate"] if rule["rate"] else p.amount
+        reward = boosted + (p.amount - capped_spend) * (card.get("base_rate") or 0)
+        reason = f"{rule['rate']:.1%} on this category"
+        if cap is not None:
+            reason += f" (cap ₹{cap:,}/month)"
+            if boosted >= cap:
+                reason += ", cap reached"
     return Result(card, reward, reward / p.amount if p.amount else 0, reason, offer, offer_desc)
 
 

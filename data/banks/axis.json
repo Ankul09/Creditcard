@@ -1,0 +1,1201 @@
+{
+  "cards": [
+    {
+      "name": "Axis ACE",
+      "issuer": "Axis Bank",
+      "annual_fee": 499,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.035,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [
+            "google pay"
+          ],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.05,
+          "desc": "5% cashback on utility bills, DTH and mobile recharges paid via Google Pay only; cap not stated on page"
+        },
+        {
+          "merchants": [
+            "swiggy",
+            "zomato",
+            "ola"
+          ],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.04,
+          "desc": "4% cashback on Swiggy, Zomato, Ola; cap not stated"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "emi",
+        "wallet_load",
+        "cash_advance",
+        "rent",
+        "insurance",
+        "education",
+        "government",
+        "financial_institutions",
+        "utilities_outside_gpay",
+        "telecom_outside_gpay",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/credit-card/terms-and-conditions-axis-bank-ace-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official ACE page: 5% GPay bills, 4% Swiggy/Zomato/Ola, 1.5% other. Official Apr 2024 T&C revision explicitly excludes 'purchase of jewelry items' and 'purchase of gold' from cashback. Fee 499 waived at Rs2L spend in anniversary year (MITC). Lounge needs Rs50k spend in prior 3 months (4 domestic/yr per third parties; not re-verified). Monthly cashback caps for 5%/4% categories not found. Old 2% figure (older aggregators) is obsolete; conflicts with ACE entry in cards.json (Gpay 5% only). Cashback is cash value (rate = Re1 per Re1). Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Flipkart Axis Bank",
+      "issuer": "Axis Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 350000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "myntra"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.075,
+          "desc": "7.5% on Myntra, cap Rs4,000 per statement quarter"
+        },
+        {
+          "merchants": [
+            "flipkart",
+            "cleartrip"
+          ],
+          "categories": [
+            "online_shopping",
+            "travel"
+          ],
+          "rate": 0.05,
+          "desc": "5% on Flipkart and Cleartrip, cap Rs4,000 per statement quarter per merchant"
+        },
+        {
+          "merchants": [
+            "swiggy",
+            "uber"
+          ],
+          "categories": [
+            "dining",
+            "travel"
+          ],
+          "rate": 0.04,
+          "desc": "Unlimited 4% on preferred merchants (merchant list per third-party sources: Swiggy, Uber etc.; confirm)"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "emi",
+        "wallet_load",
+        "rent",
+        "utilities",
+        "telecom",
+        "insurance",
+        "education",
+        "government",
+        "financial_institutions",
+        "cash_advance",
+        "gift_cards"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/terms-and-conditions-flipkart-axis-bank-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/cashback-tncs---final.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 7.5% Myntra (from 20 Jun 2025, was 1%), 5% Flipkart/Cleartrip, 4% preferred, 1% other. Caps are per statement QUARTER so cap_inr omitted. Cashback T&C explicitly excludes gold in any form incl. jewellery and MCC 'Clock, Jewelry, Watch and Silverware Stores' (5944). Waiver Rs3.5L (official page/MITC; older sources say Rs2L). Domestic lounge discontinued 20 Jun 2025; welcome voucher cut to Rs250. Flipkart Axis Bank Super Elite is a separate card, not covered. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Atlas",
+      "issuer": "Axis Bank",
+      "annual_fee": 5000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.02,
+      "rules": [
+        {
+          "merchants": [
+            "axis travel edge"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.05,
+          "cap_inr": 10000,
+          "desc": "5 EDGE Miles per Rs100 on Travel EDGE, airlines, hotels up to Rs2L spend/month (=10,000 miles); 2 miles per Rs100 beyond. 1 EDGE Mile valued Re1 on Axis page (transfer value differs)"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "rent",
+        "wallet_load",
+        "government",
+        "insurance",
+        "fuel",
+        "utilities",
+        "telecom",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-atlas-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-atlas-credit-card",
+        "https://campaign.axis.bank.in/generic/axis-atlas-credit-card-terms-and-conditions.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: 2 EDGE Miles/Rs100 base, 5/Rs100 travel; 1 EDGE Mile = Re1 (Axis value chart); base_rate 2% uses that. Official 20 Apr 2024 revision: gold/jewellery (MCC 5094, 5944), rent, wallet, govt, insurance, fuel, utilities/telecom excluded from miles AND milestone/tier spends; accelerated travel capped at Rs2L/month; Group A transfer cap 30k miles/yr, Group B 1.2L, total 1.5L; milestone miles cut to max 10,000 (3L/7.5L/15L); concierge and tier airport benefits discontinued. 2026 (third party): Accor/Marriott/Qatar removed 2 Apr 2026, partner group changes 23 Sep 2026. Forex 3.5% per official MITC/page (some third parties claim 2%: conflict, official used). No spend-based fee waiver. Fee 5,000 joining and annual. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Horizon",
+      "issuer": "Axis Bank",
+      "annual_fee": 3000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.02,
+      "rules": [
+        {
+          "merchants": [
+            "axis travel edge"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.05,
+          "desc": "5 EDGE Miles per Rs100 on Travel EDGE and direct airline spends; cap not stated"
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.02,
+          "desc": "Horizon T&C do not list gold/jewellery as excluded; 2 EDGE Miles per Rs100 on other spends (1 mile approx Re1 per Axis renewal-benefit wording). Verify on first jewellery transaction"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "rent",
+        "wallet_load",
+        "gift_cards",
+        "utilities",
+        "telecom",
+        "insurance",
+        "education",
+        "government",
+        "toll",
+        "transport"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/credit-cards/terms-and-conditions-for-horizon-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/revision-terms-and-conditions-horizon-credit-card.pdf",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "KEY FINDING: official Horizon T&C exclusion list (Transportation & Tolls, Utilities & Telecom, Insurance, Educational Institutions, Govt Institutions, Wallet/Gift cards, Rent, Fuel) does NOT include gold/jewellery, unlike Atlas/Magnus/Reserve/Select/Privilege. So jewellery appears to earn 2 miles/Rs100 (~2% at Re1/mile; miles value is an assumption, 1500 miles described as worth Rs1,500 in renewal benefit). Fee 3,000 joining+annual (Nil for Burgundy savings accounts opened on/after 1 Jul 2026); no spend-based waiver found. 2 intl lounge visits per quarter plus domestic. Forex 3.5%, DCC raised from 1.5% to 3.5% eff 21 Aug 2026. Confidence medium because absence-of-exclusion is inferred and MCC-level treatment unverified. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Magnus",
+      "issuer": "Axis Bank",
+      "annual_fee": 12500,
+      "fee_waiver_spend": 2500000,
+      "forex_markup": 0.02,
+      "base_rate": 0.012,
+      "rules": [
+        {
+          "merchants": [
+            "axis travel edge"
+          ],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.06,
+          "desc": "5X EDGE points via Travel EDGE (60 pts/Rs200, third-party; official page says only '5X'); value at Rs0.20/pt"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "government",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+        "https://cardexpert.in/axis-magnus-review/",
+        "https://www.paisabazaar.com/credit-card/axis-magnus-devaluation/"
+      ],
+      "data_status": "unverified",
+      "confidence": "medium",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: 12 EDGE Reward points/Rs200 up to Rs1.5L spend per calendar month, 35 pts/Rs200 on incremental spend above Rs1.5L (35 pts capped up to credit limit + 1.5L), 2 partner miles per 5 points. Base 1.2% assumes Rs0.20/point (third-party; higher if transferred, ~2.4%). Spend above 1.5L/month earns ~3.5% (not modelled as rule). Fee 12,500 waived at Rs25L eligible spend (MITC); excluded from waiver spend: rent, wallet, utilities, govt, EMI, insurance, gold, fuel, gift cards (from 28 Aug 2026). Gold/jewellery no-earn is from third-party sources (cardexpert, paisabazaar), official Magnus T&C not read. Forex 2% (MITC). Apr 2026 devaluation reports (pickmywork, third party): transfer ratio 5:2 and partner removals. Rent capped Rs50k/month per cardexpert. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Reserve",
+      "issuer": "Axis Bank",
+      "annual_fee": 50000,
+      "fee_waiver_spend": 3500000,
+      "forex_markup": 0.015,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "international"
+          ],
+          "rate": 0.03,
+          "desc": "30 EDGE pts per Rs200 on international spend (third-party), value Rs0.20/pt; capped at credit limit per calendar month"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "wallet_load",
+        "government",
+        "rent",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/reserve-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/reserve-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+        "https://a2622016.axisbank.com/docs/default-source/default-document-library/credit-cards/reserve-credit-card-terms-and-conditions.pdf",
+        "https://cardexpress.in/cards/axis-reserve"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Base 15 EDGE pts/Rs200 domestic (1.5% at Rs0.20/pt) is third-party (cardexpress). Official: fee 50,000 waived at Rs35L eligible spend (MITC) - cardexpress says 25L (conflict, official used). Official 20 Apr 2024 revision: insurance, fuel, gold/jewellery, wallet no longer earn. Forex 1.5% (MITC). Invite/high-income card. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Select",
+      "issuer": "Axis Bank",
+      "annual_fee": 3000,
+      "fee_waiver_spend": 800000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "groceries",
+            "online_shopping"
+          ],
+          "rate": 0.02,
+          "cap_inr": 400,
+          "desc": "2X (20 pts/Rs200) on 'Retail shopping' (dept stores, grocery, clothing/accessory stores) up to Rs20,000 cumulative spend per month; value Rs0.20/pt"
+        }
+      ],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "telecom",
+        "education",
+        "government",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 10 EDGE pts per Rs200 (welcome 10,000 pts = Rs2,000 so Rs0.20/pt, base 1%); 2X on retail shopping to Rs20k/month. Gold/Jewellery explicitly no points. Fee 3,000 waived at Rs8L (excl rent, fuel, insurance, gold, wallet etc.). From 1 Oct 2026 non-rewarding categories incl gold/jewellery also excluded from the Rs3L lounge/Priority Pass renewal threshold; movie BOGO needs Rs25k spend in prior 3 months from 1 Nov 2026. DCC 3.5% from 28 Aug 2026. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Privilege",
+      "issuer": "Axis Bank",
+      "annual_fee": 1500,
+      "fee_waiver_spend": 500000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "gold",
+        "fuel",
+        "insurance",
+        "rent",
+        "wallet_load",
+        "utilities",
+        "education",
+        "government",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 10 EDGE pts per Rs200 domestic and international (1% at Rs0.20/pt; welcome 12,500 pts = Rs2,500). Insurance, rent, fuel, education, utilities, govt, wallet, Gold & Jewelry, gift cards, tolls earn nothing. Fee 1,500 waived at Rs5L (gold/jewellery excluded from threshold). 2 domestic lounge visits/quarter needing Rs50k spend in prior 3 months. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis My Zone",
+      "issuer": "Axis Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.004,
+      "rules": [],
+      "excludes": [
+        "jewellery",
+        "movies",
+        "fuel",
+        "insurance",
+        "wallet_load",
+        "rent",
+        "utilities",
+        "education",
+        "government",
+        "emi",
+        "gift_cards",
+        "toll"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "high",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 4 EDGE pts per Rs200 (0.4% at Rs0.20/pt; value assumed). Explicitly no points on Movie, Fuel, Insurance, Wallet, Rent, Utilities, Education, Govt, EMI, Jewellery, Gift cards, tolls. Fee 500 joining+annual; waiver threshold not found. Rs50k/3-month spend for lounge. Rs120 Swiggy and District movie offers not modelled. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Neo",
+      "issuer": "Axis Bank",
+      "annual_fee": 250,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.035,
+      "base_rate": 0.001,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official: 1 EDGE pt per Rs200 (0.1% at Rs0.20/pt assumed). Fee 250 joining+annual (MITC); waiver not found. Value comes from offers (Zomato Rs120 off, Blinkit 10%, Paytm 5% utilities, Cleartrip) not modelled. Reward exclusion list (incl jewellery) NOT found on page: likely excludes gold/jewellery like other EDGE cards but unverified. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Airtel Axis Bank",
+      "issuer": "Axis Bank",
+      "annual_fee": 500,
+      "fee_waiver_spend": 200000,
+      "forex_markup": 0.035,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "airtel thanks"
+          ],
+          "categories": [
+            "bill_payments"
+          ],
+          "rate": 0.25,
+          "desc": "25% on Airtel mobile/broadband/WiFi/DTH via Airtel Thanks app; monthly cap = 2x base cashback earned that month"
+        },
+        {
+          "merchants": [
+            "zomato",
+            "blinkit"
+          ],
+          "categories": [
+            "dining",
+            "groceries"
+          ],
+          "rate": 0.1,
+          "cap_inr": 200,
+          "desc": "10% value back, max Rs200 per partner per month, min Rs499 order"
+        }
+      ],
+      "excludes": [
+        "fuel",
+        "emi"
+      ],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: 25% Airtel bills, 10% other utilities via Airtel Thanks (cap = base cashback), 1% other; cashback 'not applicable on excluded MCC categories' (list not on page; jewellery treatment unverified, likely excluded). Fee 500 waived at Rs2L (MITC). Third-party (pickmywork) says Apr 2026 changes: cap logic changed, Swiggy/BigBasket removed, lounge dropped. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Cashback",
+      "issuer": "Axis Bank",
+      "annual_fee": 1000,
+      "fee_waiver_spend": 400000,
+      "forex_markup": 0.035,
+      "base_rate": 0.0075,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "cap_inr": 4000,
+          "desc": "Tiered monthly online cashback: 2% on first Rs5,000, 5% on Rs5,000-40,000, 7% above Rs40,000; max Rs4,000 per statement month; MCC exclusions apply (list not found)"
+        }
+      ],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Official page: online 2/5/7% tiers (cap Rs4,000/month), 0.75% offline & travel, 0.5% utilities up to Rs100. Fee 1,000 waived at Rs4L (new cards). Excluded category list not found, so jewellery treatment unknown: online jewellery may or may not earn. Do not rank for jewellery until verified. Rate 5% is a mid-tier placeholder. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Olympus",
+      "issuer": "Axis Bank",
+      "annual_fee": 20000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.018,
+      "base_rate": null,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Only fee (20,000), forex 1.8% from MITC. Reward rates not collected. Not a retail-reachable card (invite-only). Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    },
+    {
+      "name": "Axis Primus",
+      "issuer": "Axis Bank",
+      "annual_fee": 300000,
+      "fee_waiver_spend": null,
+      "forex_markup": 0.0,
+      "base_rate": null,
+      "rules": [],
+      "excludes": [],
+      "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+      "source_type": "official",
+      "sources": [
+        "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+      ],
+      "data_status": "unverified",
+      "confidence": "low",
+      "retrieved_on": "2026-10-11",
+      "last_verified": null,
+      "notes": "Only fee data from MITC (3,00,000 for cards issued after 31 Jul 2024; 1,80,000 earlier) and nil forex. Reward rates not collected. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+    }
+  ],
+  "offers": [
+    {
+      "card": "Axis ACE",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis ACE",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis ACE",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Flipkart Axis Bank",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Flipkart Axis Bank",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Flipkart Axis Bank",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Atlas",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Atlas",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Atlas",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Horizon",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Horizon",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Horizon",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Magnus",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Magnus",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Magnus",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Reserve",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Reserve",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Reserve",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Select",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Select",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Select",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Privilege",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Privilege",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Privilege",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis My Zone",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis My Zone",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis My Zone",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Neo",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Neo",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Neo",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Airtel Axis Bank",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Airtel Axis Bank",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Airtel Axis Bank",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Cashback",
+      "merchants": [
+        "joyalukkas"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.2,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "20% off making charges on gold, diamond, silver jewellery (from barcode rate); promo code ADNJOYA; not valid on coins/bars; cannot combine with other offers; Axis credit or debit cards; offer page states min spend/cap not shown",
+      "source_url": "https://www.axis.bank.in/offers/joyalukkas-offers/20-percent-discount-on-making-charges-for-gold-diamond-and-silver-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Cashback",
+      "merchants": [
+        "grt jewellers"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.015,
+      "min_spend": 20000,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 1.5% off gold jewellery on orders above Rs20,000, code GRTADN1500; excludes articles, coins, bars, gift vouchers",
+      "source_url": "https://www.axis.bank.in/offers/grt-jewellers-offers/flat-1-5-percent-off-on-gold-jewellery",
+      "last_verified": null
+    },
+    {
+      "card": "Axis Cashback",
+      "merchants": [
+        "giva"
+      ],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "percent",
+      "value": 0.28,
+      "min_spend": null,
+      "cap_inr": null,
+      "valid_till": "2026-10-15",
+      "desc": "Flat 28% off all silver jewellery, no minimum, online and offline, code AXISADNETO28 (silver, not gold; cap not shown)",
+      "source_url": "https://www.axis.bank.in/offers/giva-offers/flat-28-percent-off-on-all-silver-jewellery-with-no-minimum-order-value",
+      "last_verified": null
+    }
+  ],
+  "gaps": [
+    "No Tanishq, Malabar, Kalyan or CaratLane Axis card offer found on axis.bank.in as of 2026-10-11. Tanishq vouchers are redeemable only via EDGE Rewards catalogue (points redemption, not a card discount). Kalyan voucher offer (Rs20k/month cap) found only in an undated document; not treated as current.",
+    "Jewellery offers listed are bank-wide (any Axis credit/debit card) and replicated per card; they expire 15 Oct 2026 (4 days after retrieval). 'value' for type percent is a fraction (0.20 = 20%). Visa/RuPay-specific jewellery offers (Giva Rs500 off Rs1,499 to 31 Dec 2026; Giva extra 25% RuPay to 31 Jul 2027) not included.",
+    "Official ACE T&C at axisbank.com redirects to a 404 on axis.bank.in; used the Apr 2024 ACE revision PDF and the MITC instead. Monthly caps for ACE 5%/4% categories not found.",
+    "Full per-card MITC reward tables not on official pages for Magnus (exact exclusions), Reserve (rates), Neo, Airtel, Cashback: jewellery treatment unverified for Neo, Airtel, Cashback.",
+    "Not covered: IndiGo Axis (BluChip value unknown; fee 799), IndiGo Premium, Vistara family, IndianOil, Samsung, Freecharge, Rewards, Pride, Buzz, Miles & More, SpiceJet, Burgundy Private, Kwik, Fibe, Google Pay Flex. MITC fee data exists for these.",
+    "EDGE point value (Rs0.20 portal/voucher; 0.5-1 via transfers) and EDGE Mile value (Re1 per Axis page) are estimates; true value depends on redemption. No official caps found for Atlas/Horizon travel earning besides Atlas Rs2L/month.",
+    "Source conflicts: Atlas forex 3.5% (official) vs 2% (third-party); Reserve waiver 35L (official MITC) vs 25L (third-party); Flipkart waiver 3.5L (official) vs 2L (older). Late-2026 changes (Aug-Nov) come partly from third-party book1a.com summarising official notices, not read directly.",
+    "pypdf/pdftotext not available; PDFs read via macOS PDFKit; MITC fee table layout was jumbled, My Zone, Neo, Horizon waiver thresholds not derivable."
+  ]
+}

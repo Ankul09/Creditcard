@@ -6,7 +6,7 @@ from typing import Optional
 
 from recommender import Purchase
 
-CATEGORIES = ["jewellery", "online_shopping", "dining", "travel", "groceries", "fuel", "other"]
+CATEGORIES = ["jewellery", "international", "bill_payments", "online_shopping", "dining", "travel", "groceries", "fuel", "other"]
 
 KEYWORDS = {
     "jewellery": ["jewellery", "jewelry", "gold", "diamond", "tanishq", "malabar", "kalyan", "caratlane", "joyalukkas", "necklace", "ring"],
@@ -16,7 +16,7 @@ KEYWORDS = {
     "groceries": ["bigbasket", "blinkit", "zepto", "grocery", "groceries", "supermarket"],
     "fuel": ["petrol", "diesel", "fuel", "gas station"],
 }
-MERCHANTS = ["tanishq", "malabar", "kalyan", "caratlane", "joyalukkas", "amazon", "flipkart", "myntra", "swiggy", "zomato", "bigbasket", "blinkit", "zepto"]
+MERCHANTS = ["bpcl", "hpcl", "indianoil", "iocl", "tanishq", "malabar", "kalyan", "caratlane", "joyalukkas", "amazon", "flipkart", "myntra", "uber", "swiggy", "zomato", "bigbasket", "blinkit", "zepto"]
 
 
 def _parse_amount(text: str) -> Optional[float]:

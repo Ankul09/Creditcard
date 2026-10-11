@@ -22,6 +22,7 @@ def _rank(c):
 
 
 cards, offers, gaps = {}, {}, {}
+status_updates = {}
 for f in files:
     src = json.load(open(f))
     for c in src.get("cards", []):
@@ -37,9 +38,13 @@ for f in files:
         else:
             offers[key] = dict(o, cards=[o["card"]])
     gaps[os.path.basename(f)] = src.get("gaps", [])
+    for u in src.get("status_updates", []):
+        status_updates[u["name"]] = u["status"]
 
 for c in cards.values():
     c.setdefault("status", "unknown")
+    if c["status"] == "unknown" and c["name"] in status_updates:
+        c["status"] = status_updates[c["name"]]  # only upgrades unknowns
 
 out = {
     "_note": "Merged from data/banks/*.json by merge.py. Publicly sourced and UNVERIFIED; last_verified stays null until a human confirms a record. 'rate' = effective reward value as a fraction of spend; 'cap_inr' = max reward value per statement month (omitted if unknown); 'excludes' = categories earning nothing.",

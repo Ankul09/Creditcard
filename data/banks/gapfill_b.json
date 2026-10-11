@@ -1,0 +1,1426 @@
+{
+ "cards": [
+  {
+   "name": "BOI Celestia Credit Card",
+   "issuer": "Bank of India",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Lounge access mentioned; counts not found",
+   "main_benefit": "Ultra-premium RuPay card for BOI customers with Rs15 lakh+ income, with lounge, dining, golf and concierge perks.",
+   "key_benefits": [
+    "24x7 concierge",
+    "Insurance cover",
+    "Reward points on spends"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/bank-of-india/boi-celestia-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/bank-of-india/boi-celestia-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Third-party only (cardinsider; also called BOI Celestia RuPay Ekaa). Fees Rs5,000 plus GST per cardinsider; no spend-based waiver mentioned. Reward rate, lounge counts, forex not found (null). Issuer page not verified; status unknown."
+  },
+  {
+   "name": "YES Bank Niyo Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Niyo",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0,
+   "lounge_access": null,
+   "main_benefit": "Niyo app co-branded lifetime-free card targeting zero forex markup and Niyo Coins rewards.",
+   "key_benefits": [
+    "Zero forex markup (claimed)",
+    "Niyo Coins rewards"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/yes-bank/niyo-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/yes-bank/niyo-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Conflicting sources: one says live, a Niyo community post says waitlist only. Rewards/limits not found. The live Niyo credit card is the DCB Niyo card already in database. Network not found."
+  },
+  {
+   "name": "AU Zaggle RuPay Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Zaggle",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free co-brand rewarding UPI/tap & pay spends via Zagg Coins (4% on zagg.money UPI, up to 8% above Rs10,000/cycle).",
+   "key_benefits": [
+    "4% Zagg Coins on zagg.money UPI spends; 8% when cycle spend exceeds Rs10,000",
+    "2% Zagg Coins on UPI spends via other apps",
+    "1 Zagg Coin = Rs0.25; cap 2,000 coins per statement cycle (about Rs500)",
+    "Rewards only on transactions of Rs500+"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "zagg.money"
+     ],
+     "categories": [],
+     "rate": 0.04,
+     "cap_inr": 500,
+     "min_txn_inr": 500,
+     "desc": "4% Zagg Coins on zagg.money UPI spends (8% if cycle spend above Rs10,000); 1 coin = Rs0.25; cap 2,000 coins (~Rs500) per cycle"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.02,
+     "cap_inr": 500,
+     "min_txn_inr": 500,
+     "desc": "2% Zagg Coins on UPI spends via other apps; same cap"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/blog/au-bank-and-zaggle-launch-new-co-branded-lifetime-free-rupay-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/blog/au-bank-and-zaggle-launch-new-co-branded-lifetime-free-rupay-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Audit entry 'Zagg Credit Card' = this card (Zagg = Zaggle reward coin). Network may also include Visa per one source; base_rate 0.01 is a placeholder not found in sources (set to null if unwanted). Forex/lounge not found. Cap and rates from news coverage."
+  },
+  {
+   "name": "Utkarsh Wish Credit Card",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Nil-fee entry card offering about 3% on PhonePe bill payments/recharges and 1% on select online brands (aggregator figures).",
+   "key_benefits": [
+    "No joining or annual fee (aggregators)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/utkarsh-bank/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/utkarsh-bank/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator-only; bank page describes UPI cashback instead of points (conflict). Network, caps not found. Not seen on official card list in this pass."
+  },
+  {
+   "name": "Utkarsh Rhodium Credit Card",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 500000,
+   "forex_markup": null,
+   "lounge_access": "Complimentary domestic lounge access up to 4 times per calendar quarter",
+   "main_benefit": "Premium Utkarsh SFB card with 1.25% cashback and quarterly domestic lounge visits.",
+   "key_benefits": [
+    "No joining fee; no annual fee in year 1",
+    "Annual fee Rs4,999 from year 2, waived at Rs5L spend",
+    "1.25% cashback on eligible spends"
+   ],
+   "base_rate": 0.0125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0125,
+     "desc": "1.25% cashback on eligible spends (per bank page)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.utkarsh.bank.in/personal/cards/credit-card/rhodium",
+   "source_type": "official",
+   "sources": [
+    "https://www.utkarsh.bank.in/personal/cards/credit-card/rhodium",
+    "https://www.bankbazaar.com/credit-card/utkarsh-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees from official page; Bankbazaar/Paisabazaar agree on Rs4,999; cardinsider says plus GST. Exclusions and network not found."
+  },
+  {
+   "name": "Utkarsh Eternal Credit Card",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 1999,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Utkarsh SFB card with 1.25% cashback and 1% fuel surcharge waiver; first year free.",
+   "key_benefits": [
+    "No joining fee; no annual fee in year 1",
+    "Annual fee Rs1,999 + tax from year 2, waived at Rs1.5L annual spend",
+    "1% fuel surcharge waiver on Rs400-5,000",
+    "Also offered FD-backed (some sources)"
+   ],
+   "base_rate": 0.0125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0125,
+     "desc": "1.25% cashback on eligible transactions"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+   "source_type": "official",
+   "sources": [
+    "https://www.utkarsh.bank.in/personal/cards/credit-card/eternal",
+    "https://www.bankbazaar.com/credit-card/utkarsh-bank-eternal-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee/waiver from bank page. Network and exclusions not found."
+  },
+  {
+   "name": "Federal Bank RuPay Wave Credit Card",
+   "issuer": "Federal Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry RuPay card with nil joining/annual fee for customers onboarded after 3 April 2023 (virtual free; physical Rs199).",
+   "key_benefits": [
+    "Nil joining and annual fee for customers onboarded from 3 Apr 2023",
+    "Virtual card nil; physical card Rs199",
+    "1% fee on rent payments; Rs99 per reward redemption"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "rent"
+   ],
+   "source_url": "https://www.federal.bank.in/rupay-wave-credit-card-kfs",
+   "source_type": "official",
+   "sources": [
+    "https://www.federal.bank.in/rupay-wave-credit-card-kfs",
+    "https://www.paisabazaar.com/federal-bank/rupay-wave-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official KFS/MITC exist; reward rates and whether still open to new customers not confirmed. Forex 3.5% on one third-party page unconfirmed (kept null)."
+  },
+  {
+   "name": "Canara Bank Visa Classic Mastercard Standard Credit Card",
+   "issuer": "Canara Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Basic Canara Bank entry card with nil enrolment and annual fee.",
+   "key_benefits": [
+    "Nil enrolment and annual fee (main and add-on)",
+    "Inactivity fee Rs100 if annual turnover below Rs12,000 (bank); one aggregator says Rs400"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.canarabank.bank.in/service-charges-related-to-cards",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/service-charges-related-to-cards",
+    "https://www.paisabazaar.com/canara-bank/visa-classic-mastercard-standard-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official charges schedule: nil fees, inactivity Rs100 (conservative figure per aggregator conflict is Rs400). Forex up to 3% from Paisabazaar. Network is Visa Classic or Mastercard Standard. Rewards not found."
+  },
+  {
+   "name": "IDFC FIRST Business Multiplier Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0,
+   "lounge_access": "8 complimentary visits/year tied to Rs20,000 min monthly spend",
+   "main_benefit": "FD-backed metal founder/business card: 0% forex, up to 10 RP per Rs200 on business categories, 45-day interest-free credit.",
+   "key_benefits": [
+    "Launched May 2026; credit limit secured by FD",
+    "Up to 10 reward points per Rs200 on business categories",
+    "Travel bookings via IDFC ecosystem: 7.5% value-back hotels, 4.4% flights",
+    "0% forex; interest-free global ATM withdrawals",
+    "Rewards restructured from 18 Jun 2026: earned only up to credit limit per cycle"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/Business-Multiplier-Product-Guide.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/Business-Multiplier-Product-Guide.pdf",
+    "https://www.tribuneindia.com/news/business/idfc-first-bank-launches-business-multiplier-credit-card-for-founders-entrepreneurs/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees Rs1,000+GST each only per third-party directory (savesage), unconfirmed on bank pages. RP value not found so rates left null. Interest 1%/month (12% p.a.) per bank."
+  },
+  {
+   "name": "CUB SalarySe Level Up Credit Card",
+   "issuer": "City Union Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "SalarySe",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "12 complimentary lounge visits/year; unlock each by Rs10,000+ spend in the prior cycle (physical variant)",
+   "main_benefit": "RuPay credit-on-UPI card for salaried users earning SalarySe Scoins (37.5% on salary days, 10%/5% otherwise on SalarySe UPI spends).",
+   "key_benefits": [
+    "Launched Dec 2025 with SalarySe",
+    "Scoins redeemable for gift cards of 250+ brands or cash",
+    "Virtual lifetime free; physical+virtual reportedly Rs500 joining"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "salaryse"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "Bank page: 5% (below Rs20,000 monthly spend) / 10% (above) on SalarySe UPI spends, 37.5% on 1st and last day of month; one third-party lists Rs15,000 eligible-spend cap on salary-day bonus. Conservative 5% used."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.cityunionbank.bank.in/cub-salaryse-level-up-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.cityunionbank.bank.in/cub-salaryse-level-up-credit-card",
+    "https://cardadvisor.in/cards/cub-salaryse"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Sources conflict on fees (Rs500 annual vs Rs500 joining on physical variant vs lifetime free virtual) so fees left null; forex 2% (virtual) / 1% physical per one review, conservative 2%. Audit entry 'City Union Bank Credit Card (SalarySe)' is the same card."
+  },
+  {
+   "name": "YES Bank RazorpayX Purchase Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "RazorpayX",
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Business purchase card via RazorpayX for startups, with up to 50 days interest-free credit.",
+   "key_benefits": [
+    "No joining or annual fee (cardinsider)",
+    "Up to 50 days interest-free",
+    "1% fuel surcharge waiver Rs400-5,000"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/business-cards/yes-bank-razorpayx-purchase-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/business-cards/yes-bank-razorpayx-purchase-credit-card/",
+    "https://razorpay.com/docs/x/capital/corporate-cards/ybl-onboarding/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex 1% per cardinsider vs 2.5% on related RazorpayX corporate cards; conservative 2.5% kept. Secured variant against FD (min Rs5-7 lakh) per Razorpay docs. Network not found; rewards not found."
+  },
+  {
+   "name": "IndusInd Bank eSvarna Corporate Card",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Complimentary lounge access (counts not found)",
+   "main_benefit": "India's first RuPay corporate credit card (launched Dec 2023), UPI-enabled for corporate expense control.",
+   "key_benefits": [
+    "UPI-enabled corporate credit card",
+    "Fuel surcharge waiver",
+    "Travel insurance cover",
+    "Corporate rewards programme"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/in/en/about-us/mediabrand/FY/2023-2024/December/eSvarna.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/in/en/about-us/mediabrand/FY/2023-2024/December/eSvarna.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees, rewards, lounge counts not found; corporate card, issued via relationship manager."
+  },
+  {
+   "name": "IndusInd Fortuna AdvantEdge Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "IndusInd commercial/corporate card with company-name embossing and consolidated corporate statement billing.",
+   "key_benefits": [
+    "Dedicated relationship manager",
+    "Consolidated statement; single payment by company",
+    "24x7 customer service"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/commercial-cards/fortuna-advantedge-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/in/en/personal/cards/commercial-cards/fortuna-advantedge-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Commercial card (benefit guide covers Fortuna Prima and AdvantEdge). Fees and rewards not found. Audit name 'Indusind Fortuna Advantedge Credit Card'."
+  },
+  {
+   "name": "IDBI LIC Eclat Credit Card",
+   "issuer": "IDBI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 complimentary airport lounge visits per quarter",
+   "main_benefit": "IDBI-LIC co-brand earning 4 Delight Points per Rs100 (about 1% at Rs0.25/point) with nil fees.",
+   "key_benefits": [
+    "Welcome: 1,500 Delight Points on Rs10,000 spend in 60 days",
+    "1% fuel surcharge waiver up to Rs500/month on Rs400-5,000",
+    "Reward redemption fee Rs99"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "4 Delight Points per Rs100; 1 point = Rs0.25 assumed (Paisabazaar)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idbi.bank.in/pdf/key-fact-statement.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.idbi.bank.in/pdf/key-fact-statement.pdf",
+    "https://www.paisabazaar.com/lic-cards/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "IDBI KFS lists nil joining/annual/renewal for LIC Eclat (may vary by offer). Earn rate from Paisabazaar only (IDBI Lumine page says 3 points: conflict). Network not found. Audit name 'LIC Eclat Credit Card IDBI Bank'."
+  },
+  {
+   "name": "IDBI LIC Lumine Credit Card",
+   "issuer": "IDBI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "IDBI-LIC Lumine Platinum card with nil joining fee earning 3 Delight Points per Rs100 (about 0.75%).",
+   "key_benefits": [
+    "500 bonus points on activation; 500 on first Rs2,000 txn in 30 days",
+    "Milestone points at Rs1L and Rs2L annual spend",
+    "Personal accident cover Rs2 lakh (BankBazaar)"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0075,
+     "desc": "3 Delight Points per Rs100; 1 point = Rs0.25 assumed"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idbi.bank.in/Lumine-credit-card.aspx",
+   "source_type": "official",
+   "sources": [
+    "https://www.idbi.bank.in/Lumine-credit-card.aspx",
+    "https://www.idbi.bank.in/pdf/key-fact-statement.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "IDBI KFS lists nil fees. Network not found. Audit name 'LIC Lumine Credit Card IDBI'."
+  },
+  {
+   "name": "YES Bank PaisaSave Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Paisabazaar",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Paisabazaar co-brand cashback card with 3% on e-commerce and 1.5% on other spends incl. UPI (one source; others differ).",
+   "key_benefits": [
+    "No joining fee; Rs499 annual waived at Rs1.2L spend",
+    "1% fuel surcharge waiver up to Rs250/cycle on Rs500-3,000"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "cap_inr": 5000,
+     "desc": "3% cashback points on e-commerce, max 5,000 points/month (1 point = Re1 assumed) per Paisabazaar; other sources claim 6% dining/travel (conflict). Conservative figure used."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "utilities",
+    "insurance",
+    "rent",
+    "wallet_load",
+    "education",
+    "jewellery",
+    "government"
+   ],
+   "source_url": "https://www.paisabazaar.com/yes-bank/paisabazaar-paisasave-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/yes-bank/paisabazaar-paisasave-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rewards conflict across sources (3%/1.5% vs 6% dining-travel/1%); base_rate 0.01 is the conservative one. Forex 3.5%. Network not found. Audit name 'YES Bank Paisa Save Credit Card'."
+  },
+  {
+   "name": "SBM Bank OneCard Credit Card",
+   "issuer": "SBM Bank India",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": "OneCard",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "OneCard metal card issued by SBM Bank India (new issuance paused by RBI directive late 2025).",
+   "key_benefits": [
+    "Metal card",
+    "Managed via OneCard app"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://inc42.com/?p=541134",
+   "source_type": "third_party",
+   "sources": [
+    "https://inc42.com/?p=541134"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "RBI reportedly halted new OneCard issuance across partner banks (Dec 2025); existing customers unaffected; no evidence pause lifted. Terms not retrieved. Network assumed Visa per OneCard norm - unverified."
+  },
+  {
+   "name": "CSB Bank OneCard Credit Card",
+   "issuer": "CSB Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": "OneCard",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "OneCard metal card issued by CSB Bank (new issuance paused by RBI directive late 2025).",
+   "key_benefits": [
+    "Metal card",
+    "Managed via OneCard app"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://inc42.com/?p=541134",
+   "source_type": "third_party",
+   "sources": [
+    "https://inc42.com/?p=541134"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Same RBI pause as other OneCard issuers; terms not retrieved. Network assumed Visa - unverified."
+  },
+  {
+   "name": "Kotak 811 super.money Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": "super.money",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 249,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed RuPay card via super.money with 5% Myntra, 3% Cleartrip, 2% Flipkart and 1% UPI cashback.",
+   "key_benefits": [
+    "Credit limit up to 90% of FD (FD from Rs1,000)",
+    "Lifetime free if FD Rs5,000+; else Rs249 joining on physical",
+    "Cashback cap about Rs500/cycle; txns Rs100+",
+    "Redeemable only via super.money app"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "myntra"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "cap_inr": 500,
+     "min_txn_inr": 100,
+     "desc": "5% cashback; cap ~Rs500 per billing cycle across categories"
+    },
+    {
+     "merchants": [
+      "cleartrip"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "cap_inr": 500,
+     "min_txn_inr": 100,
+     "desc": "3% cashback"
+    },
+    {
+     "merchants": [
+      "flipkart"
+     ],
+     "categories": [],
+     "rate": 0.02,
+     "cap_inr": 500,
+     "min_txn_inr": 100,
+     "desc": "2% cashback"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.kotak.bank.in/content/dam/Kotak/files/key-fact-statement/key-fact-statement-kfs-kotak-811-super-money-creditcard.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kotak.bank.in/content/dam/Kotak/files/key-fact-statement/key-fact-statement-kfs-kotak-811-super-money-creditcard.pdf",
+    "https://www.bankbazaar.com/credit-card/kotak-mahindra-bank-811-super-money-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Cardinsider Nov 2025 said waitlist only; current open status unconfirmed. Annual fee unknown."
+  },
+  {
+   "name": "J&K Bank Platinum Credit Card",
+   "issuer": "J&K Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "J&K Bank credit card variant from the Feb 2026 three-card revamp (Platinum, Platinum Privilege, Eminent).",
+   "key_benefits": [
+    "Part of Feb 2026 revamped J&K Bank card suite"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/jammu-kashmir-bank/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/jammu-kashmir-bank/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator figures conflict (Platinum annual Rs500 vs Rs300). Rewards (Platinum: 2 RP/Rs100 on online, dept stores, pharmacy, utilities) not converted: point value unknown. Network not found. Audit entry 'J&K Bank Credit Card' covers these."
+  },
+  {
+   "name": "J&K Bank Platinum Privilege Credit Card",
+   "issuer": "J&K Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "lounge_access": null,
+   "main_benefit": "J&K Bank credit card variant from the Feb 2026 three-card revamp (Platinum, Platinum Privilege, Eminent).",
+   "key_benefits": [
+    "Part of Feb 2026 revamped J&K Bank card suite"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/jammu-kashmir-bank/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/jammu-kashmir-bank/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator figures conflict (Platinum annual Rs500 vs Rs300). Rewards (Platinum: 2 RP/Rs100 on online, dept stores, pharmacy, utilities) not converted: point value unknown. Network not found. Audit entry 'J&K Bank Credit Card' covers these."
+  },
+  {
+   "name": "J&K Bank Eminent Credit Card",
+   "issuer": "J&K Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "lounge_access": null,
+   "main_benefit": "J&K Bank credit card variant from the Feb 2026 three-card revamp (Platinum, Platinum Privilege, Eminent).",
+   "key_benefits": [
+    "Part of Feb 2026 revamped J&K Bank card suite"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/jammu-kashmir-bank/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/jammu-kashmir-bank/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator figures conflict (Platinum annual Rs500 vs Rs300). Rewards (Platinum: 2 RP/Rs100 on online, dept stores, pharmacy, utilities) not converted: point value unknown. Network not found. Audit entry 'J&K Bank Credit Card' covers these."
+  },
+  {
+   "name": "Dhanlaxmi Bank Dhan Namaste Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Dhanlaxmi Bank credit card listed on the bank's official credit card page.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name only from official listing page search snippet; no fees/rewards retrieved. Audit entry 'Dhanlaxmi Bank Credit Card' covers these."
+  },
+  {
+   "name": "Dhanlaxmi Bank Visa Platinum Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Dhanlaxmi Bank credit card listed on the bank's official credit card page.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name only from official listing page search snippet; no fees/rewards retrieved. Audit entry 'Dhanlaxmi Bank Credit Card' covers these."
+  },
+  {
+   "name": "Dhanlaxmi Bank Dhan Vriddhi Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Dhanlaxmi Bank credit card listed on the bank's official credit card page.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name only from official listing page search snippet; no fees/rewards retrieved. Audit entry 'Dhanlaxmi Bank Credit Card' covers these."
+  },
+  {
+   "name": "Dhanlaxmi Bank RuPay Platinum Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Dhanlaxmi Bank credit card listed on the bank's official credit card page.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name only from official listing page search snippet; no fees/rewards retrieved. Audit entry 'Dhanlaxmi Bank Credit Card' covers these."
+  },
+  {
+   "name": "Dhanlaxmi Bank Dhan Samriddhi Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Dhanlaxmi Bank credit card listed on the bank's official credit card page.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name only from official listing page search snippet; no fees/rewards retrieved. Audit entry 'Dhanlaxmi Bank Credit Card' covers these."
+  },
+  {
+   "name": "Dhanlaxmi Bank RuPay Select Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Dhanlaxmi Bank credit card listed on the bank's official credit card page.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name only from official listing page search snippet; no fees/rewards retrieved. Audit entry 'Dhanlaxmi Bank Credit Card' covers these."
+  }
+ ],
+ "aliases": [
+  {
+   "audit_name": "Ashva Credit Card",
+   "our_name": "IDFC FIRST Ashva"
+  },
+  {
+   "audit_name": "Niyo Credit Card",
+   "our_name": "DCB Niyo Credit Card"
+  },
+  {
+   "audit_name": "IDBI Bank Winnings RuPay Select Credit Card",
+   "our_name": "IDBI Winnings Credit Card"
+  },
+  {
+   "audit_name": "OneCard Credit Card",
+   "our_name": "OneCard"
+  },
+  {
+   "audit_name": "EazyDiner Indusind Bank Credit Card",
+   "our_name": "IndusInd EazyDiner Signature Credit Card"
+  },
+  {
+   "audit_name": "EazyDiner Indusind Bank Credit Card",
+   "our_name": "IndusInd EazyDiner Platinum Credit Card"
+  },
+  {
+   "audit_name": "Slice Credit Card",
+   "our_name": "slice UPI Credit Card"
+  },
+  {
+   "audit_name": "Slice Super Card",
+   "our_name": "slice UPI Credit Card"
+  },
+  {
+   "audit_name": "Slice Credit Card (Nujoy? )",
+   "our_name": "slice UPI Credit Card"
+  },
+  {
+   "audit_name": "Beyond Credit Card",
+   "our_name": "Standard Chartered Beyond"
+  },
+  {
+   "audit_name": "Uni Pay 1/3rd Card (Uni Gold? )",
+   "our_name": "Uni Pay 1/3rd Card"
+  },
+  {
+   "audit_name": "Uni Pay 1/3rd Card (Uni Gold? )",
+   "our_name": "YES Bank UNI Credit Card"
+  },
+  {
+   "audit_name": "Zagg Credit Card",
+   "our_name": "AU Zaggle RuPay Credit Card"
+  },
+  {
+   "audit_name": "City Union Bank Credit Card (SalarySe)",
+   "our_name": "CUB SalarySe Level Up Credit Card"
+  },
+  {
+   "audit_name": "YES Bank Paisa Save Credit Card",
+   "our_name": "YES Bank PaisaSave Credit Card"
+  },
+  {
+   "audit_name": "LIC Eclat Credit Card IDBI Bank",
+   "our_name": "IDBI LIC Eclat Credit Card"
+  },
+  {
+   "audit_name": "LIC Lumine Credit Card IDBI",
+   "our_name": "IDBI LIC Lumine Credit Card"
+  },
+  {
+   "audit_name": "Indusind Fortuna Advantedge Credit Card",
+   "our_name": "IndusInd Fortuna AdvantEdge Card"
+  },
+  {
+   "audit_name": "Wish Credit Card",
+   "our_name": "Utkarsh Wish Credit Card"
+  },
+  {
+   "audit_name": "Rhodium Credit Card",
+   "our_name": "Utkarsh Rhodium Credit Card"
+  },
+  {
+   "audit_name": "Eternal Credit Card",
+   "our_name": "Utkarsh Eternal Credit Card"
+  },
+  {
+   "audit_name": "BOI Celestia Credit Card",
+   "our_name": "BOI Celestia Credit Card"
+  },
+  {
+   "audit_name": "AU Small Finance Bank Royale/Ananta Credit Card",
+   "our_name": "AU Ananta"
+  },
+  {
+   "audit_name": "UCO Bank Credit Card",
+   "our_name": "UCO Bank SBI Card PRIME"
+  },
+  {
+   "audit_name": "UCO Bank Credit Card",
+   "our_name": "UCO Bank SBI Card ELITE"
+  },
+  {
+   "audit_name": "UCO Bank Credit Card",
+   "our_name": "UCO Bank SimplySAVE SBI Card"
+  },
+  {
+   "audit_name": "Suryoday SFB Credit Card? ",
+   "our_name": "Suryoday SFB RuPay Select Credit Card"
+  },
+  {
+   "audit_name": "Suryoday SFB Credit Card? ",
+   "our_name": "Suryoday SFB RuPay Platinum Credit Card"
+  },
+  {
+   "audit_name": "Equitas SFB Tiga",
+   "our_name": "Equitas Tiga"
+  },
+  {
+   "audit_name": "Bandhan Bank Lumina/Ignite/Flare/Sparks",
+   "our_name": "Bandhan Lumina"
+  },
+  {
+   "audit_name": "Bandhan Bank Lumina/Ignite/Flare/Sparks",
+   "our_name": "Bandhan Ignite"
+  },
+  {
+   "audit_name": "Bandhan Bank Lumina/Ignite/Flare/Sparks",
+   "our_name": "Bandhan Flare"
+  },
+  {
+   "audit_name": "Bandhan Bank Lumina/Ignite/Flare/Sparks",
+   "our_name": "Bandhan Sparks"
+  },
+  {
+   "audit_name": "Poonawalla Fincorp RuPay Credit Card",
+   "our_name": "IndusInd Bank Poonawalla Fincorp eLITE RuPay Platinum"
+  },
+  {
+   "audit_name": "IDFC Business Multiplier Credit Card",
+   "our_name": "IDFC FIRST Business Multiplier Credit Card"
+  },
+  {
+   "audit_name": "Federal Bank RuPay Wave Credit Card",
+   "our_name": "Federal Bank RuPay Wave Credit Card"
+  },
+  {
+   "audit_name": "Canara Visa Classic Mastercard Standard Credit Card",
+   "our_name": "Canara Bank Visa Classic Mastercard Standard Credit Card"
+  },
+  {
+   "audit_name": "YES Bank RazorpayX Purchase Credit Card",
+   "our_name": "YES Bank RazorpayX Purchase Credit Card"
+  },
+  {
+   "audit_name": "Indusind Bank eSvarna Corporate Card",
+   "our_name": "IndusInd Bank eSvarna Corporate Card"
+  },
+  {
+   "audit_name": "SBM Bank OneCard Credit Card",
+   "our_name": "SBM Bank OneCard Credit Card"
+  },
+  {
+   "audit_name": "CSB Bank OneCard Credit Card",
+   "our_name": "CSB Bank OneCard Credit Card"
+  },
+  {
+   "audit_name": "Kotak Mahindra Bank Kotak 811 super.money Credit Card",
+   "our_name": "Kotak 811 super.money Credit Card"
+  }
+ ],
+ "not_real": [
+  {
+   "audit_name": "Zolve Credit Card",
+   "why": "Zolve issues US cards (via US partner banks) to immigrants; no Indian-market credit card found."
+  },
+  {
+   "audit_name": "Jio Financial Services credit card? (rumoured, verify)",
+   "why": "No Jio Financial own credit card launched; JFS only distributes partner-bank cards on its marketplace (Apr-Sep 2026 filings)."
+  },
+  {
+   "audit_name": "Airtel Finance Credit Card? (verify)",
+   "why": "No Airtel Finance-issued card; the only Airtel card is Airtel Axis Bank (already in database as 'Airtel Axis Bank')."
+  },
+  {
+   "audit_name": "Bajaj Finserv Insta EMI Card",
+   "why": "A pre-approved EMI/loan card, not a credit card; Bajaj credit cards are RBL SuperCards (already in database)."
+  },
+  {
+   "audit_name": "Ujjivan Small Finance Bank Credit Card",
+   "why": "No Ujjivan SFB credit card found; only an International RuPay Select debit card (Jul 2025)."
+  }
+ ],
+ "status_updates": [
+  {
+   "name": "Amex Platinum Travel",
+   "status": "closed_to_new",
+   "source": "https://cardinsider.com/blog/is-american-express-losing-its-edge-in-india-mumbai-centurion-lounge-closes/"
+  },
+  {
+   "name": "American Express Platinum Card (Charge)",
+   "status": "active",
+   "source": "cardinsider Jun 2026: one of two Amex cards still open"
+  },
+  {
+   "name": "American Express Platinum Travel",
+   "status": "closed_to_new",
+   "source": "cardinsider Jun 2026: new applications paused"
+  },
+  {
+   "name": "American Express Platinum Reserve",
+   "status": "active",
+   "source": "cardinsider Jun 2026: one of two Amex cards still open"
+  },
+  {
+   "name": "American Express Gold Card",
+   "status": "closed_to_new",
+   "source": "cardinsider Jun 2026: Gold Charge paused for new applicants"
+  },
+  {
+   "name": "American Express SmartEarn",
+   "status": "closed_to_new",
+   "source": "cardinsider Jun 2026 pause; bankbazaar still lists (uncertain)"
+  },
+  {
+   "name": "American Express Membership Rewards Credit Card",
+   "status": "closed_to_new",
+   "source": "cardinsider Jun 2026 pause; not reported discontinued"
+  },
+  {
+   "name": "American Express Gold Corporate Card",
+   "status": "unknown",
+   "source": "no source found"
+  },
+  {
+   "name": "American Express Green Corporate Card",
+   "status": "unknown",
+   "source": "no source found"
+  },
+  {
+   "name": "DBS Altitude",
+   "status": "discontinued",
+   "source": "bankbazaar/DBS India list only Spark, Vantage, SuperX; Altitude not offered"
+  },
+  {
+   "name": "DBS Spark",
+   "status": "active",
+   "source": "https://www.dbs.bank.in/in/credit-cards/spark/product-benefit-terms-and-conditions.html"
+  },
+  {
+   "name": "Kotak Infinite Credit Card",
+   "status": "unknown",
+   "source": "not on public Kotak lineup; invite-only"
+  },
+  {
+   "name": "Kotak NRI Royale Signature Credit Card",
+   "status": "unknown",
+   "source": "not found in Aug 2026 aggregator lineup"
+  },
+  {
+   "name": "Metro Kotak Credit Card",
+   "status": "unknown",
+   "source": "not found in current lineup; likely legacy"
+  },
+  {
+   "name": "Kotak BIZ Credit Card",
+   "status": "unknown",
+   "source": "not found in current lineup"
+  },
+  {
+   "name": "Kotak Veer Credit Card",
+   "status": "unknown",
+   "source": "not found in current lineup"
+  },
+  {
+   "name": "Kotak 811 DreamDifferent Credit Card",
+   "status": "active",
+   "source": "duplicate of 'Kotak 811 #DreamDifferent Credit Card' (active)"
+  },
+  {
+   "name": "IndusInd Club Vistara Explorer Credit Card",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/club-vistara-indusInd-bank-explorer-credit-card.html (no new applications; Vistara merged Nov 2024)"
+  },
+  {
+   "name": "PNB Global Platinum Credit Card",
+   "status": "active",
+   "source": "https://creditcard.pnb.bank.in/types.html"
+  },
+  {
+   "name": "PNB Global Gold Credit Card",
+   "status": "active",
+   "source": "https://creditcard.pnb.bank.in/types.html"
+  },
+  {
+   "name": "PNB Global Classic Credit Card",
+   "status": "active",
+   "source": "https://creditcard.pnb.bank.in/types.html"
+  },
+  {
+   "name": "Bank of India Taj Premium Credit Card",
+   "status": "active",
+   "source": "bankbazaar listing updated Aug 2026 (Taj members only; low confidence)"
+  },
+  {
+   "name": "IDBI Imperium Platinum Credit Card",
+   "status": "active",
+   "source": "IDBI KFS lists Imperium; bankbazaar (2026)"
+  },
+  {
+   "name": "IDBI Euphoria World Credit Card",
+   "status": "active",
+   "source": "IDBI KFS lists Euphoria"
+  },
+  {
+   "name": "IDBI Winnings Credit Card",
+   "status": "active",
+   "source": "IDBI KFS lists Winnings"
+  },
+  {
+   "name": "Uni Pay 1/3rd Card",
+   "status": "unknown",
+   "source": "no current source found"
+  },
+  {
+   "name": "IndusInd Bank Poonawalla Fincorp eLITE RuPay Platinum",
+   "status": "active",
+   "source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/poonawalla-platinum-rupay-credit-card.html"
+  },
+  {
+   "name": "YES Bank Rio RuPay Credit Card",
+   "status": "active",
+   "source": "duplicate of 'YES Bank RIO Credit Card' (active); bankbazaar page"
+  },
+  {
+   "name": "Equitas Tiga",
+   "status": "active",
+   "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/tiga-credit-card"
+  },
+  {
+   "name": "Equitas Selfe",
+   "status": "active",
+   "source": "https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card"
+  },
+  {
+   "name": "Equitas PowerMiles",
+   "status": "active",
+   "source": "https://equitas.bank.in/personal-banking/pay/credit-cards"
+  },
+  {
+   "name": "TMB Titanium Credit Card",
+   "status": "unknown",
+   "source": "aggregator only"
+  },
+  {
+   "name": "TMB Platinum Credit Card",
+   "status": "unknown",
+   "source": "aggregator only"
+  },
+  {
+   "name": "Utkarsh SFB SmartGen Credit Card",
+   "status": "active",
+   "source": "https://www.utkarsh.bank.in/personal/cards/credit-card/smartgen"
+  },
+  {
+   "name": "IDFC FIRST WOW! Credit Card",
+   "status": "active",
+   "source": "Paisabazaar FD-backed list 2026"
+  },
+  {
+   "name": "IDFC FIRST EA₹N Credit Card",
+   "status": "active",
+   "source": "Paisabazaar FD-backed list 2026 (IDFC FIRST EARN)"
+  },
+  {
+   "name": "IDFC FIRST IndiGo Secured Credit Card",
+   "status": "active",
+   "source": "https://www.idfcfirst.bank.in/finfirst-blogs/credit-card/indigo-idfc-first-credit-card-fd-backed-or-regular"
+  },
+  {
+   "name": "SBM ZET Credit Card",
+   "status": "active",
+   "source": "https://www.sbmbank.co.in/pdf/SBM-Bank-ZET-Credit-Card-KFS.pdf"
+  },
+  {
+   "name": "AU Nomo Credit Card",
+   "status": "active",
+   "source": "https://cardtrail.in/banks/au-small-finance-bank-credit-cards/ and AU launch news"
+  },
+  {
+   "name": "AU Ixora Credit Card",
+   "status": "unknown",
+   "source": "only cardtrail ranking (Mar 2026); not confirmed on AU site"
+  },
+  {
+   "name": "AU Nexus Credit Card",
+   "status": "unknown",
+   "source": "only cardtrail ranking (Mar 2026); not confirmed on AU site"
+  }
+ ],
+ "gaps": [
+  "Task said 71 cards with missing status; cards.json has 0 missing but 123 'unknown'. Of these, 41 are outside other agent's issuers and covered here (rest are RBL/SBI/HDFC/Axis/ICICI).",
+  "Added cards are mostly third_party/low confidence: reward rates, forex, lounge counts left null where not found.",
+  "Slice Super Card/Slice Credit Card aliased to 'slice UPI Credit Card'; pre-merger Slice prepaid-style card not separately recorded.",
+  "OneCard SBM/CSB recorded closed_to_new on RBI pause (Dec 2025); no evidence pause lifted.",
+  "Dhanlaxmi (6) and J&K (3) cards are name-level records; fees/rewards not retrieved.",
+  "Audit entries in other agents' slice (LIC Cards / SBI etc.) not touched.",
+  "Amex Gold/Green Corporate, Kotak Infinite/NRI/Metro/BIZ/Veer, Uni Pay 1/3rd, TMB, AU Ixora/Nexus remain unknown."
+ ]
+}

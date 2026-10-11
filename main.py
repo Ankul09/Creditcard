@@ -1,12 +1,17 @@
 """CLI: describe a purchase, get the best credit card."""
 import sys
 
+from info import lookup
 from parser import parse
 from freshness import validate
 from recommender import load_data, rank
 
 
 def show(text: str) -> None:
+    info = lookup(text, load_data()["cards"])
+    if info:
+        print(info)
+        return
     try:
         p = parse(text)
     except ValueError as e:

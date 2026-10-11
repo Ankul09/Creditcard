@@ -17,8 +17,8 @@ CONF = {"high": 2, "medium": 1, "low": 0}
 
 
 def _rank(c):
-    """Higher confidence wins; ties go to the newer record (later file / later retrieved_on)."""
-    return (CONF.get(c.get("confidence"), 0), c.get("retrieved_on") or "")
+    """Higher confidence wins; ties prefer records with a status (new schema), then the newer retrieved_on."""
+    return (CONF.get(c.get("confidence"), 0), c.get("status") is not None, c.get("retrieved_on") or "")
 
 
 cards, offers, gaps = {}, {}, {}

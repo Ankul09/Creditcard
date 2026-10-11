@@ -1,0 +1,153 @@
+{
+  "_note": "ILLUSTRATIVE SAMPLE DATA. Rates and caps are approximate placeholders; verify against issuer T&Cs before relying on them. 'rate' is the effective return as a fraction of spend (reward value in INR). 'cap_inr' is the max reward value per statement month for that rule. 'excludes' lists categories that earn no rewards. 'offers' are merchant/bank promotions that stack on top of rewards; check 'valid_till'.",
+  "cards": [
+    {
+      "name": "Sample Cashback Card",
+      "issuer": "Example Bank",
+      "annual_fee": 500,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "amazon",
+            "flipkart",
+            "myntra"
+          ],
+          "categories": [
+            "online_shopping"
+          ],
+          "rate": 0.05,
+          "cap_inr": 1000
+        }
+      ],
+      "excludes": [
+        "jewellery"
+      ],
+      "source_url": null,
+      "last_verified": null
+    },
+    {
+      "name": "Sample Dining & Travel Card",
+      "issuer": "Example Bank",
+      "annual_fee": 2500,
+      "base_rate": 0.015,
+      "rules": [
+        {
+          "merchants": [
+            "swiggy",
+            "zomato"
+          ],
+          "categories": [
+            "dining"
+          ],
+          "rate": 0.05,
+          "cap_inr": 1500
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "travel"
+          ],
+          "rate": 0.04,
+          "cap_inr": 2000
+        }
+      ],
+      "excludes": [],
+      "source_url": null,
+      "last_verified": null
+    },
+    {
+      "name": "Sample Grocery & Fuel Card",
+      "issuer": "Example Bank",
+      "annual_fee": 750,
+      "base_rate": 0.01,
+      "rules": [
+        {
+          "merchants": [
+            "bigbasket",
+            "blinkit",
+            "zepto"
+          ],
+          "categories": [
+            "groceries"
+          ],
+          "rate": 0.05,
+          "cap_inr": 800
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "fuel"
+          ],
+          "rate": 0.03,
+          "cap_inr": 300
+        }
+      ],
+      "excludes": [
+        "jewellery"
+      ],
+      "source_url": null,
+      "last_verified": null
+    },
+    {
+      "name": "Sample Premium Rewards Card",
+      "issuer": "Example Bank",
+      "annual_fee": 5000,
+      "base_rate": 0.02,
+      "rules": [
+        {
+          "merchants": [],
+          "categories": [
+            "travel",
+            "dining"
+          ],
+          "rate": 0.033,
+          "cap_inr": 5000
+        },
+        {
+          "merchants": [],
+          "categories": [
+            "jewellery"
+          ],
+          "rate": 0.01,
+          "cap_inr": 2000
+        }
+      ],
+      "excludes": [],
+      "source_url": null,
+      "last_verified": null
+    }
+  ],
+  "offers": [
+    {
+      "card": "Sample Cashback Card",
+      "merchants": [
+        "tanishq"
+      ],
+      "categories": [],
+      "type": "percent",
+      "value": 0.05,
+      "min_spend": 20000,
+      "cap_inr": 7500,
+      "valid_till": "2026-11-15",
+      "desc": "5% instant discount at Tanishq",
+      "source_url": null,
+      "last_verified": null
+    },
+    {
+      "card": "Sample Dining & Travel Card",
+      "merchants": [],
+      "categories": [
+        "jewellery"
+      ],
+      "type": "flat",
+      "value": 3000,
+      "min_spend": 100000,
+      "cap_inr": 3000,
+      "valid_till": "2026-12-31",
+      "desc": "Flat ₹3,000 off jewellery on ₹1L+",
+      "source_url": null,
+      "last_verified": null
+    }
+  ]
+}

@@ -5,6 +5,7 @@ from datetime import date
 from dataclasses import dataclass
 from typing import List, Optional
 
+UNAVAILABLE = {"discontinued", "closed_to_new"}  # cannot be newly applied for
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "cards.json")
 
 
@@ -42,6 +43,10 @@ def _matching_rule(card: dict, p: Purchase) -> Optional[dict]:
     best = None
     for rule in card["rules"]:
         if rule.get("rate") is None:
+            continue
+        if p.amount < (rule.get("min_txn_inr") or 0):
+            continue
+        if rule.get("max_txn_inr") and p.amount > rule["max_txn_inr"]:
             continue
         merchants = [m.lower() for m in rule["merchants"]]
         if merchants:  # merchant-locked rule: only earns at those merchants
@@ -102,5 +107,6 @@ def evaluate(card: dict, p: Purchase, offers: Optional[List[dict]] = None) -> Re
 
 def rank(p: Purchase, data: Optional[dict] = None) -> List[Result]:
     data = data or load_data()
-    results = (evaluate(c, p, data.get("offers", [])) for c in data["cards"])
+    available = [c for c in data["cards"] if c.get("status") not in UNAVAILABLE]
+    results = (evaluate(c, p, data.get("offers", [])) for c in available)
     return sorted(results, key=lambda r: r.total, reverse=True)

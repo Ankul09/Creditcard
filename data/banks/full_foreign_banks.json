@@ -1,0 +1,2020 @@
+{
+ "catalog": [
+  {
+   "name": "American Express Platinum Card (Charge)",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/amex-platinum-charge"
+  },
+  {
+   "name": "American Express Platinum Travel",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/amex-platinum-travel"
+  },
+  {
+   "name": "American Express Platinum Reserve",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/amex-platinum-reserve"
+  },
+  {
+   "name": "American Express Gold Card",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/amex-gold"
+  },
+  {
+   "name": "American Express SmartEarn",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/amex-smartearn"
+  },
+  {
+   "name": "American Express Membership Rewards Credit Card",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/amex-mrcc"
+  },
+  {
+   "name": "American Express Centurion Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/amex-centurion"
+  },
+  {
+   "name": "American Express Platinum Corporate Card",
+   "status": "active",
+   "source": "https://www.americanexpress.com/en-in/business/corporate-card-platinum/"
+  },
+  {
+   "name": "American Express Gold Corporate Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/credit-card/american-express-corporate-cards/"
+  },
+  {
+   "name": "American Express Green Corporate Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/credit-card/american-express-corporate-cards/"
+  },
+  {
+   "name": "Standard Chartered Ultimate",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-ultimate"
+  },
+  {
+   "name": "Standard Chartered Beyond",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/sc-beyond"
+  },
+  {
+   "name": "Standard Chartered Priority Visa Infinite",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/sc-priority-visa-infinite"
+  },
+  {
+   "name": "Standard Chartered Smart",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-smart"
+  },
+  {
+   "name": "Standard Chartered Manhattan Platinum",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-manhattan-platinum"
+  },
+  {
+   "name": "Standard Chartered Super Value Titanium",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-super-value-titanium"
+  },
+  {
+   "name": "Standard Chartered Rewards",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-rewards"
+  },
+  {
+   "name": "Standard Chartered EaseMyTrip",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-easemytrip"
+  },
+  {
+   "name": "Standard Chartered DigiSmart",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-digismart"
+  },
+  {
+   "name": "Standard Chartered Platinum Rewards",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sc-platinum-rewards"
+  },
+  {
+   "name": "Standard Chartered Emirates World",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/cards/sc-emirates-world"
+  },
+  {
+   "name": "HSBC Premier World Mastercard",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hsbc-premier"
+  },
+  {
+   "name": "HSBC Taj Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hsbc-taj"
+  },
+  {
+   "name": "HSBC TravelOne",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hsbc-travelone"
+  },
+  {
+   "name": "HSBC Live+",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hsbc-live-plus"
+  },
+  {
+   "name": "HSBC RuPay Cashback",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hsbc-rupay-cashback"
+  },
+  {
+   "name": "HSBC Visa Platinum",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hsbc-platinum"
+  },
+  {
+   "name": "HSBC RuPay Platinum",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hsbc-rupay-platinum"
+  },
+  {
+   "name": "DBS Vantage",
+   "status": "closed_to_new",
+   "source": "https://www.dbs.bank.in/in/credit-cards/vantage/dbs-vantage-metal-card.html"
+  },
+  {
+   "name": "DBS Altitude",
+   "status": "unknown",
+   "source": "https://www.dbs.bank.in/in/credit-cards/altitude/benefits-and-terms.html"
+  },
+  {
+   "name": "DBS Spark",
+   "status": "unknown",
+   "source": "https://www.dbs.bank.in/in/credit-cards/spark/product-benefit-terms-and-conditions.html"
+  },
+  {
+   "name": "DBS SuperX",
+   "status": "active",
+   "source": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+  },
+  {
+   "name": "DBS SuperX Plus",
+   "status": "active",
+   "source": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 10X Signature SuperCard",
+   "status": "discontinued",
+   "source": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 10X Plus Signature SuperCard",
+   "status": "discontinued",
+   "source": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 5X Rewards SuperCard",
+   "status": "discontinued",
+   "source": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 5X Plus Rewards SuperCard",
+   "status": "discontinued",
+   "source": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+  },
+  {
+   "name": "American Express Jet Airways Platinum",
+   "status": "discontinued",
+   "source": "https://www.bankbazaar.com/credit-card/jet-airways-american-express-platinum-credit-card.html"
+  }
+ ],
+ "cards": [
+  {
+   "name": "American Express Platinum Card (Charge)",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 66000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Unlimited domestic/intl lounges incl. Priority Pass and Centurion network (Mumbai Centurion Lounge reported closed 1 Jul 2026)",
+   "main_benefit": "Invite-level charge card for premium travel and lifestyle perks with 4.5% on international spend (at Rs0.60/pt).",
+   "key_benefits": [
+    "Renewal voucher up to Rs35,000 at Rs20L spend",
+    "Hotel elite status",
+    "Rewards Xcelerator on ShopWise vouchers",
+    "Welcome benefit figures conflict (Rs30,000 vs 60,000)"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "shopwise",
+      "rewards xcelerator"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.075,
+     "desc": "ShopWise/Rewards Xcelerator 12.5 MR per Rs100 at Rs0.60/pt",
+     "cap_inr": 15000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.045,
+     "desc": "7.5 MR per Rs100 at Rs0.60/pt"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.03,
+     "desc": "5 MR/Rs100 at Rs0.60; cap conflict 3,000 vs 5,000 pts/month",
+     "cap_inr": 3000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.015,
+     "desc": "Jewellery not addressed by source; assumed base 2.5 MR/Rs100 at Rs0.60 (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "utilities",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-platinum-charge",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-platinum-charge",
+    "https://cardadvisor.in/banks/american-express-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Charge card: full payment each cycle. Point value Rs0.60 per source (others Rs0.50); statement credit ~Rs0.25. Jewellery MCC treatment unconfirmed. Amex India paused new applications Mar 2025; Platinum Charge and Platinum Reserve reopened ~Sep 2025 per LiveFromALounge (2025-09-24) while CardAdvisor (Oct 2026) lists all as paused - conflict, status kept conservative. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "American Express Platinum Travel",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Needs Rs1L prior-quarter spend for lounge from 1 Oct 2026 (per source)",
+   "main_benefit": "Travel-milestone card: 1% base with Rs4L spend -> 10,000 MR and Rs7L -> Rs20,000 Taj voucher.",
+   "key_benefits": [
+    "Rs4L -> 10,000 MR",
+    "Rs7L -> Rs20,000 Taj voucher",
+    "Rs1.9L milestone removed 10 Sep 2026"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not addressed by source; assumed base 1 MR per Rs50 at Rs0.50/pt (unconfirmed). Amex reserves right to decline jewellery transactions per old offer T&Cs."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utility_bills",
+    "cash_advance",
+    "emi_at_pos"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-platinum-travel",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-platinum-travel"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1 MR/Rs50. Point value Rs0.50 baseline; statement credit ~Rs0.25; transfers 0.50-0.80. Post-purchase/SafeKey EMI still earns. Amex India paused new applications Mar 2025; Platinum Charge and Platinum Reserve reopened ~Sep 2025 per LiveFromALounge (2025-09-24) while CardAdvisor (Oct 2026) lists all as paused - conflict, status kept conservative. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "American Express Platinum Reserve",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 1000000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.035,
+   "lounge_access": "Complimentary Priority Pass domestic/intl lounge access",
+   "main_benefit": "Premium revolving card giving Rs12,000/yr vouchers (Rs1,000 monthly at Rs50k spend) and Taj/Preferred hotel privileges.",
+   "key_benefits": [
+    "Monthly Rs1,000 voucher at Rs50k spend (max Rs12,000/yr)",
+    "Taj SeleQtions, Vivanta, Preferred Hotels privileges",
+    "Fee waived at Rs10L spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "shopwise"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "ShopWise e-vouchers 6 MR per Rs100 at Rs0.50/pt",
+     "cap_inr": 12500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not addressed by source; assumed base rate (unconfirmed). 24K Gold Collection ~Rs0.58/pt redemption."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utility_bills",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-platinum-reserve",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-platinum-reserve"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1 MR/Rs50. Rent not excluded from earn per source. Legacy Rs50,000 'Option 1' foundation fee variant mentioned. Amex India paused new applications Mar 2025; Platinum Charge and Platinum Reserve reopened ~Sep 2025 per LiveFromALounge (2025-09-24) while CardAdvisor (Oct 2026) lists all as paused - conflict, status kept conservative. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "American Express Gold Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 1000,
+   "annual_fee": 4500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Mid-premium MR card with 5% on ShopWise e-vouchers and monthly 1,000-pt milestone for 6 transactions.",
+   "key_benefits": [
+    "Monthly milestone 1,000 pts for 6 txns >= Rs1,000",
+    "First-year fee Rs1,000",
+    "Fuel earn removed 12 Jun 2025",
+    "Reward Multiplier brand bonuses ended 30 Sep 2026"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "shopwise"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "ShopWise e-vouchers 10 MR/Rs100 at Rs0.50/pt",
+     "cap_inr": 12500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.01,
+     "desc": "Utility bills 1%, cap 10,000 pts/month",
+     "cap_inr": 5000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not addressed by source; assumed base rate (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-gold",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-gold"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Gold Card (revolving, MR earn); some sources call it 'Gold Charge' - same product, no separate Gold Charge card found. Amex India paused new applications Mar 2025; Platinum Charge and Platinum Reserve reopened ~Sep 2025 per LiveFromALounge (2025-09-24) while CardAdvisor (Oct 2026) lists all as paused - conflict, status kept conservative. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "American Express SmartEarn",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 495,
+   "annual_fee": 495,
+   "fee_waiver_spend": 40000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Online-spend card: 10X (5% at Rs0.25/pt) on Flipkart, Uber, BookMyShow, Ajio, Nykaa, PVR, Blinkit, Myntra and 5X on Amazon.",
+   "key_benefits": [
+    "Rs500 voucher at Rs1.2L/1.8L/2.4L spend",
+    "Fee waived at Rs40,000",
+    "Jewellery offers appear on SmartEarn microsite (all found expired)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "flipkart",
+      "uber",
+      "bookmyshow",
+      "ajio",
+      "nykaa",
+      "pvr",
+      "blinkit",
+      "myntra"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.1,
+     "desc": "10X = 20 pts/Rs100 at Rs0.50/pt; shared cap 500 pts/month",
+     "cap_inr": 250
+    },
+    {
+     "merchants": [
+      "amazon"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "Amazon 5X; cap 250 pts/month",
+     "cap_inr": 125
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not addressed; assumed base rate (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-smartearn",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-smartearn"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record rate for 10X (0.10 at Rs0.50/pt) kept; verify point value. Amex India paused new applications Mar 2025; Platinum Charge and Platinum Reserve reopened ~Sep 2025 per LiveFromALounge (2025-09-24) while CardAdvisor (Oct 2026) lists all as paused - conflict, status kept conservative. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "American Express Membership Rewards Credit Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 1000,
+   "annual_fee": 4500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry MR card with 1,000-pt monthly milestones and 1 MR per Rs50 base.",
+   "key_benefits": [
+    "1,000 pts per Rs20k/month or 4 txns >= Rs1,500",
+    "50% fee waiver at Rs90k-1.5L",
+    "Joining fee Rs1,000"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not addressed by source; assumed base rate (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utility_bills"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-mrcc",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-mrcc"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Known as MRCC. Amex India paused new applications Mar 2025; Platinum Charge and Platinum Reserve reopened ~Sep 2025 per LiveFromALounge (2025-09-24) while CardAdvisor (Oct 2026) lists all as paused - conflict, status kept conservative. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "American Express Centurion Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 700000,
+   "annual_fee": 275000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Unlimited domestic and international incl. Centurion Lounges and Priority Pass (Mumbai Centurion Lounge closed 1 Jul 2026 per source)",
+   "main_benefit": "Invitation-only top-tier charge card with 24x7 concierge, hotel elite status and 1.2% on all spends.",
+   "key_benefits": [
+    "24x7 concierge",
+    "Top-tier hotel elite status",
+    "Travel and medical insurance",
+    "Joining fee Rs7,00,000"
+   ],
+   "base_rate": 0.012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.012,
+     "desc": "2 pts/Rs100 at Rs0.60/pt assumed by source; jewellery not addressed (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utilities"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-centurion",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-centurion"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invitation only. Point value Rs0.25 statement credit, 0.50 vouchers, up to 0.80 transfer; Rs0.60 is source assumption. Reward Multiplier change effective 30 Sep 2026. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "American Express Platinum Corporate Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Priority Pass / lounge benefits per business page (details not retrieved)",
+   "main_benefit": "Business corporate card with 30L-spend gift voucher and accelerated rewards on business travel.",
+   "key_benefits": [
+    "Rs10,000 gift voucher on Rs30L annual spend (limited offer to 31 Jul 2026, lapsed)",
+    "Marriott Bonvoy Gold Elite (limited offer)",
+    "Metal card version"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+   "source_type": "official",
+   "sources": [
+    "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+    "https://www.paisabazaar.com/credit-card/american-express-corporate-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not retrieved (page JS-rendered/search snippet only). Corporate cards issued to companies; not relevant to consumer recommender."
+  },
+  {
+   "name": "American Express Gold Corporate Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 complimentary Priority Pass visits per year (per Paisabazaar)",
+   "main_benefit": "Mid-range corporate card earning 1 MR per Rs50 on business expenses.",
+   "key_benefits": [
+    "2 Priority Pass visits/yr",
+    "Discounted domestic lounge access"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/american-express-corporate-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/american-express-corporate-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees not retrieved; no current official page found. Corporate card."
+  },
+  {
+   "name": "American Express Green Corporate Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry corporate expense card from Amex India.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/american-express-corporate-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/american-express-corporate-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only mentioned by name on Paisabazaar; no details found."
+  },
+  {
+   "name": "Standard Chartered Ultimate",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "4 domestic visits per quarter plus spend-gated monthly Priority Pass visit",
+   "main_benefit": "Flat-rate premium card: 5 RP per Rs150 (3.33% only at Rs1/pt; 0.83% at Rs0.25 statement credit) with utility/insurance/rent earning too.",
+   "key_benefits": [
+    "Renewal 5,000 pts",
+    "Duty-free 5% cashback cap Rs1,000",
+    "Golf access",
+    "Fee not waivable by spend"
+   ],
+   "base_rate": 0.0083,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments",
+      "groceries"
+     ],
+     "rate": 0.0042,
+     "desc": "3 RP per Rs150 on utilities/supermarkets/insurance/rent/schools/govt at Rs0.25/pt"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0083,
+     "desc": "Jewellery not stated; 5 RP/Rs150 general at Rs0.25 (unconfirmed)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-ultimate",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-ultimate"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network Mastercard per CardAdvisor. Rent 1% processing fee. Headline 3.33% uses Rs1/pt catalogue value; base_rate conservative Rs0.25. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Beyond",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 15000,
+   "annual_fee": 25000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic and international",
+   "main_benefit": "Invite-only super-premium card with 3.33% headline (at Rs1/pt) and unlimited lounge access.",
+   "key_benefits": [
+    "Duty-free 15% cashback cap Rs1,500",
+    "Fee waiver via FUM Rs50L not spend"
+   ],
+   "base_rate": 0.0083,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0083,
+     "desc": "Jewellery not stated; 5 RP/Rs150 (0.83% at Rs0.25) (unconfirmed)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-beyond",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-beyond"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite only. Point value conflict (Rs1 catalogue vs Rs0.25). Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Priority Visa Infinite",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": true,
+   "joining_fee": null,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic visits per quarter plus Priority Pass",
+   "main_benefit": "Relationship-linked free Visa Infinite with 1.25% on international spend.",
+   "key_benefits": [
+    "Retail fashion 5 pts/Rs100"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0125,
+     "desc": "5 pts/Rs100 at Rs0.25/pt"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not stated (unconfirmed)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-priority-visa-infinite",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-priority-visa-infinite"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite/relationship only. Statement credit Rs0.20/pt. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Smart",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 499,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry online-shopping card with 2% cashback (cap Rs1,000/month).",
+   "key_benefits": [
+    "First-year fee waived (source)",
+    "Cashback redemption min Rs2,500"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% cashback; cap Rs1,000/month",
+     "cap_inr": 1000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not stated; offline 1% cashback cap Rs500/month (unconfirmed)",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-smart",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-smart"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing figures retained. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Manhattan Platinum",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 999,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Grocery card with 5% at supermarkets (min Rs1,000, cap Rs150/txn, Rs500/month).",
+   "key_benefits": [
+    "3 pts/Rs150 elsewhere"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "desc": "5% on groceries/supermarkets, min Rs1,000 per txn, Rs150 per txn cap; monthly cap Rs500",
+     "cap_inr": 500,
+     "min_txn_inr": 1000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not stated (unconfirmed)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-manhattan-platinum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-manhattan-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rent 1% processing fee. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Super Value Titanium",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 750,
+   "annual_fee": 750,
+   "fee_waiver_spend": 90000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Fuel and bill-pay card: 5% cashback on fuel (Rs200/month) and phone/utility bills via SC Billpay.",
+   "key_benefits": [
+    "Welcome 100% fuel cashback up to Rs1,500 in 90 days",
+    "Total 5% cashback ceiling Rs500/month",
+    "Free for premium banking customers"
+   ],
+   "base_rate": 0.0017,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "desc": "5% on petrol txns up to Rs2,000; cap Rs200/month",
+     "cap_inr": 200,
+     "max_txn_inr": 2000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "5% on phone (cap Rs200) and utility (cap Rs100) bills via SC Billpay only; min Rs750/txn; max Rs100/txn",
+     "cap_inr": 300,
+     "min_txn_inr": 750
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0017,
+     "desc": "1 RP/Rs150 at Rs0.25 (jewellery not stated, unconfirmed)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-super-value-titanium",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-super-value-titanium"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record (issuer 'Standard Chartered Bank') upgraded. Min income Rs60k/month. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Rewards",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic lounge visit per calendar quarter",
+   "main_benefit": "Points card: 4 RP per Rs150 (~0.67% at Rs0.25) with bonus 4 RP/Rs150 on retail above Rs20,000/cycle.",
+   "key_benefits": [
+    "Paying renewal credits 4,000 pts",
+    "1% fuel surcharge waiver Rs400-2,000, cap Rs400/month"
+   ],
+   "base_rate": 0.0067,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0133,
+     "desc": "Extra 4 RP/Rs150 on retail above Rs20,000/cycle at Rs0.25/pt; bonus cap 2,000 pts/cycle (~Rs95,000 retail)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sc-rewards",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-rewards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name on SC site: Rewards Credit Card. Redemption fee Rs99. Statement credit Rs0.20/pt. Branch/phone application only. Gov/insurance 1 RP/Rs150. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered EaseMyTrip",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "EaseMyTrip",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 350,
+   "annual_fee": 350,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic visits per calendar year (international withdrawn 15 Oct 2024)",
+   "main_benefit": "Travel co-brand: 10 RP per Rs100 (2.5% at Rs0.25) at standalone airline/hotel sites, plus EaseMyTrip discounts.",
+   "key_benefits": [
+    "EMTSCB: 20% off hotels (cap Rs5,000 dom / Rs10,000 intl)",
+    "10% off flights (cap Rs1,000 dom / Rs5,000 intl)",
+    "Rs125 off buses > Rs500"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.025,
+     "desc": "10 RP/Rs100 at Rs0.25/pt at standalone airline/hotel MCCs; EaseMyTrip site/app and aggregators earn only base"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-easemytrip",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-easemytrip"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Points expire in 2 years. Redemption fee Rs99. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered DigiSmart",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 588,
+   "fee_waiver_spend": 60000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Discount card (no points): 10% Blinkit, 10% Zomato, Ola/Yatra discounts.",
+   "key_benefits": [
+    "Rs49/month fee reversed at Rs5,000 next-month spend",
+    "Blinkit 10% max Rs1,000/month",
+    "Zomato 10% max Rs150/txn",
+    "Yatra domestic hotels 25% max Rs4,000",
+    "Ola 15% cashback Rs600/month",
+    "INOX BOGO weekends"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [
+      "blinkit"
+     ],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.1,
+     "desc": "Blinkit 10% off, 5 txns/month, promo DIGISMART",
+     "cap_inr": 1000
+    },
+    {
+     "merchants": [
+      "zomato"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "Zomato 10% off, max Rs150/txn, 5 txns/month",
+     "cap_inr": 750
+    },
+    {
+     "merchants": [
+      "ola"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.15,
+     "desc": "Ola 15% cashback; excludes bike/auto/share",
+     "cap_inr": 600
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-digismart",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-digismart"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No reward points. Page wording conflicts on 'no annual fee' vs Rs588+GST; monthly Rs49 fee. Myntra 20% withdrawn 1 Mar 2025. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Platinum Rewards",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free entry card: 5 RP per Rs150 (0.83% at Rs0.25) on dining and fuel.",
+   "key_benefits": [
+    "Rs250+GST fee if no Rs500 txn in 30 days"
+   ],
+   "base_rate": 0.0017,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.0083,
+     "desc": "5 RP/Rs150 at Rs0.25/pt, no cap"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.0083,
+     "desc": "5 RP/Rs150 at Rs0.25/pt (MCC dependent); no cap"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-platinum-rewards",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-platinum-rewards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Zero-fee instant variant for digital applicants. APR 1.99% vs 3.75% conflict. Jewellery not stated. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "Standard Chartered Emirates World",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Mastercard",
+   "status": "discontinued",
+   "co_brand_partner": "Emirates",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Emirates Skywards co-brand; partnership ended 31 Mar 2022.",
+   "key_benefits": [
+    "Historical: 6 miles/Rs150 on Emirates"
+   ],
+   "base_rate": 0.008,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-emirates-world",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-emirates-world"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Discontinued; holders offered SC Ultimate upgrade. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "HSBC Premier World Mastercard",
+   "issuer": "HSBC India",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 12000,
+   "annual_fee": 20000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0099,
+   "lounge_access": "Unlimited LoungeKey international plus Mastercard domestic; 8 guest visits",
+   "main_benefit": "Super-premium card for HSBC Premier customers: 3 pts/Rs100 plus 12X on hotels via Travel with Points, 0.99% forex.",
+   "key_benefits": [
+    "Welcome 20,000 RP",
+    "Annual fee waived for Qualified Premier customers",
+    "Points transfer to ~20 partners mostly 1:1 (Accor ~Rs2/pt)",
+    "Rs1 crore travel cover"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0075,
+     "desc": "3 pts/Rs100 at Rs0.25/pt statement credit (up to Rs1/pt via transfers); Rs1L/month combined cap across 11 categories"
+    },
+    {
+     "merchants": [
+      "hsbc travel with points"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.09,
+     "desc": "Hotels 36 pts/Rs100 via portal at Rs0.25/pt; flights 18 pts; 18,000 pts/month cap shared",
+     "cap_inr": 4500
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hsbc-premier",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hsbc-premier"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining fee applies even to Premier customers. Education/gov/insurance/rent/utility/wallet/jewellery in an 11-category group sharing Rs1L/month earn cap (earn, not zero) - jewellery treatment ambiguous. 0% forex offer to 31 Oct 2026. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "HSBC Taj Credit Card",
+   "issuer": "HSBC India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Taj / IHCL",
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 110000,
+   "annual_fee": 110000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Unlimited domestic and international",
+   "main_benefit": "Taj/IHCL co-brand with annual Taj voucher package, NeuPass Platinum and 5 RP/Rs100 at Taj-group hotels.",
+   "key_benefits": [
+    "Annual voucher: 2 Taj nights, 1 Palaces night, 4 meals, 4 spa, 36 access vouchers",
+    "InnerCircle NeuPass Platinum",
+    "12 golf games/yr",
+    "~Rs30,000 milestone bonus"
+   ],
+   "base_rate": 0.0101,
+   "rules": [
+    {
+     "merchants": [
+      "taj",
+      "seleqtions",
+      "gateway",
+      "vivanta",
+      "ama stays & trails"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0335,
+     "desc": "5 RP/Rs100 at source value Rs0.67/pt (conflicts with 1.5RP=Rs1)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "utilities",
+    "jewellery",
+    "wholesale_clubs",
+    "money_transfer"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hsbc-taj",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hsbc-taj"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex 3.5% waived only for executive banking; 0% offer till 31 Oct 2026. Points expire after 1 year. Statement credit Rs0.25/pt. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "HSBC TravelOne",
+   "issuer": "HSBC India",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 800000,
+   "forex_markup": 0.035,
+   "lounge_access": "6 domestic and 4 international visits per year",
+   "main_benefit": "Travel card: 4 pts/Rs100 on flights, travel aggregators and international, 2 pts base, 1:1 transfers to ~20 partners.",
+   "key_benefits": [
+    "Welcome ~Rs4,000 (Rs25k in 30 days)",
+    "10,000 pts on Rs12L spend",
+    "4 golf rounds + 12 lessons",
+    "Fee reversed at Rs8L"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "4 pts/Rs100 at Rs0.25/pt statement credit (up to Rs1-2/pt on transfers); cap 50,000 pts/month",
+     "cap_inr": 12500
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "utilities",
+    "jewellery",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hsbc-travelone",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hsbc-travelone"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery explicitly earns no rewards. 0% forex offer to 31 Oct 2026. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "HSBC Live+",
+   "issuer": "HSBC India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.0199,
+   "lounge_access": "2 domestic per year plus 1 international from 1 Sep 2026",
+   "main_benefit": "Cashback card: 10% on dining, groceries, shopping, utilities (Rs1,200/month shared cap), 1.5% on everything else.",
+   "key_benefits": [
+    "Welcome ~Rs1,000 on Rs25k in 30 days (apply 26 Jul-31 Dec 2026)",
+    "Rs250 quarterly contactless fuel at Rs10k quarter spend"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy",
+      "zomato"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback, Rs1 per Re; shared Rs1,200/month cap",
+     "cap_inr": 1200
+    },
+    {
+     "merchants": [
+      "bigbasket",
+      "blinkit",
+      "zepto"
+     ],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.1,
+     "desc": "10% shared cap",
+     "cap_inr": 1200
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.1,
+     "desc": "10% on apparel/department/other shopping MCCs; excludes Amazon, Flipkart, Myntra (1.5% only); shared cap",
+     "cap_inr": 1200
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.1,
+     "desc": "10% utilities; shared cap",
+     "cap_inr": 1200
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "insurance",
+    "education",
+    "government",
+    "wallet_load",
+    "international",
+    "emi",
+    "jewellery",
+    "gaming"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hsbc-live-plus",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hsbc-live-plus"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Formerly HSBC Cashback. Jewellery explicitly earns nothing (not 1.5%). Also on RuPay per source. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "HSBC RuPay Cashback",
+   "issuer": "HSBC India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "Conflicting: up to 10 visits/yr vs 4/yr",
+   "main_benefit": "RuPay UPI-linkable cashback card: 10% on dining and groceries (Rs400/month cap), 1% base.",
+   "key_benefits": [
+    "Welcome Rs500 on Rs10k in 30 days (apply by 31 Dec 2026)",
+    "UPI linkable"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy",
+      "zomato"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback; Rs400/month cap shared with base",
+     "cap_inr": 400
+    },
+    {
+     "merchants": [
+      "bigbasket",
+      "blinkit",
+      "zepto",
+      "swiggy instamart"
+     ],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.1,
+     "desc": "10%; shared Rs400/month cap",
+     "cap_inr": 400
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "insurance",
+    "education",
+    "government",
+    "emi",
+    "gaming",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hsbc-rupay-cashback",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hsbc-rupay-cashback"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery explicitly earns nothing. 0% forex offer to 31 Dec 2026. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "HSBC Visa Platinum",
+   "issuer": "HSBC India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free card: 2 RP per Rs150 (~1.33% at Rs1/pt, 0.33% as cash) and 6X hotels via portal.",
+   "key_benefits": [
+    "Welcome voucher up to Rs500 + 2,000 pts",
+    "12-month Times Prime",
+    "1% fuel surcharge waiver cap Rs250/month",
+    "Rs250 contactless fuel per quarter at Rs10k"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [
+      "hsbc travel with points"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "Hotels 6X/flights 4X; at Rs0.25/pt; 18,000 pts/month cap",
+     "cap_inr": 4500
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "utilities",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hsbc-platinum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hsbc-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Perks moved from Visa Signature 1 Sep 2025. Rs0.25/pt statement credit used for conservatism; transfers ~Rs1/pt. Jewellery earns nothing. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "HSBC RuPay Platinum",
+   "issuer": "HSBC India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free RuPay card with UPI linking and 2 RP per Rs150.",
+   "key_benefits": [
+    "Welcome Rs500 on Rs5k in 30 days (apply by 31 Dec 2026)",
+    "FSW cap Rs250/month",
+    "JCB acceptance abroad"
+   ],
+   "base_rate": 0.0033,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "utilities",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hsbc-rupay-platinum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hsbc-rupay-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rs0.25/pt for conservative base. Jewellery earns nothing. Fees exclude 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read."
+  },
+  {
+   "name": "DBS Vantage",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 20000,
+   "annual_fee": 20000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic and international via LoungeKey (primary cardholder)",
+   "main_benefit": "Invite-only metal card with 0% forex and 4 VP per Rs200 (VP=Rs1 per bankbazaar; value unconfirmed).",
+   "key_benefits": [
+    "10,000 VP milestone per Rs5L quarterly spend (max 40,000/yr)",
+    "Welcome 10,000 VP for non-Treasures",
+    "Duty-free 10% cashback cap Rs1,500/month",
+    "Annual fee waived with Rs2Cr TRV (Treasures)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "4 VP/Rs200 at assumed Rs0.50/VP (conservative; aggregator says Rs1) ; grocery/utility/telecom cap 1,200 VP per cycle, insurance 2,000 VP per cycle"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "education",
+    "international",
+    "emi"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/vantage/dbs-vantage-metal-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/vantage/dbs-vantage-metal-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page; fees conflict with aggregators (Rs50,000+GST). Network not stated on official page. Intl spend 'no VP' per exclusions but 8 VP/Rs200 abroad per aggregator - conflict. Fees ex-GST."
+  },
+  {
+   "name": "DBS Altitude",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 3000000,
+   "forex_markup": 0.01,
+   "lounge_access": "8 domestic and 4 international visits/yr (quarterly Rs75k spend gating)",
+   "main_benefit": "Travel card: 4 VP per Rs200, 0% forex in Asia/1% elsewhere.",
+   "key_benefits": [
+    "Welcome 4,999 VP",
+    "Renewal 4,999 VP",
+    "Duty-free 10% cashback cap Rs750/cycle",
+    "Fee waived at TRV Rs30L"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "4 VP/Rs200 at assumed Rs0.50/VP (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "education",
+    "emi"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/altitude/benefits-and-terms.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/altitude/benefits-and-terms.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official T&C page; open-for-application status not stated. International earn conflict in page. Fees ex-GST."
+  },
+  {
+   "name": "DBS Spark",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic lounge visit per quarter (Spark5)",
+   "main_benefit": "Entry cashback-points card: 2 Cash Points per Rs200 (Rs0.20 each = 0.2%) with 10X online tiers on higher variants.",
+   "key_benefits": [
+    "Spark5 Rs499, Spark10 Rs999, Spark20 Rs1,499",
+    "Welcome 2,500/5,000 CP"
+   ],
+   "base_rate": 0.002,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/spark/product-benefit-terms-and-conditions.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/dbs-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Variant details from search summary, not read from official page."
+  },
+  {
+   "name": "DBS SuperX",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "1 domestic lounge visit",
+   "main_benefit": "Successor to Bajaj Finserv DBS SuperCard: multiplied Cash Points on dining, groceries and online shopping.",
+   "key_benefits": [
+    "SuperX Plus variant Rs2,999 fee",
+    "Fuel surcharge waiver"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees from garbled regional-language MITC; earn rates not found. SuperX Plus is separate variant."
+  },
+  {
+   "name": "DBS SuperX Plus",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Higher tier of DBS SuperX with larger multipliers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs2,999 from garbled MITC; details not found."
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 10X Signature SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Co-brand SuperCard discontinued 1 Aug 2026; holders migrated to DBS SuperX / SuperX Plus.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not retrieved."
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 10X Plus Signature SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Co-brand SuperCard discontinued 1 Aug 2026; holders migrated to DBS SuperX / SuperX Plus.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not retrieved."
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 5X Rewards SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Co-brand SuperCard discontinued 1 Aug 2026; holders migrated to DBS SuperX / SuperX Plus.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not retrieved."
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 5X Plus Rewards SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Co-brand SuperCard discontinued 1 Aug 2026; holders migrated to DBS SuperX / SuperX Plus.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/key-fact-document.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not retrieved."
+  },
+  {
+   "name": "American Express Jet Airways Platinum",
+   "issuer": "American Express India",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Jet Airways",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Jet Airways co-brand, no longer issued.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/jet-airways-american-express-platinum-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/jet-airways-american-express-platinum-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only a stale BankBazaar URL seen; presumed dead since Jet Airways collapse."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "Amex India offers pages are JS-rendered; no jewellery offers (SmartEarn Joyalukkas/Kalyan/GRT) valid >= 2026-10-11 found; recheck before Dhanteras/Diwali 2026-11-08.",
+  "No Amex Taj/IndiGo/Air India co-brand cards, Blue Cash, or separate 'Gold Charge' card found in India; Gold Card is the Gold product. Amex corporate Gold/Green details unavailable.",
+  "Amex status conflict: LiveFromALounge (2025-09-24) says Platinum Charge and Reserve reopened; CardAdvisor (Oct 2026) lists all paused. Status set 'unknown'.",
+  "All SC, Amex and HSBC data is from CardAdvisor (third_party); no MITC PDFs read (pdftotext absent). Jewellery/gold treatment unverified for Amex, SC, DBS; explicitly excluded for HSBC TravelOne, Live+, RuPay Cashback, Platinum, Taj.",
+  "HSBC 0% forex promotional offer to 31 Oct 2026 (RuPay Cashback to 31 Dec 2026); standing markups recorded.",
+  "SC Vistara/IndianOil/Smart Value cards not found; SC reportedly reviewing a sale of its India cards business. Standard Chartered Visa Infinite/Platinum Visa Signature variants not verified.",
+  "DBS: Vantage fee conflict (official Rs20,000 vs aggregator Rs50,000+GST), network not stated; Spark variants and SuperX earn rates unverified. DBS point value uncertain (Rs0.50 assumed).",
+  "Citi India (Axis), Barclays, Deutsche, Bank of America, JPMorgan: no live Indian credit cards found/searched deeply; skipped per brief. HSBC Smart Value page exists but unverified as card.",
+  "Point values vary by redemption; conservative statement credit values used in base rates."
+ ]
+}

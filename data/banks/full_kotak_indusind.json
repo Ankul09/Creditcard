@@ -1,0 +1,2936 @@
+{
+ "catalog": [
+  {
+   "name": "Kotak Solitaire",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-solitaire"
+  },
+  {
+   "name": "Kotak White Reserve",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-white-reserve"
+  },
+  {
+   "name": "Kotak White",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-white"
+  },
+  {
+   "name": "Kotak Zen Signature",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-zen-signature"
+  },
+  {
+   "name": "Kotak League Platinum",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-league-platinum"
+  },
+  {
+   "name": "Kotak League Platinum RuPay",
+   "status": "active",
+   "source": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+  },
+  {
+   "name": "Kotak Air+ Prime Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-air-plus-prime"
+  },
+  {
+   "name": "Kotak Air Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-air"
+  },
+  {
+   "name": "Kotak Cashback+ Prime Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-cashback-plus-prime"
+  },
+  {
+   "name": "IndiGo Kotak Credit Card",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/kotak-indigo"
+  },
+  {
+   "name": "IndiGo XL Kotak Credit Card",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/kotak-indigo-premium"
+  },
+  {
+   "name": "Kotak 811 #DreamDifferent Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-811"
+  },
+  {
+   "name": "Kotak UPI RuPay Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-upi-rupay"
+  },
+  {
+   "name": "IndianOil Kotak Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-indianoil"
+  },
+  {
+   "name": "PVR INOX Kotak Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kotak-pvr-inox"
+  },
+  {
+   "name": "Kotak Privy League Signature Credit Card",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/cards/kotak-privy-league"
+  },
+  {
+   "name": "Kotak Myntra Credit Card",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/cards/kotak-myntra"
+  },
+  {
+   "name": "Kotak Royale Signature Credit Card",
+   "status": "discontinued",
+   "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/royale-signature-credit-card/features.html"
+  },
+  {
+   "name": "Kotak Mojo Platinum Credit Card",
+   "status": "discontinued",
+   "source": "kotak.bank.in lineup / aggregators"
+  },
+  {
+   "name": "Kotak Delight Platinum Credit Card",
+   "status": "discontinued",
+   "source": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/delight-platinum-card/visa-paywave.html"
+  },
+  {
+   "name": "Kotak Essentia Platinum Credit Card",
+   "status": "discontinued",
+   "source": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html"
+  },
+  {
+   "name": "Kotak Fortune Gold Credit Card",
+   "status": "discontinued",
+   "source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/fortune-gold-card.html"
+  },
+  {
+   "name": "Kotak Urbane Gold Credit Card",
+   "status": "discontinued",
+   "source": "kotak.bank.in lineup / aggregators"
+  },
+  {
+   "name": "Kotak Infinite Credit Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+  },
+  {
+   "name": "Kotak NRI Royale Signature Credit Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+  },
+  {
+   "name": "Metro Kotak Credit Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+  },
+  {
+   "name": "Kotak BIZ Credit Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+  },
+  {
+   "name": "Kotak Veer Credit Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+  },
+  {
+   "name": "IndusInd Legend",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-legend"
+  },
+  {
+   "name": "IndusInd Pioneer Heritage",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/indusind-pioneer-heritage"
+  },
+  {
+   "name": "IndusInd Pioneer Legacy",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/indusind-pioneer-legacy"
+  },
+  {
+   "name": "IndusInd Pioneer Private",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/indusind-pioneer-private"
+  },
+  {
+   "name": "IndusInd Tiger",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-tiger"
+  },
+  {
+   "name": "IndusInd Indus Solitaire Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-solitaire"
+  },
+  {
+   "name": "IndusInd Crest Credit Card",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/indusind-crest"
+  },
+  {
+   "name": "IndusInd Celesta Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-celesta"
+  },
+  {
+   "name": "IndusInd Indulge Credit Card",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/indusind-indulge"
+  },
+  {
+   "name": "IndusInd Pinnacle",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-pinnacle"
+  },
+  {
+   "name": "IndusInd Nexxt",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-nexxt"
+  },
+  {
+   "name": "IndusInd Avios Visa Infinite Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-avios"
+  },
+  {
+   "name": "IndusInd EazyDiner Signature Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-eazydiner"
+  },
+  {
+   "name": "IndusInd EazyDiner Platinum Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-eazydiner-platinum"
+  },
+  {
+   "name": "IndusInd Platinum RuPay Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-platinum-rupay"
+  },
+  {
+   "name": "IndusInd Platinum Aura Edge",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-platinum-aura-edge"
+  },
+  {
+   "name": "IndusInd Platinum Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-platinum"
+  },
+  {
+   "name": "IndusInd Duo Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-duo"
+  },
+  {
+   "name": "IndusInd Samman Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-samman"
+  },
+  {
+   "name": "IndusInd ePay Amex Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-epay-amex"
+  },
+  {
+   "name": "IndusInd Bank Jio-bp Mobility+ Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-jio-bp"
+  },
+  {
+   "name": "IndusInd Platinum Aura",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  },
+  {
+   "name": "IndusInd Platinum Select",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  },
+  {
+   "name": "IndusInd Iconia",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  },
+  {
+   "name": "IndusInd InterMiles Odyssey Credit Card",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  },
+  {
+   "name": "IndusInd InterMiles Voyage Credit Card",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  },
+  {
+   "name": "IndusInd Platinum Aura Edge (Government Sector)",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  },
+  {
+   "name": "Poonawalla Fincorp IndusInd eLITE RuPay Credit Card",
+   "status": "discontinued",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  },
+  {
+   "name": "IndusInd Club Vistara Explorer Credit Card",
+   "status": "unknown",
+   "source": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Kotak Solitaire",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 25000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Invite-only airline-miles card earning about 3% on retail and 10 miles/Rs100 on Kotak Unbox travel.",
+   "key_benefits": [
+    "Invite/relationship (Solitaire banking, ~Rs75L FRV) only",
+    "10 Air Miles/Rs100 on Unbox flights+hotels",
+    "DCC waived"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "kotak unbox"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "10 Air Miles/Rs100 on Unbox flights/hotels; value assumed Rs0.50/mile (Rs1 on Unbox redemption would be 10%) - conservative"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.015,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "utilities",
+    "insurance",
+    "education",
+    "government",
+    "gaming",
+    "emi",
+    "fuel",
+    "international"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-solitaire",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-solitaire"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee conflict: aggregator says nil (existing record 0); a search summary of Kotak MITC says Rs25,000; kept conservative Rs25,000. 3 Air Miles/Rs100 at Rs0.50 = 1.5%. International earns nothing per one source. Invite-only. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak White Reserve",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 12500,
+   "annual_fee": 12500,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic+international lounge and golf (per Kotak positioning; unverified)",
+   "main_benefit": "Flagship metal-style card with zero per-spend earn but White Pass milestone rewards worth ~1.7-2.5% effective.",
+   "key_benefits": [
+    "White Pass milestones: Rs3L->Rs5,000 ... Rs1Cr->Rs2.5L cumulative",
+    "Fuel surcharge waiver 1% cap Rs4,500/month",
+    "Only one of White/White Reserve per customer"
+   ],
+   "base_rate": 0.0,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/kotak-white-reserve",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-white-reserve"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Zero base earn; value only via milestones. White Pass Rs1 on Unbox, Rs0.70 cashback; expires 15 months. Jewellery treatment not stated; with base 0 there is no per-spend earn anyway. Kotak confirms White Reserve fee Rs12,500 and White Rs3,000 (search of official MITC). Premium variants exempt from some June 2025 Kotak fee changes. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak White",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Mid-premium card with no per-spend earn but White Pass milestone rewards worth about 1.2% at Rs5L spend.",
+   "key_benefits": [
+    "Milestones: Rs2L->Rs2,000; 4L->6,000 cum.; 6L->12,000; 9L->19,000; 12L->27,000",
+    "Fee waiver at Rs5L"
+   ],
+   "base_rate": 0.0,
+   "rules": [],
+   "excludes": [
+    "education",
+    "transport",
+    "rent"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-white",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-white"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Education & transport earn nothing from 1 Apr 2026; 2% fee on rent. Forex 3.5%+GST. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Zen Signature",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic lounge (conditional; not verified)",
+   "main_benefit": "Online/shopping-focused signature card with 10 pts/Rs150 on shopping.",
+   "key_benefits": [
+    "Milestone 7,500 pts at Rs3L or 15,000 at Rs6L",
+    "Fee waiver Rs1.5L"
+   ],
+   "base_rate": 0.0083,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.0167,
+     "desc": "Shopping 10 pts/Rs150 at Rs0.25; shared cap 6,500 pts per cycle",
+     "cap_inr": 1625
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0167,
+     "desc": "2020 launch listed jewellery under shopping; current MITC unconfirmed",
+     "cap_inr": 1625
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "rent",
+    "gaming",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-zen-signature",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-zen-signature"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record preserved. Cash value Rs0.20/pt. Education/insurance/utilities/government capped per cycle. Jewellery treatment unconfirmed. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak League Platinum",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry card with 4 pts/Rs150 (0.27%) and PVR ticket milestones.",
+   "key_benefits": [
+    "8 pts/Rs150 on travel, durables, department stores and annual spend >Rs2L",
+    "PVR tickets: pts at Rs1.25L per half-year",
+    "Also available as RuPay (UPI-linkable)"
+   ],
+   "base_rate": 0.0027,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0053,
+     "desc": "8 pts/Rs150 at Rs0.10 (cash redeem Rs0.07 from 1 Jun 2025)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0027,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "emi",
+    "education",
+    "insurance",
+    "government",
+    "gaming",
+    "railways"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-league-platinum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-league-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record preserved and extended. Jewellery treatment unconfirmed. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak League Platinum RuPay",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "RuPay variant of League Platinum with same Rs499 fee and rewards, linkable to UPI apps.",
+   "key_benefits": [
+    "Same rewards and milestones as Visa League Platinum"
+   ],
+   "base_rate": 0.0027,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0027,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "emi",
+    "education",
+    "insurance",
+    "government",
+    "gaming"
+   ],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence from search summary (aggregator); fees/rewards assumed identical per that source. Not independently verified. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Air+ Prime Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 400000,
+   "forex_markup": 0.02,
+   "lounge_access": "4 domestic (2/qtr) + 2 international Priority Pass visits/year",
+   "main_benefit": "Airline-miles card: 5 miles/Rs100 (~5%) on Kotak Unbox travel, 2 miles/Rs100 elsewhere.",
+   "key_benefits": [
+    "3,000 Air Miles welcome and renewal",
+    "Transfers: Air India 2:1, Marriott 3:1, Accor/Qatar/BA/Cathay/United/Flying Blue 2:1",
+    "Fuel surcharge waiver 1% (cap Rs4,500, period conflicting)",
+    "Annual fee waiver at Rs4L"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [
+      "kotak unbox"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5 miles/Rs100 at Rs1/mile on Unbox flights/hotels (vouchers Rs0.50); cap 15,000 miles/cycle",
+     "cap_inr": 15000
+    },
+    {
+     "merchants": [
+      "auto dealers"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.05,
+     "desc": "5 miles/Rs100 at auto-dealer MCCs 5013/5511/5521/5533, cap 1,500 miles/cycle",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.02,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "utilities",
+    "insurance",
+    "education",
+    "government",
+    "gaming",
+    "emi",
+    "fuel",
+    "international"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-air-plus-prime",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-air-plus-prime"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Base 2 miles/Rs100 valued Rs1/mile on Unbox (Rs0.50 via vouchers = 1%). International earns nothing. MCC 6300 insurance earns 2 miles on first Rs25k/cycle. Forex 2%+GST. Jewellery not mentioned. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Air Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 250000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic/year (2/qtr), needs Rs60k previous-quarter spend",
+   "main_benefit": "Entry airline-miles card: 3 miles/Rs100 on Kotak Unbox travel, 1 mile/Rs100 elsewhere.",
+   "key_benefits": [
+    "1,000 miles welcome and renewal",
+    "Transfers Air India/Marriott 3:1, Accor/Qatar/BA etc 2:1",
+    "Fuel waiver 1% cap Rs3,500"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "kotak unbox"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.03,
+     "desc": "3 miles/Rs100 at Rs1/mile on Unbox; cap 5,000 miles/cycle",
+     "cap_inr": 5000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "utilities",
+    "insurance",
+    "education",
+    "government",
+    "gaming",
+    "emi",
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-air",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-air"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Source conflicts: joining fee Rs0 vs Rs999; Rs2.5L fee waiver exists in MITC/KFS but not in fee table; travel cap basis (miles vs Rs) and fuel-waiver period unclear. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Cashback+ Prime Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 750,
+   "annual_fee": 750,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Cashback card: 5% on online grocery, food delivery, entertainment and auto dealers (Rs750/cycle shared cap), 3% fuel.",
+   "key_benefits": [
+    "Redeem in multiples of 400 points (1 pt = Rs1)",
+    "RuPay variant exists"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining"
+     ],
+     "rate": 0.05,
+     "desc": "5% on online grocery/food delivery/entertainment/auto dealers; shared Rs750/cycle cap with fuel; once capped earns nothing in those categories",
+     "cap_inr": 750
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.03,
+     "desc": "3% fuel inside the shared Rs750 cap; MITC may disallow points on surcharge-waived txns - conflict",
+     "cap_inr": 750
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "utilities",
+    "education",
+    "government",
+    "wallet_load",
+    "gaming",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-cashback-plus-prime",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-cashback-plus-prime"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fuel 3% vs surcharge-waiver conflict flagged by source. Fuel waiver 1% cap Rs3,500. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndiGo Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "closed_to_new",
+   "co_brand_partner": "IndiGo (6E)",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "IndiGo co-brand: 3 BluChips/Rs100 on IndiGo bookings (~1.26%), 2 on dining, 1 elsewhere.",
+   "key_benefits": [
+    "2,500 BluChips welcome and renewal",
+    "2,500 BluChips milestones at Rs1.25L/2.5L/6L"
+   ],
+   "base_rate": 0.0042,
+   "rules": [
+    {
+     "merchants": [
+      "indigo",
+      "goindigo.in"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0126,
+     "desc": "3 BluChips/Rs100 at Rs0.42 (BluChips redeem only vs IndiGo fares)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.0084,
+     "desc": "2 BluChips/Rs100 dining & entertainment"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0042,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "education",
+    "government",
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-indigo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-indigo"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Status conflict: CardAdvisor shows live (Sept 2026) but Kotak's own page titles read 'IndiGo Kotak 6E Rewards Credit Card (Discontinued)' per search result; set closed_to_new. No spend-based fee waiver. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndiGo XL Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": "IndiGo (6E)",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic visits/year (2/qtr)",
+   "main_benefit": "IndiGo premium co-brand: 5 BluChips/Rs100 on IndiGo (~2.1%), 3 on dining, 2 elsewhere.",
+   "key_benefits": [
+    "4,000 BluChips + 6E Eats voucher welcome and renewal",
+    "4,000 BluChips at Rs1.5L/4L/7.5L/12L"
+   ],
+   "base_rate": 0.0084,
+   "rules": [
+    {
+     "merchants": [
+      "indigo",
+      "goindigo.in"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.021,
+     "desc": "5 BluChips/Rs100 at Rs0.42"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.0126,
+     "desc": "3 BluChips/Rs100 dining & entertainment"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0084,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "education",
+    "government",
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-indigo-premium",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-indigo-premium"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Status conflict: aggregator live; Kotak page titled '(Discontinued)' per search ('IndiGo Kotak 6E Rewards XL'). Welcome stats box shows Rs50,000 which looks like an error. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak 811 #DreamDifferent Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 295,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "FD-backed zero-annual-fee card with 2 pts/Rs100 online shopping.",
+   "key_benefits": [
+    "Joining fee waived if FD >= ~Rs20,000",
+    "Welcome OTTPlay + Woohoo Rs250 voucher (terms ran to 31 Dec 2025 - confirm)"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.004,
+     "desc": "2 pts/Rs100 at assumed Rs0.20/pt (Rs0.25 statement credit would give 0.5%)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.002,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "railways",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-811",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-811"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining Rs250+GST. Fuel waiver 1% cap Rs3,500/month. Points worth 10 paise per Kotak June 2025 change for 811 (vs 25 paise before) per Business Standard - conservative. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak UPI RuPay Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Virtual UPI-linked lifetime-free card for existing Kotak cardholders, 3 pts/Rs100 (~0.3%).",
+   "key_benefits": [
+    "Virtual only, no physical card",
+    "Existing Kotak credit-card holders only"
+   ],
+   "base_rate": 0.003,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.003,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "emi",
+    "education",
+    "insurance",
+    "government",
+    "gaming",
+    "railways"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-upi-rupay",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-upi-rupay"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Point Rs0.10 catalogue/Rs0.07 cash (0.21%). Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndianOil Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "IndianOil",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 449,
+   "annual_fee": 449,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "IndianOil co-brand: 4% value on IOCL fuel (cap Rs300/month) and 2% on grocery/dining.",
+   "key_benefits": [
+    "Fuel surcharge waiver 1% at IOCL (Rs100 cap/statement)",
+    "Welcome ~Rs250 / 1,000 pts on Rs500 spend in 30 days (sources conflict)"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl",
+      "indian oil"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "desc": "24 pts/Rs150 at Rs0.25; cap 1,200 pts/statement = Rs300 reward (~Rs7,500 fuel)",
+     "cap_inr": 300
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining"
+     ],
+     "rate": 0.02,
+     "desc": "12 pts/Rs150 at Rs0.25; shared 800-pt cap (Rs200)",
+     "cap_inr": 200
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "insurance",
+    "government",
+    "utilities",
+    "education"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-indianoil",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-indianoil"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record improved. Pts worth ~Rs0.20 cash, so cash value is ~3.2% fuel. UPI earns base only. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "PVR INOX Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "PVR INOX",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "In-cinema lounge only",
+   "main_benefit": "Movie card: one PVR INOX coupon (up to Rs300) per Rs10,000 monthly spend band, 5% off tickets, 20% off F&B.",
+   "key_benefits": [
+    "Add-on Rs299",
+    "Coupon claim in 2 cycles, valid 60 days"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [
+      "pvr",
+      "pvr inox",
+      "inox"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.05,
+     "desc": "5% off PVR INOX tickets; plus Rs300 coupon per Rs10k monthly band (~3% at Rs10k, effective ~1.5-3%)"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "gaming"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-pvr-inox",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-pvr-inox"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network not confirmed by Kotak (header says RuPay). Annual fee applies at renewal only; no spend waiver. Utilities/education exclusion conflicts between sources. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Privy League Signature Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.02,
+   "lounge_access": "2 domestic/qtr (needs Rs75k prior quarter); 4 intl Priority Pass (paid variant)",
+   "main_benefit": "Discontinued plan-based card: 5 pts/Rs100 (1%) in chosen Shopper/Traveller plan.",
+   "key_benefits": [
+    "Annual bonus 7,000 pts at Rs3L or 30,000 at Rs8L",
+    "Fee waived with Black/Platinum banking"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "Traveller plan only: 5 pts/Rs100 at Rs0.20"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.01,
+     "desc": "Shopper plan only; one plan chosen"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.004,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-privy-league",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-privy-league"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Discontinued for new applications; existing holders keep it. Kotak page titled Discontinued. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Myntra Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Mastercard",
+   "status": "discontinued",
+   "co_brand_partner": "Myntra",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic/quarter",
+   "main_benefit": "Discontinued Myntra co-brand: 7.5% off Myntra, 5% on Swiggy/Cleartrip etc, 1.25% elsewhere.",
+   "key_benefits": [
+    "Holders migrated to League Platinum / Zen Signature"
+   ],
+   "base_rate": 0.0125,
+   "rules": [
+    {
+     "merchants": [
+      "myntra"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.075,
+     "desc": "7.5% checkout discount, Rs750/txn cap"
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "swiggy instamart",
+      "cleartrip",
+      "pvr",
+      "urban company"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback, Rs1,000/cycle shared cap",
+     "cap_inr": 1000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0125,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kotak-myntra",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-myntra"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Withdrawn 10 Jul 2025 (press; Kotak published no notice). RuPay variant too. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Royale Signature Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 1499,
+   "annual_fee": 999,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "Airport lounge (count not verified)",
+   "main_benefit": "Discontinued mid-tier signature card with up to 30,000 bonus pts at Rs8L annual spend.",
+   "key_benefits": [
+    "Annual fee waived at Rs1L",
+    "Fuel surcharge waiver up to Rs3,500/year"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/royale-signature-credit-card/features.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/royale-signature-credit-card/features.html",
+    "https://paisabazaar.com/kotak-mahindra-bank/royale-signature-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Kotak page titled (Discontinued) but features page still live; some aggregators say discontinued. Reward rates not verified (one source: 4 pts/Rs150 accelerated, 2 base). Points Rs0.20->Rs0.07 for paid Royale from Jun 2025. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Mojo Platinum Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Kotak entry/mid card; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": null,
+   "source_type": "third_party",
+   "sources": [],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on Kotak lineup as discontinued for new applications. Fees/rewards not found - left null. Points on paid Royale/League/Urbane convert at 7 paise from Jun 2025. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Delight Platinum Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Kotak entry/mid card; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/delight-platinum-card/visa-paywave.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/delight-platinum-card/visa-paywave.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Kotak page titled (Discontinued); advertised 10% cashback on dining (possibly stale). Fees/rewards not found - left null. Points on paid Royale/League/Urbane convert at 7 paise from Jun 2025. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Essentia Platinum Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Kotak entry/mid card; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Kotak: discontinued for new sourcing, shown for existing holders only; advertised 10% savings on departmental/grocery. Fees/rewards not found - left null. Points on paid Royale/League/Urbane convert at 7 paise from Jun 2025. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Fortune Gold Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Kotak entry/mid card; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/fortune-gold-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/fortune-gold-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Paisabazaar/CardInsider say discontinued; not confirmed on Kotak page. Fees/rewards not found - left null. Points on paid Royale/League/Urbane convert at 7 paise from Jun 2025. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Urbane Gold Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Kotak entry/mid card; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": null,
+   "source_type": "third_party",
+   "sources": [],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on Kotak lineup as discontinued for new applications; Urbane Platinum not found. Fees/rewards not found - left null. Points on paid Royale/League/Urbane convert at 7 paise from Jun 2025. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Infinite Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Existence reported by aggregators; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite-only Private Banking card; no public page found. Fuel waiver cap Rs7,500/txn; point value cut Rs1->Rs0.70 (one report). Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak NRI Royale Signature Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Existence reported by aggregators; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Appears in Kotak fee-threshold lists; no fee/reward details found. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Metro Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Existence reported by aggregators; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Appears on Kotak fuel-surcharge-ineligible list; fees/rewards not found. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak BIZ Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Existence reported by aggregators; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Business card named in aggregator listing; no details found. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Kotak Veer Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Existence reported by aggregators; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Business/corporate card named in aggregator listing; no details found. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Legend",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 5000,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.018,
+   "lounge_access": "Complimentary lounge discontinued 7 Mar 2025",
+   "main_benefit": "Premium weekday/weekend earn card at 1-2 RP/Rs100 (~0.5-1%); stripped of lounge access.",
+   "key_benefits": [
+    "3,000 bonus pts at Rs5L annual spend",
+    "BookMyShow BOGO (Rs200)",
+    "Cash redemption max 5,000 pts/month"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "utilities",
+    "insurance",
+    "education",
+    "government"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-legend",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-legend"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record improved. Joining Rs5,000 (MITC schedule: Rs5,000, annual nil) - hub says lifetime free. Weekday 1 RP, weekend 2 RP per Rs100 at Rs0.50 (0.35 catalogue). Education/govt/insurance/rent/utility 0.7 RP. Fuel nothing; forex 1.8%. DCC 2% from 15 Jun 2026. Jewellery not addressed. Mastercard variant mentioned. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Pioneer Heritage",
+   "issuer": "IndusInd Bank",
+   "network": "Mastercard",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 100000,
+   "annual_fee": 25000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited? not verified",
+   "main_benefit": "Invite-only super-premium card earning 2.5 RP/Rs100 on international spend, 0% forex.",
+   "key_benefits": [
+    "Forex 0% since 5 Oct 2024"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.025,
+     "desc": "2.5 RP/Rs100 at Rs1 (point value inconsistent: Rs1 cash vs Rs0.35 catalogue)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-pioneer-heritage",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-pioneer-heritage"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record kept. Joining Rs1,00,000 (invite section says Rs90,000). Cash cap 30,000 RP/month. Invite-only. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Pioneer Legacy",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 50000,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.018,
+   "lounge_access": null,
+   "main_benefit": "Invite-only relationship card with 1 RP/Rs100 (weekend 2) and no annual fee.",
+   "key_benefits": [
+    "4,000 RP at Rs5L spend",
+    "Existing Legacy customers joining fee Rs5,000"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-pioneer-legacy",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-pioneer-legacy"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record kept. Pioneer-customer gated. Cash cap 20,000 RP/month. Complimentary variant forex 3.5%. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Pioneer Private",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 25000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic and international Priority Pass (primary + 1 add-on), 12 intl guest visits",
+   "main_benefit": "Invite-only Pioneer Private card earning 3 RP/Rs100 (~3%) with unlimited lounges.",
+   "key_benefits": [
+    "6,000 pts on Rs1L in 30 days",
+    "Taj gift certificate Rs1L at Rs75L spend",
+    "Taj/ITC/EazyDiner perks year one only"
+   ],
+   "base_rate": 0.03,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.03,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-pioneer-private",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-pioneer-private"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rs1/RP per page. Education/govt/insurance/rent/utility 0.7%. Downgrade fee Rs50,000. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Tiger",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Tiger Fintech",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.015,
+   "lounge_access": "8 domestic (2/qtr) + 2 international visits/year",
+   "main_benefit": "Lifetime-free card whose earn ladder rises 1X->6X (0.4%->2.4%) with annual spend.",
+   "key_benefits": [
+    "Golf 1 round/qtr",
+    "1%+ fuel waiver Rs400-4,000 uncapped",
+    "BookMyShow ticket Rs500 per 6 months"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.024,
+     "desc": "Marginal rate above Rs5L annual spend (6X); 1X 0.4% to Rs1L, 2X to Rs2.5L, 4X to Rs5L; at Rs0.40/pt"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.004,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "utilities",
+    "insurance",
+    "education",
+    "government"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-tiger",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-tiger"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record improved. Co-brand with Tiger Fintech (Bajaj Capital). Utility/insurance/govt/education/rent 1X only. Cash redeem max 5,000 pts/month. Not UPI-linkable. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Indus Solitaire Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 30000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0,
+   "lounge_access": "4 intl + 4 domestic per quarter (domestic needs Rs5L prior quarter)",
+   "main_benefit": "Super-premium card with 0% forex, 4 lounge visits per quarter and 12 golf rounds.",
+   "key_benefits": [
+    "5,000 pts on Rs1L in 30 days",
+    "Taj Epicure, EazyDiner Prime, Moneycontrol Pro"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "utilities",
+    "insurance",
+    "education",
+    "government"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-solitaire",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-solitaire"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1 RP/Rs100 at Rs0.50; 0.7 RP on education/govt/insurance/rent/utility. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Crest Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Mastercard",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 75000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.018,
+   "lounge_access": "LoungeKey; domestic 2/qtr if Rs5L prior quarter",
+   "main_benefit": "Invite-only card earning 2.5 RP/Rs100 on international spend with golf perks.",
+   "key_benefits": [
+    "Golf 2 games+2 lessons/month if Rs25k prior statement"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0188,
+     "desc": "2.5 RP/Rs100 at ~Rs0.75"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0075,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-crest",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-crest"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Point value Rs0.75 per page vs Rs0.35 catalogue - conflict. Forex 1.8%+DCC 1%. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Celesta Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "American Express",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 25000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic unlimited (Rs1.5L prior qtr) + 2 intl Priority Pass/qtr",
+   "main_benefit": "Amex super-premium card with 3 RP/Rs100 (2.25%) on international spend.",
+   "key_benefits": [
+    "Golf 1 game+1 lesson/month",
+    "Welcome gift on joining fee"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0225,
+     "desc": "3 RP/Rs100 at ~Rs0.75"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0075,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-celesta",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-celesta"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite tag with Apply button; value conflict Rs0.75 vs Rs0.35. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Indulge Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 75000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.018,
+   "lounge_access": "4 intl/qtr Priority Pass; 6 domestic/qtr (Rs5L prior qtr)",
+   "main_benefit": "Invite-only Visa super-premium with 1 RP/Rs100 and 4 golf games/month.",
+   "key_benefits": [
+    "Golf needs Rs25k prior statement"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-indulge",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-indulge"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite-only. 1 RP at Rs0.50 (catalogue 0.35). Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Pinnacle",
+   "issuer": "IndusInd Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 15000,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 intl Priority Pass/qtr; 1 domestic/qtr if Rs1.5L prior qtr",
+   "main_benefit": "Super-premium card earning 2.5 RP/Rs100 (1.88%) on online shopping.",
+   "key_benefits": [
+    "Golf 1 game+1 lesson/month",
+    "BookMyShow BOGO"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.0188,
+     "desc": "2.5 RP/Rs100 at Rs0.75; excludes airlines, travel, utilities"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0113,
+     "desc": "Online travel/airlines 1.5 RP/Rs100"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0075,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-pinnacle",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-pinnacle"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining Rs15,000 matches MITC; annual nil from yr 2. Grandé variant Rs5,000 joining. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Nexxt",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 10000,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Premium one-time-fee card with switchable credit/rewards/EMI button; 1 RP/Rs150 (~0.5%).",
+   "key_benefits": [
+    "2 BookMyShow BOGO/month",
+    "KrisFlyer only transfer"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-nexxt",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-nexxt"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC joining Rs10,000, annual nil. Point value ambiguous (Rs0.75 vs 0.35). Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Avios Visa Infinite Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "British Airways / Qatar Airways Avios",
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 10000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Priority Pass 2 domestic + 2 international/quarter",
+   "main_benefit": "Avios co-brand: 3 Avios/Rs200 base (1.5%) and 6 Avios/Rs200 (3%) card-present at nominated region.",
+   "key_benefits": [
+    "20,000 Avios welcome",
+    "5,000 Avios renewal",
+    "18,000 Avios at Rs8L and Rs16L"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.03,
+     "desc": "6 Avios/Rs200 card-present in nominated region at Rs1/Avio; elsewhere 1.5%"
+    },
+    {
+     "merchants": [
+      "british airways",
+      "qatar airways"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.025,
+     "desc": "5 Avios/Rs200 on BA/Qatar sites, primary only"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.015,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-avios",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-avios"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Co-brand British Airways/Qatar Airways Avios. Qatar Gold fast-track withdrawn 2025. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd EazyDiner Signature Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "EazyDiner",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Dining card: 25% cashback at EazyDiner PayEazy restaurants (Rs2,000/month cap) plus 1% on online shopping/travel.",
+   "key_benefits": [
+    "~Rs7,500 welcome incl. Postcard Hotel voucher",
+    "12-month EazyDiner Prime",
+    "Lounge withdrawn Jul 2025"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [
+      "eazydiner",
+      "payeazy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.25,
+     "desc": "25% cashback on PayEazy restaurants via EazyDiner app, Rs1,000/txn, Rs2,000/month (Rs5,000 if Rs30k non-dining prior month)",
+     "cap_inr": 2000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "10 RP/Rs100 at Rs0.10"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.01,
+     "desc": "10 RP/Rs100"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.004,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-eazydiner",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-eazydiner"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee conflict Rs2,999 vs Rs1,999 between schedule versions - kept higher. Dining otherwise earns no points. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd EazyDiner Platinum Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "EazyDiner",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free dining card: 20% cashback at EazyDiner partner restaurants (Rs1,500/month cap).",
+   "key_benefits": [
+    "3-month EazyDiner Prime",
+    "BookMyShow BOGO monthly"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [
+      "eazydiner",
+      "payeazy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.2,
+     "desc": "20% cashback via app, Rs500/txn x3/month",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.004,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-eazydiner-platinum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-eazydiner-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Visa and RuPay (UPI-linkable) variants. 2 RP/Rs100 at Rs0.20 per page. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Platinum RuPay Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 10000,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "RuPay UPI-linkable card earning 2 RP/Rs100 on UPI.",
+   "key_benefits": [
+    "Fuel waiver 1% Rs400-4,000"
+   ],
+   "base_rate": 0.0035,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.007,
+     "desc": "UPI-linked 2 RP/Rs100 at Rs0.35"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0035,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-platinum-rupay",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-platinum-rupay"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining fee conflict: lifetime-free badge vs Rs10,000 one-time; kept Rs10,000. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Platinum Aura Edge",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Choose-one-plan lifetime-free card: 4 pts/Rs100 (~1.6%) on dining, shopping, groceries or hotels.",
+   "key_benefits": [
+    "Plan change barred 6 months then Rs250"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.016,
+     "desc": "Party plan 4 pts/Rs100 at Rs0.40; only one plan active"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.016,
+     "desc": "Home plan"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.016,
+     "desc": "Travel plan hotels; airlines 1.0%"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.002,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-platinum-aura-edge",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-platinum-aura-edge"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC lists nil fees. Also Mastercard per FAQ. Points accrue to credit limit. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Platinum Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free entry card with 0.4% base reward.",
+   "key_benefits": [],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.004,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-platinum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only index-page data (0.4% base) plus MITC nil fee. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Duo Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free debit-credit combo with 1 RP/Rs150 (0.33%) and BookMyShow offers.",
+   "key_benefits": [
+    "Requires IndusInd savings account"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0033,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-duo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-duo"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex product page 2% vs MITC 3.5% - kept 3.5%. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Samman Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 199,
+   "fee_waiver_spend": 75000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Government-employee RuPay UPI card with 1% cashback (Rs200/cycle cap).",
+   "key_benefits": [
+    "BookMyShow Rs200 per 6 months",
+    "Railway surcharge waiver"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on first Rs20,000/cycle",
+     "cap_inr": 200
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "railways"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-samman",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-samman"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Government-sector salaried only. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd ePay Amex Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "American Express",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free Amex with frequency-based points (4-10 pts per Rs500+ txn).",
+   "key_benefits": [
+    "3-month Zomato Gold",
+    "Times Prime at Rs2L"
+   ],
+   "base_rate": 0.0035,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0035,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-epay-amex",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-epay-amex"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Earn is per-transaction; 0.35% proxy. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Bank Jio-bp Mobility+ Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Jio-bp",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Jio-bp co-brand: 12 Smiles/Rs100 (~3%) on Jio-bp fuel, 1.25% dining/grocery.",
+   "key_benefits": [
+    "Joining waived on Rs10k in 90 days",
+    "Milestones 2,000 Smiles per Rs1L (to 4,000/yr)",
+    "1% fuel surcharge waiver at Jio-bp",
+    "Welcome 400 Smiles + Rs200 wildbean coupon"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "jio-bp",
+      "jio bp",
+      "bp pulse",
+      "wildbean",
+      "castrol"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.03,
+     "desc": "12 Smiles/Rs100 at Rs0.25 (page estimate; IndusInd unpublished); cap 1,200 Smiles/cycle = Rs300",
+     "cap_inr": 300
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.0125,
+     "desc": "5 Smiles/Rs100"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "insurance",
+    "utilities"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-jio-bp",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-jio-bp"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record improved. Smiles redeemed only at Jio-bp outlets; non-Jio-bp fuel earns nothing. Network RuPay. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Platinum Aura",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC discontinued list. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Platinum Select",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC discontinued list. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Iconia",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC discontinued list. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd InterMiles Odyssey Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC discontinued list; no new issuance. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd InterMiles Voyage Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC discontinued list. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Platinum Aura Edge (Government Sector)",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC discontinued list. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "Poonawalla Fincorp IndusInd eLITE RuPay Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC discontinued list; co-brand with Poonawalla Fincorp. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  },
+  {
+   "name": "IndusInd Club Vistara Explorer Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Bank notices (Nov 2024) still reference it; Club Vistara merged into Air India Flying Returns - likely no longer issued. Fees/rewards left null. Fees shown exclude 18% GST. Source: aggregator CardAdvisor (third_party, pages dated Aug-Sep 2026); issuer MITC not read directly."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "No current (valid >= 2026-10-11) IndusInd Kalyan/Tanishq/jewellery card offer found: indusind.bank.in blog lists only a GIVA silver offer ended 31 Mar 2025; Tanishq page expired 2019; Legend Kalyan offer ended 31 Mar 2025. offers[] left empty.",
+  "Jewellery (MCC 5944/5094) exclusion not stated in any source read; jewellery rules are base-rate assumptions (unconfirmed). Issuer MITC PDFs not parsed.",
+  "All figures from CardAdvisor aggregator pages (Aug-Sep 2026) plus search snippets of official pages; point-value conflicts (cash vs catalogue) noted per card.",
+  "Kotak Royale Signature, Mojo, Delight, Essentia, Fortune Gold, Urbane, Infinite, NRI Royale, Metro Kotak, Biz, Veer: fees/rewards not found (null). Royale rewards unverified.",
+  "IndiGo Kotak/XL status conflict (aggregator live vs Kotak page '(Discontinued)').",
+  "No IndusInd IndiGo Mastercard or active Vistara card found; IndusInd Duo/Platinum RuPay details thin. Kotak Solitaire annual fee conflict (0 vs 25,000)."
+ ]
+}

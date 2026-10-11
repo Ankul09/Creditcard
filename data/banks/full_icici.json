@@ -1,0 +1,1619 @@
+{
+ "catalog": [
+  {
+   "name": "ICICI Amazon Pay",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card"
+  },
+  {
+   "name": "ICICI Sapphiro",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card"
+  },
+  {
+   "name": "ICICI Rubyx",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card"
+  },
+  {
+   "name": "ICICI Coral",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card"
+  },
+  {
+   "name": "ICICI Emeralde",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card"
+  },
+  {
+   "name": "ICICI Emeralde Private Metal",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card"
+  },
+  {
+   "name": "ICICI Times Black",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card"
+  },
+  {
+   "name": "ICICI HPCL Super Saver",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver"
+  },
+  {
+   "name": "ICICI Platinum Chip",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card"
+  },
+  {
+   "name": "ICICI MakeMyTrip Signature",
+   "status": "closed_to_new",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card"
+  },
+  {
+   "name": "ICICI MakeMyTrip Platinum",
+   "status": "closed_to_new",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card"
+  },
+  {
+   "name": "ICICI Manchester United Signature",
+   "status": "closed_to_new",
+   "source": "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/"
+  },
+  {
+   "name": "ICICI HPCL Coral Credit Card",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card"
+  },
+  {
+   "name": "ICICI Adani One Platinum",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card"
+  },
+  {
+   "name": "ICICI Adani One Signature",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card"
+  },
+  {
+   "name": "ICICI Chennai Super Kings",
+   "status": "closed_to_new",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/csk-card"
+  },
+  {
+   "name": "ICICI Expressions",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/expressions-card"
+  },
+  {
+   "name": "ICICI Coral RuPay",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card"
+  },
+  {
+   "name": "ICICI Instant Platinum",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "ICICI Alumni",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/alumni-credit-card"
+  },
+  {
+   "name": "ICICI Parakram",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram"
+  },
+  {
+   "name": "ICICI Parakram Select",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram-select"
+  },
+  {
+   "name": "ICICI MakeMyTrip",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card"
+  },
+  {
+   "name": "ICICI Emirates Skywards Emeralde",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-emeralde-credit-card"
+  },
+  {
+   "name": "ICICI Emirates Skywards Sapphiro",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-sapphiro"
+  },
+  {
+   "name": "ICICI Emirates Skywards Rubyx",
+   "status": "closed_to_new",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card"
+  },
+  {
+   "name": "ICICI Manchester United Platinum",
+   "status": "closed_to_new",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-platinum-card"
+  },
+  {
+   "name": "ICICI Ferrari Signature",
+   "status": "unknown",
+   "source": "https://www.cardexpert.in/icici-bank-launches-ferrari-credit-cards/"
+  },
+  {
+   "name": "ICICI Ferrari Platinum",
+   "status": "unknown",
+   "source": "https://www.cardexpert.in/icici-bank-launches-ferrari-credit-cards/"
+  },
+  {
+   "name": "ICICI Platinum Business Card",
+   "status": "active",
+   "source": "https://www.icici.bank.in/business-banking/cards/business-credit-card/platinum-business-card"
+  },
+  {
+   "name": "ICICI Business Gold Card",
+   "status": "active",
+   "source": "https://www.icici.bank.in/business-banking/cards/business-credit-card"
+  },
+  {
+   "name": "ICICI Corporate Platinum Card",
+   "status": "active",
+   "source": "https://www.icici.bank.in/business-banking/cards/corporate-card"
+  },
+  {
+   "name": "ICICI Corporate Gold Card",
+   "status": "active",
+   "source": "https://www.icici.bank.in/business-banking/cards/corporate-card"
+  },
+  {
+   "name": "ICICI Sapphiro RuPay / Rubyx RuPay / HPCL Super Saver RuPay / MakeMyTrip RuPay",
+   "status": "variant_of_base",
+   "source": "RuPay variants of base cards (merged into base records); ICICI RuPay page"
+  },
+  {
+   "name": "ICICI Bank Pavilion / Bank of Baroda co-brand",
+   "status": "not_found",
+   "source": "web search"
+  }
+ ],
+ "cards": [
+  {
+   "name": "ICICI Amazon Pay",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Amazon",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free card giving 5% back (Prime) on Amazon.in and 1% elsewhere as Amazon Pay balance.",
+   "key_benefits": [
+    "5% Prime / 3% non-Prime on Amazon.in",
+    "2% on Amazon Pay partner merchants",
+    "1% elsewhere",
+    "1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "amazon"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% for Prime members (3% non-Prime) on Amazon.in as Amazon Pay balance; 2% on Amazon Pay partner merchants; 1% elsewhere. Non-Prime 3% not modelled. No cap found."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on spends outside Amazon (official)"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "rent",
+    "utilities",
+    "insurance",
+    "education",
+    "tax",
+    "wallet_load",
+    "emi",
+    "upi",
+    "gaming"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+    "https://cardexpress.in/mcc-guide/exclusions/icici-amazon-pay",
+    "https://savesage.club/credit-card/icici-amazon-pay"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: lifetime free, 5%/3% Amazon, 1% other, forex 1.99%, 1% fuel surcharge waiver, invite-only. Jewellery exclusion is from third-party MCC list (5094 Precious Stones/Metals/Jewelry, 5944 Jewelry Stores) - not on official page. Savesage also lists International, Utilities, Education, Tax as zero-earn; official page says 1% on non-Amazon spends, so conflict on international. Cashback credited as Amazon Pay balance (value Re1). Excluded from Kalyan/Tanishq ICICI offers historically. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Sapphiro",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 6500,
+   "annual_fee": 3500,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 international per year; 4 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Mid-premium travel/lifestyle card with welcome vouchers, lounges, golf and 4 RP per Rs100 on international spend.",
+   "key_benefits": [
+    "Welcome vouchers worth over Rs13,000 (Tata CLiQ, EazyDiner, Da Milano, EaseMyTrip, Croma)",
+    "4 golf rounds/month on Rs50k prior-month spend",
+    "Milestone 4,000 RP at Rs4L then 2,000 per Rs1L (max 20,000/yr)",
+    "BookMyShow BOGO up to Rs500 twice a month",
+    "Air accident cover up to Rs3 crore"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs100 on international spend; at ~Rs0.25/RP = ~1% (earlier file assumed Re1/RP = 4%, which is not supported for this tier)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery appears NOT excluded (third-party MCC list excludes only fuel, wallet funding, rent); earns 2 RP/Rs100 base. Unconfirmed by ICICI."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+    "https://cardexpress.in/mcc-guide/exclusions/icici-sapphiro",
+    "https://cardexpress.in/cards/icici-sapphiro",
+    "https://savesage.club/credit-card/icici-sapphiro"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: joining Rs6,500+GST, annual Rs3,500+GST waived on >Rs6L spend; forex 3.5% (official; earlier file had null); 2 RP/Rs100 domestic, 4 RP/Rs100 international, 1 RP/Rs100 utilities and insurance; milestone 4,000 RP at Rs4L then 2,000 per Rs1L (max 20,000/yr); 4 domestic lounge visits/quarter on Rs75k prior-quarter spend, 2 intl/yr. Point value not stated officially; Savesage gives 0.5%-1% return, so base 0.5% is the conservative end. Fuel/wallet/rent exclusions from cardexpress (dated 31 Aug 2026 issuer terms); no cap found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Network: Visa/Mastercard/Amex/RuPay variants exist; left null. Joining Rs6,500+GST, annual Rs3,500+GST confirmed on official page 2026-10-11. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Rubyx",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 2000,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter on Rs75k prior-quarter spend; 8 railway lounge per year",
+   "main_benefit": "Upper-mid lifestyle card with Rs15,000+ welcome vouchers, lounges and golf; 4 RP per Rs100 on international spend.",
+   "key_benefits": [
+    "Welcome vouchers over Rs15,000 (Tata CLiQ, Croma, EazyDiner, EaseMyTrip, Avis, Elivaas)",
+    "Up to 2 golf rounds/month on Rs50k prior-month spend",
+    "Milestone 3,000 RP at Rs3L then 1,500 per Rs1L (max 15,000/yr)",
+    "Air accident cover up to Rs1 crore"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP/Rs100 international; ~1% at Rs0.25/RP"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+    "https://cardexpress.in/cards/icici-rubyx"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: joining Rs3,000+GST, annual Rs2,000+GST waived on >Rs3L; forex 3.5%; 2 RP/Rs100 domestic, 4 intl, 1 utilities/insurance; no points on fuel (official FAQ), 1% fuel surcharge waiver Rs400-4,000; milestone 3,000 RP at Rs3L + 1,500 per extra Rs1L (max 15,000/yr); lounge needs Rs75k prior quarter. Wallet/rent exclusions assumed from ICICI-wide terms; jewellery treatment NOT found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Joining Rs3,000+GST, annual Rs2,000+GST (waiver Rs3L) confirmed on official page 2026-10-11; earlier joining fee in other data may be wrong. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Coral",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend; 4 railway lounge per year",
+   "main_benefit": "Entry everyday card with 2 RP per Rs100 on retail, movie offers and milestone points; also issued against FD.",
+   "key_benefits": [
+    "Milestone 2,000 RP at Rs2L then 1,000 per Rs1L (max 10,000/yr)",
+    "25% off up to Rs100 BookMyShow and INOX twice a month",
+    "1% fuel waiver at HPCL (Rs400-4,000)",
+    "Personal accident cover Rs2 lakh (RuPay variant)"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+    "https://cardexpress.in/cards/icici-coral",
+    "https://savesage.club/credit-card/icici-coral"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: joining Rs500+GST, annual Rs500+GST waived on >Rs1.5L; forex 3.5%; 2 RP/Rs100 retail, 1 RP utilities/insurance; milestone 2,000 RP at Rs2L + 1,000 per Rs1L (max 10,000/yr); 1% fuel waiver at HPCL; 1 domestic lounge/quarter on Rs75k. Savesage return 0.25%-0.5% (conflicts with 0.5% base used here). Jewellery treatment NOT found. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official page 2026-10-11 confirms fees. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Emeralde",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12000,
+   "annual_fee": 12000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic and international (primary)",
+   "main_benefit": "Super-premium card with unlimited lounges, monthly golf and 4 RP per Rs100 on all spends at 2% forex.",
+   "key_benefits": [
+    "Unlimited domestic+international lounges",
+    "Up to 4 golf rounds/month",
+    "BookMyShow BOGO up to Rs750 four times a month",
+    "Birthday voucher Rs5,000 (Tata CLiQ Amex / PostCard Hotels Mastercard)",
+    "No cancellation charges on bookings up to Rs12,000 twice a year",
+    "Air accident cover up to Rs3 crore"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [
+    "jewellery",
+    "government",
+    "gaming",
+    "emi",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+    "https://savesage.club/credit-card/icici-emeralde"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: joining and annual Rs12,000+GST (waived on >Rs10L), forex 2%, 4 RP/Rs100 domestic and intl, 1 RP utilities/insurance; unlimited domestic+intl lounge; golf; BookMyShow BOGO up to Rs750. Jewellery exclusion only from Savesage (third-party). Savesage return 0.25%-1% (1% = 4RP at Rs0.25). Accelerated iShop cap 15,000 RP/month. Add-on card fee per Savesage Rs0. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Amex/Mastercard variants. Official page confirms fees and 2% forex 2026-10-11. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Emeralde Private Metal",
+   "issuer": "ICICI Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12499,
+   "annual_fee": 12499,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic and international for primary and Plus cardholders",
+   "main_benefit": "Invite-only metal card with 6 RP per Rs200, Taj Epicure and EazyDiner Prime, unlimited lounges and golf.",
+   "key_benefits": [
+    "Joining: Taj Epicure Plus, EazyDiner Prime, 12,500 RP",
+    "Unlimited golf rounds",
+    "Two EaseMyTrip vouchers (up to Rs6,000) on Rs8L annual spend",
+    "BookMyShow BOGO up to Rs750 twice a month",
+    "Air accident cover up to Rs3 crore"
+   ],
+   "base_rate": 0.012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.012,
+     "cap_inr": 400,
+     "desc": "Grocery, utilities, education: max 1,000 RP per category per statement cycle (official); cap_inr = 1,000 RP x Rs0.40. Insurance max 5,000 RP/cycle."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.012,
+     "desc": "Jewellery not in third-party zero-earn list; earns 6 RP/Rs200. At Rs1/RP via vouchers up to 3%, but jewellery vouchers are NetBanking-only now."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "emi",
+    "wallet_load",
+    "gaming",
+    "upi"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+    "https://savesage.club/credit-card/icici-emeralde-private-metal",
+    "https://cardexpress.in/cards/icici-emeralde-private-metal",
+    "https://oga-prod.angelone.in/news/stocks/icici-bank-revises-credit-card-rules-for-2026-new-fees-reward-changes-and-discontinued-benefits"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite-only. Official: joining/annual Rs12,499+GST waived on >Rs10L; forex 2%; 6 RP per Rs200 retail; 12,500 RP + Taj Epicure joining benefit; unlimited lounges and golf; Plus card Rs3,500 for cards issued after 15 Jan 2026 (third-party). Point value: 1 RP = Re1 on portal/vouchers (cardexpress; ~3% base), Rs0.40 statement credit (cap 50k RP/cycle), Savesage says 0.25%-1% return, so base 1.2% (Rs0.40) used conservatively; up to 3% if redeemed at Re1. iShop hotels 12X / flights 6X capped 18,000 bonus RP/month, 10,000/day (Savesage). Zero-earn per Savesage: EMI, government, rent, wallets, fuel, gaming, UPI. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Network not stated on page; Mastercard per third-party memory, low certainty. Late payment charges listed Nil officially. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Times Black",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Times Group",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 20000,
+   "annual_fee": 20000,
+   "fee_waiver_spend": 2500000,
+   "forex_markup": 0.0149,
+   "lounge_access": "Unlimited domestic and international for primary and Plus cardholders",
+   "main_benefit": "Ultra-premium lifestyle card with 2% (2.5% international) rewards, 1.49% forex and luxury stay/gift card welcome benefits.",
+   "key_benefits": [
+    "EaseMyTrip Rs10,000 or Lohono Rs12,000 stay card",
+    "Zomato Gold annual membership",
+    "Tata CLiQ Luxury Rs10,000 on Rs10L spend",
+    "One night Ayatana/Lohono on Rs20L spend",
+    "CribLife concierge; Quorum Club access",
+    "Forex 1.49%"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.025,
+     "desc": "2.5% on international spend (official), at up to Re1/RP"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.02,
+     "cap_inr": 2000,
+     "desc": "Utilities/insurance/education/government: max 5,000 RP per statement cycle (official); cap_inr assumes Rs0.40/RP"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.02,
+     "desc": "Not excluded per official FAQ (only fuel, rent, EMI excluded); 2% at up to Re1/RP; Rs0.40/RP statement credit gives 0.8%"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "emi",
+    "wallet_load",
+    "gaming",
+    "upi"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+    "https://savesage.club/credit-card/icici-times-black"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: joining/annual Rs20,000+GST (waived >Rs25L), forex 1.49%, 2% points on domestic eligible transactions, 2.5% intl, value of 1 RP up to Re1 but Rs0.40 when redeemed against statement. Fuel, rent, EMI earn nothing (official); wallets/UPI/gaming/education per Savesage. Premium, Visa only. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI HPCL Super Saver",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "HPCL",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Fuel card with 5% savings at HPCL pumps and HP Pay, plus 20 RP per Rs100 on daily-essentials.",
+   "key_benefits": [
+    "2,000 RP joining benefit",
+    "24/7 roadside assistance",
+    "25% off up to Rs100 INOX/BookMyShow twice a month",
+    "RuPay variant: Rs2L accident cover and concierge"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "cap_inr": 200,
+     "desc": "5% at HPCL pumps / HP Pay = 4% cashback (cap Rs200/month) + 1% surcharge waiver; cap applies to the 4% part"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "cap_inr": 100,
+     "desc": "20 RP/Rs100 on groceries, utilities, department stores; cap 400 RP/month (official FAQ) = ~Rs100 at Rs0.25/RP; Savesage says per statement cycle"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "upi"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+    "https://savesage.club/credit-card/icici-hpcl-super-saver"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: joining/annual Rs500+GST waived >Rs1.5L; forex 3.5%; 2 RP/Rs100 retail; 2,000 RP joining benefit. Jewellery/fuel(points)/rent/wallet exclusions from Savesage only. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official page 2026-10-11 confirms Rs500 fee, 20 RP/Rs100 daily essentials, 2 RP retail. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Platinum Chip",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free entry card with 2 RP per Rs100 on retail and EMI conversion.",
+   "key_benefits": [
+    "No joining/annual fee",
+    "1% fuel waiver at HPCL Rs400-4,000",
+    "Easy EMI conversion"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "jewellery",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+    "https://savesage.club/credit-card/icici-platinum-chip"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: lifetime free, forex 3.5%, 2 RP/Rs100 retail, 1 RP utilities/insurance, 1% fuel waiver at HPCL (Rs400-4,000). Jewellery exclusion from Savesage (third-party). Savesage return 0.25%-0.5%. ICICI RP value varies by redemption (iShop/vouchers up to ~Re1 on premium cards; statement credit Rs0.40 on Times Black/Emeralde Private per official/third-party); rates here use a conservative value and are estimates. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI MakeMyTrip Signature",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "MakeMyTrip",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 international per year; 2 domestic per quarter on Rs75k prior-quarter spend; 1 railway per quarter",
+   "main_benefit": "Older MakeMyTrip co-brand with MMTBLACK Platinum membership and 4 myCash per Rs200 on hotels; closed to new applicants.",
+   "key_benefits": [
+    "MMTBLACK Platinum tier",
+    "Milestone 1,100 myCash at Rs2.5L, 4,000 at Rs5L",
+    "Joining fee only, no annual fee"
+   ],
+   "base_rate": 0.00625,
+   "rules": [
+    {
+     "merchants": [
+      "makemytrip"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "4 myCash per Rs200 on hotels (2%), 2 per Rs200 flights (1%); myCash usable only on MakeMyTrip, assumed 1 myCash = Re1"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: joining Rs2,500+GST, no annual fee, forex 3.5%, 1.25 myCash per Rs200 domestic; milestones 1,100 myCash at Rs2.5L, 4,000 at Rs5L. Page states no longer accepting applications. Domestic lounge needs Rs75k prior quarter from 1 Jul 2026. Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI MakeMyTrip Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "MakeMyTrip",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend; 4 railway per year",
+   "main_benefit": "Older entry MakeMyTrip co-brand with holiday voucher and myCash on MMT bookings; closed to new applicants.",
+   "key_benefits": [
+    "Welcome MMT holiday voucher + Rs500 myCash",
+    "Milestone 1,000 myCash at Rs2.5L",
+    "No annual fee"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "makemytrip"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.015,
+     "desc": "3 myCash per Rs200 hotels, 2 flights (1%); myCash only on MMT, assumed Re1"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: joining Rs500+GST, no annual fee, forex 3.5%, 1 myCash per Rs200 domestic; page notes no longer accepting applications (note text names Signature variant). Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official page note on closure names the Signature variant; Platinum treated as closed too (page note ambiguous). Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Manchester United Signature",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "Manchester United",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Football co-brand with 3 RP per Rs100 domestic and 4 RP international; no longer widely offered.",
+   "key_benefits": [
+    "Manchester United merchandise/experience perks (third-party)"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+    "https://cardtrail.in/vs/icici-manchester-united-signature-vs-shoppers-stop-black-hdfc-bank/",
+    "https://cardexpress.in/cards/icici-manchester-united"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page could not be read (URL returned generic page). Fee conflict: cardtrail Rs2,499 (waiver Rs2.5L) vs cardexpress Rs499 (waiver Rs1.3L); fee left null. Paisabazaar: 3 RP/Rs100 domestic, 4 intl, no fuel points; base ~0.5% at ~Rs0.25/RP. Platinum variant not found. Exclusions/jewellery not found. Status conflict: cardinsider says discontinued; ICICI listing path /manchester-signature-card exists but page content generic. Treated closed_to_new. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI HPCL Coral Credit Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "HPCL",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 199,
+   "annual_fee": 199,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Low-fee HPCL fuel card with up to 3.5% savings on HPCL fuel and 2 RP per Rs100 on retail.",
+   "key_benefits": [
+    "Joining/annual Rs199+GST, waiver Rs50k spend",
+    "25% off up to Rs100 BookMyShow twice a month",
+    "1% fuel surcharge waiver Rs400-4,000 at HPCL"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.025,
+     "desc": "2.5% cashback at HPCL pumps, capped Rs100/month (issuer). Plus 1% fuel surcharge waiver on txns Rs400-4,000 at HPCL via ICICI POS (cap Rs500/month per cardadvisor, unverified), not in rate. Issuer says up to 3.5% total.",
+     "cap_inr": 100
+    }
+   ],
+   "excludes": [
+    "rent",
+    "cash_advance",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+    "https://cardadvisor.in/cards/icici-hpcl-coral"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs199 joining/annual excl GST, waiver Rs50,000, forex 3.5% from issuer. Other earn 2 RP per Rs100 (Rs0.25 assumed by cardadvisor, redemption up to Rs0.40). Cardadvisor changelog claims fuel stopped earning points Jan 2026 but cashback still listed; cashback treated as active. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Adani One Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Adani One",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 750,
+   "annual_fee": 750,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter on Rs75k prior-quarter spend; 8 premium lounge upgrades per year at Adani airports",
+   "main_benefit": "Adani airports co-brand: valet/parking, porter, lounge upgrades and 3 RP per Rs100 on the Adani One ecosystem.",
+   "key_benefits": [
+    "Rs2,000 flight voucher on Rs10k spend in 60 days (needs fee paid)",
+    "2 valet parking, 2 premium car parking, up to 4 porter services",
+    "25% off up to Rs100 BookMyShow twice a month",
+    "1% fuel waiver up to Rs4,000"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "adani one"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0075,
+     "desc": "3 RP per Rs100 on Adani One ecosystem credited as Adani OneApp Rewards; Rs0.25/reward assumed (value not stated); ecosystem merchant list not published on page"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11: joining/annual Rs750+GST, waiver Rs3L, forex 3.5%; 1 RP/Rs100 domestic, 1.5 international. Reward value per Adani point not stated; Rs0.25 assumed. Exclusions not found on page. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Adani One Signature",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Adani One",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 international per year; 4 domestic per quarter on Rs75k prior-quarter spend; 16 premium lounge upgrades per year",
+   "main_benefit": "Premium Adani airports co-brand with lounges, valet, porter and 7 RP per Rs100 on the Adani One ecosystem.",
+   "key_benefits": [
+    "Rs5,000 flight voucher on Rs25k spend in 60 days",
+    "Rs2,000 hotel vouchers",
+    "2 Pranaam services",
+    "4 valet and 4 premium parking, up to 8 porter services",
+    "BookMyShow BOGO up to Rs500 twice a month",
+    "1% fuel waiver up to Rs4,000"
+   ],
+   "base_rate": 0.00375,
+   "rules": [
+    {
+     "merchants": [
+      "adani one"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0175,
+     "desc": "7 RP per Rs100 on Adani One ecosystem; Rs0.25/reward assumed (value not stated)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 international at Rs0.25"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11: Rs5,000+GST joining/annual, waiver Rs6L, forex 3.5%; 1.5 RP/Rs100 domestic. Reward value assumed Rs0.25. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Chennai Super Kings",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "Chennai Super Kings",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Cricket fan co-brand with up to 10 RP per Rs100 on CSK match days and top-spender experiences; no longer accepting applications.",
+   "key_benefits": [
+    "2,000 RP joining/renewal gift",
+    "Top monthly spenders get autographed memorabilia, match tickets, meet and greet",
+    "25% off up to Rs100 BookMyShow/INOX twice a month",
+    "1% fuel waiver at HPCL"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/csk-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/csk-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11: \"no longer accepting applications\". 10 RP/Rs100 only on CSK match days (not modelled); 2 RP domestic, 1 RP utilities/insurance at Rs0.25 assumed. Exclusions beyond fuel not found. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Expressions",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Entry card with a custom image design and 3 RP per Rs100 on retail.",
+   "key_benefits": [
+    "175+ design templates or upload own image",
+    "25% off up to Rs100 BookMyShow/INOX twice a month",
+    "1% fuel waiver at HPCL Rs400-4,000"
+   ],
+   "base_rate": 0.0075,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/expressions-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/expressions-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11. 3 RP/Rs100 retail, 1 RP utilities/insurance; Rs0.25/RP assumed. Forex markup not stated on page. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Coral RuPay",
+   "issuer": "ICICI Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": "Domestic lounges (RuPay page lists 4 per quarter generically; Coral standard is 1 per quarter on Rs75k)",
+   "main_benefit": "RuPay Coral variant that can be linked to UPI for QR payments.",
+   "key_benefits": [
+    "Link to UPI",
+    "Rs2 lakh personal accident cover",
+    "Concierge 1800-26-78729",
+    "1% fuel waiver at HPCL"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "RuPay variants page (shared by Coral, HPCL Super Saver, Rubyx, Sapphiro, MakeMyTrip): Rs500 Coral / Rs500 HPCL SS / Rs3,000+Rs2,000 Rubyx / Rs6,500+Rs3,500 Sapphiro / Rs999 MMT. Rewards same as base card (page shows generic 4 intl/2 dom). Whether UPI spends earn rewards not stated; treat as not earning. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Instant Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Instant FD-backed secured card (limit up to 90% of FD, min FD Rs50,000) for building credit.",
+   "key_benefits": [
+    "Limit up to 90% of FD",
+    "Min FD Rs50,000, tenure >=180 days, auto-renewal",
+    "FD keeps earning interest"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-against-fixed-deposit",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official FD-card page lists Instant Platinum and Coral as the two FD-backed variants. Fees, forex and rewards not on page: left null; base_rate assumes Platinum Chip-like 2 RP/Rs100 (not verified). Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Alumni",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Domestic airport lounge (count not stated)",
+   "main_benefit": "Zero-fee affinity card for college alumni with movie offers and domestic lounge access.",
+   "key_benefits": [
+    "No joining/annual fee",
+    "BookMyShow and INOX offers twice a month",
+    "1% fuel waiver at HPCL"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/alumni-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/alumni-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11 states no joining/annual fee; rewards rate, forex and status not stated. Affinity card; may be limited to partner colleges. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Parakram",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Lifetime-free card for defence personnel with title embossing, accident cover and 1 RP per Rs100.",
+   "key_benefits": [
+    "Defence title embossed",
+    "Rs2 lakh personal accident, up to Rs20 lakh air accident cover",
+    "1% fuel waiver at all pumps"
+   ],
+   "base_rate": 0.0025,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11. Eligibility restricted to defence/paramilitary. Rs0.25/RP assumed. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Parakram Select",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 international per year; 2 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Lifetime-free defence card with golf, international lounges and 2 RP per Rs100.",
+   "key_benefits": [
+    "1 golf round/month on Rs50k prior-month spend",
+    "Rs2 lakh personal accident, Rs20 lakh air accident cover",
+    "1% fuel waiver at all pumps"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram-select",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/parakram-cards/parakram-select"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11. Eligibility restricted to defence/paramilitary. Rs0.25/RP assumed. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI MakeMyTrip",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "MakeMyTrip",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.0099,
+   "lounge_access": "1 international per year; 2 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Current MakeMyTrip co-brand with up to 6% myCash on MMT hotels, 3% on flights/bus/cab and 0.99% forex.",
+   "key_benefits": [
+    "Complimentary 1-year MMTBLACK Gold",
+    "MMT voucher on paying joining fee; Rs1,000 hotel voucher on annual fee",
+    "3 months no-cost EMI on MMT bookings",
+    "25% off up to Rs150 BookMyShow/INOX twice a month"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "makemytrip"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.06,
+     "desc": "6 myCash per Rs100 on MMT hotels (3% flights/bus/cab); myCash 1=Re1 usable only on MMT; flights modelled as lower via note"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11. Rule rate is the hotel max; flights/bus/cab are 3%. 1 myCash per Rs100 elsewhere. Exclusions not stated. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Emirates Skywards Emeralde",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Emirates Skywards",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Unlimited domestic and international",
+   "main_benefit": "Emirates Skywards co-brand earning 2 Skywards miles per Rs100 with tier benefits and up to 10% off Emirates flights.",
+   "key_benefits": [
+    "10,000 Skywards miles + Silver tier on joining; Gold tier on renewal",
+    "Gold tier after Rs15L spend incl Rs50k on Emirates.com",
+    "Up to 10% off Emirates flights via promo code"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-emeralde-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-emeralde-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11. Miles credited to Emirates Skywards; value assumed Rs0.50/mile (not stated) so rate=1.00%. Forex not on page.  Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Emirates Skywards Sapphiro",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Emirates Skywards",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 international per year; 2 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Emirates Skywards co-brand earning 1.5 miles per Rs100 with tier benefits and up to 10% off Emirates flights.",
+   "key_benefits": [
+    "5,000 miles + Silver tier on joining and renewal",
+    "Up to 10% off Emirates flights via promo code"
+   ],
+   "base_rate": 0.0075,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-sapphiro",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-sapphiro"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11. Miles credited to Emirates Skywards; value assumed Rs0.50/mile (not stated) so rate=0.75%. Forex not on page.  Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Emirates Skywards Rubyx",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "Emirates Skywards",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Emirates Skywards co-brand earning 1 mile per Rs100 with tier benefits and up to 10% off Emirates flights.",
+   "key_benefits": [
+    "Up to 10% off Emirates flights via promo code"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page 2026-10-11. Miles credited to Emirates Skywards; value assumed Rs0.50/mile (not stated) so rate=0.50%. Forex not on page. Page says currently not accepting applications. Official pages fetched 2026-10-11 (icici.bank.in)."
+  },
+  {
+   "name": "ICICI Manchester United Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "Manchester United",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 175000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry football fan co-brand; applications no longer accepted.",
+   "key_benefits": [
+    "Manchester United fan offers (third-party)"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-platinum-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-platinum-card",
+    "https://www.bankbazaar.com/credit-card/icici-bank-manchester-united-platinum-credit-card.html",
+    "https://cardinsider.com/icici-bank/icici-bank-manchester-united-platinum-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs499 per bankbazaar/cardinsider; waiver conflict Rs1.75L (bankbazaar) vs Rs1.25L (cardinsider), conservative Rs1.75L kept. ICICI page notes applications not being accepted. Rewards not found; base 0.5% assumed."
+  },
+  {
+   "name": "ICICI Ferrari Signature",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Ferrari",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 3999,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2016 Ferrari co-brand (Signature tier); current availability unconfirmed.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.cardexpert.in/icici-bank-launches-ferrari-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.forbesindia.com/article/special/icici-bank-launches-ferrari-range-of-credit-cards/42675/1",
+    "https://cardinsider.com/icici-bank/icici-bank-ferrari-signature-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only 2016-era launch coverage and aggregator pages; not on current ICICI card listing, so likely discontinued. Joining Rs3,999 is 2016/aggregator figure; all else null."
+  },
+  {
+   "name": "ICICI Ferrari Platinum",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Ferrari",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 999,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2016 Ferrari co-brand (Platinum tier); current availability unconfirmed.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.cardexpert.in/icici-bank-launches-ferrari-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.forbesindia.com/article/special/icici-bank-launches-ferrari-range-of-credit-cards/42675/1",
+    "https://www.credithita.com/credit-card/icici-bank-ferrari-platinum-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only 2016-era coverage; not on current ICICI listing, likely discontinued. Joining Rs999 is a 2016 figure; all else null."
+  },
+  {
+   "name": "ICICI Platinum Business Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "Business credit card for SMEs/proprietors with lounge access and 1% fuel waiver.",
+   "key_benefits": [
+    "1% fuel surcharge waiver",
+    "2 domestic lounge visits per quarter"
+   ],
+   "base_rate": 0.00125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0025,
+     "desc": "2 RP per Rs200 international at Rs0.25 assumed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/business-credit-card/platinum-business-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/business-banking/cards/business-credit-card/platinum-business-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page per search snippet: Rs999+GST joining and annual from year 2; 1 RP/Rs200 domestic, 2 RP/Rs200 international. Page not fetched directly; waiver spend not found. Rs0.25/RP assumed."
+  },
+  {
+   "name": "ICICI Business Gold Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "No-fee business card for small businesses with standard bank/network offers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/business-credit-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/icici-bank/business-gold-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Paisabazaar lists nil joining/annual fee; official page not fetched. Rewards not found."
+  },
+  {
+   "name": "ICICI Corporate Platinum Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Company-issued corporate card with lounge access, reward points and fuel waiver.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/corporate-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/business-banking/cards/corporate-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate FAQ (via search): Platinum Rs999+GST. Issued to companies not individuals; rewards not found."
+  },
+  {
+   "name": "ICICI Corporate Gold Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Company-issued corporate card with no joining/annual fee, reward points and cash withdrawal.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/corporate-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/business-banking/cards/corporate-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate FAQ (via search): no joining/annual fee. Issued to companies; rewards not found."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "Per-card verified rewards for ICICI Times (non-Black) card: not found, not included",
+  "Pavilion and Bank of Baroda ICICI co-brands: no evidence they exist, excluded",
+  "Ferrari Platinum/Signature: only 2016 coverage, status unknown, no current terms",
+  "Manchester United pages on icici.bank.in return generic content; fees from aggregators conflict",
+  "Business/corporate card rewards, waiver spends and forex only from search snippets/aggregators",
+  "RP value is Rs0.25 conservative assumption for most cards; Skywards mile and Adani reward values not stated by issuer (assumed)",
+  "Network (Visa/MC/Amex/RuPay) not stated on most official pages; left null",
+  "Exact 2026 devaluation per-card caps (transport Rs10k/20k, insurance Rs40k) from third-party only and sources conflict",
+  "Jewellery exclusion unconfirmed by ICICI for most cards",
+  "Alumni, Instant Platinum fees/rewards not published on fetched pages",
+  "Coral RuPay UPI reward eligibility not stated"
+ ]
+}

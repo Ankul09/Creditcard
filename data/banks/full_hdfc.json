@@ -1,0 +1,4322 @@
+{
+ "catalog": [
+  {
+   "name": "HDFC Infinia",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Diners Club Black Metal Edition",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Diners Club Black",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Regalia Gold",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Regalia",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Diners Club Privilege",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Millennia",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Swiggy HDFC Bank Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Swiggy BLCK",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Swiggy Ornge",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Tata Neu Infinity",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Tata Neu Plus",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC MoneyBack+",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Freedom",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Pixel Play",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Pixel Go",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC IndianOil",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Marriott Bonvoy",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC PhonePe HDFC Bank Ultimo",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC PhonePe HDFC Bank Uno",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Bank UPI RuPay Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC IRCTC HDFC Bank Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Shoppers Stop HDFC Bank Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Shoppers Stop Black HDFC Bank Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Flipkart Wholesale HDFC Bank Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC BizBlack Metal Edition",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC BizFirst",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC BizGrow",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC BizPower",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC GIGA Business Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Bank UPI RuPay Biz Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Business Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Select Business Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Credit Card",
+   "status": "unknown",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Select Credit Card",
+   "status": "unknown",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Mini Credit Card",
+   "status": "unknown",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Harley-Davidson Diners Club Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC H.O.G Diners Club Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC FD-Backed PIXEL Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Regalia First Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Regalia Activ Credit Card",
+   "status": "unknown",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Doctor's Regalia Credit Card",
+   "status": "unknown",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Doctor's Superia Credit Card",
+   "status": "unknown",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Superia Airline Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Diners Club Miles Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Diners Club Rewardz Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Diners Club Premium Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Bharat Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Platinum Edge Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Titanium Edge Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Solitaire Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Platinum Plus Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC All Miles Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Platinum Times Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Titanium Times Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC InterMiles Diners Club Credit Card",
+   "status": "discontinued",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Business Regalia Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Business Corporate Regalia Credit Card",
+   "status": "closed_to_new",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Corporate Premium Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Corporate Platinum Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Purchase MoneyBack Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Purchase Premium Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Purchase Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC Dealer Credit Card",
+   "status": "active",
+   "source": "hdfc.bank.in listing/page"
+  },
+  {
+   "name": "HDFC InterMiles HDFC Bank Signature Credit Card",
+   "status": "discontinued",
+   "source": "cardinsider/cardswala (migrated to Diners Millennia)"
+  },
+  {
+   "name": "HDFC Business MoneyBack Credit Card",
+   "status": "unknown",
+   "source": "buddyloan aggregator (sourcing stopped)"
+  },
+  {
+   "name": "HDFC Purchase Reward Card",
+   "status": "unknown",
+   "source": "hdfc.bank.in commercial listing"
+  },
+  {
+   "name": "HDFC Fleet Program / AP / AR / TMC / Central Travel Account (commercial programs)",
+   "status": "unknown",
+   "source": "hdfc.bank.in commercial listing"
+  }
+ ],
+ "cards": [
+  {
+   "name": "HDFC Infinia",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12500,
+   "annual_fee": 12500,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited global lounge access, primary and add-on (official page)",
+   "main_benefit": "Invite-only super-premium travel card: 5 RP per Rs150 (about 3.3% at Rs1/RP on SmartBuy travel) with unlimited global lounges.",
+   "key_benefits": [
+    "Welcome benefit 12,500 RP",
+    "ITC hotels stay 3 nights pay for 2",
+    "Unlimited global lounge access",
+    "Fee waiver at Rs10L spend",
+    "Feb 2026 retention rule reported by press: Rs18L spend or Rs50L relationship value to retain (third-party, unverified)"
+   ],
+   "base_rate": 0.0333,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0333,
+     "desc": "5 RP per Rs150 on retail spends incl. jewellery (no exclusion found). Value Rs1/RP only when redeemed for SmartBuy flights/hotels or Apple products and Tanishq vouchers; Rs0.50 other vouchers, Rs0.30 cashback. Tanishq voucher redemption capped at 50,000 RP per calendar quarter and max 70% of bill by points. cap_inr = 2,00,000 RP statement-cycle earn cap valued at Rs1/RP.",
+     "cap_inr": 200000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0333,
+     "desc": "5 RP per Rs150 on eligible retail spends, valued Rs1/RP on SmartBuy travel (Rs0.50 vouchers, Rs0.30 cashback)",
+     "cap_inr": 200000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "online_gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/infinia-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/rewards-points-program-terms-and-conditions.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: Infinia Metal Edition, invite only, Rs12,500 joining/renewal (MITC also lists older non-metal Infinia at Rs10,000 with Rs8L waiver). Waiver at Rs10L spend. Forex 2%. 5 RP per Rs150; SmartBuy up to 10X (accelerated RP monthly cap 15,000 RP, brand vouchers via GyFTR/Woohoo capped 3,000 accelerated RP per month from 1 Jul 2026). Max 2,00,000 RP earn per statement cycle. Flights/hotels redemption cap 1.5L RP per month; cashback redemption 50,000 RP per month; Apple products 1 per quarter. Fuel earns no points (fuel surcharge waiver 1% up to Rs1,000/cycle). Effective rate 3.33% assumes Rs1/RP; not affected by 15 May 2026 change (Infinia excluded). MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Diners Club Black Metal Edition",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 800000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited access to 1,300+ lounges in India and abroad, primary and add-on (official page)",
+   "main_benefit": "Premium Diners card with 5 RP per Rs150 (about 3.3% at Rs1/RP on SmartBuy travel), 2X weekend dining and unlimited lounges.",
+   "key_benefits": [
+    "Welcome: Club Marriott, Swiggy One 3 months, Amazon Prime on Rs1.5L spend in 90 days",
+    "10,000 bonus RP per quarter on Rs4L spend",
+    "Unlimited lounges",
+    "Fee waiver at Rs8L spend"
+   ],
+   "base_rate": 0.0333,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0333,
+     "desc": "5 RP per Rs150 on retail spends incl. jewellery (no exclusion found); value Rs1/RP via SmartBuy flights/hotels, up to Rs0.50 products/vouchers, up to Rs0.30 cashback. cap_inr = 75,000 RP per statement cycle at Rs1/RP.",
+     "cap_inr": 75000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.0667,
+     "desc": "2X (10 RP per Rs150) at standalone restaurants (MCC 5812/5813/5814) on Saturdays and Sundays only; valued at Rs1/RP"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "online_gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-metal-edition-credit-card/diners-club-metal-tandc.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs10,000; waiver Rs8L spend in 12 months (MITC and page). Forex 2%. 10,000 bonus RP per quarter on Rs4L spend. Max 75,000 RP per statement cycle. Flights/hotels redemption up to 70%, 75,000 RP per month cap. Unaffected by 15 May 2026 change (Diners Black excluded). MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Diners Club Black",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited lounge access (legacy non-metal Diners Black; verify)",
+   "main_benefit": "Legacy non-metal Diners Black: 5 RP per Rs150 with SmartBuy accelerators and 2X weekend dining; now closed to new applicants.",
+   "key_benefits": [
+    "2X RP weekend dining",
+    "Up to 10X on SmartBuy hotels/flights",
+    "Fee waiver at Rs5L spend"
+   ],
+   "base_rate": 0.0333,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0333,
+     "desc": "5 RP per Rs150 on retail spends incl. jewellery (no exclusion found); value Rs1/RP SmartBuy flights/hotels, Rs0.50 products/vouchers, Rs0.30 cashback. cap_inr = 75,000 RP per statement cycle at Rs1/RP.",
+     "cap_inr": 75000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "online_gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-black-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-credit-card/pdfs/T%20and%20C%20Diners%20Club%20Black.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs10,000; waiver Rs5L annual spend (MITC; page says Rs5L). Forex 2%. 2X weekend dining, up to 10X on SmartBuy hotels/flights. Max 75,000 RP per statement cycle. Non-metal variant may be closed to new applicants; page still live. MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants. Status closed_to_new: official page or FAQ indicates no new applications or migration."
+  },
+  {
+   "name": "HDFC Regalia Gold",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 400000,
+   "forex_markup": 0.02,
+   "lounge_access": "12 domestic + 6 international complimentary visits per year; domestic 3 per quarter needs Rs60,000 spend in prior quarter from 1 Jul 2026",
+   "main_benefit": "Mid-premium travel and lifestyle card earning 5 RP per Rs200 (about 1.25% at Rs0.50/RP) with partner-brand accelerators and milestone vouchers.",
+   "key_benefits": [
+    "Welcome: Swiggy One and MMT Black Gold",
+    "Rs5,000 flight vouchers at Rs5L and Rs7.5L spend (per official page)",
+    "Rs1,500 Myntra/Nykaa vouchers on quarterly spend",
+    "Fee waiver at Rs4L spend",
+    "Devalued 15 May 2026"
+   ],
+   "base_rate": 0.0125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP per Rs200 (cut from 4 RP per Rs150 on 15 May 2026) on eligible retail spends incl. jewellery (no exclusion found). Value Rs0.50/RP SmartBuy flights/hotels; Rs0.65 on exclusive Gold catalogue (1.625%); Rs0.35 products/vouchers; statement credit Rs0.20 per page vs Rs0.15 per MITC (from 1 Nov 2025). cap_inr = 50,000 RP statement-cycle cap at Rs0.50.",
+     "cap_inr": 25000
+    },
+    {
+     "merchants": [
+      "myntra",
+      "nykaa",
+      "reliance digital",
+      "marks & spencer"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.0125,
+     "desc": "Base 5 RP per Rs200; additional 5X RP at Myntra, Nykaa, Reliance Digital, Marks & Spencer capped at 5,000 RP per month across brands (whether 5X includes base not clear)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-gold-credit-card/pdfs/regalia-gold-credit-card-reward-points-t-and-cs.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Regalia-Gold-Product-feature-change.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Waiver Rs4L spend. Devaluation effective 15 May 2026: earn cut from 4 RP/Rs150 (~1.33% pts) to 5 RP/Rs200 (2.5 RP per Rs100); effective value 1.25% at Rs0.50/RP. Domestic lounge 3 per quarter only if Rs60,000 spent in prior quarter from 1 Jul 2026; 6 international Priority Pass unchanged. Reissue fee Rs199. Boarding Edge: 2 benefits per quarter. Milestones: Rs5,000 flight vouchers at Rs5L and Rs7.5L spend; Rs1,500 Myntra/Nykaa vouchers per Rs1.5L quarterly spend. Max 50,000 RP per cycle. Forex 2% from product page (MITC fee table layout ambiguous). Earlier cards.json guess of a 'digital_gold' exclusion and 'jewellery monthly cap' not found in official docs. MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Regalia",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "Priority Pass international and domestic lounge benefits (verify current terms)",
+   "main_benefit": "Classic Regalia: 4 RP per Rs200 (about 1% at Rs0.50/RP); replaced by Regalia Gold for new applicants.",
+   "key_benefits": [
+    "Fee waiver at Rs3L spend",
+    "Renewal benefit 2,500 RP",
+    "Not on the current official card listing"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs200 on retail spends incl. jewellery (no exclusion found); Rs0.50/RP on SmartBuy flights/hotels, Rs0.35 products/vouchers, Rs0.15 cashback. cap_inr = 50,000 RP per statement cycle at Rs0.50.",
+     "cap_inr": 25000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/regalia-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs2,500, waiver Rs3L (MITC). Forex 3.5% per product page. 4 RP per Rs200; up to 5X on SmartBuy. Not listed among cards changed on 15 May 2026 in third-party summaries (pickmywork.com, livefromalounge.com) - not verified officially. MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants. Status closed_to_new: official page or FAQ indicates no new applications or migration."
+  },
+  {
+   "name": "HDFC Diners Club Privilege",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic + 1 international per quarter, only on Rs60,000 spend in prior quarter from 1 Jul 2026",
+   "main_benefit": "Entry-premium Diners card earning 4 RP per Rs200 (about 1% at Rs0.50/RP) with 5X on Swiggy and Zomato.",
+   "key_benefits": [
+    "5X on Swiggy and Zomato",
+    "Fee waiver at Rs3L spend",
+    "Devalued 15 May 2026"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs200 (cut from 4 RP per Rs150 on 15 May 2026) on eligible retail spends incl. jewellery (no exclusion found); Rs0.50/RP SmartBuy flights/hotels, up to Rs0.35 catalogue, Rs0.20 cashback. cap_inr = 50,000 RP statement cycle cap at Rs0.50.",
+     "cap_inr": 25000
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "zomato"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.05,
+     "desc": "5X (20 RP per Rs200) on Swiggy and Zomato online food orders; additional 4X capped at 2,500 RP per month; at Rs0.50/RP"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Diners-Privilege-Product-Feature-Change.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Waiver Rs3L spend. Devaluation 15 May 2026: 4 RP per Rs150 to 4 RP per Rs200 (effective 1.0% at Rs0.50/RP). Lounge: 2 domestic + 1 international per quarter only on Rs60,000 spend in prior quarter from 1 Jul 2026. Forex 3.5%. Max 50,000 RP per cycle. Dining rate derived from page (5X on 4 RP/Rs200). MITC v4.13 (updated 8 Oct 2026) lists no jewellery/gold (MCC 5944/5094) exclusion for reward-point cards, so jewellery is assumed to earn base points; not explicitly confirmed. Jewellery-specific cap not found. Common caps: grocery 2,000 RP/month, utility 2,000 RP/month, telecom 2,000 RP/month, insurance cap per month (2,000 RP most cards, 5,000 Diners Black/BizBlack, 10,000 Infinia); education via third-party apps, online skill gaming, rent, government earn nothing. Points expire in 3 years (Infinia T&C) / 2 years (Regalia family); nullified if card unused 365 days. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Millennia",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic lounge voucher (or Rs1,000 voucher) per Rs1L quarterly spend",
+   "main_benefit": "Everyday cashback card: 5% on 10 online merchants (cap 1,000 CashPoints per cycle) and 1% on everything else.",
+   "key_benefits": [
+    "Rs1,000 voucher or 1 lounge per Rs1L quarterly spend",
+    "Fee waiver at Rs1L spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "amazon",
+      "bookmyshow",
+      "cult.fit",
+      "flipkart",
+      "myntra",
+      "sony liv",
+      "swiggy",
+      "tata cliq",
+      "uber",
+      "zomato"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% CashBack (CashPoints, 1 CP = Rs1) on 10 online merchants, non-EMI only; cap 1,000 CashPoints per cycle",
+     "cap_inr": 1000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "groceries",
+      "dining",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% CashBack on other spends (jewellery not excluded); separate cap 1,000 CashPoints per cycle (~Rs1L spend)",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/pdf/millennia-tnc-20th-jul26.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official T&C published 20 Jul 2026. Waiver Rs1L annual spend. Milestone: Rs1,000 voucher or 1 domestic lounge per Rs1L quarterly spend. Forex markup not found for this card (MITC table layout ambiguous). Conflict inside T&C: one clause says gift/prepaid card and voucher purchases are 'other spends' at 1%, another says MCC 6540 (wallet/prepaid loads) earn nothing. Unaffected by 15 May 2026 change per third-party summaries. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Swiggy HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Mastercard",
+   "status": "closed_to_new",
+   "co_brand_partner": "Swiggy",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Original Swiggy card: 10% cashback on the Swiggy app, 5% on select online merchants; HDFC is migrating holders to Ornge/BLCK.",
+   "key_benefits": [
+    "10% on Swiggy",
+    "Max Rs3,500 cashback per cycle",
+    "Migration to Ornge/BLCK (FAQ 29 Sep 2026)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback on Swiggy app (food, Instamart, Dineout); cap Rs1,500 per billing cycle; min txn Rs249",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on select online merchants/MCCs (apparel, electronics, pharmacy, local cabs, etc.); cap Rs1,500 per billing cycle",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% cashback on other categories; cap Rs500 per billing cycle",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "gift_cards",
+    "gaming",
+    "education"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-18092026.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery explicitly excluded (MCC 5094/5944 per Ornge/BLCK tables) - earns 0. Max Rs3,500 cashback per statement cycle (MITC). Legacy variant: HDFC is migrating holders to Swiggy Ornge/BLCK (FAQ dated 29 Sep 2026); may be closed to new applicants. Smartbuy portal spends also excluded. Waiver Rs2L. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants. Status closed_to_new: official page or FAQ indicates no new applications or migration."
+  },
+  {
+   "name": "HDFC Swiggy BLCK",
+   "issuer": "HDFC Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "Swiggy",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Top Swiggy card: 10% cashback on Swiggy and 5% on select online/travel merchants, no lounge access.",
+   "key_benefits": [
+    "Welcome: Swiggy BLCK membership 3 months",
+    "Joining fee waived on Rs75,000 spend in 90 days",
+    "Max Rs4,000 cashback per cycle"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback on Swiggy app (food, Instamart, Dineout); cap Rs1,500 per billing cycle; min txn Rs249",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on select online merchants/MCCs (Amazon, Flipkart, Myntra, Nykaa, Cleartrip, Ajio, Netflix, Hotstar, BookMyShow, Meesho etc.); cap Rs1,500 per billing cycle",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% cashback on other categories; cap Rs1,000 per billing cycle",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "gift_cards",
+    "gaming",
+    "education",
+    "smartbuy_portal"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-blck-hdfc-bank-credit-card/pdf/tncs-swiggy-blck-hdfc-bank-credit-card-22092026.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,000 (joining waived on Rs75,000 spend in 90 days); renewal waiver Rs2L. Max Rs4,000 cashback per statement cycle (MITC). Jewellery MCC 5094/5944 and gift cards (5947) excluded. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Swiggy Ornge",
+   "issuer": "HDFC Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "Swiggy",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Swiggy card for everyday spend: 5% cashback on Swiggy and select merchants, 1% elsewhere.",
+   "key_benefits": [
+    "Max Rs2,500 cashback per cycle",
+    "Renewal waiver Rs1.5L spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on Swiggy app (food, Instamart, Dineout); cap Rs1,500 per billing cycle; min txn Rs249",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on select online merchants/MCCs; cap not stated in the table (overall Rs2,500 per cycle per MITC)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% cashback on other categories; cap Rs1,000 per billing cycle",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "gift_cards",
+    "gaming",
+    "education",
+    "smartbuy_portal"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-ornge-hdfc-bank-credit-card/pdf/tncs-swiggy-ornge-hdfc-bank-credit-card-22092026.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Renewal waiver Rs1.5L spend. Max Rs2,500 cashback per statement cycle (MITC). Jewellery MCC 5094/5944 excluded. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Tata Neu Infinity",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Tata Neu",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": "2 domestic lounge vouchers per quarter (max 8 per year) on Rs50,000 quarterly spend; 4 international per year",
+   "main_benefit": "Tata Neu co-brand: 5% NeuCoins on Tata brands (incl. Tanishq/Titan) and 1.5% elsewhere; also issued on Visa; UPI earn on RuPay only.",
+   "key_benefits": [
+    "5% NeuCoins on Tata brands",
+    "Lounge vouchers",
+    "Fee waiver at Rs3L spend"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "tanishq",
+      "titan"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.05,
+     "desc": "5% NeuCoins (1.5% base + 3.5% additional) at Tanishq and Titan (partner Tata brands, non-EMI, in-store/online). Eligible spend capped Rs6,00,000 per month and Rs18,00,000 per year, so cap_inr = Rs30,000 per month. 1 NeuCoin = Rs1 on Tata Neu eligible purchases. NeuPass extra 5% does NOT apply to Tanishq.",
+     "cap_inr": 30000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "other"
+     ],
+     "rate": 0.015,
+     "desc": "1.5% NeuCoins on non-Tata brand retail spends and merchant EMI; jewellery at other jewellers not excluded in the exclusion list"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "online_gaming",
+    "smart_emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-infinity-credit-card/pdf/tata_neu_infinity_card_tnc.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card/pdfs/TATA_Neu_List_Brands.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,499, waiver Rs3L. NeuCoins: 5% partner Tata brands, 1.5% others, UPI 0.5%-1.5% (cap 500/month). Grocery/utility/telecom/insurance capped 2,000 NeuCoins per month each; max 50,000 NeuCoins per statement cycle (MITC). Tanishq/Titan added to partner brands from 1 Jan 2023. 3.5% additional NeuCoins posts next day since 26 Dec 2025. Merchant EMI NeuCoins on billing since 17 Nov 2025 changed. Forex markup not found. Unchanged on 15 May 2026. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Tata Neu Plus",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Tata Neu",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic lounge voucher per quarter on Rs50,000 quarterly spend",
+   "main_benefit": "Entry Tata Neu card: 2% NeuCoins on Tata brands, 1% elsewhere; also issued on Visa.",
+   "key_benefits": [
+    "2% NeuCoins on Tata brands",
+    "Quarterly lounge voucher on Rs50,000 spend",
+    "Fee waiver at Rs1L spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "tanishq",
+      "titan"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.02,
+     "desc": "2% NeuCoins (1% base + 1% additional) at Tanishq and Titan (partner Tata brands, non-EMI). Eligible spend capped Rs3,00,000 per month and Rs9,00,000 per year, so cap_inr = Rs6,000 per month. 1 NeuCoin = Rs1.",
+     "cap_inr": 6000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% NeuCoins on non-Tata brand retail spends; jewellery at other jewellers not excluded"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "online_gaming",
+    "smart_emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card/pdfs/tata_neu_plus_card_tnc.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs499 (page), waiver Rs1L spend; MITC fee table layout ambiguous for this card. Grocery capped 1,000 NeuCoins per month, max 25,000 NeuCoins per cycle. Forex markup not found. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC MoneyBack+",
+   "issuer": "HDFC Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry rewards card: 10X CashPoints at Amazon, BigBasket, Flipkart, Reliance Smart SuperStore, Swiggy; low base rate.",
+   "key_benefits": [
+    "Fee waiver at Rs50,000 spend",
+    "Max 15,000 RP per cycle"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "amazon",
+      "bigbasket",
+      "flipkart",
+      "reliance smart superstore",
+      "swiggy"
+     ],
+     "categories": [
+      "online_shopping",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "desc": "10X CashPoints (20 CP per Rs200) at Amazon, BigBasket, Flipkart, Reliance Smart SuperStore, Swiggy (non-EMI); cap 2,500 CP per month; value up to Rs0.25/CP",
+     "cap_inr": 625
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "other"
+     ],
+     "rate": 0.0025,
+     "desc": "2 CashPoints per Rs200 on other spends (jewellery not excluded in T&C); up to Rs0.25 per CP; statement cap 15,000 RP"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government",
+    "wallet_load"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/moneyback-plus-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/moneyback-plus-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/moneyback-plus-credit-card/pdf/MBPlus-TnCs.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "T&C published 15 May 2026. Waiver Rs50,000. CashPoint value 'up to Rs0.25' (MITC cashback redemption Rs0.20 per point from 1 Nov 2025 - conflict; rate uses 0.25 upper bound, at Rs0.20 base rate is 0.2%). Max 15,000 RP per cycle. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Freedom",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Starter card with 10X CashPoints at BigBasket, BookMyShow, OYO, Swiggy, Uber (capped); very low base rate.",
+   "key_benefits": [
+    "10X at five merchants (cap 2,500 CP per month)",
+    "Fee waiver at Rs50,000 spend"
+   ],
+   "base_rate": 0.00075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "other"
+     ],
+     "rate": 0.00075,
+     "desc": "1 CashPoint per Rs200 on other spends (jewellery not excluded); Rs0.15 per CashPoint for cashback redemption"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government",
+    "wallet_load"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/freedom-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/freedom-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/freedom-credit-card/freedom-tncs.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "T&C dated 15 May 2026. 10X CashPoints (10 CP per Rs200) at BigBasket, BookMyShow, OYO, Swiggy, Uber capped 2,500 CP per month. Rate 0.075% = 1 CP/Rs200 x Rs0.15. Waiver Rs50,000. Max 15,000 RP per cycle. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Pixel Play",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Customisable digital card: 5% cashback on two chosen packs, 3% on one e-commerce platform, 1% elsewhere; RuPay variant also exists.",
+   "key_benefits": [
+    "5% on SmartBuy (cap 500 CP/month)",
+    "Joining fee waived on Rs20,000 spend in 90 days",
+    "Issued via PayZapp"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "travel",
+      "dining"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on customer-chosen two packs (e.g. BookMyShow+Zomato, MakeMyTrip+Uber, Blinkit+Reliance Smart Bazaar, electronics); cap 500 CashPoints per month",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "3% cashback on one chosen e-commerce platform; cap 500 CashPoints per month",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on all other spends; jewellery not in the excluded MCC list; cap 15,000 CashPoints per month (assuming 1 CP = Rs1)",
+     "cap_inr": 15000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/fifa-pixel-credit-card/pdf/terms-and-conditions-pixel-play-credit-card-08072026.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs500 (waived on Rs20,000 spend in 90 days); renewal waiver Rs1L. Cashback 5% on SmartBuy capped 500 CP per month. Excluded MCCs: 1361,5172,5541,5542,5983,9752,6513,6540,7349,9211,9222,9223,9311,9399,9402,9405,9950. Insurance capped 2,000 CP/month; txns below Rs100 earn nothing. CashPoint value Rs1 assumed from '1% cashback' wording. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Pixel Go",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 250,
+   "annual_fee": 250,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Flat 1% cashback digital card (also 1% on UPI on RuPay variant) with 5% on SmartBuy; low Rs250 fee.",
+   "key_benefits": [
+    "Joining fee waived on Rs10,000 spend in 90 days",
+    "Renewal waiver Rs50,000",
+    "FD-backed variant available"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% CashBack on eligible transactions (jewellery eligibility not verified); 5% on SmartBuy"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs250, waiver Rs50,000 spend; joining fee waived on Rs10,000 in 90 days. Only the product page was read; T&C not read so caps, exclusions and jewellery treatment unconfirmed. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC IndianOil",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "IndianOil",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Fuel card: 5% Fuel Points at IndianOil outlets (capped) plus 5% on groceries and bills; also issued on Visa.",
+   "key_benefits": [
+    "Welcome Rs250 voucher on first transaction in 37 days",
+    "Fee waiver at Rs50,000 spend"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "desc": "5% Fuel Points at IOCL outlets (IOCL POS only); cap 250 FP per month in first 6 months then 150 FP per month. 1 FP = 1 RP"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "5% Fuel Points on groceries and bill payments; cap 100 FP per month per category; min txn Rs150"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "fuel_non_iocl",
+    "rent",
+    "government",
+    "emi",
+    "wallet_load",
+    "insurance"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/indian-oil-hdfc-bank-credit-card/T-and-C-Indian-Oil-Credit-Card.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery explicitly excluded from the 1 FP per Rs150 base earn. Base: 1 Fuel Point per Rs150 on other categories; FP value not stated clearly (redemption table shows Rs0.20 per RP for statement balance), so base_rate left null. Waiver Rs50,000. Max 25,000 RP per cycle. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC Marriott Bonvoy",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "active",
+   "co_brand_partner": "Marriott Bonvoy",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Hotel co-brand: 8 Bonvoy points per Rs150 at Marriott, 4 on travel/dining, 2 elsewhere, with free night awards.",
+   "key_benefits": [
+    "Up to 4 free night awards via spend milestones (Rs6L/Rs9L/Rs15L per page)",
+    "Welcome benefits at joining"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "emi",
+    "online_gaming",
+    "fuel",
+    "wallet_load",
+    "government",
+    "rent",
+    "gift_cards"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/marriott-bonvoy-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/marriott-bonvoy-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/marriott-bonvoy-credit/terms-and-condition.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Earn: 8 Marriott Bonvoy Points per Rs150 at Marriott properties (up to Rs10L/month); 4 per Rs150 on travel, dining, entertainment (up to Rs5L/month); 2 per Rs150 on other eligible spends (jewellery not excluded in list), groceries 2 per Rs150 up to Rs1.5L per month. Rupee value per Marriott point is not given in HDFC docs, so base_rate and rules omitted. Fee Rs3,000; no waiver threshold found. Terms published 28 Sep 2026. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
+  },
+  {
+   "name": "HDFC PhonePe HDFC Bank Ultimo",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": "8 domestic per year (2 per quarter), needs Rs75,000 spend in the quarter",
+   "main_benefit": "UPI-on-credit PhonePe co-brand: 10% points on PhonePe recharges/bills/travel (cap 1,000 RP/month) and 5% on select online brands.",
+   "key_benefits": [
+    "5 PhonePe scratch cards of Rs200 for first 5 UPI-on-credit txns (cards applied on/after 1 Aug 2026)",
+    "8 domestic lounge visits per year, 2 per quarter, needs Rs75,000 quarterly spend",
+    "1% fuel surcharge waiver (max Rs250 per cycle)",
+    "Apply only via PhonePe app"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.1,
+     "desc": "10% RP on PhonePe recharges, utilities, bill payments and travel booked on PhonePe; 1 RP = Re1 as statement cashback (Rs0.30 on SmartBuy). Cap 1,000 RP per calendar month.",
+     "cap_inr": 1000
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "ajio",
+      "swiggy",
+      "zomato",
+      "uber"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% RP on select online brands; cap 500 RP per month; 1 RP = Re1 cashback.",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% RP on UPI Scan & Pay spends via PhonePe; cap 500 RP per month; min txn Rs100.",
+     "cap_inr": 500,
+     "min_txn_inr": 100
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-ultimo-credit-card",
+    "https://www.hdfc.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Total listed earn is up to 2,000 RP per month; no base earn on other spends is listed so base_rate null. Forex markup and exclusion list not found. Reward redemption cap Rs7,500 cashback per month. Welcome benefits only if joining fee applies."
+  },
+  {
+   "name": "HDFC PhonePe HDFC Bank Uno",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry PhonePe UPI-on-credit card: 2% points on PhonePe recharges/bills/travel and 1% on select brands and scan-and-pay.",
+   "key_benefits": [
+    "5 PhonePe scratch cards of Rs100 for first 5 UPI-on-credit txns (applied after 1 Aug 2026)",
+    "1% fuel surcharge waiver (max Rs250 per cycle)",
+    "No lounge access listed",
+    "Apply only via PhonePe app"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "2% RP on PhonePe recharges, utilities, bills, travel; 1 RP = Re1 cashback. Cap 500 RP per month.",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "ajio",
+      "swiggy",
+      "zomato",
+      "uber"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "1% RP on select online brands; cap 500 RP per month.",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% RP on UPI Scan & Pay via PhonePe; cap 500 RP per month; min txn Rs100.",
+     "cap_inr": 500,
+     "min_txn_inr": 100
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-uno-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/phonepe-hdfc-bank-uno-credit-card",
+    "https://cardadvisor.in/banks/hdfc-bank-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining fee Rs499 from the Uno page; renewal fee and waiver spend not stated on the page (annual_fee null; the Rs999/Rs2L fee text on the shared fee block belongs to Ultimo). Total listed earn up to 1,500 RP per month. cardadvisor lists Rs499."
+  },
+  {
+   "name": "HDFC Bank UPI RuPay Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 99,
+   "annual_fee": 99,
+   "fee_waiver_spend": 25000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Rs99 credit-line-on-UPI RuPay card with CashPoints on groceries/dining/PayZapp (3%), utilities (2%) and others (1%) at a low point value.",
+   "key_benefits": [
+    "Credit line on UPI scan-and-pay",
+    "Fee Rs99 first year and renewal; renewal waived on Rs25,000 spend",
+    "No fuel surcharge waiver; 1% fee on fuel txns above Rs15,000 (from 1 Oct 2025)",
+    "Min txn Rs100 for CashPoints"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining"
+     ],
+     "rate": 0.0075,
+     "desc": "Headline 3% CashPoints on groceries, supermarket, dining and PayZapp; modelled conservatively as 3 CP per Rs100 at Rs0.25 = 0.75% value because HDFC states 1 CP = Rs0.25. If the 3% is a true cashback the value would be 3%. Cap 500 CP per month (Rs125). MCC-based (RuPay MCCs).",
+     "cap_inr": 125,
+     "min_txn_inr": 100
+    },
+    {
+     "merchants": [
+      "payzapp"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0075,
+     "desc": "3% CashPoints on PayZapp transactions (same Rs0.25 conversion); within the 500 CP cap.",
+     "cap_inr": 125
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.005,
+     "desc": "Headline 2% CashPoints on utility payments; modelled as 0.5% value at Rs0.25/CP. Cap 500 CP per month (Rs125).",
+     "cap_inr": 125,
+     "min_txn_inr": 100
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "emi",
+    "government",
+    "wallet_load",
+    "insurance"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/hdfc-bank-upi-rupay-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/hdfc-bank-upi-rupay-credit-card",
+    "https://cardadvisor.in/banks/hdfc-bank-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page and FAQ read. Ambiguity: \"3%/2%/1% CashPoints\" with 1 CP = Rs0.25 (FAQ); aggregator cardadvisor says low point value, so conservative value-based rates used (base 1% CP = 0.25%). Also excludes gift/prepaid loads and voucher purchases. Forex markup not found. Fee shown as Rs99 (festive offer language on Biz variant)."
+  },
+  {
+   "name": "HDFC IRCTC HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": "IRCTC Executive Lounges (railway); no airport lounge listed",
+   "main_benefit": "Rail travel card: 5% cashback on train tickets via HDFC SmartBuy, 1% IRCTC transaction-charge waiver and quarterly Rs500 voucher on Rs30,000 spend.",
+   "key_benefits": [
+    "Welcome voucher Rs500 on activation",
+    "Rs500 voucher every calendar quarter on Rs30,000 spend",
+    "IRCTC executive lounge access (per page)",
+    "Rs1,000 cashback across 200+ brands via PayZapp",
+    "1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "irctc",
+      "smartbuy"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "Additional 5% cashback on train bookings through HDFC SmartBuy; plus 1 RP per Rs100 (1 RP = Re1 but redeemable only against train tickets, up to 70% of fare). Stacking not confirmed so only 5% modelled."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/irctc-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/irctc-credit-card",
+    "https://cardadvisor.in/banks/hdfc-bank-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Base 1 RP per Rs100 is redeemable only for IRCTC train tickets via SmartBuy at Re1 (70% of fare), so base_rate 1% is only usable for rail. Exclusion list and forex markup not found. Fee Rs500; renewal waived on Rs1.5L spend."
+  },
+  {
+   "name": "HDFC Shoppers Stop HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 299,
+   "annual_fee": 299,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry Shoppers Stop co-brand: points at Shoppers Stop and 1% on other spends, with Rs500 welcome voucher.",
+   "key_benefits": [
+    "Rs500 Shoppers Stop welcome voucher",
+    "Complimentary Shoppers Stop Silver Edge membership worth Rs350",
+    "1% fuel surcharge waiver (max Rs250 per cycle)",
+    "UPI linking for RuPay"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "shoppers stop"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "Aggregator-reported 3% RP at Shoppers Stop (the official page text read did not state the Shoppers Stop earn rate); RP value assumed Re1. Low confidence."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/shoppers-stop-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/shoppers-stop-credit-card",
+    "https://cardadvisor.in/banks/hdfc-bank-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page gives fee Rs299, 1% RP on non-Shoppers-Stop spends and the welcome voucher; Shoppers Stop earn rate (3%) from cardadvisor only; renewal waiver, RP value, caps and exclusions not found."
+  },
+  {
+   "name": "HDFC Shoppers Stop Black HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4500,
+   "annual_fee": 4500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "16 domestic (4/quarter) + 8 international (2/quarter) per year",
+   "main_benefit": "Shoppers Stop premium co-brand: 7% points on Shoppers Stop purchases, 2% elsewhere, Black membership and lounge access.",
+   "key_benefits": [
+    "Rs1,500 Shoppers Stop welcome voucher",
+    "Complimentary Shoppers Stop Black membership worth Rs4,500",
+    "16 domestic (4 per quarter) and 8 international (2 per quarter) lounge visits per year",
+    "Rs2,000 per month points on Rs50,000+ weekend Shoppers Stop purchase",
+    "Air accident cover Rs3 crore, overseas hospitalisation Rs50 lakh"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [
+      "shoppers stop"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.07,
+     "desc": "7% RP on Shoppers Stop purchases; RP value assumed Re1 (not stated). Weekend bonus Rs2,000 points on Rs50,000+ bill."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/shoppers-stop-black-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/shoppers-stop-black-credit-card",
+    "https://cardadvisor.in/banks/hdfc-bank-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Point value, renewal waiver spend, caps, exclusions and forex markup not found. Rates assume Re1/RP, which is unverified."
+  },
+  {
+   "name": "HDFC Flipkart Wholesale HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Business co-brand for Flipkart Wholesale buyers: 5% cashback on Flipkart Wholesale spends (cap Rs2,000 per month) and 5% on telecom/utility/tax.",
+   "key_benefits": [
+    "Rs500 cashback per txn on first 3 Flipkart Wholesale purchases in 90 days (min Rs2,000 each)",
+    "1% fuel surcharge waiver (max Rs250 per cycle)",
+    "Renewal waived on Rs3L spend",
+    "Eligibility depends on business turnover"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "flipkart wholesale"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on Flipkart Wholesale online spends; cap Rs2,000 per month.",
+     "cap_inr": 2000
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on telecom, utility, government and tax payments; cap Rs250 per month.",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [
+    "rent",
+    "emi",
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/flipkart-wholesale-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/flipkart-wholesale-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Joining/renewal fee amount not extracted (fees page link only) so null. 1% cashback on other spends has a stated cap of \"25,000 per month\" (unclear whether spend or cashback), so cap omitted. 1% fee on rental from 2nd rental txn; 1% markup on DCC. Network not stated."
+  },
+  {
+   "name": "HDFC BizBlack Metal Edition",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 750000,
+   "forex_markup": null,
+   "lounge_access": "Unlimited lounge access worldwide (primary and add-on)",
+   "main_benefit": "Top HDFC business card: 5 RP per Rs150 (RP up to Re1), unlimited lounges, Rs5,000 vouchers per Rs5L spend.",
+   "key_benefits": [
+    "Unlimited global lounges incl. add-ons",
+    "Welcome: Accor+ Explorer membership on Rs1.5L spend in 90 days (cards set up from 15 Sep 2026); earlier Club Marriott + Taj voucher Rs5,000",
+    "SmartBuy flight/Taj voucher Rs5,000 per Rs5L spend, up to Rs20,000 per calendar year",
+    "5X RP on bills via PayZapp, IT/GST, hotels/flights, software (min Rs50,000 per cycle)",
+    "Up to 10X on SmartBuy (cap 10,000 RP/month)",
+    "Business insurance package"
+   ],
+   "base_rate": 0.0333,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0333,
+     "desc": "5 RP per Rs150 on retail spend (excl. petrol, rent, EMI); RP value up to Re1 on SmartBuy/flights-hotels (Rs0.30 cashback). Cap 1,50,000 RP per cycle."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/biz-black-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/biz-black-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. 5X accelerated categories not modelled numerically because whether 5X is multiplicative on the 5 RP base is not stated. Forex markup and network not found. Rate assumes Re1/RP best redemption."
+  },
+  {
+   "name": "HDFC BizFirst",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry business card: CashPoints on EMI (3%), utilities/electronics/PayZapp (2%) and 1% others, plus 5% on SmartBuy.",
+   "key_benefits": [
+    "Rs250 gift voucher on first txn in 37 days",
+    "2,000 CashPoints per quarter on Rs75,000 quarterly spend",
+    "5% cashback on SmartBuy (cap Rs1,000 per month)",
+    "SmartPay bill benefits up to Rs1,800 cashback in year one",
+    "1% fuel surcharge waiver (max Rs250 per cycle)",
+    "Renewal waived on Rs50,000 spend"
+   ],
+   "base_rate": 0.0015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.003,
+     "desc": "2% CashPoints on utility bills, electronics, SmartPay and PayZapp; page says 1 CashPoint = up to Rs0.15, so modelled as 2 CP per Rs100 x Rs0.15 = 0.3% value. Cap 500 CP per month.",
+     "cap_inr": 75
+    },
+    {
+     "merchants": [
+      "smartbuy"
+     ],
+     "categories": [
+      "online_shopping",
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on Myntra, MakeMyTrip, Apple Imagine Tresor via SmartBuy; cap Rs1,000 per month.",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/biz-first-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/biz-first-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Percent CashPoints converted at Rs0.15/CP (conservative; headline may be read as cash percentages). 3% CashPoints on EMI spends (cap 1,000 CP/month) not modelled as a rule. Joining fee charged after 120 days. Forex and network not found."
+  },
+  {
+   "name": "HDFC BizGrow",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Mid business card: 2 CashPoints per Rs200 and 10X (up to about 3% saving) on utility, IT and GST payments.",
+   "key_benefits": [
+    "Rs250 voucher on first txn in 37 days",
+    "2,000 CashPoints per quarter on Rs1L quarterly spend",
+    "Petrol/Amazon Rs500 voucher on 6 txns in 90 days (cards set up 1 Jul-30 Sep 2026)",
+    "5% cashback on SmartBuy (cap Rs1,000/month)",
+    "SmartPay up to Rs1,800 cashback year one",
+    "1% fuel surcharge waiver (max Rs250 per cycle)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.025,
+     "desc": "10X CashPoints (20 CP per Rs200 x Rs0.25) on select business spends (utility, IT, GST) with min Rs10,000 spend per cycle; HDFC headline says up to 3% savings."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/biz-grow-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/biz-grow-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. 10X category list and cap not captured. CashPoint at Rs0.25 (page: up to Rs0.25). Forex and network not found."
+  },
+  {
+   "name": "HDFC BizPower",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 400000,
+   "forex_markup": null,
+   "lounge_access": "2 domestic per quarter on Rs75,000 prior-quarter spend + 6 international per year",
+   "main_benefit": "Premium-mid business card: 5 RP per Rs200 (RP up to Rs0.65) with lounge access and quarterly Rs5,000 MakeMyTrip/Reliance Digital voucher.",
+   "key_benefits": [
+    "Welcome: Amazon Prime or Rs1,500 Amazon voucher on tax/travel/ads txn in 30 days",
+    "Rs5,000 MMT/Reliance Digital voucher on Rs2.5L quarterly retail spend (from 1 Jul 2026)",
+    "2 domestic lounge visits on Rs75,000 prior-quarter spend; 6 international Priority Pass per year",
+    "1 zero-cancellation MMT voucher per Rs75,000 quarter",
+    "5X RP on select business spends (cap 7,500 RP per cycle)"
+   ],
+   "base_rate": 0.01625,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01625,
+     "desc": "5 RP per Rs200 (excl. petrol, wallet, rent, education, EMI); RP up to Rs0.65 per page. Cap 7,500 RP per cycle applies to 5X accelerated spends."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "education",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/biz-power-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/biz-power-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. 5X rule not numerically modelled (min Rs25,000 per cycle, IT/GST rules). One older block on the page still says 4 RP per Rs150; the Rs200 figure matches the 15 May 2026 change. Forex and network not found."
+  },
+  {
+   "name": "HDFC GIGA Business Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Low-fee business card for gig/freelance expenses: 2 CashPoints per Rs200 (6 on select) and 800 bonus CashPoints on Rs50,000 monthly spend.",
+   "key_benefits": [
+    "Rs250 voucher on first txn in 37 days",
+    "Bonus 800 CashPoints on Rs50,000 monthly spend",
+    "SmartPay cashback up to Rs1,800 + Rs800 vouchers",
+    "Swiggy Dineout up to 7.5% off",
+    "1% fuel surcharge waiver (max Rs250 per cycle)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0075,
+     "desc": "6 CashPoints per Rs200 on select expenses (category list not captured) at Rs0.25/CP."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/giga-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/giga-business-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Savings headline up to Rs53,000/Rs59,000 annually conflicts within page. Apply with ITR above Rs4L. Network and forex not found."
+  },
+  {
+   "name": "HDFC Bank UPI RuPay Biz Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 99,
+   "annual_fee": 99,
+   "fee_waiver_spend": 25000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Business version of the Rs99 credit-on-UPI RuPay card: 3% CashPoints on groceries/dining/PayZapp, 2% utilities, 1% others at Rs0.25 per point.",
+   "key_benefits": [
+    "Fee Rs99 (festive offer wording)",
+    "Renewal waived on Rs25,000 spend",
+    "Credit line on UPI",
+    "Min txn Rs100"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining"
+     ],
+     "rate": 0.0075,
+     "desc": "Headline 3% CashPoints on groceries/supermarket/dining/PayZapp; modelled 3 CP per Rs100 x Rs0.25. Cap 500 CP per month (Rs125).",
+     "cap_inr": 125,
+     "min_txn_inr": 100
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.005,
+     "desc": "2% CashPoints on utilities; modelled 0.5% value. Cap 500 CP per month.",
+     "cap_inr": 125,
+     "min_txn_inr": 100
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "emi",
+    "government",
+    "wallet_load",
+    "insurance"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/hdfc-bank-upi-rupay-biz-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/hdfc-bank-upi-rupay-biz-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; same terms as the personal UPI RuPay card. Conservative value-based conversion of percent CashPoints."
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Business Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Paytm-linked business card: 3% cashback on Paytm recharge/utility/movies (cap Rs500 per month), 2% other Paytm, 1% elsewhere.",
+   "key_benefits": [
+    "Paytm First membership on activation",
+    "First-year fee waived on Rs30,000 spend in 90 days",
+    "Renewal waived on Rs50,000 spend",
+    "Dineout up to 20% off partner restaurants"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "bill_payments",
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "3% cashback on Paytm recharge, utility, movies and mini-app; cap Rs500 per month.",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.02,
+     "desc": "2% cashback on other Paytm spends; shares the Rs500 monthly cap per notice.",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% cashback on other retail (excl. fuel, EMI, rental, education); cap Rs1,000 per month.",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "education"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page is mainly a Feb/April 2023 feature-change notice, so figures are 2023-era and may be stale; it is on the current official business-card listing. Two pages disagree on Select Business cashback (notice: 5% on Paytm recharge/utility/movies/mini-app/travel, 3% on Swiggy/AJIO/BigBasket/Uber; product block: 5% across Paytm, 2% other Paytm). Conservative values kept."
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Select Business Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "12 domestic per year",
+   "main_benefit": "Premium Paytm business card: 5% cashback on Paytm (cap Rs1,500 per month), 3% on Swiggy/AJIO/BigBasket/Uber and 12 domestic lounge visits.",
+   "key_benefits": [
+    "Rs500 voucher on activation",
+    "Rs1,000 voucher on Rs2L annual spend",
+    "12 domestic lounge visits per year",
+    "1% fuel surcharge waiver",
+    "Joining fee waived on Rs60,000 spend in 90 days"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel",
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on Paytm recharge, utility, movies, mini-app, travel; cap Rs1,500 per month.",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "ajio",
+      "bigbasket",
+      "uber"
+     ],
+     "categories": [
+      "dining",
+      "online_shopping",
+      "groceries"
+     ],
+     "rate": 0.03,
+     "desc": "3% on Swiggy, AJIO, BigBasket, Uber; cap Rs500 per month per 2023 notice (grocery cashpoints cap 1,000 per month on the page).",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on other retail; cap Rs2,000 per month.",
+     "cap_inr": 2000
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "emi",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-select-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-select-business-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page is mainly a Feb/April 2023 feature-change notice, so figures are 2023-era and may be stale; it is on the current official business-card listing. Two pages disagree on Select Business cashback (notice: 5% on Paytm recharge/utility/movies/mini-app/travel, 3% on Swiggy/AJIO/BigBasket/Uber; product block: 5% across Paytm, 2% other Paytm). Conservative values kept. Joining Rs1,000, renewal Rs500, renewal waived on Rs1L spend (page)."
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Paytm co-brand (2023 data): 3% cashback on Paytm recharge/utility/movies and 1% elsewhere; not on the current personal-card listing.",
+   "key_benefits": [
+    "Paytm First membership",
+    "Fee waived on spend thresholds",
+    "Dineout up to 20% off"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.03,
+     "desc": "3% cashback on Paytm recharge, utility, movies, mini-app; cap Rs500 per month (April 2023 notice).",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.02,
+     "desc": "2% on other Paytm spends."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "education"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Derived from the April 2023 change notice on the Paytm business page; fee Rs500 annual (monthly Rs49 fee variant also mentioned). Not on the current official personal listing; status unknown. Do not rely without verification."
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Select Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "12 domestic per year",
+   "main_benefit": "Legacy premium Paytm card (2023 data): 5% cashback on Paytm (cap Rs1,500/month), 3% on Swiggy/AJIO/BigBasket/Uber, 12 lounge visits.",
+   "key_benefits": [
+    "12 domestic lounge visits per year",
+    "Rs500 activation voucher",
+    "Rs1,000 voucher on Rs2L spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on Paytm recharge, utility, movies, mini-app, travel; cap Rs1,500 per month.",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "ajio",
+      "bigbasket",
+      "uber"
+     ],
+     "categories": [
+      "dining",
+      "online_shopping",
+      "groceries"
+     ],
+     "rate": 0.03,
+     "desc": "3% accelerated; cap Rs500 per month.",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Derived from April 2023 notice on the Paytm business page (annual fee Rs1,000, renewal waived on Rs1L). Status unknown."
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Mini Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 149,
+   "fee_waiver_spend": 25000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Paytm starter card (2023 data): 2% cashback on Paytm Mall/Movies/Mini App, 1% other Paytm, 0.5% elsewhere, Rs149 annual fee.",
+   "key_benefits": [
+    "Upgrade to Paytm HDFC card on Rs10,000 spend in 3 consecutive months",
+    "First-year fee waived on Rs1,000 spend in 30 days"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "bill_payments",
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% cashback on Paytm Mall, Movies, Mini App; cap Rs250 per month.",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Derived from April 2023 notice; monthly fee Rs29 alternative. Card name as inferred from notice (\"Mini\" not stated verbatim: section is a lower tier of Paytm HDFC Bank Credit Card). Status unknown."
+  },
+  {
+   "name": "HDFC Harley-Davidson Diners Club Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "active",
+   "co_brand_partner": "Harley-Davidson",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 per calendar quarter worldwide (primary and add-on)",
+   "main_benefit": "Harley-Davidson Diners card: 4 RP per Rs150 and 20 RP per Rs150 (5X) on Swiggy/Zomato with 2 lounge visits per quarter.",
+   "key_benefits": [
+    "Welcome: Swiggy One + Times Prime annual memberships + Rs750 Harley-Davidson gift card on Rs75,000 spend in 90 days",
+    "Rs1,500 vouchers per Rs1.5L calendar-quarter spend",
+    "2 lounge visits per quarter worldwide",
+    "BookMyShow buy 1 get 1 up to Rs250",
+    "Air accident cover Rs1 crore, overseas hospitalisation Rs25 lakh",
+    "Max 2,500 RP per month"
+   ],
+   "base_rate": 0.0133,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy",
+      "zomato"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.0667,
+     "desc": "20 RP per Rs150 (5X) on Swiggy and Zomato; RP valued Rs0.50. Overall cap 2,500 RP per month (about Rs1,250).",
+     "cap_inr": 1250
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0133,
+     "desc": "4 RP per Rs150 on retail spends; Rs0.50/RP assumed."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/harley-davidson-diners-club-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/harley-davidson-diners-club-credit-card",
+    "https://www.hdfcbank.com/personal/pay/cards/credit-cards/harley-davidson-diners-club-credit-card/fees-and-charges"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Forex markup 3.5% per official page; a third-party says 2% (conservative 3.5% kept). RP value Rs0.50 assumed from the Diners Privilege family; not stated on this page. Exclusion list not read."
+  },
+  {
+   "name": "HDFC H.O.G Diners Club Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "active",
+   "co_brand_partner": "Harley-Davidson",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited lounge access in India and worldwide (primary and add-on)",
+   "main_benefit": "Harley Owners Group Diners card: 5 RP per Rs150, 10X on Harley-Davidson dealers, unlimited lounges.",
+   "key_benefits": [
+    "Welcome: Swiggy One 3 months, Club Marriott, MMT Black, Amazon Prime, Forbes and Rs2,500 H-D gift card on Rs1.5L spend in 90 days",
+    "Unlimited lounges (1,000+), primary and add-on",
+    "Choose 2 of cult.fit/BookMyShow/TataCLiQ/Ola vouchers worth Rs500 monthly on Rs80,000 spend",
+    "Air accident cover Rs2 crore, overseas hospitalisation Rs50 lakh",
+    "1% fuel surcharge waiver (max Rs1,000 per cycle)"
+   ],
+   "base_rate": 0.0167,
+   "rules": [
+    {
+     "merchants": [
+      "harley-davidson"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0167,
+     "desc": "10X RP at authorised Harley-Davidson dealers for merchandise/services; rate not converted (RP value not stated); shown at base value only."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0167,
+     "desc": "5 RP per Rs150 retail; Rs0.50/RP assumed (Rs1 on SmartBuy travel possible)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/hog-diners-club-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/hog-diners-club-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read. Waiver spend not found. RP value assumed Rs0.50. 10X Harley dealer rate not modelled beyond base."
+  },
+  {
+   "name": "HDFC FD-Backed PIXEL Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 250,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured credit card against an HDFC fixed deposit (no income proof), issued as Pixel; limit up to 90% of FD value.",
+   "key_benefits": [
+    "Minimum FD Rs15,000",
+    "Credit limit up to 90% of FD",
+    "No income proof or credit score needed",
+    "Apply only via PayZapp",
+    "Earns Pixel cashback (1% on Pixel Go terms)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% cashback assuming Pixel Go terms for the FD-backed variant; not separately verified."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/credit-card-against-fd",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/credit-card-against-fd",
+    "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "HDFC page and Feb 2026 FD-backed Pixel FAQ (PDF unreadable here) confirm product; fee/earn terms are inferred from Pixel Go and not verified. HDFC lists other cards against FD (Millennia, MoneyBack+ etc.) per aggregators."
+  },
+  {
+   "name": "HDFC Regalia First Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Legacy Regalia First: 3 RP per Rs150 (from 1 Sep 2024) with spend-bonus RP; no new applications.",
+   "key_benefits": [
+    "Bonus 7,500 RP on Rs6L and 5,000 RP on Rs9L spend per year",
+    "Dineout up to 20% off",
+    "Renewal waived on Rs1L spend",
+    "Lounge access discontinued (Dec 2023)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "3 RP per Rs150 excluding wallet, EMI, petrol; Rs0.50/RP assumed."
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "emi",
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-first-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/regalia-first-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: \"New applications ... currently unavailable\". RP value assumed. Page mixes text from Business Regalia First."
+  },
+  {
+   "name": "HDFC Regalia Activ Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": "Up to 12 domestic + 6 international (Priority Pass) per year",
+   "main_benefit": "Regalia Activ: 4 RP per Rs200 with up to 12 domestic and 6 international lounge visits.",
+   "key_benefits": [
+    "Bonus 10,000 RP on Rs5L and 5,000 RP on Rs8L annual spend",
+    "Renewal waived on Rs3L spend",
+    "Air accident cover Rs1 crore"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs200 incl. insurance; Rs0.50/RP assumed."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-activ-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/regalia-activ-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page live but no closure message; absent from the current official listing, so status unknown (likely not sold). A page FAQ line mentions fee-free first 3 years (promotional)."
+  },
+  {
+   "name": "HDFC Doctor's Regalia Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.02,
+   "lounge_access": "6 international Priority Pass per year + domestic program",
+   "main_benefit": "Regalia for doctors: 4 RP per Rs150, professional-negligence cover up to Rs20 lakh, Priority Pass lounges.",
+   "key_benefits": [
+    "Welcome and renewal 2,500 RP",
+    "Bonus 10,000 RP on Rs5L and 5,000 RP on Rs8L spend",
+    "Flat 25% off at 2,000+ restaurants",
+    "Renewal waived on Rs3L spend"
+   ],
+   "base_rate": 0.0133,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0133,
+     "desc": "4 RP per Rs150 incl. insurance, utilities, education, rent pay; Rs0.50/RP assumed."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/doctors-regalia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/doctors-regalia-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page live, no closure message, not on current listing; status unknown."
+  },
+  {
+   "name": "HDFC Doctor's Superia Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry card for doctors: 3 RP per Rs200, 50% more at restaurants and Rs20 lakh professional-negligence cover.",
+   "key_benefits": [
+    "1,000 RP on joining and each year",
+    "Unlimited domestic lounge claim (FAQ; verify)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/doctors-superia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/doctors-superia-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "RP value not stated, so base_rate null. Status unknown."
+  },
+  {
+   "name": "HDFC Superia Airline Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 75000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy airline-miles card: 3 RP per Rs200, redeemable for air miles (1 RP = 0.7 miles).",
+   "key_benefits": [
+    "1,000 RP welcome and renewal",
+    "Renewal waived on Rs75,000 spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/superia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/superia-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. RP rupee value not stated."
+  },
+  {
+   "name": "HDFC Diners Club Miles Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "6 per year",
+   "main_benefit": "Legacy Diners miles card: 4 RP per Rs200, 1 RP = 1 mile, 6 lounge visits per year.",
+   "key_benefits": [
+    "6 complimentary lounge visits per year",
+    "Renewal waived on Rs1L spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs200 at Rs0.50/RP flights/hotels."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-miles-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-miles-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. "
+  },
+  {
+   "name": "HDFC Diners Club Rewardz Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Legacy Diners entry card: 3 RP per Rs200, 3% forex markup.",
+   "key_benefits": [
+    "1,000 RP on activation and renewal",
+    "Up to 5% cashback via SmartBuy",
+    "Cap 15,000 RP per cycle"
+   ],
+   "base_rate": 0.0045,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0045,
+     "desc": "3 RP per Rs200 at Rs0.30 (flights/hotels) = 0.45%."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-rewardz-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-rewardz-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. "
+  },
+  {
+   "name": "HDFC Diners Club Premium Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Legacy Diners Premium: 4 RP per Rs200, 2% forex markup, travel insurance.",
+   "key_benefits": [
+    "Renewal waived on Rs3L spend",
+    "Air cover Rs1 crore"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs200 at Rs0.50/RP."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-premium-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-premium-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Closure banner on this page mistakenly names the World MasterCard card, so closure is inferred."
+  },
+  {
+   "name": "HDFC Bharat Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Bharat card: 5% cashback on fuel, groceries, bills, IRCTC capped at Rs150 per month combined.",
+   "key_benefits": [
+    "Rs1,000 cashback on PayZapp in-app shopping",
+    "1% fuel surcharge waiver (max Rs250 per cycle)"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "fuel",
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on fuel, groceries, bills, mobile recharge, IRCTC; combined cap Rs150 per month.",
+     "cap_inr": 150
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/bharat-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/bharat-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. "
+  },
+  {
+   "name": "HDFC Platinum Edge Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy cashback-style card: 2 RP per Rs200 with fuel surcharge waiver.",
+   "key_benefits": [
+    "Renewal waived on Rs50,000 spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/platinum-edge-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/platinum-edge-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Fee and RP value not on page."
+  },
+  {
+   "name": "HDFC Titanium Edge Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy entry card: 2 RP per Rs200 with 100% fuel surcharge waiver.",
+   "key_benefits": [
+    "100 RP = Rs10 cashback",
+    "Renewal waived on Rs50,000 spend"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "desc": "2 RP per Rs200 at Rs0.10/RP."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/titanium-edge-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/titanium-edge-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. "
+  },
+  {
+   "name": "HDFC Solitaire Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy women-oriented card: 3 RP per Rs200 with 50% more on dining and groceries.",
+   "key_benefits": [
+    "Rs1,000 voucher per Rs75,000 spend in 6 months (max 2 per year)",
+    "100 RP = Rs20"
+   ],
+   "base_rate": 0.003,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.003,
+     "desc": "3 RP per Rs200 at Rs0.20/RP."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/solitaire-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/solitaire-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. "
+  },
+  {
+   "name": "HDFC Platinum Plus Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy card: 4 RP per Rs200 with 50% bonus on Rs50,000 monthly spend.",
+   "key_benefits": [
+    "Extra cashback on utility bills via PayZapp"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/platinum-plus-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/platinum-plus-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Fee and RP value not found."
+  },
+  {
+   "name": "HDFC All Miles Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy miles card: 3X RP per Rs150 and 2X on hotels/recharge/shopping.",
+   "key_benefits": [
+    "First-year fee free on Rs15,000 spend in 90 days",
+    "Renewal waived on Rs1L spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/all-miles-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/all-miles-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Fee and RP value not found."
+  },
+  {
+   "name": "HDFC Platinum Times Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "Times Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Times co-brand: 3 RP per Rs150, 10 RP on weekday dining, BookMyShow 50% off.",
+   "key_benefits": [
+    "50% off movie tickets (max Rs600)",
+    "Times Prime annual membership benefits"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/platinum-times-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/platinum-times-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. RP value not stated for Platinum; Titanium Times is Rs0.10/RP."
+  },
+  {
+   "name": "HDFC Titanium Times Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "Times Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Times entry card: 2 RP per Rs150 and 5 RP on weekday restaurants, Rs5,000 welcome vouchers.",
+   "key_benefits": [
+    "Welcome vouchers Rs5,000",
+    "25% off movies up to Rs350",
+    "Renewal waived on Rs1.5L spend"
+   ],
+   "base_rate": 0.00133,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.00133,
+     "desc": "2 RP per Rs150 at Rs0.10/RP."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "wallet_load"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/titanium-times-card-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/titanium-times-card-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: sourcing stopped; existing customers continue."
+  },
+  {
+   "name": "HDFC InterMiles Diners Club Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "discontinued",
+   "co_brand_partner": "InterMiles",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued InterMiles co-brand: 8 InterMiles per Rs150; features withdrawn 15 Dec 2024 and holders migrated.",
+   "key_benefits": [
+    "Holders migrated to other HDFC cards"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/intermiles-diners-club-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/intermiles-diners-club-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: card phased out and holders migrated. InterMiles HDFC Signature also discontinued (aggregator, listed in catalog only)."
+  },
+  {
+   "name": "HDFC Business Regalia Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Business Regalia: 4 RP per Rs200 with spend-based lounge access; sourcing stopped.",
+   "key_benefits": [
+    "Bonus 10,000 RP on Rs5L, 5,000 on Rs8L",
+    "2 domestic lounge visits per quarter on Rs1L prior-quarter spend (voucher-based from 5 Jan 2026)",
+    "Cap 50,000 RP per cycle"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs200 incl. insurance, utilities; Rs0.50/RP assumed."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/business-regalia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/business-regalia-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: sourcing stopped; existing customers continue."
+  },
+  {
+   "name": "HDFC Business Corporate Regalia Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "8 domestic + 6 international per year",
+   "main_benefit": "Corporate Regalia: 4X RP per Rs150, 8 domestic + 6 international lounge visits; sourcing stopped.",
+   "key_benefits": [
+    "Insurance Rs1 crore",
+    "Employee fraud cover Rs2 lakh per card"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/business-corporate-regalia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/business-corporate-regalia-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: sourcing stopped. Fee not found."
+  },
+  {
+   "name": "HDFC Corporate Premium Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "5 domestic per quarter + 6 international per year",
+   "main_benefit": "Corporate card with no fee: 5 RP per Rs150 (cap 10,000 RP per cycle) and 5 domestic lounge visits per quarter.",
+   "key_benefits": [
+    "5 domestic lounge visits per quarter + 6 international per year",
+    "Air accident cover Rs1 crore",
+    "Corporate liability waiver Rs2 lakh per card"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "5 RP per Rs150 at Rs0.30 (SmartBuy corporate) = 1%; cap 10,000 RP per cycle (Rs3,000).",
+     "cap_inr": 3000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent"
+   ],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/corporate-premium-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/corporate-premium-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; corporate programme, invite/RM-based."
+  },
+  {
+   "name": "HDFC Corporate Platinum Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "Corporate card: 3 RP per Rs150 (cap 6,000 RP per cycle) with 2 domestic lounge visits per quarter.",
+   "key_benefits": [
+    "Insurance Rs1 crore",
+    "4% off flights/hotels via MMT MyBiz"
+   ],
+   "base_rate": 0.006,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.006,
+     "desc": "3 RP per Rs150 at Rs0.30; cap 6,000 RP per cycle (Rs1,800).",
+     "cap_inr": 1800
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/corporate-platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/corporate-platinum-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; fee not found."
+  },
+  {
+   "name": "HDFC Purchase MoneyBack Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Commercial purchase card: up to 1% cashback, nil fee, 2.5% forex markup.",
+   "key_benefits": [
+    "Up to 40% savings on business travel/software via SmartBuy"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/purchase-moneyback-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/purchase-moneyback-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; \"up to 1%\"."
+  },
+  {
+   "name": "HDFC Purchase Premium Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Commercial card: 4 RP per Rs150 and 5% cashback on essential business spend (cap Rs1,500 per cycle on Rs1L monthly spend).",
+   "key_benefits": [
+    "Minimum 30% payment option on revolving credit",
+    "2.5% forex markup"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on essential business spending; Rs1,500 per statement cycle cap on min Rs1,00,000 monthly spend.",
+     "cap_inr": 1500
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/purchase-premium-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/purchase-premium-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; fee and RP value not found."
+  },
+  {
+   "name": "HDFC Purchase Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Commercial purchase card with nil fee and SmartBuy BizDeals savings; no rewards.",
+   "key_benefits": [
+    "Nil joining/renewal fee"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/purchase-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/purchase-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read."
+  },
+  {
+   "name": "HDFC Dealer Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Commercial card for petrol pump dealers to buy fuel from oil marketing companies (30% minimum due).",
+   "key_benefits": [
+    "Nil fee"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/dealer-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/dealer-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Not usable for general purchases."
+  }
+ ],
+ "offers": [
+  {
+   "card": "HDFC Infinia",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Infinia",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Infinia",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black Metal Edition",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black Metal Edition",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black Metal Edition",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia Gold",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia Gold",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia Gold",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Privilege",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Privilege",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Privilege",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Millennia",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Millennia",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Millennia",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC MoneyBack+",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC MoneyBack+",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC MoneyBack+",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Freedom",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Freedom",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Freedom",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Pixel Play",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 3000,
+   "valid_till": "2026-11-10",
+   "desc": "2% instant discount on HDFC Bank credit cards (all except co-branded) at Joyalukkas online and offline; min transaction Rs75,000, max discount Rs3,000.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-avail-instant-discount-up-to-3000-on-hdfc-bank-credit-cards-1005626",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Pixel Play",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 2,
+   "min_spend": 75000,
+   "cap_inr": 5000,
+   "valid_till": "2026-10-15",
+   "desc": "Offline stores: 2% cashback, min transaction Rs75,000, max cashback Rs5,000. Online (GRTJEWELS.com): 2% instant discount, min Rs50,000, max Rs5,000. All credit cards except co-branded. Excludes gold coins/schemes per earlier listing.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-avail-cashback-up-to-5000-on-hdfc-bank-credit-cards-1004530",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Pixel Play",
+   "merchants": [
+    "GRT Jewellers"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 1.5,
+   "min_spend": 20000,
+   "cap_inr": 1500,
+   "valid_till": "2026-12-31",
+   "desc": "Online only: flat 1.5% off on gold jewellery orders above Rs20,000; max discount Rs1,500; all credit/debit cards except co-branded.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/grt-jewellers-flat-15-off-on-gold-jewellery-orders-above-rs20000-max-discount-is-rs1500-1003776",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Infinia",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 20,
+   "valid_till": "2026-12-31",
+   "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black Metal Edition",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 20,
+   "valid_till": "2026-12-31",
+   "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Diners Club Black",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 20,
+   "valid_till": "2026-12-31",
+   "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 20,
+   "valid_till": "2026-12-31",
+   "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Regalia Gold",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 20,
+   "valid_till": "2026-12-31",
+   "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Tata Neu Infinity",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 20,
+   "valid_till": "2026-12-31",
+   "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+   "last_verified": null
+  },
+  {
+   "card": "HDFC Tata Neu Plus",
+   "merchants": [
+    "Joyalukkas"
+   ],
+   "categories": [
+    "jewellery"
+   ],
+   "type": "percent",
+   "value": 20,
+   "valid_till": "2026-12-31",
+   "desc": "20% discount on making charges for gold, diamond and silver jewellery from the barcode rate, at Joyalukkas showrooms in India only. Card eligibility taken from the card tags on the HDFC offer page (Diners Black, Infinia, Regalia, Regalia Gold, Tata Neu Infinity, Tata Neu Plus, 'other credit cards'); the page also says all credit cards except co-branded, so eligibility is ambiguous. Discount applies to making charges only, not the whole bill.",
+   "source_url": "https://www.hdfc.bank.in/ps/offers/joyalukkas-get-20-discount-on-making-charges-for-gold-diamond-and-silver-jewellery-from-the-barcode-rate-1005511",
+   "last_verified": null
+  }
+ ],
+ "gaps": [
+  "No currently valid HDFC credit card offers found for Tanishq, Malabar Gold & Diamonds, Kalyan Jewellers or CaratLane on hdfc.bank.in; SmartBuy (offers.smartbuy.hdfc.bank.in) returned 403 to scripted fetch so personalised/SmartBuy-only offers were not seen.",
+  "Official HDFC jewellery offer page lists 20 offers; only Joyalukkas and GRT Jewellers offers with valid_till >= 2026-10-11 were captured. Sona Khazana, Bidhan, Gehna, Giva, Estele, Euphoria, Nnoni pages show offers but were not detailed (mostly silver/fashion jewellery).",
+  "Offer min_spend/cap/T&C for Joyalukkas 20% making-charge offer not on page (T&C collapsed); GRT offline offer ends 2026-10-15.",
+  "No explicit jewellery/gold (MCC 5944/5094) exclusion or jewellery-specific cap found in HDFC MITC v4.13 or reward T&Cs for Infinia, Diners Black, Regalia, Regalia Gold, MoneyBack+, Freedom, Diners Privilege; jewellery earn is inferred (absence of exclusion). Swiggy cards, IndianOil and Millennia-style exclusions were explicit. Third-party claims of a Regalia Gold 'digital_gold' exclusion not confirmed.",
+  "Infinia/Diners Black SmartBuy accelerated points on Tanishq vouchers: rate and monthly accelerated caps not confirmed (one aggregator says gold/jewellery excluded from SmartBuy bonus rewards, unverified).",
+  "Forex markup not found for Millennia, Swiggy cards, Tata Neu cards, MoneyBack+, Freedom, Pixel, IndianOil, Marriott (MITC fee table layout is garbled in text extraction). Product pages give 2% Infinia/Diners Black/Regalia Gold, 3.5% Regalia/Diners Privilege.",
+  "Marriott Bonvoy point rupee value and fee waiver threshold not published; base_rate omitted. IndianOil base_rate omitted (Fuel Point value unclear).",
+  "Not covered (no detailed data collected): Regalia First, Regalia Activ, Diners Club Miles/Rewardz/Premium, Doctor's Regalia, IRCTC, PhonePe Ultimo/Uno, Shoppers Stop, Pine Labs, UPI RuPay, Times, Superia, Paytm, business cards (BizBlack, BizPower, etc.). BizPower 15 May 2026 changes (5 RP/Rs200, IT/GST first-2-transactions rule, 5X cap 7,500 RP) seen only on third-party blog.",
+  "Rupee values of CashPoints/RP are redemption-dependent; rates assume the best stated common redemption (Infinia/Diners Black Rs1/RP on SmartBuy travel and Tanishq vouchers; Regalia family Rs0.50/RP) - lower for cashback redemption.",
+  "15 May 2026 changes confirmed officially for Regalia Gold (5 RP/Rs200) and Diners Privilege (4 RP/Rs200); BizPower and 'all other cards' scope from third-party only. Quarterly Rs60,000-spend lounge rule applies from 1 Jul 2026.",
+  "No HDFC Zoho, Harley-Davidson (separate from H.O.G) or Titan/Tanishq co-brand card found; Zoho search returned nothing. Titan card is issued by SBI.",
+  "Forex markups missing for most new cards; reward point values missing for several legacy cards (Platinum Plus, Platinum Edge, All Miles, Superia, Doctor's Superia, Platinum Times).",
+  "Business 5X/10X accelerated rules (BizBlack, BizPower, BizFirst EMI 3%) not modelled numerically because multiplier basis is unclear.",
+  "Shoppers Stop (mass) 3% earn rate and point value are aggregator-only; Shoppers Stop Black point value assumed Re1.",
+  "Percent CashPoint cards (UPI RuPay, BizFirst, GIGA) modelled at stated CP rupee values, conservatively; headline percentages may overstate value.",
+  "Paytm HDFC cards rely on a 2023 notice; consumer Paytm cards, Business MoneyBack, InterMiles Signature, Purchase Reward Card and AP/AR/Fleet/TMC/Central Travel programmes not detailed.",
+  "FD-backed Pixel FAQ PDF could not be parsed (no pypdf/pdftotext); FD card terms inferred. Other FD-backed variants (Millennia, MoneyBack+, Regalia Gold per aggregators) not separately catalogued.",
+  "Status for Regalia Activ, Doctor's Regalia, Doctor's Superia is unknown: pages live without closure notice but absent from current listing.",
+  "Network values come from cardadvisor.in and issuer notes; several cards are issued on two networks (Tata Neu, IndianOil, Pixel)."
+ ]
+}

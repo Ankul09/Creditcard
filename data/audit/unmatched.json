@@ -1,0 +1,793 @@
+[
+ {
+  "name": "IKEA Family Credit Card By Axis Bank",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) axis-bank/ikea-family-credit-card-by-axis-bank"
+ },
+ {
+  "name": "Pixel Times Rush Credit Card",
+  "issuer": "HDFC Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) hdfc-bank/pixel-times-rush-credit-card"
+ },
+ {
+  "name": "Pixel Times Move Credit Card",
+  "issuer": "HDFC Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) hdfc-bank/pixel-times-move-credit-card"
+ },
+ {
+  "name": "Axis Bank Kwik RuPay Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) axis-bank/axis-bank-kwik-rupay-credit-card"
+ },
+ {
+  "name": "Ashva Credit Card",
+  "issuer": "IDFC FIRST Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) idfc-first-bank/ashva-credit-card"
+ },
+ {
+  "name": "ICAI Bank Of Baroda Exclusive Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/icai-bank-of-baroda-exclusive-credit-card"
+ },
+ {
+  "name": "Bank Of Baroda Easy Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/bank-of-baroda-easy-credit-card"
+ },
+ {
+  "name": "Bank Of Baroda Premier Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/bank-of-baroda-premier-credit-card"
+ },
+ {
+  "name": "BOI Celestia Credit Card",
+  "issuer": "Bank of India",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-india/boi-celestia-credit-card"
+ },
+ {
+  "name": "Bank Of Baroda Eterna Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/bank-of-baroda-eterna-credit-card"
+ },
+ {
+  "name": "Bank Of Baroda Sentinel Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/bank-of-baroda-sentinel-credit-card"
+ },
+ {
+  "name": "Indian Army Yoddha BoB Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/indian-army-yoddha-bob-credit-card"
+ },
+ {
+  "name": "InterMiles HDFC Bank Signature Credit Card",
+  "issuer": "HDFC Bank",
+  "co_brand_partner": "InterMiles",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) hdfc-bank/intermiles-hdfc-bank-signature-credit-card"
+ },
+ {
+  "name": "Micro Enterprise Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/micro-enterprise-credit-card"
+ },
+ {
+  "name": "Niyo Credit Card",
+  "issuer": "YES Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) yes-bank/niyo-credit-card"
+ },
+ {
+  "name": "Fibe Axis Bank RuPay Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) axis-bank/fibe-axis-bank-rupay-credit-card"
+ },
+ {
+  "name": "Zagg Credit Card",
+  "issuer": "Zaggle/partner bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) fintech-cards/zagg-credit-card"
+ },
+ {
+  "name": "LIC Platinum Credit Card",
+  "issuer": "LIC Cards (LIC CSL / SBI Card)",
+  "co_brand_partner": "LIC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) lic-cards/lic-platinum-credit-card"
+ },
+ {
+  "name": "LIC Signature Credit Card",
+  "issuer": "LIC Cards (LIC CSL / SBI Card)",
+  "co_brand_partner": "LIC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) lic-cards/lic-signature-credit-card"
+ },
+ {
+  "name": "IDBI Bank Winnings RuPay Select Credit Card",
+  "issuer": "IDBI Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) idbi-bank/idbi-bank-winnings-rupay-select-credit-card"
+ },
+ {
+  "name": "Zomato Edition Classic Credit Card",
+  "issuer": "RBL Bank",
+  "co_brand_partner": "Zomato",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) rbl-bank/zomato-edition-classic-credit-card"
+ },
+ {
+  "name": "First Citizen Citi Credit Card",
+  "issuer": "Citibank",
+  "co_brand_partner": "CRED",
+  "status": "discontinued",
+  "source": "cardinsider.com sitemap (credit_cards) citibank/first-citizen-citi-credit-card"
+ },
+ {
+  "name": "IndianOil Citi Credit Card",
+  "issuer": "Citibank",
+  "co_brand_partner": "IndianOil",
+  "status": "discontinued",
+  "source": "cardinsider.com sitemap (credit_cards) citibank/indianoil-citi-credit-card"
+ },
+ {
+  "name": "BoB CMA One Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/bob-cma-one-credit-card"
+ },
+ {
+  "name": "Bank Of Baroda ICSI Diamond Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/bank-of-baroda-icsi-diamond-credit-card"
+ },
+ {
+  "name": "ICICI Bank British Airways Classic Credit Card",
+  "issuer": "ICICI Bank",
+  "co_brand_partner": "British Airways",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) icici-bank/icici-bank-british-airways-classic-credit-card"
+ },
+ {
+  "name": "Wish Credit Card",
+  "issuer": "Utkarsh Small Finance Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) utkarsh-small-finance-bank/wish-credit-card"
+ },
+ {
+  "name": "Federal Bank RuPay Wave Credit Card",
+  "issuer": "Federal Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) federal-bank/federal-bank-rupay-wave-credit-card"
+ },
+ {
+  "name": "Union Banks RuPay Combo Debit Cum Credit Card",
+  "issuer": "Union Bank of India",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) union-bank/union-banks-rupay-combo-debit-cum-credit-card"
+ },
+ {
+  "name": "Union UNI Carbon Credit Card",
+  "issuer": "Union Bank of India",
+  "co_brand_partner": "UNI",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) union-bank/union-uni-carbon-credit-card"
+ },
+ {
+  "name": "Union JCB Wellness Credit Card",
+  "issuer": "Union Bank of India",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) union-bank/union-jcb-wellness-credit-card"
+ },
+ {
+  "name": "Canara Visa Classic Mastercard Standard Credit Card",
+  "issuer": "Canara Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) canara-bank/canara-visa-classic-mastercard-standard-credit-card"
+ },
+ {
+  "name": "EazyDiner Indusind Bank Credit Card",
+  "issuer": "IndusInd Bank",
+  "co_brand_partner": "EazyDiner",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) indusind-bank/eazydiner-indusind-bank-credit-card"
+ },
+ {
+  "name": "LIC Titanium Credit Card",
+  "issuer": "LIC Cards (LIC CSL / SBI Card)",
+  "co_brand_partner": "LIC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) lic-cards/lic-titanium-credit-card"
+ },
+ {
+  "name": "Bank Of Baroda Varunah Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/bank-of-baroda-varunah-credit-card"
+ },
+ {
+  "name": "Divaa Icon Credit Card",
+  "issuer": "Union Bank of India",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) union-bank/divaa-icon-credit-card"
+ },
+ {
+  "name": "Citi Rewards Credit Card",
+  "issuer": "Citibank",
+  "co_brand_partner": "CRED",
+  "status": "discontinued",
+  "source": "cardinsider.com sitemap (credit_cards) citibank/citi-rewards-credit-card"
+ },
+ {
+  "name": "Citi Cash Back Credit Card",
+  "issuer": "Citibank",
+  "co_brand_partner": "CRED",
+  "status": "discontinued",
+  "source": "cardinsider.com sitemap (credit_cards) citibank/citi-cash-back-credit-card"
+ },
+ {
+  "name": "Citibank Premiermiles Credit Card",
+  "issuer": "Citibank",
+  "co_brand_partner": "CRED",
+  "status": "discontinued",
+  "source": "cardinsider.com sitemap (credit_cards) citibank/citibank-premiermiles-credit-card"
+ },
+ {
+  "name": "Citi Prestige Credit Card",
+  "issuer": "Citibank",
+  "co_brand_partner": "CRED",
+  "status": "discontinued",
+  "source": "cardinsider.com sitemap (credit_cards) citibank/citi-prestige-credit-card"
+ },
+ {
+  "name": "Aditya Birla SBI Credit Card",
+  "issuer": "SBI Card",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) sbi-card/aditya-birla-sbi-credit-card"
+ },
+ {
+  "name": "Aditya Birla SBI Card Select",
+  "issuer": "SBI Card",
+  "co_brand_partner": "Aditya Birla",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) sbi-card/aditya-birla-sbi-card-select"
+ },
+ {
+  "name": "Natures Basket SBI Card Elite",
+  "issuer": "SBI Card",
+  "co_brand_partner": "Nature's Basket",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) sbi-card/natures-basket-sbi-card-elite"
+ },
+ {
+  "name": "Natures Basket SBI Card",
+  "issuer": "SBI Card",
+  "co_brand_partner": "Nature's Basket",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) sbi-card/natures-basket-sbi-card"
+ },
+ {
+  "name": "Axis Bank Vistara Infinite Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "Vistara",
+  "status": "discontinued_or_migrated",
+  "source": "cardinsider.com sitemap (credit_cards) axis-bank/axis-bank-vistara-infinite-credit-card"
+ },
+ {
+  "name": "ICICI Bank British Airways Premium Credit Card",
+  "issuer": "ICICI Bank",
+  "co_brand_partner": "British Airways",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) icici-bank/icici-bank-british-airways-premium-credit-card"
+ },
+ {
+  "name": "Accelero ICICI Bank Credit Card",
+  "issuer": "ICICI Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) icici-bank/accelero-icici-bank-credit-card"
+ },
+ {
+  "name": "InterMiles HDFC Platinum Credit Card",
+  "issuer": "HDFC Bank",
+  "co_brand_partner": "InterMiles",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) hdfc-bank/intermiles-hdfc-platinum-credit-card"
+ },
+ {
+  "name": "6E Rewards IndiGo HDFC Bank Credit Card",
+  "issuer": "HDFC Bank",
+  "co_brand_partner": "IndiGo",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) hdfc-bank/6e-rewards-indigo-hdfc-bank-credit-card"
+ },
+ {
+  "name": "6E Rewards XL IndiGo HDFC Bank Credit Card",
+  "issuer": "HDFC Bank",
+  "co_brand_partner": "IndiGo",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) hdfc-bank/6e-rewards-xl-indigo-hdfc-bank-credit-card"
+ },
+ {
+  "name": "BoB Empower Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/bob-empower-credit-card"
+ },
+ {
+  "name": "Axis Business Supreme Master Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/axis-business-supreme-master-credit-card"
+ },
+ {
+  "name": "Axis Bank Business Supreme Visa Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/axis-bank-business-supreme-visa-credit-card"
+ },
+ {
+  "name": "OneCard Credit Card",
+  "issuer": "Federal Bank / SBM / CSB / BoB (OneCard)",
+  "co_brand_partner": "OneCard",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) fintech-cards/onecard-credit-card"
+ },
+ {
+  "name": "Snapdeal Bank Of Baroda Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/snapdeal-bank-of-baroda-credit-card"
+ },
+ {
+  "name": "IRCTC RuPay BOBCARD Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "IRCTC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/irctc-rupay-bobcard-credit-card"
+ },
+ {
+  "name": "HPCL Bank Of Baroda Energie Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "HPCL",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) bank-of-baroda/hpcl-bank-of-baroda-energie-credit-card"
+ },
+ {
+  "name": "Bank Of Baroda Corporate Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/bank-of-baroda-corporate-credit-card"
+ },
+ {
+  "name": "Axis Bank Executive Corporate Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/axis-bank-executive-corporate-credit-card"
+ },
+ {
+  "name": "Axis super.money RuPay Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "super.money",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) axis-bank/axis-supermoney-rupay-credit-card"
+ },
+ {
+  "name": "IDFC Business Multiplier Credit Card",
+  "issuer": "IDFC FIRST Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/idfc-business-multiplier-credit-card"
+ },
+ {
+  "name": "Slice Credit Card",
+  "issuer": "Slice (NESFB)",
+  "co_brand_partner": "Slice",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) fintech-cards/slice-credit-card"
+ },
+ {
+  "name": "Nexteria Credit Card",
+  "issuer": "Union Bank of India",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) union-bank/nexteria-credit-card"
+ },
+ {
+  "name": "CUB SalarySe Level Up Credit Card",
+  "issuer": "City Union Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) fintech-cards/cub-salaryse-level-up-credit-card"
+ },
+ {
+  "name": "Beyond Credit Card",
+  "issuer": "Standard Chartered",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) standard-chartered/beyond-credit-card"
+ },
+ {
+  "name": "Rhodium Credit Card",
+  "issuer": "Utkarsh Small Finance Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) utkarsh-small-finance-bank/rhodium-credit-card"
+ },
+ {
+  "name": "Union JCB Health Credit Card",
+  "issuer": "Union Bank of India",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) union-bank/union-jcb-health-credit-card"
+ },
+ {
+  "name": "YES Bank RazorpayX Purchase Credit Card",
+  "issuer": "YES Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/yes-bank-razorpayx-purchase-credit-card"
+ },
+ {
+  "name": "Indusind Bank eSvarna Corporate Card",
+  "issuer": "IndusInd Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/indusind-bank-esvarna-corporate-card"
+ },
+ {
+  "name": "LIC Eclat Credit Card IDBI Bank",
+  "issuer": "IDBI Bank",
+  "co_brand_partner": "LIC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) lic-cards/lic-eclat-credit-card-idbi-bank"
+ },
+ {
+  "name": "LIC Lumine Credit Card IDBI",
+  "issuer": "IDBI Bank",
+  "co_brand_partner": "LIC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) lic-cards/lic-lumine-credit-card-idbi"
+ },
+ {
+  "name": "RBL Bank RazorpayX Corporate Purchase Card",
+  "issuer": "RBL Bank",
+  "co_brand_partner": "RazorpayX",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/rbl-bank-razorpayx-corporate-purchase-card"
+ },
+ {
+  "name": "Eternal Credit Card",
+  "issuer": "Utkarsh Small Finance Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) utkarsh-small-finance-bank/eternal-credit-card"
+ },
+ {
+  "name": "LIC Gold EMV Credit Card",
+  "issuer": "LIC Cards (LIC CSL / SBI Card)",
+  "co_brand_partner": "LIC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) lic-cards/lic-gold-emv-credit-card"
+ },
+ {
+  "name": "LIC Platinum EMV Credit Card",
+  "issuer": "LIC Cards (LIC CSL / SBI Card)",
+  "co_brand_partner": "LIC",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) lic-cards/lic-platinum-emv-credit-card"
+ },
+ {
+  "name": "Indusind Fortuna Advantedge Credit Card",
+  "issuer": "IndusInd Bank",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) business-cards/indusind-fortuna-advantedge-credit-card"
+ },
+ {
+  "name": "Union Bank Divaa RuPay Credit Card",
+  "issuer": "Union Bank of India",
+  "co_brand_partner": "CRED",
+  "status": "unknown",
+  "source": "cardinsider.com sitemap (credit_cards) union-bank/union-bank-divaa-rupay-credit-card"
+ },
+ {
+  "name": "Axis Bank Kiwi RuPay Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "Kiwi",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Axis Bank Insta Easy Credit Card (FD-backed)",
+  "issuer": "Axis Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Axis Bank Liberty Credit Card (FD-backed)",
+  "issuer": "Axis Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Axis Bank Vistara Credit Card (all variants)",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "Vistara",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Axis Bank Mobikwik Credit Card",
+  "issuer": "Axis Bank",
+  "co_brand_partner": "MobiKwik",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "ICICI Bank Rubyx American Express Credit Card",
+  "issuer": "ICICI Bank",
+  "co_brand_partner": "Amex",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "SBI Card Central Bank of India Credit Card",
+  "issuer": "SBI Card",
+  "co_brand_partner": "Central Bank of India",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "SBM Bank OneCard Credit Card",
+  "issuer": "SBM Bank India",
+  "co_brand_partner": "OneCard",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "CSB Bank OneCard Credit Card",
+  "issuer": "CSB Bank",
+  "co_brand_partner": "OneCard",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Bank of Baroda OneCard Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "OneCard",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Slice Super Card",
+  "issuer": "Slice (NESFB)",
+  "co_brand_partner": "Slice",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Slice Credit Card (Nujoy? )",
+  "issuer": "Slice (NESFB)",
+  "co_brand_partner": "Slice",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Uni Pay 1/3rd Card (Uni Gold? )",
+  "issuer": "Uni (SBM/BoB)",
+  "co_brand_partner": "UNI",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Kiwi Credit Card (RuPay on UPI)",
+  "issuer": "Axis/Yes/Others",
+  "co_brand_partner": "Kiwi",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Zolve Credit Card",
+  "issuer": "Zolve",
+  "co_brand_partner": "Zolve",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "RBL Bank SuperCard (Bajaj Finserv RBL Bank SuperCard)",
+  "issuer": "RBL Bank",
+  "co_brand_partner": "Bajaj Finserv",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "RBL Bank Zomato Edition Credit Card",
+  "issuer": "RBL Bank",
+  "co_brand_partner": "Zomato",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "RBL Bank Edition Classic",
+  "issuer": "RBL Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "YES Bank Paisa Save Credit Card",
+  "issuer": "YES Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Kotak Mahindra Bank Kotak 811 super.money Credit Card",
+  "issuer": "Kotak Mahindra Bank",
+  "co_brand_partner": "super.money",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "AU Small Finance Bank Royale/Ananta Credit Card",
+  "issuer": "AU Small Finance Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Citi PremierMiles Credit Card",
+  "issuer": "Citibank",
+  "co_brand_partner": "Axis Bank takeover",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Bank of Baroda BOBCARD Empower Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Bank of Baroda BOBCARD Yoddha Credit Card",
+  "issuer": "Bank of Baroda (BOBCARD)",
+  "co_brand_partner": "Indian Army",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "UCO Bank Credit Card",
+  "issuer": "UCO Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "J&K Bank Credit Card",
+  "issuer": "J&K Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "City Union Bank Credit Card (SalarySe)",
+  "issuer": "City Union Bank",
+  "co_brand_partner": "SalarySe",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Dhanlaxmi Bank Credit Card",
+  "issuer": "Dhanlaxmi Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Ujjivan Small Finance Bank Credit Card",
+  "issuer": "Ujjivan SFB",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Suryoday SFB Credit Card? ",
+  "issuer": "Suryoday SFB",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Equitas SFB Tiga",
+  "issuer": "Equitas SFB",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Bandhan Bank Lumina/Ignite/Flare/Sparks",
+  "issuer": "Bandhan Bank",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Jio Financial Services credit card? (rumoured, verify)",
+  "issuer": "Jio Financial",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Airtel Finance Credit Card? (verify)",
+  "issuer": "Airtel Finance",
+  "co_brand_partner": "Airtel",
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Bajaj Finserv Insta EMI Card",
+  "issuer": "Bajaj Finserv",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ },
+ {
+  "name": "Poonawalla Fincorp RuPay Credit Card",
+  "issuer": "Poonawalla Fincorp",
+  "co_brand_partner": null,
+  "status": "unknown",
+  "source": "knowledge/aggregators; not on cardinsider"
+ }
+]

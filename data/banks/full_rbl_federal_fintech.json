@@ -1,0 +1,4537 @@
+{
+ "catalog": [
+  {
+   "name": "RBL Icon",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-icon"
+  },
+  {
+   "name": "RBL World Safari",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-world-safari"
+  },
+  {
+   "name": "RBL Platinum Maxima Plus",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-platinum-maxima"
+  },
+  {
+   "name": "RBL Platinum Maxima",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+  },
+  {
+   "name": "RBL Insignia Preferred Banking",
+   "status": "active",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/insignia-preferred-banking-credit-card"
+  },
+  {
+   "name": "RBL Lumiere",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/rbl-lumiere"
+  },
+  {
+   "name": "RBL Nova",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/rbl-nova"
+  },
+  {
+   "name": "RBL Apex",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-apex"
+  },
+  {
+   "name": "RBL World Safari Lite",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-world-safari-lite"
+  },
+  {
+   "name": "RBL World Safari Plus",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "IndianOil RBL Bank XTRA",
+   "status": "active",
+   "source": "https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card"
+  },
+  {
+   "name": "IndianOil RBL Bank Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-indianoil"
+  },
+  {
+   "name": "RBL BPCL SuperCard",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/cards/rbl-bpcl-supercard"
+  },
+  {
+   "name": "IRCTC RBL Bank Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-irctc"
+  },
+  {
+   "name": "RBL ShopRite",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-shoprite"
+  },
+  {
+   "name": "RBL Play",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-play"
+  },
+  {
+   "name": "RBL Bank BankBazaar SaveMax",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-bankbazaar-savemax"
+  },
+  {
+   "name": "RBL Bank BankBazaar SaveMax Pro",
+   "status": "closed_to_new",
+   "source": "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+  },
+  {
+   "name": "RBL Paisabazaar Duet",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-paisabazaar-duet"
+  },
+  {
+   "name": "RBL Paisabazaar Duet Plus",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-paisabazaar-duet-plus"
+  },
+  {
+   "name": "RBL Cookies",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-cookies"
+  },
+  {
+   "name": "RBL Blockbuster",
+   "status": "active",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Binge",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-binge"
+  },
+  {
+   "name": "RBL DMI Finance",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-dmi-finance"
+  },
+  {
+   "name": "RBL Patanjali Swarn",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-patanjali-swarn"
+  },
+  {
+   "name": "RBL Patanjali Vishisht",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-patanjali-vishisht"
+  },
+  {
+   "name": "RBL TVS Credit",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-tvs-credit"
+  },
+  {
+   "name": "RBL TVS Credit Gold",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-tvs-credit-gold"
+  },
+  {
+   "name": "RBL SalarySe UP",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/rbl-salaryse-up"
+  },
+  {
+   "name": "RBL MoneyTap Credit Card",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL MoneyTap Black",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Jalsa",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL iGlobe",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL QuickPay",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Aspire Banking",
+   "status": "active",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Signature Banking",
+   "status": "active",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Shoppers Stop Gold",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Shoppers Stop Platinum",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Shoppers Stop Black",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Delight SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Edge SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Plus SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum TravelEasy SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Bonus",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Choice SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum LifeEasy SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum ShopSmart SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum ShopDaily SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum ValuePlus SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Shopgain SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Max SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Prime SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Classic SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Platinum Advantage SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL World Prime SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL World Max SuperCard",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL World Plus",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Titanium Delight",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Monthly Treats",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Popcorn",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Movies and More",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL Fun+",
+   "status": "discontinued",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL MoCash",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL MyFirst",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "RBL EasySaver",
+   "status": "unknown",
+   "source": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+  },
+  {
+   "name": "Bajaj Finserv RBL Bank SuperCard Doctor's",
+   "status": "unknown",
+   "source": "https://bajajfinserv.in/service-guides/know-your-bajaj-finserv-rbl-bank-supercard"
+  },
+  {
+   "name": "Federal Bank Celesta",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/federal-celesta"
+  },
+  {
+   "name": "Federal Bank Signet",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/federal-signet"
+  },
+  {
+   "name": "Federal Bank Imperio",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/federal-imperio"
+  },
+  {
+   "name": "Scapia Federal",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/scapia-federal"
+  },
+  {
+   "name": "Fi Federal",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/cards/fi-federal"
+  },
+  {
+   "name": "Jupiter Edge Federal Bank",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/cards/jupiter-edge"
+  },
+  {
+   "name": "OneCard",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/onecard"
+  },
+  {
+   "name": "Jupiter Edge+ CSB Bank RuPay",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/jupiter-edge"
+  },
+  {
+   "name": "slice UPI Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/slice"
+  },
+  {
+   "name": "BOBCARD Uni GoldX",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/uni-goldx"
+  },
+  {
+   "name": "Uni Pay 1/3rd Card",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/uni-goldx"
+  },
+  {
+   "name": "CRED IndusInd Bank RuPay",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/indusind-cred"
+  },
+  {
+   "name": "CRED Sovereign",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/cards/cred-sovereign"
+  },
+  {
+   "name": "Kiwi RuPay Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/kiwi"
+  },
+  {
+   "name": "super.money superCard",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/utkarsh-supercard"
+  },
+  {
+   "name": "Unity Bank BharatPe Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/bharatpe"
+  },
+  {
+   "name": "Paytm AU Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-paytm"
+  },
+  {
+   "name": "Paytm SBI Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-paytm"
+  },
+  {
+   "name": "Paytm SBI Card SELECT",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-paytm-select"
+  },
+  {
+   "name": "PhonePe HDFC Bank Ultimo",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hdfc-phonepe-ultimo"
+  },
+  {
+   "name": "PhonePe HDFC Bank Uno",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/hdfc-phonepe-uno"
+  },
+  {
+   "name": "PhonePe SBI Card PURPLE",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-phonepe-purple"
+  },
+  {
+   "name": "PhonePe SBI Card SELECT BLACK",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-phonepe-select-black"
+  },
+  {
+   "name": "AU Fi MagniFi",
+   "status": "active",
+   "source": "https://www.paisabazaar.com/au-small-finance-bank/au-magnifi-credit-card/"
+  },
+  {
+   "name": "ixigo AU Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-ixigo"
+  },
+  {
+   "name": "CheQ AU Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/cheq-au"
+  },
+  {
+   "name": "IndusInd Bank Poonawalla Fincorp eLITE RuPay Platinum",
+   "status": "unknown",
+   "source": "https://poonawallafincorp.com/pdf/Poonawalla_Fincorp_launches_co_branded_Credit_Card.pdf"
+  },
+  {
+   "name": "MobiKwik Blue American Express",
+   "status": "discontinued",
+   "source": "https://ibsintelligence.com/ibsi-news/mobikwik-blue-american-express-card-launched-in-india"
+  },
+  {
+   "name": "YES Bank Rio RuPay Credit Card",
+   "status": "unknown",
+   "source": "https://cxotoday.com/media-coverage/zaggle-and-npci-partner-to-launch-multiple-credit-cards-on-rupay-network/"
+  },
+  {
+   "name": "Tata Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://www.tatacapital.com/tata-cards.html"
+  },
+  {
+   "name": "Tata Titanium Credit Card",
+   "status": "unknown",
+   "source": "https://www.tatacapital.com/tata-cards.html"
+  },
+  {
+   "name": "ICICI Amazon Pay",
+   "status": "active",
+   "source": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card"
+  },
+  {
+   "name": "Airtel Axis Bank",
+   "status": "active",
+   "source": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card"
+  }
+ ],
+ "cards": [
+  {
+   "name": "RBL Icon",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Complimentary lounge access (counts not verified)",
+   "main_benefit": "Premium RBL card with 20 points per Rs100 (5%) on weekend dining and international spends and milestone rewards worth Rs13,500.",
+   "key_benefits": [
+    "Welcome 20,000 points (BankBazaar)",
+    "Milestones Rs3L 10k pts, Rs5L +15k, Rs8L +20k",
+    "Fuel surcharge waiver up to Rs200/month",
+    "Golf and concierge"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.05,
+     "desc": "Weekend dining 20 pts/Rs100 at Rs0.25/pt; cap 2,000 pts/month",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.05,
+     "desc": "20 pts/Rs100 at Rs0.25/pt; cap 2,000 pts/month",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [
+    "rent",
+    "railways",
+    "misc_payments",
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-icon",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-icon",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html",
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Retained from earlier pass; fee excl 18% GST. Waiver spend not found. Jewellery not stated; assumed base 0.5%. Not re-verified on official MITC."
+  },
+  {
+   "name": "RBL World Safari",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Domestic and international lounge access (counts not verified)",
+   "main_benefit": "Zero-forex travel card with 5 points per Rs100 (1.25%) on travel and Rs3,000 MakeMyTrip welcome voucher.",
+   "key_benefits": [
+    "0% forex markup",
+    "Welcome Rs3,000 MMT voucher",
+    "Milestones Rs2.5L 10k travel pts, Rs5L +15k, Rs7.5L Rs10,000 Taj voucher",
+    "Travel insurance, golf rounds"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0125,
+     "desc": "5 pts/Rs100 at Rs0.25/pt on travel"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "wallet_load",
+    "insurance",
+    "rent",
+    "railways",
+    "misc_payments",
+    "international"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-world-safari",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-world-safari",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee excl GST. Waiver not found. Jewellery not stated."
+  },
+  {
+   "name": "RBL Platinum Maxima Plus",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic lounge visits per quarter (BankBazaar)",
+   "main_benefit": "Grocery, dining, entertainment and international earner at 10 pts per Rs100 (2.5% nominal, ~2.8% claimed value back).",
+   "key_benefits": [
+    "Welcome 10,000 pts",
+    "Milestones Rs2L/3.5L/5L 10k pts each"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries",
+      "international"
+     ],
+     "rate": 0.025,
+     "desc": "10 pts/Rs100 at Rs0.25/pt; shared cap 1,000 pts/month",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "cash_advance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-platinum-maxima",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-platinum-maxima",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Real value could be as low as Rs0.11/pt per earlier source. RBL page claims 2.8% value back; kept conservative."
+  },
+  {
+   "name": "RBL Platinum Maxima",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2000,
+   "annual_fee": 2000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic lounge visit per quarter (BankBazaar)",
+   "main_benefit": "Grocery/dining card, 10 pts per Rs100 on groceries, dining, entertainment, international (claimed 2.7% value back).",
+   "key_benefits": [
+    "8,000 welcome pts",
+    "Milestone points"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries",
+      "international"
+     ],
+     "rate": 0.025,
+     "desc": "10 pts/Rs100 at Rs0.25; cap 1,000 pts/month",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.bankbazaar.com/rbl-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html",
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Details from BankBazaar only."
+  },
+  {
+   "name": "RBL Insignia Preferred Banking",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "RBL Preferred Banking",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 7000,
+   "annual_fee": 7000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 domestic lounges per quarter; Priority Pass with 6 free international visits per calendar year",
+   "main_benefit": "Banking-relationship premium card: 5 pts per Rs100 domestic and 10 pts per Rs100 international, 28,000 welcome points.",
+   "key_benefits": [
+    "28,000 welcome pts (not for Insignia banking customers; fee nil for them)",
+    "Milestone Rs8,000 vouchers at Rs8L spend",
+    "1,400+ lounges via Priority Pass",
+    "No redemption fee"
+   ],
+   "base_rate": 0.0125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.025,
+     "desc": "10 pts/Rs100; point value assumed Rs0.25"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "utilities",
+    "fuel",
+    "wallet_load",
+    "government"
+   ],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/insignia-preferred-banking-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/insignia-preferred-banking-credit-card",
+    "https://webassets.rbl.bank.in/document/credit-cards/terms-conditions-insignia-credit-card.pdf",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs7,000+GST per official/Paisabazaar; CardTrail shows Rs10,000 (conflict, kept official). Forex markup conflict (Paisabazaar 1.5% vs CardTrail 0%): set null. Point value assumed Rs0.25. Application via RBL RM."
+  },
+  {
+   "name": "RBL Lumiere",
+   "issuer": "RBL Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 50000,
+   "annual_fee": 50000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic and international lounge for primary and guests",
+   "main_benefit": "Invite-only metal card: 2% base (4 pts/Rs200) and 10% on Lumiere portal purchases, unlimited lounges and golf.",
+   "key_benefits": [
+    "Rs50,000+GST joining and annual; reversed only at Rs2 Cr relationship value",
+    "~Rs30,000 Taj/Marriott welcome voucher",
+    "12 golf lessons/year",
+    "Transfer to Air India Maharaja Club and Club ITC 1:1"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.02,
+     "desc": "4 pts/Rs200 at Rs1/pt on transfers/portal; Rs0.25 for statement credit (conflicting); 10% only on Lumiere portal"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "utilities",
+    "wallet_load",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-lumiere",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-lumiere"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite only; shown closed_to_new. Jewellery not stated. Fee all-in Rs59,000 incl GST."
+  },
+  {
+   "name": "RBL Nova",
+   "issuer": "RBL Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12500,
+   "annual_fee": 12500,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "12 domestic + 12 international visits per year plus 4 intl guest visits",
+   "main_benefit": "Invite-only premium card: 6% on Nova portal flights/hotels and 2% on other spends.",
+   "key_benefits": [
+    "Rs12,500 Taj/Luxe welcome gift card",
+    "Quarterly Rs10,000 gift cards on Rs3L spend (up to Rs40,000/yr)",
+    "Airline transfers 2:1",
+    "4 golf rounds and 12 lessons"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.06,
+     "desc": "12 pts/Rs200 at Rs1/pt on Nova portal flights and hotels only"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.02,
+     "desc": "4 pts/Rs200; Rs1/pt on portal, ~Rs0.50 airline transfer, so effective may be lower"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "education",
+    "utilities",
+    "insurance",
+    "cash_advance",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-nova",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-nova"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite only. Renewal waived at Rs10L spend."
+  },
+  {
+   "name": "RBL Apex",
+   "issuer": "RBL Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic lounge visit per quarter on Rs35,000 prior-quarter spend",
+   "main_benefit": "Mid-tier card with 2% cashback via RBL portal on flights, hotels, shopping and vouchers, 1% elsewhere.",
+   "key_benefits": [
+    "Annual fee waived while new RBL savings account open",
+    "Milestone cashback Rs1,000 at Rs2L, Rs2,000 at Rs4L",
+    "Monthly BookMyShow ticket up to Rs100",
+    "No redemption fee"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% via RBL Rewards Portal only; unlimited"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on other spends capped at Rs500/month",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "education",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-apex",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-apex"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched ~Dec 2025. 1% fee on FASTag/toll above Rs10,000 per txn from 7 Jan 2026."
+  },
+  {
+   "name": "RBL World Safari Lite",
+   "issuer": "RBL Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "1 domestic + 1 international lounge per quarter, each on Rs50,000 prior-quarter spend",
+   "main_benefit": "Low-fee zero-forex travel card with 5 pts/Rs100 (1.25%) on portal flights and hotels.",
+   "key_benefits": [
+    "Welcome ~Rs1,000 vouchers",
+    "Milestone 5,000 pts at Rs2.5L, +10,000 at Rs5L"
+   ],
+   "base_rate": 0,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0125,
+     "desc": "5 pts/Rs100 at Rs0.25 via RBL travel portal"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0025,
+     "desc": "1 pt/Rs100 on other eligible domestic travel"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "wallet_load",
+    "insurance",
+    "rent",
+    "railways",
+    "misc_payments"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-world-safari-lite",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-world-safari-lite"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Other spends earn 0. Page has date inconsistencies."
+  },
+  {
+   "name": "RBL World Safari Plus",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Lounge access in and outside India",
+   "main_benefit": "Higher-tier World Safari with lounge access and 0% forex markup.",
+   "key_benefits": [
+    "0% forex markup"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on RBL category page; fees/rewards not retrieved."
+  },
+  {
+   "name": "IndianOil RBL Bank XTRA",
+   "issuer": "RBL Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "IndianOil",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": 275000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Best RBL fuel card: 15 fuel points per Rs100 at IndianOil (~7.5%, ~8.5% with surcharge waiver).",
+   "key_benefits": [
+    "250 litres free petrol annually (RBL page)",
+    "Welcome 3,000 FP after Rs500 spend in 30 days",
+    "1,000 FP per Rs75k quarterly spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.075,
+     "desc": "15 FP/Rs100 at IOCL, 1 FP=Rs0.50; cap 2,000 FP/month = Rs1,000 (third-party). Surcharge waiver 1% cap Rs200/month not included",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "jewellery"
+   ],
+   "source_url": "https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.rblbank.com/indianoil-rbl-bank-xtra-credit-card",
+    "https://www.rbl.bank.in/value-calculator/indianoil-rbl-bank-xtra-credit-card",
+    "https://cardadvisor.in/cards/rbl-indianoil-xtra"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Retained. Cap and Rs2.75L waiver partly third-party. Fuel points redeemable only at IndianOil at Rs0.50. Non-fuel 2 pts/Rs100 (~1%). Jewellery exclusion assumed. Verify on MITC. 1% fee on FASTag/toll above Rs10,000 per txn from 7 Jan 2026."
+  },
+  {
+   "name": "IndianOil RBL Bank Credit Card",
+   "issuer": "RBL Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "IndianOil",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 175000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry IndianOil fuel card: 10 fuel points per Rs100 at IOCL (~5%) plus 1% surcharge waiver.",
+   "key_benefits": [
+    "Fuel surcharge waiver 1% cap Rs100/month on Rs500-4,000",
+    "Successor to RBL BPCL SuperCard",
+    "RuPay variant exists",
+    "Welcome ~Rs500"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "desc": "10 FP/Rs100 at 1 FP=Rs0.50; cap 1,000 FP/month = Rs500",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "utilities",
+    "insurance",
+    "rent",
+    "wallet_load",
+    "cash_advance",
+    "education",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-indianoil",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-indianoil",
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.rblbank.com/personal-banking/cards/credit-cards/indianoil-rbl-bank-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "RBL page says 100 litres free petrol and 6% value back (different from 5%; kept conservative). Base: 1 pt/Rs100, fuel point worth Rs0.10 outside IOCL (modelled 0.25% conservatively). Launched Sep 2024. 1% fee on FASTag/toll above Rs10,000 per txn from 7 Jan 2026."
+  },
+  {
+   "name": "RBL BPCL SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "BPCL",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Former RBL BPCL fuel co-brand, replaced by IndianOil RBL Bank card.",
+   "key_benefits": [
+    "Discontinued"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-bpcl-supercard",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-bpcl-supercard"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Discontinued per CardAdvisor; no rates retained."
+  },
+  {
+   "name": "IRCTC RBL Bank Credit Card",
+   "issuer": "RBL Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "IRCTC",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "8 railway-station lounge visits/year (FAQ; page also says domestic airport - conflict)",
+   "main_benefit": "Train traveller card: 5 RP per Rs200 (2.5%) on IRCTC bookings plus 1% gateway-fee reversal.",
+   "key_benefits": [
+    "Welcome 500 RP on Rs500 spend in 30 days",
+    "Milestone 500 RP per Rs75k quarterly (max 2,000/yr)",
+    "Train cancellation shield up to Rs5,000",
+    "UPI-linkable RuPay"
+   ],
+   "base_rate": 0.00125,
+   "rules": [
+    {
+     "merchants": [
+      "irctc"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.025,
+     "desc": "5 RP/Rs200 at Rs1/RP on IRCTC; ~Rs0.25/RP elsewhere"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-irctc",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-irctc"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Other spends 1 RP/Rs200: page says ~0.5% (assumes Rs1/RP), modelled 0.125% at Rs0.25 conservative. Fee-reversal cap Rs200/month (conflict with per-booking)."
+  },
+  {
+   "name": "RBL ShopRite",
+   "issuer": "RBL Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "5% on groceries (20 pts/Rs100) with 1,000 pt monthly cap.",
+   "key_benefits": [
+    "2,000 pt welcome",
+    "10% off BookMyShow up to Rs100, 15 per year",
+    "Fuel surcharge waiver Rs100/month"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "desc": "20 pts/Rs100 at Rs0.25, physical stores; cap 1,000 pts/month",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-shoprite",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-shoprite",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "BankBazaar shows fee Rs0 in one place and Rs500 in another; kept Rs500. Min income Rs12k."
+  },
+  {
+   "name": "RBL Play",
+   "issuer": "RBL Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "BookMyShow",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "BookMyShow co-brand: Rs500 monthly movie discount on Rs5,000 spend.",
+   "key_benefits": [
+    "Rs500 BMS discount/month on Rs5,000 spend",
+    "Fee waiver Rs1.5L spend or 10 BMS transactions",
+    "Fuel waiver Rs100/month"
+   ],
+   "base_rate": 0.0025,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-play",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-play"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Perk card; base 1 pt/Rs100 at Rs0.25. 1% fee on FASTag/toll above Rs10,000 per txn from 7 Jan 2026."
+  },
+  {
+   "name": "RBL Bank BankBazaar SaveMax",
+   "issuer": "RBL Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "BankBazaar",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free grocery card: 1.25% on groceries (cap Rs250/mo), 10% off BookMyShow and Zomato up to Rs100/month.",
+   "key_benefits": [
+    "Free monthly credit report"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.0125,
+     "desc": "5 pts/Rs100 at Rs0.25; cap 1,000 pts/month",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-bankbazaar-savemax",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-bankbazaar-savemax",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network Mastercard per CardAdvisor, Visa per BankBazaar (conflict). Name in RBL list: 'Bankbazaar SaveMax'."
+  },
+  {
+   "name": "RBL Bank BankBazaar SaveMax Pro",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Invite-only grocery/fuel card: 10X on groceries, 5X on fuel (cap 1,000 pts/mo each).",
+   "key_benefits": [
+    "5,000 welcome pts",
+    "Milestones at Rs2L and Rs4L"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.025,
+     "desc": "10 pts/Rs100 at Rs0.25; cap 1,000 pts/month",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/rbl-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite only. Fuel 5X stated by BankBazaar; fuel earn not modelled (contradictory with usual exclusions)."
+  },
+  {
+   "name": "RBL Paisabazaar Duet",
+   "issuer": "RBL Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "Paisabazaar",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free flat 1% cashback (cap Rs500/month) plus Xpress Cash credit line.",
+   "key_benefits": [
+    "Cashback up to Rs6,000/year",
+    "Paisa on Demand loan line"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance",
+    "railways"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-paisabazaar-duet",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-paisabazaar-duet",
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Cashback cap Rs500/month. Pre-Sep-2021 cards had Rs500 fee. 1% fee on FASTag/toll above Rs10,000 per txn from 7 Jan 2026."
+  },
+  {
+   "name": "RBL Paisabazaar Duet Plus",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Paisabazaar",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Higher-tier Duet with cashback-based returns.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-paisabazaar-duet-plus",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-paisabazaar-duet-plus"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Details not retrieved; fee Rs1,499 per CardAdvisor list."
+  },
+  {
+   "name": "RBL Cookies",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1200,
+   "annual_fee": 1200,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Young-user card: 10% cashback (Rs300/brand monthly) on select brands like Myntra, Uber, Zomato.",
+   "key_benefits": [
+    "Fee Rs100/month, waived with Rs5,000 prior-month spend",
+    "10% BookMyShow discount"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "myntra",
+      "uber",
+      "zomato"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback up to Rs300/month per brand",
+     "cap_inr": 300
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "education",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/rbl-cookies",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-cookies",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee per CardAdvisor; BankBazaar shows Rs100/month."
+  },
+  {
+   "name": "RBL Blockbuster",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "4 domestic lounge visits per year",
+   "main_benefit": "Movie lover card with Rs500 monthly movie benefit.",
+   "key_benefits": [
+    "Rs500 monthly movie benefit on Rs15,000 spend (page: Movies and More) "
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee from CardAdvisor listing. Rates not retrieved."
+  },
+  {
+   "name": "RBL Binge",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Lounge access discontinued from 1 Jul 2025",
+   "main_benefit": "Entertainment entry card with free monthly movie tickets.",
+   "key_benefits": [
+    "4,000 welcome pts"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-binge",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-binge"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Details limited."
+  },
+  {
+   "name": "RBL DMI Finance",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "DMI Finance",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "DMI Finance co-brand entry card.",
+   "key_benefits": [
+    "2,000 reward pts and Rs200 voucher welcome"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-dmi-finance",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-dmi-finance"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates not retrieved."
+  },
+  {
+   "name": "RBL Patanjali Swarn",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Patanjali",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Domestic lounge access",
+   "main_benefit": "10% cashback at Patanjali stores.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "patanjali"
+     ],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback at Patanjali stores; cap not found"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-patanjali-swarn",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-patanjali-swarn"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Cap unknown."
+  },
+  {
+   "name": "RBL Patanjali Vishisht",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Patanjali",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10% cashback at Patanjali stores.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "patanjali"
+     ],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback at Patanjali stores; cap not found"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-patanjali-vishisht",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-patanjali-vishisht"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Cap unknown."
+  },
+  {
+   "name": "RBL TVS Credit",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "TVS Credit",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Railway lounge access",
+   "main_benefit": "2X reward points online; TVS Credit co-brand.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-tvs-credit",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-tvs-credit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates not retrieved."
+  },
+  {
+   "name": "RBL TVS Credit Gold",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "TVS Credit",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5% cashback on EazyDiner; TVS Credit co-brand.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "eazydiner"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback on EazyDiner; cap unknown"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-tvs-credit-gold",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-tvs-credit-gold"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": ""
+  },
+  {
+   "name": "RBL SalarySe UP",
+   "issuer": "RBL Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "SalarySe",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "100% virtual UPI-powered card for salaried users.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/rbl-salaryse-up",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/rbl-salaryse-up"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees not retrieved."
+  },
+  {
+   "name": "RBL MoneyTap Credit Card",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "MoneyTap",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "MoneyTap co-brand: Rs1,000 Amazon voucher and 20% cashback on Zomato.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on RBL category page; status unverified."
+  },
+  {
+   "name": "RBL MoneyTap Black",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "MoneyTap",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "MoneyTap Black co-brand with 8,000 welcome reward points.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on RBL category page; status unverified."
+  },
+  {
+   "name": "RBL Jalsa",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5% cashback on selected apps.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on RBL category page only."
+  },
+  {
+   "name": "RBL iGlobe",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "MakeMyTrip",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Domestic lounge visits",
+   "main_benefit": "Rs3,000 MakeMyTrip welcome voucher plus domestic lounge visits.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on RBL page only."
+  },
+  {
+   "name": "RBL QuickPay",
+   "issuer": "RBL Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 99,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Rs99 UPI card with 20% cashback on first two UPI transactions.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on RBL page only."
+  },
+  {
+   "name": "RBL Aspire Banking",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "RBL Aspire Banking",
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-segment card with up to 3% cashback; fee zero for Aspire customers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Relationship card."
+  },
+  {
+   "name": "RBL Signature Banking",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "RBL Signature Banking",
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-segment card with up to 4% cashback; fee zero for Signature customers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Relationship card."
+  },
+  {
+   "name": "RBL Shoppers Stop Gold",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Shoppers Stop",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Shoppers Stop co-brand: 10 pts at Shoppers Stop, Rs3,000 vouchers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on RBL page but not corroborated; Shoppers Stop cards are historically Kotak/Standard Chartered."
+  },
+  {
+   "name": "RBL Shoppers Stop Platinum",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Shoppers Stop",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Shoppers Stop co-brand: 10 pts at Shoppers Stop, Rs5,500 vouchers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "As above."
+  },
+  {
+   "name": "RBL Shoppers Stop Black",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Shoppers Stop",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Shoppers Stop co-brand: 15 pts at Shoppers Stop, Rs8,500 vouchers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "As above."
+  },
+  {
+   "name": "RBL Platinum Delight SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "4,000 welcome pts; 2 pts/Rs100, 4 on weekends; fuel waiver Rs150/mo; fee waived on Rs2L.",
+   "key_benefits": [
+    "4,000 welcome pts; 2 pts/Rs100, 4 on weekends; fuel waiver Rs150/mo; fee waived on Rs2L"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Edge SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "8,000 welcome pts; one lounge/quarter; fee waived Rs2L spend.",
+   "key_benefits": [
+    "8,000 welcome pts; one lounge/quarter; fee waived Rs2L spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Plus SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "4,000 welcome pts; 2x online; lounge benefit discontinued 1 Jul 2025.",
+   "key_benefits": [
+    "4,000 welcome pts; 2x online; lounge benefit discontinued 1 Jul 2025"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled. Bajaj Finserv RBL Bank SuperCard variant."
+  },
+  {
+   "name": "RBL Platinum TravelEasy SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Rs1,000 voucher; 10% cashback on fuel and Ola/Uber up to Rs400/mo.",
+   "key_benefits": [
+    "Rs1,000 voucher; 10% cashback on fuel and Ola/Uber up to Rs400/mo"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Bonus",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "6,000 welcome pts; second-year fee reversal Rs1L spend.",
+   "key_benefits": [
+    "6,000 welcome pts; second-year fee reversal Rs1L spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Choice SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2,000 welcome pts; 2x online; 10% BookMyShow; fee reversal Rs50k.",
+   "key_benefits": [
+    "2,000 welcome pts; 2x online; 10% BookMyShow; fee reversal Rs50k"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled. Bajaj Finserv RBL Bank SuperCard variant."
+  },
+  {
+   "name": "RBL Platinum LifeEasy SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1999,
+   "annual_fee": 1999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10% Ola/Uber, 10% fuel, 5% groceries cashback; Rs2,000 vouchers.",
+   "key_benefits": [
+    "10% Ola/Uber, 10% fuel, 5% groceries cashback; Rs2,000 vouchers"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum ShopSmart SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5% grocery cashback; 2 lounge visits per year.",
+   "key_benefits": [
+    "5% grocery cashback; 2 lounge visits per year"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum ShopDaily SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5% grocery cashback up to Rs250/mo; fee reversal Rs50k.",
+   "key_benefits": [
+    "5% grocery cashback up to Rs250/mo; fee reversal Rs50k"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum ValuePlus SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10% fuel cashback up to Rs250/mo; fee reversal Rs50k.",
+   "key_benefits": [
+    "10% fuel cashback up to Rs250/mo; fee reversal Rs50k"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Shopgain SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "25 pts/Rs100 on utility bills (cap 500/mo); 6,000 welcome pts.",
+   "key_benefits": [
+    "25 pts/Rs100 on utility bills (cap 500/mo); 6,000 welcome pts"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Max SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "4,000 welcome pts; Wednesday dining 20 pts/Rs100.",
+   "key_benefits": [
+    "4,000 welcome pts; Wednesday dining 20 pts/Rs100"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Prime SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "4,000 welcome pts; 5% dining discount.",
+   "key_benefits": [
+    "4,000 welcome pts; 5% dining discount"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Classic SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2,000 welcome pts; 1 pt/Rs100; not sourced for new customers.",
+   "key_benefits": [
+    "2,000 welcome pts; 1 pt/Rs100; not sourced for new customers"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Platinum Advantage SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2,000 welcome pts; 20% BookMyShow discount.",
+   "key_benefits": [
+    "2,000 welcome pts; 20% BookMyShow discount"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL World Prime SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "12,000 welcome pts; 8 domestic lounge visits/yr.",
+   "key_benefits": [
+    "12,000 welcome pts; 8 domestic lounge visits/yr"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled. Bajaj Finserv RBL Bank SuperCard variant."
+  },
+  {
+   "name": "RBL World Max SuperCard",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "12,000 welcome pts; movie offer up to Rs200.",
+   "key_benefits": [
+    "12,000 welcome pts; movie offer up to Rs200"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL World Plus",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "20,000 welcome pts; 20 pts/Rs100 on dining and international; 8 domestic lounge visits/yr.",
+   "key_benefits": [
+    "20,000 welcome pts; 20 pts/Rs100 on dining and international; 8 domestic lounge visits/yr"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled. Bajaj Finserv RBL Bank SuperCard variant."
+  },
+  {
+   "name": "RBL Titanium Delight",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2,000 points first purchase; up to 40X on groceries and movies.",
+   "key_benefits": [
+    "2,000 points first purchase; up to 40X on groceries and movies"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Monthly Treats",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Unlimited 5x reward points on online spends.",
+   "key_benefits": [
+    "Unlimited 5x reward points on online spends"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Popcorn",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Free monthly movie tickets.",
+   "key_benefits": [
+    "Free monthly movie tickets"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Movies and More",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Rs500 monthly movie benefit on Rs15,000 spend.",
+   "key_benefits": [
+    "Rs500 monthly movie benefit on Rs15,000 spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL Fun+",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Rs500 BookMyShow discount (CardAdvisor: discontinued).",
+   "key_benefits": [
+    "Rs500 BookMyShow discount (CardAdvisor: discontinued)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL MoCash",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2,000 reward points on activation.",
+   "key_benefits": [
+    "2,000 reward points on activation"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL MyFirst",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Rewards on education and bill payments.",
+   "key_benefits": [
+    "Rewards on education and bill payments"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "RBL EasySaver",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Rewards on education and bill payments.",
+   "key_benefits": [
+    "Rewards on education and bill payments"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.rbl.bank.in/personal-banking/cards/credit-cards/category",
+    "https://www.bankbazaar.com/rbl-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Legacy RBL/Bajaj Finserv SuperCard family; listed on RBL category page and BankBazaar. Status and current terms unverified; many legacy variants are likely closed to new applicants. Rates not modelled."
+  },
+  {
+   "name": "Bajaj Finserv RBL Bank SuperCard Doctor's",
+   "issuer": "RBL Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Doctor's SuperCard variant of the Bajaj Finserv RBL Bank SuperCard.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://bajajfinserv.in/service-guides/know-your-bajaj-finserv-rbl-bank-supercard",
+   "source_type": "third_party",
+   "sources": [
+    "https://bajajfinserv.in/service-guides/know-your-bajaj-finserv-rbl-bank-supercard"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Mentioned in 2019 launch coverage; current availability not confirmed. Bajaj page says 16 variants exist; remaining names not retrieved (page returned 403)."
+  },
+  {
+   "name": "Federal Bank Celesta",
+   "issuer": "Federal Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free (new customers from 3 Apr 2023) travel/dining card with 3 pts per Rs100 on international and travel.",
+   "key_benefits": [
+    "Points valid 36 months"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international",
+      "travel"
+     ],
+     "rate": 0.0075,
+     "desc": "3 pts/Rs100 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.005,
+     "desc": "2 pts/Rs100"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "government",
+    "rent",
+    "wallet_load",
+    "cash_advance",
+    "financial_institutions"
+   ],
+   "source_url": "https://cardadvisor.in/cards/federal-celesta",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/federal-celesta"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Retained; cash-to-card Rs0.10/pt. Network not verified. Jewellery not stated."
+  },
+  {
+   "name": "Federal Bank Signet",
+   "issuer": "Federal Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free entry card with weak earn: 3 pts per Rs200 on online electronics/apparel.",
+   "key_benefits": [],
+   "base_rate": 0.00125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.00375,
+     "desc": "3 pts/Rs200 at Rs0.25"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "government",
+    "rent",
+    "wallet_load",
+    "cash_advance",
+    "financial_institutions"
+   ],
+   "source_url": "https://cardadvisor.in/cards/federal-signet",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/federal-signet"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Retained; network not verified."
+  },
+  {
+   "name": "Federal Bank Imperio",
+   "issuer": "Federal Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic visits/quarter on Rs40,000 spend in 21st-20th cycle",
+   "main_benefit": "Lifetime-free (for post 3 Apr 2023 customers) card valued for spend-gated lounge access and fuel waiver.",
+   "key_benefits": [
+    "Fuel waiver 1% cap Rs150/month on Rs400-5,000",
+    "BigBasket Rs300 voucher at Rs50k quarterly spend (conflicting terms)",
+    "Can be FD-backed"
+   ],
+   "base_rate": 0.0017,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.005,
+     "desc": "3 pts/Rs150 on groceries and healthcare at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0033,
+     "desc": "2 pts/Rs150 on utilities"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "government",
+    "rent",
+    "wallet_load",
+    "cash_advance",
+    "financial_institutions"
+   ],
+   "source_url": "https://cardadvisor.in/cards/federal-imperio",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/federal-imperio"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network: Visa and Mastercard per source. Points cash out at Rs0.10 per source (conservative). Older holders pay Rs1,500."
+  },
+  {
+   "name": "Scapia Federal",
+   "issuer": "Federal Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Scapia",
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic lounge after Rs20,000 spend per cycle",
+   "main_benefit": "Zero-forex travel card: 10 coins per Rs100 (2%) on everything, 4% on Scapia-app travel; coins redeemable only for travel/Scapia Store.",
+   "key_benefits": [
+    "Lifetime free",
+    "Utility and insurance spends earn nothing since Feb 2026",
+    "RuPay edition and Axis (from Sep 2026) and BOBCARD versions exist"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [
+      "scapia"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.04,
+     "desc": "20 coins/Rs100 on Scapia-app travel bookings; 5 coins = Rs1"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "rent",
+    "utilities"
+   ],
+   "source_url": "https://cardadvisor.in/cards/scapia-federal",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/scapia-federal"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Updated from CardAdvisor (Oct 2026). Lounge gate raised to Rs20k on 27 Feb 2026. Coin value Rs0.20. Jewellery not mentioned. Not read on issuer MITC."
+  },
+  {
+   "name": "Fi Federal",
+   "issuer": "Federal Bank",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Fi Money",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Fi co-brand: 0.25% on all spends; closed to new applicants and reward accrual stopped 20 Mar 2026.",
+   "key_benefits": [
+    "Successor: AU Fi MagniFi"
+   ],
+   "base_rate": 0.0025,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/fi-federal",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/fi-federal"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Discontinued effective 20 Mar 2026."
+  },
+  {
+   "name": "Jupiter Edge Federal Bank",
+   "issuer": "Federal Bank",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Jupiter",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Original Jupiter Edge co-brand (Federal Bank-era); superseded by CSB Bank RuPay Edge+.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/jupiter-edge",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/jupiter-edge"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Original Edge withdrawn Jan 2026 per CardAdvisor; issuer details of old card unverified."
+  },
+  {
+   "name": "OneCard",
+   "issuer": "Federal Bank / BOBCARD (multiple partner banks)",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": "OneCard",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.01,
+   "lounge_access": null,
+   "main_benefit": "Metal app-first card with 1% forex and 5X on top-2 monthly categories (~1%); new applications reportedly paused.",
+   "key_benefits": [
+    "Fuel waiver 1% cap Rs400/month",
+    "Utilities earn nothing since 29 Aug 2026"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "5X on top-2 monthly categories if Rs750+ spent in 3+ categories; point Rs0.10"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "cash_advance",
+    "wallet_load",
+    "utility_bills",
+    "money_transfer"
+   ],
+   "source_url": "https://cardadvisor.in/cards/onecard",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/onecard"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network Visa (BOBCARD), Mastercard (CSB); issuer varies (Federal, CSB, SBM, BOBCARD). Applications paused since late 2025 (unconfirmed). Point value Rs0.10."
+  },
+  {
+   "name": "Jupiter Edge+ CSB Bank RuPay",
+   "issuer": "CSB Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Jupiter",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "UPI-linked app card with 1% on Jupiter-app UPI and up to 10% on named online brands.",
+   "key_benefits": [
+    "Joining fee free under offer; regular Rs999",
+    "Fuel waiver 1% cap Rs100"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [
+      "jupiter flights"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "25 Jewels/Rs100 at Rs0.20; cap 5,000 Jewels/cycle = Rs1,000",
+     "cap_inr": 1000
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "tata cliq",
+      "ajio",
+      "nykaa",
+      "croma",
+      "reliance digital"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "Base 5 Jewels/Rs100 (1%); extra 45 only if >Rs15,000 qualifying spend (up to 10%); caps 10,000 Jewels/cycle"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "government",
+    "emi",
+    "cash_advance",
+    "gaming"
+   ],
+   "source_url": "https://cardadvisor.in/cards/jupiter-edge",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/jupiter-edge"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Conservative 1% for brands (10% needs Rs15k cycle spend). UPI via Jupiter app 1%. Shopping-rate change dated 5/10 Oct 2026."
+  },
+  {
+   "name": "slice UPI Credit Card",
+   "issuer": "slice Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "slice",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free UPI credit card with 1% base cashback (up to 3% theoretical) and slice-in-3 EMIs.",
+   "key_benefits": [
+    "Requires slice savings account",
+    "0% forex but no rewards on international"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [
+    "international",
+    "rent",
+    "fuel",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "emi",
+    "cash_advance",
+    "gaming"
+   ],
+   "source_url": "https://cardadvisor.in/cards/slice",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/slice"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Relaunched as bank card 1 Jul 2025. Realistic earn 1%."
+  },
+  {
+   "name": "BOBCARD Uni GoldX",
+   "issuer": "BOBCARD",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Uni",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free card with 1% back in Uni Coins/digital gold, 5% on Uni Store vouchers and 7% on Uni flights.",
+   "key_benefits": [
+    "Fuel waiver 1% cap Rs500 on up to Rs7,500",
+    "Virtual RuPay for UPI"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "uni store"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% on vouchers bought in Uni Store"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "cash_advance",
+    "wallet_load",
+    "international",
+    "emi",
+    "utilities",
+    "government",
+    "education"
+   ],
+   "source_url": "https://cardadvisor.in/cards/uni-goldx",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/uni-goldx"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1 Uni coin = Rs0.01. YES Bank Uni Pay 1/3rd card is separate."
+  },
+  {
+   "name": "Uni Pay 1/3rd Card",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Uni",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Uni pay-in-3 co-brand card with YES Bank.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/uni-goldx",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/uni-goldx"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Mentioned on CardAdvisor as separate product; details not retrieved; status unknown."
+  },
+  {
+   "name": "CRED IndusInd Bank RuPay",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "CRED",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "About 5% back on e-commerce and CRED ecosystem via 5 points/Rs100 plus 1% elsewhere.",
+   "key_benefits": [
+    "First year free; Rs499+GST renewal",
+    "Fuel waiver 1% cap Rs300/month on Rs500-5,000",
+    "Launched 15 Sep 2025"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "cred"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.025,
+     "desc": "5 pts/Rs100 on e-commerce, CRED Pay/Store/Travel; cap 5,000 pts/cycle; point valued Rs0.50 (bill pay) conservatively; Rs1 for flights/hotels"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "tolls",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "education",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/indusind-cred",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-cred"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Value per point conflicting (Rs1 vs Rs0.50). Transactions under Rs100 earn nothing. DCC fee 2% from 15 Jun 2026."
+  },
+  {
+   "name": "CRED Sovereign",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "closed_to_new",
+   "co_brand_partner": "CRED",
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Invite-only 18-karat gold card with concierge; terms undisclosed.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/cred-sovereign",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/cred-sovereign"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite only; issuer inferred from launch reports."
+  },
+  {
+   "name": "Kiwi RuPay Credit Card",
+   "issuer": "YES Bank / AU Small Finance Bank / PNB (assigned by Kiwi)",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Kiwi",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free UPI card with 1.5% on Kiwi-app scan-and-pay and 0.5% online.",
+   "key_benefits": [
+    "Paid Neon tier Rs999 up to 5% on milestones",
+    "Fuel waiver 1% cap Rs250"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "kiwi"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.015,
+     "desc": "6 Kiwis/Rs100 at Rs0.25 on Kiwi-app scan-and-pay; monthly cap 1% of credit limit"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "utilities",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "cash_advance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/kiwi",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/kiwi"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex raised to 3.5% on 15 Jun 2026. Issuer cannot be chosen."
+  },
+  {
+   "name": "super.money superCard",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "super.money",
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "FD-backed lifetime-free credit-building card with 1% cashback (UPI cap Rs500/month).",
+   "key_benefits": [
+    "Credit limit at least 90% of FD",
+    "Physical card free with Rs10,000 deposit"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on UPI (app only, cap Rs500/month) and non-UPI (cap Rs10,000/month) on spends of Rs100+",
+     "cap_inr": 10000
+    }
+   ],
+   "excludes": [
+    "government",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "utilities",
+    "education",
+    "fuel",
+    "cash_advance",
+    "emi",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/utkarsh-supercard",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/utkarsh-supercard"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched 28 Aug 2024. UPI outside super.money app earns nothing."
+  },
+  {
+   "name": "Unity Bank BharatPe Credit Card",
+   "issuer": "Unity Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "BharatPe",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic and 2 international visits per year (RuPay)",
+   "main_benefit": "Lifetime-free card with 2% Zillion Coins reward and lounge access; bills of Rs1,000+ auto-converted to EMI.",
+   "key_benefits": [
+    "Min income Rs2.5L/yr salaried"
+   ],
+   "base_rate": 0.02,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/bharatpe",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/bharatpe"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate 4 coins = Rs1. Auto-EMI conversion costs 2%/month interest, reducing net value."
+  },
+  {
+   "name": "Paytm AU Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0349,
+   "lounge_access": "Up to 12 domestic visits/year unlocked by Paytm Travel flight bookings",
+   "main_benefit": "Lifetime-free Paytm card: 5 RP/Rs100 on Paytm Travel and Gold, 2 RP on Paytm UPI Scan&Pay.",
+   "key_benefits": [
+    "Launched 3 Jul 2026",
+    "Fuel waiver 1% cap Rs100"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.025,
+     "desc": "5 RP/Rs100 on Paytm Travel/Gold; Rs0.50/pt statement (Rs1 only as Paytm Gold); cap 3,000 pts/cycle shared"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "education",
+    "government",
+    "insurance",
+    "utilities"
+   ],
+   "source_url": "https://cardadvisor.in/cards/au-paytm",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-paytm"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Redemption value conflicts (Rs0.25 vs Rs0.50). Base 1 RP/Rs100 at Rs0.50."
+  },
+  {
+   "name": "Paytm SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 589,
+   "annual_fee": 589,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Paytm ecosystem card: 3% on Paytm Mall/Movies/Travel, 2% on other Paytm app spends, 1% elsewhere.",
+   "key_benefits": [
+    "Complimentary Super Saver membership"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "3 RP/Rs100 at Rs1; Paytm Mall/Movies/Travel via Paytm app"
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "rent",
+    "government",
+    "education",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-paytm",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-paytm"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs499+GST. Min txn Rs100."
+  },
+  {
+   "name": "Paytm SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1769,
+   "annual_fee": 1769,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic per year (1 per quarter)",
+   "main_benefit": "5% on Paytm Travel, Movies and Mall, 2% other Paytm app, 1% elsewhere with lounges.",
+   "key_benefits": [
+    "Milestones Rs2,000 at Rs4L, Rs4,000 at Rs6L",
+    "2-year Priority Pass fee waived"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5 RP/Rs100 at Rs1"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "education",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-paytm-select",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-paytm-select"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,499+GST."
+  },
+  {
+   "name": "PhonePe HDFC Bank Ultimo",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1179,
+   "annual_fee": 1179,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic per year, unlocked by Rs75,000 prior-quarter spend",
+   "main_benefit": "10% on PhonePe recharges, bills and travel (caps), 5% on Amazon/Flipkart/Myntra/Swiggy etc, 1% UPI scan and pay.",
+   "key_benefits": [
+    "Welcome Rs1,000 scratch cards",
+    "Fuel waiver cap Rs250"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.1,
+     "desc": "1 pt=Rs1 statement; cap 1,000 pts/month = Rs1,000",
+     "cap_inr": 1000
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "ajio",
+      "uber",
+      "swiggy",
+      "zomato"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "cap 500 pts/month",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% only on UPI Scan&Pay QR; cap 500 pts/month",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "wallet_load",
+    "rent",
+    "government",
+    "education",
+    "insurance",
+    "cash_advance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hdfc-phonepe-ultimo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hdfc-phonepe-ultimo"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Other spends earn nothing. Fee Rs999+GST."
+  },
+  {
+   "name": "PhonePe HDFC Bank Uno",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 589,
+   "annual_fee": 589,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "2% on PhonePe recharges, bills and travel, 1% on select brands and UPI scan and pay.",
+   "key_benefits": [
+    "Fuel waiver cap Rs250"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "cap 500 pts/month",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "ajio",
+      "uber",
+      "swiggy",
+      "zomato"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "cap 500 pts/month",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "wallet_load",
+    "rent",
+    "government",
+    "education",
+    "insurance",
+    "cash_advance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/hdfc-phonepe-uno",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/hdfc-phonepe-uno"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs499+GST."
+  },
+  {
+   "name": "PhonePe SBI Card PURPLE",
+   "issuer": "SBI Card",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 589,
+   "annual_fee": 589,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "3% points on PhonePe app spends, 2% other online, 1% elsewhere.",
+   "key_benefits": [
+    "Rs500 PhonePe gift card welcome",
+    "Rs3,000 Yatra voucher at Rs3L"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.03,
+     "desc": "3 RP/Rs100 at Rs1; cap 750 RP/month",
+     "cap_inr": 750
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2 RP/Rs100; cap 750 RP/month",
+     "cap_inr": 750
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "education",
+    "gaming",
+    "emi",
+    "cash_advance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-phonepe-purple",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-phonepe-purple"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Caps tightened 1 Jul 2026."
+  },
+  {
+   "name": "PhonePe SBI Card SELECT BLACK",
+   "issuer": "SBI Card",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1769,
+   "annual_fee": 1769,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic per year plus 2-year Priority Pass",
+   "main_benefit": "10% on PhonePe app bills/recharges/travel, 5% online shopping, 1% elsewhere.",
+   "key_benefits": [
+    "Rs1,500 PhonePe gift card welcome",
+    "Rs5,000 Yatra voucher at Rs5L"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.1,
+     "desc": "cap 1,500 RP/month",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "cap 1,000 RP/month",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "education",
+    "gaming",
+    "emi",
+    "cash_advance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-phonepe-select-black",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-phonepe-select-black"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network RuPay and Visa. Value per point conflict (Rs1 vs Rs0.25)."
+  },
+  {
+   "name": "AU Fi MagniFi",
+   "issuer": "AU Small Finance Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Fi Money",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free weekend-reward card in Fi app (about 5% weekend, 0.5% weekday per Fi).",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/au-small-finance-bank/au-magnifi-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/au-small-finance-bank/au-magnifi-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates conflict between sources (cardinsider 2 vs 20 Fi pts/Rs100). Issuer shown as AU; Fi page says Federal/AU."
+  },
+  {
+   "name": "ixigo AU Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "ixigo",
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "8 domestic airport and 8 railway/year; 1 international",
+   "main_benefit": "Lifetime-free travel card: 10% off ixigo flights/hotels (cap Rs3,000 each), 0% forex.",
+   "key_benefits": [
+    "Welcome 1,000 RP + Rs1,000 ixigo Money"
+   ],
+   "base_rate": 0.0063,
+   "rules": [
+    {
+     "merchants": [
+      "ixigo"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.1,
+     "desc": "10% discount on ixigo flights/hotels, cap Rs3,000 each",
+     "cap_inr": 3000
+    }
+   ],
+   "excludes": [
+    "rent",
+    "education",
+    "government",
+    "international",
+    "fuel",
+    "wallet_load",
+    "insurance",
+    "bill_payments"
+   ],
+   "source_url": "https://cardadvisor.in/cards/au-ixigo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-ixigo"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Base 5 RP/Rs200 at Rs0.25; cap 10,000 RP/cycle."
+  },
+  {
+   "name": "CheQ AU Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa / RuPay",
+   "status": "active",
+   "co_brand_partner": "CheQ",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free: up to 12% points on utility bills and partner brands inside CheQ app.",
+   "key_benefits": [
+    "Launched Apr 2026"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "cheq",
+      "amazon",
+      "flipkart",
+      "zomato",
+      "bigbasket"
+     ],
+     "categories": [
+      "bill_payments",
+      "online_shopping"
+     ],
+     "rate": 0.06,
+     "desc": "12 pts/Rs100 at ~Rs0.50; cap 12,000 pts/month shared",
+     "cap_inr": 6000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "education",
+    "insurance",
+    "rent",
+    "emi",
+    "wallet_load",
+    "government",
+    "gaming",
+    "cash_advance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/cards/cheq-au",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/cheq-au"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Real returns roughly half headline."
+  },
+  {
+   "name": "IndusInd Bank Poonawalla Fincorp eLITE RuPay Platinum",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": "Poonawalla Fincorp",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Digital NBFC co-brand with no joining/annual fee and UPI rewards.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://poonawallafincorp.com/pdf/Poonawalla_Fincorp_launches_co_branded_Credit_Card.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://poonawallafincorp.com/pdf/Poonawalla_Fincorp_launches_co_branded_Credit_Card.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched 28 May 2024; current status/rates not verified."
+  },
+  {
+   "name": "MobiKwik Blue American Express",
+   "issuer": "MobiKwik (Amex network)",
+   "network": "Amex",
+   "status": "discontinued",
+   "co_brand_partner": "MobiKwik",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2020 MobiKwik Amex card with Rs10,000 limit and 1% SuperCash.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://ibsintelligence.com/ibsi-news/mobikwik-blue-american-express-card-launched-in-india",
+   "source_type": "third_party",
+   "sources": [
+    "https://ibsintelligence.com/ibsi-news/mobikwik-blue-american-express-card-launched-in-india"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "2020 launch; likely discontinued, status unverified."
+  },
+  {
+   "name": "YES Bank Rio RuPay Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": "Rio Money (Zaggle)",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Zaggle-owned Rio co-brand RuPay card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cxotoday.com/media-coverage/zaggle-and-npci-partner-to-launch-multiple-credit-cards-on-rupay-network/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cxotoday.com/media-coverage/zaggle-and-npci-partner-to-launch-multiple-credit-cards-on-rupay-network/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Mentioned in news; details not retrieved."
+  },
+  {
+   "name": "Tata Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Tata Capital",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "8 free per year (2/quarter)",
+   "main_benefit": "Legacy Tata Capital co-brand (Tata Cards, SBI Card issued).",
+   "key_benefits": [
+    "Next-year fee reversal on Rs1L spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.tatacapital.com/tata-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.tatacapital.com/tata-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Sources conflict on issuer (Tata Capital with SBI vs SBI Card). Legacy; Tata Neu HDFC cards cover current Tata ecosystem. Status unknown."
+  },
+  {
+   "name": "Tata Titanium Credit Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Tata Capital",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Tata Titanium co-brand variant.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.tatacapital.com/tata-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.tatacapital.com/tata-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "As above."
+  },
+  {
+   "name": "ICICI Amazon Pay",
+   "issuer": "ICICI Bank",
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "amazon"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% for Prime members (3% non-Prime) on Amazon.in as Amazon Pay balance; 2% on Amazon Pay partner merchants; 1% elsewhere. Non-Prime 3% not modelled. No cap found."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on spends outside Amazon (official)"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "rent",
+    "utilities",
+    "insurance",
+    "education",
+    "tax",
+    "wallet_load",
+    "emi",
+    "upi",
+    "gaming"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+    "https://cardexpress.in/mcc-guide/exclusions/icici-amazon-pay",
+    "https://savesage.club/credit-card/icici-amazon-pay"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: lifetime free, 5%/3% Amazon, 1% other, forex 1.99%, 1% fuel surcharge waiver, invite-only. Jewellery exclusion is from third-party MCC list (5094 Precious Stones/Metals/Jewelry, 5944 Jewelry Stores) - not on official page. Savesage also lists International, Utilities, Education, Tax as zero-earn; official page says 1% on non-Amazon spends, so conflict on international. Cashback credited as Amazon Pay balance (value Re1). Excluded from Kalyan/Tanishq ICICI offers historically. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages). "
+  },
+  {
+   "name": "Airtel Axis Bank",
+   "issuer": "Axis Bank",
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "airtel thanks"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.25,
+     "desc": "25% on Airtel mobile/broadband/WiFi/DTH via Airtel Thanks app; monthly cap = 2x base cashback earned that month"
+    },
+    {
+     "merchants": [
+      "zomato",
+      "blinkit"
+     ],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.1,
+     "cap_inr": 200,
+     "desc": "10% value back, max Rs200 per partner per month, min Rs499 order"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+    "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: 25% Airtel bills, 10% other utilities via Airtel Thanks (cap = base cashback), 1% other; cashback 'not applicable on excluded MCC categories' (list not on page; jewellery treatment unverified, likely excluded). Fee 500 waived at Rs2L (MITC). Third-party (pickmywork) says Apr 2026 changes: cap logic changed, Swiggy/BigBasket removed, lounge dropped. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "Official RBL/Federal MITC PDFs not read; most RBL/Federal data from CardAdvisor/BankBazaar (low-medium confidence).",
+  "Bajaj Finserv RBL SuperCard: only 5 variants named (page returned 403); Bajaj says 16 variants. Rates for legacy RBL Platinum/World variants not modelled, status unknown.",
+  "RBL Shoppers Stop Gold/Platinum/Black appear on RBL listing but uncorroborated.",
+  "No RBL 'Edition', Zomato or Manchester United card found in RBL listing; ICICI Manchester United belongs to another collector.",
+  "Aditya Birla Capital card: none found. Niyo, Freo, Zaggle own credit cards: none found. MobiKwik card status unknown.",
+  "Federal Bank: no other cards found beyond Celesta, Signet, Imperio, Scapia, Fi, OneCard; Jupiter original Edge details unverified.",
+  "Tata Capital Tata Platinum/Titanium cards likely legacy; verify.",
+  "Slice/Uni/Kiwi/OneCard availability changes frequently; re-verify."
+ ]
+}

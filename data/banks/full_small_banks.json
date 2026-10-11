@@ -1,0 +1,1495 @@
+{
+ "catalog": [
+  {
+   "name": "Bandhan Sparks",
+   "status": "active",
+   "source": "https://www.paisabazaar.com/bandhan-bank/sparks-credit-card/"
+  },
+  {
+   "name": "Bandhan Ignite",
+   "status": "active",
+   "source": "https://savesage.club/credit-card/bandhan-bank-ignite"
+  },
+  {
+   "name": "Bandhan Flare",
+   "status": "active",
+   "source": "https://www.paisabazaar.com/bandhan-bank/flare-credit-card/"
+  },
+  {
+   "name": "Bandhan Lumina",
+   "status": "active",
+   "source": "https://www.paisabazaar.com/bandhan-bank/lumina-credit-card/"
+  },
+  {
+   "name": "Bandhan Bank Standard Chartered Credit Card",
+   "status": "discontinued",
+   "source": "https://www.bankbazaar.com/credit-card/bandhan-bank-standard-chartered-credit-card.html"
+  },
+  {
+   "name": "Equitas Tiga",
+   "status": "unknown",
+   "source": "https://equitas.bank.in/personal-banking/pay/credit-cards"
+  },
+  {
+   "name": "Equitas Selfe",
+   "status": "unknown",
+   "source": "https://equitas.bank.in/personal-banking/pay/credit-cards"
+  },
+  {
+   "name": "Equitas PowerMiles",
+   "status": "unknown",
+   "source": "https://equitas.bank.in/personal-banking/pay/credit-cards"
+  },
+  {
+   "name": "KVB Platinum Credit Card",
+   "status": "active",
+   "source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/"
+  },
+  {
+   "name": "KVB Honour Credit Card",
+   "status": "active",
+   "source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/"
+  },
+  {
+   "name": "KVB Corporate Credit Card",
+   "status": "active",
+   "source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/"
+  },
+  {
+   "name": "Karur Vysya SBI Gold Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+  },
+  {
+   "name": "Karur Vysya SBI Platinum Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+  },
+  {
+   "name": "Karur Vysya SBI Signature Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+  },
+  {
+   "name": "South Indian Bank SimplySAVE SBI Card",
+   "status": "active",
+   "source": "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-simplysave-sbi-card"
+  },
+  {
+   "name": "South Indian Bank SBI Platinum Card",
+   "status": "active",
+   "source": "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-sbi-platinum-card"
+  },
+  {
+   "name": "South Indian Bank OneCard",
+   "status": "active",
+   "source": "https://www.paisabazaar.com/south-indian-bank/onecard-credit-card/"
+  },
+  {
+   "name": "DCB PayLess Platinum Card",
+   "status": "active",
+   "source": "https://www.dcb.bank.in/personal/cards"
+  },
+  {
+   "name": "DCB PayLess Select Card",
+   "status": "active",
+   "source": "https://www.dcb.bank.in/personal/cards"
+  },
+  {
+   "name": "DCB Niyo Credit Card",
+   "status": "active",
+   "source": "https://www.dcb.bank.in/personal/cards"
+  },
+  {
+   "name": "DCB ZET Credit Card",
+   "status": "active",
+   "source": "https://www.dcb.bank.in/personal/cards"
+  },
+  {
+   "name": "DCB novio Credit Card",
+   "status": "active",
+   "source": "https://www.dcb.bank.in/personal/cards"
+  },
+  {
+   "name": "TMB Titanium Credit Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/tamilnad-mercantile-bank/credit-card/"
+  },
+  {
+   "name": "TMB Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://www.paisabazaar.com/tamilnad-mercantile-bank/credit-card/"
+  },
+  {
+   "name": "Edge+ CSB Bank RuPay Credit Card",
+   "status": "active",
+   "source": "https://csb.bank.in/csb-bank-edge-credit-card"
+  },
+  {
+   "name": "Edge CSB Bank Credit Card",
+   "status": "active",
+   "source": "https://csb.bank.in/csb-bank-edge-credit-card"
+  },
+  {
+   "name": "Suryoday SFB RuPay Select Credit Card",
+   "status": "active",
+   "source": "https://suryoday.bank.in/assets/pdf/kfs-select-26-may.pdf"
+  },
+  {
+   "name": "Suryoday SFB RuPay Platinum Credit Card",
+   "status": "active",
+   "source": "https://suryoday.bank.in/press-release/ssfb-launches-secured-credit-card-backed-by-fixed-deposits/"
+  },
+  {
+   "name": "Utkarsh SFB SuperCard",
+   "status": "active",
+   "source": "https://www.utkarsh.bank.in/personal/cards/credit-card/supercard"
+  },
+  {
+   "name": "Utkarsh SFB SmartGen Credit Card",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/utkarsh-small-finance-bank-credit-card"
+  },
+  {
+   "name": "Kotak 811 DreamDifferent Credit Card",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "SBI Card Unnati",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "IDFC FIRST WOW! Credit Card",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "AU Nomo Credit Card",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "Axis Bank Privilege Easy Credit Card",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "IDFC FIRST EA₹N Credit Card",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "SBM ZET Credit Card",
+   "status": "unknown",
+   "source": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+  },
+  {
+   "name": "IDBI Imperium Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://cardtrail.in/best/best-credit-card-for-secured-fd-india-2026/"
+  },
+  {
+   "name": "Jana Small Finance Bank credit card",
+   "status": "unknown",
+   "source": "search found no evidence of a product"
+  },
+  {
+   "name": "J&K Bank credit card",
+   "status": "unknown",
+   "source": "search found no evidence of a product"
+  },
+  {
+   "name": "City Union Bank credit card",
+   "status": "unknown",
+   "source": "search found no evidence of a product"
+  },
+  {
+   "name": "Karnataka Bank credit card",
+   "status": "unknown",
+   "source": "search found no evidence of a product"
+  },
+  {
+   "name": "Dhanlaxmi Bank credit card",
+   "status": "unknown",
+   "source": "search found no evidence of a product"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Bandhan Sparks",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic lounge visit per quarter",
+   "main_benefit": "Entry card with 5X reward points on grocery and apparel (capped at 400 points/month).",
+   "key_benefits": [
+    "Welcome reward bonus",
+    "BookMyShow offers",
+    "Fuel surcharge waiver",
+    "EMI cashback"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.0125,
+     "cap_inr": 100,
+     "desc": "Reward point value assumed Rs0.25/RP (DesiDime; Bandhan has not published a clear value). 5X = 10 RP per Rs200 on grocery & apparel, cap 400 points/month (=Rs100). Base 2 RP per Rs200."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/bandhan-bank/sparks-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.paisabazaar.com/bandhan-bank/sparks-credit-card/",
+    "https://savesage.club/credit-cards/bandhan-bank",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched Sep 2026; figures from third-party write-ups that conflict (network, fees, rates); bank fee schedule not found. Forex not confirmed (one source 3.5% for Ignite). Jewellery/fuel/rent exclusions not found."
+  },
+  {
+   "name": "Bandhan Ignite",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 999,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic and international lounges (counts not found)",
+   "main_benefit": "Everyday shopper card focused on grocery and travel spends.",
+   "key_benefits": [
+    "Welcome and milestone rewards",
+    "EazyDiner benefits"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://savesage.club/credit-card/bandhan-bank-ignite",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.paisabazaar.com/bandhan-bank/sparks-credit-card/",
+    "https://savesage.club/credit-cards/bandhan-bank",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched Sep 2026; figures from third-party write-ups that conflict (network, fees, rates); bank fee schedule not found. Forex not confirmed (one source 3.5% for Ignite). Jewellery/fuel/rent exclusions not found. Base 4 RP per Rs200 = 0.5% at Rs0.25/RP."
+  },
+  {
+   "name": "Bandhan Flare",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 2499,
+   "annual_fee": 2499,
+   "fee_waiver_spend": 600000,
+   "forex_markup": null,
+   "lounge_access": "Domestic and international lounges (counts not found)",
+   "main_benefit": "Travel and lifestyle card earning 10 RP per Rs200 plus monthly bonus points.",
+   "key_benefits": [
+    "5,000 bonus RP monthly on Rs75,000 spend",
+    "Amazon Pay voucher on welcome",
+    "BookMyShow and EazyDiner benefits",
+    "Golf privileges"
+   ],
+   "base_rate": 0.0125,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/bandhan-bank/flare-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.paisabazaar.com/bandhan-bank/sparks-credit-card/",
+    "https://savesage.club/credit-cards/bandhan-bank",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+    "https://www.paisabazaar.com/bandhan-bank/flare-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched Sep 2026; figures from third-party write-ups that conflict (network, fees, rates); bank fee schedule not found. Forex not confirmed (one source 3.5% for Ignite). Jewellery/fuel/rent exclusions not found."
+  },
+  {
+   "name": "Bandhan Lumina",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 9999,
+   "annual_fee": 9999,
+   "fee_waiver_spend": 1200000,
+   "forex_markup": null,
+   "lounge_access": "Domestic and international lounges (counts not found)",
+   "main_benefit": "Super-premium card with enhanced rewards on international spends and concierge perks.",
+   "key_benefits": [
+    "Oberoi gift voucher on welcome",
+    "Concierge and airport meet-and-greet",
+    "BookMyShow, EazyDiner, golf benefits"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.03,
+     "desc": "Reward point value assumed Rs0.25/RP (DesiDime; Bandhan has not published a clear value). 24 RP per Rs200 international = 3%; base 16 RP per Rs200 = 2%. Paisabazaar quotes 12%/8% instead (conflict, conservative taken)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/bandhan-bank/lumina-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.paisabazaar.com/bandhan-bank/sparks-credit-card/",
+    "https://savesage.club/credit-cards/bandhan-bank",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+    "https://www.paisabazaar.com/bandhan-bank/lumina-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched Sep 2026; figures from third-party write-ups that conflict (network, fees, rates); bank fee schedule not found. Forex not confirmed (one source 3.5% for Ignite). Jewellery/fuel/rent exclusions not found."
+  },
+  {
+   "name": "Bandhan Bank Standard Chartered Credit Card",
+   "issuer": "Bandhan Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Standard Chartered",
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Bandhan-StanChart co-brand; closed to new applications.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/bandhan-bank-standard-chartered-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/bandhan-bank-standard-chartered-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Search result states Bandhan no longer accepts new applications. Terms not collected."
+  },
+  {
+   "name": "Equitas Tiga",
+   "issuer": "Equitas Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry card with 3X points on UPI, contactless and Pay-by-3 EMI spends.",
+   "key_benefits": [
+    "Pay by 3 low-cost EMI",
+    "Fuel waiver cap Rs100/month, Rs1,200/year"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://equitas.bank.in/personal-banking/pay/credit-cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://equitas.bank.in/personal-banking/pay/credit-cards",
+    "https://equitasbank.com/strapi-dev/uploads/Key_Fact_Statement_300824_4f08cc142a.pdf",
+    "https://equitas.bank.in/strapi-dev/uploads/MITC_V1_1_51dd02b756.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees per Aug 2024 KFS (Rs500/1000/5000 joining and annual); one page says first year free (conflict, KFS kept). Reward point value not found so rates null. Fuel surcharge waiver 1% on Rs500-3,000 txns, no points on those. Cash advance 2.5% or Rs250. Base 1 RP per Rs100."
+  },
+  {
+   "name": "Equitas Selfe",
+   "issuer": "Equitas Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Customisable rewards card letting you pick OTT/brand memberships and reward categories.",
+   "key_benefits": [
+    "Memberships such as Amazon Prime, Jio Hotstar, SonyLiv, Zee5, Discovery+",
+    "Fuel waiver cap Rs250/month, Rs3,000/year"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://equitas.bank.in/personal-banking/pay/credit-cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://equitas.bank.in/personal-banking/pay/credit-cards",
+    "https://equitasbank.com/strapi-dev/uploads/Key_Fact_Statement_300824_4f08cc142a.pdf",
+    "https://equitas.bank.in/strapi-dev/uploads/MITC_V1_1_51dd02b756.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees per Aug 2024 KFS (Rs500/1000/5000 joining and annual); one page says first year free (conflict, KFS kept). Reward point value not found so rates null. Fuel surcharge waiver 1% on Rs500-3,000 txns, no points on those. Cash advance 2.5% or Rs250. One search snippet says Selfe fee Rs5,000 (income Rs18L+), conflicting with the KFS."
+  },
+  {
+   "name": "Equitas PowerMiles",
+   "issuer": "Equitas Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Priority Pass: 8 domestic + 4 international per year (third-party)",
+   "main_benefit": "Travel card with 9 RP per Rs100 international and 3 RP per Rs100 elsewhere, transferable 1:1 to miles.",
+   "key_benefits": [
+    "Points to partner airlines/hotels 1:1",
+    "Club Xplorer quarterly tiers",
+    "Fuel waiver cap Rs450/month, Rs5,400/year"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.045,
+     "desc": "9 RP per Rs100 at Rs0.50/RP for products/vouchers/travel (Rs0.25 statement credit, conservative lower value not used since primary use is redemption). Unconfirmed."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://equitas.bank.in/personal-banking/pay/credit-cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://equitas.bank.in/personal-banking/pay/credit-cards",
+    "https://equitasbank.com/strapi-dev/uploads/Key_Fact_Statement_300824_4f08cc142a.pdf",
+    "https://equitas.bank.in/strapi-dev/uploads/MITC_V1_1_51dd02b756.pdf",
+    "https://www.paisabazaar.com/equitas-small-finance-bank/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees per Aug 2024 KFS (Rs500/1000/5000 joining and annual); one page says first year free (conflict, KFS kept). Reward point value not found so rates null. Fuel surcharge waiver 1% on Rs500-3,000 txns, no points on those. Cash advance 2.5% or Rs250."
+  },
+  {
+   "name": "KVB Platinum Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Basic KVB-issued card with 2 points per Rs150 and 2X on travel.",
+   "key_benefits": [
+    "500 bonus points on activation",
+    "1.5X on dining, movies, car rental, insurance",
+    "Fuel surcharge waiver",
+    "EMI conversion"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+    "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Per BankBazaar; network, forex, point value not found. Finance charge up to 3.25-3.35% pm."
+  },
+  {
+   "name": "KVB Honour Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 1299,
+   "fee_waiver_spend": 500000,
+   "forex_markup": null,
+   "lounge_access": "Up to 4 complimentary domestic lounge visits",
+   "main_benefit": "KVB-issued card with 3 points per Rs150 and 4X on travel.",
+   "key_benefits": [
+    "700 welcome points",
+    "EMI conversion"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+    "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Per BankBazaar; network, forex, point value not found. Finance charge up to 3.25-3.35% pm."
+  },
+  {
+   "name": "KVB Corporate Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate card with up to 25 cards per account and 45 days interest-free.",
+   "key_benefits": [
+    "First-year annual fee free",
+    "2 points per Rs100",
+    "Fuel surcharge waiver"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+    "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Per BankBazaar; network, forex, point value not found. Finance charge up to 3.25-3.35% pm."
+  },
+  {
+   "name": "Karur Vysya SBI Gold Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "KVB-SBI co-brand with 10X points on dining, shopping and entertainment.",
+   "key_benefits": [
+    "2,000 bonus points on Rs2,000 spend in 60 days",
+    "1% fuel surcharge waiver",
+    "Rs100 cashback first ATM withdrawal"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+    "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Per BankBazaar; network, forex, point value not found. Finance charge up to 3.25-3.35% pm. Issued by SBI Card; may also appear under SBI collector."
+  },
+  {
+   "name": "Karur Vysya SBI Platinum Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Complimentary domestic and international lounge visits (counts not found)",
+   "main_benefit": "KVB-SBI co-brand with 5X points on dining, grocery, shopping, international.",
+   "key_benefits": [
+    "Rs3,000 e-gift voucher welcome",
+    "Fuel surcharge waiver"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+    "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Per BankBazaar; network, forex, point value not found. Finance charge up to 3.25-3.35% pm."
+  },
+  {
+   "name": "Karur Vysya SBI Signature Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "KVB-SBI premium co-brand with 5X points on premium categories, up to 50,000 points a year.",
+   "key_benefits": [
+    "Rs3,000 e-gift voucher welcome",
+    "Fuel surcharge waiver"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/",
+    "https://www.bankbazaar.com/karur-vysya-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Per BankBazaar; network, forex, point value not found. Finance charge up to 3.25-3.35% pm. 50,000 points quoted as Rs12,500 value (Rs0.25/pt)."
+  },
+  {
+   "name": "South Indian Bank SimplySAVE SBI Card",
+   "issuer": "South Indian Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "SIB-SBI co-brand with 10 points per Rs100 on dining, grocery, departmental and movies.",
+   "key_benefits": [
+    "2,000 bonus points on Rs2,000 in 60 days",
+    "1% fuel surcharge waiver",
+    "Limit up to Rs5 lakh"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-simplysave-sbi-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-sbi-platinum-card",
+    "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-simplysave-sbi-card",
+    "https://www.bankbazaar.com/south-indian-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee, network, point value not found."
+  },
+  {
+   "name": "South Indian Bank SBI Platinum Card",
+   "issuer": "South Indian Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 2999,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "SIB-SBI co-brand with 2 points per Rs100 and Rs3,000 welcome vouchers.",
+   "key_benefits": [
+    "Priority Pass membership",
+    "1% fuel surcharge waiver",
+    "Limit up to Rs10 lakh"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-sbi-platinum-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-sbi-platinum-card",
+    "https://www.southindianbank.bank.in/personal/cards/credit-card/south-indian-bank-simplysave-sbi-card",
+    "https://www.bankbazaar.com/south-indian-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee, network, point value not found."
+  },
+  {
+   "name": "South Indian Bank OneCard",
+   "issuer": "South Indian Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "OneCard",
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Digital secured (FD-backed) lifetime-free OneCard co-brand.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/south-indian-bank/onecard-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/south-indian-bank/onecard-credit-card/",
+    "https://www.southindianbank.com/content/personal-banking/secured-sib-onecard-credit-card/3885"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page fetch blocked; details only from search snippets. Rewards, network, FD minimum not found."
+  },
+  {
+   "name": "DCB PayLess Platinum Card",
+   "issuer": "DCB Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 350,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed card with limit up to 90% of FD.",
+   "key_benefits": [
+    "No joining fee"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards",
+    "https://www.paisabazaar.com/dcb-bank/payless-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on DCB secured-card page (fees/rewards not published there; paisabazaar fetch blocked). Renewal Rs350 waived on Rs50,000 prior-year spend per search snippet."
+  },
+  {
+   "name": "DCB PayLess Select Card",
+   "issuer": "DCB Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed secured credit card from DCB Bank.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on DCB secured-card page (fees/rewards not published there; paisabazaar fetch blocked). No terms found."
+  },
+  {
+   "name": "DCB Niyo Credit Card",
+   "issuer": "DCB Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Niyo",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed secured credit card from DCB Bank.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on DCB secured-card page (fees/rewards not published there; paisabazaar fetch blocked). No terms found."
+  },
+  {
+   "name": "DCB ZET Credit Card",
+   "issuer": "DCB Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "ZET",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed secured credit card from DCB Bank.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on DCB secured-card page (fees/rewards not published there; paisabazaar fetch blocked). No terms found."
+  },
+  {
+   "name": "DCB novio Credit Card",
+   "issuer": "DCB Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "novio",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed secured credit card from DCB Bank.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Listed on DCB secured-card page (fees/rewards not published there; paisabazaar fetch blocked). No terms found."
+  },
+  {
+   "name": "TMB Titanium Credit Card",
+   "issuer": "Tamilnad Mercantile Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Unsecured TMB credit card (existence per Paisabazaar; conflicting sources say only one card).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/tamilnad-mercantile-bank/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/tamilnad-mercantile-bank/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No terms found; may be same as TMB India Card."
+  },
+  {
+   "name": "TMB Platinum Credit Card",
+   "issuer": "Tamilnad Mercantile Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured TMB Platinum credit card (per Paisabazaar).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/tamilnad-mercantile-bank/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/tamilnad-mercantile-bank/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No terms found."
+  },
+  {
+   "name": "Edge+ CSB Bank RuPay Credit Card",
+   "issuer": "CSB Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Jupiter",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 999,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Jupiter-app RuPay UPI card with 1% cashback everywhere and 10% on top shopping brands.",
+   "key_benefits": [
+    "10% cashback top shopping brands",
+    "5% cashback top travel brands",
+    "1% on all spends"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.1,
+     "desc": "10% on top shopping brands (brand list and caps not captured); bank page Rs499 joining for first 2 lakh users, May 2025 KFS Rs999 (conservative)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://csb.bank.in/csb-bank-edge-credit-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://csb.bank.in/csb-bank-edge-credit-card",
+    "https://www.csb.co.in/pdf/key_fact_statement_edge_csb_bank_credit_card_2025.pdf",
+    "https://jupiter.money/edge-csb-terms-conditions/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Caps and brand list not found; verify KFS. Annual fee not found."
+  },
+  {
+   "name": "Edge CSB Bank Credit Card",
+   "issuer": "CSB Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Jupiter",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Standard Jupiter-app RuPay credit card from CSB Bank.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://csb.bank.in/csb-bank-edge-credit-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://csb.bank.in/csb-bank-edge-credit-card",
+    "https://www.csb.co.in/pdf/key_fact_statement_edge_csb_bank_credit_card_2025.pdf",
+    "https://jupiter.money/edge-csb-terms-conditions/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining nil per May 2025 KFS; rewards not captured."
+  },
+  {
+   "name": "Suryoday SFB RuPay Select Credit Card",
+   "issuer": "Suryoday Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Stable Money",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 150,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "FD-backed RuPay card with 0.5% cashback on all spends.",
+   "key_benefits": [
+    "Sold via Stable Money",
+    "Cash advance capped 20% of limit"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://suryoday.bank.in/assets/pdf/kfs-select-26-may.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://suryoday.bank.in/press-release/ssfb-launches-secured-credit-card-backed-by-fixed-deposits/",
+    "https://suryoday.bank.in/assets/pdf/kfs-select-26-may.pdf",
+    "https://www.bankbazaar.com/suryoday-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "KFS: annual Rs150+GST waived at Rs50,000 spend; press says lifetime free (conflict). Forex 2.5% per KFS (3rd-party 3%). Finance charge 2.95% pm. Min FD conflicting (Rs1,000 vs Rs1,11,500)."
+  },
+  {
+   "name": "Suryoday SFB RuPay Platinum Credit Card",
+   "issuer": "Suryoday Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Stable Money",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed RuPay card with 0.5% cashback on all spends.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://suryoday.bank.in/press-release/ssfb-launches-secured-credit-card-backed-by-fixed-deposits/",
+   "source_type": "third_party",
+   "sources": [
+    "https://suryoday.bank.in/press-release/ssfb-launches-secured-credit-card-backed-by-fixed-deposits/",
+    "https://suryoday.bank.in/assets/pdf/kfs-select-26-may.pdf",
+    "https://www.bankbazaar.com/suryoday-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No Platinum KFS found; fees and lounge terms unknown."
+  },
+  {
+   "name": "Utkarsh SFB SuperCard",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "super.money",
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free FD-backed RuPay card (FD from Rs100-500) with UPI spends and Myntra/Cleartrip/Flipkart cashback.",
+   "key_benefits": [
+    "Limit up to 90% of FD",
+    "Works on UPI via super.money"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "myntra",
+      "cleartrip",
+      "flipkart"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "cap_inr": 500,
+     "desc": "Bank page: 5% Myntra, 3% Cleartrip, 2% Flipkart on non-UPI; 2% (lowest) used. Cap Rs500 per statement across merchants per BankBazaar. Base: bank says 1% all spends, BankBazaar 0.5% non-UPI (conservative 0.5%)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.utkarsh.bank.in/personal/cards/credit-card/supercard",
+   "source_type": "official",
+   "sources": [
+    "https://www.utkarsh.bank.in/personal/cards/credit-card/supercard",
+    "https://www.bankbazaar.com/credit-card/utkarsh-supercard-credit-card.html",
+    "https://cardadvisor.in/cards/utkarsh-supercard"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Source conflict on rates. Finance charge ~3% pm."
+  },
+  {
+   "name": "Utkarsh SFB SmartGen Credit Card",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry card for first-time users and students; first-year annual fee waived.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/utkarsh-small-finance-bank-credit-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/utkarsh-small-finance-bank-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only snippet-level evidence; terms not found."
+  },
+  {
+   "name": "Kotak 811 DreamDifferent Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 250,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry secured card against Rs10,000 FD; no CIBIL needed.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  },
+  {
+   "name": "SBI Card Unnati",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured FD card (Rs25,000 FD); annual fee Rs499 from year 5.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  },
+  {
+   "name": "IDFC FIRST WOW! Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Zero-fee FD-backed card (Rs20,000 FD) with 4X rewards and zero forex.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  },
+  {
+   "name": "AU Nomo Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 199,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed card (Rs20,000 FD) with 2 points per Rs100.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  },
+  {
+   "name": "Axis Bank Privilege Easy Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 1500,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Premium FD-backed card, limit 80-90% of FD, 12,500 welcome EDGE points.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  },
+  {
+   "name": "IDFC FIRST EA₹N Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Virtual RuPay FD card (Rs5,000 FD) with 1% UPI cashback.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  },
+  {
+   "name": "SBM ZET Credit Card",
+   "issuer": "SBM Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured card (~Rs2,000 FD) with cashback on 80+ brands.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  },
+  {
+   "name": "IDBI Imperium Platinum Credit Card",
+   "issuer": "IDBI Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed card listed with up to 0.5% rewards and Rs499 annual fee.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardtrail.in/best/best-credit-card-for-secured-fd-india-2026/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardtrail.in/best/best-credit-card-for-secured-fd-india-2026/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "No card evidence found for Ujjivan SFB (only FD-secured mention), Jana SFB, ESAF SFB, J&K Bank, City Union, Karnataka Bank, Dhanlaxmi, Saraswat, Cosmos, SVC, TJSB, Bank of Bahrain.",
+  "Tata Capital, Aditya Birla Capital, Poonawalla (IndusInd co-brand announced), Shriram, L&T Finance, Indiabulls, Mahindra Finance: no own-issued cards found; NBFC cards are co-brands with banks (Poonawalla-IndusInd not detailed).",
+  "IRCTC, LIC, Ola, BookMyShow cards: IRCTC SBI cards already in cards.json; LIC/Ola/BMS not investigated beyond scope (issued by big banks).",
+  "Paisabazaar and many bank pages returned HTTP 403; most records rely on snippets and aggregators. Network, forex, point value missing for KVB, SIB, Equitas, DCB.",
+  "Bandhan card fees/network conflict across sources; verify with the bank schedule of charges.",
+  "Secured cards of big banks (Kotak, SBI, IDFC, AU, Axis, IDBI) only listed at headline level; other collectors should supersede."
+ ]
+}

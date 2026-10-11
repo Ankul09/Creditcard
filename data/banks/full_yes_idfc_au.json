@@ -1,0 +1,3163 @@
+{
+ "catalog": [
+  {
+   "name": "YES Bank Marquee",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-marquee"
+  },
+  {
+   "name": "YES Bank First Exclusive (RESERV)",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-first-exclusive"
+  },
+  {
+   "name": "YES Bank Elite+",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-elite-plus"
+  },
+  {
+   "name": "YES Bank Select",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-select"
+  },
+  {
+   "name": "YES Bank Ace",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-ace"
+  },
+  {
+   "name": "YES Bank Essence",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-essence"
+  },
+  {
+   "name": "YES Bank Wellness Plus",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-wellness-plus"
+  },
+  {
+   "name": "YES Bank Wellness Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Private Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-private"
+  },
+  {
+   "name": "YES Private Prime Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/yes-private-prime"
+  },
+  {
+   "name": "YES First Preferred Credit Card",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/banks/yes-bank-credit-cards"
+  },
+  {
+   "name": "YES Prosperity Cashback Plus Credit Card",
+   "status": "closed_to_new",
+   "source": "https://cardadvisor.in/banks/yes-bank-credit-cards"
+  },
+  {
+   "name": "YES Bank BYOC Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank UNI Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank FinBooster Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank ANQ Phi Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank POP CLUB Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank RIO Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank Klick RuPay Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank EMI Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank First Business Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "YES Bank Prosperity Business Credit Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/yes-bank-credit-card.html"
+  },
+  {
+   "name": "IDFC FIRST Wealth",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-first-wealth"
+  },
+  {
+   "name": "IDFC FIRST Select",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-select"
+  },
+  {
+   "name": "IDFC FIRST Millennia",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-millennia"
+  },
+  {
+   "name": "IDFC FIRST Classic",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-first-classic"
+  },
+  {
+   "name": "IDFC FIRST Mayura",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-mayura"
+  },
+  {
+   "name": "IDFC FIRST Gaj",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-gaj"
+  },
+  {
+   "name": "IDFC FIRST Private",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-first-private"
+  },
+  {
+   "name": "IDFC FIRST Diamond Reserve",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-diamond-reserve"
+  },
+  {
+   "name": "IDFC FIRST Ashva",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-ashva"
+  },
+  {
+   "name": "IDFC FIRST IndiGo Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-indigo"
+  },
+  {
+   "name": "IDFC FIRST IndiGo Secured Credit Card",
+   "status": "unknown",
+   "source": "https://cardadvisor.in/cards/idfc-indigo"
+  },
+  {
+   "name": "IDFC FIRST Club Vistara",
+   "status": "discontinued",
+   "source": "https://cardadvisor.in/cards/idfc-first-club-vistara"
+  },
+  {
+   "name": "IDFC FIRST HPCL Power+ Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-hpcl-power"
+  },
+  {
+   "name": "IDFC FIRST HPCL Power Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-hpcl-power"
+  },
+  {
+   "name": "IDFC FIRST Hello Cashback",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-hello-cashback"
+  },
+  {
+   "name": "IDFC FIRST WOW! Black",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-wow-black"
+  },
+  {
+   "name": "IDFC FIRST WOW",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-wow"
+  },
+  {
+   "name": "IDFC FIRST EARN",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-earn"
+  },
+  {
+   "name": "IDFC FIRST Quantum+",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/quantum-plus"
+  },
+  {
+   "name": "IDFC FIRST SWYP",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-swyp"
+  },
+  {
+   "name": "IDFC FIRST LIC Select",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-lic-select"
+  },
+  {
+   "name": "IDFC FIRST LIC Classic",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-lic-classic"
+  },
+  {
+   "name": "IDFC FIRST Digital RuPay Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/idfc-digital-rupay"
+  },
+  {
+   "name": "AU Zenith",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-zenith"
+  },
+  {
+   "name": "AU Zenith+",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-zenith-plus"
+  },
+  {
+   "name": "AU Traverse",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-traverse"
+  },
+  {
+   "name": "AU Ananta",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-ananta"
+  },
+  {
+   "name": "AU CA",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-ca"
+  },
+  {
+   "name": "AU CS",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-cs"
+  },
+  {
+   "name": "ixigo AU Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-ixigo"
+  },
+  {
+   "name": "AU Laksya",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-laksya"
+  },
+  {
+   "name": "AU LIT",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-lit"
+  },
+  {
+   "name": "AU Xcite Ace",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-xcite-ace"
+  },
+  {
+   "name": "AU Xcite Ultra",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-xcite-ultra"
+  },
+  {
+   "name": "AU Xcite",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-xcite"
+  },
+  {
+   "name": "AU Bank Vetta",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-vetta"
+  },
+  {
+   "name": "AU Altura",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-altura"
+  },
+  {
+   "name": "AU Altura Plus",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-altura-plus"
+  },
+  {
+   "name": "AU NOMO",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-nomo"
+  },
+  {
+   "name": "AU Prathama",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-prathama"
+  },
+  {
+   "name": "AU SPONT",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-spont"
+  },
+  {
+   "name": "AU Tejas",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-tejas"
+  },
+  {
+   "name": "Paytm AU Credit Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-paytm"
+  },
+  {
+   "name": "AU Kosmo",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-kosmo"
+  },
+  {
+   "name": "AU InstaPay",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/au-instapay"
+  },
+  {
+   "name": "AU Ixora Credit Card",
+   "status": "unknown",
+   "source": "https://www.wishfin.com/au-small-finance-bank-credit-card-6252/"
+  },
+  {
+   "name": "AU Nexus Credit Card",
+   "status": "unknown",
+   "source": "https://www.wishfin.com/au-small-finance-bank-credit-card-6252/"
+  }
+ ],
+ "cards": [
+  {
+   "name": "YES Bank Marquee",
+   "issuer": "YES Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 9999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.01,
+   "lounge_access": "Domestic spend-gated (Rs1L/quarter); international unlimited",
+   "main_benefit": "Premium travel card with up to 4.5% value on flights/hotels via points and unlimited international lounges.",
+   "key_benefits": [
+    "36 RP/Rs200 online, 18 RP/Rs200 base",
+    "Air India Maharaja Club transfer partner",
+    "Points expire after 36 months"
+   ],
+   "base_rate": 0.0225,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.045,
+     "desc": "36 RP/Rs200 at Rs0.25 (flights/hotels redemption value); cap 1,00,000 pts/cycle; vouchers Rs0.15, statement credit Rs0.10"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0225,
+     "desc": "Jewellery not stated on card page; sibling Select/Elite+ exclude it - check MITC"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "fuel",
+    "government",
+    "insurance",
+    "education",
+    "emi",
+    "railways",
+    "tolls"
+   ],
+   "source_url": "https://cardadvisor.in/cards/yes-marquee",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-marquee"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining Rs9,999. Realistic voucher value ~1.35% base. Existing record had a Rs25,000 monthly cap mention (unconfirmed). Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Joining Rs9,999+GST. Rs0.25/pt only via flights/hotels; vouchers Rs0.15, statement credit Rs0.10 (realistic base ~1.35% voucher). Points expire 36 months. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "YES Bank First Exclusive (RESERV)",
+   "issuer": "YES Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2499,
+   "annual_fee": 2499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.02,
+   "lounge_access": "6 international/yr; 3 domestic/quarter (spend-linked)",
+   "main_benefit": "Mid-premium card with 3% online earn and lounges; rebranded from First Exclusive to RESERV.",
+   "key_benefits": [
+    "Joining fee reversed on Rs40,000 spend in 30 days",
+    "24 RP/Rs200 online; 12 RP/Rs200 offline",
+    "No earn on government spends since Apr 2025"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "24 RP/Rs200 at Rs0.25; cap 36,000 pts per cycle",
+     "cap_inr": 9000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "government",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/yes-first-exclusive",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-first-exclusive"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Source forex 2% in card entry, ~1.75% in overview; kept the higher 2%. Rs0.25/pt only flights/hotels; vouchers Rs0.15. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Now branded YES Bank RESERV per source. Rs0.25 only on flights/hotels; vouchers Rs0.15. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "YES Bank Elite+",
+   "issuer": "YES Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.03,
+   "lounge_access": "2 domestic/quarter (spend-gated); 3 international/yr",
+   "main_benefit": "Mid-tier lifestyle card with 1.2% online earn and quarterly lounges.",
+   "key_benefits": [
+    "Joining fee waived on Rs20,000 in 30 days",
+    "Rs100+GST fee per redemption request"
+   ],
+   "base_rate": 0.006,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.012,
+     "desc": "12 RP/Rs200 at Rs0.20; cap 12,000 pts/cycle",
+     "cap_inr": 2400
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "rent",
+    "wallet_load",
+    "fuel",
+    "government",
+    "insurance",
+    "education",
+    "emi",
+    "railways",
+    "tolls"
+   ],
+   "source_url": "https://cardadvisor.in/cards/yes-elite-plus",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-elite-plus"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex raised to 3% on 15 Jun 2026. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Source lists jewellery as earning NO points and likely excluded from waiver targets. Forex raised to 3% on 15 Jun 2026. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "YES Bank Select",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 599,
+   "annual_fee": 599,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic/quarter (spend-gated)",
+   "main_benefit": "Entry-mid card (ex-Prosperity Edge) with 0.8% online earn, golf rounds and a Rs599 fee easily reversed.",
+   "key_benefits": [
+    "Joining fee reversed on Rs10,000 in first month",
+    "4 golf rounds/yr"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.008,
+     "desc": "8 RP/Rs200 at Rs0.20; cap 5,000 pts/cycle",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "rent",
+    "wallet_load",
+    "fuel",
+    "government",
+    "insurance",
+    "education",
+    "emi",
+    "railways",
+    "tolls"
+   ],
+   "source_url": "https://cardadvisor.in/cards/yes-select",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-select"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network Visa per cardadvisor bank page (earlier record unlabeled). Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Source lists jewellery as earning NO points. Value Rs0.10-0.25/pt by route. Joining Rs599 reversed on Rs10k first-month spend. Page returned unlabeled; matched to yes-select by request order. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "YES Bank Ace",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Basic Rs499 entry card (ex-Prosperity Rewards Plus) with 0.8% online reward points.",
+   "key_benefits": [
+    "Joining fee reversed on Rs5,000 spend in first month",
+    "Fuel surcharge waiver capped Rs100/month",
+    "Not UPI-linked"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.008,
+     "desc": "8 RP/Rs200 at Rs0.20; cap 5,000 pts/cycle",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "fuel",
+    "government",
+    "insurance",
+    "education",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/yes-ace",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-ace"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network Visa per aggregator only; YES does not publish it. Jewellery/other exclusions assumed similar to Select (unconfirmed). Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank Essence",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 799,
+   "annual_fee": 799,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.03,
+   "lounge_access": "1 domestic/quarter (spend-gated)",
+   "main_benefit": "Salaried-only entry card earning 1.2% on fashion, beauty, dining, travel and grocery online.",
+   "key_benefits": [
+    "Joining fee reversed on Rs20,000 in first month",
+    "Salaried applicants only"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "groceries",
+      "online_shopping"
+     ],
+     "rate": 0.012,
+     "desc": "12 RP/Rs200 online on fashion, beauty, dining, travel, grocery at Rs0.20; other online 8 RP/Rs200 (0.8%); cap 9,000 pts/cycle",
+     "cap_inr": 1800
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "fuel",
+    "government",
+    "insurance",
+    "education",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/yes-essence",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-essence"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex per aggregator table is 3% (not verified). Rupee value per point assumed 0.20 (not stated); aggregator headline shows 0.8%. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank Wellness Plus",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic/quarter (spend-linked)",
+   "main_benefit": "Healthcare-focused card with 3% on pharmacies/chemists plus health check-ups.",
+   "key_benefits": [
+    "Annual fee not waivable per MITC reading",
+    "Health check-up benefits"
+   ],
+   "base_rate": 0.006,
+   "rules": [
+    {
+     "merchants": [
+      "pharmacy",
+      "chemist"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "30 RP/Rs200 at pharmacies/chemists at Rs0.20"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/yes-wellness-plus",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-wellness-plus"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Source header and body disagree (0.6% base vs 3% pharmacy); both recorded. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank Wellness Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic/quarter",
+   "main_benefit": "Entry healthcare card: 2% at chemists/pharmacies with annual health and dental check-ups.",
+   "key_benefits": [
+    "Annual health, eye and dental check-ups",
+    "Unlimited consultations",
+    "Card protection plan"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [
+      "pharmacy",
+      "chemist"
+     ],
+     "categories": [],
+     "rate": 0.02,
+     "desc": "20 RP/Rs200 at chemists at assumed Rs0.20; 4 RP on other eligible spends"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee Rs499 for cards issued on/after 28 Aug 2024; older cards differ. Network not stated. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Private Credit Card",
+   "issuer": "YES Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 50000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 2500000,
+   "forex_markup": 0.005,
+   "lounge_access": "Unlimited domestic and international; 12 guest visits/yr",
+   "main_benefit": "Invite-only super-premium card with 5% international / 2.5% domestic and unlimited lounges.",
+   "key_benefits": [
+    "Joining fee Rs50,000 not waivable"
+   ],
+   "base_rate": 0.025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.05,
+     "desc": "40 RP/Rs200 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.025,
+     "desc": "20 RP/Rs200 at Rs0.25 domestic"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/yes-private",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-private"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite only. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Private Prime Credit Card",
+   "issuer": "YES Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 20000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 2000000,
+   "forex_markup": 0.005,
+   "lounge_access": "Unlimited domestic and international; 4 guest visits/yr",
+   "main_benefit": "Invite-only private card (lower fee tier) with 5% international / 2.5% domestic and unlimited lounges.",
+   "key_benefits": [
+    "Joining fee Rs20,000 not waivable"
+   ],
+   "base_rate": 0.025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.05,
+     "desc": "40 RP/Rs200 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.025,
+     "desc": "20 RP/Rs200 at Rs0.25 domestic"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/yes-private-prime",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-private-prime"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": " Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES First Preferred Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 2499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Older YES premium card (Rs2,499 fee) now archived.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/banks/yes-bank-credit-cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/banks/yes-bank-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Archived per cardadvisor; no further data. Still appears on bankbazaar URLs. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Prosperity Cashback Plus Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Older YES cashback card (Rs1,499 fee), closed to new customers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/banks/yes-bank-credit-cards",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/banks/yes-bank-credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Archived/closed per cardadvisor (listed as YES Prosperity Cashback in articles). No reward data found. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank BYOC Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 249,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Quarterly domestic visit (with plan)",
+   "main_benefit": "Build-your-own card: pick 1% cashback or 8 RP/Rs200, with optional monthly perk plans.",
+   "key_benefits": [
+    "Eco version Rs249, metal Rs3,499 one-time",
+    "Monthly plans Rs99/149/249",
+    "Free ET Prime on first anniversary"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Source gives plan fees; other sources give replacement fee Rs349/Rs3,599 (conflict). Forex not stated: 3.5% standard assumed. Network not stated. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank UNI Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Uni",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Uni co-brand with 1% Uni Coins on all spends and zero forex.",
+   "key_benefits": [
+    "Fuel surcharge waiver up to Rs500/month",
+    "NFC contactless"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining fee nil (one table says Rs399, conflict; kept nil). Annual Rs499 waived on Rs50,000. Zero forex per one source only. Network not stated; Uni coin value assumed Rs1. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank FinBooster Credit Card",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "BankBazaar",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free BankBazaar co-brand built for credit-score building, with CreditStrong subscription.",
+   "key_benefits": [
+    "Free CreditStrong subscription",
+    "Rs250 voucher on activation",
+    "Rs2.5 lakh credit shield"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Reward grid inconsistent between sections (5X/3X/2X vs 10/6/2 per Rs200); omitted. Network Visa per fee terms, features cite Mastercard. Not Paisabazaar; no YES-Paisabazaar card found. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank ANQ Phi Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "ANQ",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": "3 international/yr",
+   "main_benefit": "Lifestyle card with 24 RP/Rs200 on travel, dining, grocery, apparel and 3 international lounges per year.",
+   "key_benefits": [
+    "Fuel surcharge waiver",
+    "EMI options"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.024,
+     "desc": "24 RP/Rs200 on travel, dining, hotels, groceries, apparel, entertainment at assumed Rs0.20; no cap"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Point value not stated (0.20 assumed). Fees partly from Scribd MITC of uncertain provenance. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank POP CLUB Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "POP (POPclub)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 399,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "RuPay co-brand with 10 POPcoins/Rs100 online and Rs5,000 of joining vouchers.",
+   "key_benefits": [
+    "Joining benefits worth Rs5,000 (Blinkit, Cleartrip, Zomato Gold Mini)",
+    "1,500 bonus POPcoins on Rs1.5L spend",
+    "UPI on RuPay"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "POPcoin rupee value unknown so rates left null. 10 coins/Rs100 online, 2 offline. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank RIO Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Rio",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 domestic/quarter",
+   "main_benefit": "Lifetime-free RuPay card with UPI-on-credit and 2 domestic lounge visits per quarter.",
+   "key_benefits": [
+    "UPI via any QR",
+    "Fuel surcharge waiver"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No reward rate stated. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank Klick RuPay Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Kiwi",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0275,
+   "lounge_access": null,
+   "main_benefit": "Virtual lifetime-free RuPay card issued via Kiwi with UPI cashback.",
+   "key_benefits": [
+    "100% virtual",
+    "UPI cashback (aggregator: 1.5%)",
+    "EMI on Call"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "upi"
+     ],
+     "categories": [],
+     "rate": 0.015,
+     "desc": "1.5% UPI cashback per one aggregator; unverified, rate not on bankbazaar page"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Klick via Kiwi: second source says 1.5% UPI cashback, 3 lounge visits/yr with Neon membership, forex 2.75%. Conflicting/low quality. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank EMI Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Auto-EMI conversion card with 1% cashback on non-EMI spends.",
+   "key_benefits": [
+    "Auto-EMI at 18% p.a.",
+    "1% EMI processing fee"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1% cashback capped Rs500/month. Joining Rs749 for cards issued 2022-Aug 2024. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank First Business Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Business card with lounges, golf and reward points on business and personal spends.",
+   "key_benefits": [
+    "Domestic and international lounges",
+    "Golf privileges",
+    "Purchase protection"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Reward rate not stated. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "YES Bank Prosperity Business Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Business card with 8 RP/Rs200 on travel/dining and 10,000 bonus points on Rs6L spend.",
+   "key_benefits": [
+    "Quarterly lounge visit",
+    "Golf benefits",
+    "1% fuel waiver",
+    "Rs3 lakh credit shield"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "dining"
+     ],
+     "rate": 0.016,
+     "desc": "8 RP/Rs200 on air travel, hotels, dining, car rental at assumed Rs0.20; monthly cap exists (amount unknown)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/yes-bank-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network not stated. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Wealth",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "1 domestic + 1 international/quarter (gated Rs20k prior-month)",
+   "main_benefit": "Lifetime-free card with 1.25% on dining, travel and international; benefits gated on Rs20k prior-month spend.",
+   "key_benefits": [
+    "Points expire after 24 months",
+    "Rewards capped to credit limit"
+   ],
+   "base_rate": 0.00375,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "international"
+     ],
+     "rate": 0.0125,
+     "desc": "10 pts/Rs200 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.00375,
+     "desc": "Jewellery not stated; other 3 pts/Rs200 (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/idfc-first-wealth",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-first-wealth"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex 0% per KFS 15 Sep 2026. 1% fee on rent. Income Rs3L/month. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Lifetime free. Lounge/golf/movie benefits gated on Rs20k prior-month spend. Points expire 24 months. Source finance-charge field looks off (0.71%/month). Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "IDFC FIRST Select",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "1 domestic/quarter (gated Rs20k/month); 4 railway/quarter",
+   "main_benefit": "Lifetime-free everyday card with 1.25% on dining/travel/international and movie BOGO.",
+   "key_benefits": [
+    "Movie BOGO needs Rs20k prior-month spend"
+   ],
+   "base_rate": 0.00375,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "international"
+     ],
+     "rate": 0.0125,
+     "desc": "10 pts/Rs200 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.00375,
+     "desc": "Jewellery not stated; other spend 3 pts/Rs200 (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/idfc-select",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-select"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex 0% per KFS 15 Sep 2026 (was 1.99%). 1% fee on rent (min Rs249), fuel >Rs30k. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Lifetime free. Forex 0% per KFS 15 Sep 2026 (was 1.99%). Points expire 24 months. 1% fee on rent (min Rs249), fuel >Rs30k. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "IDFC FIRST Millennia",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free card with 1.25% on dining, travel, international after June 2026 revision.",
+   "key_benefits": [
+    "6X online accelerator ended June 2026",
+    "24-month points expiry"
+   ],
+   "base_rate": 0.00375,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "international"
+     ],
+     "rate": 0.0125,
+     "desc": "10 pts/Rs200 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.00375,
+     "desc": "Jewellery not stated (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/idfc-millennia",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-millennia"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1X on utilities/insurance/railway/FASTag; 1% fee on rent and fuel >Rs30k. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Lifetime free; same earn grid as Select/Wealth. Fees: 1% rent (min Rs249), 1% fuel >Rs30k/cycle. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "IDFC FIRST Classic",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free entry card with 1.25% on dining, travel and international.",
+   "key_benefits": [],
+   "base_rate": 0.00375,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "international"
+     ],
+     "rate": 0.0125,
+     "desc": "10 pts/Rs200 at Rs0.25"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/idfc-first-classic",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-first-classic"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1 pt/Rs200 on utilities/insurance/FASTag/railway. Points expire 24 months. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Mayura",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 5999,
+   "annual_fee": 5999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "16 domestic + 16 international/yr",
+   "main_benefit": "Premium metal-style travel card with 16+16 lounges and 1.67% above Rs20k monthly spend.",
+   "key_benefits": [
+    "Milestone 7,500 pts at Rs8L; 15,000 at Rs15L"
+   ],
+   "base_rate": 0.0083,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0167,
+     "desc": "10 pts/Rs150 above Rs20,000/month spend and on birthday (5 pts up to Rs20k)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0083,
+     "desc": "5 pts/Rs150 (cut from 10 on 18 Jan 2026)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0083,
+     "desc": "Jewellery not stated; base 5 pts/Rs150 at Rs0.25 (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/idfc-mayura",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-mayura"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Mastercard World variant also referenced. Intl earn cut 10X to 5X on 18 Jan 2026. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Point value Rs0.25 voucher/statement; Rs0.50 on in-app flights/hotels. Rent/education/govt/wallet 3 pts; insurance/utilities 1 pt. Milestone 7,500 pts at Rs8L (15,000 at Rs15L). Earning capped at credit limit per cycle. Source conflict on app-travel cap. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless"
+  },
+  {
+   "name": "IDFC FIRST Gaj",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12500,
+   "annual_fee": 12500,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0,
+   "lounge_access": "4 domestic (1 guest) + 4 international/quarter",
+   "main_benefit": "Invite-only private banking card with 0.83% base and 8 lounge visits per quarter.",
+   "key_benefits": [
+    "Bonus capped 15,000 pts/month"
+   ],
+   "base_rate": 0.0083,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.005,
+     "desc": "3 pts/Rs150 at Rs0.25"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-gaj",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-gaj"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite only (Private Banking). Rs1 per pt on flights/hotels via app. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Private",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 50000,
+   "annual_fee": 25000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic and international",
+   "main_benefit": "Invite-only card with 1.67% flat domestic earn, unlimited lounges and Rs1,500/month BookMyShow.",
+   "key_benefits": [
+    "Rs1,500/month BookMyShow benefit",
+    "No spend milestones from 17 Jul 2026"
+   ],
+   "base_rate": 0.0167,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-first-private",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-first-private"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Joining Rs50,000 commencement fee. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Diamond Reserve",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.0,
+   "lounge_access": "8 domestic + 8 international/yr (gated Rs20k prior month)",
+   "main_benefit": "Mid-premium card with 8+8 lounges; receives the closed Club Vistara migrants.",
+   "key_benefits": [
+    "Club Vistara holders moved lifetime free"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0167,
+     "desc": "10 pts/Rs150 above Rs20k monthly spend, Rs0.25/pt"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-diamond-reserve",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-diamond-reserve"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "International spends earn no points. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Ashva",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "16 domestic + 8 international/yr (gated Rs20k)",
+   "main_benefit": "Premium travel card with 16 domestic + 8 international lounges and 1.67% above Rs20k monthly.",
+   "key_benefits": [],
+   "base_rate": 0.0083,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0167,
+     "desc": "10 pts/Rs150 above Rs20k/month, Rs0.25/pt"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-ashva",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-ashva"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rent/wallet/education/government earn 3 pts/Rs150. Income Rs75k/month. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST IndiGo Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Co-brand card earning 6 BluChips per Rs100 on IndiGo and 3 elsewhere.",
+   "key_benefits": [
+    "Up to 25,000 BluChips/year in milestones"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-indigo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-indigo"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "BluChip value not published; rates null. Also issued on RuPay. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST IndiGo Secured Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "unknown",
+   "co_brand_partner": "IndiGo",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "FD-backed IndiGo co-brand named in the bank MITC.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-indigo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-indigo"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only named in IDFC MITC per search; no terms found. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Club Vistara",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Vistara co-brand closed 30 Sep 2026; holders migrated to Diamond Reserve.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-first-club-vistara",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-first-club-vistara"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Programme ended 30 Sep 2026; milestone vouchers ended 31 Mar 2025. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST HPCL Power+ Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "HPCL",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.0,
+   "lounge_access": "1 domestic/quarter (gated Rs20k/month)",
+   "main_benefit": "HPCL fuel card with 5% on HPCL fuel (30X) plus HP Pay Happy Coins.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "desc": "30X reward points per Rs150 at HPCL, 1 RP = Rs0.25 (issuer savings calc shows 5%). NO 1% fuel surcharge waiver. HP Pay app adds 6 Happy Coins per Rs100 (~1.5%, HPCL currency, max 600 coins/month on Rs10,000) not in rate. Cap 2,400 RP/cycle per cardadvisor (not seen on issuer page).",
+     "cap_inr": 600
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "30X per Rs150 on grocery and utility; utility cap Rs2,000/cycle unverified per cardadvisor"
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+    "https://cardadvisor.in/cards/idfc-hpcl-power"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "HPCL fuel cap 2,400 pts (Rs600)/cycle on up to Rs12k. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: 30X/Rs150 and Happy Coins from IDFC official page. Fee Rs499 joining/annual and waiver Rs1.5L from cardadvisor only. Issuer headline 'up to 6.5%' = 5% + 1.5% HP Pay. Base 3X per Rs150 = 0.5%. Zero forex stated on issuer page. Non-HPCL fuel earns nothing (cardadvisor). Conflicting hotel/flight bonus figures omitted."
+  },
+  {
+   "name": "IDFC FIRST HPCL Power Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "HPCL",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 199,
+   "annual_fee": 199,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Entry HPCL fuel card with 3.5% on HPCL fuel (21X) and 2.5% grocery/utility/FASTag.",
+   "key_benefits": [],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.035,
+     "desc": "21X per Rs150 at Rs0.25; cap 700 pts (Rs175)/cycle",
+     "cap_inr": 175
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.025,
+     "desc": "15X per Rs150; FASTag too"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+    "https://cardadvisor.in/cards/idfc-hpcl-power"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "2X on other spends (0.33%). Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Entry variant on same issuer page: joining and annual fee Rs199, annual fee reversed on a spend threshold not captured. 15X on grocery/utility/FASTag, 2X other (RP per Rs150). Caps, forex markup, exclusions not read."
+  },
+  {
+   "name": "IDFC FIRST Hello Cashback",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "FD-secured RuPay card with 3% online cashback, 5% above Rs10k.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "3% online up to Rs10k/cycle, 5% above; online cap Rs1,000/cycle; total cap Rs1,500/cycle",
+     "cap_inr": 1500
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-hello-cashback",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-hello-cashback"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Min FD Rs10k. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST WOW! Black",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 750,
+   "annual_fee": 750,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.0,
+   "lounge_access": "4 domestic/yr (gated Rs20k)",
+   "main_benefit": "FD-secured card with 0.67% base and 4 domestic lounge visits.",
+   "key_benefits": [],
+   "base_rate": 0.0067,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/idfc-wow-black",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-wow-black"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Min FD Rs20k; bonus capped 8,000 pts/month. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST WOW",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free FD-secured card for credit building, zero forex.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-wow",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-wow"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Min FD Rs20k; utility rate 0.13%. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST EARN",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Virtual FD-secured RuPay card with 1% cashback on UPI via IDFC app.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "upi"
+     ],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% on UPI scan-pay via IDFC app; cap Rs500/cycle",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-earn",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-earn"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee from year two; physical card Rs199. Min FD Rs5k. Name is EA₹N on issuer. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Quantum+",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "FD-backed lifetime-free card with 1-2% online cashback.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "1% online up to Rs10k/cycle, 2% above; total cap Rs500/cycle",
+     "cap_inr": 500
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Min FD Rs5k-Rs10k (conflict). 1% UPI cashback via IDFC app. Forex 3.5% per search snippet. Network not confirmed. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST SWYP",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Up to 16 railway/yr",
+   "main_benefit": "Entry card that converts purchases to no-cost EMI with up to 16 railway lounge visits.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-swyp",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-swyp"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Headline 1% milestone-based; Rs99 redemption fee. UPI link via Rs499 membership per one source. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST LIC Select",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "2 domestic airport + 4 railway/quarter",
+   "main_benefit": "LIC co-brand with 2% on LIC premiums paid on licindia.in.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "licindia.in"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.02,
+     "desc": "LIC premium via licindia.in"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-lic-select",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-lic-select"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Points expire 3 years. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST LIC Classic",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "1 domestic airport + 2 railway/quarter",
+   "main_benefit": "LIC co-brand entry card with 1.2% on LIC premiums.",
+   "key_benefits": [],
+   "base_rate": 0.006,
+   "rules": [
+    {
+     "merchants": [
+      "licindia.in"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.012,
+     "desc": "LIC premium via licindia.in"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-lic-classic",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-lic-classic"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Essentials share 300-pt monthly ceiling. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "IDFC FIRST Digital RuPay Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 199,
+   "annual_fee": 199,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Add-on virtual RuPay card for UPI with 0.38% reward, needs existing IDFC card.",
+   "key_benefits": [],
+   "base_rate": 0.0038,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/idfc-digital-rupay",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-digital-rupay"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "UPI spend above Rs2,000; Rs200 welcome cashback. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Zenith",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 7999,
+   "annual_fee": 7999,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.0349,
+   "lounge_access": "8 domestic + 8 international/yr, spend-gated",
+   "main_benefit": "Premium card with 1.25% on dining/groceries/international and 8+8 lounges; new applicants steered to Zenith+.",
+   "key_benefits": [
+    "2,500 pt birthday bonus",
+    "Taj/voucher perks withdrawn 1 Jan 2026"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP/Rs100 at Rs0.25; cap 5,000 RP/cycle",
+     "cap_inr": 1250
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "international"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP/Rs100"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0075,
+     "desc": "Jewellery not stated; other spend 3 RP/Rs100 (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "education",
+    "government",
+    "emi",
+    "fuel",
+    "cash_advance",
+    "bbps",
+    "transport",
+    "quasi_cash"
+   ],
+   "source_url": "https://cardadvisor.in/cards/au-zenith",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-zenith"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex raised to 3.49% from 1 Oct 2026. Fuel waiver cap Rs100/cycle. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Forex raised to 3.49% from 1 Oct 2026. Fuel surcharge waiver cap Rs100/cycle. 1,000 RP per cycle at Rs50k spend. Taj/voucher perks withdrawn 1 Jan 2026. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "AU Zenith+",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 800000,
+   "forex_markup": 0.0099,
+   "lounge_access": "Airport lounge access, unconditional (count not stated)",
+   "main_benefit": "Metal card with 2% on dining/travel/international, 0.99% forex and lounge access.",
+   "key_benefits": [
+    "Taj Epicure on Rs12L spend",
+    "Fuel waiver 1% up to Rs1,000"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "international"
+     ],
+     "rate": 0.02,
+     "desc": "Aggregator headline 2%; point value uncertain (page conflicts Rs0.25 vs Rs1)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-zenith-plus",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-zenith-plus"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Min income Rs2.5L/month. Rate conservative. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Traverse",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.0099,
+   "lounge_access": "2 domestic + international/quarter",
+   "main_benefit": "NRI-only travel card with 1% international earn and 0.99% forex.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "1% international"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-traverse",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-traverse"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "NRIs only; min income Rs1L/month. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Ananta",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2000,
+   "annual_fee": 2000,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.0349,
+   "lounge_access": "Domestic access (count not stated)",
+   "main_benefit": "Premium-lite card with 1.25% on shopping/dining/travel and 8,000 welcome points.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP/Rs100 at Rs0.25; cap 5,000 pts/cycle",
+     "cap_inr": 1250
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-ananta",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-ananta"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "2 RP/Rs100 other retail. Issuer 2026 press release confirms Ananta in new lineup. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU CA",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "lounge_access": "2 domestic/quarter after Rs50,000 prior-quarter spend",
+   "main_benefit": "Chartered Accountant (ICAI) metal card with 2% on dining/travel/tax/software.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "8 RP/Rs100 at Rs0.25 on dining, travel, tax, software"
+    }
+   ],
+   "excludes": [
+    "cash_advance",
+    "rent",
+    "wallet_load",
+    "education",
+    "government",
+    "fuel",
+    "emi",
+    "bbps"
+   ],
+   "source_url": "https://cardadvisor.in/cards/au-ca",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-ca"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "ICAI members only. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU CS",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "lounge_access": "2 domestic/quarter after Rs50,000 prior-quarter spend",
+   "main_benefit": "Company Secretary (ICSI) metal card with 2% on dining/travel/tax/software.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "8 RP/Rs100 at Rs0.25; cap 5,000 pts/cycle",
+     "cap_inr": 1250
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-cs",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-cs"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "ICSI members only. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "ixigo AU Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "ixigo",
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "8 domestic (spend-gated) + 8 railway + 1 international Priority Pass",
+   "main_benefit": "Ixigo co-brand with 10% off flights/hotels, train gateway waivers and Priority Pass.",
+   "key_benefits": [
+    "Up to Rs3,000 off flights and hotels",
+    "Train gateway charge waived 4x/month"
+   ],
+   "base_rate": 0.00625,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-ixigo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-ixigo"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Min income Rs20k/month. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Laksya",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.0349,
+   "lounge_access": "8 domestic/yr (2/quarter, after Rs50k prior-quarter)",
+   "main_benefit": "Gen Z/mid-career card with 1.25% on grocery/departmental and BOGO movies.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP/Rs100 at Rs0.25 grocery/departmental; cap 1,000 pts/cycle",
+     "cap_inr": 250
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-laksya",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-laksya"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "2 RP/Rs100 other retail. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU LIT",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free customisable card where paid packs unlock 5% grocery and 2.5% online.",
+   "key_benefits": [
+    "Packs Rs49-399 per 90 days",
+    "Milestone cashback 5% at Rs10k/month, 2% at Rs15k"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.025,
+     "desc": "10X pack (Rs299/90 days) 10 pts/Rs100; cap 10,000 pts/cycle",
+     "cap_inr": 2500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "desc": "Grocery pack Rs299/90 days; 5% cashback",
+     "cap_inr": 500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0025,
+     "desc": "Jewellery not stated; base 1 pt/Rs100 at Rs0.25; base+online cap Rs2,500/month (unconfirmed)",
+     "cap_inr": 2500
+    }
+   ],
+   "excludes": [
+    "cash_advance",
+    "emi",
+    "fuel",
+    "rent",
+    "education",
+    "government",
+    "bbps",
+    "transport"
+   ],
+   "source_url": "https://cardadvisor.in/cards/au-lit",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-lit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Packs optional. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Lifetime free; paid optional packs Rs49-399/quarter. Milestone cashback 5% at Rs10k/month, 2% at Rs15k. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "AU Xcite Ace",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 749,
+   "annual_fee": 749,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.0349,
+   "lounge_access": "2 domestic/quarter after Rs50k prior-quarter",
+   "main_benefit": "RuPay cashback card with 2% base, rising to 3% via milestones.",
+   "key_benefits": [],
+   "base_rate": 0.02,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-xcite-ace",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-xcite-ace"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Milestones 1% on Rs7,500, 2% Rs12,500, 3% Rs20,000; fuel waiver 1%. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Xcite Ultra",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 749,
+   "annual_fee": 749,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.0349,
+   "lounge_access": "2/quarter after Rs50k prior-quarter",
+   "main_benefit": "RuPay card with 3% international and 2% online reward points.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.03,
+     "desc": "12 RP/Rs100 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "8 RP/Rs100 at Rs0.25"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-xcite-ultra",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-xcite-ultra"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": " Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Xcite",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 249,
+   "annual_fee": 249,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Low-fee RuPay card with 3.75% on dining/movies/grocery.",
+   "key_benefits": [],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.0375,
+     "desc": "15 RP/Rs100 at Rs0.25 on dining, movies, grocery, departmental"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-xcite",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-xcite"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "3 RP/Rs100 other retail. Possibly cap exists (not read). Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Bank Vetta",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Family card with 1% on groceries/departmental stores.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.01,
+     "desc": "1% on groceries/departmental"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-vetta",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-vetta"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fuel waiver 1%; min income Rs30k/month. Aggregators also list \"Vetta\" at Rs2,999. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Altura",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 199,
+   "annual_fee": 199,
+   "fee_waiver_spend": 40000,
+   "forex_markup": 0.0349,
+   "lounge_access": "2 railway/quarter",
+   "main_benefit": "Cheapest AU card: 2% on groceries/utilities with railway lounges.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.02,
+     "desc": "2% cashback; cap Rs50/cycle",
+     "cap_inr": 50
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-altura",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-altura"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": " Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Altura Plus",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 80000,
+   "forex_markup": 0.0349,
+   "lounge_access": "8 railway/yr",
+   "main_benefit": "Entry RuPay with 1.5% offline cashback and 8 railway lounges.",
+   "key_benefits": [
+    "Year-one waiver on Rs20k in 90 days",
+    "500 bonus pts on Rs20k monthly retail"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.015,
+     "desc": "Offline retail 1.5% cashback; cap Rs100/cycle",
+     "cap_inr": 100
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.005,
+     "desc": "2 pts/Rs100 at Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.015,
+     "desc": "Jewellery not stated; offline retail cashback capped Rs100/cycle (unconfirmed)",
+     "cap_inr": 100
+    }
+   ],
+   "excludes": [
+    "rent",
+    "education",
+    "government",
+    "fuel",
+    "emi",
+    "cash_advance",
+    "bbps",
+    "quasi_cash",
+    "transport"
+   ],
+   "source_url": "https://cardadvisor.in/cards/au-altura-plus",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-altura-plus"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Offline cashback cap Rs100/cycle. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated. | Prior record: Year-one waiver Rs20k in 90 days. 500 bonus pts at Rs20k monthly retail spend. Fee shown excludes 18% GST. Source is aggregator CardAdvisor (third_party); issuer MITC not read. Jewellery treatment not stated on source unless noted."
+  },
+  {
+   "name": "AU NOMO",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 199,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0099,
+   "lounge_access": null,
+   "main_benefit": "FD-secured AU card (the AU credit card against FD) needing no income proof.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-nomo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-nomo"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "FD min Rs20,000, 24 months, 100% lien. Aggregators also list Rs199 annual. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Prathama",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 100,
+   "annual_fee": 100,
+   "fee_waiver_spend": 75000,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "New-to-credit starter card with 2 RP/Rs100 on contactless.",
+   "key_benefits": [],
+   "base_rate": 0.0025,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-prathama",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-prathama"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": " Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU SPONT",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 299,
+   "annual_fee": 299,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0349,
+   "lounge_access": "2 railway/quarter; 2 domestic after Rs50k",
+   "main_benefit": "RuPay cashback card with 1% on e-commerce, POS and UPI.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-spont",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-spont"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Cashback cap Rs500/cycle. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Tejas",
+   "issuer": "AU Small Finance Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Young-salaried card with 10% cashback at partner merchants.",
+   "key_benefits": [],
+   "base_rate": 0.0025,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-tejas",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-tejas"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Partner caps apply; merchants not listed. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "Paytm AU Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Paytm co-brand with 5% on Paytm Travel/Gold and 1% base.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm travel",
+      "paytm gold"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "5% on Paytm Travel and Gold; point Rs1 as Gold, Rs0.50 elsewhere"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-paytm",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-paytm"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": " Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Kosmo",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Kiwi",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Kiwi co-brand with 1.5% cashback on all spends via UPI.",
+   "key_benefits": [],
+   "base_rate": 0.015,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-kosmo",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-kosmo"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fuel waiver 1% capped Rs100/cycle. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU InstaPay",
+   "issuer": "AU Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0349,
+   "lounge_access": null,
+   "main_benefit": "Virtual add-on for existing AU holders: 1% UPI cashback.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "upi"
+     ],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% on UPI >= Rs200; cap Rs100/cycle",
+     "cap_inr": 100
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/au-instapay",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/au-instapay"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": " Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Ixora Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Older AU card listed only by aggregators.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.wishfin.com/au-small-finance-bank-credit-card-6252/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.wishfin.com/au-small-finance-bank-credit-card-6252/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Appears in wishfin/cardtrail only; not on cardadvisor current list. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  },
+  {
+   "name": "AU Nexus Credit Card",
+   "issuer": "AU Small Finance Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Older lifetime-free AU card listed only by aggregators.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.wishfin.com/au-small-finance-bank-credit-card-6252/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.wishfin.com/au-small-finance-bank-credit-card-6252/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Not on cardadvisor current list. Fees exclude 18% GST. Source is aggregator (third_party); issuer MITC not read. Jewellery/gold treatment not confirmed unless stated."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "No issuer MITC/official pages read; nearly all data from cardadvisor.in and bankbazaar aggregators (confidence low except HPCL Power+).",
+  "AU Swipe, Surge, SpendsPrime (named in assignment) not found on any current list; likely discontinued or renamed. AU Altura(no plus) data thin.",
+  "IDFC FIRST Early Salary, SIGNIA, and Rupay variants of Millennia not found; IDFC Mastercard Select variant not separate.",
+  "YES Bank Paisabazaar co-brand not found (FinBooster is BankBazaar). YES Prosperity Rewards/Edge now Ace/Select. Other YES co-brands (Kiwi Klick) low quality.",
+  "Jewellery/gold exclusion unverified for most cards; networks for several YES cards unknown.",
+  "POPcoin, BluChip, Uni coin values unknown so rates null. Official AU 2026 press release PDF unreadable (Ananta, Laksya, Tejas, Prathama confirmed by search).",
+  "YES Prosperity Cashback Plus and First Preferred have no detail."
+ ]
+}

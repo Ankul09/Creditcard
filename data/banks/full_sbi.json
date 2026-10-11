@@ -1,0 +1,3951 @@
+{
+ "catalog": [
+  {
+   "name": "Cashback SBI Card",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "Titan SBI Card",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://www.sbicard.com/en/personal/credit-cards/shopping/titan-sbi-card.page"
+  },
+  {
+   "name": "SBI Card Elite",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-elite"
+  },
+  {
+   "name": "SBI Card Prime",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-prime"
+  },
+  {
+   "name": "SimplyCLICK SBI Card",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-simply-click"
+  },
+  {
+   "name": "SimplySAVE SBI Card",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-simply-save"
+  },
+  {
+   "name": "SBI Card Aurum",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-aurum"
+  },
+  {
+   "name": "Flipkart SBI Card",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-flipkart"
+  },
+  {
+   "name": "IRCTC SBI Card Premier",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-irctc-premier"
+  },
+  {
+   "name": "IRCTC SBI Card Platinum",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-irctc-platinum"
+  },
+  {
+   "name": "BPCL SBI Card",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/articles/sbi-bpcl-review-2026"
+  },
+  {
+   "name": "BPCL SBI Card Octane",
+   "status": "active",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-bpcl-octane"
+  },
+  {
+   "name": "Air India SBI Signature Card",
+   "status": "discontinued",
+   "source": "data/banks/sbi.json (existing); https://cardadvisor.in/cards/sbi-air-india-signature"
+  },
+  {
+   "name": "Tata Neu Infinity SBI Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-tata-neu-infinity; https://cardadvisor.in/articles/sbi-tata-neu-infinity-review-2026"
+  },
+  {
+   "name": "Tata Neu Plus SBI Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-tata-neu-plus; https://cardadvisor.in/articles/sbi-tata-neu-plus-review-2026"
+  },
+  {
+   "name": "Reliance SBI Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/sbi-credit-card.html"
+  },
+  {
+   "name": "Reliance SBI Card PRIME",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-reliance-prime; https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "SBI Card Miles",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-miles; https://cardadvisor.in/articles/sbi-miles-elite-review-2026"
+  },
+  {
+   "name": "SBI Card Miles Prime",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-miles-prime; https://cardadvisor.in/articles/sbi-miles-elite-review-2026"
+  },
+  {
+   "name": "SBI Card Miles Elite",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-miles; https://cardadvisor.in/articles/sbi-miles-elite-review-2026"
+  },
+  {
+   "name": "PhonePe SBI Card PURPLE",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-phonepe-purple; https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "PhonePe SBI Card SELECT BLACK",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-phonepe-select-black; https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Black-pdf-27Apr2026.pdf"
+  },
+  {
+   "name": "Paytm SBI Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://cardadvisor.in/cards/sbi-paytm"
+  },
+  {
+   "name": "Paytm SBI Card SELECT",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-paytm-select; https://cardadvisor.in/articles/sbi-paytm-select-review-2026"
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card SELECT",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card PRIME",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+  },
+  {
+   "name": "Max SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+  },
+  {
+   "name": "Max SBI Card SELECT",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+  },
+  {
+   "name": "Max SBI Card PRIME",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+  },
+  {
+   "name": "Spar SBI Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+  },
+  {
+   "name": "Spar SBI Card SELECT",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+  },
+  {
+   "name": "Spar SBI Card PRIME",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+  },
+  {
+   "name": "Landmark Rewards SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+  },
+  {
+   "name": "Apollo SBI Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Apollo SBI Card SELECT",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-apollo-select; https://www.paisabazaar.com/sbi-bank/apollo-sbi-card-select/"
+  },
+  {
+   "name": "Doctor's SBI Card",
+   "status": "active",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html; https://www.paisabazaar.com/credit-card/best-health-and-wellness-credit-cards/"
+  },
+  {
+   "name": "SBI Card Pulse",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-pulse; https://cardexpress.in/reviews/sbi-pulse"
+  },
+  {
+   "name": "Shaurya SBI Card",
+   "status": "active",
+   "source": "https://www.paisabazaar.com/sbi-bank/shaurya-sbi-credit-card/; https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "Shaurya Select SBI Card",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-shaurya-select; https://cardexpress.in/reviews/sbi-shaurya"
+  },
+  {
+   "name": "SBI Card Unnati",
+   "status": "active",
+   "source": "https://cardadvisor.in/cards/sbi-unnati; https://www.paisabazaar.com/sbi-bank/unnati-credit-card"
+  },
+  {
+   "name": "KrisFlyer SBI Card",
+   "status": "active",
+   "source": "https://magnify.club/guides/sbi-krisflyer-vs-krisflyer-apex-comparison; https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "KrisFlyer SBI Card Apex",
+   "status": "active",
+   "source": "https://sbicard.com/en/personal/credit-cards/travel/krisflyer-sbi-card-apex.page; https://cardadvisor.in/cards/sbi-krisflyer-apex"
+  },
+  {
+   "name": "IndiGo SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-credit-cards-for-international-travel.html"
+  },
+  {
+   "name": "Google Pay Flex SBI Card",
+   "status": "active",
+   "source": "https://cardinsider.com/sbi-card/google-pay-flex-sbi-card/; https://www.newsbytesapp.com/news/business/sbi-card-google-pay-launch-flex-card-18000-stars-yearly/tldr"
+  },
+  {
+   "name": "Eternal SBI Card",
+   "status": "unknown",
+   "source": "https://cardinsider.com/blog/sbi-card-launch-new-eternal-co-branded-credit-card-with-instant-discount/"
+  },
+  {
+   "name": "Air India SBI Platinum Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://cardadvisor.in/cards/sbi-air-india-platinum"
+  },
+  {
+   "name": "Club Vistara SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://cardadvisor.in/cards/sbi-club-vistara"
+  },
+  {
+   "name": "Club Vistara SBI Card PRIME",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://cardadvisor.in/cards/sbi-club-vistara"
+  },
+  {
+   "name": "Yatra SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://www.wishfin.com/yatra-sbi-card-6436/"
+  },
+  {
+   "name": "Etihad Guest SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "Etihad Guest Premier SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "OLA Money SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Central Bank of India SBI Card Elite",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Central Bank of India SBI Card Prime",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Central Bank of India SimplySAVE SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page; https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "UCO Bank SBI Card ELITE",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "UCO Bank SBI Card PRIME",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "UCO Bank SimplySAVE SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Karnataka Bank SBI Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Karnataka Bank SBI SimplySAVE Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "South Indian Bank SBI Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "South Indian Bank SimplySave SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Federal Bank SBI Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Federal Bank SBI Credit Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "KVB SBI Signature Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Karur Vysya Bank SBI Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Karur Vysya Bank SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Bank of Maharashtra SBI Platinum Credit Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Bank of Maharashtra SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "SBI Tata Platinum Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "SBI Tata Titanium Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Mumbai Metro SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "IRCTC SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "SBI Card Elite Advantage",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "SBI Card Prime Advantage",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "Fabindia SBI Card",
+   "status": "unknown",
+   "source": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+  },
+  {
+   "name": "fbb STYLE UP SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "Central Select SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "Central Select+ SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "Chennai Metro SBI Card",
+   "status": "discontinued",
+   "source": "https://www.sbicard.com/en/customer-notices.page"
+  },
+  {
+   "name": "SBI Signature Corporate Card",
+   "status": "active",
+   "source": "https://www.sbicard.com/en/corporate/credit-cards.page.page; https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+  },
+  {
+   "name": "SBI Platinum Corporate Card",
+   "status": "active",
+   "source": "https://www.sbicard.com/en/corporate/credit-cards.page.page; https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+  },
+  {
+   "name": "SBI Corporate Utility Card",
+   "status": "active",
+   "source": "https://www.sbicard.com/en/corporate/credit-cards.page.page; https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+  },
+  {
+   "name": "SBI Central Travel Account Card",
+   "status": "active",
+   "source": "https://www.sbicard.com/en/corporate/credit-cards.page.page; https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+  },
+  {
+   "name": "SBI Corporate Purchase Card",
+   "status": "active",
+   "source": "https://www.sbicard.com/en/corporate/credit-cards.page.page; https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+  },
+  {
+   "name": "SBI Corporate Virtual Card",
+   "status": "active",
+   "source": "https://www.sbicard.com/en/corporate/credit-cards.page.page; https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Cashback SBI Card",
+   "issuer": "SBI Card",
+   "annual_fee": 999,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel"
+     ],
+     "rate": 0.05,
+     "cap_inr": 2000,
+     "desc": "5% cashback on online spend (not in excluded categories); capped Rs2,000 per statement cycle (~Rs40,000 online spend)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other",
+      "groceries"
+     ],
+     "rate": 0.01,
+     "cap_inr": 2000,
+     "desc": "1% cashback on offline spend; separate Rs2,000 cap per cycle (combined ceiling Rs4,000)."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "wallet_load",
+    "education",
+    "railways",
+    "emi",
+    "gaming",
+    "tolls",
+    "government"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
+    "https://cardadvisor.in/articles/sbi-cashback-credit-card-review-2026",
+    "https://livefromalounge.com/sbicards-cashback-card-imposes-new-restrictions-effective-april-1-2026/"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "CONFIRMED from official revised PDF (cashback-revised.pdf, read 2026-10-11): from 1 Apr 2026 max cashback per statement cycle Rs4,000 = online 5% capped Rs2,000 + offline (POS) 1% capped Rs2,000. New exclusions: digital gaming (MCC 7993, 7994, 5816), tolls (4784), government (9222, 9311, 9402), in addition to existing: utility, insurance, fuel, rent, wallet, school/education, JEWELRY, railways, Merchant/Flexipay EMI. Fee Rs999+GST waived at Rs2L and forex 3.5% from cardadvisor (third party). Statement-credit redemption cap 60,000 pts/month in multiples of 4,000 (official notice).",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "lounge_access": null,
+   "main_benefit": "Flat online cashback: 5% online, 1% offline, combined Rs4,000/cycle cap (from 1 Apr 2026).",
+   "key_benefits": [
+    "Fee Rs999+GST, waived at Rs2L",
+    "Revised terms effective 1 Apr 2026: online 5% capped Rs2,000, offline 1% capped Rs2,000 per cycle",
+    "Jewellery, fuel, rent, utilities, insurance etc excluded"
+   ]
+  },
+  {
+   "name": "Titan SBI Card",
+   "issuer": "SBI Card",
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "Tanishq"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.03,
+     "desc": "3% value-back as Titan gift vouchers at Tanishq; cap Rs25,000 per QUARTER (cardadvisor; official page confirms quarterly cap, amount from third party). Not cash."
+    },
+    {
+     "merchants": [
+      "Mia",
+      "CaratLane",
+      "Zoya"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.05,
+     "desc": "5% cashback at Mia, CaratLane, Zoya; cap Rs10,000 per quarter (third-party)."
+    },
+    {
+     "merchants": [
+      "World of Titan",
+      "Taneira",
+      "Titan Eye+",
+      "Helios",
+      "Fastrack",
+      "Skinn",
+      "Irth",
+      "Sonata"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.075,
+     "desc": "7.5% cashback at Titan group brands; cap Rs10,000 per quarter (third-party)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other",
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.015,
+     "cap_inr": 1500,
+     "desc": "6 RP per Rs100 elsewhere (4 RP = Rs1); cap 6,000 pts (Rs1,500) per month per cardadvisor."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "utilities",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/shopping/titan-sbi-card.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/shopping/titan-sbi-card.page",
+    "https://cardadvisor.in/cards/sbi-titan",
+    "https://www.bankbazaar.com/credit-card/titan-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page snippet (via search) confirms fee Rs2,999+tax, waiver Rs3L, 3% Tanishq vouchers (quarterly cap), 5% Mia/CaratLane/Zoya, 7.5% Titan brands; direct page fetch returned only navigation so cap amounts, 6 RP rate and exclusions come from cardadvisor/other reviews. Conflict: another review says 10 RP/Rs100 on chemist, pharmacy, sports, dining, movies. Welcome 12,000 RP (~Rs3,000) as Titan vouchers; milestones Rs5,000 voucher at 5L, Rs10,000 at 10L (Titan stores only). Lounges: 8 domestic/4 intl (cardadvisor) vs 4 intl (official snippet). Point expiry 24 months. Jewellery at non-Titan merchants: not confirmed excluded or included. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice).",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Titan",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "lounge_access": null,
+   "main_benefit": "Best for Titan-group shopping incl. Tanishq: 3% vouchers at Tanishq, 5% Mia/CaratLane/Zoya, 7.5% other Titan brands.",
+   "key_benefits": [
+    "Welcome 12,000 RP as Titan vouchers (third-party)",
+    "Milestone vouchers Rs5,000 at 5L / Rs10,000 at 10L (third-party)"
+   ]
+  },
+  {
+   "name": "SBI Card Elite",
+   "issuer": "SBI Card",
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0199,
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "cap_inr": 2500,
+     "desc": "5X (10 RP per Rs100 style, ~2.5% at Rs0.25/pt) on dining, groceries, department stores; shared cap 10,000 pts/month (~Rs2,500)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "gaming",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-elite",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-elite",
+    "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide",
+    "https://www.bankbazaar.com/credit-card/sbi-card-elite.html",
+    "https://cardexpress.in/cards/sbi-elite"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs4,999+GST, waived at Rs10L. Base 2 RP/Rs100 (~0.5%) at Rs0.25/pt. Forex 1.99% (+GST). Milestones up to 50,000 RP at 3L/4L/5L/8L. 8 domestic + 6 intl lounge visits. Club Vistara/Trident Privilege removed. Jewellery treatment unknown. Not verified against official MITC. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice).",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "lounge_access": null,
+   "main_benefit": "Premium lifestyle card with 10X points on dining, groceries and department stores and big welcome/milestone vouchers.",
+   "key_benefits": [
+    "Fee waived at Rs10L spend"
+   ]
+  },
+  {
+   "name": "SBI Card Prime",
+   "issuer": "SBI Card",
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "cap_inr": 1875,
+     "desc": "10 RP per Rs100 (~2.5%) on dining, groceries, department stores, movies; shared cap 7,500 pts/month."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "gaming",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-prime",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-prime",
+    "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs2,999+GST, waiver Rs3L. Base 2 RP/Rs100. Rs7,000 Yatra/Pantaloons voucher at 5L. Jewellery treatment unknown. cap_inr is an interpretation of 7,500 pts cap. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice).",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "lounge_access": null,
+   "main_benefit": "Mid-tier card with 10X points on dining, groceries, department stores and movies.",
+   "key_benefits": [
+    "Rs7,000 Yatra/Pantaloons voucher at 5L spend (third-party)"
+   ]
+  },
+  {
+   "name": "SimplyCLICK SBI Card",
+   "issuer": "SBI Card",
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.0125,
+     "desc": "5X (~1.25%) on other online spends."
+    },
+    {
+     "merchants": [
+      "BookMyShow",
+      "Apollo 24|7",
+      "Domino's",
+      "IGP",
+      "Myntra",
+      "Yatra",
+      "Netmeds",
+      "Cleartrip",
+      "Swiggy"
+     ],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel"
+     ],
+     "rate": 0.025,
+     "desc": "10X (~2.5%) on listed online partners; partner list differs across sections."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "gaming",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-simply-click",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-simply-click",
+    "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs499+GST, waiver Rs1L. Amazon dropped from 10X, now 5X. 1X offline. Milestone Rs2,000 vouchers at 1L and 2L. Caps not found. Jewellery online treatment unknown. CardTrail claims 2026 cap tightening but unconfirmed by SBI. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice).",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "lounge_access": null,
+   "main_benefit": "Online-shopping entry card: 10X at partner apps, 5X other online.",
+   "key_benefits": [
+    "Milestone Rs2,000 vouchers at 1L and 2L"
+   ]
+  },
+  {
+   "name": "SimplySAVE SBI Card",
+   "issuer": "SBI Card",
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "base_rate": 0.0017,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.017,
+     "cap_inr": 1250,
+     "desc": "10 RP per Rs150 (~1.7%) on dining, movies, groceries, department stores; shared cap 5,000 pts/month."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "gaming",
+    "government",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-simply-save",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-simply-save",
+    "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs499+GST, waiver Rs1L. Other spend 1 RP/Rs150. Another aggregator quoted 0.7% rates; conflict unresolved. Jewellery unknown. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice).",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "lounge_access": null,
+   "main_benefit": "Entry card with 10 points per Rs150 on dining, groceries, movies, department stores.",
+   "key_benefits": []
+  },
+  {
+   "name": "SBI Card Aurum",
+   "issuer": "SBI Card",
+   "annual_fee": 9999,
+   "fee_waiver_spend": 1200000,
+   "forex_markup": 0.0199,
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "gaming"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-aurum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-aurum",
+    "https://cardadvisor.in/articles/sbi-credit-card-ladder-guide"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite-only. Fee Rs9,999+GST, waiver Rs12L. 4 RP/Rs100 (~1%). Milestone vouchers (Tata CLiQ, Taj, Apple) conflict between pages. Jewellery unknown. Statement-credit redemption capped at 60,000 points/month and only in multiples of 4,000 from 1 Apr 2026 (official notice).",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 9999,
+   "lounge_access": null,
+   "main_benefit": "Invite-style super-premium card with Rs9,999 fee, waived at Rs12L spend.",
+   "key_benefits": []
+  },
+  {
+   "name": "Flipkart SBI Card",
+   "issuer": "SBI Card",
+   "annual_fee": 500,
+   "fee_waiver_spend": 350000,
+   "forex_markup": 0.035,
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "Myntra"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.075,
+     "desc": "7.5% on Myntra; cap Rs4,000 per quarter (cardadvisor; another figure Rs1,333/month cited)."
+    },
+    {
+     "merchants": [
+      "Flipkart",
+      "Shopsy",
+      "Cleartrip"
+     ],
+     "categories": [
+      "online_shopping",
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5% on Flipkart, Shopsy, Cleartrip; Rs4,000/quarter cap per tier."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "education",
+    "insurance",
+    "gaming",
+    "emi",
+    "cash_advance",
+    "gift_cards"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-flipkart",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-flipkart",
+    "https://cardadvisor.in/articles/sbi-flipkart-review-2026"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs500+GST, reversed at Rs3.5L. 1% elsewhere; 4% at four unnamed merchants. Jewellery excluded per cardadvisor. Possible joining fee waiver for cards sourced 1 Sep-31 Oct 2026 (ambiguous). ",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Flipkart",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "lounge_access": null,
+   "main_benefit": "5% on Flipkart and Cleartrip, 7.5% Myntra (capped), 1% elsewhere.",
+   "key_benefits": []
+  },
+  {
+   "name": "IRCTC SBI Card Premier",
+   "issuer": "SBI Card",
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-irctc-premier",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-irctc-premier",
+    "https://www.paisabazaar.com/sbi-bank/irctc-sbi-card-premier/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,499+GST, waiver Rs2L. ~10% on IRCTC AC tickets, 5% air bookings, 3X dining/utilities, 1 pt/Rs125 elsewhere. Point value conflict (Rs0.25 vs Rs1 for IRCTC redemption). Jewellery unknown.",
+   "base_rate": null,
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "IRCTC",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "lounge_access": null,
+   "main_benefit": "Up to 10% value-back on IRCTC AC train bookings.",
+   "key_benefits": []
+  },
+  {
+   "name": "IRCTC SBI Card Platinum",
+   "issuer": "SBI Card",
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-irctc-platinum",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-irctc-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs500+GST (Groww says Rs300 renewal; conflict). Up to 10% on IRCTC AC tickets, 1 pt/Rs125 elsewhere. No waiver found.",
+   "base_rate": null,
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "IRCTC",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "lounge_access": null,
+   "main_benefit": "Value-back on IRCTC train bookings (lower tier).",
+   "key_benefits": []
+  },
+  {
+   "name": "BPCL SBI Card",
+   "issuer": "SBI Card",
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "rules": [
+    {
+     "merchants": [
+      "BPCL"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.0425,
+     "desc": "13X points at BPCL (~4.25% incl. 1% surcharge waiver per cardadvisor)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/articles/sbi-bpcl-review-2026",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/articles/sbi-bpcl-review-2026",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official notice: from 1 May 2026 renewal fee reversal threshold raised Rs50,000 to Rs1L. Welcome 2,000 pts. Non-fuel rates not found.",
+   "base_rate": null,
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "BPCL",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "lounge_access": null,
+   "main_benefit": "13X points (~4.25% value-back) on BPCL fuel (capped).",
+   "key_benefits": [
+    "Rs499 fee reversal threshold raised to Rs1L spend from 1 May 2026 (official notice)"
+   ]
+  },
+  {
+   "name": "BPCL SBI Card Octane",
+   "issuer": "SBI Card",
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "BPCL"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.0725,
+     "cap_inr": 625,
+     "desc": "25 RP/Rs100 at BPCL plus surcharge waiver (~7.25% claimed); cap 2,500 pts/month. Surcharge waiver cap conflict (Rs100/month vs up to Rs4,000 txn)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sbi-bpcl-octane",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-bpcl-octane",
+    "https://www.bankbazaar.com/credit-card/fuel-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,499+GST, waiver Rs2L. Rs2,000 voucher at Rs3L. cap_inr computed from 2,500 pts at Rs0.25 (7.25% claim may be inflated by surcharge waiver).",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "BPCL",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "lounge_access": null,
+   "main_benefit": "25X points on BPCL fuel/lubricants (capped), 10X dining, groceries, movies.",
+   "key_benefits": []
+  },
+  {
+   "name": "Air India SBI Signature Card",
+   "issuer": "SBI Card",
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sbi-air-india-signature",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-air-india-signature"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Closed to new applicants since 10 Oct 2024 (existing holders only). 10 RP/Rs100 on Air India, 4 RP/Rs100 other; conflicting figure of 30 RP/Rs100 from CreditMantri. 1 RP = 1 Maharaja point. Exempt from 60,000 pts/month statement credit cap. Issuance of Air India Platinum and Signature discontinued 10 Oct 2024 (official notice); accelerated rewards reduced 31 Mar 2025.",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Air India",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "lounge_access": null,
+   "main_benefit": "Air India co-brand; issuance stopped 10 Oct 2024, rewards cut Mar 2025.",
+   "key_benefits": []
+  },
+  {
+   "name": "Tata Neu Infinity SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay/Visa",
+   "status": "active",
+   "co_brand_partner": "Tata Neu",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.0199,
+   "lounge_access": "8 domestic/yr (2 per quarter, needs Rs75k prior-quarter spend) + 4 international Priority Pass",
+   "main_benefit": "Tata ecosystem card: 5% NeuCoins on Tata Neu/partner Tata brands, 1.5% elsewhere.",
+   "key_benefits": [
+    "Welcome 1,499 NeuCoins",
+    "1 NeuCoin = Rs1 only inside Tata Neu ecosystem",
+    "1% fuel surcharge waiver, cap Rs500/cycle"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "tata neu",
+      "bigbasket",
+      "croma",
+      "westside",
+      "air india",
+      "taj"
+     ],
+     "categories": [
+      "online_shopping",
+      "groceries",
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5% NeuCoins (1 NeuCoin=Rs1) at Tata Neu and partner Tata brands, non-EMI; NeuPass can add up to 5% more on select categories."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.015,
+     "desc": "1.5% NeuCoins elsewhere incl. UPI on RuPay; sub-caps: UPI 500 NeuCoins/month, grocery/utilities/insurance/telecom 2,000 each."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance",
+    "utilities_partial",
+    "gaming",
+    "education"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-tata-neu-infinity",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-tata-neu-infinity",
+    "https://cardadvisor.in/articles/sbi-tata-neu-infinity-review-2026",
+    "https://www.sbicard.com/en/blog/detail/tata-neu"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Third-party data. Launched Apr 2025 (RuPay & Visa). Forex 1.99% (one section says 2.0%). Merchant EMI earns nothing. Jewellery/Tanishq earn not confirmed (Tanishq is a Titan not Tata Neu brand; jewellery MCC treatment unknown). Dec 2025-era devaluations noted by cardadvisor."
+  },
+  {
+   "name": "Tata Neu Plus SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay/Visa",
+   "status": "active",
+   "co_brand_partner": "Tata Neu",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic lounge visits/yr",
+   "main_benefit": "Entry Tata Neu card: 2% NeuCoins on Tata partner brands (+5% select categories on Neu app).",
+   "key_benefits": [
+    "Welcome 499 NeuCoins"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "tata neu"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% NeuCoins on partner Tata brand sites/app; extra 5% on select categories on Tata Neu app (1 NeuCoin=Rs1)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-tata-neu-plus",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-tata-neu-plus",
+    "https://cardadvisor.in/articles/sbi-tata-neu-plus-review-2026"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Base rate outside Tata not found; set null. Headline 'up to 7%' includes category bonuses. Jewellery treatment unknown."
+  },
+  {
+   "name": "Reliance SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Reliance Retail",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry Reliance Retail card with accelerated points at Reliance Retail, Smart, Trends, Digital.",
+   "key_benefits": [
+    "Waiver threshold not found"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "reliance retail",
+      "reliance digital",
+      "trends",
+      "smart bazaar"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": null,
+     "desc": "Accelerated reward points at Reliance Retail stores; exact rate not verified."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/sbi-credit-card.html",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Details not read; rates null. Oct-Nov 2025 official notice changed Ajio/JioMart rewards. Rule rate null intentionally."
+  },
+  {
+   "name": "Reliance SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Reliance Retail",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic + Priority Pass 4 international",
+   "main_benefit": "Reliance ecosystem card: 20 RP/Rs100 (~5%) on AJIO and JioMart, 10 RP (~2.5%) at Reliance Retail.",
+   "key_benefits": [
+    "Reliance vouchers up to Rs8,750 at milestones (Rs2,250 at 1.5L, Rs5,000 at 3L on SBI page)",
+    "Free BookMyShow ticket up to Rs250/month"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "ajio",
+      "jiomart"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "20 RP per Rs100, 1 RP=Rs0.25; excludes UPI. 20 RP rate from cardadvisor, not on SBI page."
+    },
+    {
+     "merchants": [
+      "reliance retail",
+      "reliance digital",
+      "trends",
+      "smart bazaar"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.025,
+     "desc": "10 RP per Rs100 at Reliance Retail, excl UPI."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP per Rs100 on dining, movies, domestic airlines, international; shared cap 7,500 pts/cycle for domestic."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-reliance-prime",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-reliance-prime",
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/en/personal/credit-cards/shopping/reliance-sbi-card-prime.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee/waiver/rates consistent across cardadvisor and finology; 20RP at Ajio/JioMart conflicts with SBI page. Jewellery not confirmed excluded (Reliance has jewellery business; base 2 RP/Rs100 on other retail)."
+  },
+  {
+   "name": "SBI Card Miles",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry travel card: 2 Travel Credits per Rs200 on travel (~1%), 1 per Rs200 elsewhere (~0.5%).",
+   "key_benefits": [
+    "Travel Credits transferable to airline/hotel partners",
+    "Expiry 24 months"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.01,
+     "desc": "Travel Credits value assumed; see notes."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "education",
+    "utilities",
+    "insurance",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-miles",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-miles",
+    "https://cardadvisor.in/articles/sbi-miles-elite-review-2026",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,499 from IIFL listing; waiver unknown. Successor to Etihad Guest SBI card (Dec 2025 notice). Jewellery not explicitly confirmed excluded."
+  },
+  {
+   "name": "SBI Card Miles Prime",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.025,
+   "lounge_access": "8 domestic (max 2/qtr) + Priority Pass 4 international",
+   "main_benefit": "Mid-premium travel card: 4 Travel Credits/Rs200 on travel (~2% at Rs1/credit, ~1% at Rs0.50 on travel redemption), transferable to airline/hotel partners.",
+   "key_benefits": [
+    "Travel Credits transferable to airline/hotel partners",
+    "Expiry 24 months"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.01,
+     "desc": "Travel Credits value assumed; see notes."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "education",
+    "utilities",
+    "insurance",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-miles-prime",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-miles-prime",
+    "https://cardadvisor.in/articles/sbi-miles-elite-review-2026",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates assume Rs0.50/credit; transfers up to Rs1/credit. Welcome 3,000 credits on Rs60k in 60 days; 10,000 credits at Rs8L. Etihad Guest removed as transfer partner Aug 2026 (third-party). 1% fuel waiver cap Rs250/cycle. Jewellery not explicitly confirmed excluded."
+  },
+  {
+   "name": "SBI Card Miles Elite",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1500000,
+   "forex_markup": 0.0199,
+   "lounge_access": "Up to 15 domestic + Priority Pass 6 international",
+   "main_benefit": "Premium travel card: 6 Travel Credits/Rs200 on travel (~3% at Rs1/credit), 2 per Rs200 elsewhere.",
+   "key_benefits": [
+    "Travel Credits transferable to airline/hotel partners",
+    "Expiry 24 months"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.015,
+     "desc": "Travel Credits value assumed; see notes."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "education",
+    "utilities",
+    "insurance",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-miles",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-miles",
+    "https://cardadvisor.in/articles/sbi-miles-elite-review-2026",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates assume Rs0.50/credit (~1.5% travel). Welcome 5,000 credits; milestone 20,000 credits at Rs12L. Replacement for Etihad Guest Premier. Jewellery not explicitly confirmed excluded."
+  },
+  {
+   "name": "PhonePe SBI Card PURPLE",
+   "issuer": "SBI Card",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "RuPay card linking to UPI: ~3% points on PhonePe spends, ~2% other online (capped, devalued 1 Jul 2026).",
+   "key_benefits": [
+    "UPI-linkable RuPay"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.03,
+     "desc": "~3% points on PhonePe app spends; cap about 1,000 RP/month (sources conflict 750-1,000); 1 RP assumed Rs1.",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "tolls",
+    "education",
+    "gifts",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-phonepe-purple",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-phonepe-purple",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rewards programme revised 1 Jul 2026 (official notice; details third-party). Jewellery listed as excluded for SELECT BLACK; assumed same for PURPLE but not confirmed. Forex markup not found."
+  },
+  {
+   "name": "PhonePe SBI Card SELECT BLACK",
+   "issuer": "SBI Card",
+   "network": "Visa/RuPay",
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "PhonePe-app bills/recharges/utilities card: 10% points via PhonePe (1 RP=Rs1) but capped heavily after 1 Jul 2026.",
+   "key_benefits": [
+    "Rs1,500 PhonePe gift card offsets fee"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.1,
+     "desc": "10 points per Rs100 on PhonePe bill payments/recharges/utilities, 1 RP=Rs1; monthly cap ~1,500 RP (one source) after 1 Jul 2026 devaluation, sources conflict.",
+     "cap_inr": 1500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5 points per Rs100 other online, capped ~1,000 RP/month (sources conflict).",
+     "cap_inr": 1000
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "tolls",
+    "gifts",
+    "education",
+    "utilities_non_phonepe",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-phonepe-select-black",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-phonepe-select-black",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Black-pdf-27Apr2026.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery newly excluded per 1 Jul 2026 revision (secondary summary of official PDF; PDF not parsed). Caps ambiguous."
+  },
+  {
+   "name": "Paytm SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry Paytm card: 3% on Paytm Mall/movies/travel, 1% elsewhere (older terms).",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.03,
+     "desc": "3% (as reward points Rs1 each since Jul 2024); older bankbazaar data."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://cardadvisor.in/cards/sbi-paytm"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee/waiver not verified; fee 499 assumed from tier pattern, not found -> verify. Status active per bankbazaar co-brand list. Fee set null (not found)."
+  },
+  {
+   "name": "Paytm SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic/yr (1 per qtr) + 2-yr Priority Pass",
+   "main_benefit": "Paytm-app card: 5% on Paytm Travel, 2% on other Paytm purchases, 1% elsewhere (as points).",
+   "key_benefits": [
+    "Milestones Rs2,000 at 4L, Rs4,000 at 6L"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5% Paytm Travel; 2% other Paytm app; points worth Rs1 each."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-paytm-select",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-paytm-select",
+    "https://cardadvisor.in/articles/sbi-paytm-select-review-2026"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Verified 10 Jul 2026 by cardadvisor. Older sources say 5% also on movies/Paytm Mall."
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group (Lifestyle/Home Centre)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5 points per Rs100 at Home Centre/Landmark.",
+   "key_benefits": [
+    "Annual fee returned as points (2,000 pts on entry; 12,000 pts on PRIME)"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "lifestyle",
+      "home centre",
+      "max",
+      "landmark"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": null,
+     "desc": "5 points per Rs100 at Home Centre/Landmark. Point value not verified (SBI usually Rs0.25)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate null (point value unverified). Gaming/government accrual stopped 1 Sep 2025 (official notice). Fee for SELECT is an estimate pattern; verify. One source lists the base Lifestyle HC card as discontinued."
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Landmark Group (Lifestyle/Home Centre)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 at Landmark group stores.",
+   "key_benefits": [
+    "Annual fee returned as points (2,000 pts on entry; 12,000 pts on PRIME)"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "lifestyle",
+      "home centre",
+      "max",
+      "landmark"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": null,
+     "desc": "10 points per Rs100 at Landmark group stores. Point value not verified (SBI usually Rs0.25)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate null (point value unverified). Gaming/government accrual stopped 1 Sep 2025 (official notice). Fee for SELECT is an estimate pattern; verify. One source lists the base Lifestyle HC card as discontinued. SELECT fee not found -> null."
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Landmark Group (Lifestyle/Home Centre)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "15 points per Rs100 at Landmark group stores; milestones up to Rs14,500/yr.",
+   "key_benefits": [
+    "Annual fee returned as points (2,000 pts on entry; 12,000 pts on PRIME)"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "lifestyle",
+      "home centre",
+      "max",
+      "landmark"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": null,
+     "desc": "15 points per Rs100 at Landmark group stores; milestones up to Rs14,500/yr. Point value not verified (SBI usually Rs0.25)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate null (point value unverified). Gaming/government accrual stopped 1 Sep 2025 (official notice). Fee for SELECT is an estimate pattern; verify. One source lists the base Lifestyle HC card as discontinued."
+  },
+  {
+   "name": "Max SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5 points per Rs100 at Max/Landmark stores.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty."
+  },
+  {
+   "name": "Max SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 at Landmark; milestones Rs8,600/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty."
+  },
+  {
+   "name": "Max SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "15 points per Rs100 at Landmark; milestones up to Rs14,500/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty."
+  },
+  {
+   "name": "Spar SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Landmark Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5 points per Rs100 at Landmark/Spar; milestones Rs4,000/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty."
+  },
+  {
+   "name": "Spar SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 at Spar/Landmark.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty."
+  },
+  {
+   "name": "Spar SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "15 points per Rs100; milestones Rs14,500/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty."
+  },
+  {
+   "name": "Landmark Rewards SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Landmark Rewards co-brand entry card with 2,000 bonus points on fee payment.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty."
+  },
+  {
+   "name": "Apollo SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Apollo 24|7",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Up to 10% instant discount at select Apollo services plus OneApollo Gold membership.",
+   "key_benefits": [
+    "500 welcome points (bankbazaar)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee per one source. Rewards not verified."
+  },
+  {
+   "name": "Apollo SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Apollo 24|7",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": "4 domestic/yr (1/qtr) + 2-yr Priority Pass",
+   "main_benefit": "Health card: 10 RP/Rs100 at Apollo 24|7 & Pharmacy (1 RP=Rs1, redeems as Apollo Health Credits only).",
+   "key_benefits": [
+    "Rs1,500 Apollo 24|7 welcome voucher",
+    "Free health check-up on Rs50k in 90 days",
+    "FITPASS PRO 1 year"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "apollo 24|7",
+      "apollo pharmacy"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.1,
+     "desc": "10 RP per Rs100, 1 RP = Re1 but only as Apollo Health Credits."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "2 RP per Rs100 dining, travel, movies."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-apollo-select",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-apollo-select",
+    "https://www.paisabazaar.com/sbi-bank/apollo-sbi-card-select/",
+    "https://www.apollo247.com/apollo-sbi-credit-card-overview"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex 3.5% assumed from cardadvisor? not confirmed -> treat low. Base rate on other spend not found; set 0 per 'bank-specific' unknown -> verify."
+  },
+  {
+   "name": "Doctor's SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Indian Medical Association (IMA)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": "8 domestic lounge visits/yr",
+   "main_benefit": "Doctors card: 5X points on medical supplies, travel, international and Doctors' Day; Rs20L professional indemnity cover.",
+   "key_benefits": [
+    "Rs1,500 e-gift voucher on joining",
+    "Rs5,000 voucher on Rs5L annual spend"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "international"
+     ],
+     "rate": null,
+     "desc": "5X points; point value not verified."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.paisabazaar.com/credit-card/best-health-and-wellness-credit-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee/waiver from one third-party guide."
+  },
+  {
+   "name": "SBI Card Pulse",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": "4 domestic/yr (1/qtr) after 10 Jan 2026 halving",
+   "main_benefit": "Fitness card: 10 RP/Rs100 on chemist, pharmacy, dining, movies, sports.",
+   "key_benefits": [
+    "Noise smartwatch welcome (value varies)",
+    "Rs1,500 voucher at Rs4L",
+    "FITPASS PRO + Netmeds 1 year"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.025,
+     "desc": "10 RP per Rs100 on chemist, pharmacy, dining, movie, sports; 1 RP=Rs0.25 assumed."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-pulse",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-pulse",
+    "https://cardexpress.in/reviews/sbi-pulse",
+    "https://www.bankbazaar.com/credit-card/sbi-card-pulse.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Base 2 RP/Rs100 => 0.5%. Jewellery unknown."
+  },
+  {
+   "name": "Shaurya SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Defence/CSD",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Card for serving/retired defence personnel with CSD canteen rewards.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.paisabazaar.com/sbi-bank/shaurya-sbi-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/sbi-bank/shaurya-sbi-credit-card/",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Details not found. Finance charge exemption: Shaurya/Defence excluded from 3.75% rate (official notice)."
+  },
+  {
+   "name": "Shaurya Select SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Defence/CSD",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": "4 lounge visits",
+   "main_benefit": "Defence card: 5X (~2.5%) on CSD, dining, movies, groceries, departmental stores; Rs10L accident cover.",
+   "key_benefits": [
+    "Pizza Hut Rs500 voucher per quarter on Rs50k",
+    "First-year fee free per some sources"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "desc": "5X points; 2.5% per CardExpress."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-shaurya-select",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-shaurya-select",
+    "https://cardexpress.in/reviews/sbi-shaurya"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Sources conflict on fee (nil to Rs1,499) and waiver; conservative Rs1,499 kept."
+  },
+  {
+   "name": "SBI Card Unnati",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "SBI FD-backed",
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured card against SBI FD of Rs25,000+, no fee for 4 years.",
+   "key_benefits": [
+    "Rs500 cashback at Rs50k spend",
+    "1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.0025,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardadvisor.in/cards/sbi-unnati",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-unnati",
+    "https://www.paisabazaar.com/sbi-bank/unnati-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rs499 annual fee from year 5 (not lifetime free; one source says lifetime). 1 RP/Rs100."
+  },
+  {
+   "name": "KrisFlyer SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Singapore Airlines KrisFlyer",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Singapore Airlines miles card.",
+   "key_benefits": [
+    "3,000 KrisFlyer miles welcome (one review)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://magnify.club/guides/sbi-krisflyer-vs-krisflyer-apex-comparison",
+   "source_type": "third_party",
+   "sources": [
+    "https://magnify.club/guides/sbi-krisflyer-vs-krisflyer-apex-comparison",
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee from one review; rates not found."
+  },
+  {
+   "name": "KrisFlyer SBI Card Apex",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Singapore Airlines KrisFlyer",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 9999,
+   "annual_fee": 9999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 domestic/qtr + Priority Pass (2 yrs)",
+   "main_benefit": "Singapore Airlines flyers: 10 miles/Rs200 on SIA, 8 on international, 6 elsewhere.",
+   "key_benefits": [
+    "10,000 miles welcome",
+    "10,000 miles at Rs5L"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "singapore airlines"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": null,
+     "desc": "10 KrisFlyer miles per Rs200; miles valuation not set."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": null,
+     "desc": "8 miles/Rs200."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load"
+   ],
+   "source_url": "https://sbicard.com/en/personal/credit-cards/travel/krisflyer-sbi-card-apex.page",
+   "source_type": "official",
+   "sources": [
+    "https://sbicard.com/en/personal/credit-cards/travel/krisflyer-sbi-card-apex.page",
+    "https://cardadvisor.in/cards/sbi-krisflyer-apex"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee from official page; reward value not converted (miles value unverified)."
+  },
+  {
+   "name": "IndiGo SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "IndiGo",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "IndiGo BluChip card: 7 BluChips/Rs100 on IndiGo, 3 on hotels/travel, 2 elsewhere.",
+   "key_benefits": [
+    "6,000 BluChips at Rs3L/6L/9L/12L"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-credit-cards-for-international-travel.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-credit-cards-for-international-travel.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee unknown. Status unconfirmed. Possibly IndiGo SBI Card XL also exists."
+  },
+  {
+   "name": "Google Pay Flex SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay/Visa",
+   "status": "active",
+   "co_brand_partner": "Google Pay",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Launched 29 Jul 2026: Stars worth Rs1, up to 18,000 Stars/year, UPI-linkable RuPay.",
+   "key_benefits": [
+    "Up to 8 Stars per Rs500; cycle cap 1,500 Stars"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://cardinsider.com/sbi-card/google-pay-flex-sbi-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/sbi-card/google-pay-flex-sbi-card/",
+    "https://www.newsbytesapp.com/news/business/sbi-card-google-pay-launch-flex-card-18000-stars-yearly/tldr"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate per spend category not found. Welcome benefit sources disagree."
+  },
+  {
+   "name": "Eternal SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Eternal (Zomato/Blinkit/District)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Reported: 10% instant discount at Zomato/District/Blinkit non-grocery.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/blog/sbi-card-launch-new-eternal-co-branded-credit-card-with-instant-discount/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/blog/sbi-card-launch-new-eternal-co-branded-credit-card-with-instant-discount/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Spotted on SBI site; launch unconfirmed; no fee data."
+  },
+  {
+   "name": "Air India SBI Platinum Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Air India",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Air India co-brand, issuance stopped 10 Oct 2024; earn cut 15->5 pts/Rs100 Mar 2025.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://cardadvisor.in/cards/sbi-air-india-platinum"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee per third party."
+  },
+  {
+   "name": "Club Vistara SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara/Air India",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Closed 28 Sep 2024; points migrated 1:1 to Air India Maharaja Points.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://cardadvisor.in/cards/sbi-club-vistara"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Renewal/milestone ticket benefits discontinued for renewals after 1 Apr 2025."
+  },
+  {
+   "name": "Club Vistara SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara/Air India",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Closed 28 Sep 2024; points migrated 1:1 to Air India Maharaja Points.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://cardadvisor.in/cards/sbi-club-vistara"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Renewal/milestone ticket benefits discontinued for renewals after 1 Apr 2025."
+  },
+  {
+   "name": "Yatra SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay",
+   "status": "discontinued",
+   "co_brand_partner": "Yatra",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Yatra co-brand (RuPay); issuance discontinued 28 Mar 2025.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.wishfin.com/yatra-sbi-card-6436/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee from 2022 launch coverage."
+  },
+  {
+   "name": "Etihad Guest SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Etihad Guest",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Issuance stopped 11 Mar 2025; deactivated by 31 Mar 2026",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Replaced by SBI Card Miles / Miles ELITE; Etihad now partners BOBCARD."
+  },
+  {
+   "name": "Etihad Guest Premier SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Etihad Guest",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Issuance stopped 11 Mar 2025; migrated to Miles ELITE",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Replaced by SBI Card Miles / Miles ELITE; Etihad now partners BOBCARD."
+  },
+  {
+   "name": "OLA Money SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Ola Money",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Issuance discontinued 8 Dec 2025 (official notice).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "7% points on Ola rides were headline."
+  },
+  {
+   "name": "Central Bank of India SBI Card Elite",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Central Bank of India",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Issuance discontinued 26 Jul 2025 (official notice).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Banking-partnership card."
+  },
+  {
+   "name": "Central Bank of India SBI Card Prime",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Central Bank of India",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Issuance discontinued 26 Jul 2025 (official notice).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Banking-partnership card."
+  },
+  {
+   "name": "Central Bank of India SimplySAVE SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Central Bank of India",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Issuance discontinued 26 Jul 2025 (official notice).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Banking-partnership card."
+  },
+  {
+   "name": "UCO Bank SBI Card ELITE",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "UCO Bank",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "UCO Bank SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "UCO Bank",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "UCO Bank SimplySAVE SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "UCO Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Karnataka Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Karnataka Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Karnataka Bank SBI SimplySAVE Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Karnataka Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "South Indian Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "South Indian Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "South Indian Bank SimplySave SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "South Indian Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Federal Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Federal Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Federal Bank SBI Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Federal Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "KVB SBI Signature Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Karur Vysya Bank",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Karur Vysya Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Karur Vysya Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Karur Vysya Bank SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Karur Vysya Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Bank of Maharashtra SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bank of Maharashtra",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "Bank of Maharashtra SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bank of Maharashtra",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed."
+  },
+  {
+   "name": "SBI Tata Platinum Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Tata",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "3X points on dining, department stores, groceries, international.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "SBI Tata Titanium Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Tata/Croma",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "1.5% value back at Croma, up to 5% at Tata outlets.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "Mumbai Metro SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Mumbai Metro",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 on dining, movies, grocery, departmental (5,000 pts/month cap).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "IRCTC SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "IRCTC",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "RuPay IRCTC card: up to 10% value back on railway tickets.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "SBI Card Elite Advantage",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Listed variant with near-identical terms to Elite (finology).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "SBI Card Prime Advantage",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Listed variant with near-identical terms to Prime (finology).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "Fabindia SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Fabindia",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Fabindia co-brand; existence not verified.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "fbb STYLE UP SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Future Group (fbb)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued May 2022 per official notice.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "Central Select SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Central/Future",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued May 2022 per official notice.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "Central Select+ SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Central/Future",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued May 2022 per official notice.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "Chennai Metro SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Chennai Metro",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Replaced by SimplySAVE (Jul 2021 notice).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found."
+  },
+  {
+   "name": "SBI Signature Corporate Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate card with priority servicing, Priority Pass, insurance, spend controls.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found."
+  },
+  {
+   "name": "SBI Platinum Corporate Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate card with expense management, multi-layer spend controls, insurance.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found."
+  },
+  {
+   "name": "SBI Corporate Utility Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate utility-bill payment card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found."
+  },
+  {
+   "name": "SBI Central Travel Account Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate central travel account card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found."
+  },
+  {
+   "name": "SBI Corporate Purchase Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate purchase card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found."
+  },
+  {
+   "name": "SBI Corporate Virtual Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Virtual corporate card (aggregator listed).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found."
+  }
+ ],
+ "offers": [],
+ "gaps": [
+  "Cashback SBI Card: revised terms (effective 1 Apr 2026) confirmed from official PDF (cashback-revised.pdf); forex/fee from third party.",
+  "Titan SBI Card: sbicard.com page is JS-rendered (no terms in HTML); T&C/MITC not obtained, quarterly caps and jewellery treatment for non-Titan merchants unconfirmed. Existing third-party record kept.",
+  "Official MITC PDFs not read for any non-Cashback card; most new records are third-party, low confidence.",
+  "No SBI IndianOil, Amazon, Swiggy-standalone, HPCL, Jio or Ola(live) card found; SBI Swiggy variant exists only as SimplyCLICK partner benefit. Existence of Fabindia, IndiGo XL, SBI Prime/Elite Advantage variants unverified.",
+  "Banking-partnership cards (UCO, Karnataka Bank, SIB, Federal, KVB, BoM) and Tata Platinum/Titanium, Mumbai Metro, Max/Landmark: status unknown, fees/rates null.",
+  "Network null for most cards; lounge details and jewellery exclusion unconfirmed for most.",
+  "No valid SBI offers (valid_till >= 2026-10-11) found."
+ ]
+}

@@ -11658,7 +11658,8 @@
           "categories": [
             "dining",
             "travel",
-            "international"
+            "international",
+            "online_shopping"
           ],
           "rate": 0.0375,
           "desc": "15 RP/Rs100 (5X) on dining, travel and international; cap 5,000 RP per statement cycle (Rs1,250). 1 RP=Rs0.25.",
@@ -11678,13 +11679,15 @@
       "source_type": "official",
       "sources": [
         "https://www.bobcard.co.in/credit-card-types/eterna",
-        "https://www.bobcard.co.in/credit-card-types"
+        "https://www.bobcard.co.in/credit-card-types",
+        "https://book1a.com/blog/bob-eterna-credit-card-review-premium-on-paper-powerful-in-practice/",
+        "https://cardinsider.com/bank-of-baroda/bank-of-baroda-eterna-credit-card/"
       ],
       "data_status": "unverified",
       "confidence": "medium",
       "retrieved_on": "2026-10-11",
       "last_verified": null,
-      "notes": "Source: BOBCARD official card page (fetched 2026-10-11). Reward value assumed 1 RP = Rs0.25 (stated on Sentinel page; applied to all BOBCARD cards). Fuel earns no points (MITC). Jewellery exclusion not stated on card page; check MITC. Network not stated on page. Lounge eligibility conditions on MITC. Page headline mentions BOGO movie tickets and up to Rs81,000 savings value (marketing)."
+      "notes": "Source: BOBCARD official card page (fetched 2026-10-11). Reward value assumed 1 RP = Rs0.25 (stated on Sentinel page; applied to all BOBCARD cards). Fuel earns no points (MITC). Jewellery exclusion not stated on card page; check MITC. Network not stated on page. Lounge eligibility conditions on MITC. Page headline mentions BOGO movie tickets and up to Rs81,000 savings value (marketing). | UPDATE 2026-10-11: official page lists 5X only on dining, travel, international (3 RP/Rs100 base elsewhere); third parties (book1a, cardinsider) say 5X also covers all online shopping and movies. online_shopping added to the 5X rule on that basis - UNCONFIRMED, verify in the MITC. Fee conflict: Rs2,499+GST joining vs a reported limited-period lifetime-free offer."
     },
     {
       "name": "BOBCARD Premier",

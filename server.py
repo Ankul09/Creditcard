@@ -7,13 +7,14 @@ from urllib.parse import parse_qs, urlparse
 
 from info import lookup
 from parser import parse
-from recommender import load_data, rank
+from present import to_dict
+from recommender import load_data, recommend
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = load_data()
 
 
-def recommend(q: str, limit: int = 8) -> dict:
+def recommend_text(q: str) -> dict:
     info = lookup(q, DATA["cards"])
     if info:
         return {"info": info}
@@ -21,12 +22,7 @@ def recommend(q: str, limit: int = 8) -> dict:
         p = parse(q)
     except ValueError as e:
         return {"error": str(e)}
-    results = [{
-        "name": r.card["name"], "value": round(r.total), "reason": r.reason,
-        "confidence": r.card.get("confidence", "low"), "fee": r.card.get("annual_fee"),
-        "offer": r.offer_desc, "benefit": r.card.get("main_benefit"),
-    } for r in rank(p, DATA)[:limit]]
-    return {"purchase": {"amount": p.amount, "category": p.category, "merchant": p.merchant}, "results": results}
+    return to_dict(recommend(p, DATA))
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -40,7 +36,7 @@ class Handler(BaseHTTPRequestHandler):
         url = urlparse(self.path)
         if url.path == "/recommend":
             q = (parse_qs(url.query).get("q") or [""])[0][:300]
-            self._send(200, json.dumps(recommend(q)).encode(), "application/json")
+            self._send(200, json.dumps(recommend_text(q)).encode(), "application/json")
         elif url.path in ("/", "/index.html"):
             with open(os.path.join(ROOT, "web", "index.html"), "rb") as f:
                 self._send(200, f.read(), "text/html; charset=utf-8")

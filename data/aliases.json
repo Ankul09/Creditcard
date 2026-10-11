@@ -1,0 +1,6 @@
+{
+ "_note": "duplicate record name -> canonical card name; merge.py drops the duplicate",
+ "aliases": {
+  "SBI Cashback": "Cashback SBI Card"
+ }
+}

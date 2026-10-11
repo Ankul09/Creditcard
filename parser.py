@@ -68,7 +68,20 @@ def is_on_topic(text: str) -> bool:
         or any(m in low for m in MERCHANTS)
         or any(_has(low, kws) for kws in KEYWORDS.values())
     )
-    return has_amount and has_purchase_context
+    return has_amount and (has_purchase_context or bool(CURRENCY_RE.search(text)))
+
+
+OFFLINE_WORDS = ["pos", "swipe", "in store", "in-store", "at the store", "offline", "showroom", "outlet", "petrol pump", "pump"]
+ONLINE_WORDS = ["online", "app", "website", "portal", "amazon", "flipkart", "myntra", "swiggy", "zomato", "ecommerce", "e-commerce"]
+MONTHLY_RE = re.compile(r"(a|per|every|each)\s+month|monthly|/month|per\s+month|in\s+a\s+month", re.I)
+
+
+def _channel(low: str) -> Optional[str]:
+    if _has(low, OFFLINE_WORDS):
+        return "offline"
+    if _has(low, ONLINE_WORDS):
+        return "online"
+    return None
 
 
 def parse_rules(text: str) -> Purchase:
@@ -80,7 +93,7 @@ def parse_rules(text: str) -> Purchase:
     low = text.lower()
     merchant = next((m for m in MERCHANTS if m in low), None)
     category = next((c for c, kws in KEYWORDS.items() if any(k in low for k in kws)), "other")
-    return Purchase(amount, category, merchant)
+    return Purchase(amount, category, merchant, _channel(low), bool(MONTHLY_RE.search(text)))
 
 
 def parse_llm(text: str) -> Purchase:
@@ -105,7 +118,8 @@ def parse_llm(text: str) -> Purchase:
     data = json.loads(msg.content[0].text)
     if data.get("off_topic") or not data.get("amount"):
         raise OffTopic(OFF_TOPIC_MESSAGE)
-    return Purchase(float(data["amount"]), data.get("category") or "other", data.get("merchant"))
+    return Purchase(float(data["amount"]), data.get("category") or "other", data.get("merchant"),
+                    _channel(text.lower()), bool(MONTHLY_RE.search(text)))
 
 
 def parse(text: str) -> Purchase:

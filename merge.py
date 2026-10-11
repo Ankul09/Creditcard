@@ -46,6 +46,10 @@ for c in cards.values():
     if c["status"] == "unknown" and c["name"] in status_updates:
         c["status"] = status_updates[c["name"]]  # only upgrades unknowns
 
+aliases = json.load(open(os.path.join(ROOT, "data", "aliases.json")))["aliases"]
+for dup in aliases:
+    cards.pop(dup, None)
+
 out = {
     "_note": "Merged from data/banks/*.json by merge.py. Publicly sourced and UNVERIFIED; last_verified stays null until a human confirms a record. 'rate' = effective reward value as a fraction of spend; 'cap_inr' = max reward value per statement month (omitted if unknown); 'excludes' = categories earning nothing.",
     "cards": list(cards.values()),

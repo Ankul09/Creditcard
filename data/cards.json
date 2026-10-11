@@ -208,56 +208,6 @@
       "notes": "Official T&C published 20 Jul 2026. Waiver Rs1L annual spend. Milestone: Rs1,000 voucher or 1 domestic lounge per Rs1L quarterly spend. Forex markup not found for this card (MITC table layout ambiguous). Conflict inside T&C: one clause says gift/prepaid card and voucher purchases are 'other spends' at 1%, another says MCC 6540 (wallet/prepaid loads) earn nothing. Unaffected by 15 May 2026 change per third-party summaries. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC v4.13; one MITC clause says 20 May 2026, minor date conflict). | Re-confirmed 2026-10-11 against hdfc.bank.in product listing/page; network is from aggregator (cardadvisor.in) and issuer notes of dual-network variants."
     },
     {
-      "name": "SBI Cashback",
-      "issuer": "SBI Card",
-      "annual_fee": 999,
-      "fee_waiver_spend": 200000,
-      "forex_markup": null,
-      "base_rate": 0.01,
-      "rules": [
-        {
-          "merchants": [],
-          "categories": [
-            "online_shopping",
-            "dining",
-            "travel",
-            "groceries"
-          ],
-          "rate": 0.05,
-          "cap_inr": 2000,
-          "desc": "5% on online spends, Rs2,000 per statement cycle; offline 1% capped separately at Rs2,000; combined max Rs4,000"
-        }
-      ],
-      "excludes": [
-        "jewellery",
-        "fuel",
-        "rent",
-        "wallet_load",
-        "utilities",
-        "insurance",
-        "education",
-        "railways",
-        "emi",
-        "government",
-        "gaming",
-        "toll"
-      ],
-      "source_url": "https://www.sbicard.com/en/faq/cashback-sbi-card-faq.page",
-      "source_type": "official",
-      "sources": [
-        "https://www.sbicard.com/en/faq/cashback-sbi-card-faq.page",
-        "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/cashback-tnc-ekit.pdf",
-        "https://www.sbicard.com/en/customer-notices.page",
-        "https://1finance.co.in/blog/sbi-cashback-credit-card-review-2026/"
-      ],
-      "data_status": "unverified",
-      "confidence": "medium",
-      "retrieved_on": "2026-10-11",
-      "last_verified": null,
-      "notes": "Fee 999 + GST, waived at 2L annual spend (third-party). Official FAQ: 5% online / 1% offline, Rs2,000 cap each, Rs4,000 combined per statement cycle. Official notices say benefits revised effective 1 Apr 2026; revision details NOT read, so caps/exclusions may differ. Jewellery excluded (MCC 5944, 5094), online and offline (third-party). 1% fuel surcharge waiver Rs500-3,000, max Rs100/cycle. Rule applies 5% to all online categories we model.",
-      "status": "unknown"
-    },
-    {
       "name": "Axis ACE",
       "issuer": "Axis Bank",
       "annual_fee": 499,

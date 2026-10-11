@@ -65,3 +65,24 @@ Modelling rules (the recommender depends on these):
 {"catalog":[{"name","status","source"}], "cards":[...], "offers":[], "gaps":["things not found / unsure"]}
 Offers (optional): only currently valid ones (valid_till >= 2026-10-11): card, merchants[], categories[],
 type percent|flat, value (fraction for percent), min_spend, cap_inr, valid_till, desc, source_url, last_verified null.
+
+## Addendum v2 (verification pass, 2026-10-12): richer reward modelling
+The recommender now supports these OPTIONAL keys. Use them whenever the card's terms need them.
+
+Rule keys (inside rules[]):
+- `tiers`: [{"from_inr":0,"to_inr":5000,"rate":0.02},{"from_inr":5000,"to_inr":40000,"rate":0.05},{"from_inr":40000,"to_inr":null,"rate":0.07}]
+  Spend bands within ONE accrual period (usually a month); `rate` is then only the headline. Use for "X% on first Rs A, Y% above".
+- `rate` = CONSERVATIVE effective value (cash / statement-credit redemption, or the issuer's stated value).
+- `rate_best` = effective value at the BEST realistic redemption (airline/hotel transfer, travel portal, voucher). Omit if same as `rate`.
+- `period`: "month" | "statement" | "quarter" | "year" for the cap (default "month"). Convert caps to INR value.
+- `channel`: "online" | "offline" | "any" (default any). SBI Cashback style 5% online / 1% offline cards need two rules.
+- `min_txn_inr` / `max_txn_inr`: per-transaction limits.
+- `portal_only`: true if the rate applies only via the issuer's travel/shopping portal (HDFC SmartBuy, Axis Travel EDGE, ...).
+Card keys:
+- `point_value_inr`: {"cash": x, "best": y, "note": "how/where"} Rs value per point/mile by redemption route, with the official statement if any.
+- `status_source`: URL or document that confirms status (active|closed_to_new|discontinued). Do NOT mark closed_to_new/discontinued from an aggregator alone: confirm on the issuer's own site (apply page live? 'no longer accepting applications' notice?). If you can't confirm, set status "unknown".
+- `eligibility`: short text (invite-only, salary/income minimum, existing customers only, profession-restricted e.g. armed forces).
+- `verification`: {"checked_on":"2026-10-12","documents":["MITC/T&C/fee schedule URL or name"],"result":"confirmed|corrected|unconfirmed","changes":["what you changed vs the prior record"]}
+
+Confidence rule for the verification pass: set `high` ONLY if the rates, caps, exclusions AND fees were read from an official issuer document (MITC, T&C PDF, fee schedule or official card page) dated within the last 12 months. `medium` if official page read but terms/exclusions (e.g. jewellery) not confirmed. Otherwise `low`.
+Jewellery: for every card state explicitly in `excludes` or a `jewellery` rule whether jewellery/gold (MCC 5944/5094) earns; if the terms do not say, add "jewellery_unconfirmed": true.

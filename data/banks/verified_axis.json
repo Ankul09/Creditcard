@@ -1,0 +1,2144 @@
+{
+ "cards": [
+  {
+   "name": "Axis ACE",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 complimentary domestic lounge visits per calendar year (page does not state spend gate here)",
+   "main_benefit": "Everyday cashback card: 5% on Google Pay bill payments and 4% on Swiggy/Zomato/Ola (combined cap Rs500 per statement), 1.5% unlimited elsewhere.",
+   "key_benefits": [
+    "1% fuel surcharge waiver Rs400-4000, max Rs500/statement",
+    "Joining fee reversal on Rs10,000 spend within 45 days (MITC)"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "google pay"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "cap_inr": 500,
+     "period": "statement",
+     "desc": "5% cashback on electricity/water/gas/LPG/broadband/DTH/mobile via Google Pay (Android) only. Rs500 per statement cap is COMBINED with the 4% category."
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "zomato",
+      "ola"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.04,
+     "cap_inr": 500,
+     "period": "statement",
+     "desc": "4% cashback on Swiggy, Zomato, Ola (website/app). Shares the combined Rs500/statement cap with the 5% category."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.015,
+     "desc": "1.5% unlimited cashback on other eligible spends"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "emi",
+    "wallet_load",
+    "cash_advance",
+    "rent",
+    "insurance",
+    "education",
+    "government",
+    "financial_institutions",
+    "utilities_outside_gpay",
+    "telecom",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official ACE T&C (rev. 20 Jun 2025) lists gold/jewelry (MCC clock/jewelry/watch stores) as excluded and caps the 5%+4% categories at Rs500 per statement combined (cap missing in prior record). Status: listing page shows ACE with 'Know More' only (no Apply Now) while Magnus/Reserve/Flipkart show Apply Now; no explicit 'no longer accepting' notice found, so closed_to_new rests on the missing apply button.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown without 'Apply Now' button); card page live with no closure notice (T&C revision notice w.e.f. 28 Aug 2026)",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Cashback credited as statement credit (INR 1 = INR 1)."
+   },
+   "eligibility": "Age 18-70, resident of India",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ACE T&C PDF (axis-bank-ace-credit-card-tncs.pdf)",
+     "ACE revision 20 Jun 2025 PDF",
+     "ACE product page fees",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added Rs500/statement combined cap on 5%/4% categories",
+     "Added gift cards/toll/telecom exclusions and tax/fee detail",
+     "status_source added (official listing)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Cashback",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 400000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Online-spend cashback card: tiered 2%/5%/7% on monthly online spends (max Rs4,000/month), 0.75% on offline and travel.",
+   "key_benefits": [
+    "EDGE points worth Rs1,000 welcome on first transaction within 30 days",
+    "0.5% on utilities up to Rs100/statement",
+    "Annual fee waived at Rs4L spend (new customers from 1 Jun 2024)"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "channel": "online",
+     "rate": 0.02,
+     "rate_best": 0.07,
+     "period": "statement",
+     "cap_inr": 4000,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 5000,
+       "rate": 0.02
+      },
+      {
+       "from_inr": 5000,
+       "to_inr": 40000,
+       "rate": 0.05
+      },
+      {
+       "from_inr": 40000,
+       "to_inr": null,
+       "rate": 0.07
+      }
+     ],
+     "desc": "Online (card-not-present, non-travel) net monthly spends: 2% on first Rs5,000 (max Rs100), 5% on Rs5,001-40,000 (max Rs1,750), 7% above Rs40,000 (max Rs2,150). Total cap Rs4,000 per statement month."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0075,
+     "desc": "0.75% unlimited on travel MCCs (airlines, travel agencies, railways, rentals), online or offline"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "channel": "offline",
+     "rate": 0.0075,
+     "desc": "0.75% unlimited on offline/POS spends"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.005,
+     "cap_inr": 100,
+     "period": "statement",
+     "desc": "0.5% on utilities (MCC 4816, 4899, 4900), max Rs100 per statement"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Read from official Cashback member T&C and product page. Network shown as Visa per prior record (T&C says Mastercard & Visa; not confirmed). Annual fee/waiver apply to customers onboarded on/after 1 Jun 2024 per T&C. Status from missing Apply Now on official listing; no explicit notice.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown without 'Apply Now' button); product page live (no closure notice)",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Statement-credit cashback."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis Bank Cashback Credit Card Member T&C PDF",
+     "Cashback product page",
+     "MITC"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Added 2/5/7% tiers with Rs4,000 monthly cap",
+     "Jewellery explicitly excluded",
+     "status_source added"
+    ]
+   }
+  },
+  {
+   "name": "Axis Magnus",
+   "issuer": "Axis Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12500,
+   "annual_fee": 12500,
+   "fee_waiver_spend": 2500000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited international (Priority Pass, 4 guest visits/yr); unlimited domestic with min Rs50,000 spend in previous 3 months. From 28 Aug 2026 Priority Pass not valid for Indian domestic lounges (use card)",
+   "main_benefit": "Premium travel card: 12 EDGE pts/Rs200 up to Rs1.5L monthly spend and 35 pts/Rs200 above, transferable to airline/hotel partners at 5 pts : 2 miles.",
+   "key_benefits": [
+    "Welcome voucher worth Rs12,500 (Luxe/Postcard/Yatra)",
+    "Annual fee waived on Rs25L eligible spend",
+    "Magnus LTF for Burgundy Salary customers (from 1 Jul 2026)"
+   ],
+   "base_rate": 0.012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.012,
+     "rate_best": 0.07,
+     "period": "month",
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 150000,
+       "rate": 0.012,
+       "rate_best": 0.024
+      },
+      {
+       "from_inr": 150000,
+       "to_inr": null,
+       "rate": 0.035,
+       "rate_best": 0.07
+      }
+     ],
+     "desc": "12 EDGE pts/Rs200 on monthly spend up to Rs1.5L; 35 pts/Rs200 above, up to credit limit + Rs1.5L per calendar month, then back to 12. Cash rate assumes Rs0.20/pt (Axis states Rs0.20 on sister cards); best = transfer 5 pts:2 partner miles with a miles worth about Re1 (assumption)."
+    },
+    {
+     "merchants": [
+      "axis travel edge"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "portal_only": true,
+     "rate": 0.06,
+     "rate_best": 0.12,
+     "period": "month",
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 200000,
+       "rate": 0.06,
+       "rate_best": 0.12
+      },
+      {
+       "from_inr": 200000,
+       "to_inr": null,
+       "rate": 0.035,
+       "rate_best": 0.07
+      }
+     ],
+     "desc": "5X (60 pts/Rs200) via Travel EDGE up to Rs2L/month, 35 pts above (per Sep 2023 official T&C; page says only 5X)"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "insurance",
+    "rent",
+    "wallet_load",
+    "utilities",
+    "telecom",
+    "government",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official T&C (20 Jun 2025) confirms two tiers. No further 2026 devaluation found on Axis pages: transfer ratio is 2 miles per 5 pts since Sep 2023; the 1 Jul 2026 update is the Burgundy-salary lifetime-free variant and 28 Aug 2026 update changes DCC (2%), late fee, gift card/toll exclusions and domestic lounge rules. Rent excluded with note in T&C of cap Rs50,000/month (treated as excluded). Confidence medium because point value is inferred.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.4,
+    "note": "Cash/voucher Rs0.20 per EDGE point (stated on sister Privilege/Select pages). Transfer 5 pts = 2 partner miles (official); Rs0.40/pt assumes 1 mile = Re1, not stated by Axis. Transfer caps: 1L pts/yr Group A, 4L pts/yr Group B."
+   },
+   "eligibility": "Net income Rs24L p.a. or ITR Rs24L; age 18-70",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Magnus T&C 20 Jun 2025",
+     "Magnus T&C 20 Apr 2024 (jewellery MCC 5094/5944)",
+     "Magnus T&C 1 Sep 2023",
+     "Magnus page",
+     "MITC",
+     "LTF Burgundy T&C"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Replaced single 5X rule with 12/35 pt tiers and transfer value",
+     "Added point_value_inr",
+     "Jewellery explicit exclusion"
+    ]
+   }
+  },
+  {
+   "name": "Axis Atlas",
+   "issuer": "Axis Bank",
+   "network": "Mastercard",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Tiered by spend milestones (Silver/Gold/Platinum); see page",
+   "main_benefit": "Travel card earning EDGE Miles: 5 per Rs100 on Travel EDGE/direct airline/hotel (up to Rs2L/month), 2 per Rs100 elsewhere, 1 EDGE Mile = Re1.",
+   "key_benefits": [
+    "2,500 EDGE Miles welcome",
+    "Milestone miles up to 10,000 at Rs3L/7.5L/15L",
+    "Transfer 1 EDGE Mile = 2 partner points (Marriott 2:1), cap 1.5L miles/yr"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [
+      "axis travel edge"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "cap_inr": 10000,
+     "period": "month",
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 200000,
+       "rate": 0.05
+      },
+      {
+       "from_inr": 200000,
+       "to_inr": null,
+       "rate": 0.02
+      }
+     ],
+     "desc": "5 EDGE Miles/Rs100 on Travel EDGE portal, direct airline and direct hotel spend up to Rs2L/month; OTAs/travel agents earn only 2. 1 EDGE Mile = Re1 (official)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.02,
+     "desc": "2 EDGE Miles per Rs100 on other spends"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "rent",
+    "wallet_load",
+    "government",
+    "insurance",
+    "fuel",
+    "utilities",
+    "telecom",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-atlas-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-atlas-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Gold/jewellery excluded from earn and milestones from 20 Apr 2024 (official Atlas T&C). Status: no Apply Now on official listing.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown without 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": null,
+    "note": "1 EDGE Mile = Re1 on Travel EDGE (official); miles cannot be encashed. Transfer value to partner programmes not valued."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Atlas features T&C",
+     "Atlas revision 20 Jun 2025",
+     "Atlas page",
+     "MITC"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Added tiers, point value, jewellery exclusion confirmation, status_source"
+    ]
+   }
+  },
+  {
+   "name": "Flipkart Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": 350000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Co-brand cashback: 7.5% Myntra, 5% Flipkart and Cleartrip (Rs4,000/quarter cap each), 4% preferred merchants, 1% elsewhere.",
+   "key_benefits": [
+    "Joining fee Nil (limited period; MITC Rs500)",
+    "Rs250 Flipkart voucher on paid cards",
+    "Annual fee Rs500 waived at Rs3.5L"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "myntra"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.075,
+     "cap_inr": 4000,
+     "period": "quarter",
+     "desc": "7.5% on Myntra, max Rs4,000 per statement quarter"
+    },
+    {
+     "merchants": [
+      "flipkart"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "cap_inr": 4000,
+     "period": "quarter",
+     "desc": "5% on Flipkart (excl. Flipkart Health), Rs4,000 per statement quarter"
+    },
+    {
+     "merchants": [
+      "cleartrip"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "cap_inr": 4000,
+     "period": "quarter",
+     "desc": "5% on Cleartrip, Rs4,000 per statement quarter (separate from Flipkart)"
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "uber",
+      "pvr"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.04,
+     "desc": "Unlimited 4% on Preferred Merchants (Swiggy food delivery only, not Instamart; Uber, PVR named on Axis listing; full list is an image PDF not readable)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% unlimited on other eligible spends"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "emi",
+    "wallet_load",
+    "rent",
+    "utilities",
+    "telecom",
+    "insurance",
+    "education",
+    "government",
+    "financial_institutions",
+    "cash_advance",
+    "gift_cards"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior record marked closed_to_new: WRONG, official listing shows Apply Now and 'First Year Free'. Official cashback T&C excludes gold in any form and jewellery MCC. Full preferred merchant list not readable.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown with 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Statement-credit cashback."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Flipkart cashback T&C PDF",
+     "Flipkart revision 20 Jun 2025",
+     "Flipkart page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status closed_to_new -> active",
+     "Annual fee/waiver confirmed"
+    ]
+   }
+  },
+  {
+   "name": "Axis Horizon",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 international/quarter (USD1 txn reversed); domestic 8/quarter (Visa) or 6/quarter (Mastercard)",
+   "main_benefit": "Travel miles card: 5 EDGE Miles/Rs100 on Travel EDGE and direct airline, 2 per Rs100 on everything else including jewellery.",
+   "key_benefits": [
+    "5,000 EDGE Miles welcome on first txn >= Rs1,000 within 30 days",
+    "1,500 miles renewal",
+    "Nil fee for Burgundy savings accounts opened from 1 Jul 2026"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [
+      "axis travel edge"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5 EDGE Miles/Rs100 on Travel EDGE and direct airline spends; OTAs earn 2. Cap not stated. 1 EDGE Mile = Re1."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.02,
+     "desc": "Official T&C exclusion list does NOT include gold/jewellery, so it earns the 2 miles/Rs100 base. Not stated positively; verify."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gift_cards",
+    "utilities",
+    "telecom",
+    "insurance",
+    "education",
+    "government",
+    "toll",
+    "transport"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-horizon-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Horizon T&C exclusions: Transportation & Tolls, Utilities & Telecom, Insurance, Education, Govt, Wallet/Gift cards, Rent, Fuel. Gold/jewellery absent, unlike Atlas/Magnus/Select. Network: T&C offers Visa Signature and Mastercard World variants. DCC 3.5% from 21 Aug 2026.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown with 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": null,
+    "note": "1 EDGE Mile = Re1 on Travel EDGE (page). Partner transfer ratios dynamic."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Horizon T&C PDF",
+     "Horizon revision 20 Jun 2025/Aug 2026",
+     "Horizon page",
+     "MITC"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Jewellery treatment confirmed as not excluded",
+     "network set null (two variants)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Select",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 800000,
+   "forex_markup": 0.035,
+   "lounge_access": "Priority Pass up to 12 international visits/yr (6 + 6 on Rs3L spend); 2 domestic/quarter with Rs50k in prior 3 months",
+   "main_benefit": "Premium lifestyle card: 10 EDGE pts/Rs200 (1%), 2X on retail shopping up to Rs20,000/month.",
+   "key_benefits": [
+    "10,000 EDGE pts (Rs2,000) welcome",
+    "6-12 golf rounds",
+    "BigBasket Rs500 off monthly",
+    "Fee Nil for Burgundy"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "cap_inr": 400,
+     "period": "month",
+     "desc": "20 pts/Rs200 on dept stores, grocery, apparel up to Rs20,000/month retail spend, then 10 pts. Rs0.20/pt."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "10 EDGE pts/Rs200 at Rs0.20/pt"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "insurance",
+    "rent",
+    "fuel",
+    "education",
+    "utilities",
+    "telecom",
+    "wallet_load",
+    "government",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-select-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Gold/jewellery excluded from earn and fee waiver (page). From 1 Oct 2026 same exclusions apply to lounge/golf thresholds.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "10,000 pts = Rs2,000 per Axis page."
+   },
+   "eligibility": "Net income Rs6L p.a.; age 18-70",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Select page",
+     "Select Priority Pass T&C",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added 2X retail rule with Rs20k cap",
+     "fee waiver Rs8L",
+     "jewellery confirmed"
+    ]
+   }
+  },
+  {
+   "name": "Axis Privilege",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic/quarter with Rs50k spend in prior 3 months",
+   "main_benefit": "Mid-tier rewards card: 10 EDGE pts per Rs200 (1%) plus 12,500 pt welcome and 10,000 pts at Rs2.5L.",
+   "key_benefits": [
+    "12,500 pts (Rs2,500 vouchers) welcome",
+    "10,000 pts (Rs2,000) at Rs2.5L",
+    "Currently Nil fee on Amex variant (limited period)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "10 EDGE pts/Rs200 at Rs0.20/pt, domestic and international"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "insurance",
+    "rent",
+    "fuel",
+    "education",
+    "utilities",
+    "government",
+    "wallet_load",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee shown is standard (Visa); official page says Nil for limited period on Amex network.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "10,000 pts = Rs2,000 (official)."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Privilege page",
+     "MITC"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Gold & Jewellery exclusion confirmed"
+    ]
+   }
+  },
+  {
+   "name": "Axis Reserve",
+   "issuer": "Axis Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 50000,
+   "annual_fee": 50000,
+   "fee_waiver_spend": 3500000,
+   "forex_markup": 0.015,
+   "lounge_access": "Unlimited international (Priority Pass) and unlimited domestic (card only from 28 Aug 2026)",
+   "main_benefit": "Metal ultra-premium card: 15 EDGE pts/Rs200 domestic, 30 pts/Rs200 on international spend (up to credit limit/month).",
+   "key_benefits": [
+    "15,000 pts on activation (per listing)",
+    "Club ITC, Accor Plus, Club Marriott memberships",
+    "Golf rounds"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.03,
+     "period": "month",
+     "desc": "30 pts/Rs200 international up to credit limit per month, then 15 (Rs0.20/pt assumed)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.015,
+     "desc": "15 pts/Rs200 domestic"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "insurance",
+    "wallet_load",
+    "utilities",
+    "government",
+    "gift_cards",
+    "toll",
+    "rent"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/reserve-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/reserve-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/waiver from MITC; Reserve page fee tab not in static HTML. Rent: T&C mentions earn capped Rs1L/month; treated as excluded (conservative).",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "Rs0.20/pt assumed from sister cards; transfer ratio for Reserve not readable."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Reserve T&C 20 Jun 2025",
+     "Reserve T&C 20 Apr 2024",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added international 2X",
+     "jewellery explicit"
+    ]
+   }
+  },
+  {
+   "name": "Axis Neo",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 250,
+   "annual_fee": 250,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Offer-led entry card (Zomato, Blinkit, Cleartrip discounts); earn is only 1 EDGE pt per Rs200.",
+   "key_benefits": [],
+   "base_rate": 0.001,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.001,
+     "desc": "1 EDGE pt/Rs200 at Rs0.20/pt"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "utilities",
+    "education",
+    "insurance",
+    "government",
+    "wallet_load",
+    "rent",
+    "fuel",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate and exclusions from official page/T&C; no fee waiver stated.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "assumed"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Neo page",
+     "Neo T&C 20 Jun 2025",
+     "MITC"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "rate and exclusions confirmed"
+    ]
+   }
+  },
+  {
+   "name": "Axis My Zone",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per calendar quarter",
+   "main_benefit": "Entertainment entry card: 4 EDGE pts/Rs200 (0.4%), District BOGO, Rs120 Swiggy.",
+   "key_benefits": [],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.004,
+     "desc": "4 pts/Rs200 at Rs0.20/pt"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "movies",
+    "fuel",
+    "insurance",
+    "wallet_load",
+    "rent",
+    "utilities",
+    "education",
+    "government",
+    "emi",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-my-zone-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1,000 pts on Rs1.5L annual spend (from 1 Apr 2026; Sony LIV renewal discontinued).",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "assumed"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "My Zone page",
+     "My Zone revision Apr 2026",
+     "MITC"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "jewellery excluded confirmed"
+    ]
+   }
+  },
+  {
+   "name": "Airtel Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Airtel",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Airtel bill cashback: 25% on Airtel bills and 10% on utilities via Airtel Thanks, each capped by base 1% cashback earned (from 12 Apr 2026).",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "airtel thanks"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.25,
+     "cap_formula": "monthly cap = 2x base 1% cashback earned on other spends",
+     "desc": "25% on Airtel mobile/broadband/WiFi/DTH via Airtel Thanks; capped at 2x the 1% base cashback earned that statement month, so zero base spend = zero bonus"
+    },
+    {
+     "merchants": [
+      "airtel thanks"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.1,
+     "cap_formula": "cap = 1x base cashback",
+     "desc": "10% on other BBPS utilities via Airtel Thanks, capped at 1x base cashback"
+    },
+    {
+     "merchants": [
+      "zomato",
+      "blinkit",
+      "district"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "cap_inr": 200,
+     "desc": "10% value back, max Rs200 per partner per month, min Rs499 Zomato/Blinkit"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% unlimited base"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "emi",
+    "gift_cards",
+    "cash_advance",
+    "utilities_outside_airtel_thanks"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Previous 25% cap (flat) replaced by official T&C effective 12 Apr 2026 (cap tied to base cashback).",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "statement credit"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Airtel cashback T&C (12 Apr 2026)",
+     "Airtel page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Cap logic updated",
+     "jewellery excluded"
+    ]
+   }
+  },
+  {
+   "name": "IndianOil Axis Bank Credit Card",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "IndianOil",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 350000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Fuel card: 4% value back at IOCL outlets (20 pts/Rs100, Rs5,000/month eligible spend), 1% on online shopping (Rs5,000/month).",
+   "key_benefits": [],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [
+      "indian oil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "cap_inr": 200,
+     "period": "month",
+     "min_txn_inr": 400,
+     "max_txn_inr": 4000,
+     "desc": "20 pts/Rs100 at IOCL; txn Rs400-4000; max Rs5,000 spend/month (=Rs200). Rs0.20/pt (4% stated by Axis)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "channel": "online",
+     "rate": 0.01,
+     "cap_inr": 50,
+     "period": "month",
+     "min_txn_inr": 100,
+     "max_txn_inr": 5000,
+     "desc": "5 pts/Rs100 online, Rs5,000/month eligible"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "desc": "1 pt/Rs100 base"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "insurance",
+    "wallet_load",
+    "rent",
+    "utilities",
+    "government",
+    "education",
+    "cash_advance"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/indianoil-axis-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/indianoil-axis-bank-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "1% fuel surcharge waiver at IOCL max Rs50/statement. Prior record had base_rate 0 and unsourced rules.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "4% = 20 pts/Rs100 per page"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "IndianOil page",
+     "IndianOil revision 20 Jun 2025",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added official rules, caps, fees"
+    ]
+   }
+  },
+  {
+   "name": "IndianOil Axis Bank Premium Credit Card",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": "IndianOil",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 30000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "Fuel/grocery miles: 6 EDGE Miles/Rs150 at IOCL (up to Rs15,000/month), 2/Rs150 grocery (Rs5,000/month), 1 base.",
+   "key_benefits": [],
+   "base_rate": 0.0067,
+   "rules": [
+    {
+     "merchants": [
+      "indian oil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "cap_inr": 600,
+     "period": "month",
+     "desc": "6 miles/Rs150 = 4 miles/Rs100 up to Rs15,000/month; assumes 1 EDGE Mile = Re1 (not stated on this page)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.0133,
+     "cap_inr": 66,
+     "period": "month",
+     "desc": "2 miles/Rs150 up to Rs5,000/month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0067,
+     "desc": "1 mile/Rs150"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "utilities",
+    "telecom",
+    "education",
+    "rent",
+    "wallet_load",
+    "government",
+    "insurance",
+    "cash_advance"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/indianoil-premium-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/indianoil-premium-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior status active: official listing shows no Apply Now, so closed_to_new. Fee waiver at Rs30,000 per MITC.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown without 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": null,
+    "note": "Re1/mile assumed from Atlas/Horizon statements"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Premium page",
+     "Premium T&C",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active -> closed_to_new",
+     "rules from official page"
+    ]
+   }
+  },
+  {
+   "name": "Axis Rewards",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic/quarter (Rs50k in prior 3 months)",
+   "main_benefit": "Entry rewards card: 2 EDGE pts/Rs125 (0.32%), 10X on apparel/department stores up to Rs7,000/month.",
+   "key_benefits": [],
+   "base_rate": 0.0032,
+   "rules": [
+    {
+     "merchants": [
+      "apparel",
+      "department stores"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.032,
+     "cap_inr": 224,
+     "period": "month",
+     "desc": "20 pts/Rs125 up to Rs7,000/month then 2 pts; Rs0.20/pt assumed"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0032,
+     "desc": "2 pts/Rs125"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "utilities",
+    "telecom",
+    "insurance",
+    "education",
+    "government",
+    "gift_cards",
+    "toll",
+    "transport"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/rewards-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/rewards-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official T&C exclusion list has no gold/jewellery, so it likely earns base; not stated positively. Fee waiver Rs2L for cards from 1 Mar 2023. Joining Nil on Amex limited period.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "assumed"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Rewards T&C",
+     "Rewards page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "source upgraded to official",
+     "excludes aligned to T&C"
+    ]
+   }
+  },
+  {
+   "name": "Samsung Axis Bank Infinite",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": "Samsung",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": 700000,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic/yr (Rs50k prior 3 months); Priority Pass 6 international",
+   "main_benefit": "10% cashback on Samsung purchases (Rs5,000/month, Rs20,000/yr cap); 15 pts/Rs100 on partners and international.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "samsung",
+      "samsung.com",
+      "samsung shop"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.1,
+     "cap_inr": 5000,
+     "period": "month",
+     "desc": "10% on Samsung incl EMI; Rs5,000/month and Rs20,000/year cap"
+    },
+    {
+     "merchants": [
+      "bigbasket",
+      "tata1mg",
+      "urbancompany",
+      "myntra",
+      "zomato"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "15 pts/Rs100, Rs0.20/pt assumed"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.03,
+     "desc": "15 pts/Rs100 international"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "5 pts/Rs100 domestic"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "wallet_load",
+    "government",
+    "education",
+    "utilities",
+    "telecom",
+    "rent",
+    "insurance"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official T&C. No Apply Now on listing.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown without 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "assumed"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Samsung Infinite T&C",
+     "page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "cap Rs5,000/month and Rs20,000/yr confirmed",
+     "status official"
+    ]
+   }
+  },
+  {
+   "name": "Samsung Axis Bank Signature",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Samsung",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic/yr (Rs50k prior 3 months)",
+   "main_benefit": "10% cashback on Samsung (Rs2,500/month, Rs10,000/yr cap); 10 pts/Rs100 partners.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "samsung",
+      "samsung.com",
+      "samsung shop"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.1,
+     "cap_inr": 2500,
+     "period": "month",
+     "desc": "Rs2,500/month and Rs10,000/yr cap"
+    },
+    {
+     "merchants": [
+      "bigbasket",
+      "tata1mg",
+      "urbancompany",
+      "myntra",
+      "zomato"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "10 pts/Rs100 at Rs0.20"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "5 pts/Rs100"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "wallet_load",
+    "government",
+    "education",
+    "utilities",
+    "telecom",
+    "rent",
+    "insurance"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior status closed_to_new was wrong: listing shows Apply Now.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown with 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "assumed"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Samsung Signature T&C",
+     "page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status -> active"
+    ]
+   }
+  },
+  {
+   "name": "Shoppers Stop Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Shoppers Stop",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Shoppers Stop co-brand: 20 First Citizen pts/Rs200 on private labels, 12 on other brands there, 2 elsewhere.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "shoppers stop"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.1,
+     "desc": "20 FC pts/Rs200 private labels; 12 pts other brands (6%); assumes 1 FC point = Re1 (not stated in Axis docs)"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "2 FC pts/Rs200, same assumption"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "utilities",
+    "insurance",
+    "education",
+    "government",
+    "gift_cards",
+    "toll",
+    "transport"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-shoppers-stop-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-shoppers-stop-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates official; FC point value not in Axis docs, so rates are assumption-based.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown with 'Apply Now' button)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": null,
+    "note": "1 FC point = Re1 is an assumption"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Shoppers Stop T&C",
+     "page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "rates added"
+    ]
+   }
+  },
+  {
+   "name": "IndiGo Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic/quarter (Rs50k prior 3 months)",
+   "main_benefit": "IndiGo BluChips: 3 per Rs100 on IndiGo, 2 on grocery/dining, 1 base.",
+   "key_benefits": [],
+   "base_rate": 0.0045,
+   "rules": [
+    {
+     "merchants": [
+      "indigo",
+      "goindigo"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0135,
+     "desc": "3 BluChips/Rs100; Rs0.45/BluChip is an unofficial estimate"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.009,
+     "desc": "2/Rs100; UPI earn capped at 750 BluChips/month"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "utilities",
+    "telecom",
+    "insurance",
+    "government",
+    "gift_cards",
+    "toll",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Nil limited period (MITC Rs799). BluChips only on paid-fee cards.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown with 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 0.45,
+    "best": null,
+    "note": "BluChip value not stated in Axis docs"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "IndiGo T&C",
+     "page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "jewellery excluded"
+    ]
+   }
+  },
+  {
+   "name": "IndiGo Axis Bank Premium",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": "2 international Priority Pass + 2 domestic/quarter",
+   "main_benefit": "7 BluChips/Rs100 on IndiGo, 3 on grocery/hotel, 2 base; 2.5% forex.",
+   "key_benefits": [],
+   "base_rate": 0.009,
+   "rules": [
+    {
+     "merchants": [
+      "indigo",
+      "goindigo"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0315,
+     "desc": "7/Rs100 at est Rs0.45"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.0135,
+     "desc": "3/Rs100"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "utilities",
+    "telecom",
+    "insurance",
+    "government",
+    "gift_cards",
+    "toll",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-premium-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/indigo-axis-bank-premium-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Forex 2.5% (MITC).",
+   "status_source": "https://www.axis.bank.in/cards/credit-card (official listing: card shown with 'Apply Now' button)",
+   "point_value_inr": {
+    "cash": 0.45,
+    "best": null,
+    "note": "unofficial"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "IndiGo Premium T&C",
+     "page",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "forex 2.5%"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Vistara Infinite Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Vistara co-brand earning Maharaja points; sunsetting 31 Oct 2026.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees from MITC. Reward rates not verified (Infinite page: 6 points/Rs200).",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card (official notice: card discontinued for spends after 31 Oct 2026 following Vistara-Air India merger; no Apply Now on listing)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Vistara page notice",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status confirmed discontinued from official notice"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Vistara Signature Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Vistara co-brand earning Maharaja points; sunsetting 31 Oct 2026.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-signature-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees from MITC. Reward rates not verified (Infinite page: 6 points/Rs200).",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-signature-credit-card (official notice: card discontinued for spends after 31 Oct 2026 following Vistara-Air India merger; no Apply Now on listing)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Vistara page notice",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status confirmed discontinued from official notice"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Vistara Platinum Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Vistara co-brand earning Maharaja points; sunsetting 31 Oct 2026.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees from MITC. Reward rates not verified (Infinite page: 6 points/Rs200).",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-credit-card (official notice: card discontinued for spends after 31 Oct 2026 following Vistara-Air India merger; no Apply Now on listing)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Vistara page notice",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status confirmed discontinued from official notice"
+    ]
+   }
+  },
+  {
+   "name": "Axis Olympus",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 20000,
+   "annual_fee": 20000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.018,
+   "lounge_access": null,
+   "main_benefit": "Super-premium card; only fees/forex confirmed from MITC.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/credit-cards/mitc-credit-cards.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/docs/default-source/default-document-library/credit-cards/mitc-credit-cards.pdf",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Not on official listing; no page found (404). Rates not found.",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "MITC"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "fees and forex confirmed only"
+    ]
+   }
+  },
+  {
+   "name": "Axis Magnus for Burgundy",
+   "issuer": "Axis Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 30000,
+   "annual_fee": 30000,
+   "fee_waiver_spend": 3000000,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Magnus for Burgundy-relationship customers: same 12/35 pt earn with up to 4 partner miles per 5 points.",
+   "key_benefits": [],
+   "base_rate": 0.012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.012,
+     "rate_best": 0.14,
+     "period": "month",
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 150000,
+       "rate": 0.012,
+       "rate_best": 0.048
+      },
+      {
+       "from_inr": 150000,
+       "to_inr": null,
+       "rate": 0.035,
+       "rate_best": 0.14
+      }
+     ],
+     "desc": "Same tiers as Magnus; best = 4 miles per 5 pts at assumed Re1/mile"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "fuel",
+    "insurance",
+    "rent",
+    "wallet_load",
+    "utilities",
+    "government",
+    "gift_cards",
+    "toll"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-magnus-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs30,000 waived on Rs30L (MITC). Replaced by plain Magnus if Burgundy criteria lapse.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.8,
+    "note": "assumed"
+   },
+   "eligibility": "Burgundy relationship required (TRV criteria)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Magnus page",
+     "Burgundy T&C",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees, tiers added"
+    ]
+   }
+  }
+ ],
+ "gaps": [
+  "Axis closed_to_new status for ACE, Cashback, Atlas, IndianOil Premium and Samsung Infinite rests on missing Apply Now on the official listing (no explicit notice).",
+  "Magnus: no separate 2026 devaluation found on Axis pages; transfer value per partner mile unstated.",
+  "Reserve transfer ratio and fee tab unreadable; Olympus rates/status not found; Primus, Miles&More, others not re-verified.",
+  "IndiGo BluChip and Shoppers Stop FC point values not stated in Axis documents.",
+  "Flipkart preferred merchant list is an image PDF; Flipkart Super Elite appears on listing without Apply Now (not in my scope).",
+  "Vistara rates not verified; Vistara cards discontinued for spends after 31 Oct 2026."
+ ]
+}

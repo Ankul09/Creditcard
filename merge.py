@@ -50,6 +50,18 @@ aliases = json.load(open(os.path.join(ROOT, "data", "aliases.json")))["aliases"]
 for dup in aliases:
     cards.pop(dup, None)
 
+overrides_path = os.path.join(ROOT, "data", "overrides.json")
+if os.path.exists(overrides_path):
+    for name, patch in json.load(open(overrides_path)).get("cards", {}).items():
+        c = cards.get(name)
+        if not c:
+            print(f"warning: override for unknown card {name!r}")
+            continue
+        c.update(patch.get("fields", {}))
+        for idx, rule_patch in (patch.get("rules") or {}).items():
+            c["rules"][int(idx)].update(rule_patch)
+        c.setdefault("overrides", []).append(patch.get("reason", "manual override"))
+
 out = {
     "_note": "Merged from data/banks/*.json by merge.py. Publicly sourced and UNVERIFIED; last_verified stays null until a human confirms a record. 'rate' = effective reward value as a fraction of spend; 'cap_inr' = max reward value per statement month (omitted if unknown); 'excludes' = categories earning nothing.",
     "cards": list(cards.values()),

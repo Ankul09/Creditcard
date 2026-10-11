@@ -1,0 +1,2088 @@
+{
+ "cards": [
+  {
+   "name": "ICICI Amazon Pay",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Amazon",
+   "lifetime_free": true,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "entry",
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free card giving 5% (Prime) / 3% (non-Prime) back as Amazon Pay balance on Amazon.in, 2% on Amazon Pay partner sites and 1% on other eligible spends.",
+   "key_benefits": [
+    "5% Prime / 3% non-Prime on www.amazon.in (excl. gold coins, flight/hotel via Amazon Pay)",
+    "2% on Amazon Pay partner (digitally fulfilled) categories and physical gift cards",
+    "1% on other eligible purchases",
+    "1% fuel surcharge waiver",
+    "Rewards credited as Amazon Pay balance within 2 working days of billing cycle end; non-expiring",
+    "Invite-only; 3-month no-cost EMI on Amazon.in"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "amazon",
+      "amazon.in"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% for Prime members (3% non-Prime, not separately modelled) on www.amazon.in, credited as Amazon Pay balance at Re1 each. No cap stated in T&C. Excludes Gold Coins and flight/hotel bookings via Amazon Pay."
+    },
+    {
+     "merchants": [
+      "amazon pay",
+      "amazon pay partner sites"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% on 'login and pay with Amazon Pay' digitally fulfilled partner categories and physical gift cards (T&C clause XXIV.9)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on all other eligible purchases (T&C XXIV.10)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "education",
+    "international",
+    "utilities_outside_amazon",
+    "gold",
+    "silver",
+    "precious_metals",
+    "tax",
+    "emi",
+    "cash_advance"
+   ],
+   "point_value_inr": {
+    "cash": 1.0,
+    "note": "Rewards are credited as Amazon Pay balance (Amazon Gift Card terms), effectively Re1 per reward; usable only on Amazon/Amazon Pay."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+   "eligibility": "Invite-only programme (official page); Indian citizen 21+, monthly income at least Rs30,000 (salaried/self-employed).",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/tc-for-amazon-pay-credit-card.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc-cc-gk-t.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "T&C (updated Jan 13 2026) clause XXIV.13: no rewards on fuel, gold, silver, any precious metal, tax payments. Jewellery-store (MCC 5944) spend is not explicitly named, so jewellery_unconfirmed stays true; gold/silver/precious-metal purchases are explicitly excluded. Since Oct 11 2025 education and international transactions earn nothing and utilities outside Amazon earn nothing; rent earns nothing (from Jun 18 2024). EMI/cash earn nothing. Wallet load is not excluded for this card but ICICI charges 1% fee on wallet loads >= Rs5,000 (MITC); 1% fee on fuel > Rs10,000, utilities > Rs50,000, transport > Rs50,000, education via third-party apps, 2% on skill gaming. Forex 1.99% (MITC Oct 2026 and card MITC Jul 2026). Fees nil. 5% not capped in T&C; no per-transaction limits found. Earlier record wrongly listed international as 1% earning and wrongly cited third-party jewellery MCC exclusion.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "MITC for Amazon Pay card (updated Jul 10 2026)",
+     "T&C for Amazon Pay ICICI Bank Credit Card (updated Jan 13 2026)",
+     "Official card page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "International and education spends now earn nothing (since Oct 11 2025) - removed 1% international assumption",
+     "Utilities outside Amazon earn nothing",
+     "Jewellery exclusion replaced: T&C excludes gold/silver/precious metals, not jewellery stores explicitly",
+     "Added 2% partner-site rule and Re1 point value",
+     "Added fee list and invite-only eligibility"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Sapphiro",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "premium",
+   "joining_fee": 6500,
+   "annual_fee": 3500,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 international per year (primary); 4 domestic per quarter on Rs75,000 spend in preceding quarter (primary)",
+   "main_benefit": "Mid-premium travel/lifestyle card with Rs13,000+ welcome vouchers, lounges, golf and 4 RP per Rs100 on international spend (2 RP domestic).",
+   "key_benefits": [
+    "Welcome vouchers worth over Rs13,000 (Tata CLiQ Rs3,000, EaseMyTrip Rs4,000, Da Milano Rs5,000, Croma Rs1,500, EazyDiner Prime Rs1,095) on joining fee payment",
+    "4 golf rounds/lessons per month (1 per Rs50,000 spent in prior calendar month)",
+    "Milestone 4,000 RP at Rs4L then 2,000 per extra Rs1L, up to 20,000 RP per anniversary year",
+    "BookMyShow BOGO up to Rs500 twice a month (needs Rs25,000 spend in preceding quarter from 1 Apr 2026)",
+    "Air accident cover up to Rs3 crore (international travel, ticket bought on card)",
+    "1% fuel surcharge waiver on transactions up to Rs4,000"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs100 on international spend = 1% at assumed Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 on domestic spend = 0.5% at Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0025,
+     "cap_inr": 200,
+     "period": "statement",
+     "desc": "1 RP per Rs100 on utility, insurance (and government, folded into utility since Feb 2024). MITC caps accrual at Rs80,000 spend/statement for utility and for insurance; cap_inr = 800 RP x Rs0.25 (interpreted as spend cap)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.005,
+     "cap_inr": 200,
+     "period": "statement",
+     "desc": "Grocery/department-store points capped at Rs40,000 spend per statement cycle (MITC) = 800 RP x Rs0.25."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+   "eligibility": "Indian citizen 21-65; salaried monthly income Rs75,000 or self-employed annual income Rs9,00,000.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/sapphiro-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees (MITC Oct 2026 + page): joining Rs6,500+GST, annual Rs3,500+GST, waived next year on Rs6L spend; add-on Rs199. Forex 3.5% (page+MITC). Jewellery not mentioned in MITC reward exclusions (cash, rent, e-wallet reload, fuel only) so likely earns base 2 RP/Rs100 but not stated: jewellery_unconfirmed. Transport spend points capped Rs20,000 spend/statement from Feb 1 2026 and 1% fee on transport > Rs50,000. Other MITC fees: 1% on fuel > Rs10,000, utility > Rs50,000, wallet load >= Rs5,000, rent 1%, 2% skill gaming, 1% education via third-party apps. Network variants (Visa/Mastercard/Amex/RuPay) share terms; left null. Earlier record's jewellery rule dropped (unconfirmed).",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Official Sapphiro page"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Added rupee caps and category rules from MITC",
+     "Fees/forex re-confirmed",
+     "Eligibility added"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Rubyx",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "premium",
+   "joining_fee": 3000,
+   "annual_fee": 2000,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter on Rs75,000 prior-quarter spend; 8 railway lounge visits per year",
+   "main_benefit": "Upper-mid lifestyle card with Rs15,000+ welcome vouchers, lounges and golf; 4 RP per Rs100 on international spend (2 RP domestic).",
+   "key_benefits": [
+    "Welcome vouchers worth over Rs15,000 (Tata CLiQ, Croma, EazyDiner, EaseMyTrip, Avis, Elivaas)",
+    "Up to 2 golf rounds/month (1 per Rs50,000 prior-month spend)",
+    "25% off up to Rs150 on BookMyShow and INOX twice a month",
+    "Milestone 3,000 RP at Rs3L then 1,500 per extra Rs1L (max 15,000/yr)",
+    "Air accident cover up to Rs1 crore",
+    "1% fuel surcharge waiver on Rs400-4,000 transactions"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs100 international = 1% at assumed Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 domestic = 0.5% at Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0025,
+     "cap_inr": 200,
+     "period": "statement",
+     "desc": "1 RP/Rs100 on utility and insurance; MITC caps Rs80,000 spend/statement each = 800 RP x Rs0.25 (interpreted as spend cap)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.005,
+     "cap_inr": 200,
+     "period": "statement",
+     "desc": "Grocery/department-store points capped at Rs40,000 spend per statement (MITC)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+   "eligibility": "Indian citizen 21+; salaried monthly income Rs75,000 or self-employed annual Rs9,00,000.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/rubyx-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees: joining Rs3,000+GST, annual Rs2,000+GST waived on Rs3L spend (MITC + page). Forex 3.5%. No jewellery exclusion in MITC; not explicit: jewellery_unconfirmed. Transport points capped Rs20,000 spend/statement (from Feb 1 2026).",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Official Rubyx page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added domestic 2 RP rule, caps, point-value assumption",
+     "Fees re-confirmed"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Coral",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "entry",
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75,000 prior-quarter spend; 4 railway lounge visits per year",
+   "main_benefit": "Entry everyday card with 2 RP per Rs100 on retail, movie offers and milestone points.",
+   "key_benefits": [
+    "25% off up to Rs100 on BookMyShow (needs Rs25,000 prior-quarter spend) and INOX twice a month",
+    "Milestone 2,000 RP at Rs2L then 1,000 per extra Rs1L (max 10,000/yr)",
+    "1% fuel surcharge waiver on Rs400-4,000 at HPCL pumps",
+    "RuPay variant: Rs2L personal accident cover and concierge"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 on retail = 0.5% at assumed Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0025,
+     "cap_inr": 100,
+     "period": "statement",
+     "desc": "1 RP/Rs100 utility and insurance; MITC cap Rs40,000 spend/statement = 400 RP x Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.005,
+     "cap_inr": 50,
+     "period": "statement",
+     "desc": "Grocery/department-store capped Rs20,000 spend/statement = 200 RP x Rs0.25 (MITC)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+   "eligibility": "Indian citizen 21+; salaried Rs20,000/month or self-employed Rs2,40,000/year.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees: joining Rs500+GST, annual Rs500+GST waived on Rs1.5L spend (MITC + page). Forex 3.5%. Network variants share pricing (MITC). Coral also issued against FD (separate MITC line). No jewellery exclusion stated; jewellery_unconfirmed. Insurance/utility cap Rs40,000 spend, grocery/department Rs20,000 spend per statement; transport Rs10,000 spend (MITC).",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Official Coral page"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Added caps, point-value assumption, eligibility"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Coral RuPay",
+   "issuer": "ICICI Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "entry",
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75,000 prior-quarter spend; 4 railway lounge visits per year",
+   "main_benefit": "Entry everyday card with 2 RP per Rs100 on retail, movie offers and milestone points.",
+   "key_benefits": [
+    "25% off up to Rs100 on BookMyShow (needs Rs25,000 prior-quarter spend) and INOX twice a month",
+    "Milestone 2,000 RP at Rs2L then 1,000 per extra Rs1L (max 10,000/yr)",
+    "1% fuel surcharge waiver on Rs400-4,000 at HPCL pumps",
+    "RuPay variant: Rs2L personal accident cover and concierge",
+    "Can be linked to UPI (P2M only; no cash withdrawal; all card fees/forex apply to UPI spends)"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 on retail = 0.5% at assumed Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0025,
+     "cap_inr": 100,
+     "period": "statement",
+     "desc": "1 RP/Rs100 utility and insurance; MITC cap Rs40,000 spend/statement = 400 RP x Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.005,
+     "cap_inr": 50,
+     "period": "statement",
+     "desc": "Grocery/department-store capped Rs20,000 spend/statement = 200 RP x Rs0.25 (MITC)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card",
+   "eligibility": "Indian citizen 21+; salaried Rs20,000/month or self-employed Rs2,40,000/year.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/coral-rupay-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Fees: joining Rs500+GST, annual Rs500+GST waived on Rs1.5L spend (MITC + page). Forex 3.5%. Network variants share pricing (MITC). Coral also issued against FD (separate MITC line). No jewellery exclusion stated; jewellery_unconfirmed. Insurance/utility cap Rs40,000 spend, grocery/department Rs20,000 spend per statement; transport Rs10,000 spend (MITC). The RuPay page read is the generic ICICI RuPay credit-card page, not Coral-specific; Coral terms inferred from MITC 'same pricing irrespective of network'. UPI-on-credit-card spends: fees apply like card spends (MITC).",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Official Coral page"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "Network RuPay; fees taken from Coral MITC line; UPI terms added",
+     "Generic RuPay page lists 4 domestic lounges per quarter - not Coral-specific, kept Coral 1/quarter (conservative)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Emeralde",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "super_premium",
+   "joining_fee": 12000,
+   "annual_fee": 12000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic and international for primary cardholder",
+   "main_benefit": "Super-premium card with unlimited lounges, monthly golf and 4 RP per Rs100 on domestic and international spend at 2% forex.",
+   "key_benefits": [
+    "Unlimited domestic and international lounge access (primary)",
+    "Up to 4 golf rounds/month",
+    "BookMyShow BOGO up to Rs750 off, four times a month",
+    "Birthday voucher Rs5,000 (Tata CLiQ for Amex / PostCard Hotels for Mastercard)",
+    "No cancellation charges on domestic flight/hotel up to Rs12,000 twice a year",
+    "Air accident cover up to Rs3 crore",
+    "Forex markup 2%; Rs3,500 card replacement"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "4 RP per Rs100 on domestic and international spend = 1% at assumed Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0025,
+     "cap_inr": 200,
+     "period": "statement",
+     "desc": "1 RP/Rs100 on utility and insurance; MITC caps Rs80,000 spend/statement each = 800 RP x Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.01,
+     "cap_inr": 400,
+     "period": "statement",
+     "desc": "Grocery/department-store capped Rs40,000 spend/statement = 1,600 RP x Rs0.25 (MITC)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+   "eligibility": "Indian citizen 21+; salaried monthly income Rs1,50,000 or self-employed annual Rs18,00,000.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees: Rs12,000+GST joining and annual, waived on Rs10L spend (MITC+page); Rs12,000 'Nil' add-on. Forex 2% (MITC: 2% for Emeralde/Emeralde Private/EPM from Nov 15 2024). Monthly-membership sourcing was discontinued (MITC). Spend threshold for waiver excludes rent, government, education. Jewellery not in MITC exclusions but not explicit: jewellery_unconfirmed (earlier record wrongly listed jewellery/government/gaming as excluded; MITC excludes cash, rent, e-wallet reload, fuel; government folded into utility cap). Transport points capped Rs20,000 spend/statement.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Official Emeralde page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Removed unconfirmed jewellery/gaming exclusions",
+     "Added caps and eligibility",
+     "Domestic rate rule added"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Emeralde Private Metal",
+   "issuer": "ICICI Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "super_premium",
+   "joining_fee": 12499,
+   "annual_fee": 12499,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic and international for primary and Plus cardholders",
+   "main_benefit": "Invite-only metal card with 6 RP per Rs200 retail, Taj Epicure Plus and EazyDiner Prime, unlimited lounges and golf.",
+   "key_benefits": [
+    "Joining: Taj Epicure Plus, EazyDiner Prime and 12,500 RP",
+    "Unlimited golf rounds and lounge access",
+    "BookMyShow BOGO up to Rs750 off twice a month",
+    "2 EaseMyTrip vouchers worth up to Rs6,000 on Rs8L annual spend",
+    "Cancellation protection up to Rs12,000",
+    "Air accident cover Rs3 crore",
+    "1% fuel surcharge waiver on transactions up to Rs4,000 (spend up to Rs1,00,000/statement)",
+    "Nil late fee, nil cash-advance fee"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.0075,
+     "desc": "6 RP per Rs200 (3 RP/Rs100) = 0.75% at assumed Rs0.25/RP; third-party reports up to Re1/RP via vouchers (not confirmed)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.0075,
+     "cap_inr": 250,
+     "period": "statement",
+     "desc": "Grocery points capped 1,000 RP per statement (MITC/page) = Rs250 at Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0075,
+     "cap_inr": 250,
+     "period": "statement",
+     "desc": "Utilities (and education) capped 1,000 RP per category per statement; insurance capped 5,000 RP per statement = Rs1,250 at Rs0.25."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "tax",
+    "wallet_load",
+    "property_management",
+    "cash_advance",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC). EPM-specific redemption value not found in official documents."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+   "eligibility": "Invite-only (relationship-manager invitation) per official page.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emeralde-private-metal-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Fees Rs12,499+GST (MITC: from Jan 15 2026 add-on Rs3,500), waiver Rs10L. Forex 2%. MITC explicit no-earn list: rent, fuel, government payments, tax (any medium), third-party wallets, property management. Jewellery not listed as excluded: jewellery_unconfirmed. Metal-card T&C PDF not read, point value not official: medium. Replacement fee Rs3,500.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Official EPM page"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Added MITC no-earn list and caps",
+     "Removed unconfirmed jewellery rule and gaming/upi exclusions"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Times Black",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Times Group",
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "super_premium",
+   "joining_fee": 20000,
+   "annual_fee": 20000,
+   "fee_waiver_spend": 2500000,
+   "forex_markup": 0.0149,
+   "lounge_access": "Unlimited domestic and international (Priority Pass) for primary and Plus cardholders",
+   "main_benefit": "Ultra-premium lifestyle card with 2% (2.5% international) ICICI points, 1.49% forex and luxury stay/gift card welcome benefits.",
+   "key_benefits": [
+    "Luxury stay gift card: EaseMyTrip Rs10,000 or Lohono Rs12,000",
+    "Zomato Gold annual membership",
+    "Tata CLiQ Luxury Rs10,000 on Rs10L spend; one night Ayatana/Lohono (Rs20,000) on Rs20L spend",
+    "Klook Rs10,000 on Rs2L spend; WeWork/airport transfers Rs10,000 on Rs5L",
+    "Quorum Club offers; CribLife concierge",
+    "No cancellation charges up to Rs12,000",
+    "1% fuel surcharge waiver max Rs1,000 per statement"
+   ],
+   "base_rate": 0.008,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.008,
+     "rate_best": 0.02,
+     "desc": "2% ICICI reward points on eligible domestic spend. Value up to Re1/RP (best, vouchers) but Rs0.40/RP on statement credit (T&C), so conservative = 0.8%."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "rate_best": 0.025,
+     "desc": "2.5% reward points on international spend; Rs0.40/RP statement credit = 1%, up to Re1/RP = 2.5%."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.008,
+     "rate_best": 0.02,
+     "cap_inr": 2000,
+     "period": "statement",
+     "desc": "Utilities, insurance, education, government: max 5,000 RP per statement cycle cumulatively (MITC/T&C); cap_inr at Rs0.40/RP (Rs5,000 at Re1)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "emi",
+    "cash_advance",
+    "wallet_load"
+   ],
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 1.0,
+    "note": "Official T&C (May 2 2025): value of 1 ICICI reward point is up to Rs1; redemption against statement: Rs0.40 per point. Redemption handling fee nil for Times Black (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+   "eligibility": "Indian citizen 21+; salaried monthly income Rs2,00,000 or self-employed annual Rs24,00,000 (invitation-style premium card).",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/times-black-icici-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/times-black-icici-credit-card-terms-conditions.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Joining and annual Rs20,000+GST, waived on Rs25L spend (page + MITC); add-on Rs3,500 one-time (MITC). Forex 1.49% (MITC). Reward T&C: no points on fuel, rent, EMI-converted. Jewellery not excluded by T&C/MITC (not explicit): jewellery_unconfirmed. Cash advance fee nil. Late payment fees apply per MITC slab.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Times Black Additional T&C v3 (May 2 2025)",
+     "Official card page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rates now expressed at official Rs0.40 (cash) and Re1 (best); previous 2%/2.5% treated as full Re1",
+     "Fuel waiver cap Rs1,000/statement added",
+     "Removed unconfirmed upi/gaming exclusions and jewellery rule"
+    ]
+   }
+  },
+  {
+   "name": "ICICI HPCL Super Saver",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "HPCL",
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "entry",
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75,000 prior-quarter spend",
+   "main_benefit": "Fuel card giving 4% cashback (cap Rs200/month) plus 1% surcharge waiver at HPCL pumps / HP Pay and 5% on groceries, utilities and department stores (capped).",
+   "key_benefits": [
+    "2,000 RP joining benefit",
+    "4% cashback at HPCL pumps/HP Pay, cap Rs200/month, no minimum",
+    "1% fuel surcharge waiver at HPCL on Rs400-4,000 transactions, on top of 4%",
+    "1.5% extra in Happy Coins on HP Pay app fuel purchases",
+    "20 RP/Rs100 on utilities/groceries/department stores, cap 400 RP per statement",
+    "25% off up to Rs100 on BookMyShow (needs Rs25,000 prior-quarter spend) and INOX twice a month",
+    "24/7 roadside assistance; RuPay variant Rs2L accident cover"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl",
+      "hp pay"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "cap_inr": 200,
+     "period": "month",
+     "desc": "4% cashback on fuel at HPCL pumps and HP Pay app, capped Rs200/month (T&C Dec 2025). Plus 1% surcharge waiver on Rs400-4,000 transactions (separate, not in rate) and 1.5% Happy Coins on HP Pay. Wallet loads on HP Pay do not qualify for waiver."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "cap_inr": 100,
+     "period": "statement",
+     "desc": "20 RP per Rs100 on utilities (groceries, telecom, government, tax) and department stores = 5% (T&C states 5%, i.e. Rs0.25/RP); cap 400 RP per statement = Rs100."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 on other retail incl. international = 0.5% at Rs0.25/RP."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "HPCL Super Saver T&C equates 20 RP per Rs100 to 5%, implying Rs0.25 per RP."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+   "eligibility": "Indian citizen 21+; salaried Rs20,000/month or self-employed Rs2,40,000/year.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/hpcl-super-saver-credit-card-tnc-updated.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees Rs500+GST joining/annual, waiver Rs1.5L. Forex 3.5%. T&C last updated Dec 16 2025. No RP on fuel (T&C). MITC: insurance points capped Rs40,000 spend per statement for this card. 1% fee on fuel > Rs10,000 applies to the card. Jewellery not mentioned: jewellery_unconfirmed. Earlier record's 5% fuel rate split correctly: 4% cashback (cap Rs200) + separate 1% waiver.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "HPCL Super Saver T&C (Dec 16 2025)",
+     "Official page"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Fuel rule rate set to 4% cashback with waiver in desc",
+     "Daily-essentials cap interpreted as per statement cycle (T&C), not per month"
+    ]
+   }
+  },
+  {
+   "name": "ICICI HPCL Coral Credit Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "HPCL",
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "entry",
+   "joining_fee": 199,
+   "annual_fee": 199,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Low-fee HPCL fuel card with 2.5% cashback (cap Rs100/month) plus 1% surcharge waiver at HPCL, and 2 RP per Rs100 on retail.",
+   "key_benefits": [
+    "2.5% cashback at HPCL pumps, min Rs500 transaction, cap Rs100/month",
+    "1% fuel surcharge waiver on Rs400-4,000 at HPCL (on top, up to 3.5% total)",
+    "25% off up to Rs100 on BookMyShow twice a month"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "hpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.025,
+     "cap_inr": 100,
+     "period": "month",
+     "min_txn_inr": 500,
+     "desc": "2.5% cashback at HPCL pumps (min txn Rs500), cap Rs100/month; 1% surcharge waiver on Rs400-4,000 separate. Fuel reward points only on the Amex-network variant (MITC)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 retail = 0.5% at assumed Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.0025,
+     "desc": "1 RP per Rs100 on utility (groceries, telecom, government, tax) and department stores = 0.25%."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+   "eligibility": "Indian citizen 21+; salaried Rs20,000/month or self-employed Rs2,40,000/year.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/updated_terms-and-conditions-for-icici-bank-hpcl-coral-credit-card.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees Rs199+GST joining and annual, waived on Rs50,000 spend (MITC+page+T&C). Forex 3.5%. T&C PDF undated. Insurance/utility cap Rs40,000 spend, grocery/dept Rs20,000 per statement (MITC). Jewellery not mentioned: jewellery_unconfirmed.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "HPCL Coral T&C",
+     "Official page"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Added min txn Rs500 for cashback, retail/utility earn rules, fuel-points exception"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Platinum Chip",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "lifetime_free": true,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "entry",
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free entry card with 2 RP per Rs100 on retail and a 1% fuel surcharge waiver.",
+   "key_benefits": [
+    "No joining or annual fee",
+    "1% fuel surcharge waiver on Rs400-4,000 at HPCL pumps",
+    "EMI conversion"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 on retail = 0.5% at assumed Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0025,
+     "cap_inr": 100,
+     "period": "statement",
+     "desc": "1 RP/Rs100 utility and insurance; MITC cap Rs40,000 spend/statement = Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "wallet_load",
+    "emi"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "ICICI does not state a rupee value per Reward Point for this card. 0.25 is the value ICICI's own HPCL Super Saver T&C implies (20 RP per Rs100 = 5%); Times Black T&C states up to Re1/RP and Rs0.40 on statement-credit redemption. Redemption handling fee Rs99+GST per request (Rs25 some routes); points expire after 36 months (MITC)."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+   "eligibility": "Indian citizen 21+; monthly income at least Rs20,000 (page, asterisked).",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/platinum-chip-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Nil fees (MITC + page); forex 3.5%. Grocery/department points capped Rs20,000 spend per statement. Jewellery not mentioned: jewellery_unconfirmed. Earlier record's jewellery/gaming exclusions unconfirmed and removed.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Official page"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Removed unconfirmed exclusions",
+     "Added caps"
+    ]
+   }
+  },
+  {
+   "name": "ICICI MakeMyTrip",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "MakeMyTrip",
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "mid",
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.0099,
+   "lounge_access": "1 international per year; 2 domestic per quarter on Rs75,000 prior-quarter spend",
+   "main_benefit": "Current MakeMyTrip co-brand: 6% myCash on MMT hotels, 3% on flights/bus/cab/holidays, 1% elsewhere; forex 0.99% (zero from Nov 10 2026).",
+   "key_benefits": [
+    "Rs1,000 MMT voucher on joining fee; Rs1,000 hotel voucher on annual fee payment",
+    "1-year MMTBLACK Gold membership",
+    "myCash 1 = Re1, usable on MMT only",
+    "3-month no-cost EMI on MMT bookings",
+    "Mastercard and RuPay variants issued together"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "makemytrip"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.06,
+     "desc": "6% myCash on MMT hotels (uncapped); 3% on flights, holidays, bus and cab bookings; 25 myCash per train booking (T&C). myCash 1=Re1, MMT use only."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% myCash on domestic spends outside MMT, excl. rent and EMI (fuel not excluded per MITC). Insurance 1% capped 1,000 myCash per anniversary year."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "1% myCash on international spend today; from Nov 10 2026 international spends outside MMT earn NO myCash (T&C) while forex markup drops to 0%."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "emi",
+    "cash_advance"
+   ],
+   "point_value_inr": {
+    "cash": 1.0,
+    "note": "1 myCash = Re1 (T&C), redeemable only on MakeMyTrip checkout. Validity 24 months for myCash earned from Nov 10 2026; earlier myCash never expires."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card",
+   "eligibility": "Indian citizen 21+; salaried Rs20,000/month or self-employed Rs2,40,000/year.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/makemytrip-icici-bank-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/makemytrip-icici-credit-card-terms-and-conditions.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees Rs999+GST, waiver Rs3L (MITC+T&C); fee waiver cancels annual benefits. Forex 0.99% on official page today; MITC says no forex/DCC markup w.e.f. Nov 10 2026 (future date, forex_markup kept 0.0099 conservative). From Nov 10 2026: international spends outside MMT earn no myCash; myCash expiry 24 months. Fuel earns (MITC exception). Jewellery not mentioned: jewellery_unconfirmed. MMT Signature/Platinum are old programmes (closed) and not covered.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "MakeMyTrip ICICI T&C (effective changes Nov 10 2026)",
+     "Official page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added T&C rate table, myCash value and Nov 10 2026 changes",
+     "Fuel not excluded",
+     "Insurance cap added"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Adani One Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Adani One",
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "mid",
+   "joining_fee": 750,
+   "annual_fee": 750,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter on Rs75,000 prior-quarter spend; premium lounge upgrades at Adani airports",
+   "main_benefit": "Adani airports co-brand: flight/hotel vouchers, porter and parking perks and 3 Adani OneApp Rewards per Rs100 at participating Adani One merchants.",
+   "key_benefits": [
+    "Flight voucher Rs2,000 on Rs10,000 spend in first 60 days; hotel voucher Rs1,000 on activation",
+    "Porter services (2 per Rs1L, up to 4/yr)",
+    "1% fuel surcharge waiver up to Rs4,000",
+    "BookMyShow 25% off up to Rs100 (needs Rs25,000 prior-quarter spend)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "adani one",
+      "adani airports",
+      "trainman",
+      "adani gas",
+      "adani electricity"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0075,
+     "rate_best": 0.03,
+     "desc": "3 Adani OneApp Rewards per Rs100 at participating merchants (list on ICICI/Adani site, not fully read). Adani OneApp Rewards value is not stated by ICICI; Adani's launch press release markets 'up to 7%' (implies Re1/reward) while an independent review says ~Rs0.25 and in-app redemption only - unresolved, conservative Rs0.25 used for rate, issuer-implied Re1 for rate_best."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.0025,
+     "rate_best": 0.01,
+     "desc": "1 reward per Rs100 domestic."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.00375,
+     "rate_best": 0.015,
+     "desc": "1.5 rewards per Rs100 international."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.00125,
+     "rate_best": 0.005,
+     "desc": "0.5 reward per Rs100 utility and insurance."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "emi",
+    "gambling"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 1.0,
+    "note": "Not stated by ICICI. Independent review ~Rs0.25 (in-app redemption only); Adani press release implies Re1."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card",
+   "eligibility": "Indian citizen 21+; salaried Rs20,000/month or self-employed Rs2,40,000/year.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/platinum-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/platinum-credit-card.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Fees Rs750+GST, waiver Rs3L (MITC+T&C). Forex 3.5%. T&C no-earn list: fuel, rent, EMI/BT/PLCC, gambling, commercial spends. Jewellery not mentioned: jewellery_unconfirmed. Adani OneApp Rewards value is not stated by ICICI; Adani's launch press release markets 'up to 7%' (implies Re1/reward) while an independent review says ~Rs0.25 and in-app redemption only - unresolved, conservative Rs0.25 used for rate, issuer-implied Re1 for rate_best.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Adani One Platinum T&C",
+     "Official page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added full earn table (3/1/1.5/0.5), exclusions, rate_best",
+     "Reward value flagged unresolved"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Adani One Signature",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Adani One",
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "tier": "premium",
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 international per year; 4 domestic per quarter on Rs75,000 prior-quarter spend; 16 premium lounge upgrades per year at Adani airports",
+   "main_benefit": "Premium Adani airports co-brand with lounges, valet, porter perks and 7 Adani OneApp Rewards per Rs100 at participating Adani One merchants.",
+   "key_benefits": [
+    "Flight vouchers worth Rs5,000 on Rs25,000 spend in first 60 days; hotel vouchers worth Rs2,000",
+    "2 Pranaam services, 4 valet parking, 4 premium car parking per year",
+    "Porter 2 per Rs1L up to 8/yr",
+    "BookMyShow BOGO up to Rs500 (needs Rs25,000 prior-quarter spend)",
+    "1% fuel surcharge waiver up to Rs4,000"
+   ],
+   "base_rate": 0.00375,
+   "rules": [
+    {
+     "merchants": [
+      "adani one",
+      "adani airports",
+      "trainman",
+      "adani gas",
+      "adani electricity"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0175,
+     "rate_best": 0.07,
+     "desc": "7 Adani OneApp Rewards per Rs100 at participating merchants. Adani OneApp Rewards value is not stated by ICICI; Adani's launch press release markets 'up to 7%' (implies Re1/reward) while an independent review says ~Rs0.25 and in-app redemption only - unresolved, conservative Rs0.25 used for rate, issuer-implied Re1 for rate_best."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.00375,
+     "rate_best": 0.015,
+     "desc": "1.5 rewards per Rs100 domestic."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.005,
+     "rate_best": 0.02,
+     "desc": "2 rewards per Rs100 international."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.00125,
+     "rate_best": 0.005,
+     "desc": "0.5 reward per Rs100 utility and insurance."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "cash_advance",
+    "emi",
+    "gambling"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 1.0,
+    "note": "Not stated by ICICI. Independent review ~Rs0.25 (in-app only); Adani press release implies Re1."
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card",
+   "eligibility": "Indian citizen 21+; salaried Rs75,000/month or self-employed Rs9,00,000/year.",
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/adani-icici-credit-card/signature-credit-card",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/signature-credit-card.pdf",
+    "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/revamp-page-images/docs/pdf/mitc_cc.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Fees Rs5,000+GST, waiver Rs6L (MITC+T&C). Forex 3.5%. Jewellery not mentioned: jewellery_unconfirmed. Adani OneApp Rewards value is not stated by ICICI; Adani's launch press release markets 'up to 7%' (implies Re1/reward) while an independent review says ~Rs0.25 and in-app redemption only - unresolved, conservative Rs0.25 used for rate, issuer-implied Re1 for rate_best.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC (mitc_cc.pdf, last updated Oct 9 2026)",
+     "Adani One Signature T&C",
+     "Official page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added full earn table (7/1.5/2/0.5), exclusions, rate_best",
+     "Reward value flagged unresolved"
+    ]
+   }
+  },
+  {
+   "name": "American Express Platinum Card (Charge)",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "forex_markup": 0.035,
+   "tier": "super_premium",
+   "joining_fee": 0,
+   "annual_fee": 66000,
+   "fee_waiver_spend": null,
+   "lounge_access": "Global Lounge Collection (Centurion, Priority Pass, Delta Sky Club, Escape, domestic partner lounges); 1,550+ lounges per official page",
+   "main_benefit": "Top-tier charge card with premium travel/hotel privileges; earns 2.5 MR per Rs100 (7.5 overseas, 5 on fuel up to 5,000 pts/month).",
+   "key_benefits": [
+    "Welcome gift worth up to Rs60,000 (Taj / Luxe / Postcard) on Rs50,000 net spend in 2 months and fee payment",
+    "Renewal benefit: vouchers up to Rs35,000 on Rs20L spend in membership year",
+    "Fine Hotels & Resorts, Hotel Collection benefits (up to Rs44,300 stated)",
+    "Elite status: Taj Epicure, Marriott Gold, Hilton Gold etc.",
+    "EazyDiner Prime; Rs5 crore air accident cover",
+    "5X MR on ShopWise e-vouchers; 10X/20X on Rewards Xcelerator brands",
+    "Charge card: pay in full; points forfeited for a cycle if not paid in full by due date"
+   ],
+   "base_rate": 0.00625,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.00625,
+     "desc": "1 MR per Rs40 = 2.5 pts/Rs100 at Rs0.25/pt = 0.625% (cash/conservative)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01875,
+     "desc": "3X MR on all spends in a currency other than INR = 7.5 pts/Rs100 at Rs0.25 = 1.875%. Forex markup 3.5% applies."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.0125,
+     "cap_inr": 1250,
+     "period": "month",
+     "desc": "5 MR per Rs100 on fuel (petrol, diesel, CNG from OMCs), capped 5,000 pts/calendar month (official FAQ + MR Terms) = 1.25%, cap Rs1,250 at Rs0.25/pt. Fuel convenience fee (MITC): 0% at HPCL below Rs5,000, 1% at HPCL Rs5,000+, 1% (min Rs10) at BPCL/IOCL, 2.5% (min Rs10) at other pumps. At non-HPCL pumps the fee exceeds the reward."
+    },
+    {
+     "merchants": [
+      "shopwise"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03125,
+     "portal_only": true,
+     "desc": "5X MR on ShopWise e-vouchers = 12.5 pts/Rs100 at Rs0.25 = 3.125%. Amazon voucher purchases limited to Rs20,000/month per voucher type and carry 1.5%+GST convenience fee (ShopWise T&C); other vouchers may carry fees. Other earn caps not confirmed."
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "utilities",
+    "cash_advance",
+    "emi_at_pos"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "Amex India does not publish a single rupee value per Membership Rewards point. Official Gold Card benefits calculator assumes Rs0.25 per point and says up to Rs0.56 per point via the Gold Collection (24,000 pts = Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000; 18,000 pts = Taj Rs9,000 / Amazon Rs6,000). Statement credit/Pay with Points value not published; Rs0.25 used as conservative."
+   },
+   "status_source": "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+   "eligibility": "Personal annual income Rs25L+ (employed) or Rs15L+ (self-employed); Indian/multinational bank account; resident in listed cities. Invite-level premium.",
+   "source_url": "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+   "sources": [
+    "https://www.americanexpress.com/in/charge-cards/platinum-card/",
+    "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/charge-english-mitc.pdf",
+    "https://www.americanexpress.com/in/customer-service/faq.how-are-the-points-i-earn-calculated.html",
+    "https://www.americanexpress.com/content/dam/amex/en-in/benefits/membership-rewards-terms.pdf",
+    "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf",
+    "https://www.americanexpress.com/in/credit-cards/all-cards/"
+   ],
+   "confidence": "high",
+   "notes": "Fuel entry resolved: official FAQ and MR Terms both state 5 MR per Rs100 on Platinum Card fuel, capped at 5,000 points per calendar month (earlier sources conflicted 3,000 vs 5,000; official = 5,000). Fee Rs66,000+tax both years (page, Charge MITC Mar 31 2026, Schedule Aug 2025); 4 supplementary cards free then Rs10,000 each. Forex 3.5% currency conversion factor. 'Platinum Charge' = this same card. Official page notes hotel/flight booking desk unavailable until 15 Nov 2026 and Mumbai/Centurion lounge status not verified. 'No points on insurance and other utility services (household electricity, gas, water)'; EMI at merchant earns nothing. Rewards Xcelerator brands (10X/20X, Rolex/gold coins excluded at some partners) not modelled: caps unverified. Official card page banner (read 2026-10-11): 'We are temporarily pausing the acceptance of new card applications in India as we make planned updates to our technology platforms for domestic card issuing operations.' Applies to every personal card page. No jewellery/gold exclusion appears in the MITC or MR terms read (only fuel/insurance/utility/cash/EMI-at-POS style exclusions), but jewellery is not explicitly addressed: jewellery_unconfirmed. Amex may decline some merchants per offer T&Cs.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Platinum Card official page",
+     "Charge Card MITC (Mar 31 2026)",
+     "Membership Rewards Program T&C + points FAQ",
+     "Schedule of Fees and Charges (Aug 31 2025)",
+     "Gold Card benefits calculator (point value)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Status changed from active to closed_to_new (official pause banner)",
+     "Base 1 MR/Rs40 re-priced at Rs0.25 (was Rs0.60 assumption)",
+     "Fuel confirmed 5 MR/Rs100, cap 5,000 pts/month",
+     "Removed unverified Rewards Xcelerator Rs15,000 cap and jewellery rule",
+     "Added joining_fee 0, eligibility, fee facts"
+    ]
+   }
+  },
+  {
+   "name": "American Express Platinum Travel",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "forex_markup": 0.035,
+   "tier": "premium",
+   "joining_fee": 0,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "lounge_access": "From 1 Oct 2026: 2 complimentary domestic lounge visits per calendar quarter on Rs1L spend in preceding quarter (Rs70,000 in Q3'26 for Q4'26 visits); Priority Pass membership (US$99 fee waived, visits chargeable)",
+   "main_benefit": "Travel-milestone card: 1 MR per Rs50, Rs4L spend -> 10,000 MR, Rs7L -> Rs20,000 Taj/SeleQtions/Vivanta e-gift card.",
+   "key_benefits": [
+    "Welcome gift 10,000 MR on Rs15,000 spend in 90 days after paying annual fee",
+    "Spend Rs4L in membership year: 10,000 MR (redeem on Platinum Travel Collection)",
+    "Spend Rs7L: Taj Experiences e-gift card worth Rs20,000",
+    "Points do not expire while card is active (from 3 May 2022)",
+    "Fuel convenience fee waived at HPCL below Rs5,000"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "1 MR per Rs50 = 2 pts/Rs100 at Rs0.25/pt = 0.5% (cash/conservative); milestone bonuses extra."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utilities",
+    "cash_advance",
+    "emi_at_pos"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "Amex India does not publish a single rupee value per Membership Rewards point. Official Gold Card benefits calculator assumes Rs0.25 per point and says up to Rs0.56 per point via the Gold Collection (24,000 pts = Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000; 18,000 pts = Taj Rs9,000 / Amazon Rs6,000). Statement credit/Pay with Points value not published; Rs0.25 used as conservative. Milestone MR redeem on Platinum Travel Collection (value not published)."
+   },
+   "status_source": "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/",
+   "eligibility": "Personal annual income Rs6L+; resident in listed cities.",
+   "source_url": "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/",
+   "sources": [
+    "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/",
+    "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
+    "https://www.americanexpress.com/in/customer-service/faq.how-are-the-points-i-earn-calculated.html",
+    "https://www.americanexpress.com/content/dam/amex/en-in/benefits/membership-rewards-terms.pdf",
+    "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fee Rs5,000+tax first and subsequent years (page, MITC Mar 31 2026, Schedule). No renewal fee waiver found. Forex 3.5%. Up to 2 supplementary cards free. Earn: no MR on fuel, insurance, household utilities (electricity/water/gas), cash, merchant-site/POS EMI (post-purchase and SafeKey EMI still earn). Fuel convenience fee (MITC): 0% at HPCL below Rs5,000, 1% at HPCL Rs5,000+, 1% (min Rs10) at BPCL/IOCL, 2.5% (min Rs10) at other pumps. Official card page banner (read 2026-10-11): 'We are temporarily pausing the acceptance of new card applications in India as we make planned updates to our technology platforms for domestic card issuing operations.' Applies to every personal card page. No jewellery/gold exclusion appears in the MITC or MR terms read (only fuel/insurance/utility/cash/EMI-at-POS style exclusions), but jewellery is not explicitly addressed: jewellery_unconfirmed. Amex may decline some merchants per offer T&Cs.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Platinum Travel official page",
+     "Lending MITC (Mar 31 2026)",
+     "MR T&C and FAQ",
+     "Schedule of Fees (Aug 31 2025)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Status confirmed closed_to_new via official pause banner",
+     "Lounge rule changed 1 Oct 2026 to Rs1L/quarter",
+     "Removed unconfirmed jewellery rule; point value Rs0.25 official calculator basis",
+     "Added exclusions list from official terms"
+    ]
+   }
+  },
+  {
+   "name": "Amex Platinum Travel",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "forex_markup": 0.035,
+   "tier": "premium",
+   "joining_fee": 0,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "lounge_access": "From 1 Oct 2026: 2 complimentary domestic lounge visits per calendar quarter on Rs1L spend in preceding quarter (Rs70,000 in Q3'26 for Q4'26 visits); Priority Pass membership (US$99 fee waived, visits chargeable)",
+   "main_benefit": "Travel-milestone card: 1 MR per Rs50, Rs4L spend -> 10,000 MR, Rs7L -> Rs20,000 Taj/SeleQtions/Vivanta e-gift card.",
+   "key_benefits": [
+    "Welcome gift 10,000 MR on Rs15,000 spend in 90 days after paying annual fee",
+    "Spend Rs4L in membership year: 10,000 MR (redeem on Platinum Travel Collection)",
+    "Spend Rs7L: Taj Experiences e-gift card worth Rs20,000",
+    "Points do not expire while card is active (from 3 May 2022)",
+    "Fuel convenience fee waived at HPCL below Rs5,000"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "1 MR per Rs50 = 2 pts/Rs100 at Rs0.25/pt = 0.5% (cash/conservative); milestone bonuses extra."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utilities",
+    "cash_advance",
+    "emi_at_pos"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "Amex India does not publish a single rupee value per Membership Rewards point. Official Gold Card benefits calculator assumes Rs0.25 per point and says up to Rs0.56 per point via the Gold Collection (24,000 pts = Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000; 18,000 pts = Taj Rs9,000 / Amazon Rs6,000). Statement credit/Pay with Points value not published; Rs0.25 used as conservative. Milestone MR redeem on Platinum Travel Collection (value not published)."
+   },
+   "status_source": "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/",
+   "eligibility": "Personal annual income Rs6L+; resident in listed cities.",
+   "source_url": "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/",
+   "sources": [
+    "https://www.americanexpress.com/in/credit-cards/platinum-travel-credit-card/",
+    "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
+    "https://www.americanexpress.com/in/customer-service/faq.how-are-the-points-i-earn-calculated.html",
+    "https://www.americanexpress.com/content/dam/amex/en-in/benefits/membership-rewards-terms.pdf",
+    "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Duplicate-name alias of 'American Express Platinum Travel' (same card); consider deleting this duplicate. Fee Rs5,000+tax first and subsequent years (page, MITC Mar 31 2026, Schedule). No renewal fee waiver found. Forex 3.5%. Up to 2 supplementary cards free. Earn: no MR on fuel, insurance, household utilities (electricity/water/gas), cash, merchant-site/POS EMI (post-purchase and SafeKey EMI still earn). Fuel convenience fee (MITC): 0% at HPCL below Rs5,000, 1% at HPCL Rs5,000+, 1% (min Rs10) at BPCL/IOCL, 2.5% (min Rs10) at other pumps. Official card page banner (read 2026-10-11): 'We are temporarily pausing the acceptance of new card applications in India as we make planned updates to our technology platforms for domestic card issuing operations.' Applies to every personal card page. No jewellery/gold exclusion appears in the MITC or MR terms read (only fuel/insurance/utility/cash/EMI-at-POS style exclusions), but jewellery is not explicitly addressed: jewellery_unconfirmed. Amex may decline some merchants per offer T&Cs.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Platinum Travel official page",
+     "Lending MITC (Mar 31 2026)",
+     "MR T&C and FAQ",
+     "Schedule of Fees (Aug 31 2025)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Status confirmed closed_to_new via official pause banner",
+     "Lounge rule changed 1 Oct 2026 to Rs1L/quarter",
+     "Removed unconfirmed jewellery rule; point value Rs0.25 official calculator basis",
+     "Added exclusions list from official terms"
+    ]
+   }
+  },
+  {
+   "name": "American Express Platinum Reserve",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "forex_markup": 0.035,
+   "tier": "super_premium",
+   "joining_fee": 0,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 1000000,
+   "lounge_access": "Priority Pass: 2 complimentary international visits per calendar year; domestic airport lounges across India per page (count not stated); Centurion Delhi/Mumbai access discontinued 1 Sep 2023",
+   "main_benefit": "Premium revolving card with Rs12,000/yr vouchers (Rs1,000 monthly on Rs50k spend), golf, lounges and Taj/Preferred hotel privileges; 1 MR per Rs50.",
+   "key_benefits": [
+    "Welcome 11,000 MR on Rs30,000 spend within 90 days (first year)",
+    "Movie/online shopping vouchers worth Rs12,000 a year on Rs50,000 monthly spend (enrolment)",
+    "Golf: 2 complimentary rounds/month on Rs50,000 monthly spend",
+    "Taj, SeleQtions, Vivanta and Preferred Hotels privileges",
+    "Fuel convenience fee 0% at HPCL below Rs5,000"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "1 MR per Rs50 = 0.5% at Rs0.25/pt (cash/conservative)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utilities",
+    "cash_advance",
+    "emi_at_pos"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "Amex India does not publish a single rupee value per Membership Rewards point. Official Gold Card benefits calculator assumes Rs0.25 per point and says up to Rs0.56 per point via the Gold Collection (24,000 pts = Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000; 18,000 pts = Taj Rs9,000 / Amazon Rs6,000). Statement credit/Pay with Points value not published; Rs0.25 used as conservative."
+   },
+   "status_source": "https://www.americanexpress.com/in/credit-cards/platinum-reserve-credit-card/",
+   "eligibility": "Personal annual income Rs6L+ per page; resident in listed cities.",
+   "source_url": "https://www.americanexpress.com/in/credit-cards/platinum-reserve-credit-card/",
+   "sources": [
+    "https://www.americanexpress.com/in/credit-cards/platinum-reserve-credit-card/",
+    "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
+    "https://www.americanexpress.com/in/customer-service/faq.how-are-the-points-i-earn-calculated.html",
+    "https://www.americanexpress.com/content/dam/amex/en-in/benefits/membership-rewards-terms.pdf",
+    "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Fee Rs10,000+tax first year and subsequent (page, Option 2). Waiver conflict: page says renewal fee 100% waived at Rs10L spend; MITC footnote says Rs1.9L (for the lifetime-foundation 'Option 1' structure, Rs50,000 foundation + Rs10,000 AMF). Conservative Rs10L kept; confidence medium for this reason. Existing record's joining_fee 1,000,000 was an error (that was the waiver spend). 4 supplementary cards free. Forex 3.5%. ShopWise 5X-type rate for this card not confirmed so not modelled. Fuel convenience fee (MITC): 0% at HPCL below Rs5,000, 1% at HPCL Rs5,000+, 1% (min Rs10) at BPCL/IOCL, 2.5% (min Rs10) at other pumps. Official card page banner (read 2026-10-11): 'We are temporarily pausing the acceptance of new card applications in India as we make planned updates to our technology platforms for domestic card issuing operations.' Applies to every personal card page. No jewellery/gold exclusion appears in the MITC or MR terms read (only fuel/insurance/utility/cash/EMI-at-POS style exclusions), but jewellery is not explicitly addressed: jewellery_unconfirmed. Amex may decline some merchants per offer T&Cs.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Platinum Reserve official page",
+     "Lending MITC (Mar 31 2026)",
+     "Schedule of Fees (Aug 2025)",
+     "MR T&C/FAQ"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee corrected from 1,000,000 to 0 (fee is annual Rs10,000)",
+     "Status changed active -> closed_to_new (official pause)",
+     "Removed unverified ShopWise 3% rule and jewellery rule",
+     "Waiver conflict recorded"
+    ]
+   }
+  },
+  {
+   "name": "American Express Gold Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "forex_markup": 0.035,
+   "tier": "premium",
+   "joining_fee": 1000,
+   "annual_fee": 4500,
+   "fee_waiver_spend": null,
+   "lounge_access": null,
+   "main_benefit": "Charge card earning 1 MR per Rs50 (including utilities) with a monthly 1,000-MR milestone and Gold Collection redemptions worth up to Rs0.56 per point.",
+   "key_benefits": [
+    "Welcome 4,000 MR on Rs10,000 spend in first 90 days (first year, after annual fee)",
+    "1,000 bonus MR each month on 6 transactions of Rs1,000+",
+    "5,000 MR on first-year renewal on paying the fee",
+    "5X MR on ShopWise e-vouchers",
+    "No pre-set spending limit; charge card (points forfeited for a cycle if not paid in full by due date)",
+    "Redeem 24,000 pts for Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "rate_best": 0.0112,
+     "desc": "1 MR per Rs50 = 0.5% at Rs0.25/pt; up to 1.12% at Rs0.56/pt via Gold Collection (needs 18,000/24,000 pts)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.005,
+     "rate_best": 0.0112,
+     "cap_inr": 2500,
+     "period": "month",
+     "desc": "Utilities earn 1 MR per Rs50 (electricity, water, gas; telecom per T&C), capped 10,000 pts/calendar month (official FAQ/T&C) = Rs2,500 at Rs0.25."
+    },
+    {
+     "merchants": [
+      "shopwise"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.025,
+     "rate_best": 0.056,
+     "portal_only": true,
+     "desc": "5X on ShopWise e-vouchers (4 additional points per Rs50) = 10 pts/Rs100 = 2.5% at Rs0.25; Amazon voucher limit Rs20,000/month and 1.5%+GST fee."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "cash_advance"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.56,
+    "note": "Amex India does not publish a single rupee value per Membership Rewards point. Official Gold Card benefits calculator assumes Rs0.25 per point and says up to Rs0.56 per point via the Gold Collection (24,000 pts = Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000; 18,000 pts = Taj Rs9,000 / Amazon Rs6,000). Statement credit/Pay with Points value not published; Rs0.25 used as conservative."
+   },
+   "status_source": "https://www.americanexpress.com/in/charge-cards/gold-card/",
+   "eligibility": "Personal annual income Rs6L+; resident in listed cities.",
+   "source_url": "https://www.americanexpress.com/in/charge-cards/gold-card/",
+   "sources": [
+    "https://www.americanexpress.com/in/charge-cards/gold-card/",
+    "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/charge-english-mitc.pdf",
+    "https://www.americanexpress.com/in/customer-service/faq.how-are-the-points-i-earn-calculated.html",
+    "https://www.americanexpress.com/content/dam/amex/en-in/benefits/membership-rewards-terms.pdf",
+    "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf",
+    "https://www.americanexpress.com/en-in/benefits/the-gold-card/benefits-calculator/"
+   ],
+   "confidence": "high",
+   "notes": "Gold Card is a CHARGE card (pay in full), not a revolving credit card - earlier record was wrong; 'Gold Charge' is the same product (Charge Card MITC lists Gold Card; credit-card MITC does not). Fee Rs1,000+tax first year, Rs4,500+tax second year on; 2 supplementary cards free then Rs1,500. No renewal fee waiver found. Fuel earns nothing since 12 June 2025 (FAQ + page; the MR Terms PDF still shows older fuel wording - current page used). Insurance, cash earn nothing. Forex 3.5%. Fuel convenience fee (MITC): 0% at HPCL below Rs5,000, 1% at HPCL Rs5,000+, 1% (min Rs10) at BPCL/IOCL, 2.5% (min Rs10) at other pumps. Official card page banner (read 2026-10-11): 'We are temporarily pausing the acceptance of new card applications in India as we make planned updates to our technology platforms for domestic card issuing operations.' Applies to every personal card page. No jewellery/gold exclusion appears in the MITC or MR terms read (only fuel/insurance/utility/cash/EMI-at-POS style exclusions), but jewellery is not explicitly addressed: jewellery_unconfirmed. Amex may decline some merchants per offer T&Cs.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Gold Card official page",
+     "Charge Card MITC (Mar 31 2026)",
+     "MR points FAQ",
+     "Gold Card benefits calculator",
+     "Schedule of Fees (Aug 2025)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Card type corrected to charge card",
+     "Point value Rs0.25 (best Rs0.56) per official calculator, replacing Rs0.50",
+     "Utility cap converted: 10,000 pts = Rs2,500 (was Rs5,000)",
+     "Fuel no-earn from 12 Jun 2025 confirmed"
+    ]
+   }
+  },
+  {
+   "name": "American Express SmartEarn",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "forex_markup": 0.035,
+   "tier": "entry",
+   "joining_fee": 495,
+   "annual_fee": 495,
+   "fee_waiver_spend": 40000,
+   "lounge_access": null,
+   "main_benefit": "Online-spend card: 10X MR (5% at Rs0.25/pt, capped) on Zomato, Flipkart, Uber, BookMyShow, Ajio, Nykaa, EaseMyTrip and 5X on Amazon.",
+   "key_benefits": [
+    "Rs500 cashback welcome on Rs10,000 spend in 90 days",
+    "Rs500 vouchers at Rs1.2L, Rs1.8L and Rs2.4L spend in a membership year",
+    "Renewal fee Rs495 waived at Rs40,000 spend",
+    "Free 1 supplementary card",
+    "EMI at POS from 14% p.a."
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "zomato",
+      "easemytrip"
+     ],
+     "categories": [
+      "dining",
+      "travel"
+     ],
+     "rate": 0.05,
+     "cap_inr": 125,
+     "period": "month",
+     "desc": "10X: 10 MR per Rs50 = 20 pts/Rs100 = 5% at Rs0.25/pt. Shared cap 500 pts/month for Zomato + EaseMyTrip (= Rs125); reached at Rs2,500 monthly spend."
+    },
+    {
+     "merchants": [
+      "flipkart",
+      "uber",
+      "bookmyshow",
+      "ajio",
+      "nykaa"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "cap_inr": 125,
+     "period": "month",
+     "desc": "10X on Flipkart, Uber, BookMyShow, Ajio, Nykaa and other listed partners: shared cap 500 pts/month (= Rs125), reached at Rs2,500 monthly spend. Partner list 'and many more' not fully published."
+    },
+    {
+     "merchants": [
+      "amazon"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.025,
+     "cap_inr": 62.5,
+     "period": "month",
+     "desc": "5X on Amazon = 10 pts/Rs100 = 2.5%; cap 250 pts/month (= Rs62.5), reached at Rs2,500 monthly spend."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "1 MR per Rs50 = 0.5% at Rs0.25/pt."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utilities",
+    "cash_advance",
+    "emi_at_pos"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "note": "Amex India does not publish a single rupee value per Membership Rewards point. Official Gold Card benefits calculator assumes Rs0.25 per point and says up to Rs0.56 per point via the Gold Collection (24,000 pts = Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000; 18,000 pts = Taj Rs9,000 / Amazon Rs6,000). Statement credit/Pay with Points value not published; Rs0.25 used as conservative."
+   },
+   "status_source": "https://www.americanexpress.com/in/credit-cards/smart-earn-credit-card/",
+   "eligibility": "Employed with personal annual income Rs4.5L+ or self-employed Rs6L+.",
+   "source_url": "https://www.americanexpress.com/in/credit-cards/smart-earn-credit-card/",
+   "sources": [
+    "https://www.americanexpress.com/in/credit-cards/smart-earn-credit-card/",
+    "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
+    "https://www.americanexpress.com/in/customer-service/faq.how-are-the-points-i-earn-calculated.html",
+    "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fee Rs495+tax both years; waived at Rs40,000 spend in preceding year (MITC Mar 31 2026, page). Forex 3.5%. Earlier record used Rs0.50/pt (10X = 10%) and cap Rs250/Rs125: corrected using official 500/250 pts monthly caps at Rs0.25. Removed unverified merchants PVR, Blinkit, Myntra. EMI at merchant site/POS earns nothing. Official card page banner (read 2026-10-11): 'We are temporarily pausing the acceptance of new card applications in India as we make planned updates to our technology platforms for domestic card issuing operations.' Applies to every personal card page. No jewellery/gold exclusion appears in the MITC or MR terms read (only fuel/insurance/utility/cash/EMI-at-POS style exclusions), but jewellery is not explicitly addressed: jewellery_unconfirmed. Amex may decline some merchants per offer T&Cs.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SmartEarn official page",
+     "Lending MITC (Mar 31 2026)",
+     "MR FAQ",
+     "Schedule of Fees"
+    ],
+    "result": "corrected",
+    "changes": [
+     "10X rate 10% -> 5% (Rs0.25/pt)",
+     "Caps converted: 500 pts = Rs125, 250 pts = Rs62.5",
+     "Merchant list trimmed to officially named ones",
+     "Status confirmed closed_to_new via official pause"
+    ]
+   }
+  },
+  {
+   "name": "American Express Membership Rewards Credit Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "lifetime_free": false,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "forex_markup": 0.035,
+   "tier": "mid",
+   "joining_fee": 1000,
+   "annual_fee": 4500,
+   "fee_waiver_spend": 150000,
+   "lounge_access": null,
+   "main_benefit": "Entry MR card with 1 MR per Rs50, 1,000-pt monthly bonuses and Gold Collection redemptions worth up to Rs0.56 per point.",
+   "key_benefits": [
+    "Welcome 4,000 MR on Rs15,000 spend in first 90 days",
+    "1,000 MR for 4 transactions of Rs1,500+ in a month; extra 1,000 MR on Rs20,000 monthly spend (enrolment)",
+    "5,000 MR on first-year renewal",
+    "Renewal fee Rs4,500 100% waived at Rs1.5L prior-year spend, 50% at Rs90,000-1,49,999"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "dining",
+      "travel",
+      "online_shopping",
+      "international",
+      "other"
+     ],
+     "rate": 0.005,
+     "rate_best": 0.0112,
+     "desc": "1 MR per Rs50 = 0.5% at Rs0.25/pt; up to 1.12% at Rs0.56/pt via Gold Collection."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utilities",
+    "cash_advance",
+    "emi_at_pos"
+   ],
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.56,
+    "note": "Amex India does not publish a single rupee value per Membership Rewards point. Official Gold Card benefits calculator assumes Rs0.25 per point and says up to Rs0.56 per point via the Gold Collection (24,000 pts = Taj Rs14,000 / Tanishq or Tata CLiQ Rs9,000 / Amazon Rs8,000; 18,000 pts = Taj Rs9,000 / Amazon Rs6,000). Statement credit/Pay with Points value not published; Rs0.25 used as conservative."
+   },
+   "status_source": "https://www.americanexpress.com/in/credit-cards/membership-rewards-card/",
+   "eligibility": "Employed with income Rs4.5L+ or self-employed Rs6L+; resident in listed cities.",
+   "source_url": "https://www.americanexpress.com/in/credit-cards/membership-rewards-card/",
+   "sources": [
+    "https://www.americanexpress.com/in/credit-cards/membership-rewards-card/",
+    "https://www.americanexpress.com/content/dam/amex/in/legal/mitc/Lending_MITC_English.pdf",
+    "https://www.americanexpress.com/in/customer-service/faq.how-are-the-points-i-earn-calculated.html",
+    "https://www.americanexpress.com/content/dam/amex/en-in/benefits/membership-rewards-terms.pdf",
+    "https://www.americanexpress.com/content/dam/amex/in/legal-disclosures/Schedule-of-Fee-and-Charges.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fee Rs1,000+tax first year then Rs4,500+tax; waiver tiers per MITC footnote. Up to 2 supplementary cards free. Forex 3.5%. Aka MRCC. Fuel convenience fee (MITC): 0% at HPCL below Rs5,000, 1% at HPCL Rs5,000+, 1% (min Rs10) at BPCL/IOCL, 2.5% (min Rs10) at other pumps. Official card page banner (read 2026-10-11): 'We are temporarily pausing the acceptance of new card applications in India as we make planned updates to our technology platforms for domestic card issuing operations.' Applies to every personal card page. No jewellery/gold exclusion appears in the MITC or MR terms read (only fuel/insurance/utility/cash/EMI-at-POS style exclusions), but jewellery is not explicitly addressed: jewellery_unconfirmed. Amex may decline some merchants per offer T&Cs.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "MRCC official page",
+     "Lending MITC (Mar 31 2026)",
+     "MR FAQ",
+     "Schedule of Fees"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added point-value basis (Rs0.25/0.56)",
+     "Added waiver tiers and milestone bonuses",
+     "Status confirmed closed_to_new via official pause"
+    ]
+   }
+  }
+ ],
+ "gaps": [
+  "Amex India pause is on every personal card page ('temporarily pausing the acceptance of new card applications'); status closed_to_new reflects that official notice and may reopen.",
+  "Amex MR point value: no official rupee value for Pay with Points/statement credit; Rs0.25 (official Gold calculator) and up to Rs0.56 (Gold Collection) used. Best-case values for Platinum/Reserve/Travel (Platinum Travel Collection, transfers) not published.",
+  "Amex Platinum Reserve: renewal waiver conflict (Rs10L on page vs Rs1.9L in MITC footnote); Rs10L kept.",
+  "Amex Rewards Xcelerator 10X/20X brands/caps and ShopWise caps beyond Amazon Rs20,000/month not confirmed.",
+  "'Amex Platinum Travel' duplicates 'American Express Platinum Travel' (same data written to both); delete one. 'Platinum Charge' = 'American Express Platinum Card (Charge)'; 'Gold Charge' = Gold Card (a charge card).",
+  "ICICI Reward Point rupee value not officially stated for Sapphiro/Rubyx/Coral/Emeralde/EPM/Platinum Chip/HPCL Coral/Adani; Rs0.25 used (implied by HPCL Super Saver T&C). Times Black official: Rs0.40 statement, up to Re1.",
+  "ICICI jewellery/gold (MCC 5944/5094): MITC reward exclusions do not list jewellery; no explicit statement for any ICICI card except Amazon Pay (gold, silver, precious metals excluded). All flagged jewellery_unconfirmed. Third-party reports of 2026 iShop jewellery-voucher changes not verified from official documents.",
+  "ICICI MITC utility/insurance/grocery caps are worded as capping 'reward points accrued'; interpreted as spend caps - wording ambiguous.",
+  "Adani One reward value unresolved (Rs0.25 independent review vs Re1 implied by 'up to 7%' press release); participating-merchant list not read.",
+  "ICICI Emeralde Private Metal: metal-card T&C not read; point value not official.",
+  "ICICI Coral RuPay: page read is the generic RuPay page; Coral terms inferred from MITC.",
+  "ICICI MakeMyTrip: zero forex/DCC and no international myCash start Nov 10 2026 (after today); record keeps current 0.99% forex.",
+  "ICICI Amazon Pay: jewellery-store MCC not explicitly addressed; 3% non-Prime rate not modelled separately.",
+  "Not covered: ICICI MakeMyTrip Signature/Platinum (old), Emirates, other Amex cards."
+ ]
+}

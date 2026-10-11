@@ -1,0 +1,2308 @@
+{
+ "cards": [
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": "Invite-only (not open to general applications).",
+   "name": "HDFC Infinia",
+   "network": "Visa",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card (live; invite-only, 'By Invite Only')",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12500,
+   "annual_fee": 12500,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic lounges (swipe) and unlimited international via Priority Pass, primary and add-on",
+   "main_benefit": "Invite-only super-premium card: 5 RP per Rs150 spent (1.0% at the Rs0.30 cashback rate, 3.33% when redeemed at Rs1/RP on SmartBuy flights/hotels, Apple, Tanishq).",
+   "key_benefits": [
+    "Welcome: 12,500 RP on fee realisation + 1 year Club Marriott",
+    "Renewal benefit 12,500 RP on fee realisation",
+    "Fee waiver on Rs10L spend in the preceding 12 months (older Infinia sourced before 18 Oct 2021: Rs10,000 fee, Rs8L waiver)",
+    "3 nights for the price of 2 at participating ITC hotels",
+    "Up to 10X RP on SmartBuy (accelerated RP cap 15,000 RP/month; brand vouchers via GyFTR/Woohoo only 3,000 accelerated RP/month from 1 Jul 2026)",
+    "Concierge, golf, Rs3 crore air accident cover"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 0.3,
+    "best": 1.0,
+    "note": "Official page: SmartBuy flights/hotels Rs1; Apple products and Tanishq vouchers via SmartBuy Rs1; products/vouchers up to Rs0.50; cashback against statement up to Rs0.30; airmiles up to 1:1. Flights/hotels/airmiles redemption cap 1.5L RP per month; cashback 50,000 RP/month; Apple 1 product per quarter; Tanishq 50,000 RP per quarter; up to 70% of bill by RP for Apple/Tanishq."
+   },
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "dining",
+      "travel",
+      "other",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "5 RP per Rs150 on eligible retail spend (0.0333 RP/Rs). rate = Rs0.30/RP cashback value; rate_best = Rs1/RP SmartBuy flights/hotels. Max 2,00,000 RP earn per statement cycle (cap_inr at Rs1/RP). Insurance earns but capped 10,000 RP/month. Education direct to school/college earns; via third-party apps earns nothing.",
+     "rate_best": 0.0333,
+     "cap_inr": 200000,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.01,
+     "desc": "Same 5 RP per Rs150 but grocery RP capped 2,000 RP per calendar month (Rs600 at Rs0.30, Rs2,000 at Rs1).",
+     "rate_best": 0.0333,
+     "cap_inr": 2000,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.01,
+     "desc": "Utility RP capped 2,000 RP/month and telecom/cable RP capped 2,000 RP/month (separate caps; value at Rs1/RP shown). Utility spends >Rs50,000/month attract a 1% bank fee.",
+     "rate_best": 0.0333,
+     "cap_inr": 2000,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/infinia-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/infinia-credit-card",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/infinia-credit-card/rewards-points-program-terms-and-conditions.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Rates/caps/fees read from the official page, Infinia Rewards T&C PDF and MITC v4.13. Jewellery/gold (MCC 5944/5094) is not listed among exclusions in the rewards T&C or MITC so it is modelled as earning base RP, but the documents do not say so explicitly. SmartBuy 10X category multipliers and monthly accelerated caps (official 15,000 RP/month for Infinia; official 3,000 RP voucher sub-cap from 1 Jul 2026) were not read from the SmartBuy T&C itself so no portal rule is modelled. Fuel surcharge waiver 1% (min Rs400, max Rs1,000/cycle per MITC; page says txns up to Rs1,00,000). Points valid 3 years. Reissue Rs3,500 (metal). Network not stated on page (Visa assumed from prior record). From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Infinia product page",
+     "Infinia rewards-points-program T&C PDF",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "rate/base_rate changed from 3.33% (best case) to conservative 1.0% cashback with rate_best 3.33%",
+     "added point_value_inr, per-month grocery/utility caps (2,000 RP), insurance cap 10,000 RP",
+     "removed duplicate rule; cap period set to statement"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": "Invite only; salaried >Rs2.5L/month or self-employed ITR >Rs30L p.a. (page).",
+   "name": "HDFC Diners Club Black Metal Edition",
+   "network": "Diners",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card (live, invite only)",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 800000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited lounges (1,300+ India and abroad) for primary and add-on",
+   "main_benefit": "Super-premium Diners card: 5 RP per Rs150 (1.0% at Rs0.30 cashback, 3.33% at Rs1/RP SmartBuy flights/hotels) plus 2X on weekend dining and unlimited lounges.",
+   "key_benefits": [
+    "Welcome: Club Marriott, Amazon Prime and Swiggy One annual memberships on Rs1.5L spend in 90 days",
+    "10,000 bonus RP per calendar quarter on Rs4L quarterly spend (Rs3,000 cash / Rs10,000 best)",
+    "Fee waiver on Rs8L spend in 12 months",
+    "6 complimentary golf games per quarter",
+    "Rs2 crore air accident cover"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 0.3,
+    "best": 1.0,
+    "note": "Page: SmartBuy flights/hotels Rs1; airmiles up to 1; products/vouchers up to Rs0.50; cashback up to Rs0.30. Up to 70% of booking via RP; flights/hotels redemption cap 75,000 RP/month; max 75,000 RP earn per statement cycle."
+   },
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "travel",
+      "other",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "5 RP per Rs150 on eligible retail spend; rate at Rs0.30/RP cashback, rate_best at Rs1/RP. Max 75,000 RP earn per statement cycle (cap_inr at Rs1/RP). Insurance RP capped 5,000/month.",
+     "rate_best": 0.0333,
+     "cap_inr": 75000,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.01,
+     "desc": "Grocery RP capped 2,000 RP/month (Rs600 cash / Rs2,000 best).",
+     "rate_best": 0.0333,
+     "cap_inr": 2000,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.01,
+     "desc": "Utility RP capped 2,000 RP/month and telecom RP 2,000 RP/month separately.",
+     "rate_best": 0.0333,
+     "cap_inr": 2000,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.02,
+     "desc": "2X weekend dining: 10 RP per Rs150 (5 base + 5 extra) at standalone restaurants (MCC 5812/5813/5814), Saturday and Sunday only; min txn Rs150; direct card payment only (wallet payments and EMI excluded). rate at Rs0.30/RP, rate_best at Rs1/RP. No separate cap stated in the 2026 T&C.",
+     "rate_best": 0.0667,
+     "min_txn_inr": 150
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-black-metal-edition-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-metal-edition-credit-card/diners-club-metal-tandc.pdf (1 Jun 2026)",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees/waiver/forex from page + MITC (Diners Black Metal Rs8L waiver). 5 RP/Rs150 base inferred from the T&C statement '2X = 10 RP per Rs150'. Jewellery (MCC 5944/5094) not in exclusion lists; not explicit. SmartBuy accelerated caps: third-party reports say overall 10,000 RP/month and 3,000 voucher cap; not read officially so no portal rule. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Product page",
+     "Diners Club Black Metal T&C 1 Jun 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "base rate restated on conservative cashback basis with rate_best 3.33%",
+     "weekend dining rate 6.67% now rate_best, conservative 2%",
+     "added grocery/utility/telecom/insurance caps and dining min txn Rs150",
+     "added quarterly milestone value"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": "Existing cardholders only.",
+   "name": "HDFC Diners Club Black",
+   "network": "Diners",
+   "status": "closed_to_new",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/diners-club-black-credit-card FAQ: 'We are currently not accepting new applications for the HDFC Bank Diners Club Black Credit Card'",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited lounge access (page); one page FAQ line says 2 per quarter - conflicting",
+   "main_benefit": "Legacy non-metal Diners Black (closed to new applicants): 5 RP per Rs150 with 2X weekend dining.",
+   "key_benefits": [
+    "Fee waiver at Rs5L annual spend (MITC)",
+    "Rs500 vouchers x2 monthly on Rs80,000 monthly spend (T&C Jun 2025)",
+    "Annual membership benefits at Rs8L spend",
+    "Up to 10X on SmartBuy hotels/flights"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 0.3,
+    "best": 1.0,
+    "note": "Page: SmartBuy flights/hotels Rs1; airmiles up to 1; products/vouchers up to Rs0.50; cashback up to Rs0.30."
+   },
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "travel",
+      "groceries",
+      "bill_payments",
+      "other",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "5 RP per Rs150 on eligible retail; rate at Rs0.30/RP cash, rate_best Rs1/RP. Max 75,000 RP per statement cycle. Grocery/utility/telecom RP capped 2,000 RP/month each (MITC); insurance 5,000 RP/month.",
+     "rate_best": 0.0333,
+     "cap_inr": 75000,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.02,
+     "desc": "2X weekend dining at standalone restaurants: extra RP capped 1,000 RP per day; min txn Rs150; EMI/wallet excluded (T&C 26 Jun 2025). rate Rs0.30/RP, rate_best Rs1/RP.",
+     "rate_best": 0.0667,
+     "min_txn_inr": 150
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-black-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-black-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-club-black-credit-card/pdfs/T%20and%20C%20Diners%20Club%20Black.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Status confirmed closed on issuer page. Weekend dining cap 1,000 RP/day is from the Jun 2025 T&C (older document). Jewellery not explicit. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC). Confidence medium: rate/cap documents are undated or older than 12 months.",
+   "verification": {
+    "documents": [
+     "Product page",
+     "Diners Club Black T&C 26 Jun 2025",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status closed_to_new now confirmed from issuer FAQ",
+     "conservative rate with rate_best",
+     "dining 2X cap 1,000 RP/day added",
+     "tier left premium"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "name": "HDFC Regalia Gold",
+   "network": "Visa",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card (live; listed under 'Online applications')",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 400000,
+   "forex_markup": 0.02,
+   "lounge_access": "3 domestic visits per calendar quarter only if Rs60,000+ spent in the preceding quarter (from 1 Jul 2026); 6 international per year via Priority Pass",
+   "main_benefit": "Mid-premium travel card: 5 RP per Rs200 (1.25% at Rs0.50/RP SmartBuy flights/hotels, only 0.375% as statement cashback) with 5X at Myntra, Nykaa, Reliance Digital, Marks & Spencer.",
+   "key_benefits": [
+    "Welcome: Swiggy One + MMT Black Gold on Rs1L spend in 90 days",
+    "Rs1,500 voucher (Myntra/Nykaa/Reliance Digital/Marriott) per Rs1.5L calendar-quarter spend",
+    "Rs5,000 flight voucher at Rs7.5L annual spend (T&C; page also lists Rs5L)",
+    "Boarding Edge: 2 benefits per quarter from 15 May 2026",
+    "Fee waiver at Rs4L spend"
+   ],
+   "base_rate": 0.00375,
+   "point_value_inr": {
+    "cash": 0.15,
+    "best": 0.5,
+    "note": "SmartBuy flights/hotels Rs0.50; airmiles up to 0.5; exclusive Gold catalogue Rs0.65; products/vouchers up to Rs0.35; statement cashback Rs0.15 (SmartBuy PDF and MITC cl. x; product page says Rs0.20 - conservative Rs0.15 used). Flights/hotels and miles redemption each capped 50,000 RP/month."
+   },
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "dining",
+      "travel",
+      "other",
+      "international"
+     ],
+     "rate": 0.00375,
+     "desc": "5 RP per Rs200 on eligible retail (effective 15 May 2026; was 4 RP/Rs150). rate = Rs0.15/RP cashback; rate_best = Rs0.50/RP (Rs0.65 on Gold catalogue = 1.625%). Max 50,000 RP per statement cycle (cap_inr at Rs0.50). Insurance RP 2,000/month.",
+     "rate_best": 0.0125,
+     "cap_inr": 25000,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.00375,
+     "desc": "Grocery RP capped 2,000 RP/month.",
+     "rate_best": 0.0125,
+     "cap_inr": 1000,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.00375,
+     "desc": "Utility 2,000 RP/month and telecom 2,000 RP/month caps.",
+     "rate_best": 0.0125,
+     "cap_inr": 1000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "myntra",
+      "nykaa",
+      "reliance digital",
+      "marks & spencer"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01875,
+     "desc": "5X RP (total 25 RP per Rs200) on these 4 merchants, online and POS; the extra RP are capped at 5,000 RP/month across all four, which equals about Rs50,000 spend/month, above which base 5 RP/Rs200 applies. Min txn Rs200 (milestone T&C says Rs150 - conservative). Direct card payment only; computed from merchant/terminal IDs. rate at Rs0.15, rate_best at Rs0.50 (6.25%). Whether '5X' is 5x total or 5x extra is not spelled out; 5x total assumed.",
+     "rate_best": 0.0625,
+     "min_txn_inr": 200,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 50000,
+       "rate": 0.01875
+      },
+      {
+       "from_inr": 50000,
+       "to_inr": null,
+       "rate": 0.00375
+      }
+     ]
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/regalia-gold-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Regalia-Gold-Product-feature-change.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-gold-credit-card/pdfs/regalia-gold-credit-card-reward-points-t-and-cs.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-gold-credit-card/reward-points-redemption-through-smartbuy.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-gold-credit-card/terms-and-conditions.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "15 May 2026 change notice confirms 5 RP/Rs200, Boarding Edge, lounge rule, 1.75% DCC, Rs199 reissue. Page Rs5,000 flight voucher 'at Rs5L and Rs7.5L' conflicts with T&C (one Rs5,000 ticket at Rs7.5L per anniversary year); conservative T&C used. Statement cashback value conflict Rs0.20 (page) vs Rs0.15 (MITC, SmartBuy PDF) - used Rs0.15. Jewellery not excluded in rewards T&C but not stated. Reward points expire 2 years; inactivity >365 days nullifies. SmartBuy accelerated cap (third-party: 4,000 RP/month) not read officially. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Regalia Gold product page",
+     "15 May 2026 feature-change PDF",
+     "Reward T&C PDF",
+     "SmartBuy redemption PDF",
+     "Milestone T&C",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "statement cashback value corrected to Rs0.15 (not Rs0.20); rate now conservative 0.375% with rate_best 1.25%",
+     "5X merchants modelled as tiered (first Rs50k/month) with min txn",
+     "grocery/utility/telecom caps added",
+     "flight voucher milestone corrected to one Rs5,000 at Rs7.5L per T&C"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": "Existing cardholders only.",
+   "name": "HDFC Regalia",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/regalia-credit-card FAQ: 'The sourcing of this card has been discontinued'",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic lounges on Rs1L quarterly spend (page); 6 international Priority Pass per year (on request after 4 txns)",
+   "main_benefit": "Legacy Regalia (no longer issued): 4 RP per Rs200 (0.3% as cashback, 1.0% at Rs0.50/RP SmartBuy).",
+   "key_benefits": [
+    "Annual spend benefit: 10,000 RP at Rs5L plus 5,000 RP more at Rs8L per anniversary year",
+    "Welcome and renewal 2,500 RP on fee realisation",
+    "Fee waiver Rs3L spend"
+   ],
+   "base_rate": 0.003,
+   "point_value_inr": {
+    "cash": 0.15,
+    "best": 0.5,
+    "note": "Page: flights/hotels Rs0.50; airmiles up to 0.5; products/vouchers up to Rs0.35; cashback up to Rs0.15."
+   },
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "dining",
+      "travel",
+      "groceries",
+      "bill_payments",
+      "other"
+     ],
+     "rate": 0.003,
+     "desc": "4 RP per Rs200 on eligible retail; rate at Rs0.15 cashback, rate_best at Rs0.50 SmartBuy (1.0%). Max 50,000 RP per statement cycle (cap_inr at Rs0.50). Grocery 2,000 RP/month, utility/telecom 2,000 RP/month each, insurance 2,000 RP/month.",
+     "rate_best": 0.01,
+     "cap_inr": 25000,
+     "period": "statement"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/regalia-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/regalia-credit-card/pdfs/rp-regalia.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Status from issuer FAQ. Earn 4 RP/Rs200 confirmed on page. Jewellery not stated. Forex 3.5% per page and MITC. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC). Confidence medium: rate/cap documents are undated or older than 12 months.",
+   "verification": {
+    "documents": [
+     "Product page",
+     "Regalia reward T&C",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status closed_to_new confirmed from issuer FAQ",
+     "rate made conservative (cashback Rs0.15) with rate_best 1.0%",
+     "annual spend benefit corrected (Rs5L/Rs8L)",
+     "caps added"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": null,
+   "name": "HDFC Millennia",
+   "network": "Visa",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card (live page, T&C 20 Jul 2026)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Everyday cashback card: 5% CashPoints on 10 online merchants and 1% on other spends, each capped at 1,000 CashPoints a month (1 CP = Rs1).",
+   "key_benefits": [
+    "Rs1,000 voucher on Rs1L net spend in a calendar quarter (BigBasket/BookMyShow/Pizza Hut/PVR/Uber)",
+    "Welcome 1,000 CashPoints on joining-fee payment",
+    "Fee waiver Rs1L annual spend",
+    "Domestic lounge access discontinued 1 Dec 2023"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "T&C: 1 CashPoint = Rs1 against statement balance (cashback redemption capped 3,000 CP/month for Millennia per MITC)."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "amazon",
+      "bookmyshow",
+      "cult.fit",
+      "flipkart",
+      "myntra",
+      "sony liv",
+      "swiggy",
+      "tata cliq",
+      "uber",
+      "zomato"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% CashPoints, non-EMI only, direct (not via SmartBuy/PayZapp: those earn only 1%); Uber only MCC 4121; capped 1,000 CP (Rs1,000) per calendar month, i.e. Rs20,000 spend; beyond cap no points.",
+     "cap_inr": 1000,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "groceries",
+      "dining",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% CashPoints on other spends (jewellery not excluded), capped 1,000 CP (Rs1,000) per month (about Rs1L spend). Utility/telecom RP caps of 'product feature' apply.",
+     "cap_inr": 1000,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gift_cards",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/pdf/millennia-tnc-20th-jul26.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Lounge access REMOVED effective 1 Dec 2023 per official T&C (prior record wrongly listed a lounge voucher). Table says cap 'per cycle' but clauses say per calendar month; month used. T&C internally conflict on gift/prepaid card & voucher purchases (1% vs nothing) - excluded conservatively. Jewellery not excluded (excludes list is explicit). Forex 3.5% (MITC layout default). 10 merchants via SmartBuy/PayZapp earn only 1%. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Millennia T&C published 20 Jul 2026",
+     "product page",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "removed lounge benefit (discontinued 1 Dec 2023)",
+     "forex set to 3.5%",
+     "gift cards added to excludes; SmartBuy/PayZapp 1% only noted",
+     "caps set per calendar month"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "Swiggy",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": "Existing holders only; being migrated to Swiggy Ornge in phases.",
+   "name": "HDFC Swiggy HDFC Bank Credit Card",
+   "network": "Mastercard",
+   "status": "discontinued",
+   "status_source": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-migration-29-09-2026.pdf ('Swiggy HDFC Bank Credit card is being phased out'; old card cannot be reinstated; all features discontinued post migration)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Original Swiggy co-brand (phased out): 10% on Swiggy app, 5% on online shopping, 1% elsewhere; holders are being moved to Ornge.",
+   "key_benefits": [
+    "Max Rs3,500 cashback per statement cycle (MITC)",
+    "Migration to Swiggy Ornge, new card features apply after migration"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "10% on Swiggy app (Food, Instamart, Dineout); cap Rs1,500/billing cycle; min txn Rs249.",
+     "cap_inr": 1500,
+     "period": "statement",
+     "min_txn_inr": 249
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% on select online merchants/MCCs; cap Rs1,500/billing cycle.",
+     "cap_inr": 1500,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on other spends; cap Rs500/billing cycle.",
+     "cap_inr": 500,
+     "period": "statement"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "gift_cards"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/terms-and-conditions-swiggy-hdfc-bank-credit-card-18092026.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-migration-29-09-2026.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Status changed to discontinued/phased out per official migration FAQ (30 Sep 2026). Fee Rs500 with Rs2L waiver per MITC and T&C 18 Sep 2026. Jewellery explicitly excluded. Forex not stated. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "T&C 18 Sep 2026",
+     "Migration FAQ 30 Sep 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status closed_to_new -> discontinued (official FAQ)",
+     "cap periods set to statement; min txn Rs249 added"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "Swiggy",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": null,
+   "name": "HDFC Swiggy BLCK",
+   "network": "Mastercard",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card (live; T&C 22 Sep 2026)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Top Swiggy card: 10% cashback on Swiggy app, 5% on select online/travel merchants, 1% elsewhere (jewellery excluded).",
+   "key_benefits": [
+    "Complimentary 3-month Swiggy BLCK membership on activation within 37 days",
+    "Joining fee Rs1,000 waived on Rs75,000 spend in 90 days",
+    "Renewal waiver on Rs2L spend",
+    "Max Rs4,000 cashback per cycle (MITC)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "10% on Swiggy app (food, Instamart, Dineout); cap Rs1,500/billing cycle; min txn Rs249; Swiggy Money wallet and liquor excluded.",
+     "cap_inr": 1500,
+     "period": "statement",
+     "min_txn_inr": 249
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "nykaa",
+      "cleartrip",
+      "ajio",
+      "netflix",
+      "hotstar",
+      "bookmyshow",
+      "meesho",
+      "uber",
+      "ola",
+      "pharmeasy",
+      "croma",
+      "vijay sales",
+      "reliance digital",
+      "paytm travel",
+      "easemytrip",
+      "ixigo",
+      "yatra",
+      "ibibo"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% on listed online brands and eligible MCCs (apparel, pharmacy, pet, personal care, electronics, travel, local cabs); online only; cap Rs1,500/billing cycle.",
+     "cap_inr": 1500,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments",
+      "travel",
+      "dining",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on other spends; cap Rs1,000/billing cycle.",
+     "cap_inr": 1000,
+     "period": "statement"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "gift_cards",
+    "gaming",
+    "education",
+    "smartbuy_portal",
+    "smartpay"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-blck-hdfc-bank-credit-card/pdf/tncs-swiggy-blck-hdfc-bank-credit-card-22092026.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Jewellery MCC 5094/5944 explicitly excluded. SmartBuy and SmartPay spends excluded. Forex markup not stated in docs read. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "BLCK T&C 22 Sep 2026",
+     "MITC v4.13"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "added merchant list and exclusions detail; cap periods marked statement"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "Swiggy",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": null,
+   "name": "HDFC Swiggy Ornge",
+   "network": "Mastercard",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card (live; T&C 22 Sep 2026)",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Swiggy card for everyday spend: 5% cashback on Swiggy and select online merchants (shared Rs1,500 cap), 1% elsewhere.",
+   "key_benefits": [
+    "Renewal fee waived on Rs1.5L annual spend",
+    "Max Rs2,500 cashback per cycle (MITC)",
+    "Migration FAQ calls Ornge 'lifetime free' - conflicts with MITC Rs500 fee"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "swiggy"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.05,
+     "desc": "5% on Swiggy app (food, Instamart, Dineout); min txn Rs249; Rs1,500/billing cycle cap shared with the 5% select-merchant category.",
+     "cap_inr": 1500,
+     "period": "statement",
+     "min_txn_inr": 249
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% on select online merchants/MCCs (apparel, pharmacy, electronics, travel, local cabs etc.); shares the Rs1,500/cycle cap with Swiggy 5%.",
+     "cap_inr": 1500,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments",
+      "travel",
+      "dining",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on other spends; cap Rs1,000/billing cycle.",
+     "cap_inr": 1000,
+     "period": "statement"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "gift_cards",
+    "gaming",
+    "education",
+    "smartbuy_portal"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-ornge-hdfc-bank-credit-card/pdf/tncs-swiggy-ornge-hdfc-bank-credit-card-22092026.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/swiggy-hdfc-bank-credit-card/pdf/faq-swiggy-migration-29-09-2026.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "The T&C table gives Rs1,500/cycle once for the two 5% rows (merged cell); max Rs2,500 total per MITC = 1,500 + 1,000, so shared cap inferred. Fee conflict: MITC Rs500 with Rs1.5L waiver vs migration FAQ 'life time free'; MITC kept, lifetime_free null. Jewellery MCC 5094/5944 excluded. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Ornge T&C 22 Sep 2026",
+     "Migration FAQ",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "5% select-merchant cap clarified as shared Rs1,500",
+     "lifetime_free set null due to conflicting official statements",
+     "min txn Rs249 added"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "Tata Neu",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": null,
+   "name": "HDFC Tata Neu Infinity",
+   "network": "RuPay",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card (live)",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.02,
+   "lounge_access": "2 domestic lounge vouchers per quarter on Rs50,000 quarterly spend (from 10 Jun 2025; swipe access discontinued); 4 international Priority Pass visits per year (1 per quarter, on request)",
+   "main_benefit": "Tata Neu co-brand: 5% NeuCoins on Tata brands (Tanishq/Titan, Croma, Tata CLiQ, BigBasket, IHCL, Air India...) and 1.5% elsewhere; RuPay and Visa variants.",
+   "key_benefits": [
+    "Welcome 1,499 NeuCoins on first txn within 30 days",
+    "Fee waiver Rs3L spend",
+    "Extra NeuPass 5% on selected Tata Neu app spends (not Tanishq)",
+    "NeuCoins valid 12 months from end of credit month"
+   ],
+   "base_rate": 0.015,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 NeuCoin = Rs1 on Tata Neu Rewards-eligible purchases (T&C); not redeemable for cash; limited to participating Tata brands."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "tanishq",
+      "titan"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.05,
+     "desc": "5% NeuCoins (1 NeuCoin = Rs1 on Tata Neu eligible purchases) at Tanishq/Titan, non-EMI, via MID/TID. Monthly eligible spend cap Rs6,00,000 (annual Rs18,00,000), so max reward Rs30,000 per month.",
+     "cap_inr": 30000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "croma"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% at Croma; monthly eligible spend cap Rs6,00,000.",
+     "cap_inr": 30000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "tata cliq",
+      "westside"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% at Tata CLiQ and Westside; monthly eligible spend cap Rs3,00,000 (combined).",
+     "cap_inr": 15000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "bigbasket"
+     ],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "desc": "5% at BigBasket; monthly eligible spend cap Rs1,00,000.",
+     "cap_inr": 5000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "air india",
+      "air india express",
+      "ihcl",
+      "taj",
+      "tata 1mg",
+      "cult",
+      "tata play",
+      "qmin"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "5% at Air India, Air India Express, IHCL (Taj), Tata 1mg, Cult, Tata Play, Qmin; per-brand monthly spend caps differ (IHCL/Air India Rs8,00,000, 1mg/Cult/Tata Play Rs2,00,000, Qmin Rs50,000). Conservative combined cap shown for the smallest group.",
+     "cap_inr": 2500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "dining",
+      "travel",
+      "groceries",
+      "bill_payments",
+      "other",
+      "international"
+     ],
+     "rate": 0.015,
+     "desc": "1.5% NeuCoins on non-Tata brands, non-UPI (also on merchant EMI principal). Grocery, insurance, utility and telecom NeuCoins each capped at 2,000 NeuCoins per month (Rs); max 50,000 NeuCoins per statement cycle. Jewellery at non-Tata jewellers is not in the exclusion list.",
+     "cap_inr": 50000,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "RuPay variant only: UPI spends earn 0.5% NeuCoins (any UPI ID) plus 1%% more with the Tata Neu UPI ID (1.5%% total); total UPI NeuCoins capped 500/month (Rs500).",
+     "rate_best": 0.015,
+     "cap_inr": 500,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "gift_cards",
+    "rent",
+    "government",
+    "gaming",
+    "smart_emi",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/tata-neu-infinity-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-infinity-credit-card/pdf/tata_neu_infinity_card_tnc.pdf (updated 3 Jan 2026)",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card/pdfs/milestone_lounge_tata-neu-cc.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Per-brand monthly spend caps from Annex 1 (Croma Rs6L, Tata CLiQ/Westside Rs3L, IHCL/Air India Rs8L, 1mg/Cult/Tata Play Rs2L, Titan/Tanishq Rs6L, BigBasket Rs1L, Qmin Rs50k; Tata Pay bill payments Rs50k-1L). cap_inr = max reward at 5%. Merchant EMI earns 1.5% only (no 5%). Smart EMI earns nothing. Forex 2% inferred from merged MITC table cell (Infinia..Tata Neu Infinity); product page does not state it. Jewellery: Tanishq/Titan partner brands earn 5%; others not excluded. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Tata Neu Infinity T&C 3 Jan 2026",
+     "Lounge T&C 10 Jul 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "added Croma, Tata CLiQ, BigBasket, IHCL, Air India accelerated rules with caps",
+     "forex set 2% (MITC cell)",
+     "UPI rule added; lounge corrected to 2 vouchers/qtr on Rs50k and 4 intl per year"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "Tata Neu",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": null,
+   "name": "HDFC Tata Neu Plus",
+   "network": "RuPay",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card (live)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic lounge voucher per quarter on Rs50,000 quarterly spend (from 10 Jun 2025)",
+   "main_benefit": "Entry Tata Neu card: 2% NeuCoins on Tata brands, 1% elsewhere; RuPay and Visa variants.",
+   "key_benefits": [
+    "Welcome 499 NeuCoins on first txn within 30 days",
+    "Fee waiver Rs1L spend",
+    "NeuCoins valid 12 months"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 NeuCoin = Rs1 on Tata Neu eligible purchases; not redeemable for cash."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "tanishq",
+      "titan"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.02,
+     "desc": "2% NeuCoins (1 NeuCoin = Rs1 on Tata Neu eligible purchases) at Tanishq/Titan, non-EMI, via MID/TID. Monthly eligible spend cap Rs3,00,000 (annual Rs9,00,000), so max reward Rs6,000 per month.",
+     "cap_inr": 6000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "croma"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% at Croma; monthly eligible spend cap Rs3,00,000.",
+     "cap_inr": 6000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "tata cliq",
+      "westside"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% at Tata CLiQ and Westside; monthly eligible spend cap Rs2,00,000 (combined).",
+     "cap_inr": 4000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "bigbasket"
+     ],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.02,
+     "desc": "2% at BigBasket; monthly eligible spend cap Rs50,000.",
+     "cap_inr": 1000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "air india",
+      "air india express",
+      "ihcl",
+      "taj",
+      "tata 1mg",
+      "cult",
+      "tata play",
+      "qmin"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "2% at Air India, Air India Express, IHCL (Taj), Tata 1mg, Cult, Tata Play, Qmin; per-brand monthly spend caps differ (IHCL/Air India Rs4,00,000, 1mg/Cult/Tata Play Rs1,00,000, Qmin Rs50,000). Conservative combined cap shown for the smallest group.",
+     "cap_inr": 2500
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "dining",
+      "travel",
+      "groceries",
+      "bill_payments",
+      "other",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "1% NeuCoins on non-Tata brands, non-UPI (also on merchant EMI principal). Grocery, insurance, utility and telecom NeuCoins each capped at 1,000 (grocery) / 2,000 (others) NeuCoins per month (Rs); max 25,000 NeuCoins per statement cycle. Jewellery at non-Tata jewellers is not in the exclusion list.",
+     "cap_inr": 25000,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0025,
+     "desc": "RuPay variant only: UPI spends earn 0.25% NeuCoins (any UPI ID), plus 0.75% more with the Tata Neu UPI ID (1% total); total UPI NeuCoins capped 500/month (Rs500).",
+     "rate_best": 0.01,
+     "cap_inr": 500,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "gift_cards",
+    "rent",
+    "government",
+    "gaming",
+    "smart_emi",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/tata-neu-plus-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/tata-neu-plus-hdfc-bank-credit-card/pdfs/tata_neu_plus_card_tnc.pdf (updated 3 Jan 2026)",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fee Rs499, waiver Rs1L per page. Annex 1 caps (Plus): Croma Rs3L, Tata CLiQ/Westside Rs2L, IHCL/Air India Rs4L, 1mg/Cult/Tata Play Rs1L, Titan/Tanishq Rs3L, BigBasket Rs50k per month. Forex 3.5% is the MITC default for this row group (layout inferred). From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Tata Neu Plus T&C 3 Jan 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "added Croma, Tata CLiQ, BigBasket, IHCL and other partner rules with caps",
+     "forex 3.5% set",
+     "UPI rule added"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "IndianOil",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": null,
+   "name": "HDFC IndianOil",
+   "network": "RuPay",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card (live)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Fuel card: 5% Fuel Points at IOCL pumps (150 FP/month; 250 for first 6 months) and 5% on groceries and bills (100 FP/month each); RuPay and Visa.",
+   "key_benefits": [
+    "Rs250 voucher on first txn within 37 days",
+    "Complimentary IndianOil XTRAREWARDS membership",
+    "Fee waiver Rs50,000 spend",
+    "1% fuel surcharge waiver (min Rs400, max Rs5,000 txn, Rs250/cycle)"
+   ],
+   "base_rate": 0.0067,
+   "point_value_inr": {
+    "cash": null,
+    "best": 1.0,
+    "note": "Statement-credit value for Fuel Points not found in MITC list; issuer markets '5% of spends as Fuel Points', implying ~Rs1 per FP when converted to XTRAREWARDS for fuel (rate_best basis). 1 FP = 1 RP."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "indianoil",
+      "iocl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.05,
+     "desc": "5% Fuel Points at IOCL pumps/outlets via IOCL POS only; cap 250 FP/month for first 6 months then 150 FP/month (about Rs150 at Rs1/FP, i.e. ~Rs3,000 fuel spend). Assumes 1 FP = Rs1.",
+     "cap_inr": 150,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "desc": "5% FP on grocery MCC 5411,5499,5921,5462 (supermarkets excluded per list); min txn Rs150; cap 100 FP/month.",
+     "cap_inr": 100,
+     "period": "month",
+     "min_txn_inr": 150
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "desc": "5% FP on utility and telecom MCC 4812,4814,4900; min txn Rs150; cap 100 FP/month.",
+     "cap_inr": 100,
+     "period": "month",
+     "min_txn_inr": 150
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel",
+      "other"
+     ],
+     "rate": 0.0067,
+     "desc": "1 FP per Rs150 on other spends (UPI included); value Rs1/FP assumed (unverified). Max 25,000 RP per statement cycle.",
+     "cap_inr": 25000,
+     "period": "statement",
+     "min_txn_inr": 150
+    }
+   ],
+   "excludes": [
+    "fuel_non_iocl",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "insurance",
+    "supermarkets",
+    "tax"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/indianoil-hdfc-bank-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/indian-oil-hdfc-bank-credit-card/T-and-C-Indian-Oil-Credit-Card.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Earn rates, caps, exclusions (incl. jewellery, insurance, supermarkets, bakeries, liquor) read from the T&C PDF. Fuel Point rupee value not officially given for statement redemption, so rates assume Rs1/FP and are medium confidence. Forex 3.5% default per MITC layout. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "IOC T&C PDF",
+     "product page",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "added caps in INR, min txn Rs150, period month",
+     "added insurance/supermarket/tax exclusions",
+     "base_rate set 0.67% on Rs1/FP assumption (flagged)",
+     "forex 3.5%"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "name": "HDFC Pixel Play",
+   "network": "Visa",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card (live; T&C 30 Jul 2026)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Customisable digital card: 5% on two chosen merchant packs, 5% on SmartBuy, 3% on one chosen platform, 1% elsewhere; capped at 500 CashPoints per month per category.",
+   "key_benefits": [
+    "Joining fee waived on Rs20,000 spend in 90 days",
+    "Renewal waiver Rs1L spend",
+    "Choose packs (change after 3 months)",
+    "RuPay variant: 1% on UPI (500 CP/month)"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "T&C: negative balances charged at 1 CashPoint = Rs1; cashback redeemed against statement."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "bookmyshow",
+      "zomato",
+      "makemytrip",
+      "uber",
+      "blinkit",
+      "reliance smart bazaar",
+      "croma",
+      "reliance digital",
+      "nykaa",
+      "myntra"
+     ],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel",
+      "groceries"
+     ],
+     "rate": 0.05,
+     "desc": "5% on any TWO packs chosen by the cardholder (Dining&Ent: BookMyShow+Zomato; Travel: MakeMyTrip+Uber; Grocery: Blinkit+Reliance Smart Bazaar (offline only for RSB); Electronics: Croma+Reliance Digital (offline for RD); Fashion: Nykaa+Myntra). Cap 500 CashPoints/month (Rs500) across both packs, beyond which 1%. Min txn Rs100.",
+     "cap_inr": 500,
+     "period": "month",
+     "min_txn_inr": 100
+    },
+    {
+     "merchants": [
+      "smartbuy"
+     ],
+     "categories": [
+      "travel",
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% on SmartBuy (flights, hotels, bus, rail, instant vouchers, IGP, Apple); cap 500 CP/month (Rs500).",
+     "cap_inr": 500,
+     "period": "month",
+     "portal_only": true,
+     "min_txn_inr": 100
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "payzapp"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "3% on ONE chosen platform (PayZapp, Amazon or Flipkart); cap 500 CP/month (Rs500); not on RuPay UPI.",
+     "cap_inr": 500,
+     "period": "month",
+     "min_txn_inr": 100
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "groceries",
+      "dining",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on all other spends incl. jewellery (not in excluded MCC list); fair-usage cap 15,000 CP/month; txns below Rs100 earn nothing; insurance capped 2,000 CP/day.",
+     "cap_inr": 15000,
+     "period": "month",
+     "min_txn_inr": 100
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gift_cards"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/fifa-pixel-credit-card/pdf/terms-and-conditions-pixel-play-credit-card-08072026.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/MITC-PIXEL-Credit-Card-12Aug-26-1.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Fees, waivers and forex 3.5% from Pixel MITC 12 Aug 2026; rates and caps from T&C (30 Jul 2026). Excluded MCCs: 1361,5172,5541,5542,5983,9752,6513,6540,7349,9211,9222,9223,9311,9399,9402,9405,9950 - jewellery MCCs not listed so earn 1% by omission (not stated). From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Pixel Play T&C 30 Jul 2026",
+     "Pixel MITC 12 Aug 2026"
+    ],
+    "result": "corrected",
+    "changes": [
+     "listed pack merchants and SmartBuy 5% as portal_only",
+     "added min txn Rs100, UPI note, forex 3.5%",
+     "fixed MITC-confirmed fee/waiver values"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "name": "HDFC Pixel Go",
+   "network": "Visa",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card (live; T&C 22 Dec 2025)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 250,
+   "annual_fee": 250,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Flat 1% cashback digital card, 5% on SmartBuy (500 CP/month) and 1% UPI on RuPay; Rs250 fee.",
+   "key_benefits": [
+    "Joining fee waived on Rs10,000 in 90 days",
+    "Renewal waiver Rs50,000",
+    "FD-backed variant"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 CashPoint = Rs1 (T&C chargeback rate)."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "smartbuy"
+     ],
+     "categories": [
+      "travel",
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "5% on SmartBuy (flights, hotels, bus, rail, vouchers, IGP, Apple); cap 500 CP/month (Rs500).",
+     "cap_inr": 500,
+     "period": "month",
+     "portal_only": true,
+     "min_txn_inr": 100
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "groceries",
+      "dining",
+      "bill_payments",
+      "travel",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% on all eligible spends (fair-usage cap 15,000 CP/month); min txn Rs100; insurance capped 2,000 CP/day. RuPay UPI 1% capped 500 CP/month.",
+     "cap_inr": 15000,
+     "period": "month",
+     "min_txn_inr": 100
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gift_cards"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/pixel-go-credit-card/pdfs/t-c-pixel-go.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/MITC-PIXEL-Credit-Card-12Aug-26-1.pdf"
+   ],
+   "confidence": "high",
+   "notes": "T&C read (previous record had read only the page). Excluded MCC list does not name jewellery, so 1% assumed; not explicit. Forex 3.5% (Pixel MITC row). From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Pixel Go T&C 22 Dec 2025",
+     "Pixel MITC 12 Aug 2026"
+    ],
+    "result": "corrected",
+    "changes": [
+     "SmartBuy 5% moved to portal_only with 500 CP/month cap",
+     "exclusions, min txn, caps added from T&C",
+     "confidence raised low -> high"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "name": "HDFC MoneyBack+",
+   "network": "Mastercard",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/moneyback-plus-credit-card (live; T&C 15 May 2026)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry rewards card: 10X CashPoints (20 CP per Rs200, 2.0% at Rs0.20/CP cashback) at Amazon, BigBasket, Flipkart, Reliance Smart SuperStore, Swiggy; 0.2% elsewhere.",
+   "key_benefits": [
+    "500 RP on joining fee payment",
+    "Fee waiver Rs50,000",
+    "Max 15,000 CP per statement cycle"
+   ],
+   "base_rate": 0.002,
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "MITC (from 1 Nov 2025): 20 paise per point for statement-balance cashback; T&C says 'up to Rs0.25' per CashPoint."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "amazon",
+      "bigbasket",
+      "flipkart",
+      "reliance smart superstore",
+      "swiggy"
+     ],
+     "categories": [
+      "online_shopping",
+      "groceries"
+     ],
+     "rate": 0.02,
+     "desc": "10X = 20 CP per Rs200 at 5 merchants, non-EMI, direct (via SmartBuy/PayZapp only 2 CP/Rs200); cap 2,500 CP per calendar month (Rs500 at Rs0.20, Rs625 at Rs0.25), about Rs50,000 spend.",
+     "rate_best": 0.025,
+     "cap_inr": 500,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "groceries",
+      "dining",
+      "bill_payments",
+      "travel",
+      "other"
+     ],
+     "rate": 0.002,
+     "desc": "2 CP per Rs200 on other spends (jewellery not excluded); max 15,000 CP per statement cycle; grocery CP capped 1,000/month; utility/telecom 2,000 CP/month.",
+     "rate_best": 0.0025
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government",
+    "wallet_load",
+    "gift_cards",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/moneyback-plus-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/moneyback-plus-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/moneyback-plus-credit-card/pdf/MBPlus-TnCs.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Rate now conservative Rs0.20/CP (MITC) with Rs0.25 as rate_best. Forex 3.5% default per MITC row group. Jewellery not excluded in the T&C (not explicit). From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "MoneyBack+ T&C 15 May 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "10X rate 2.5% -> 2.0% conservative (2.5% best)",
+     "base 0.25% -> 0.2% conservative",
+     "cap converted at Rs0.20 per CP; forex 3.5% added",
+     "removed unconfirmed milestone"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "name": "HDFC Freedom",
+   "network": "Visa",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/freedom-credit-card (live; T&C 15 May 2026)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Starter card: 10X CashPoints (10 CP per Rs200, 0.75% at Rs0.15/CP) at BigBasket, BookMyShow, OYO, Swiggy, Uber; 0.075% elsewhere.",
+   "key_benefits": [
+    "500 RP on joining fee realisation",
+    "Fee waiver Rs50,000",
+    "Max 15,000 CP per statement cycle"
+   ],
+   "base_rate": 0.00075,
+   "point_value_inr": {
+    "cash": 0.15,
+    "best": 0.15,
+    "note": "T&C: statement cashback and SmartBuy catalogue/travel at 1 CashPoint = Rs0.15; flights/hotels up to 50% of booking."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "bigbasket",
+      "bookmyshow",
+      "oyo",
+      "swiggy",
+      "uber"
+     ],
+     "categories": [
+      "online_shopping",
+      "groceries",
+      "dining",
+      "travel"
+     ],
+     "rate": 0.0075,
+     "desc": "10X = 10 CP per Rs200 at 5 merchants (non-EMI, direct; SmartBuy/PayZapp earns only 1 CP/Rs200); cap 2,500 CP/calendar month (Rs375).",
+     "cap_inr": 375,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "groceries",
+      "dining",
+      "bill_payments",
+      "travel",
+      "online_shopping",
+      "other"
+     ],
+     "rate": 0.00075,
+     "desc": "1 CP per Rs200 on other spends at Rs0.15 = 0.075% (jewellery not excluded); utility/telecom 2,000 CP/month caps; max 15,000 CP/statement cycle."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government",
+    "wallet_load",
+    "gift_cards",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/freedom-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/freedom-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/freedom-credit-card/freedom-tncs.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "Previous record omitted the 10X merchant rule. Fee Rs500 and Rs50,000 waiver per MITC row group (layout inferred); forex 3.5% default. Jewellery not explicit. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Freedom T&C 15 May 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "added 10X merchant rule (0.75%, cap Rs375/month)",
+     "forex 3.5%",
+     "exclusions expanded"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "IndiGo",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": "Not available; existing holders migrated to another HDFC card.",
+   "name": "6E Rewards IndiGo HDFC Bank Credit Card",
+   "network": null,
+   "status": "discontinued",
+   "status_source": "MITC v4.13 fee-table note: 'Indigo HDFC Bank 6E Rewards/6E Rewards XL Credit Card is discontinued. Bank is not accepting any new applications ... Effective 1st Dec'25 all product features and benefits discontinued'",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued IndiGo co-brand: no longer issued; 6E Rewards programme ended 1 Nov 2025 (balances converted to IndiGo BluChips 1:1); holders migrated.",
+   "key_benefits": [
+    "Features and benefits discontinued 1 Dec 2025"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/6e-rewards-indigo-credit-card",
+   "sources": [
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "MITC (8 Oct 2026) states the card is discontinued, applications closed, holders migrated, 6E Rewards phased out 1 Nov 2025. Fee per MITC: Rs500 (XL earlier value chart said Rs2,500; MITC newer). Earn rates intentionally empty as features are discontinued. Forex not clear in MITC layout.",
+   "verification": {
+    "documents": [
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active -> discontinued",
+     "removed stale earn rules and benefits",
+     "fee per MITC"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "IndiGo",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": "Not available; existing holders migrated to another HDFC card.",
+   "name": "6E Rewards XL IndiGo HDFC Bank Credit Card",
+   "network": null,
+   "status": "discontinued",
+   "status_source": "MITC v4.13 fee-table note: 'Indigo HDFC Bank 6E Rewards/6E Rewards XL Credit Card is discontinued. Bank is not accepting any new applications ... Effective 1st Dec'25 all product features and benefits discontinued'",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Discontinued IndiGo co-brand: no longer issued; 6E Rewards programme ended 1 Nov 2025 (balances converted to IndiGo BluChips 1:1); holders migrated.",
+   "key_benefits": [
+    "Features and benefits discontinued 1 Dec 2025"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/6e-rewards-xl-indigo-credit-card",
+   "sources": [
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "MITC (8 Oct 2026) states the card is discontinued, applications closed, holders migrated, 6E Rewards phased out 1 Nov 2025. Fee per MITC: Rs1500 (XL earlier value chart said Rs2,500; MITC newer). Earn rates intentionally empty as features are discontinued. Forex 2.5% (MITC).",
+   "verification": {
+    "documents": [
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active -> discontinued",
+     "removed stale earn rules and benefits",
+     "fee per MITC"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "Marriott Bonvoy",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "name": "HDFC Marriott Bonvoy",
+   "network": "Diners",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/marriott-bonvoy-credit-card (live; T&C 28 Sep 2026)",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "12 domestic and 12 international complimentary visits per year (primary and add-on, no guests)",
+   "main_benefit": "Hotel co-brand: 8 Marriott Bonvoy points per Rs150 at Marriott, 4 on travel/entertainment/dining, 2 on other spends, with free night awards.",
+   "key_benefits": [
+    "Welcome Free Night Award (up to 15,000 pts) on Rs500 spend / fee levy",
+    "Renewal Free Night Award each year",
+    "Up to 3 extra Free Night Awards at Rs6L / Rs9L / Rs15L annual spend",
+    "Marriott Silver Elite status",
+    "12 domestic + 12 international lounge visits per year",
+    "No fee waiver by spend"
+   ],
+   "base_rate": null,
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "HDFC documents give no rupee value per Marriott Bonvoy point; not redeemable for cash. Not invented."
+   },
+   "rules": [],
+   "excludes": [
+    "emi",
+    "gaming",
+    "fuel",
+    "wallet_load",
+    "gift_cards",
+    "cash_advance",
+    "government",
+    "rent"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/marriott-bonvoy-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/marriott-bonvoy-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/marriott-bonvoy-credit/terms-and-condition.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Earn (T&C 28 Sep 2026): 8 pts/Rs150 at Marriott properties/stores up to Rs10L monthly spend (2 pts/Rs150 above); 4 pts/Rs150 on travel, entertainment and dining MCCs up to Rs5L monthly (2 above); 2 pts/Rs150 on all other eligible spends; grocery 2 pts/Rs150 up to Rs1.5L per month then 0. Insurance has no cap. No rupee value per point in HDFC docs so rules omitted (never invented); recommenders should value points externally. Forex not stated. Jewellery not in exclusion list (not explicit). Fee Rs3,000, no waiver. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Marriott Bonvoy T&C 28 Sep 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "lounge access 12+12 added",
+     "free-night milestones confirmed (Rs6L/9L/15L)",
+     "still no INR value so rules empty"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": "Shoppers Stop",
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": false,
+   "eligibility": null,
+   "name": "HDFC Shoppers Stop Black HDFC Bank Credit Card",
+   "network": "RuPay",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/shoppers-stop-black-credit-card (live)",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4500,
+   "annual_fee": 4500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "16 domestic (4/quarter) + 8 international (2/quarter) per calendar year",
+   "main_benefit": "Shoppers Stop premium co-brand: 7 RP per Rs100 at Shoppers Stop (7% when redeemed as Shoppers Stop vouchers at Re1/RP) and 2 RP per Rs100 elsewhere.",
+   "key_benefits": [
+    "Rs1,500 Shoppers Stop welcome voucher",
+    "Complimentary Shoppers Stop Black membership worth Rs4,500",
+    "Rs2,000 RP per month on a single Rs50,000+ weekend Shoppers Stop purchase (max once a month, 5 times a year)",
+    "16 domestic + 8 international lounge visits",
+    "Rs3 crore air accident cover"
+   ],
+   "base_rate": 0.004,
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 1.0,
+    "note": "T&C: 1 RP = Re1 when redeemed against Shoppers Stop vouchers; Rs0.20 against statement balance (min 500 RP, Rs50 fee); product catalogue up to Rs0.35."
+   },
+   "rules": [
+    {
+     "merchants": [
+      "shoppers stop"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.014,
+     "desc": "7 RP per Rs100 at Shoppers Stop stores/website (min txn Rs150), capped 2,000 RP per month (Rs400 cash / Rs2,000 best). rate at Rs0.20/RP, rate_best at Re1/RP voucher (7%). Plus weekend bonus 2,000 RP on one Rs50,000+ bill (max once per month, 5/year).",
+     "rate_best": 0.07,
+     "cap_inr": 400,
+     "period": "month",
+     "min_txn_inr": 150
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel",
+      "other"
+     ],
+     "rate": 0.004,
+     "desc": "2 RP per Rs100 on non-Shoppers Stop spends (table and examples show 2%; section 2.4 heading says 1% - conflict), capped 2,000 RP per month; min txn Rs150; jewellery explicitly excluded. rate at Rs0.20/RP; rate_best Rs0.35 catalogue (0.7%).",
+     "rate_best": 0.007,
+     "cap_inr": 400,
+     "period": "month",
+     "min_txn_inr": 150
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "jewellery",
+    "supermarkets",
+    "insurance",
+    "tax",
+    "liquor",
+    "bakeries"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/shoppers-stop-black-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/shoppers-stop-black-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/shoppers-stop-black-credit-card/pdfs/SS-Black-T-and-C-latest.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/shoppers-stop-black-credit-card/pdfs/t-and-c-for-shoppers-stop-black.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Previous record assumed Re1/RP and 2% base without source. Official T&C: caps, exclusions (jewellery, supermarkets, insurance), redemption Rs0.20 statement. Base rate conflict 2% vs 1% noted; used the table/examples (2 RP per Rs100) with conservative Rs0.20 value. Fee waiver not offered (MITC 'NA'). Forex 3.5% per Aug 2024 generic notice (not card-specific). T&C document undated. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC). Confidence medium: rate/cap documents are undated or older than 12 months.",
+   "verification": {
+    "documents": [
+     "SS Black T&C",
+     "SS FAQ",
+     "Mar 2024 feature note",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "7% now rate_best; conservative 1.4% at Rs0.20",
+     "added 2,000 RP/month caps, min txn, jewellery/supermarket exclusions",
+     "forex 3.5%"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": "Self-employed Indian citizen 21-65, business ITR above Rs45 lakh with mandatory liability relationship (page).",
+   "name": "HDFC BizBlack Metal Edition",
+   "network": null,
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/business-credit-cards/biz-black-credit-card (live)",
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 750000,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited access to 1,000+ lounges worldwide, primary and add-on",
+   "main_benefit": "Top HDFC business card: 5 RP per Rs150 (1.0% at Rs0.30 cashback, up to 3.33% at Re1/RP) with 5X on bill payments/GST/travel/software and unlimited lounges.",
+   "key_benefits": [
+    "Rs5,000 SmartBuy flight/Taj voucher per Rs5L spend, up to Rs20,000 per calendar year",
+    "Welcome: Accor+ Explorer membership (Rs1.5L spend in 90 days)",
+    "5X RP on PayZapp bill payments, IT & GST, hotels/flights, software",
+    "Up to 10X on SmartBuy (cap 10,000 RP/month)",
+    "Business insurance"
+   ],
+   "base_rate": 0.01,
+   "point_value_inr": {
+    "cash": 0.3,
+    "best": 1.0,
+    "note": "Page: statement cashback Rs0.30 (min 2,500 RP); SmartBuy flights/hotels Rs1; product catalogue up to Rs0.50; business catalogue up to Rs1; airmiles 1:1."
+   },
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "dining",
+      "travel",
+      "other",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "5 RP per Rs150 on eligible spend; rate at Rs0.30/RP cashback, rate_best at Re1/RP. Max 1,50,000 RP per statement cycle (cap_inr at Re1). Insurance RP 5,000/month; grocery 2,000 RP/month; utility/telecom 2,000 RP/month each. Government spends DO earn (not excluded on business cards); education does not.",
+     "rate_best": 0.0333,
+     "cap_inr": 150000,
+     "period": "statement"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "emi",
+    "wallet_load",
+    "education",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/biz-black-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/biz-black-credit-card",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "medium",
+   "notes": "Fees, waiver Rs7.5L, forex 2%, caps and exclusions from page and MITC v4.13. The 5X category rule (min spend etc.) is not numerically modelled because the multiplier basis is unclear and conditions were not in an official T&C read. Network not stated in documents read. Jewellery not stated. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "BizBlack product page",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "conservative Rs0.30 cashback basis added; forex 2% confirmed",
+     "government spends earn on BizBlack (previous record excluded nothing)",
+     "education excluded"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  },
+  {
+   "issuer": "HDFC Bank",
+   "co_brand_partner": null,
+   "source_type": "official",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "name": "HDFC Diners Club Privilege",
+   "network": "Diners",
+   "status": "active",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card (live; T&C June 2026)",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic + 1 international per calendar quarter, only if Rs60,000 spent in the preceding quarter (from 1 Jul 2026), via SmartBuy vouchers",
+   "main_benefit": "Entry-premium Diners card: 4 RP per Rs200 (0.8% at Rs0.20 cashback, 1.0% at Rs0.50 SmartBuy) with 5X RP on Swiggy and Zomato.",
+   "key_benefits": [
+    "Welcome: Swiggy One + Times Prime on Rs75,000 spend in 90 days",
+    "Rs1,500 voucher on Rs1.5L calendar-quarter spend",
+    "BookMyShow buy-1-get-1 weekends",
+    "Fee waiver Rs3L"
+   ],
+   "base_rate": 0.004,
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.5,
+    "note": "Page: flights/hotels via SmartBuy Rs0.50; catalogue up to Rs0.35; statement cashback Rs0.20 (not listed in MITC cashback table)."
+   },
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "online_shopping",
+      "travel",
+      "groceries",
+      "bill_payments",
+      "other",
+      "international"
+     ],
+     "rate": 0.004,
+     "desc": "4 RP per Rs200 on eligible retail (cut from 4 RP/Rs150 on 15 May 2026); rate at Rs0.20/RP, rate_best at Rs0.50/RP (1.0%). Max 50,000 RP per statement cycle. Grocery 2,000 RP/month; utility and telecom 2,000 RP/month each; insurance 2,000 RP/month.",
+     "rate_best": 0.01,
+     "cap_inr": 25000,
+     "period": "statement"
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "zomato",
+      "eternal"
+     ],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.02,
+     "desc": "5X = 20 RP per Rs200 on Swiggy/Zomato online food delivery (MCC 5812/5814); extra 16 RP capped 2,500 RP/month combined, i.e. about Rs31,250 spend/month at 5X, then base 4 RP/Rs200. Min txn Rs200. rate at Rs0.20/RP (2%), rate_best at Rs0.50 (5%).",
+     "rate_best": 0.05,
+     "min_txn_inr": 200,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 31250,
+       "rate": 0.02
+      },
+      {
+       "from_inr": 31250,
+       "to_inr": null,
+       "rate": 0.004
+      }
+     ]
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming",
+    "education_third_party"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-privilege-credit-card",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/common/Credit-Cards/Diners-Privilege-Product-Feature-Change.pdf",
+    "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/diners-privilege-credit-card/pdf/diners-privilege-tnc-2026.pdf",
+    "HDFC Personal MITC v4.13 (Sept 2026, updated 8 Oct 2026) https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/personal-mitc/mitc-in-english.pdf"
+   ],
+   "confidence": "high",
+   "notes": "15 May 2026 notice: 4 RP/Rs200, lounge on Rs60k prior-quarter spend, 1.75% DCC, Rs199 reissue. 5X cap 2,500 RP/month confirmed in June 2026 T&C. Statement-cashback Rs0.20 stated on page only (MITC cashback table omits Diners Privilege) - used. Jewellery not stated. Forex 3.5% per MITC. From 15 May 2026 a 1.75% markup applies to INR transactions at overseas locations or overseas-registered merchants in India (MITC 4.13 / change notices). Fuel above Rs15,000 per txn, utilities above Rs50,000 per month and third-party-app education/rent attract a 1% fee (MITC).",
+   "verification": {
+    "documents": [
+     "Product page",
+     "15 May 2026 change notice",
+     "Diners Privilege T&C June 2026",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "rates restated on conservative Rs0.20 cashback with rate_best Rs0.50",
+     "5X Swiggy/Zomato modelled with tier at Rs31,250/month and min txn Rs200",
+     "welcome benefit and quarterly milestone confirmed"
+    ],
+    "checked_on": "2026-10-12"
+   }
+  }
+ ],
+ "gaps": [
+  "SmartBuy accelerated-RP category multipliers (up to 5X/10X) and monthly caps for Infinia, Diners Black Metal, Regalia Gold, BizBlack were not read from the official SmartBuy T&C (only Infinia 15,000 RP/month and the 3,000 RP/month voucher sub-cap appear in the official Rewards T&C); no portal_only rules modelled for those cards.",
+  "Marriott Bonvoy: no rupee value per point in HDFC documents, so no earn rules modelled.",
+  "Card networks (Visa/Mastercard/RuPay) are not stated in the documents read for Infinia, Regalia Gold, Regalia, Millennia, Swiggy cards, MoneyBack+, Freedom, Pixel, IndianOil, Shoppers Stop Black, BizBlack; prior values retained or null.",
+  "Forex markup for Swiggy cards, Marriott Bonvoy, 6E Rewards (non-XL) not stated; for Tata Neu, Millennia, MoneyBack+, Freedom, IndianOil, Pixel, Shoppers Stop Black it is inferred from the merged cells of the MITC table (3.5% default; Tata Neu Infinity 2%).",
+  "Jewellery/gold (MCC 5944/5094) earn is not explicitly stated for Infinia, Diners, Regalia family, Millennia, MoneyBack+, Freedom, Pixel, Marriott, BizBlack (not in any exclusion list); flagged jewellery_unconfirmed. Explicitly excluded: Swiggy cards, IndianOil, Shoppers Stop Black.",
+  "Regalia Gold statement-cashback value conflict (Rs0.20 page vs Rs0.15 MITC/SmartBuy PDF) and flight-voucher milestone conflict (Rs5L+7.5L page vs Rs7.5L T&C) unresolved; conservative values used.",
+  "HDFC IndianOil Fuel Point rupee value not officially stated; rates assume Rs1/FP (medium confidence).",
+  "Shoppers Stop Black non-Shoppers-Stop base rate conflict (2% table vs 1% heading).",
+  "Swiggy Ornge: MITC Rs500 fee vs migration FAQ 'lifetime free' unresolved.",
+  "Status of Swiggy HDFC legacy card taken as discontinued from migration FAQ; apply-page was not separately tested. Infinia and Diners Black Metal are invite-only, availability cannot be confirmed by public apply flow."
+ ]
+}

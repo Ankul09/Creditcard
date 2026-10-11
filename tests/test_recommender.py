@@ -102,6 +102,24 @@ class Policy(unittest.TestCase):
         rec = recommend(Purchase(5000, "fuel", "hpcl"), self.data(pump, none))
         self.assertEqual(rec.primary.card["name"], "Pump")
 
+    def test_base_rate_on_jewellery_is_speculative_not_primary(self):
+        flat = card("Flat", base=0.05)  # no jewellery rule, no exclusion: do not assume it earns on jewellery
+        safe = card("Safe", base=0.0, rules=[{"merchants": [], "categories": ["jewellery"], "rate": 0.01}])
+        rec = recommend(Purchase(100000, "jewellery"), self.data(flat, safe))
+        self.assertEqual(rec.primary.card["name"], "Safe")
+        self.assertEqual([r.card["name"] for r in rec.flagged], ["Flat"])
+
+    def test_conditional_rate_is_never_primary(self):
+        cond = card("Cond", rules=[{"merchants": [], "categories": ["travel"], "rate": 0.05, "conditional": "direct booking"}])
+        plain = card("Plain", base=0.02)
+        rec = recommend(Purchase(100000, "travel"), self.data(cond, plain))
+        self.assertEqual(rec.primary.card["name"], "Plain")
+        self.assertEqual([r.card["name"] for r in rec.alternatives], ["Cond"])
+
+    def test_no_reliable_card_gives_no_primary(self):
+        rec = recommend(Purchase(5000, "fuel"), self.data(card("X", base=0.01)))
+        self.assertIsNone(rec.primary)
+
 
 if __name__ == "__main__":
     unittest.main()

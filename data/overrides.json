@@ -1,0 +1,21 @@
+{
+ "_note": "Human/maintainer corrections applied LAST by merge.py. cards.<name>.fields updates card keys; .rules.<index> updates a rule; always give a reason.",
+ "cards": {
+  "Standard Chartered EaseMyTrip": {
+   "rules": {
+    "0": {
+     "conditional": "booking directly on an airline's or hotel's own website/app/outlet (not via travel agents or aggregators)"
+    }
+   },
+   "reason": "SC terms: 10 RP/Rs100 only at standalone airline/hotel merchants by MCC, not via aggregators"
+  },
+  "ICICI Amazon Pay": {
+   "rules": {
+    "0": {
+     "conditional": "you are an Amazon Prime member (non-Prime earns 3%)"
+    }
+   },
+   "reason": "ICICI T&C: 5% on Amazon is for Prime members; 3% for non-Prime"
+  }
+ }
+}

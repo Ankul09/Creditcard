@@ -16,8 +16,11 @@ UNAVAILABLE = {"discontinued", "closed_to_new"}  # cannot be newly applied for
 GST = 1.18
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "cards.json")
 RECURRING_CATEGORIES = {"fuel", "groceries", "dining", "bill_payments", "online_shopping"}  # repeat ~monthly
+# Categories most cards exclude from base earn: a base rate is NOT evidence the card earns here.
+SENSITIVE_CATEGORIES = {"jewellery", "fuel", "rent", "utilities", "insurance", "wallet_load", "government",
+                        "education", "emi", "gaming", "toll", "gift_cards"}
 RESTRICTED_NAME_HINTS = ("indian navy", "indian army", "indian air force", "assam rifles", "armed forces",
-                         "icai", "doctor", "defence")
+                         "icai", "doctor", "defence", "burgundy")
 
 
 @dataclass
@@ -45,6 +48,8 @@ class Result:
     reward_best: Optional[float] = None  # at best redemption, if different
     notes: List[str] = field(default_factory=list)
     rated: bool = True
+    speculative: bool = False  # earning on this category is not confirmed for the card
+    conditional: Optional[str] = None  # the rate applies only under this condition
 
     @property
     def total(self) -> float:
@@ -164,11 +169,15 @@ def evaluate(card: dict, p: Purchase, offers: Optional[List[dict]] = None) -> Re
         if base is None:
             return Result(card, 0.0, 0.0, "reward rate unknown", offer, offer_desc, notes=notes, rated=False)
         reward = p.amount * base
+        speculative = p.category in SENSITIVE_CATEGORIES
+        if speculative:
+            notes.append(f"earning on {p.category} is not confirmed for this card")
         # portal-only accelerators the customer could use instead
         for r in card.get("rules", []):
             if r.get("portal_only") and p.category in r.get("categories", []):
                 notes.append(f"up to {_headline(r)} via portal")
-        return Result(card, reward, base, f"base rate {base:.1%}", offer, offer_desc, notes=notes)
+        return Result(card, reward, base, f"base rate {base:.1%}", offer, offer_desc, notes=notes,
+                      speculative=speculative)
 
     base_v = base or 0.0
     scored = []
@@ -185,8 +194,11 @@ def evaluate(card: dict, p: Purchase, offers: Optional[List[dict]] = None) -> Re
             reason += ", cap reached"
     if rule.get("desc") and ("quarter" in rule["desc"].lower() or "year" in rule["desc"].lower()):
         notes.append("check cap period in card terms")
+    cond = rule.get("conditional") or None
+    if cond:
+        notes.append(f"applies only if: {cond}")
     return Result(card, reward, reward / p.amount if p.amount else 0, reason, offer, offer_desc,
-                  reward_best=best_rew if best_rew > reward + 1e-6 else None, notes=notes)
+                  reward_best=best_rew if best_rew > reward + 1e-6 else None, notes=notes, conditional=cond)
 
 
 # ---------------------------------------------------------------- ranking policy
@@ -220,11 +232,12 @@ def recommend(p: Purchase, data: Optional[dict] = None, limit: int = 5) -> Recom
     solid, flagged = [], []
     for r in rank(p, data):
         c = r.card
-        if c.get("confidence") in ("high", "medium") and not is_restricted(c):
-            solid.append(r)
-        else:
+        if r.speculative or c.get("confidence") not in ("high", "medium") or is_restricted(c):
             flagged.append(r)
-    primary = solid[0] if solid else None
+        else:
+            solid.append(r)
+    unconditional = [r for r in solid if not r.conditional]
+    primary = unconditional[0] if unconditional else None
     threshold = primary.net(p) if primary else float("-inf")
     flagged = [r for r in flagged if r.net(p) > threshold][:limit]
     hidden = []
@@ -234,4 +247,5 @@ def recommend(p: Purchase, data: Optional[dict] = None, limit: int = 5) -> Recom
             if r.rated and r.net(p) > threshold and c.get("confidence") in ("high", "medium"):
                 hidden.append(r)
     hidden = sorted(hidden, key=lambda r: r.net(p), reverse=True)[:3]
-    return Recommendation(p, primary, solid[1:limit], flagged, hidden)
+    alternatives = [r for r in solid if r is not primary][:limit]
+    return Recommendation(p, primary, alternatives, flagged, hidden)

@@ -1,0 +1,2634 @@
+{
+ "cards": [
+  {
+   "name": "Cashback SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Flat cashback card: 5% online (any merchant) and 1% offline, max Rs4,000 cashback per statement cycle.",
+   "key_benefits": [
+    "Fee Rs999+taxes (joining and renewal); renewal fee reversed on annual spend >= Rs2,00,000",
+    "5% online cashback capped Rs2,000 per statement cycle; 1% offline (POS) capped Rs2,000 per statement cycle (revised from 1 Apr 2026)",
+    "Cashback auto-credited to the card account within 2 working days of statement generation",
+    "1% fuel surcharge waiver on Rs500-3,000 transactions, max Rs100 per statement cycle (MCC 5172, 5541, 5542, 5983)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel",
+      "groceries",
+      "other"
+     ],
+     "rate": 0.05,
+     "cap_inr": 2000,
+     "period": "statement",
+     "channel": "online",
+     "desc": "5% cashback on online spends with no merchant restriction; Rs2,000 max cashback per statement cycle (about Rs40,000 online spend). Cashback rounded down per transaction."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "groceries",
+      "other"
+     ],
+     "rate": 0.01,
+     "cap_inr": 2000,
+     "period": "statement",
+     "channel": "offline",
+     "desc": "1% cashback on offline (POS at merchant outlets) spends; separate Rs2,000 max per statement cycle. Combined ceiling Rs4,000 per statement cycle."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "wallet_load",
+    "education",
+    "railways",
+    "emi",
+    "gaming",
+    "tolls",
+    "government",
+    "gift_shops",
+    "quasi_cash",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/cashback-tnc-ekit.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Verified against official e-kit, 1 Apr 2026 revision PDF and card page. Duplicate DB record exists under the other name ('SBI Cashback' / 'Cashback SBI Card'); both written identically. Jewellery/gold: explicitly excluded (MCC 5051, 5094, 7631, 5944). Railways excluded. Statement-credit redemption of other SBI reward points capped 60,000 pts/month (notice 1 Apr 2026), not relevant to cashback. Card page text is stamped 'correct as per July 2023' but is the live page; the 2026 revision PDF governs caps. Fee shown ex-taxes.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Cashback is credited in rupees to the card account; no points."
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (notice 'CASHBACK SBI Credit Card benefits revised' effective 1 Apr 2026) and live apply page https://www.sbicard.com/en/personal/credit-cards/cashback-sbi-card.html",
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/cashback-tnc-ekit.pdf (T&C e-kit, MCC exclusion table read)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf (1 Apr 2026 revision)",
+     "card page JSON fees section",
+     "MITC mitc-english.pdf (forex 3.5%)",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Status set active (apply page live; no discontinuation notice)",
+     "Fees Rs999 joining/renewal, waiver Rs2L confirmed on official card page",
+     "Two channel rules (online 5% / offline 1%), each cap Rs2,000 per statement cycle",
+     "Excludes list expanded: gift/novelty/souvenir shops, quasi cash, tolls (4784), gaming (5816/7993/7994), govt (9222/9311/9402), jewellery MCC 5051/5094/7631/5944 explicit",
+     "Forex 3.5% from MITC (1.99% only for AURUM/Elite/Tata Neu Infinity etc.)"
+    ]
+   }
+  },
+  {
+   "name": "SBI Cashback",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Flat cashback card: 5% online (any merchant) and 1% offline, max Rs4,000 cashback per statement cycle.",
+   "key_benefits": [
+    "Fee Rs999+taxes (joining and renewal); renewal fee reversed on annual spend >= Rs2,00,000",
+    "5% online cashback capped Rs2,000 per statement cycle; 1% offline (POS) capped Rs2,000 per statement cycle (revised from 1 Apr 2026)",
+    "Cashback auto-credited to the card account within 2 working days of statement generation",
+    "1% fuel surcharge waiver on Rs500-3,000 transactions, max Rs100 per statement cycle (MCC 5172, 5541, 5542, 5983)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel",
+      "groceries",
+      "other"
+     ],
+     "rate": 0.05,
+     "cap_inr": 2000,
+     "period": "statement",
+     "channel": "online",
+     "desc": "5% cashback on online spends with no merchant restriction; Rs2,000 max cashback per statement cycle (about Rs40,000 online spend). Cashback rounded down per transaction."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "groceries",
+      "other"
+     ],
+     "rate": 0.01,
+     "cap_inr": 2000,
+     "period": "statement",
+     "channel": "offline",
+     "desc": "1% cashback on offline (POS at merchant outlets) spends; separate Rs2,000 max per statement cycle. Combined ceiling Rs4,000 per statement cycle."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "fuel",
+    "utilities",
+    "insurance",
+    "rent",
+    "wallet_load",
+    "education",
+    "railways",
+    "emi",
+    "gaming",
+    "tolls",
+    "government",
+    "gift_shops",
+    "quasi_cash",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/cashback-tnc-ekit.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/en/personal/credit-cards/rewards/cashback-sbi-card.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Verified against official e-kit, 1 Apr 2026 revision PDF and card page. Duplicate DB record exists under the other name ('SBI Cashback' / 'Cashback SBI Card'); both written identically. Jewellery/gold: explicitly excluded (MCC 5051, 5094, 7631, 5944). Railways excluded. Statement-credit redemption of other SBI reward points capped 60,000 pts/month (notice 1 Apr 2026), not relevant to cashback. Card page text is stamped 'correct as per July 2023' but is the live page; the 2026 revision PDF governs caps. Fee shown ex-taxes.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Cashback is credited in rupees to the card account; no points."
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (notice 'CASHBACK SBI Credit Card benefits revised' effective 1 Apr 2026) and live apply page https://www.sbicard.com/en/personal/credit-cards/cashback-sbi-card.html",
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/cashback-tnc-ekit.pdf (T&C e-kit, MCC exclusion table read)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/cashback-revised.pdf (1 Apr 2026 revision)",
+     "card page JSON fees section",
+     "MITC mitc-english.pdf (forex 3.5%)",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Status set active (apply page live; no discontinuation notice)",
+     "Fees Rs999 joining/renewal, waiver Rs2L confirmed on official card page",
+     "Two channel rules (online 5% / offline 1%), each cap Rs2,000 per statement cycle",
+     "Excludes list expanded: gift/novelty/souvenir shops, quasi cash, tolls (4784), gaming (5816/7993/7994), govt (9222/9311/9402), jewellery MCC 5051/5094/7631/5944 explicit",
+     "Forex 3.5% from MITC (1.99% only for AURUM/Elite/Tata Neu Infinity etc.)",
+     "Duplicate of 'Cashback SBI Card' record: identical content except name"
+    ]
+   }
+  },
+  {
+   "name": "SBI Elite",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0199,
+   "lounge_access": "6 international Priority Pass visits per calendar year (max 2 per quarter, primary card, PP membership 2 years) + 2 domestic lounge visits per quarter",
+   "main_benefit": "Premium lifestyle card: 10 reward points per Rs100 (about 2.5%) on dining, grocery and department stores, plus lounge access and 1.99% forex.",
+   "key_benefits": [
+    "Fee Rs4,999+taxes; annual fee reversed on annual spend >= Rs10 lakh",
+    "Welcome e-gift voucher (Yatra/Hush Puppies-Bata/Pantaloons/ABFRL/Shoppers Stop) - value not read",
+    "Free movie tickets worth Rs6,000 per year (primary card)",
+    "Milestone: up to 50,000 bonus RP (worth Rs12,500) per year: 10,000 RP at Rs3L and Rs4L, 15,000 RP at Rs5L and Rs8L annual spend",
+    "1.99% forex markup; 1% fuel surcharge waiver Rs500-4,000, max Rs250 per cycle",
+    "Rs1 lakh fraud liability cover"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "cap_inr": 2500,
+     "period": "month",
+     "desc": "10 RP per Rs100 ('5X') on dining, departmental stores and grocery; 1 RP = Rs0.25 (page: 50,000 RP = Rs12,500). Cap 10,000 RP per calendar month (Rs2,500); after cap 2 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/sbi-card-elite.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/sbi-card-elite.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Duplicate DB records 'SBI Elite' and 'SBI Card Elite' written identically. Network: Visa Signature/Mastercard/Amex variants exist; Visa recorded. Only fuel (MCC 5172/5541/5542/5983) is listed as excluded in the T&C read; the T&C is dated 2016 so newer exclusions (rent, govt, gaming) may apply per SBI's later notices but are not itemised for Elite - treat as likely. Reward Rs value is catalogue-based, 1 RP=Rs0.25.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "1 RP = Rs0.25 per official page (50,000 bonus RP worth Rs12,500); catalogue/statement credit; statement credit capped 60,000 RP/month in multiples of 4,000 from 1 Apr 2026."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/sbi-card-elite.html (live product page with Apply link; no discontinuation notice in https://www.sbicard.com/en/customer-notices.page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "official card page JSON (fees, rewards)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf (older T&C, 10,000 RP/month cap)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (forex 1.99%, waiver table)",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Prior SBI Elite record had status unknown, no network/caps; set active",
+     "Waiver Rs10L confirmed; dining/grocery/dept store cap Rs2,500 per month (10,000 RP)",
+     "Base 2 RP/Rs100 = 0.5%",
+     "Welcome voucher value not stated on page - omitted",
+     "Jewellery not mentioned in terms read (T&C dated 2016): flagged unconfirmed"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Elite",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0199,
+   "lounge_access": "6 international Priority Pass visits per calendar year (max 2 per quarter, primary card, PP membership 2 years) + 2 domestic lounge visits per quarter",
+   "main_benefit": "Premium lifestyle card: 10 reward points per Rs100 (about 2.5%) on dining, grocery and department stores, plus lounge access and 1.99% forex.",
+   "key_benefits": [
+    "Fee Rs4,999+taxes; annual fee reversed on annual spend >= Rs10 lakh",
+    "Welcome e-gift voucher (Yatra/Hush Puppies-Bata/Pantaloons/ABFRL/Shoppers Stop) - value not read",
+    "Free movie tickets worth Rs6,000 per year (primary card)",
+    "Milestone: up to 50,000 bonus RP (worth Rs12,500) per year: 10,000 RP at Rs3L and Rs4L, 15,000 RP at Rs5L and Rs8L annual spend",
+    "1.99% forex markup; 1% fuel surcharge waiver Rs500-4,000, max Rs250 per cycle",
+    "Rs1 lakh fraud liability cover"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "cap_inr": 2500,
+     "period": "month",
+     "desc": "10 RP per Rs100 ('5X') on dining, departmental stores and grocery; 1 RP = Rs0.25 (page: 50,000 RP = Rs12,500). Cap 10,000 RP per calendar month (Rs2,500); after cap 2 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/sbi-card-elite.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/sbi-card-elite.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Duplicate DB records 'SBI Elite' and 'SBI Card Elite' written identically. Network: Visa Signature/Mastercard/Amex variants exist; Visa recorded. Only fuel (MCC 5172/5541/5542/5983) is listed as excluded in the T&C read; the T&C is dated 2016 so newer exclusions (rent, govt, gaming) may apply per SBI's later notices but are not itemised for Elite - treat as likely. Reward Rs value is catalogue-based, 1 RP=Rs0.25.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "1 RP = Rs0.25 per official page (50,000 bonus RP worth Rs12,500); catalogue/statement credit; statement credit capped 60,000 RP/month in multiples of 4,000 from 1 Apr 2026."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/sbi-card-elite.html (live product page with Apply link; no discontinuation notice in https://www.sbicard.com/en/customer-notices.page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "official card page JSON (fees, rewards)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/lifestyle/sbi-card-elite/elite-terms-and-conditions-2016.pdf (older T&C, 10,000 RP/month cap)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (forex 1.99%, waiver table)",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Prior SBI Elite record had status unknown, no network/caps; set active",
+     "Waiver Rs10L confirmed; dining/grocery/dept store cap Rs2,500 per month (10,000 RP)",
+     "Base 2 RP/Rs100 = 0.5%",
+     "Welcome voucher value not stated on page - omitted",
+     "Jewellery not mentioned in terms read (T&C dated 2016): flagged unconfirmed"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Prime",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 international Priority Pass visits per calendar year (max 2 per quarter) + 8 domestic visits per year (max 2 per quarter)",
+   "main_benefit": "Mid-premium reward card: 10 RP per Rs100 (about 2.5%) on dining, department stores, grocery and movies, with lounge access and Rs3,000 welcome voucher.",
+   "key_benefits": [
+    "Fee Rs2,999+taxes; renewal fee waived on annual spend >= Rs3 lakh",
+    "Welcome e-gift voucher Rs3,000 (Yatra/Hush Puppies-Bata/Pantaloons/ABFRL/Shoppers Stop)",
+    "Rs1,000 Pizza Hut e-voucher on Rs50,000 quarterly spend (Rs500 for Prime Pro)",
+    "Rs7,000 Yatra/Pantaloons e-gift voucher on Rs5 lakh annual spend",
+    "20 RP per Rs100 on birthday spends (day before, on, after), cap 2,000 RP per calendar year",
+    "1% fuel surcharge waiver Rs500-4,000, max Rs250 per cycle"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "cap_inr": 1875,
+     "period": "month",
+     "desc": "10 RP per Rs100 on dining, departmental stores (MCC 5311), grocery (5411), movies (7832/7922); 1 RP = Rs0.25 assumed. Cap 7,500 RP per calendar month (Rs1,875); after cap 2 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/sbi-card-prime.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/sbi-card-prime.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/prime-and-primepro/PRIMe-TnCekit.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Name 'SBI Card Prime' (database also has no separate 'SBI Prime'). Network variants Visa/Mastercard/Amex/RuPay exist. Rs value per RP not on the Prime page: 0.25 assumed (SBI's standard catalogue ratio on Elite/Reliance/BPCL pages). Utility standing-instruction 20 RP/Rs100 (cap 3,000 RP/month) applies only to legacy SI registrations made on SBI platforms before 31 Mar 2021 - not modelled. Air accident cover discontinued 15 Jul 2025 (notice).",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "SBI Shop-and-Smile catalogue: 1 RP = Rs0.25 (value stated on other SBI cards' pages; Prime page lists no Rs value) - assumed."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/sbi-card-prime.html (live product page with Apply link)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "official card page JSON",
+     "PRIMe-TnCekit.pdf (11.3 points, cap 7,500 RP/month)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Prior record had confidence low and cap Rs1,875 per month unverified; cap and rate now read from T&C",
+     "Added movies to the 10X categories; fee waiver Rs3L confirmed",
+     "Exclusions: T&C lists only petrol pumps (MCC 5172/5541/5542/5983) and e-wallet loads (6540/6541) for accrual; jewellery not mentioned"
+    ]
+   }
+  },
+  {
+   "name": "SimplyCLICK SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Online-shopping card: 10X reward points (about 2.5%) at listed partners and 5X (about 1.25%) on other online spends.",
+   "key_benefits": [
+    "Fee Rs499+taxes; renewal fee reversed on annual spend >= Rs1 lakh",
+    "Amazon e-gift card Rs500 on payment of fee",
+    "Rs2,000 Cleartrip/Yatra e-vouchers at Rs1 lakh and Rs2 lakh annual online spend",
+    "1% fuel surcharge waiver Rs500-3,000, max Rs100 per cycle (T&C says per month)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "apollo 24|7",
+      "bookmyshow",
+      "cleartrip",
+      "dominos",
+      "igp",
+      "myntra",
+      "netmeds",
+      "yatra",
+      "gyftr",
+      "tata cliq"
+     ],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel"
+     ],
+     "rate": 0.025,
+     "cap_inr": 2500,
+     "period": "month",
+     "channel": "online",
+     "desc": "10 RP per Rs100 on listed exclusive partners, online, INR only; 4 RP = Re1 so 2.5%. Counts towards the shared 10,000 RP/month (Rs2,500) cap. Swiggy was cut from 10X to 5X on 1 Apr 2025 (notice) so it is NOT listed here although the product page still names it. Cleartrip/Yatra via affiliate channels not eligible; e-gift vouchers 10X only on GyFTR portal."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "dining",
+      "travel",
+      "groceries",
+      "other"
+     ],
+     "rate": 0.0125,
+     "cap_inr": 2500,
+     "period": "month",
+     "channel": "online",
+     "desc": "5 RP per Rs100 on all other online spends; 4 RP = Re1. Capped at 10,000 RP per calendar month (Rs2,500), then 1 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "government",
+    "gaming",
+    "emi",
+    "cash_advance",
+    "utilities"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/simplyclick-sbi-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/simplyclick-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/SimplyClick-TnC.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Notice 1 Oct 2020 says 10X and 5X caps are 10,000 points per month; T&C text states the cap on 5X online; the cap is modelled as a shared Rs2,500/month (conservative). Online status depends on acquirer flag. Jewellery/gold is not mentioned in the T&C (not listed as excluded): jewellery_unconfirmed. Page JSON lists Apollo 24|7, BookMyShow, Cleartrip, Domino's, IGP, Myntra, Netmeds, Swiggy, Yatra, Gyftr, Tata CLiQ as 10X; Swiggy dropped due to the notice.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "4 Reward Points = Re 1 per official page."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/simplyclick-sbi-card.html (live page, Apply link)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "card page JSON",
+     "SimplyClick-TnC.pdf (5X cap 10,000 RP/month; exclusions)",
+     "https://www.sbicard.com/en/customer-notices.page (partner accrual cuts)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added Rs2,500/month cap (10,000 RP) to online rules (previously none)",
+     "Removed Swiggy from 10X list per 1 Apr 2025 notice; Rs value 4RP=Re1 confirmed",
+     "Base 1 RP/Rs100 = 0.25% (prior record fine)",
+     "Rent (6513), govt (9399/9311), gaming (5816/7993/7994), wallet loads and offline fuel excluded per T&C"
+    ]
+   }
+  },
+  {
+   "name": "SimplySAVE SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry card with 10 RP per Rs150 (about 1.7%) on dining, movies, grocery and department stores.",
+   "key_benefits": [
+    "Fee Rs499+taxes; renewal fee reversed on annual spend >= Rs1 lakh",
+    "2,000 bonus RP on Rs2,000 spend within 60 days",
+    "1% fuel surcharge waiver Rs500-3,000, max Rs100 per cycle"
+   ],
+   "base_rate": 0.00167,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.0167,
+     "cap_inr": 1250,
+     "period": "month",
+     "desc": "10 RP per Rs150 on dining (5812/5813/5814), grocery (5411), department stores (5311), movies (7832); 4 RP = Re1 so about 1.67%. Cap 5,000 RP per calendar month (Rs1,250); after cap 1 RP per Rs150."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "gaming",
+    "government",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/simplysave-sbi-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/simplysave-sbi-card.html",
+    "https://www.sbicard.com/json/templatedata/product/card/data/en/personal/simply-save-sbi-card.json",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/SimplySAVE-TnC.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior rule rate/cap confirmed. T&C date not printed. Rent/gaming/govt exclusions carried from prior record (SBI notices 2024 remove them for most cards) but not itemised in the SimplySAVE T&C text read. Fuel excluded from accrual per SBI standard. Network not stated (Visa/Mastercard variants).",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "4 Reward Points = Re 1 per official page."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/simplysave-sbi-card.html (live page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "card page JSON simply-save-sbi-card.json",
+     "SimplySAVE-TnC.pdf (cap 5,000 RP/month, MCCs)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Rate 10 RP/Rs150 and Rs1,250/month cap confirmed from T&C",
+     "Base 1 RP per Rs150 = 0.167%",
+     "Jewellery not itemised in T&C read"
+    ]
+   }
+  },
+  {
+   "name": "Flipkart SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Flipkart",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 350000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Shopping cashback card: 5% on Flipkart/Shopsy/Cleartrip, 7.5% on Myntra, 4% on select partners, 1% elsewhere.",
+   "key_benefits": [
+    "Fee Rs500+taxes; renewal fee reversed on annual spend >= Rs3.5 lakh",
+    "Rs250 Flipkart gift card on fee realisation",
+    "1% fuel surcharge waiver on transactions up to Rs4,000, up to Rs400 per statement cycle",
+    "Cashback credited within about 15 days after statement"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "myntra"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.075,
+     "cap_inr": 4000,
+     "period": "quarter",
+     "desc": "7.5% cashback at Myntra merchant IDs; Rs4,000 per quarter cap (separate bucket)."
+    },
+    {
+     "merchants": [
+      "flipkart",
+      "shopsy",
+      "flipkart travel"
+     ],
+     "categories": [
+      "online_shopping",
+      "travel"
+     ],
+     "rate": 0.05,
+     "cap_inr": 4000,
+     "period": "quarter",
+     "desc": "5% cashback at Flipkart merchant IDs (incl. Shopsy, Flipkart Travel); Rs4,000 per quarter cap; after cap no cashback that quarter."
+    },
+    {
+     "merchants": [
+      "cleartrip"
+     ],
+     "categories": [
+      "travel",
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "cap_inr": 4000,
+     "period": "quarter",
+     "desc": "5% cashback at Cleartrip merchant IDs; Rs4,000 per quarter cap (separate bucket). Product page also advertises a separate '12% off on Cleartrip' offer which is not cashback."
+    },
+    {
+     "merchants": [
+      "netmeds",
+      "pvr",
+      "uber",
+      "zomato"
+     ],
+     "categories": [
+      "dining",
+      "travel",
+      "other"
+     ],
+     "rate": 0.04,
+     "cap_inr": 4000,
+     "period": "quarter",
+     "desc": "4% cashback at 4 select merchants (Netmeds, PVR, Uber, Zomato per Preferred-Partner.pdf; subject to change); Rs4,000 per quarter cap."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "fuel",
+    "wallet_load",
+    "gift_cards",
+    "vouchers",
+    "rent",
+    "government",
+    "education",
+    "insurance",
+    "gaming",
+    "emi",
+    "cash_advance",
+    "standing_instruction_payments"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Flipkart-SBI-CreditCard-TandC-Booklet.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/flipkart-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Flipkart-SBI-CreditCard-TandC-Booklet.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/Preferred-Partner.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Verified against 2026 T&C booklet. Caps are quarterly (cashback accrual window = 4 billing cycles from first transaction after account opening), each of the four buckets separately Rs4,000. Zero cashback: fuel, wallet load, gift/prepaid card load, voucher purchase, cash advance, bill-of-card payment/fees, rent, government, education, jewellery, insurance, gaming, EMI, SI/Fetch-and-Pay on SBI platforms. Merchant names for Flipkart group: Flipkart MIDs incl. Shopsy and Flipkart Travel. 'Cleartrip 12% off' is a separate offer, not cashback.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Cashback in rupees credited to the card account."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/flipkart-sbi-card.html (live page with Apply; T&C booklet contains a 2026 example date)",
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Flipkart-SBI-CreditCard-TandC-Booklet.pdf (cashback table, capping, exclusions - includes 13-Mar-26 example)",
+     "Preferred-Partner.pdf",
+     "card page JSON (fees)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Joining fee Rs500 (prior record had 499)",
+     "Myntra 7.5%, Flipkart 5%, Cleartrip 5%, select merchants 4%: each Rs4,000 per quarter bucket; select-merchant 4% rule added with named merchants",
+     "Base 1% unlimited cashback; jewellery explicitly 0%",
+     "Fuel surcharge waiver up to Rs400 per statement cycle (transactions up to Rs4,000)"
+    ]
+   }
+  },
+  {
+   "name": "Titan SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Titan",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic (max 2 per quarter) + 4 international (max 2 per quarter) complimentary lounge visits per year; Priority Pass for first 2 years",
+   "main_benefit": "Titan group co-brand card: 3% value-back on Tanishq (gift vouchers), 5% at Mia/CaratLane/Zoya, 7.5% at other Titan brands, 1.5% elsewhere.",
+   "key_benefits": [
+    "Fee Rs2,999+taxes; annual fee reversed on annual spend >= Rs3 lakh",
+    "Welcome 12,000 RP (Rs3,000) on payment of fee",
+    "Gift voucher Rs5,000 at Rs5 lakh and Rs10,000 at Rs10 lakh annual spend (Titan stores only)",
+    "In-store benefits auto-credited within 15 days after statement cycle"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "tanishq"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.03,
+     "cap_inr": 25000,
+     "period": "quarter",
+     "desc": "3% value back on Tanishq spends, credited as Tanishq gift vouchers (redeemable only at Tanishq/Mia/World of Titan etc.). Cap Rs25,000 per quarter (100,000 RP). NO accelerated benefit on Tanishq Golden Harvest scheme or other ongoing schemes (only base reward points)."
+    },
+    {
+     "merchants": [
+      "mia",
+      "caratlane",
+      "zoya"
+     ],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.05,
+     "cap_inr": 10000,
+     "period": "quarter",
+     "desc": "5% cashback at Mia, CaratLane and Zoya stores; cap Rs10,000 per quarter (40,000 RP), additional to the 7.5% bucket."
+    },
+    {
+     "merchants": [
+      "world of titan",
+      "taneira",
+      "titan eye+",
+      "helios",
+      "fastrack",
+      "skinn",
+      "irth",
+      "sonata"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.075,
+     "cap_inr": 10000,
+     "period": "quarter",
+     "desc": "7.5% cashback at these Titan group stores; cap Rs10,000 per quarter (40,000 RP)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other",
+      "dining",
+      "groceries",
+      "online_shopping",
+      "travel"
+     ],
+     "rate": 0.015,
+     "cap_inr": 1500,
+     "period": "month",
+     "desc": "6 RP per Rs100 on all spends outside Titan stores; 1 RP = Rs0.25 so 1.5%. Cap 6,000 RP (Rs1,500) per month. RuPay UPI at participating Titan stores earns 6 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "utilities",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/TnCforTitan.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/titan-sbi-card.html",
+    "https://www.sbicard.com/json/templatedata/product/card/data/en/personal/sbi-card-titan.json",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/TnCforTitan.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Tanishq purchases: 3% value back as Tanishq-redeemable gift vouchers (so effective only if you buy again at Tanishq group), quarterly cap Rs25,000 benefit (about Rs8.33 lakh Tanishq spend/quarter), plus spends outside Titan stores earn 6 RP per Rs100. Titan T&C eligibility exclusions: balance transfer, cash advance, financial charges, disputed, Flexipay, Merchant EMI, e-wallet loads (6540/6541); outside-Titan accrual excludes fuel, wallet upload, property rental, utility bills. Jewellery MCC is NOT excluded for this card. Non-Titan jewellers presumably earn 6 RP/Rs100 (not excluded). Voucher accelerated benefits are processed on Titan merchant-ID list. T&C PDF has no printed date but matches current page (12,000 RP welcome, Rs5k/Rs10k milestone).",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "1 RP = Rs0.25; RPs redeem only into Titan vouchers (Type A jewellery vouchers at Tanishq/Mia/Zoya, valid on all products except silver products/coins). Value-back is gift vouchers, not cash."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/titan-sbi-card.html (live product page with current Fastrack offer)",
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/cards/TnCforTitan.pdf (clauses 11-14: accelerated benefits, capping, value-back examples)",
+     "card page JSON sbi-card-titan.json (fees)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Tanishq 3% cap Rs25,000 per quarter now confirmed from official T&C (was third-party)",
+     "Mia/CaratLane/Zoya 5% cap Rs10,000/quarter and 7.5% group cap Rs10,000/quarter confirmed official",
+     "Added Golden Harvest scheme exclusion for accelerated benefit",
+     "Merchants lowercased; 6 RP per Rs100 elsewhere cap Rs1,500/month confirmed",
+     "Jewellery is not in the excluded list: earns 3%/5% at Titan jewellery brands"
+    ]
+   }
+  },
+  {
+   "name": "BPCL SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "BPCL",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Fuel co-brand: 13X reward points (3.25%) on BPCL fuel plus 1% fuel surcharge waiver (4.25% total) up to Rs10,000 BPCL fuel spend per cycle.",
+   "key_benefits": [
+    "Fee Rs499+taxes; annual/renewal fee reversed on annual spend >= Rs1 lakh from 1 May 2026 (was Rs50,000)",
+    "2,000 bonus RP (Rs500) welcome",
+    "1% fuel surcharge waiver on BPCL transactions up to Rs4,000, max Rs100 per month; not on UPI payments",
+    "Instant redemption of RP for free fuel at select BPCL outlets (4 RP = Rs1)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "bpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.0325,
+     "cap_inr": 325,
+     "period": "statement",
+     "desc": "13 RP per Rs100 on BPCL fuel (1 RP = Rs0.25 => 3.25%); max 1,300 RP (Rs325) per statement cycle, i.e. about Rs10,000 BPCL fuel spend. Separately a 1% surcharge waiver on BPCL transactions up to Rs4,000, max Rs100 per month (not included in rate; total quoted 4.25%). Not on UPI."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.0125,
+     "cap_inr": 1250,
+     "period": "month",
+     "desc": "5 RP per Rs100 on groceries (5411), department stores (5311), movies (7832/7922), dining (5812-5814); about 1.25%. Cap 5,000 RP per month (Rs1,250), then 1 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel_non_bpcl",
+    "wallet_load",
+    "balance_transfer",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/BPCL-VISA-Rupay-TnC.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/bpcl-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/BPCL-VISA-Rupay-TnC.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior rule rate 4.25% mixed reward and waiver and had no cap; corrected. T&C also states reward points earnable for max Rs10,000 spend per month. Jewellery not mentioned in the T&C accrual exclusions (only non-BPCL fuel/wallet/etc.): jewellery_unconfirmed. Network Visa/RuPay variants.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "4 RP = Re 1 (instant fuel redemption at BPCL outlets or Shop n Smile catalogue)."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/bpcl-sbi-card.html (live page; fee notice 29 Mar 2026 in https://www.sbicard.com/en/customer-notices.page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "BPCL-VISA-Rupay-TnC.pdf (11.4 points, caps)",
+     "card page JSON (fees, 1 May 2026 waiver change)",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rate set to 3.25% reward (13X at Rs0.25) with cap Rs325/statement cycle; the 1% surcharge waiver kept in desc (max Rs100/month)",
+     "Added 5X dining/grocery/department/movies rule with 5,000 RP/month cap",
+     "Waiver spend Rs1 lakh confirmed (raised from Rs50,000 on 1 May 2026)"
+    ]
+   }
+  },
+  {
+   "name": "BPCL SBI Card Octane",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "BPCL",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 complimentary domestic lounge visits per calendar year (max 1 per quarter)",
+   "main_benefit": "Premium fuel co-brand: 25X reward points (6.25%) on BPCL fuel plus 1% surcharge waiver, 10X on dining/grocery/movies.",
+   "key_benefits": [
+    "Fee Rs1,499+taxes; renewal reversed on annual spend >= Rs2 lakh",
+    "6,000 bonus RP (Rs1,500) on payment of fee",
+    "Rs2,000 e-gift voucher (ABFRL/Yatra/Bata-Hush Puppies) on Rs3 lakh annual spend",
+    "1% surcharge waiver on BPCL transactions up to Rs4,000, max Rs100 per month (not on UPI)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "bpcl"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.0625,
+     "cap_inr": 625,
+     "period": "statement",
+     "desc": "25 RP per Rs100 on BPCL fuel (1 RP = Rs0.25 => 6.25%); max 2,500 RP (Rs625) per statement cycle (about Rs10,000 spend). Plus 1% surcharge waiver on transactions up to Rs4,000, max Rs100 per month (not in rate; quoted 7.25% total). Not on UPI."
+    },
+    {
+     "merchants": [
+      "bharat gas"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0625,
+     "cap_inr": 125,
+     "period": "statement",
+     "channel": "online",
+     "desc": "25 RP per Rs100 on Bharat Gas LPG bookings via website/app only; cap 500 RP (Rs125) per billing cycle."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "cap_inr": 1875,
+     "period": "month",
+     "desc": "10 RP per Rs100 on groceries (5411), department stores (5311), movies (7832/7922), dining (5812-5814); cap 7,500 RP per month (Rs1,875), then 1 RP per Rs100. Excludes Metro Cash & Carry and Walmart."
+    }
+   ],
+   "excludes": [
+    "fuel_non_bpcl",
+    "wallet_load",
+    "balance_transfer",
+    "cash_advance",
+    "emi",
+    "upi_fuel_bpcl"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/BPCLOctanetnc.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/bpcl-sbi-card-octane.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/BPCLOctanetnc.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "T&C also states points earned on max Rs10,000 spend per month. Jewellery not mentioned in accrual exclusions: unconfirmed. Lounge list for Octane: domestic lounge programme updated 10 Jan 2026 (loungebenefits.pdf).",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "4 RP = Re 1 free fuel at BPCL / BPCL vouchers / Shop n Smile."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/bpcl-sbi-card-octane.html (live page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "BPCLOctanetnc.pdf (11.4 points, caps)",
+     "card page JSON (fees)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rate 6.25% reward (25X) cap Rs625 per statement cycle (prior cap Rs625 'per month' conflated)",
+     "Added Bharat Gas and 10X dining/grocery/movies rules with caps",
+     "Surcharge waiver cap Rs100 per month on txns up to Rs4,000 confirmed (resolves prior conflict)"
+    ]
+   }
+  },
+  {
+   "name": "IRCTC SBI Card Premier",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "IRCTC",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "8 railway lounge accesses per year in India (max 2 per quarter), primary card only",
+   "main_benefit": "Train-travel card: up to 10% value back (10 RP per Rs125 base rate, uncapped) on IRCTC rail tickets, with 1% transaction charge waiver.",
+   "key_benefits": [
+    "Fee Rs1,499+taxes; fee reversed on annual spend >= Rs2 lakh",
+    "1,500 RP (Rs1,500) welcome on first fee payment",
+    "2,500 RP at Rs50,000 and 5,000 RP at Rs1 lakh annual travel spend",
+    "1% IRCTC rail transaction charge waiver; 1.8% air ticket charge waiver at air.irctc.co.in",
+    "1% fuel surcharge waiver Rs500-4,000, max Rs250 per cycle"
+   ],
+   "base_rate": 0.008,
+   "rules": [
+    {
+     "merchants": [
+      "irctc"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.08,
+     "desc": "10 travel RP per Rs125 on 1st AC, 2nd AC, 3rd AC, Exec Chair Car, Chair Car at www.irctc.co.in / IRCTC app (1 RP = Re1 => 8%); page advertises 'up to 10%'; no monthly/annual cap. Redeemed in IRCTC loyalty account. Not on tickets booked via mobile phone per T&C text; refunded/forfeited tickets earn nothing."
+    },
+    {
+     "merchants": [
+      "air.irctc.co.in",
+      "ecatering.irctc.in"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.04,
+     "cap_inr": 750,
+     "period": "statement",
+     "desc": "5 RP per Rs125 on air tickets (air.irctc.co.in) and e-catering (ecatering.irctc.in) => 4%; page says '5% back'. Air ticket earning capped at 750 RP per monthly statement cycle (Rs750)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.024,
+     "desc": "3 RP per Rs125 on dining (MCC 5812-5814) and utility standing instructions; 1 RP = Re1 => 2.4%."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load",
+    "balance_transfer",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/IRCTCPremiertnc.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/irctc-premier-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/IRCTCPremiertnc.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Conflict: product page says 'up to 10% value back' for rail and '5% back' on air; T&C ratio is 10 RP/Rs125 (8%) and 5 RP/Rs125 (4%). Conservative figures used. Jewellery not mentioned: unconfirmed. Points valued Re1 but closed-loop to IRCTC. 'IRCTC SBI Card' (generic, RuPay) record exists in database and was not verified here.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 Reward Point = Re 1, but transferred monthly to IRCTC loyalty account and redeemable only on IRCTC website/app (T&C 11.x)."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/irctc-premier-card.html (live page); notice 26 Jul 2025 only removed air/rail accident cover",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "IRCTCPremiertnc.pdf (11.3 reward points, rail value-back)",
+     "card page JSON (fees)",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Added rail 8% (10 RP/Rs125) rule, air/e-catering 4% capped Rs750 per statement, dining 2.4%, base 0.8%",
+     "Fee waiver Rs2 lakh confirmed; welcome 1,500 RP",
+     "Rent (from 15 Apr 2024) and govt (15 Jul 2024) excluded"
+    ]
+   }
+  },
+  {
+   "name": "IRCTC SBI Card Platinum",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "IRCTC",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 railway lounge accesses per year in India (max 1 per quarter), primary card only",
+   "main_benefit": "Entry train-travel card: 10 RP per Rs125 (8%, advertised up to 10%) on IRCTC rail tickets and 1% transaction charge waiver.",
+   "key_benefits": [
+    "Fee Rs500+taxes (no spend-based waiver listed)",
+    "350 activation RP on first txn >= Rs500 within 60 days; 500 RP on renewal",
+    "1% IRCTC rail transaction charge waiver",
+    "1% fuel surcharge waiver Rs500-3,000, max Rs100 per cycle"
+   ],
+   "base_rate": 0.008,
+   "rules": [
+    {
+     "merchants": [
+      "irctc"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.08,
+     "desc": "10 travel RP per Rs125 on 1st AC, 2nd AC, 3rd AC, Exec Chair Car, Chair Car at www.irctc.co.in / IRCTC app (1 RP = Re1 => 8%; page says up to 10%); no cap stated."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_advance",
+    "balance_transfer",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/IRCTC-VISA-HandShak-TnC.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/irctc-sbi-platinum-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/IRCTC-VISA-HandShak-TnC.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Platinum T&C document is old (HandShak design); rates match current page. Jewellery not mentioned: unconfirmed.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 Reward Point = Re 1 (official page and T&C FAQ); redeemable on IRCTC only."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/irctc-sbi-platinum-card.html (live page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "card page JSON",
+     "IRCTC-VISA-HandShak-TnC.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Annual fee Rs500 confirmed (prior record had joining fee null); base 1 RP per Rs125 = 0.8%",
+     "Added rail rule; no fee waiver found"
+    ]
+   }
+  },
+  {
+   "name": "Air India SBI Signature Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Air India",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic lounge visits per year (max 2 per quarter) + Priority Pass membership",
+   "main_benefit": "Closed to new applicants: Air India co-brand card (4 RP per Rs100, 10 RP per Rs100 on Air India tickets; RP convert 1:1 to Maharaja points).",
+   "key_benefits": [
+    "Fee Rs4,999+taxes",
+    "20,000 RP welcome on fee payment",
+    "Milestones: 20,000/30,000/50,000 bonus RP at Rs5L/10L/20L annual spend",
+    "5,000 RP anniversary gift"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel_waiver_only"
+   ],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/air-india-sbi-signature-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/Air-India-Signature-Combined-TC-16JULY2025.pdf",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rule list intentionally empty: RP value is airline-miles only, no official INR value. Fuel surcharge waiver 1% Rs500-4,000, max Rs250 per cycle. Excludes jewellery? Not stated.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "1 RP = 1 Air India Maharaja point; no official INR value found; not modelled."
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (notice: Air India SBI Signature Credit Card issuance discontinued 10 Oct 2024; accelerated rate cut 30 -> 10 RP per Rs100 on 31 Mar 2025)",
+   "eligibility": "Existing cardholders only (issuance discontinued 10 Oct 2024)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page",
+     "card page JSON",
+     "Air-India-Signature-Combined-TC-16JULY2025.pdf (no reward detail read)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Status confirmed discontinued by official notice (issuance discontinued 10 Oct 2024)",
+     "Fee Rs4,999; accelerated rate now 10 RP/Rs100 on AI tickets (cut from 30 on 31 Mar 2025)",
+     "No INR rate modelled: no official rupee value per RP/Maharaja point"
+    ]
+   }
+  },
+  {
+   "name": "Air India SBI Platinum Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Air India",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic lounge visits per year (max 1 per quarter)",
+   "main_benefit": "Closed to new applicants: Air India co-brand card (2 RP per Rs100, 5 RP per Rs100 on Air India tickets).",
+   "key_benefits": [
+    "Fee Rs1,499+taxes",
+    "5,000 RP welcome on fee payment",
+    "Milestones: 5,000 RP at Rs2L, 10,000 RP at Rs3L annual spend",
+    "2,000 RP anniversary gift"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/air-india-sbi-platinum-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/Air-india-tnc.pdf",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No INR rate modelled (airline points). Exclusions not read.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "1 RP = 1 Air India Maharaja point; no official INR value found."
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (notice: Air India SBI Platinum Credit Card issuance discontinued 10 Oct 2024; accelerated rate cut 15 -> 5 on 31 Mar 2025)",
+   "eligibility": "Existing cardholders only",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page",
+     "card page JSON"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Status confirmed discontinued by official notice",
+     "Accelerated rate 5 RP/Rs100 (cut from 15), base 2 RP/Rs100",
+     "Prior record had null fees; filled"
+    ]
+   }
+  },
+  {
+   "name": "Club Vistara SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic lounge visits per year (max 1 per quarter) + Priority Pass (24 months)",
+   "main_benefit": "Closed to new applicants; Vistara merged into Air India. 3 Club Vistara points per Rs200 on all retail.",
+   "key_benefits": [
+    "Joining fee Rs1,499+taxes; renewal fee Nil/waived per page and notice",
+    "Renewal and milestone benefits discontinued for renewals after 1 Apr 2025",
+    "Travel insurance covers"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/club-vistara-sbi-card.html",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No INR rule modelled. Club Vistara SBI Card PRIME (also discontinued 28 Sep 2024) not re-verified.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "CV points; no official INR value read."
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (notice: Club Vistara SBI Credit Card issuance discontinued 28 Sep 2024)",
+   "eligibility": "Existing cardholders only",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page",
+     "card page JSON"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Status confirmed discontinued by official notice (28 Sep 2024)",
+     "Renewal fee Nil on page; renewal/milestone benefits discontinued after 1 Apr 2025"
+    ]
+   }
+  },
+  {
+   "name": "Yatra SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay",
+   "status": "discontinued",
+   "co_brand_partner": "Yatra",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Closed to new applicants (issuance discontinued 28 Mar 2025).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees and network carried from prior record; official product page no longer exists.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not verified"
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (notice: Yatra SBI Credit Card issuance discontinued 28 Mar 2025; product page URL now redirects to card list)",
+   "eligibility": "Existing cardholders only",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "Status confirmed discontinued by official notice",
+     "Fees/rates carried from prior record, not re-verified (product page removed)"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Aurum",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 9999,
+   "annual_fee": 9999,
+   "fee_waiver_spend": 1200000,
+   "forex_markup": 0.0199,
+   "lounge_access": null,
+   "main_benefit": "Super-premium SBI card: Rs9,999 fee, 40,000 AURUM reward points welcome, golf and Club Marriott benefits.",
+   "key_benefits": [
+    "Fee Rs9,999+taxes; MITC fee table shows waiver on Rs12 lakh annual spend",
+    "40,000 AURUM reward points on payment of joining fee",
+    "16 complimentary golf rounds and 12 lessons per year",
+    "1-year Club Marriott, Mint & WSJ, Inflection Point Ventures memberships",
+    "Card replacement fee Rs1,500"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/aurum-sbi-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/aurum-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Earn rate, caps and exclusions not found on official pages/T&C. Statement-credit redemption capped 60,000 pts/month in multiples of 4,000 from 1 Apr 2026 (official notice). Fee waiver Rs12L read from scrambled MITC table row; moderate certainty.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "Earn rate and point value not stated on the official page; third-party 4 RP per Rs100 not verified."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/aurum-sbi-card.html (live page with Apply Now link)",
+   "eligibility": "Official page has an Apply Now link; high-income/invite-style positioning per third parties, not confirmed",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "card page JSON aurum-sbi-card.json (fees, benefits)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (forex 1.99% for AURUM, fee table)"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "Fee Rs9,999 and forex 1.99% confirmed officially",
+     "Base rate removed (third-party 1% unverified)",
+     "Earn rules not published on page; left empty"
+    ]
+   }
+  },
+  {
+   "name": "Apollo SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Apollo",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Healthcare co-brand: 3X points on Apollo services, 2X dining/movies; points redeem as Apollo Health Credits (1 RP = Re1).",
+   "key_benefits": [
+    "Fee Rs499+taxes; waived on annual spend >= Rs1 lakh",
+    "500 RP (Rs500) welcome",
+    "Complimentary Apollo Gold tier; up to 10% instant discount at select Apollo services",
+    "1% fuel surcharge waiver, max Rs100 per month"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "apollo 24|7",
+      "apollo pharmacy",
+      "apollo clinic",
+      "apollo hospitals"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.03,
+     "desc": "3 RP per Rs100 on Apollo services (1 RP = Re1, redeemable for Apollo health credits/vouchers only). Merchant list not itemised in T&C; names are indicative."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.02,
+     "desc": "2 RP per Rs100 on dining, movies and entertainment; 1 RP = Re1 (Apollo credits only)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "1 RP per Rs200 on other non-fuel spends (0.5%); beauty & wellness 1 RP per Rs100 (1%)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "balance_transfer",
+    "cash_advance",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/apollotnc-ekit.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/apollo-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/apollotnc-ekit.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate=Re1 per RP is only realisable at Apollo. No monthly caps found. Jewellery not mentioned: unconfirmed. Apollo merchant names are indicative.",
+   "point_value_inr": {
+    "cash": null,
+    "best": 1.0,
+    "note": "1 RP = Re 1 but only as Apollo Health Credits / OneApollo e-gift vouchers / instant redemption at select Apollo services; no cash value."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/apollo-sbi-card.html (live page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "apollotnc-ekit.pdf (11.4 points)",
+     "card page JSON (fees)",
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rates read: 3X Apollo, 2X dining/movies/entertainment, 1X beauty & wellness per Rs100, 1 RP per Rs200 other",
+     "Fee Rs499, waiver Rs1 lakh confirmed",
+     "Redemption restricted to Apollo credits"
+    ]
+   }
+  },
+  {
+   "name": "Apollo SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Apollo",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic lounge visits per year (max 1 per quarter) + 2-year Priority Pass",
+   "main_benefit": "Premium Apollo health card: 10 RP per Rs100 at Apollo 24|7/Pharmacy (1 RP = Re1 Apollo Health Credit).",
+   "key_benefits": [
+    "Fee Rs1,499+taxes; renewal waived on annual spend >= Rs3 lakh",
+    "Apollo 24|7 e-gift voucher Rs1,500 on joining fee",
+    "Complimentary health check-up on Rs50,000 spend in 90 days",
+    "Noise smartwatch (Rs7,999) on Rs6 lakh annual spend"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "apollo 24|7",
+      "apollo pharmacy"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.1,
+     "desc": "10 RP per Rs100 on Apollo 24|7 app and stores (1 RP = 1 Apollo Health Credit = Re1; Apollo-only redemption). UPI at Apollo: 1 RP per Rs200 only."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "2 RP per Rs100 on dining, movies & entertainment and travel (listed MCCs)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "balance_transfer",
+    "cash_advance",
+    "emi",
+    "atm"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Apollo-SBI-Card-SELECT-tnc-Booklet.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/apollo-sbi-card-select.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/Apollo-SBI-Card-SELECT-tnc-Booklet.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No monthly caps found in T&C read. Jewellery not mentioned.",
+   "point_value_inr": {
+    "cash": null,
+    "best": 1.0,
+    "note": "Redeemable for Apollo Health Credits only."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/apollo-sbi-card-select.html (live page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Apollo-SBI-Card-SELECT-tnc-Booklet.pdf",
+     "card page JSON"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rates and fees read from official pages; Re1 closed-loop value"
+    ]
+   }
+  },
+  {
+   "name": "Paytm SBI Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Paytm co-brand: 3% on Paytm app travel, 2% other Paytm app spends, 1% everywhere else (as reward points, 1 RP = Re1).",
+   "key_benefits": [
+    "Fee Rs499+taxes; no spend-based waiver (Paytm First renewal e-voucher on Rs1 lakh annual spend)",
+    "Complimentary Paytm First membership",
+    "1% fuel surcharge waiver Rs500-3,000, max Rs100 per cycle"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.03,
+     "min_txn_inr": 100,
+     "desc": "3% value back (reward points) on travel purchases via Paytm app; min transaction Rs100. Product page says '3% on Paytm Mall, Movies and Travel' while T&C says Travel only: conservative T&C used."
+    },
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "online_shopping",
+      "bill_payments",
+      "other"
+     ],
+     "rate": 0.02,
+     "min_txn_inr": 100,
+     "desc": "2% on all other purchases through the Paytm app; min transaction Rs100."
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "education",
+    "cash_advance",
+    "balance_transfer",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/PaytmBase-TnC.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/paytm-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/PaytmBase-TnC.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee shown ex-GST. Jewellery not mentioned. Network Visa.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 Reward Point = Re 1 (since 1 Jul 2024 cashback replaced by points of equivalent value)."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/paytm-sbi-card.html (live page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "PaytmBase-TnC.pdf (Valueback eligibility; exclusions incl. 9 Mar 2026 education)",
+     "card page JSON"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Fee Rs499+tax (prior 589 included GST)",
+     "Rates 3/2/1 confirmed; min txn Rs100; added 2% Paytm app rule",
+     "UPI earns 1%; education MCCs excluded from 9 Mar 2026"
+    ]
+   }
+  },
+  {
+   "name": "Paytm SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Paytm",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic lounge visits per year (max 1 per quarter) + 2-year Priority Pass",
+   "main_benefit": "Paytm premium: 5% on Paytm app travel, 2% other Paytm app spends, 1% elsewhere (points, 1 RP = Re1).",
+   "key_benefits": [
+    "Fee Rs1,499+taxes; waived on annual spend >= Rs2 lakh",
+    "Welcome 750 RP (Rs750) on activation",
+    "Rs2,000 voucher at Rs4L and Rs4,000 voucher at Rs6L annual spend",
+    "1% fuel surcharge waiver Rs500-4,000, max Rs250 per cycle"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "min_txn_inr": 100,
+     "desc": "5% value back on all travel purchases through the Paytm app; min transaction Rs100."
+    },
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "online_shopping",
+      "bill_payments",
+      "other"
+     ],
+     "rate": 0.02,
+     "min_txn_inr": 100,
+     "desc": "2% on other purchases through the Paytm app; min transaction Rs100."
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "education",
+    "cash_advance",
+    "balance_transfer",
+    "emi"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/PaytmSelect-TnC.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/paytm-sbi-card-select.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/PaytmSelect-TnC.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery not mentioned in terms read.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 RP = Re 1."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/paytm-sbi-card-select.html (live page)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "PaytmSelect-TnC.pdf",
+     "card page JSON"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "Fee Rs1,499+tax, waiver Rs2L confirmed; 5/2/1 rates; min txn Rs100"
+    ]
+   }
+  },
+  {
+   "name": "PhonePe SBI Card PURPLE",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "PhonePe co-brand: 3% on PhonePe recharges/bills/insurance/travel, 2% eligible online, 1% other (1 RP = Re1; caps tightened 1 Jul 2026).",
+   "key_benefits": [
+    "Fee Rs499+taxes; reversed on prior-year spend >= Rs1 lakh",
+    "PhonePe gift card Rs500 welcome",
+    "Yatra voucher Rs3,000 on Rs3 lakh annual spend",
+    "Scan & Pay via PhonePe app earns 1%; UPI outside PhonePe earns 0 from 1 Jul 2026",
+    "1% fuel surcharge waiver Rs500-3,000, max Rs100 per cycle"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.03,
+     "cap_inr": 750,
+     "period": "month",
+     "min_txn_inr": 100,
+     "desc": "3 RP per Rs100 on eligible PhonePe categories (recharges, utilities, bill payments, insurance, travel); min txn Rs100; from 1 Jul 2026 cap 750 RP per calendar month (Rs750), of which insurance max 250 RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "cap_inr": 750,
+     "period": "month",
+     "min_txn_inr": 100,
+     "channel": "online",
+     "desc": "2 RP per Rs100 on eligible online spends; cap 750 RP per month from 1 Jul 2026 (was 1,000)."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "tolls",
+    "gifts_souvenirs",
+    "education",
+    "utilities_non_phonepe",
+    "insurance_non_phonepe",
+    "upi_non_phonepe",
+    "gaming",
+    "fuel",
+    "wallet_load",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Purple-pdf-27Apr2026.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-purple.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Purple-pdf-27Apr2026.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-base-ekit-tnc.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network Visa/RuPay variants. 'Other spends' 1 RP per Rs100 uncapped in the notice. Eligible PhonePe categories are identified by PhonePe MID/TID/VPA. Fee ex-GST.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 Reward Point = Re 1; redeem vouchers or credit against statement outstanding, no redemption fee."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-purple.html and notice dated 29 May 2026 in https://www.sbicard.com/en/customer-notices.page",
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Purple-pdf-27Apr2026.pdf (rendered image: caps, exclusions, effective 1 Jul 2026)",
+     "PhonePe-base-ekit-tnc.pdf (12. Rewards Program)",
+     "card page JSON (fees)",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Cap on PhonePe 3% now 750 RP/month (insurance 250) and online 2% 750 RP/month, effective 1 Jul 2026 (previously 1,000 each)",
+     "Jewellery (MCC 5094, 5944), gifts/souvenirs (5947), tolls (4784), education (8220), non-PhonePe utilities/insurance/UPI explicitly excluded from 1 Jul 2026",
+     "Fee waiver Rs1 lakh confirmed; fee Rs499+tax (prior 589 incl GST)"
+    ]
+   }
+  },
+  {
+   "name": "PhonePe SBI Card SELECT BLACK",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic lounge visits per year (max 1 per quarter) + 2-year Priority Pass",
+   "main_benefit": "PhonePe premium: 10% on PhonePe recharges/bills/insurance/travel (capped), 5% eligible online, 1% other (1 RP = Re1; caps tightened 1 Jul 2026).",
+   "key_benefits": [
+    "Fee Rs1,499+taxes; reversed on prior-year spend >= Rs3 lakh",
+    "PhonePe e-gift card Rs1,500 welcome",
+    "Yatra e-voucher Rs5,000 on Rs5 lakh annual spend",
+    "1% fuel surcharge waiver Rs500-4,000, max Rs250 per cycle"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments",
+      "travel"
+     ],
+     "rate": 0.1,
+     "cap_inr": 1500,
+     "period": "month",
+     "min_txn_inr": 100,
+     "desc": "10 RP per Rs100 on eligible PhonePe categories; min txn Rs100; from 1 Jul 2026 cap 1,500 RP per month (Rs1,500), insurance max 500 RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "cap_inr": 1000,
+     "period": "month",
+     "min_txn_inr": 100,
+     "channel": "online",
+     "desc": "5 RP per Rs100 on eligible online spends; cap 1,000 RP per month (Rs1,000) from 1 Jul 2026 (was 2,000)."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "tolls",
+    "gifts_souvenirs",
+    "education",
+    "utilities_non_phonepe",
+    "insurance_non_phonepe",
+    "upi_non_phonepe",
+    "gaming",
+    "fuel",
+    "wallet_load",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Black-pdf-27Apr2026.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-select-black.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Black-pdf-27Apr2026.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-select-ekit.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,499 (page shows without 'plus taxes' in one place; elsewhere plus taxes).",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 Reward Point = Re 1; vouchers or statement credit."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-select-black.html and notice dated 29 May 2026 in https://www.sbicard.com/en/customer-notices.page",
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/PhonePe-Black-pdf-27Apr2026.pdf (caps/exclusions)",
+     "PhonePe-select-ekit.pdf",
+     "card page JSON"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Caps from 1 Jul 2026: PhonePe 1,500 RP/month (insurance 500), online 1,000 RP/month (prior record said sources conflict)",
+     "Waiver Rs3 lakh and fee Rs1,499 confirmed",
+     "Jewellery, tolls, gifts, education explicit exclusions"
+    ]
+   }
+  },
+  {
+   "name": "Reliance SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Reliance Retail",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Reliance Retail co-brand: 10 RP per Rs100 (2.5%) at Ajio/JioMart, 5 RP per Rs100 at other Reliance Retail stores; points redeem into Reliance vouchers.",
+   "key_benefits": [
+    "Fee Rs499+taxes; reversed on annual spend >= Rs1 lakh",
+    "Welcome vouchers (Reliance Retail) - value on page Rs3,200",
+    "Milestone Reliance Retail vouchers: Rs500 at Rs25,000, Rs750 at Rs50,000, Rs1,000 at Rs80,000 annual spend",
+    "1% fuel surcharge waiver Rs500-3,000, max Rs100 per cycle"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [
+      "ajio",
+      "jiomart"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.025,
+     "channel": "online",
+     "desc": "10 RP per Rs100 at Ajio and JioMart online stores (effective 1 Oct 2025); 1 RP = Rs0.25; not on UPI payments (1 RP per Rs100 on UPI)."
+    },
+    {
+     "merchants": [
+      "reliance retail",
+      "reliance digital",
+      "trends",
+      "smart bazaar"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP per Rs100 at participating Reliance Retail stores (MID/TID based; format list not read); 1 RP = Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.0125,
+     "cap_inr": 1250,
+     "period": "statement",
+     "desc": "5 RP per Rs100 on dining and movies (MCC 5812-5814, 7832/7922); cap 5,000 RP per statement cycle (Rs1,250), then 1 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/reliance-sbi-card-tnc-e-kit.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/reliance-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/reliance-sbi-card-tnc-e-kit.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Accrual exclusions: fuel, property rental, wallet upload per page; jewellery earn not stated in accrual terms: unconfirmed. Point value is closed-loop (Reliance vouchers only).",
+   "point_value_inr": {
+    "cash": null,
+    "best": 0.25,
+    "note": "1 RP = Rs0.25 per page; closed-loop redemption only into Reliance Retail vouchers (not valid on gold/silver coins, fine jewellery, Apple, etc.)."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/reliance-sbi-card.html and rate notice 1 Oct 2025 in https://www.sbicard.com/en/customer-notices.page",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "reliance-sbi-card-tnc-e-kit.pdf (11.4 reward benefit, caps)",
+     "card page JSON",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rates filled: Ajio/JioMart 10 RP, other Reliance Retail 5 RP, dining/movies 5 RP (cap 5,000 RP/cycle), base 1 RP per Rs100, 1 RP = Rs0.25",
+     "Fee waiver Rs1 lakh",
+     "Reliance vouchers do not apply to jewellery/gold coins (voucher terms, not accrual)"
+    ]
+   }
+  },
+  {
+   "name": "Reliance SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Reliance Retail",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 international (max 2 per quarter, Priority Pass 2 years) + 2 domestic lounge visits per quarter",
+   "main_benefit": "Premium Reliance co-brand: 20 RP per Rs100 (5%) at Ajio/JioMart, 10 RP at other Reliance Retail (2.5%); closed-loop Reliance vouchers.",
+   "key_benefits": [
+    "Fee Rs2,999+taxes; reversed on annual spend >= Rs3 lakh",
+    "Welcome Reliance Retail voucher Rs3,000",
+    "Vouchers worth Rs8,750 on Rs3 lakh annual spend (milestones Rs1,500/Rs2,250/Rs5,000 at Rs75k/Rs1.5L/Rs3L)",
+    "1 free movie ticket per month (up to Rs250)",
+    "1% fuel surcharge waiver Rs500-4,000, max Rs100 per cycle"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "ajio",
+      "jiomart"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "channel": "online",
+     "desc": "20 RP per Rs100 at Ajio and JioMart (from 1 Oct 2025); 1 RP = Rs0.25; UPI 2 RP per Rs100."
+    },
+    {
+     "merchants": [
+      "reliance retail",
+      "reliance digital",
+      "trends",
+      "smart bazaar"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.025,
+     "desc": "10 RP per Rs100 at participating Reliance Retail stores; 1 RP = Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel"
+     ],
+     "rate": 0.0125,
+     "desc": "5 RP per Rs100 on dining, movies & entertainment and domestic airlines; cap 7,500 RP per statement cycle (Rs1,875), then 2 RP per Rs100.",
+     "cap_inr": 1875,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0125,
+     "cap_inr": 1875,
+     "period": "statement",
+     "desc": "5 RP per Rs100 on international spends; cap 7,500 RP per statement cycle (Rs1,875), then 2 RP per Rs100."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/reliance-prime-tnc.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/reliance-sbi-card-prime.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/tnc/reliance-prime-tnc.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Dining/airlines rule cap Rs1,875 per statement cycle (applied jointly); international separate cap. Not on required list but present in DB.",
+   "point_value_inr": {
+    "cash": null,
+    "best": 0.25,
+    "note": "1 RP = Rs0.25; Reliance Retail vouchers only."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/reliance-sbi-card-prime.html and notice 1 Oct 2025 in https://www.sbicard.com/en/customer-notices.page",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "reliance-prime-tnc.pdf",
+     "card page JSON",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rates and caps filled from T&C"
+    ]
+   }
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group (Lifestyle, Home Centre)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Landmark Group retail co-brand; official product page now redirects to the Landmark Rewards SBI Card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/landmark-sbi-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/landmark-sbi-card.html",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Appears rebranded/merged into Landmark Rewards SBI Card; do not recommend this record. The Landmark Rewards SBI Card (separate DB record, another collector) page: Rs499 fee, 10 RP per Rs100 at Landmark stores, 5 RP dining/movies/international, 1 RP other, 4 RP = Re1.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "Landmark Rewards SBI Card page: 4 RP = Rs1."
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (notice 1 Aug 2025 still names Lifestyle Home Centre cards); /shopping/lifestyle-hc-sbi-card.page redirects to landmark-sbi-card.html",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/personal/credit-cards/landmark-sbi-card.html",
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "Status unknown: product page URL redirects to Landmark Rewards SBI Card (10 RP per Rs100 at Landmark stores incl. Lifestyle/Home Centre/Max/Spar, fee Rs499)",
+     "Prior unverified 5 RP/Rs100 rule removed",
+     "Reward accrual on digital gaming and government spends discontinued 1 Sep 2025 (notice)"
+    ]
+   }
+  },
+  {
+   "name": "Fabindia SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Fabindia",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Fabindia co-brand; official product page no longer available.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No official rates/fees read. Product page /shopping/fab-india-sbi-card.page redirects to the card listing. Do not use for recommendations.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not verified"
+   },
+   "status_source": null,
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (fee table lists Fabindia SBI Card/SELECT)",
+     "product page URL redirects to card list"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "Status unknown: product page redirects to listing but no official discontinuation notice found"
+    ]
+   }
+  },
+  {
+   "name": "Aditya Birla SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Aditya Birla Fashion & Retail",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Aditya Birla Fashion co-brand; official product page no longer available.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior record used aggregator rates (20 RP/Rs100 at ABFRL brands) - unverified and removed. Product page /rewards/aditya-birla-sbi-card.page redirects to the card listing; no official discontinuation notice found.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not verified"
+   },
+   "status_source": null,
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (fee table lists Aditya Birla SBI Card/SELECT)",
+     "product page URL redirects to card list"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "Status set unknown (was active): product page redirects to listing; prior aggregator rates (5%/2.5%) removed as unverified"
+    ]
+   }
+  },
+  {
+   "name": "Aditya Birla SBI Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Aditya Birla Fashion & Retail",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Aditya Birla Fashion co-brand; official product page no longer available.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior record used aggregator rates (20 RP/Rs100 at ABFRL brands) - unverified and removed. Product page /rewards/aditya-birla-sbi-card.page redirects to the card listing; no official discontinuation notice found.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not verified"
+   },
+   "status_source": null,
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (fee table lists Aditya Birla SBI Card/SELECT)",
+     "product page URL redirects to card list"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "Status set unknown (was active): product page redirects to listing; prior aggregator rates (5%/2.5%) removed as unverified"
+    ]
+   }
+  },
+  {
+   "name": "Tata Neu Infinity SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Tata Neu",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.0199,
+   "lounge_access": "8 domestic (2 per quarter, on Rs75,000 prior-quarter spend) + 4 international Priority Pass visits per year",
+   "main_benefit": "Tata Neu co-brand: 5% NeuCoins on Tata Neu and partner Tata brands (incl. Titan and Tanishq), 1.5% elsewhere; 1 NeuCoin = Re1.",
+   "key_benefits": [
+    "Fee Rs1,499+taxes; reversed on annual spend >= Rs3 lakh",
+    "1,499 NeuCoins welcome",
+    "1.99% forex markup",
+    "1% fuel surcharge waiver Rs500-4,000, max Rs500 per cycle"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "tata neu",
+      "air india",
+      "bigbasket",
+      "tata cliq",
+      "taj hotels",
+      "tata 1mg",
+      "titan",
+      "tanishq",
+      "croma",
+      "westside",
+      "qmin"
+     ],
+     "categories": [
+      "online_shopping",
+      "jewellery",
+      "travel",
+      "groceries"
+     ],
+     "rate": 0.05,
+     "desc": "5% value back as NeuCoins on Tata Neu app/website and partner Tata brands (non-EMI spends); extra up to 5% on select Neu categories. 1 NeuCoin = Re1 (closed loop). Titan & Tanishq are named partner brands; no cap found for this bucket."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.015,
+     "desc": "1.5% NeuCoins on other spends incl. UPI (RuPay variant); NeuCoins capped 2,000/month each on grocery, insurance, utility and telecom; UPI capped 500 NeuCoins/month (UPI only); cap on other spends not otherwise stated."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "gift_cards",
+    "vouchers",
+    "government",
+    "education",
+    "gaming",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/Tata-Neu-Infinity-Booklet.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/tata-neu-infinity-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/Tata-Neu-Infinity-Booklet.pdf",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery MCC not in the excluded list; Titan & Tanishq are named partner brands for accelerated NeuCoins. Another collector may also hold the Tata Neu records. 'Tata Neu Plus SBI Card' page: fee Rs499, 2% partner/1% other, waiver Rs1 lakh (not separately recorded).",
+   "point_value_inr": {
+    "cash": null,
+    "best": 1.0,
+    "note": "1 NeuCoin = Re1 on Tata Neu/partner brands; not exchangeable for cash or statement credit."
+   },
+   "status_source": "https://www.sbicard.com/en/personal/credit-cards/tata-neu-infinity-sbi-card.html (live page)",
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/ekit-tncs/Tata-Neu-Infinity-Booklet.pdf (11.3-11.4)",
+     "card page JSON"
+    ],
+    "result": "corrected",
+    "changes": [
+     "Rates, forex 1.99% and caps read from booklet"
+    ]
+   }
+  }
+ ],
+ "gaps": [
+  "Duplicate DB records: 'Cashback SBI Card' and 'SBI Cashback' (written identically except name); 'SBI Elite' and 'SBI Card Elite' (written identically except name).",
+  "SBI product pages are JS-rendered; fees/rates were read from the site's JSON template (www.sbicard.com/json/templatedata/product/card/data/en/personal/<slug>.json) plus T&C PDFs. Card page footnotes can be dated (Cashback page says 'as of July 2023').",
+  "No explicit jewellery/gold (MCC 5944/5094) statement in the terms read for Elite, Prime, SimplyCLICK, SimplySAVE, BPCL, Octane, IRCTC, Air India, Vistara, Apollo, Paytm, Reliance, Aurum: flagged jewellery_unconfirmed. Explicit: Cashback (excluded), Flipkart (0%), PhonePe (excluded from 1 Jul 2026), Titan (earns; Tanishq 3% voucher value back), Tata Neu Infinity (not excluded).",
+  "Aurum: earn rate, caps, exclusions not published on official page; rules empty. Fee waiver Rs12L taken from a scrambled MITC table.",
+  "Air India SBI Signature/Platinum, Club Vistara: discontinued (issuance) per customer notices; no INR value per point available, so no rules modelled. Club Vistara SBI Card PRIME not re-verified.",
+  "Yatra SBI Card: discontinued (notice 28 Mar 2025); fees carried from the prior record, not re-verified.",
+  "Lifestyle Home Centre SBI Card: product URL redirects to Landmark Rewards SBI Card; status unknown. Fabindia SBI Card and Aditya Birla SBI Card/SELECT: product pages redirect to the listing but no official discontinuation notice found; status unknown, prior aggregator rates removed.",
+  "Elite and Prime T&Cs are older documents (Elite dated 2016; Prime ekit undated) and Elite welcome voucher value not read; MITC fee table is scrambled in text extraction so fees came from card pages.",
+  "IRCTC SBI Card Premier rail value: page says 'up to 10%'; T&C ratio gives 8% (10 RP per Rs125); air '5%' vs T&C 4%. Conservative figures used. Generic 'IRCTC SBI Card' (RuPay) record not verified.",
+  "Reliance participating store formats, Flipkart/Apollo merchant lists partly indicative. Tata Neu Plus not separately recorded; SBI Tata Platinum/Titanium (Tata Card) not checked.",
+  "Statement-credit redemption of SBI reward points capped at 60,000 pts/month in multiples of 4,000 from 1 Apr 2026 (notice) - not modelled per card.",
+  "Forex: MITC states 3.5% for all cards except AURUM, Elite, Prime NRI secured, Tata Neu Infinity (1.99%) and Miles variants; applied accordingly."
+ ]
+}

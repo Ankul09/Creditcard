@@ -1,0 +1,3001 @@
+{
+ "cards": [
+  {
+   "name": "Tata Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Tata Capital",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "8 free per year (2/quarter)",
+   "main_benefit": "Legacy Tata Capital co-brand (Tata Cards, SBI Card issued).",
+   "key_benefits": [
+    "Next-year fee reversal on Rs1L spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.tatacapital.com/tata-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.tatacapital.com/tata-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Sources conflict on issuer (Tata Capital with SBI vs SBI Card). Legacy; Tata Neu HDFC cards cover current Tata ecosystem. Status unknown. Not in SBI MITC Sep-2026 (current Tata family there: Tata Card Rs499, Tata Card SELECT Rs2,999, Tata Star, Tata Croma); status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Tata Titanium Credit Card",
+   "issuer": "SBI Card",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Tata Capital",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Tata Titanium co-brand variant.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.tatacapital.com/tata-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.tatacapital.com/tata-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "As above. Not in SBI MITC Sep-2026 (current Tata family there: Tata Card Rs499, Tata Card SELECT Rs2,999, Tata Star, Tata Croma); status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Aurum",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 9999,
+   "annual_fee": 9999,
+   "fee_waiver_spend": 1200000,
+   "forex_markup": 0.0199,
+   "lounge_access": null,
+   "main_benefit": "Super-premium SBI card: Rs9,999 fee, 40,000 AURUM reward points welcome, golf and Club Marriott benefits.",
+   "key_benefits": [
+    "Fee Rs9,999+taxes; MITC fee table shows waiver on Rs12 lakh annual spend",
+    "40,000 AURUM reward points on payment of joining fee",
+    "16 complimentary golf rounds and 12 lessons per year",
+    "1-year Club Marriott, Mint & WSJ, Inflection Point Ventures memberships",
+    "Card replacement fee Rs1,500"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/aurum-sbi-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Earn rate, caps and exclusions not found on official pages/T&C. Statement-credit redemption capped 60,000 pts/month in multiples of 4,000 from 1 Apr 2026 (official notice). Fee waiver Rs12L read from scrambled MITC table row; moderate certainty. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "Earn rate and point value not stated on the official page; third-party 4 RP per Rs100 not verified."
+   },
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "eligibility": "Official page has an Apply Now link; high-income/invite-style positioning per third parties, not confirmed",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Tata Neu Plus SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay/Visa",
+   "status": "active",
+   "co_brand_partner": "Tata Neu",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic lounge visits/yr",
+   "main_benefit": "Entry Tata Neu card: 2% NeuCoins on Tata partner brands (+5% select categories on Neu app).",
+   "key_benefits": [
+    "Welcome 499 NeuCoins"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "tata neu"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.02,
+     "desc": "2% NeuCoins on partner Tata brand sites/app; extra 5% on select categories on Tata Neu app (1 NeuCoin=Rs1)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-tata-neu-plus",
+    "https://cardadvisor.in/articles/sbi-tata-neu-plus-review-2026",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Base rate outside Tata not found; set null. Headline 'up to 7%' includes category bonuses. Jewellery treatment unknown.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Miles",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 600000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry travel card: 2 Travel Credits per Rs200 on travel (~1%), 1 per Rs200 elsewhere (~0.5%).",
+   "key_benefits": [
+    "Travel Credits transferable to airline/hotel partners",
+    "Expiry 24 months"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.01,
+     "desc": "Travel Credits value assumed; see notes."
+    }
+   ],
+   "excludes": [
+    "cash_advance",
+    "education",
+    "emi",
+    "fuel",
+    "gaming",
+    "insurance",
+    "rent",
+    "utilities",
+    "wallet_load"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-miles",
+    "https://cardadvisor.in/articles/sbi-miles-elite-review-2026",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1,499 from IIFL listing; waiver unknown. Successor to Etihad Guest SBI card (Dec 2025 notice). Jewellery not explicitly confirmed excluded. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee_waiver_spend: None -> 600000"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Miles Prime",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.025,
+   "lounge_access": "8 domestic (max 2/qtr) + Priority Pass 4 international",
+   "main_benefit": "Mid-premium travel card: 4 Travel Credits/Rs200 on travel (~2% at Rs1/credit, ~1% at Rs0.50 on travel redemption), transferable to airline/hotel partners.",
+   "key_benefits": [
+    "Travel Credits transferable to airline/hotel partners",
+    "Expiry 24 months"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.01,
+     "desc": "Travel Credits value assumed; see notes."
+    }
+   ],
+   "excludes": [
+    "cash_advance",
+    "education",
+    "emi",
+    "fuel",
+    "gaming",
+    "insurance",
+    "rent",
+    "utilities",
+    "wallet_load"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-miles-prime",
+    "https://cardadvisor.in/articles/sbi-miles-elite-review-2026",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates assume Rs0.50/credit; transfers up to Rs1/credit. Welcome 3,000 credits on Rs60k in 60 days; 10,000 credits at Rs8L. Etihad Guest removed as transfer partner Aug 2026 (third-party). 1% fuel waiver cap Rs250/cycle. Jewellery not explicitly confirmed excluded. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards. Official notice: Rs1 crore air accident cover discontinued 15-Jul-2025.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Miles Elite",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1500000,
+   "forex_markup": 0.0199,
+   "lounge_access": "Up to 15 domestic + Priority Pass 6 international",
+   "main_benefit": "Premium travel card: 6 Travel Credits/Rs200 on travel (~3% at Rs1/credit), 2 per Rs200 elsewhere.",
+   "key_benefits": [
+    "Travel Credits transferable to airline/hotel partners",
+    "Expiry 24 months"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.015,
+     "desc": "Travel Credits value assumed; see notes."
+    }
+   ],
+   "excludes": [
+    "cash_advance",
+    "education",
+    "emi",
+    "fuel",
+    "gaming",
+    "insurance",
+    "rent",
+    "utilities",
+    "wallet_load"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-miles",
+    "https://cardadvisor.in/articles/sbi-miles-elite-review-2026",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates assume Rs0.50/credit (~1.5% travel). Welcome 5,000 credits; milestone 20,000 credits at Rs12L. Replacement for Etihad Guest Premier. Jewellery not explicitly confirmed excluded. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards. Official notice: Rs1 crore air accident cover discontinued 15-Jul-2025.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group (Lifestyle, Home Centre)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Landmark Group retail co-brand; official product page now redirects to the Landmark Rewards SBI Card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/landmark-sbi-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/landmark-sbi-card.html",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Appears rebranded/merged into Landmark Rewards SBI Card; do not recommend this record. The Landmark Rewards SBI Card (separate DB record, another collector) page: Rs499 fee, 10 RP per Rs100 at Landmark stores, 5 RP dining/movies/international, 1 RP other, 4 RP = Re1. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "Landmark Rewards SBI Card page: 4 RP = Rs1."
+   },
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group (Lifestyle/Home Centre)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 at Landmark group stores.",
+   "key_benefits": [
+    "Annual fee returned as points (2,000 pts on entry; 12,000 pts on PRIME)"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "lifestyle",
+      "home centre",
+      "max",
+      "landmark"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": null,
+     "desc": "10 points per Rs100 at Landmark group stores. Point value not verified (SBI usually Rs0.25)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate null (point value unverified). Gaming/government accrual stopped 1 Sep 2025 (official notice). Fee for SELECT is an estimate pattern; verify. One source lists the base Lifestyle HC card as discontinued. SELECT fee not found -> null. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Lifestyle Home Centre SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group (Lifestyle/Home Centre)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "15 points per Rs100 at Landmark group stores; milestones up to Rs14,500/yr.",
+   "key_benefits": [
+    "Annual fee returned as points (2,000 pts on entry; 12,000 pts on PRIME)"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "lifestyle",
+      "home centre",
+      "max",
+      "landmark"
+     ],
+     "categories": [
+      "other"
+     ],
+     "rate": null,
+     "desc": "15 points per Rs100 at Landmark group stores; milestones up to Rs14,500/yr. Point value not verified (SBI usually Rs0.25)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/en/personal/credit-cards/shopping/landmark-sbi-card-prime.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate null (point value unverified). Gaming/government accrual stopped 1 Sep 2025 (official notice). Fee for SELECT is an estimate pattern; verify. One source lists the base Lifestyle HC card as discontinued. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Max SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5 points per Rs100 at Max/Landmark stores.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Max SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 at Landmark; milestones Rs8,600/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Max SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "15 points per Rs100 at Landmark; milestones up to Rs14,500/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Spar SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "5 points per Rs100 at Landmark/Spar; milestones Rs4,000/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Spar SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 at Spar/Landmark.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Spar SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Landmark Group",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "15 points per Rs100; milestones Rs14,500/yr.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty. Official notice 1-Sep-2025: reward accrual on digital gaming and govt-related spends discontinued on these cards. Likely rebranded/replaced by Landmark Rewards SBI Card family (MITC Sep-2026: Rs499 / SELECT Rs1,499 / PRIME Rs2,999) - not confirmed.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page (1 Aug 2025 notice shows these cards existed; absent from MITC of 28-Sep-2026 which lists Landmark Rewards SBI Card/SELECT/PRIME instead)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status evidence added; excludes gaming/government"
+    ]
+   }
+  },
+  {
+   "name": "Landmark Rewards SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Landmark Group",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Landmark Rewards co-brand entry card with 2,000 bonus points on fee payment.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "government"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.bankbazaar.com/credit-card/spar-sbi-credit-card.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existence per bankbazaar co-brand list and notices (gaming/government accrual stopped 1 Sep 2025 for Lifestyle HC / Spar / Max). Rates and fees not verified; rules empty.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status unknown -> active (listed in Sep-2026 MITC); SELECT Rs1,499, PRIME Rs2,999 variants exist"
+    ]
+   }
+  },
+  {
+   "name": "Doctor's SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Indian Medical Association (IMA)",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": "8 domestic lounge visits/yr",
+   "main_benefit": "Doctors card: 5X points on medical supplies, travel, international and Doctors' Day; Rs20L professional indemnity cover.",
+   "key_benefits": [
+    "Rs1,500 e-gift voucher on joining",
+    "Rs5,000 voucher on Rs5L annual spend"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "international"
+     ],
+     "rate": null,
+     "desc": "5X points; point value not verified."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.paisabazaar.com/credit-card/best-health-and-wellness-credit-cards/",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee/waiver from one third-party guide.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Pulse",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 200000,
+   "forex_markup": null,
+   "lounge_access": "4 domestic/yr (1/qtr) after 10 Jan 2026 halving",
+   "main_benefit": "Fitness card: 10 RP/Rs100 on chemist, pharmacy, dining, movies, sports.",
+   "key_benefits": [
+    "Noise smartwatch welcome (value varies)",
+    "Rs1,500 voucher at Rs4L",
+    "FITPASS PRO + Netmeds 1 year"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.025,
+     "desc": "10 RP per Rs100 on chemist, pharmacy, dining, movie, sports; 1 RP=Rs0.25 assumed."
+    }
+   ],
+   "excludes": [
+    "cash_advance",
+    "emi",
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-pulse",
+    "https://cardexpress.in/reviews/sbi-pulse",
+    "https://www.bankbazaar.com/credit-card/sbi-card-pulse.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Base 2 RP/Rs100 => 0.5%. Jewellery unknown. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Shaurya SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Defence/CSD",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 250,
+   "annual_fee": 250,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Card for serving/retired defence personnel with CSD canteen rewards.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.paisabazaar.com/sbi-bank/shaurya-sbi-credit-card/",
+    "https://www.sbicard.com/en/customer-notices.page",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Details not found. Finance charge exemption: Shaurya/Defence excluded from 3.75% rate (official notice).",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": "Defence personnel (serving/retired)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 250",
+     "annual_fee: None -> 250",
+     "fee_waiver_spend: None -> 50000"
+    ]
+   }
+  },
+  {
+   "name": "Shaurya Select SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Defence/CSD",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": null,
+   "lounge_access": "4 lounge visits",
+   "main_benefit": "Defence card: 5X (~2.5%) on CSD, dining, movies, groceries, departmental stores; Rs10L accident cover.",
+   "key_benefits": [
+    "Pizza Hut Rs500 voucher per quarter on Rs50k",
+    "First-year fee free per some sources"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "desc": "5X points; 2.5% per CardExpress."
+    }
+   ],
+   "excludes": [
+    "cash_advance",
+    "emi",
+    "fuel",
+    "gaming",
+    "government",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/sbi-shaurya-select",
+    "https://cardexpress.in/reviews/sbi-shaurya",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Sources conflict on fee (nil to Rs1,499) and waiver; conservative Rs1,499 kept. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": "Defence personnel (serving/retired)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: 1499 -> 0"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Unnati",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured FD card (Rs25,000 FD); annual fee Rs499 from year 5.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "KrisFlyer SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Singapore Airlines KrisFlyer",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Singapore Airlines miles card.",
+   "key_benefits": [
+    "3,000 KrisFlyer miles welcome (one review)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://magnify.club/guides/sbi-krisflyer-vs-krisflyer-apex-comparison",
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee from one review; rates not found.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "IndiGo SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "IndiGo BluChip card: 7 BluChips/Rs100 on IndiGo, 3 on hotels/travel, 2 elsewhere.",
+   "key_benefits": [
+    "6,000 BluChips at Rs3L/6L/9L/12L"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-credit-cards-for-international-travel.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee unknown. Status unconfirmed. Possibly IndiGo SBI Card XL also exists.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 1499",
+     "annual_fee: None -> 1499"
+    ]
+   }
+  },
+  {
+   "name": "Google Pay Flex SBI Card",
+   "issuer": "SBI Card",
+   "network": "RuPay/Visa",
+   "status": "active",
+   "co_brand_partner": "Google Pay",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Launched 29 Jul 2026: Stars worth Rs1, up to 18,000 Stars/year, UPI-linkable RuPay.",
+   "key_benefits": [
+    "Up to 8 Stars per Rs500; cycle cap 1,500 Stars"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardinsider.com/sbi-card/google-pay-flex-sbi-card/",
+    "https://www.newsbytesapp.com/news/business/sbi-card-google-pay-launch-flex-card-18000-stars-yearly/tldr",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate per spend category not found. Welcome benefit sources disagree.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee_waiver_spend: 100000 -> None"
+    ]
+   }
+  },
+  {
+   "name": "Eternal SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Eternal (Zomato/Blinkit/District)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Reported: 10% instant discount at Zomato/District/Blinkit non-grocery.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/blog/sbi-card-launch-new-eternal-co-branded-credit-card-with-instant-discount/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/blog/sbi-card-launch-new-eternal-co-branded-credit-card-with-instant-discount/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Spotted on SBI site; launch unconfirmed; no fee data. Not present in SBI MITC fee table of 28-Sep-2026; status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "UCO Bank SBI Card ELITE",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "UCO Bank",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 4999",
+     "annual_fee: None -> 4999",
+     "fee_waiver_spend: None -> 1000000"
+    ]
+   }
+  },
+  {
+   "name": "UCO Bank SBI Card PRIME",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "UCO Bank",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 2999",
+     "annual_fee: None -> 2999",
+     "fee_waiver_spend: None -> 300000"
+    ]
+   }
+  },
+  {
+   "name": "UCO Bank SimplySAVE SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "UCO Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 499",
+     "annual_fee: None -> 499",
+     "fee_waiver_spend: None -> 100000"
+    ]
+   }
+  },
+  {
+   "name": "Karnataka Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Karnataka Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. MITC Sep-2026 lists Karnataka Bank SBI Card PRIME Rs2,999 (waiver Rs3L) and BoM SBI Card PRIME Rs2,999 (waiver Rs3L); mapping of 'Platinum' name to PRIME not confirmed so fees left null. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Karnataka Bank SBI SimplySAVE Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Karnataka Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 499",
+     "annual_fee: None -> 499",
+     "fee_waiver_spend: None -> 100000"
+    ]
+   }
+  },
+  {
+   "name": "South Indian Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "South Indian Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 2999",
+     "annual_fee: None -> 2999"
+    ]
+   }
+  },
+  {
+   "name": "South Indian Bank SimplySave SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "South Indian Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 499",
+     "annual_fee: None -> 499",
+     "fee_waiver_spend: None -> 100000"
+    ]
+   }
+  },
+  {
+   "name": "Federal Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Federal Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Not present in SBI MITC fee table of 28-Sep-2026; status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Federal Bank SBI Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Federal Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Not present in SBI MITC fee table of 28-Sep-2026; status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "KVB SBI Signature Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Karur Vysya Bank",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 4999",
+     "annual_fee: None -> 4999"
+    ]
+   }
+  },
+  {
+   "name": "Karur Vysya Bank SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Karur Vysya Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 2999",
+     "annual_fee: None -> 2999"
+    ]
+   }
+  },
+  {
+   "name": "Karur Vysya Bank SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Karur Vysya Bank",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 499",
+     "annual_fee: None -> 499",
+     "fee_waiver_spend: None -> 100000"
+    ]
+   }
+  },
+  {
+   "name": "Bank of Maharashtra SBI Platinum Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Bank of Maharashtra",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed. MITC Sep-2026 lists Karnataka Bank SBI Card PRIME Rs2,999 (waiver Rs3L) and BoM SBI Card PRIME Rs2,999 (waiver Rs3L); mapping of 'Platinum' name to PRIME not confirmed so fees left null.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Bank of Maharashtra SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Bank of Maharashtra",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Banking-partnership SBI Card listed on bankbazaar; headline per list only (e.g. 5X on dining/departmental/international or 10 pts/Rs100 on dining/grocery).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates/status not found; active status unconfirmed.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 499",
+     "annual_fee: None -> 499",
+     "fee_waiver_spend: None -> 100000"
+    ]
+   }
+  },
+  {
+   "name": "SBI Tata Platinum Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Tata",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "3X points on dining, department stores, groceries, international.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found. Not in SBI MITC Sep-2026 (current Tata family there: Tata Card Rs499, Tata Card SELECT Rs2,999, Tata Star, Tata Croma); status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Tata Titanium Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Tata/Croma",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "1.5% value back at Croma, up to 5% at Tata outlets.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found. Not in SBI MITC Sep-2026 (current Tata family there: Tata Card Rs499, Tata Card SELECT Rs2,999, Tata Star, Tata Croma); status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Mumbai Metro SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Mumbai Metro",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "10 points per Rs100 on dining, movies, grocery, departmental (5,000 pts/month cap).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found. Not present in SBI MITC fee table of 28-Sep-2026; status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "IRCTC SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "IRCTC",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "RuPay IRCTC card: up to 10% value back on railway tickets.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 500",
+     "annual_fee: None -> 500"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Elite Advantage",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Listed variant with near-identical terms to Elite (finology).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 4999",
+     "annual_fee: None -> 4999",
+     "fee_waiver_spend: None -> 1000000"
+    ]
+   }
+  },
+  {
+   "name": "SBI Card Prime Advantage",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Listed variant with near-identical terms to Prime (finology).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "gaming"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/sbi-co-branded-credit-cards.html",
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found. Official SBI list: reward points not earned on digital gaming from 1-Dec-2024 (list-of-cards-oct24.pdf). Govt/rent exclusions per notices (rent Apr-2024, govt Jun/Jul-2024) for listed cards.",
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 2999",
+     "annual_fee: None -> 2999",
+     "fee_waiver_spend: None -> 300000"
+    ]
+   }
+  },
+  {
+   "name": "Fabindia SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Fabindia",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Fabindia co-brand; official product page no longer available.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No official rates/fees read. Product page /shopping/fab-india-sbi-card.page redirects to the card listing. Do not use for recommendations.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not verified"
+   },
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 499",
+     "annual_fee: None -> 499",
+     "fee_waiver_spend: None -> 100000"
+    ]
+   }
+  },
+  {
+   "name": "fbb STYLE UP SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Future Group (fbb)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued May 2022 per official notice.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page ('W.e.f. May 22 issuance of fbb STYLE UP, Central Select & Central Select+ discontinued')",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Central Select SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Central/Future",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued May 2022 per official notice.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page ('W.e.f. May 22 issuance of fbb STYLE UP, Central Select & Central Select+ discontinued')",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Central Select+ SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Central/Future",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued May 2022 per official notice.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page ('W.e.f. May 22 issuance of fbb STYLE UP, Central Select & Central Select+ discontinued')",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Chennai Metro SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Chennai Metro",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Replaced by SimplySAVE (Jul 2021 notice).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/customer-notices.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/rates not found.",
+   "status_source": "https://www.sbicard.com/en/customer-notices.page ('W.e.f. 25 Jul 2021 SBI Card discontinuing Chennai Metro SBI Credit Card; replaced by SimplySAVE')",
+   "jewellery_unconfirmed": true,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/customer-notices.page"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Signature Corporate Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate card with priority servicing, Priority Pass, insurance, spend controls.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Platinum Corporate Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate card with expense management, multi-layer spend controls, insurance.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Corporate Utility Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate utility-bill payment card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Central Travel Account Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate central travel account card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Corporate Purchase Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Corporate purchase card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "SBI Corporate Virtual Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Virtual corporate card (aggregator listed).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/corporate/credit-cards.page.page",
+    "https://www.bankbazaar.com/credit-card/sbi-corporate-cards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corporate programme; fees negotiated, none found.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Aditya Birla SBI Card SELECT",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Aditya Birla Fashion & Retail",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Aditya Birla Fashion co-brand; official product page no longer available.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior record used aggregator rates (20 RP/Rs100 at ABFRL brands) - unverified and removed. Product page /rewards/aditya-birla-sbi-card.page redirects to the card listing; no official discontinuation notice found.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not verified"
+   },
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 1499",
+     "annual_fee: None -> 1499"
+    ]
+   }
+  },
+  {
+   "name": "Aditya Birla SBI Credit Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Aditya Birla Fashion & Retail",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Aditya Birla Fashion co-brand; official product page no longer available.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf",
+    "https://www.sbicard.com/en/customer-notices.page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Prior record used aggregator rates (20 RP/Rs100 at ABFRL brands) - unverified and removed. Product page /rewards/aditya-birla-sbi-card.page redirects to the card listing; no official discontinuation notice found.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not verified"
+   },
+   "status_source": "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf (card listed with fees; presence in MITC is not an explicit 'accepting applications' statement)",
+   "eligibility": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBI Card MITC (Common) 28-Sep-2026 fee table: https://www.sbicard.com/sbi-card-en/assets/docs/pdf/most-important-terms-and-conditions/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: None -> 499",
+     "annual_fee: None -> 499"
+    ]
+   }
+  },
+  {
+   "name": "Nature's Basket SBI Card Elite",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Nature's Basket",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Gourmet grocery co-brand with a welcome voucher equal to the joining fee.",
+   "key_benefits": [
+    "Welcome voucher ~Rs 4,999-5,000",
+    "Nature's Basket Connoisseur programme",
+    "1% fuel surcharge waiver Rs 500-4,000, max Rs 100/cycle"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/sbi-card/natures-basket-sbi-card-elite/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/sbi-card/natures-basket-sbi-card-elite/",
+    "https://www.paisabazaar.com/sbi-bank/natures-basket-credit-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "One source says discontinued. Reward rates not found. Waiver spend Rs 10 lakh. Not present in SBI MITC fee table of 28-Sep-2026; status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  },
+  {
+   "name": "Nature's Basket SBI Card",
+   "issuer": "SBI Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Nature's Basket",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Base Nature's Basket gourmet grocery SBI co-brand card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/sbi-bank/natures-basket-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/sbi-bank/natures-basket-credit-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees and rates not retrieved; one source says discontinued. Not present in SBI MITC fee table of 28-Sep-2026; status unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "none obtained"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new official evidence found; record unchanged"
+    ]
+   }
+  }
+ ],
+ "gaps": [
+  "Rewards rates/caps/point values NOT read from official card pages (sbicard.com product pages return 404 via curl; MITC contains only fees/charges); earn rules left as prior aggregator-based, confidence capped at medium.",
+  "Jewellery/gold exclusion not stated in MITC text for any card: jewellery_unconfirmed true everywhere.",
+  "MITC 28-Sep-2026 fee table does not list Lifestyle Home Centre/Max/Spar (+SELECT/PRIME), Nature's Basket, Eternal, Mumbai Metro, Federal Bank, Tata Platinum/Titanium legacy, corporate cards: status left unknown.",
+  "Karnataka Bank/BoM/Federal 'Platinum' cards: fee not mapped (MITC shows PRIME naming).",
+  "Waiver spends for IRCTC SBI Card, KrisFlyer, IndiGo, Google Pay Flex, Aditya Birla, Landmark not shown/parsed in MITC table.",
+  "Duplicates: 'SBI Tata Platinum/Titanium Card' vs 'Tata Platinum/Titanium Credit Card' likely same legacy cards; 'Lifestyle Home Centre/Max/Spar' variants share identical terms; Karnataka/SIB/KVB 'Platinum' vs 'PRIME' likely same product - not merged, unconfirmed.",
+  "Partner pages/aggregators not fetched in this run (time spent on official MITC/notices); IRCTC, Titan etc. partners untouched."
+ ]
+}

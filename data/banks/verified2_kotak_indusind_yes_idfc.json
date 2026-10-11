@@ -1,0 +1,4174 @@
+{
+ "cards": [
+  {
+   "name": "Kotak Solitaire",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 25000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic+international lounge for primary and add-on (page); a second section mentions 4 complimentary visits/yr (2 dom + 2 intl) - conflict recorded",
+   "main_benefit": "Invite-only super-premium travel card: 10 Air Miles/Rs100 on Kotak Unbox travel, 3 Air Miles/Rs100 elsewhere, zero forex and unlimited lounges.",
+   "key_benefits": [
+    "Zero forex markup",
+    "Unlimited lounge access (primary + add-on)",
+    "Zomato Gold at Rs1",
+    "ITC/Elivaas stay privileges",
+    "20% off up to Rs5,000 twice a month on eligible offers",
+    "Air Miles transfer to airline/hotel partners",
+    "1% fuel surcharge waiver on Rs400-7,500 txns, max Rs10,000/anniversary yr",
+    "Joining NIL; annual NIL while in Solitaire programme"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.015,
+     "desc": "3 Air Miles per Rs100 on all other spends. Conservative 1 Air Mile=Rs0.5 (vouchers); Rs1 on flights/hotels via Kotak Unbox. Txn rounded down to Rs100.",
+     "rate_best": 0.03
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.05,
+     "desc": "10 Air Miles per Rs100 on flight/hotel bookings via Kotak Unbox. Conservative Rs0.5/AM (vouchers); Rs1/AM on Unbox travel redemption. Capped at 1,00,000 Air Miles per statement cycle (INR value shown at Rs0.5), then base 3 AM/Rs100.",
+     "rate_best": 0.1,
+     "cap_inr": 50000,
+     "period": "statement",
+     "portal_only": true
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.05,
+     "desc": "10 Air Miles (3 base + 7 accelerated) per Rs100 on voucher purchases via Kotak Unbox; accelerated 7 AM capped at 10,000 AM per calendar month, then 3 AM/Rs100.",
+     "rate_best": 0.1,
+     "cap_inr": 5000,
+     "portal_only": true
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "fuel",
+    "utilities",
+    "telecom",
+    "insurance",
+    "education",
+    "government",
+    "gaming",
+    "international"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-solitaire-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-solitaire",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-solitaire-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + KFS (Jun 2026) read. No Air Miles on Rent, Wallet, Fuel, Utility & Telecom, Insurance, Education, Government (except tax), Digital Gaming and International spends. Jewellery/gold not mentioned in exclusions -> unconfirmed. Previous record had annual Rs25,000 and 1.5% - fee now stated as NIL for programme members.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-solitaire-credit-card.html (apply page live; KFS KFSKS04062026)",
+   "eligibility": "Only for members of the Kotak Solitaire Program (invite/relationship-based); downgrade from the programme attracts Rs25,000+GST annual fee",
+   "point_value_inr": {
+    "cash": 0.5,
+    "best": 1.0,
+    "note": "1 Air Mile = Rs1 on Kotak Unbox flights/hotels; Rs0.5 on vouchers (issuer page)"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-solitaire-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> high"
+    ]
+   }
+  },
+  {
+   "issuer": "Kotak Mahindra Bank",
+   "co_brand_partner": null,
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "source_type": "official",
+   "name": "Kotak League Platinum RuPay",
+   "network": "RuPay",
+   "status": "active",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry card earning 4 RP per Rs150 (8 RP on travel/electronics/durables/dept stores and on annual spends above Rs2L); reward value only Rs0.07-0.10 per point.",
+   "key_benefits": [
+    "5,000 joining RP (worth Rs500) on fee variant",
+    "1% fuel surcharge waiver on Rs500-4,000, max Rs3,500/yr",
+    "Railway surcharge waiver max Rs500/yr",
+    "4 PVR tickets or 10,000 RP on Rs1.25L spend every 6 months"
+   ],
+   "base_rate": 0.00187,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.00187,
+     "desc": "4 RP per Rs150 on eligible spends; cash redemption Rs0.07/RP (min 2,000 RP), Rs0.10 on vouchers/recharge/shopping.",
+     "rate_best": 0.00267
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "online_shopping"
+     ],
+     "rate": 0.00373,
+     "desc": "8 RP per Rs150 on travel agencies/tour operators, airlines, electronics/durables, department stores and on all eligible spends once annual spend exceeds Rs2 lakh. Cash Rs0.07/RP.",
+     "rate_best": 0.00533
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "insurance",
+    "government",
+    "education",
+    "railway",
+    "utilities_above_35000_per_cycle"
+   ],
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.07,
+    "best": 0.1,
+    "note": "Kotak Rewards: cash Rs0.07 w.e.f. 1 Jun 2025 (min 2,000 RP); Rs0.10 other categories"
+   },
+   "eligibility": "Income Rs5 lakh p.a. and above; Rs499/Nil fee variants exist (page says Rs499+GST/Nil)",
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html",
+   "sources": [
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html",
+    "https://www.kotak.com/content/dam/Kotak/files/english-rcas.pdf"
+   ],
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html (apply page live; KFS KFSLP04062026)",
+   "confidence": "high",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/league-platinum-card.html",
+     "https://www.kotak.com/content/dam/Kotak/files/english-rcas.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: unknown -> active",
+     "confidence: low -> high"
+    ]
+   },
+   "notes": "Official page + KFS read. Utility/telecom (MCC 4812,4814,4899,4900) earns only up to Rs35,000 per cycle; 1% fee on utility above Rs35,000/cycle, fuel above Rs25,000/cycle, rent 1%. Status was 'unknown' before; page and KFS (Jun 2026) are live."
+  },
+  {
+   "name": "Kotak Air Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 250000,
+   "forex_markup": null,
+   "lounge_access": "4 domestic lounge visits/yr (max 2/quarter), unlocked by Rs60,000+ spend in previous calendar quarter",
+   "main_benefit": "Travel card: 3 Air Miles/Rs100 on flights/hotels via Kotak Unbox, 1 Air Mile/Rs100 elsewhere, 1,000 Air Miles on joining.",
+   "key_benefits": [
+    "1,000 Air Miles on joining-fee payment and on annual-fee renewal",
+    "4 domestic lounge visits/yr on quarterly Rs60k spend",
+    "1% fuel surcharge waiver on Rs500-5,000, max Rs3,500/yr",
+    "Annual fee waived on Rs2.5L retail spend"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "1 Air Mile per Rs100 on all other purchases; Rs0.5/AM for vouchers (conservative), Rs1/AM for flights/hotels on Kotak Unbox.",
+     "rate_best": 0.01
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.015,
+     "desc": "3 Air Miles per Rs100 on flights & hotels via Kotak Unbox; accelerated Air Miles capped at 5,000 per statement cycle (Rs2,500 at Rs0.5/AM), then 1 AM/Rs100.",
+     "rate_best": 0.03,
+     "cap_inr": 2500,
+     "period": "statement",
+     "portal_only": true
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "utilities",
+    "insurance",
+    "education",
+    "government",
+    "gaming",
+    "emi",
+    "fuel"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-air-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-air",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-air-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + KFS (Mar 2026) read; forex % not legible in KFS extraction (DCC 3.5%) -> null. Exclusion list for Air Miles not read for this card; fees on wallet/fuel above Rs35k, utilities above Rs50k per cycle, 1% education via third-party apps.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-air-credit-card.html (apply page live; KFS KFSA12032026)",
+   "point_value_inr": {
+    "cash": 0.5,
+    "best": 1.0,
+    "note": "1 Air Mile = Rs1 flights/hotels on Kotak Unbox; Rs0.5 vouchers"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-air-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "forex_markup: 0.035 -> None",
+     "confidence: low -> high"
+    ]
+   }
+  },
+  {
+   "name": "IndiGo Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "IndiGo co-brand (BluChips): 1 BluChip/Rs100 on everyday spends, 2 on dining & entertainment, up to 19 on IndiGo bookings; 2,500 BluChip welcome voucher.",
+   "key_benefits": [
+    "2,500 BluChips welcome and renewal vouchers",
+    "Milestone vouchers 2,500 BluChips each at Rs1.25L, Rs2.5L, Rs6L annual spend",
+    "RuPay variant: UPI spends earn 1 BluChip/Rs100",
+    "No annual cap on BluChips"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "1 BluChip per Rs100 on other categories. BluChip value set by IndiGo: conservative Rs0.40 (aggregator), best ~Rs1.",
+     "rate_best": 0.01
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.008,
+     "desc": "2 BluChips per Rs100 on dining & entertainment.",
+     "rate_best": 0.02
+    },
+    {
+     "merchants": [
+      "indigo",
+      "goindigo.in"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.012,
+     "desc": "3 BluChips per Rs100 on IndiGo bookings from the card (plus 8 base for BluChip members, 4 via IndiGo site/app, up to 4 tier bonus = up to 19 per Rs100).",
+     "rate_best": 0.03
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "rent",
+    "fuel",
+    "wallet_load",
+    "education",
+    "government",
+    "utilities",
+    "emi",
+    "cash"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-indigo",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "PRIOR RECORD WRONG: marked closed_to_new with old Rs1,500/0.42%. Kotak relaunched the card in Oct 2025 as BluChips card; 6E Rewards (Rs700) holders migrated at Rs700. Fee Rs1,500 from KFS (Mar 2026). BluChip INR value not official -> medium.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-credit-card.html (new BluChips card, KFS KFSIK12032026); old 6E Rewards card migrated Oct 2025",
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 1.0,
+    "note": "IndiGo decides BluChip value (Kotak T&C); ~Rs0.40-0.50 per aggregators; older sources say Rs1"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: closed_to_new -> active",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndiGo XL Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic lounge visits per calendar quarter (8/yr), no spend criterion",
+   "main_benefit": "Premium IndiGo card: 2 BluChips/Rs100 base, 3 on dining/entertainment, up to 21 on IndiGo bookings, 8 lounge visits a year.",
+   "key_benefits": [
+    "4,000 BluChips + 6E Eats voucher on joining and renewal",
+    "Milestone vouchers 4,000 BluChips at Rs1.5L, Rs4L, Rs7.5L, Rs12L",
+    "8 domestic lounge visits/yr",
+    "RuPay UPI spends earn 2 BluChips/Rs100"
+   ],
+   "base_rate": 0.008,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.008,
+     "desc": "2 BluChips per Rs100 on other categories; BluChip Rs0.40 conservative.",
+     "rate_best": 0.02
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.012,
+     "desc": "3 BluChips per Rs100 on dining & entertainment.",
+     "rate_best": 0.03
+    },
+    {
+     "merchants": [
+      "indigo",
+      "goindigo.in"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "5 BluChips per Rs100 on IndiGo bookings from the card (up to 21 per Rs100 incl. IndiGo base and tier bonus).",
+     "rate_best": 0.05
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "rent",
+    "fuel",
+    "wallet_load",
+    "education",
+    "government",
+    "utilities",
+    "emi",
+    "cash"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-xl-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-indigo-premium",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-xl-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "PRIOR RECORD STALE (closed_to_new). Relaunched Oct 2025 with BluChips; fee Rs3,000 per KFS Mar 2026; fuel fee threshold Rs50k/cycle, utility Rs75k/cycle.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-xl-credit-card.html (KFS KFSIKXL12032026)",
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 1.0,
+    "note": "IndiGo decides BluChip value; aggregator ~Rs0.40-0.50"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/indigo-xl-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: closed_to_new -> active",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Kotak UPI RuPay Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "RuPay card earning 3 reward points per Rs100 on both UPI and regular spends (point worth only Rs0.07-0.10).",
+   "key_benefits": [
+    "Virtual only, no physical card",
+    "Existing Kotak credit-card holders only"
+   ],
+   "base_rate": 0.0021,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0021,
+     "desc": "3 RP per Rs100 on UPI and non-UPI spends. Cash value Rs0.07/RP (min 2,000 RP) w.e.f. 1 Jun 2025; Rs0.10 other redemption (page also says 1,000 RP = Rs100).",
+     "rate_best": 0.003
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "railway",
+    "wallet_load",
+    "emi",
+    "education",
+    "insurance",
+    "government",
+    "gaming",
+    "utilities_above_35000_per_cycle"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-upi-rupay-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-upi-rupay",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-upi-rupay-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee fields shown as 'NA' in KFS (read as no fee; unconfirmed). Fuel fee 1% above Rs25k/cycle; utility rewards only up to Rs35k/cycle.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-upi-rupay-credit-card.html (KFS KFSKUR12032026)",
+   "point_value_inr": {
+    "cash": 0.07,
+    "best": 0.1,
+    "note": "Kotak Rewards"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/kotak-upi-rupay-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "PVR INOX Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "PVR INOX",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "In-cinema lounge only",
+   "main_benefit": "Movie card: 1 PVR INOX ticket (M-coupon up to Rs300) for every Rs10,000 spent in a monthly cycle.",
+   "key_benefits": [
+    "M-coupon worth max Rs300 per Rs10,000 monthly spend",
+    "In-cinema PVR INOX lounge access",
+    "Add-on Rs299"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [
+      "pvr",
+      "inox"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "1 ticket coupon (value capped Rs300) per Rs10,000 spend in a billing month = up to 3%; example: Rs1.05L spend -> 10 tickets. Claim within 2 billing cycles. Upper cap per month not stated.",
+     "min_txn_inr": null
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "gaming"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/pvr-inox-kotak-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-pvr-inox",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/pvr-inox-kotak-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Earlier record rate 0. Exclusions on coupons not read. Coupons only for PVR INOX bookings.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/pvr-inox-kotak-credit-card.html (KFS KFSPIO12032026)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/pvr-inox-kotak-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Kotak Privy League Signature Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 500000,
+   "forex_markup": null,
+   "lounge_access": "2 domestic/qtr (needs Rs75k prior quarter); 4 intl Priority Pass (paid variant)",
+   "main_benefit": "Discontinued plan-based card: 5 pts/Rs100 (1%) in chosen Shopper/Traveller plan.",
+   "key_benefits": [
+    "Annual bonus 7,000 pts at Rs3L or 30,000 at Rs8L",
+    "Fee waived with Black/Platinum banking"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "Traveller plan only: 5 pts/Rs100 at Rs0.20"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.01,
+     "desc": "Shopper plan only; one plan chosen"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.004,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/privy-league-signature-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/kotak-privy-league",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/privy-league-signature-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer page labels card 'Discontinued'; displayed for existing holders. 5 RP/Rs100 special categories (apparel, jewelry[older plan], consumer durables, dining, travel), 2 RP others; 1 RP = Rs0.20; 6,400 bonus RP quarterly (paid card, min Rs1,000 monthly spend). Fee not re-read (existing Rs2,500).",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/privy-league-signature-credit-card.html ('Discontinued' tag + disclaimer: discontinued for new sourcing)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/privy-league-signature-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "forex_markup: 0.02 -> None",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Kotak Delight Platinum Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued dining/movie cashback card: 10% cashback on dining and movies up to Rs600/month.",
+   "key_benefits": [
+    "Fuel surcharge waiver max Rs4,500/calendar yr",
+    "Railway surcharge waiver max Rs500/yr",
+    "8 PVR tickets or Rs1,500 cashback per year on Rs1.25L/6mo"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.1,
+     "desc": "10% cashback on dining (standalone outlets) and movies; needs Rs10,000 spend on other categories in cycle; max Rs600/month across dining+entertainment; eligible txns Rs400-4,000.",
+     "cap_inr": 600,
+     "period": "month"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/delight-platinum-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/delight-platinum-card/visa-paywave.html",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/delight-platinum-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer page tagged Discontinued. Fees/eligibility not shown in page text.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/delight-platinum-card.html ('Discontinued')",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/delight-platinum-card/visa-paywave.html",
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/delight-platinum-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Kotak Essentia Platinum Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued card: 10 saving points per Rs100 at department/grocery stores (max 500 pts=Rs500 per cycle).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.1,
+     "desc": "10 Saving Points per Rs100 at department & grocery stores; txn Rs1,500-4,000 only; max 500 points (Rs500) per billing cycle; 1 point=Re1.",
+     "cap_inr": 500,
+     "period": "statement",
+     "min_txn_inr": 1500,
+     "max_txn_inr": 4000
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "1 Saving Point per Rs250 on other categories (Re1/pt)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer page tagged Discontinued; fees not shown.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html ('Discontinued')",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html",
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/essentia-platinum-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Kotak Fortune Gold Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Kotak entry/mid card; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/fortune-gold-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/fortune-gold-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Guessed issuer URL .../fortune-gold-credit-card.html returned 404; no issuer confirmation of discontinuation, so status reset to unknown (prior 'discontinued' from aggregator).",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/fortune-gold-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: discontinued -> unknown"
+    ]
+   }
+  },
+  {
+   "name": "Kotak Urbane Gold Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 199,
+   "fee_waiver_spend": 15000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Discontinued entry card: 3 RP per Rs100 (Rs0.07-0.10/pt) with PVR ticket milestones.",
+   "key_benefits": [
+    "4 PVR tickets or 10,000 RP on Rs1L spend in a year"
+   ],
+   "base_rate": 0.0021,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0021,
+     "desc": "3 RP per Rs100 on retail spends; cash Rs0.07/RP (min 2,000 RP), Rs0.10 for vouchers/shopping; 1,000 RP = Rs100 (page).",
+     "rate_best": 0.003
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "gaming",
+    "insurance",
+    "government",
+    "education",
+    "utilities_above_35000_per_cycle"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/urbane-gold-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/urbane-gold-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer page says Discontinued. Fee Joining NIL / Annual Rs199 waived at Rs15,000 retail spend per KFS (Mar 2026).",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/urbane-gold-credit-card.html ('Discontinued'; KFS KFSUG12032026 still published for existing holders)",
+   "point_value_inr": {
+    "cash": 0.07,
+    "best": 0.1,
+    "note": "Kotak Rewards"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/urbane-gold-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual_fee: None -> 199",
+     "joining_fee: None -> 0",
+     "forex_markup: None -> 0.035",
+     "confidence: low -> high"
+    ]
+   }
+  },
+  {
+   "name": "Kotak Infinite Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Invite-only Kotak Private card (Signature/Infinite) with nil fees and 2% forex.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "official",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "KFS 'Kotak Signature / Infinite Credit Card' (KFSKI12032026): joining/annual/add-on NIL, forex 2%, fuel/utility/wallet fees waived, fuel surcharge waiver 1% Rs400-7,500. But issuer page for 'Wealth Infinite' says discontinued for new sourcing -> status unknown. Reward rates not found.",
+   "status_source": null,
+   "eligibility": "By invitation, Kotak Private Banking clients; minimum credit limit Rs10 lakh (older Wealth Infinite page)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [],
+    "result": "corrected",
+    "changes": [
+     "annual_fee: None -> 0",
+     "joining_fee: None -> 0",
+     "forex_markup: None -> 0.02",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Kotak NRI Royale Signature Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 complimentary domestic lounge visits per quarter",
+   "main_benefit": "NRI card: 1 reward point per Rs200 within India (1 RP = Re1, ~0.5%) with domestic lounge visits.",
+   "key_benefits": [
+    "Add-on card Rs599 one-time",
+    "2 domestic lounge visits/quarter"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "1 RP per Rs200 spent within India; page states 1 RP = Re1."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/nri-royale-signature-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/nri-royale-signature-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee Rs1,000 per issuer page; joining fee and waiver not stated; forex not read.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/nri-royale-signature-card.html (apply page live, no discontinued tag)",
+   "eligibility": "NRIs",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Issuer page: 1 Reward Point = Re 1"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/nri-royale-signature-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: unknown -> active",
+     "annual_fee: None -> 1000",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Metro Kotak Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Existence reported by aggregators; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No Kotak issuer page found in current credit-card listing; not in KFS list. Status unknown; kept as-is.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [],
+    "result": "confirmed",
+    "changes": [
+     "details added/re-confirmed"
+    ]
+   }
+  },
+  {
+   "name": "Kotak BIZ Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 299,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Complimentary domestic lounge per quarter on Rs75,000+ spend in previous quarter",
+   "main_benefit": "Business card: 4 RP/Rs100 on travel, ads, supermarkets and hotels, 1 RP otherwise.",
+   "key_benefits": [
+    "1% fuel surcharge waiver Rs500-5,000, max Rs2,500/calendar yr",
+    "Railway surcharge waiver max Rs500/yr"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.002,
+     "desc": "1 RP per Rs100 on other spends; cash Rs0.20/RP (w.e.f. 1 Jun 2025), Rs0.25 on recharge/shopping.",
+     "rate_best": 0.0025
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "groceries"
+     ],
+     "rate": 0.008,
+     "desc": "4 RP per Rs100 on travel agencies & domestic airlines, direct marketing/advertising, supermarkets, lodging; Rs0.20/RP cash.",
+     "rate_best": 0.01
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "rent",
+    "gaming"
+   ],
+   "source_url": "https://www.kotak.com/en/personal-banking/cards/credit-cards/biz-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+    "https://www.kotak.com/en/personal-banking/cards/credit-cards/biz-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees per page (joining Rs299, annual Rs499). Per-category caps in MITC not read.",
+   "status_source": "https://www.kotak.com/en/personal-banking/cards/credit-cards/biz-credit-card.html (apply page live)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "Kotak page"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kotak.com/en/personal-banking/cards/credit-cards/biz-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: unknown -> active",
+     "annual_fee: None -> 499",
+     "joining_fee: None -> 299",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Kotak Veer Credit Card",
+   "issuer": "Kotak Mahindra Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Existence reported by aggregators; no verified reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/credit-card/kotak-credit-card-changes/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No Kotak issuer page or KFS found for 'Veer'; status unknown.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [],
+    "result": "confirmed",
+    "changes": [
+     "details added/re-confirmed"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Pioneer Legacy",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 50000,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.018,
+   "lounge_access": "1 domestic lounge/quarter (spend criteria tracking from 1 Apr 2026, effective Jul 2026 quarter); 2 intl Priority Pass visits/quarter",
+   "main_benefit": "Premium card: 1 RP/Rs100 on weekdays and 2 RP on weekends, 4,000 bonus RP at Rs5L spend, golf and Priority Pass.",
+   "key_benefits": [
+    "4,000 bonus RP on Rs5L spend within a year (low MCC spends excluded)",
+    "Golf: 2 games + 2 lessons/month (from 10 Mar 2026)",
+    "1% fuel surcharge waiver",
+    "Priority Pass 2 intl visits/quarter"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1 RP per Rs100 weekdays, 2 RP weekends. Point value not stated on Legacy page; assumed Re1/RP as on Pioneer Private (unverified).",
+     "rate_best": 0.02
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.007,
+     "desc": "0.7 RP per Rs100 on utilities, insurance, government (rent too) per issuer rewards revision."
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-legacy-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-pioneer-legacy",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-legacy-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC (Jun 2026) lists Pioneer Legacy Rs50,000 joining, NIL annual, forex 1.8% (3.5% on complimentary cards). Fuel earns no points. Rewards reduced to 0.7 RP/Rs100 for utility/insurance/govt/rent. Value per RP not confirmed.",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-legacy-credit-card.html (listed on issuer credit-card page; not in MITC discontinued list)",
+   "eligibility": "Pioneer/relationship customers; joining Rs50,000 (Rs5,000 for Legacy/Grande customers who spend Rs50,000 in 90 days)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-legacy-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: closed_to_new -> active",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Pioneer Private",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 25000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic & international for primary and add-on; 12 guest visits at intl lounges",
+   "main_benefit": "Invite-only: 3 RP/Rs100 on all spends at 1 RP = Re1, zero forex, unlimited lounges.",
+   "key_benefits": [
+    "6,000 bonus RP on Rs1L spend in first 30 days",
+    "Taj Epicure Preferred membership year 1 (renewal on Rs50L spend)",
+    "2 movie tickets/month",
+    "Taj voucher Rs1L on Rs75L annual spend",
+    "12 intl guest lounge visits",
+    "Unlimited golf"
+   ],
+   "base_rate": 0.03,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.03,
+     "desc": "3 RP per Rs100 on all other spends; page equates 6,000 RP = Rs6,000 (1 RP = Re1)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.007,
+     "desc": "0.7 RP per Rs100 on utilities, government, education etc."
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-private.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-pioneer-private",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-private.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: joining NIL, annual Rs25,000, waiver on Rs10L spend, forex waived, late/over-limit fees waived. Redemption fee waived.",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-private.html",
+   "eligibility": "Invite/relationship (Private banking); Rs25,000 annual fee (Rs50,000 if downgraded)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Page: 6000 RP = INR 6000"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/pioneer-private.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: closed_to_new -> active",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Indulge Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 75000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.018,
+   "lounge_access": "4 intl Priority Pass visits/quarter (from 13 Mar 2025); domestic lounge subject to spends criteria from Jul 2026 quarter",
+   "main_benefit": "Super-premium card with 22K gold inlay, golf (4 games+4 lessons/month), Priority Pass; 1.5 RP/Rs100 per sidebar.",
+   "key_benefits": [
+    "Golf 4 games + 4 lessons per month (from 10 Mar 2026)",
+    "4 intl lounge visits per quarter"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/indulge-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-indulge",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/indulge-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC fees: joining Rs75,000, annual Rs10,000 waived on Rs10L spend, forex 1.8%. Earn rate: the issuer page lists 1.5 RP per Rs100 but within a shared sidebar; point value not stated -> existing 0.5% retained unverified. Cash advance fee waived.",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/indulge-credit-card.html",
+   "eligibility": "Income/ITR Rs36 lakh p.a. (salaried) or Rs42 lakh p.a. (self-employed)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/indulge-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: closed_to_new -> active",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Platinum RuPay Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 10000,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "UPI-linkable RuPay card: 2 RP per Rs100 on UPI, 1 RP on other spends (non-cash RP Rs0.60).",
+   "key_benefits": [
+    "Fuel waiver 1% Rs400-4,000"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [
+      "upi"
+     ],
+     "categories": [],
+     "rate": 0.008,
+     "desc": "2 RP per Rs100 on UPI transactions (Rs0.40/RP cash conservative, Rs0.60 non-cash from 15 Dec 2024; cash redemption max 2,500 RP/month).",
+     "rate_best": 0.012,
+     "channel": "any"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "1 RP per Rs100 on non-UPI spends. Select categories (utilities, insurance, government, education, rent) 0.7 RP per Rs100.",
+     "rate_best": 0.006
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-platinum-rupay",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC fee table shows joining Rs10,000 for Platinum RuPay but the issuer page promotes 'Lifetime-Free Platinum RuPay' (MITC footnote: lifetime-free promotions) -> conflict, conservative Rs10,000 retained. Forex 3.5% (page). Fuel earns no points; 1% fuel waiver; fee 1% on fuel above Rs30,000/cycle.",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 0.6,
+    "note": "Page: non-cash 1 RP=Rs0.60 (15 Dec 2024); cash Rs0.40 stated on Platinum Visa page (not on RuPay page)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-rupay-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Platinum Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free Visa: 1.5 RP per Rs150 (= 1 RP/Rs100), 1% fuel surcharge waiver.",
+   "key_benefits": [],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "1.5 RP per Rs150 spent (1 RP/Rs100); cash Rs0.40/RP, non-cash Rs0.60 (from 1 Mar 2024); max 2,500 RP/month cash redemption.",
+     "rate_best": 0.006
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-platinum",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: Platinum joining/annual NIL. Rewards reduced 0.7 RP/Rs100 on utilities/insurance/government/rent.",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 0.6,
+    "note": "Issuer page, 1 Mar 2024"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-visa-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Duo Card",
+   "issuer": "IndusInd Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Debit+credit combo card; 1 RP per Rs150 on credit spends, BOGO movie tickets (Rs200 cap).",
+   "key_benefits": [
+    "Requires IndusInd savings account"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.0033,
+     "desc": "Jewellery not listed as excluded in sources read (MITC not read); base rate assumed - unconfirmed"
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/duo-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-duo",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/duo-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: Duo NIL/NIL; page cites 2% cross-currency mark-up (possibly debit side) vs MITC default 3.5% for 'all other cards' -> conservative 3.5%. Page also shows issuance fee Rs249+tax. Value of RP not stated (existing 0.33% retained).",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/duo-card.html",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/duo-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Samman Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 199,
+   "fee_waiver_spend": 75000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Government-employee RuPay card: 1% cashback on retail spends up to Rs20,000 per statement (max Rs200).",
+   "key_benefits": [
+    "1 BookMyShow ticket up to Rs200 every 6 months",
+    "1% railway surcharge waiver (txn up to Rs5,000, max Rs600/yr)",
+    "1% fuel surcharge waiver",
+    "Nil cash-advance fee"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% cashback on retail spends up to Rs20,000 per statement cycle; cashback capped Rs200 per cycle, credited next cycle.",
+     "cap_inr": 200,
+     "period": "statement"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "railways"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/samman-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-samman",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/samman-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: joining NIL, annual Rs199; issuer nav lists it as 'Premium' not lifetime-free.",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/samman-credit-card.html",
+   "eligibility": "Government-sector employees (RuPay)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/samman-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd ePay Amex Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": "American Express",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Digital Amex card: transaction-count based rewards (4/8/10 RP per txn of Rs500+), 5% annual cashback for paying within 7 days.",
+   "key_benefits": [
+    "2X RP in 12th month if active 11 months",
+    "5% annual cashback if statement paid in full within 7 days",
+    "Free delivery on orders over Rs199 (partner)"
+   ],
+   "base_rate": 0.0028,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0028,
+     "desc": "4 RP per transaction (txns 1-4 per cycle), 8 RP (5th-10th), 10 RP beyond; txn min Rs500; 1 RP = Rs0.35 on outstanding redemption; rate shown at a Rs500 txn (falls as txn size grows).",
+     "min_txn_inr": 500,
+     "rate_best": 0.0056
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/epay-amex-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/indusind-epay-amex",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/epay-amex-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC NIL/NIL. Points credited up to credit limit per cycle.",
+   "status_source": "https://www.indusind.bank.in/in/en/personal/cards/credit-card/epay-amex-card.html",
+   "point_value_inr": {
+    "cash": 0.35,
+    "best": 0.35,
+    "note": "Page: Rs0.35/RP against outstanding"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/epay-amex-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Platinum Select",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued: 1 RP per Rs150 (cash Rs0.40, non-cash Rs0.60/RP).",
+   "key_benefits": [],
+   "base_rate": 0.0027,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0027,
+     "desc": "1 RP per Rs150; cash Rs0.40/RP, non-cash Rs0.60 (1 Mar 2024).",
+     "rate_best": 0.004
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-select-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer page: discontinued for new sourcing; reference for existing holders. Fees not stated in MITC table.",
+   "status_source": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf (lists Platinum Select under 'Discontinued cards', Jun 2026) and https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-select-credit-card.html",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 0.6,
+    "note": "issuer page"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/platinum-select-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Iconia",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued: 0.75 RP/Rs100 weekdays, 1 RP weekends (cash Rs0.50, non-cash Rs0.75/RP).",
+   "key_benefits": [],
+   "base_rate": 0.00375,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.00375,
+     "desc": "0.75 RP per Rs100 weekdays, 1 RP weekends; cash Rs0.50/RP, non-cash Rs0.75.",
+     "rate_best": 0.0056
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/iconia-visa-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Iconia Visa and Amex variants exist; forex 3.5%.",
+   "status_source": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf ('Discontinued cards' list) and https://www.indusind.bank.in/in/en/personal/cards/credit-card/iconia-visa-credit-card.html",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.5,
+    "best": 0.75,
+    "note": "issuer page 1 Mar 2024; cash cap 5,000 RP/month"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/iconia-visa-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Platinum Aura Edge (Government Sector)",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued: 1% cashback on retail spends up to Rs10,000 per cycle (max Rs100).",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% cashback on spends up to Rs10,000 per statement cycle; max Rs100 per cycle.",
+     "cap_inr": 100,
+     "period": "statement"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer disclaimer: discontinued for new sourcing; 1% fuel and railway surcharge waiver; 1 BookMyShow ticket (Rs200) per 6 months.",
+   "status_source": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf ('Discontinued cards' list) and issuer page platinum-aura-edge-credit-card-for-government-employees.html",
+   "eligibility": "Government sector employees",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "Poonawalla Fincorp IndusInd eLITE RuPay Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Poonawalla Fincorp",
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued co-brand: 2.5 RP/Rs100 on e-commerce, 1 RP elsewhere; migrated to IndusInd Platinum RuPay on 5 Oct 2025.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": null,
+     "desc": "2.5 RP/Rs100 on e-commerce; 1 RP on UPI/POS/travel; 0.5 on select categories; RP value not stated by issuer."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/poonawalla-platinum-rupay-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Earn: e-commerce 2.5 RP/Rs100; UPI/POS/travel 1; select categories (utilities, insurance, govt, education, rent) 0.5; milestone 3,000 RP on Rs4L annual spend. RP rupee value not stated -> rate left null. Fuel earns none. Fees nil per earlier record; not re-read.",
+   "status_source": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf ('Discontinued cards' list) and https://www.indusind.bank.in/in/en/personal/cards/credit-card/poonawalla-platinum-rupay-credit-card.html (partnership concluded; cards upgraded to Platinum RuPay 5 Oct 2025)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/poonawalla-platinum-rupay-credit-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Club Vistara Explorer Credit Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": 40000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.018,
+   "lounge_access": null,
+   "main_benefit": "Historic IndusInd card; no current reward data.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC (Jun 2026) still lists card at joining Rs40,000 / annual Rs10,000 with note 'No joining or annual fee will be charged after 31 Mar 2025'; Club Vistara redemption on IndusMoments ended 31 Oct 2024. Not in MITC 'Discontinued cards' list, so status unknown (probably closed in practice). Forex 1.8%.",
+   "status_source": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/schedule-of-charges/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: discontinued -> unknown",
+     "annual_fee: None -> 10000",
+     "joining_fee: None -> 40000",
+     "forex_markup: None -> 0.018"
+    ]
+   }
+  },
+  {
+   "name": "CRED Sovereign",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": "CRED",
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Invite-only 18-karat gold card with concierge; terms undisclosed.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/cred-sovereign",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/cred-sovereign"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Invite-only gold card; no issuer terms found. IndusInd MITC lists a separate 'CRED IndusInd Bank RuPay Credit Card' (joining NIL, annual Rs499 targeted lifetime-free promos). Not verified.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [],
+    "result": "corrected",
+    "changes": [
+     "status: closed_to_new -> unknown"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Bank Poonawalla Fincorp eLITE RuPay Platinum",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "discontinued",
+   "co_brand_partner": "Poonawalla Fincorp",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Discontinued co-brand: 2.5 RP/Rs100 on e-commerce, 1 RP elsewhere; migrated to IndusInd Platinum RuPay on 5 Oct 2025.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": null,
+     "desc": "2.5 RP/Rs100 on e-commerce; 1 RP on UPI/POS/travel; 0.5 on select categories; RP value not stated by issuer."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://poonawallafincorp.com/pdf/Poonawalla_Fincorp_launches_co_branded_Credit_Card.pdf",
+    "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+    "https://www.indusind.bank.in/in/en/personal/cards/credit-card/poonawalla-platinum-rupay-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Earn: e-commerce 2.5 RP/Rs100; UPI/POS/travel 1; select categories (utilities, insurance, govt, education, rent) 0.5; milestone 3,000 RP on Rs4L annual spend. RP rupee value not stated -> rate left null. Fuel earns none. Fees nil per earlier record; not re-read.",
+   "status_source": "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf ('Discontinued cards' list) and https://www.indusind.bank.in/in/en/personal/cards/credit-card/poonawalla-platinum-rupay-credit-card.html (partnership concluded; cards upgraded to Platinum RuPay 5 Oct 2025)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://poonawallafincorp.com/pdf/Poonawalla_Fincorp_launches_co_branded_Credit_Card.pdf",
+     "https://www.indusind.bank.in/content/dam/indusind-corporate/credit-cards/MITC_Premium.pdf",
+     "https://www.indusind.bank.in/in/en/personal/cards/credit-card/poonawalla-platinum-rupay-credit-card.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: active -> discontinued",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank Rio RuPay Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": "Rio Money (Zaggle)",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Zaggle-owned Rio co-brand RuPay card.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://cxotoday.com/media-coverage/zaggle-and-npci-partner-to-launch-multiple-credit-cards-on-rupay-network/",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "'Rio' not listed in YES MITC v18 (5 Oct 2026) variants (lists Zagg/Klick/RuPay Virtual). Status unknown; Zaggle/NPCI launch coverage only.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cxotoday.com/media-coverage/zaggle-and-npci-partner-to-launch-multiple-credit-cards-on-rupay-network/",
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: active -> unknown"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST EA₹N Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Virtual RuPay FD card (Rs5,000 FD) with 1% UPI cashback.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+   "source_type": "third_party",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "no new source found"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank Essence",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 799,
+   "annual_fee": 799,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic lounge on Rs25,000 spend in previous quarter",
+   "main_benefit": "Salaried-only entry card earning 1.2% on fashion, beauty, dining, travel and grocery online.",
+   "key_benefits": [
+    "Joining fee reversed on Rs20,000 in first month",
+    "Salaried applicants only"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "travel",
+      "groceries",
+      "online_shopping"
+     ],
+     "rate": 0.012,
+     "desc": "12 RP/Rs200 online on fashion, beauty, dining, travel, grocery at Rs0.20; other online 8 RP/Rs200 (0.8%); cap 9,000 pts/cycle",
+     "cap_inr": 1800
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "fuel",
+    "government",
+    "insurance",
+    "education",
+    "emi"
+   ],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-essence",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/forex/waiver from official YES MITC v18 (forex 2.75% -> 3.00% from 15 Jun 2026). Earn 12/8/4 RP per Rs200 (online categories/other online/offline) from aggregators at assumed Rs0.20/RP (point value conflicts Rs0.10-0.25). Jewellery not in Essence exclusion list -> unconfirmed. Utility fee 1% above Rs25k/month; fuel above Rs25k/month.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (variant listed in MITC v18, 5 Oct 2026, not flagged 'no longer sourced')",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank Wellness Plus",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic/quarter (spend-linked)",
+   "main_benefit": "Healthcare-focused card with 3% on pharmacies/chemists plus health check-ups.",
+   "key_benefits": [
+    "Annual fee not waivable per MITC reading",
+    "Health check-up benefits"
+   ],
+   "base_rate": 0.006,
+   "rules": [
+    {
+     "merchants": [
+      "pharmacy",
+      "chemist"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "30 RP/Rs200 at pharmacies/chemists at Rs0.20"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "insurance",
+    "education",
+    "railway",
+    "toll",
+    "fuel",
+    "rent",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/yes-wellness-plus",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: fee Rs1,499 no waiver; forex 3.5%; utility reward cap 450 RP/cycle; Credit-card transactions on jewellery (MCC 5944), insurance (6300,6381), education (8211,8220,8249,8299,8241,8244,7911), railways (4112,4011), tolls (4784), ferry (4111) earn no reward points effective 15 Jun 2026 (issuer notice). Earn rates (30 RP/Rs200 at pharmacies) from aggregators.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "jewellery_unconfirmed": false,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank Wellness Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic/quarter",
+   "main_benefit": "Entry healthcare card: 2% at chemists/pharmacies with annual health and dental check-ups.",
+   "key_benefits": [
+    "Annual health, eye and dental check-ups",
+    "Unlimited consultations",
+    "Card protection plan"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "4 RP per Rs200 on other spends at assumed Rs0.20/RP.",
+     "rate_best": 0.005
+    },
+    {
+     "merchants": [
+      "pharmacy",
+      "chemist"
+     ],
+     "categories": [],
+     "rate": 0.02,
+     "desc": "20 RP per Rs200 at chemist/pharmacy stores (YES Wellness usage guide, assumed Rs0.20/RP)."
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "insurance",
+    "education",
+    "railway",
+    "toll",
+    "fuel",
+    "rent",
+    "government",
+    "emi"
+   ],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: 499/499, forex 3.5%. YES usage guide: 20 RP per Rs200 at chemists, 4 RP elsewhere; 1% fuel waiver Rs500-3,000 from 15 Jun 2026. Credit-card transactions on jewellery (MCC 5944), insurance (6300,6381), education (8211,8220,8249,8299,8241,8244,7911), railways (4112,4011), tolls (4784), ferry (4111) earn no reward points effective 15 Jun 2026 (issuer notice).",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES First Preferred Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 999,
+   "fee_waiver_spend": 250000,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Older YES premium card (Rs2,499 fee) now archived.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "jewellery",
+    "insurance",
+    "education",
+    "railway",
+    "toll"
+   ],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/yes-bank-credit-cards",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: no longer sourced; annual Rs999, waiver Rs2.5L; forex 2.0% (from 15 Jun 2026); fuel waiver Rs500-5,000. Jewellery (5944) earns no points from 15 Jun 2026. Previous 'discontinued' relabelled closed_to_new (existing cardholders continue).",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18: 'Joining fees not applicable since cards are no longer sourced')",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: discontinued -> closed_to_new",
+     "annual_fee: 2499 -> 999",
+     "forex_markup: None -> 0.02",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "issuer": "YES Bank",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "source_type": "official",
+   "name": "YES Prosperity Cashback Plus Credit Card",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1499,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Older YES cashback-branded card with Rs1,499 fee and no fee waiver; reward terms not found.",
+   "key_benefits": [
+    "Fuel waiver Rs500-3,000, cap Rs100/statement (MITC)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "jewellery_unconfirmed": true,
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "sources": [
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf?download=false",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "status_source": null,
+   "eligibility": null,
+   "point_value_inr": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf?download=false",
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   },
+   "confidence": "medium",
+   "notes": "MITC v18: fee Rs1,499, no waiver, forex 3.5%, fuel waiver Rs500-3,000. Aggregators say discontinued (not confirmed by issuer -> unknown). Reported earn: 5% utilities via YES PayNow, 5% groceries/movies up to Rs100/cycle, ~0.5-0.75% base (aggregator; conflicting). Jewellery not in the 15-Jun-2026 exclusion list."
+  },
+  {
+   "name": "YES Bank BYOC Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Quarterly domestic visit (with plan)",
+   "main_benefit": "Build-your-own card: pick 1% cashback or 8 RP/Rs200, with optional monthly perk plans.",
+   "key_benefits": [
+    "Eco version Rs249, metal Rs3,499 one-time",
+    "Monthly plans Rs99/149/249",
+    "Free ET Prime on first anniversary"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC v18: BYOC Cashback monthly fee Rs99, Rewards Rs49, one-time card fee NIL (Regular)/Rs249 (Eco)/Rs3,499 (Metal); optional plans Rs99/149/249 per month; reissue Rs349 eco / Rs3,599 metal. Forex 3.5%. Jewellery (5944) earns no RP on BYOC rewards variant from 15 Jun 2026. Utility reward cap 600 RP/cycle (BYOC Rewards).",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18 BYOC fee tables)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining_fee: 249 -> 0",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank UNI Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Uni",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Uni co-brand entry card with zero forex markup and a Rs500/cycle-capped fuel surcharge waiver; Uni Coin reward rate not confirmed from an official document.",
+   "key_benefits": [
+    "Annual fee Rs499 waived on Rs50,000 spend in the 12 months before anniversary",
+    "Joining fee nil",
+    "No foreign currency or DCC charges on Uni variant (YES MITC)",
+    "Fuel surcharge waiver 1%, max Rs500 per statement cycle"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "Flat 1% Uni cashback/coins per aggregator (Paisabazaar); not confirmed in an official document."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://webcdn.uni.club/nxwave/docs/CC_YesBank_MITC.pdf",
+    "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards/uni-credit-card",
+    "https://www.uni.cards/credit-card-key-facts/yesbank/",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official: joining NIL (waiver spend Rs5,000 in 30 days), annual Rs499 waived at Rs50,000 spend, forex and DCC not applicable (0%), utility fee above Rs50k/month, fuel fee above Rs50k/month. Fuel waiver 1% to Rs7,500 cap Rs500/month per aggregator. Jewellery unconfirmed.",
+   "point_value_inr": {
+    "cash": 0.01,
+    "best": 0.01,
+    "note": "UNCONFIRMED for YES variant; BOBCARD GoldX MITC values 1 Uni Coin = Rs0.01"
+   },
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "eligibility": "Not stated in documents read",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://webcdn.uni.club/nxwave/docs/CC_YesBank_MITC.pdf",
+     "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards/uni-credit-card",
+     "https://www.uni.cards/credit-card-key-facts/yesbank/",
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   },
+   "jewellery_unconfirmed": true
+  },
+  {
+   "name": "YES Bank FinBooster Credit Card",
+   "issuer": "YES Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "BankBazaar",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free BankBazaar co-brand built for credit-score building, with CreditStrong subscription.",
+   "key_benefits": [
+    "Free CreditStrong subscription",
+    "Rs250 voucher on activation",
+    "Rs2.5 lakh credit shield"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "jewellery",
+    "insurance",
+    "education",
+    "railway",
+    "toll"
+   ],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: NIL/NIL (RuPay virtual/FinBooster), forex 3.5% from 15 Jun 2026. Credit-card transactions on jewellery (MCC 5944), insurance (6300,6381), education (8211,8220,8249,8299,8241,8244,7911), railways (4112,4011), tolls (4784), ferry (4111) earn no reward points effective 15 Jun 2026 (issuer notice). Reward rates not found.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "issuer": "YES Bank",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "source_type": "official",
+   "name": "YES Bank ANQ Phi Credit Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "ANQ",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": "3 international/yr (third-party)",
+   "main_benefit": "ANQ co-brand card with 24 RP/Rs200 on OTT, cable, travel, dining, grocery, apparel; points redeemable mainly into ANQ coins/digital gold, so cash value is not published.",
+   "key_benefits": [
+    "No joining fee; Rs499+GST annual fee waived on Rs1,20,000 annual spend (MITC)",
+    "Fuel waiver Rs500-3,000, cap Rs300/statement (MITC)",
+    "No reward cap (BankBazaar, unconfirmed)"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "dining",
+      "groceries"
+     ],
+     "rate": null,
+     "desc": "24 RP/Rs200 on OTT, cable, digital goods, travel, dining, hotels, fast food, groceries, apparel, entertainment; other categories 3-4 RP/Rs200 (sources differ). Point value in INR not published; rate left null rather than assuming Rs0.20."
+    }
+   ],
+   "excludes": [],
+   "jewellery_unconfirmed": true,
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "sources": [
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf?download=false",
+    "https://www.bankbazaar.com/credit-card/yes-bank-anq-phi-credit-card.html",
+    "https://www.paisabazaar.com/yes-bank/anq-pi-phi-credit-card/",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "eligibility": "Age 21-60; min monthly salary ~Rs25,000 (BankBazaar, unconfirmed)",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "Not published. Third-party says redemption only into market-linked assets (digital gold / ANQ coins), no statement credit."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf?download=false",
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Official MITC: joining NIL, annual Rs499 waived at Rs1.2L (shared with Paisabazaar PaisaSave); forex 3.5%; fuel waiver Rs500-3,000. Reward details from aggregator only (existing rule retained). Jewellery unconfirmed."
+  },
+  {
+   "name": "YES Bank POP CLUB Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "POP (POPclub)",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 399,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "RuPay co-brand with 10 POPcoins/Rs100 online and Rs5,000 of joining vouchers.",
+   "key_benefits": [
+    "Joining benefits worth Rs5,000 (Blinkit, Cleartrip, Zomato Gold Mini)",
+    "1,500 bonus POPcoins on Rs1.5L spend",
+    "UPI on RuPay"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: joining NIL, annual Rs399 waived at Rs1.5L; forex 3.5%. Reward terms not found. Jewellery unconfirmed.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank RIO Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": "Rio",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "2 domestic/quarter",
+   "main_benefit": "Lifetime-free RuPay card with UPI-on-credit and 2 domestic lounge visits per quarter.",
+   "key_benefits": [
+    "UPI via any QR",
+    "Fuel surcharge waiver"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Not in YES MITC v18 variant list; unverified.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: active -> unknown"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank Klick RuPay Credit Card",
+   "issuer": "YES Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Kiwi",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Virtual lifetime-free RuPay card issued via Kiwi with UPI cashback.",
+   "key_benefits": [
+    "100% virtual",
+    "UPI cashback (aggregator: 1.5%)",
+    "EMI on Call"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "upi"
+     ],
+     "categories": [],
+     "rate": 0.015,
+     "desc": "1.5% UPI cashback per one aggregator; unverified, rate not on bankbazaar page"
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "insurance",
+    "education",
+    "railway",
+    "toll"
+   ],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: NIL/NIL, forex 3.5%. Credit-card transactions on jewellery (MCC 5944), insurance (6300,6381), education (8211,8220,8249,8299,8241,8244,7911), railways (4112,4011), tolls (4784), ferry (4111) earn no reward points effective 15 Jun 2026 (issuer notice). Rewards: 2 RP/Rs200 non-UPI; UPI up to 4 RP/Rs200 or 1.5% cashback (Kiwi variant) - conflicting aggregators; existing 1.5% UPI rule retained as low confidence.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18 lists Klick, NIL/NIL)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "forex_markup: 0.0275 -> 0.035",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank EMI Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Auto-EMI conversion card with 1% cashback on non-EMI spends.",
+   "key_benefits": [
+    "Auto-EMI at 18% p.a.",
+    "1% EMI processing fee"
+   ],
+   "base_rate": 0.01,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: 499/499, annual waiver Rs1.2L, forex 3.5%, fuel waiver Rs500-3,000. Rewards not found; jewellery unconfirmed.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank First Business Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Business card with lounges, golf and reward points on business and personal spends.",
+   "key_benefits": [
+    "Domestic and international lounges",
+    "Golf privileges",
+    "Purchase protection"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: 999/999; joining waiver Rs20,000 spend, annual waiver Rs3L; forex 2.0% (from 15 Jun 2026); fuel waiver Rs500-5,000; lounge threshold Rs75,000/quarter. Rewards not found; jewellery unconfirmed.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "forex_markup: None -> 0.02",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank Prosperity Business Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Business card with 8 RP/Rs200 on travel/dining and 10,000 bonus points on Rs6L spend.",
+   "key_benefits": [
+    "Quarterly lounge visit",
+    "Golf benefits",
+    "1% fuel waiver",
+    "Rs3 lakh credit shield"
+   ],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "dining"
+     ],
+     "rate": 0.016,
+     "desc": "8 RP/Rs200 on air travel, hotels, dining, car rental at assumed Rs0.20; monthly cap exists (amount unknown)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/yes-bank-credit-card.html",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: 499/499; waivers Rs10,000 (joining) / Rs1L (annual); forex 3.0% (from 15 Jun 2026); fuel waiver Rs500-5,000. Existing 0.4% rule from aggregator. Jewellery unconfirmed.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "forex_markup: None -> 0.03",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST Gaj",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12500,
+   "annual_fee": 12500,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": 0.0,
+   "lounge_access": "4 domestic (incl. 1 guest) + 4 global lounge visits per quarter; 4 railway lounge visits/quarter",
+   "main_benefit": "Invite-only metal card: 5 RP/Rs150 domestic (Rs0.25/RP), up to 50 RP/Rs150 on hotels via the app at Re1/RP, zero forex.",
+   "key_benefits": [
+    "12,500 RP on annual fee payment",
+    "Golf: up to 24 rounds/lessons/yr",
+    "Fuel waiver up to Rs300/cycle",
+    "Trip cancellation cover Rs50,000"
+   ],
+   "base_rate": 0.00833,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.00833,
+     "desc": "5 RP per Rs150 on domestic spends at Rs0.25/RP; Re1/RP only for travel via app.",
+     "rate_best": 0.0333
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.0017,
+     "desc": "1 RP per Rs150 on insurance, utilities, rent, government, wallet load, railways, FASTag, education (domestic and international)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.005,
+     "desc": "Up to 3 RP per Rs150 on international spends at Rs0.25/RP."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.083,
+     "desc": "50 RP per Rs150 (45 bonus + 5 base) on hotel bookings via IDFC FIRST app (Re1/RP = ~33% best; Rs0.25 base).",
+     "rate_best": 0.333,
+     "portal_only": true
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-gaj",
+    "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read (no MITC: IDFC MITC PDF is image-only/scanned, 14 MB, no text extractable). Fee waiver at Rs10L annual spend. Zero forex on all IDFC cards (issuer banner).",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj (apply page live)",
+   "eligibility": "Invite only",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 1.0,
+    "note": "Rs1/RP on hotel & flight via FIRST Rewards Gallery in app; Rs0.25 elsewhere (issuer page)"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST Private",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 50000,
+   "annual_fee": 25000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic and international (DreamFolks), 4 guest visits/yr domestic",
+   "main_benefit": "Invite-only metal card: 10X (10 RP per Rs150) eligible domestic spends, zero forex, unlimited lounges.",
+   "key_benefits": [
+    "Rs1,500/month BookMyShow benefit",
+    "No spend milestones from 17 Jul 2026"
+   ],
+   "base_rate": 0.0167,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0167,
+     "desc": "10X = 10 RP per Rs150 at Rs0.25/RP on eligible domestic spends (page's older block lists 6X/3X up to Rs30k/month and 10X above - conflict, 10X retained).",
+     "rate_best": 0.0667
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0083,
+     "desc": "5X on eligible international spends."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "bill_payments"
+     ],
+     "rate": 0.0017,
+     "desc": "1X on rent, education, utilities, insurance, government, FASTag, wallet load, railways, gift vouchers and jewellery (earns, does not exclude)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/FIRSTPrivateCreditCard",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-first-private",
+    "https://www.idfcfirst.bank.in/credit-card/FIRSTPrivateCreditCard"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Jewellery explicitly earns only 1X. Commencement fee Rs50,000+GST gives 50,000 RP (up to Rs50,000 in redemption); annual Rs25,000 from year 2. Milestone benefits discontinued 17 Jul 2026. IDFC MITC is image-only.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/FIRSTPrivateCreditCard (apply page live; 'milestones discontinued 17 Jul 2026' banner)",
+   "eligibility": "Invitation only",
+   "jewellery_unconfirmed": false,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 1.0,
+    "note": "Re1 for travel via app; Rs0.25 elsewhere"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/FIRSTPrivateCreditCard",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST Diamond Reserve",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.0,
+   "lounge_access": "2 domestic + 2 global per quarter; each month unlocked by Rs20,000 spend in previous month",
+   "main_benefit": "Premium travel card: 3X (3 RP/Rs150) up to Rs20,000/month, 10X above, zero forex, 2+2 lounge visits per quarter.",
+   "key_benefits": [
+    "Fuel waiver up to Rs300/month",
+    "Trip cancellation cover Rs25,000",
+    "BOGO movie twice/month (Rs250)",
+    "Golf: 2 rounds/lessons/month",
+    "Joining & annual Rs3,000; annual waived at Rs6L"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "3 RP per Rs150 on spends up to Rs20,000 per statement cycle (Rs0.25/RP); 10X above Rs20,000.",
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 20000,
+       "rate": 0.005
+      },
+      {
+       "from_inr": 20000,
+       "to_inr": null,
+       "rate": 0.0167
+      }
+     ],
+     "period": "statement",
+     "rate_best": 0.0167
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.005,
+     "desc": "3X on Education, Wallet Load, Government, Rent and Property Management (no 10X)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0167,
+     "desc": "Travel bookings via IDFC FIRST app: up to 20% bonus RP on hotels, 10% on flights; up to ~27% value at Re1/RP.",
+     "rate_best": 0.27,
+     "portal_only": true
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-diamond-reserve",
+    "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; MITC image-only. Utility/insurance treatment not stated for this card in page text.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card (apply page live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 1.0,
+    "note": "Rs1/RP on app travel; Rs0.25 elsewhere"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST IndiGo Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "IndiGo dual card (Mastercard+RuPay): 3 BluChips/Rs100 on other spends, up to 22 on IndiGo flights, zero forex.",
+   "key_benefits": [
+    "Joining voucher 5,000 BluChips (+5,000 extra Oct 2026 offer)",
+    "3,000 BluChips on Rs1L spend in 90 days",
+    "Milestone vouchers up to 25,000 BluChips/yr (Rs2L,5L,8L,10L,12L)",
+    "FD option: Rs0 joining with min Rs50k FD (year 1)"
+   ],
+   "base_rate": 0.012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.012,
+     "desc": "3 BluChips per Rs100 on other spends (excl. categories below); BluChip Rs0.40 conservative, ~Re1 best.",
+     "rate_best": 0.03
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments",
+      "fuel"
+     ],
+     "rate": 0.002,
+     "desc": "0.5 BluChip per Rs100 on UPI spends and on insurance, fuel, utility, rent, wallet, FASTag, education, railway, government."
+    },
+    {
+     "merchants": [
+      "indigo",
+      "goindigo.in"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.024,
+     "desc": "Up to 22 BluChips per Rs100 on IndiGo flights via IndiGo site/app (6 from card + up to 16 from IndiGo by tier).",
+     "rate_best": 0.22
+    }
+   ],
+   "excludes": [
+    "cash",
+    "emi"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-indigo",
+    "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; MITC image-only. BluChip INR value not official.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card (apply page live; dual Mastercard+RuPay)",
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 1.0,
+    "note": "IndiGo-set; 7,500 BluChips ~ one free flight base fare (issuer calculator assumption)"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST IndiGo Secured Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "IndiGo",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "FD-backed option of the IndiGo IDFC FIRST dual card: Rs0 joining with minimum Rs50,000 FD, same BluChip earn.",
+   "key_benefits": [],
+   "base_rate": 0.012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.012,
+     "desc": "3 BluChips per Rs100 on other spends (same as non-FD variant); BluChip Rs0.40 conservative.",
+     "rate_best": 0.03
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-indigo",
+    "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Same product page as IDFC FIRST IndiGo Credit Card; free first year with min Rs50k FD, annual Rs4,999+GST from 2nd year; assured approval.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card ('Option 2: Rs0 joining fee with FD' - min Rs50k FD)",
+   "point_value_inr": {
+    "cash": 0.4,
+    "best": 1.0,
+    "note": "IndiGo-set"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual_fee: None -> 4999",
+     "joining_fee: None -> 0",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST Club Vistara",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Vistara co-brand closed 30 Sep 2026; holders migrated to Diamond Reserve.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/vistara-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-first-club-vistara",
+    "https://www.idfcfirst.bank.in/credit-card/vistara-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer page confirms programme end 30 Sep 2026 (Vistara merged into Air India). Fees/earn not re-read.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/vistara-credit-card ('programme will end on 30 Sep 2026 and no longer be available for transactions from 1 Oct 2026')",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/vistara-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST WOW! Black",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 750,
+   "annual_fee": 750,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.0,
+   "lounge_access": "Domestic lounge unlocked by Rs20,000 monthly spend",
+   "main_benefit": "FD-backed premium card with zero forex, lounge access and up to 16.7% bonus RP on app travel bookings.",
+   "key_benefits": [
+    "Welcome benefits worth Rs5,000+",
+    "Fuel waiver up to Rs200/month",
+    "Trip cancellation Rs10,000/yr",
+    "Up to 4X on international spends"
+   ],
+   "base_rate": 0.0067,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "emi",
+    "cash_advance"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-wow-black",
+    "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: joining Rs750+GST, annual Rs750 waived at Rs1.5L. Base earn rate not stated on page text -> existing 0.67% retained unverified.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card (apply page live)",
+   "eligibility": "FD-backed (secured premium card)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "1 RP = Rs0.50 on travel via IDFC app (page); Rs0.25 elsewhere assumed"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST EARN",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "FD-backed virtual RuPay card: 1% cashback on UPI via IDFC app, 0.5% on other UPI/online, cap Rs500/cycle.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "upi"
+     ],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% cashback on UPI spends via IDFC FIRST mobile app (cards issued on/after 16 Dec 2025).",
+     "cap_inr": 500,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "0.5% on UPI via other apps and all online spends; 0.5% on international spends and on utility, insurance, wallet load; total cashback capped Rs500 per statement cycle.",
+     "cap_inr": 500,
+     "period": "statement"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-earn",
+    "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page: joining Rs0 (limited offer; Rs499+GST list), annual Rs499 waived at Rs1L spend; min FD Rs5,000; 100% of FD as limit; virtual card only. Name on issuer: FIRST EA₹N.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card (apply page live, 'EA₹N')",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST Quantum+",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free FD-backed card: 2% cashback on online spends above Rs10,000/cycle, 1% otherwise, capped Rs500/cycle.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "Online spends: 1% up to Rs10,000 per statement cycle, 2% above Rs10,000; total cashback capped at Rs500 per statement cycle.",
+     "channel": "online",
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 10000,
+       "rate": 0.01
+      },
+      {
+       "from_inr": 10000,
+       "to_inr": null,
+       "rate": 0.02
+      }
+     ],
+     "cap_inr": 500,
+     "period": "statement",
+     "rate_best": 0.02
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% on in-store purchases and on UPI Scan & Pay via IDFC FIRST app; counts toward Rs500 cap.",
+     "channel": "offline",
+     "cap_inr": 500,
+     "period": "statement"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery",
+      "bill_payments"
+     ],
+     "rate": 0.005,
+     "desc": "0.5% on utility bills, wallet loads, insurance, jewellery, government services and rent.",
+     "cap_inr": 500,
+     "period": "statement"
+    }
+   ],
+   "excludes": [
+    "emi",
+    "cash",
+    "upi_third_party_apps"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: jewellery earns 0.5% (reduced, not excluded). Earn up to 2% cashback on international spends too; zero forex. No cashback on EMI, ATM cash, UPI via third-party apps. IDFC MITC image-only.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card (apply page live)",
+   "jewellery_unconfirmed": false,
+   "eligibility": "FD from Rs5,000; credit limit = 100% of FD; no income proof",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/quantum-plus-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "forex_markup: 0.035 -> 0.0",
+     "confidence: low -> high"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST SWYP",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Up to 16 railway/yr",
+   "main_benefit": "EMI-focused entry card with monthly milestone rewards up to 4,000 RP (Rs1,000) and flat-fee EMI conversion.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "Monthly milestone RP (non-incremental): 200 RP above Rs5k, 1,000 RP at ~Rs16k, up to 4,000 RP above Rs60k; Rs0.25/RP -> ~1% to 1.67%; max Rs1,000 per month.",
+     "cap_inr": 1000,
+     "period": "month",
+     "rate_best": 0.0167
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.007,
+     "desc": "Education, FASTag and railway spends: 400 RP on Rs20,000, 800 RP on Rs40,000 per cycle (no regular milestone)."
+    }
+   ],
+   "excludes": [
+    "cash",
+    "fuel_for_milestone",
+    "emi"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/swyp-emi-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-swyp",
+    "https://www.idfcfirst.bank.in/credit-card/swyp-emi-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page; intermediate milestone values not stated. Fee also Rs199 UPI-powered variant.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/swyp-emi-credit-card (apply page live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "1 RP = Rs0.25"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/swyp-emi-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST LIC Select",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "2 domestic airport + 4 railway lounge visits per quarter",
+   "main_benefit": "Lifetime-free: 10X on LIC premiums (via licindia.in), 5X on other spends (1% at Rs0.25/RP).",
+   "key_benefits": [
+    "2,000 RP on Rs10,000 in 30 days",
+    "5% cashback up to Rs1,000 on first EMI",
+    "Fuel waiver 1% (txn Rs200-5,000) up to Rs300/month"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "5X = 5 RP per Rs125 on all other spends at Rs0.25/RP.",
+     "rate_best": 0.04
+    },
+    {
+     "merchants": [
+      "licindia.in"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.02,
+     "desc": "10X on LIC insurance premium paid through licindia.in only."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.01,
+     "desc": "5X on essentials (grocery, utilities, railways, FASTag, education, government) up to 600 RP per month (Rs150).",
+     "cap_inr": 150,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "non_lic_insurance",
+    "emi",
+    "cash"
+   ],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-lic-select",
+    "https://www.idfcfirst.bank.in/credit-card/lic-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: points need minimum due paid (from 18 Jan 2026); validity 3 years. Gold/jewellery not eligible for EMI conversion (rewards on jewellery not stated).",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card (apply page live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 1.0,
+    "note": "Rs0.25/RP; app travel bookings bonus up to 40%"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST LIC Classic",
+   "issuer": "IDFC FIRST Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "1 domestic airport + 2 railway/quarter",
+   "main_benefit": "LIC co-brand entry card with 1.2% on LIC premiums.",
+   "key_benefits": [],
+   "base_rate": 0.006,
+   "rules": [
+    {
+     "merchants": [
+      "licindia.in"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.012,
+     "desc": "LIC premium via licindia.in"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-lic-classic",
+    "https://www.idfcfirst.bank.in/credit-card/lic-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page FAQ: no joining/annual fee on LIC IDFC FIRST cards. Classic-specific reward table not in page text; existing 1.2% LIC / 0.6% base retained unverified. Fuel/rent/non-LIC insurance/EMI/cash earn nothing (page general note).",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card ('LIC Classic & LIC Select' page)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST Digital RuPay Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 199,
+   "annual_fee": 199,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Add-on virtual RuPay card for UPI with 0.38% reward, needs existing IDFC card.",
+   "key_benefits": [],
+   "base_rate": 0.0038,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/rupay-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/cards/idfc-digital-rupay",
+    "https://www.idfcfirst.bank.in/credit-card/rupay-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page: joining & annual (2nd yr) Rs199+GST; Rs200 cashback on first 4 UPI txns (not for no-fee issuances). Earn: 1 RP/Rs150 on UPI per sister pages at Rs0.25 (~0.17%); existing 0.38% retained unverified; UPI txns below Rs2,000 earn differently.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/rupay-credit-card",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/credit-card/rupay-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank Niyo Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Niyo",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Niyo app co-branded lifetime-free card targeting zero forex markup and Niyo Coins rewards.",
+   "key_benefits": [
+    "Zero forex markup (claimed)",
+    "Niyo Coins rewards"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardinsider.com/yes-bank/niyo-credit-card/",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official MITC: NIL/NIL; forex and DCC not applicable to NIYO; utility fee above Rs50k/month. Reward terms not found; jewellery unconfirmed.",
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18 lists NIYO variant, NIL/NIL)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status: unknown -> active",
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "IDFC FIRST Business Multiplier Credit Card",
+   "issuer": "IDFC FIRST Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.0,
+   "lounge_access": "8 complimentary visits/year tied to Rs20,000 min monthly spend",
+   "main_benefit": "Business card: up to 10 RP per Rs200 on business payments/GST (Rs0.25/RP = 1.25%), 45-day interest-free.",
+   "key_benefits": [
+    "Launched May 2026; credit limit secured by FD",
+    "Up to 10 reward points per Rs200 on business categories",
+    "Travel bookings via IDFC ecosystem: 7.5% value-back hotels, 4.4% flights",
+    "0% forex; interest-free global ATM withdrawals",
+    "Rewards restructured from 18 Jun 2026: earned only up to credit limit per cycle"
+   ],
+   "base_rate": 0.0125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0125,
+     "desc": "Up to 10 RP per Rs200 across categories at Rs0.25/RP; +up to 30% on app travel.",
+     "rate_best": 0.0125
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idfcfirst.bank.in/credit-card/business-multiplier-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/Business-Multiplier-Product-Guide.pdf",
+    "https://www.tribuneindia.com/news/business/idfc-first-bank-launches-business-multiplier-credit-card-for-founders-entrepreneurs/",
+    "https://www.idfcfirst.bank.in/credit-card/business-multiplier-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: joining Rs1,000+GST, annual Rs1,000 waived at Rs5L; complimentary FIRST Digital RuPay card (up to 3 RP). Category exclusions not read.",
+   "status_source": "https://www.idfcfirst.bank.in/credit-card/business-multiplier-credit-card (apply page live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "1 RP = Rs0.25"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/Business-Multiplier-Product-Guide.pdf",
+     "https://www.tribuneindia.com/news/business/idfc-first-bank-launches-business-multiplier-credit-card-for-founders-entrepreneurs/",
+     "https://www.idfcfirst.bank.in/credit-card/business-multiplier-credit-card",
+     "IDFC MITC PDF is image-only (no text extractable)"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   }
+  },
+  {
+   "name": "YES Bank RazorpayX Purchase Credit Card",
+   "issuer": "YES Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "RazorpayX",
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Business purchase card via RazorpayX for startups, with up to 50 days interest-free credit.",
+   "key_benefits": [
+    "No joining or annual fee (cardinsider)",
+    "Up to 50 days interest-free",
+    "1% fuel surcharge waiver Rs400-5,000"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/business-cards/yes-bank-razorpayx-purchase-credit-card/",
+    "https://razorpay.com/docs/x/capital/corporate-cards/ybl-onboarding/",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Not in YES MITC v18 variant list; only third-party listing (cardinsider). Status unknown.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://razorpay.com/docs/x/capital/corporate-cards/ybl-onboarding/",
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "details added/re-confirmed"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Bank eSvarna Corporate Card",
+   "issuer": "IndusInd Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Complimentary lounge access (counts not found)",
+   "main_benefit": "India's first RuPay corporate credit card (launched Dec 2023), UPI-enabled for corporate expense control.",
+   "key_benefits": [
+    "UPI-enabled corporate credit card",
+    "Fuel surcharge waiver",
+    "Travel insurance cover",
+    "Corporate rewards programme"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/in/en/about-us/mediabrand/FY/2023-2024/December/eSvarna.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/in/en/about-us/mediabrand/FY/2023-2024/December/eSvarna.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer press release only (Dec 2023); no fee/reward terms found. Status active unconfirmed by product page.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/about-us/mediabrand/FY/2023-2024/December/eSvarna.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "details added/re-confirmed"
+    ]
+   }
+  },
+  {
+   "name": "IndusInd Fortuna AdvantEdge Card",
+   "issuer": "IndusInd Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "IndusInd commercial/corporate card with company-name embossing and consolidated corporate statement billing.",
+   "key_benefits": [
+    "Dedicated relationship manager",
+    "Consolidated statement; single payment by company",
+    "24x7 customer service"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indusind.bank.in/in/en/personal/cards/commercial-cards/fortuna-advantedge-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.indusind.bank.in/in/en/personal/cards/commercial-cards/fortuna-advantedge-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Commercial card page on issuer site; no fee/reward terms published.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indusind.bank.in/in/en/personal/cards/commercial-cards/fortuna-advantedge-card.html"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "details added/re-confirmed"
+    ]
+   }
+  },
+  {
+   "issuer": "YES Bank",
+   "data_status": "unverified",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "source_type": "official",
+   "name": "YES Bank PaisaSave Credit Card",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Paisabazaar",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 120000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Paisabazaar co-brand cashback card: 3% on major online merchants (cap Rs5,000/month then 1.5%) and about 1% on other eligible spends; RuPay UPI variant exists.",
+   "key_benefits": [
+    "No joining fee; Rs499+GST annual fee waived on Rs1,20,000 spend (MITC)",
+    "Fuel waiver Rs500-3,000, cap Rs250/statement (MITC)",
+    "Reward redemption fee waived (MITC)",
+    "Reported Dec-2025 revamp: 6% on dining/travel capped Rs3,000/month (third party, conflicting)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "nykaa",
+      "swiggy",
+      "zomato",
+      "tata cliq",
+      "ajio"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "channel": "online",
+     "rate": 0.03,
+     "cap_inr": 5000,
+     "period": "month",
+     "desc": "3% cashback on online spends at partner platforms; after Rs5,000 cashback in a month, 1.5% (launch terms, Paisabazaar/press 2024). 1 point = Re1 assumed. Not officially re-verified."
+    }
+   ],
+   "excludes": [
+    "utilities",
+    "insurance",
+    "fuel",
+    "rent",
+    "wallet_load",
+    "education",
+    "jewellery",
+    "railways",
+    "emi",
+    "government"
+   ],
+   "jewellery_unconfirmed": true,
+   "source_url": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf",
+   "sources": [
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf?download=false",
+    "https://www.paisabazaar.com/credit-card/compare-cashback-sbi-yes-bank-paisasave/",
+    "https://cardexpress.in/reviews/yes-paisasave",
+    "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+   ],
+   "status_source": "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf (MITC v18: Paisabazaar Paisasave)",
+   "eligibility": "Strict approval for existing YES customers (third party); salary criteria not found",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Cashback points assumed 1 point = Re1 (third party); not confirmed in MITC."
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf?download=false",
+     "https://cardexpress.in/reviews/yes-paisasave",
+     "https://www.yes.bank.in/sites/web/content/published/api/v1.1/assets/CONTAA57595B2EF245259C4C623B1F7D33B3/native/ybl_mitc_pdf.pdf"
+    ],
+    "result": "confirmed",
+    "changes": [
+     "confidence: low -> medium"
+    ]
+   },
+   "confidence": "medium",
+   "notes": "Official MITC: joining NIL, annual Rs499 waived at Rs1.2L; forex 3.5%; reward redemption fee waived. Earn 1% from aggregator (existing rule retained). Jewellery unconfirmed."
+  }
+ ],
+ "gaps": [
+  "IDFC FIRST MITC (MITC-Document-Customer.pdf, 14MB) is image-only: no text; fees/rates taken from official card pages instead -> no IDFC card is 'high' except Quantum+ (full terms on page).",
+  "Kotak KFS PDFs extract without the fee tables for some cards; Kotak Air forex %, Kotak UPI RuPay fees ('NA'), NRI Royale joining fee/forex not confirmed.",
+  "Kotak Veer, Metro Kotak, Fortune Gold: no issuer page found -> status unknown. Kotak Infinite: KFS exists (Signature/Infinite, nil fee) but 'Wealth Infinite' page says discontinued -> unknown.",
+  "IndusInd Legacy/Indulge reward point rupee value not stated by issuer; Indulge earn rate ambiguous (1.5 RP/Rs100 sidebar). IndusInd Platinum RuPay fee conflict (MITC Rs10,000 vs lifetime-free marketing).",
+  "IndusInd Club Vistara Explorer, CRED Sovereign, eSvarna, Fortuna AdvantEdge: no current issuer terms; status unknown.",
+  "YES Bank: individual product pages are JS-rendered and not retrievable; MITC v18 (5 Oct 2026) and 15-Jun-2026 notice used for fees/forex/exclusions; earn rates for Essence, Wellness Plus, UNI, Klick, ANQ Phi, POP CLUB, EMI, First Business, Prosperity Business, PaisaSave, FinBooster, Niyo remain aggregator-only. YES Rio / RazorpayX Purchase not in MITC -> unknown.",
+  "IndiGo BluChip rupee value is set by IndiGo and not official (used Rs0.40 conservative, Re1 best).",
+  "IDFC EARN/Digital RuPay/LIC Classic/WOW Black base earn rates not found on pages; existing aggregator values retained.",
+  "Jewellery/gold (MCC 5944/5094) earn status explicitly confirmed only for: YES cards named in the 15-Jun-2026 notice (excluded), IDFC FIRST Private (1X), IDFC Quantum+ (0.5%). Others flagged jewellery_unconfirmed."
+ ]
+}

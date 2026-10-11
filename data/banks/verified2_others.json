@@ -1,0 +1,3882 @@
+{
+ "cards": [
+  {
+   "name": "Utkarsh Wish Credit Card",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "PhonePe",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry PhonePe-UPI credit card: 3% on PhonePe bill payments/recharges (cap Rs 150/statement month), 1% on listed online brands and offline Scan & Pay, Rs 200 milestone at Rs 15,000 monthly spend.",
+   "key_benefits": [
+    "3% on PhonePe bill pay/recharge/FASTag/DTH/electricity etc, max 150 points (Rs150) per statement month",
+    "1% on Amazon, Flipkart, Myntra, Ajio, Nykaa, Swiggy, Zomato, District, Urban Company via PhonePe UPI, cap 200 points (Rs200) per month",
+    "1% on offline merchants via PhonePe Scan & Pay, cap 150 points (Rs150) per month",
+    "Milestone: 200 points (Rs200) on Rs 15,000 spend in a statement month (30-day hold)",
+    "Min txn Rs 100 for cashback",
+    "No joining/annual fee",
+    "Late fee 10% of dues capped Rs 1,250; interest 3%/month, revised to 3.5%/month from 21-Jun-2026"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [
+      "phonepe"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.03,
+     "cap_inr": 150,
+     "period": "statement",
+     "min_txn_inr": 100,
+     "desc": "3% on UPI bill payments via PhonePe (mobile recharge, FASTag, DTH, cable, electricity, postpaid, broadband, prepaid meter, piped gas). 1 point=Re1; cap 150 points per statement month."
+    },
+    {
+     "merchants": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "ajio",
+      "nykaa",
+      "swiggy",
+      "zomato",
+      "district",
+      "urban company"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "cap_inr": 200,
+     "period": "statement",
+     "min_txn_inr": 100,
+     "desc": "1% on UPI spends via PhonePe at preferred merchants; cap 200 points per statement month."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "cap_inr": 150,
+     "period": "statement",
+     "min_txn_inr": 100,
+     "channel": "offline",
+     "desc": "1% on offline merchants via PhonePe Scan & Pay; cap 150 points per statement month. Only UPI-on-card via PhonePe earns."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0133,
+     "cap_inr": 200,
+     "period": "statement",
+     "desc": "Milestone: 200 points (Rs200) once per statement month at Rs 15,000 spend (~1.3% of the milestone spend); modelled as flat bonus.",
+     "milestone": true
+    }
+   ],
+   "excludes": [
+    "jewellery",
+    "gold",
+    "government",
+    "agriculture",
+    "contractor_services",
+    "rent",
+    "wallet_load",
+    "gift_cards",
+    "vouchers",
+    "insurance",
+    "post_office",
+    "transit",
+    "utilities",
+    "education",
+    "fuel",
+    "cash_advance",
+    "card_fees",
+    "emi"
+   ],
+   "source_url": "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card",
+    "https://www.utkarsh.bank.in/xsite/assests/personal_credit_card/Wish_Credit_Card_MITC.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rates/caps/exclusions from MITC v21-May-2026. Gold/jewellery explicitly excluded. Utilities excluded in exclusion list but PhonePe bill-payment categories (electricity etc) earn 3% per reward clause; conflict noted, kept as stated reward clause. Network not stated in MITC.",
+   "status_source": "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card (official page lists Wish as live; apply via PhonePe app)",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Each reward point = Re 1, claimed as cashback into PhonePe account (MITC); min 50 points to claim; points valid 12 months"
+   },
+   "eligibility": "Individual with PAN, mobile, email; Indian resident; 18-80 (FD-backed variant); applied digitally via PhonePe app (virtual card). Physical card fee Rs 249+tax.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Wish_Credit_Card_MITC.pdf v21-May-2026",
+     "Wish_KFS.pdf",
+     "https://www.utkarsh.bank.in/personal/cards/credit-card/wish-credit-card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status unknown->active (official page live)",
+     "added UPI-cashback rules, caps, exclusions incl. gold/jewellery, forex 3.5%",
+     "network still unstated"
+    ]
+   }
+  },
+  {
+   "name": "Utkarsh SFB SmartGen Credit Card",
+   "issuer": "Utkarsh Small Finance Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 199,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Entry card for existing Utkarsh customers: 1% cashback on eligible spends, 1% fuel surcharge refund, first-year free.",
+   "key_benefits": [
+    "1st year no annual fee; Rs199+tax from year 2, waived at Rs 50,000 spend in prior year",
+    "No joining fee",
+    "1% cashback on eligible transactions",
+    "1% fuel surcharge refund on txns Rs400-5,000, max Rs400 per statement cycle (GST not refunded)",
+    "Interest-free up to 50 days; late fee Rs500; interest up to 3.6%/month"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.01,
+     "desc": "1% cashback on all eligible transactions (cashback credited as statement credit). Exact monthly cap not stated in pages read."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.utkarsh.bank.in/personal/cards/credit-card/smartgen",
+   "source_type": "official",
+   "sources": [
+    "https://www.utkarsh.bank.in/personal/cards/credit-card/smartgen",
+    "https://www.utkarsh.bank.in/xsite/assests/personal_credit_card/Credit_Card_MITC.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + MITC schedule read; cashback eligibility/exclusion list for SmartGen not found in MITC text; jewellery unconfirmed. Wish MITC (a different card) excludes gold/jewellery. Forex surcharge 3% per MITC schedule.",
+   "status_source": "https://www.utkarsh.bank.in/personal/cards/credit-card/smartgen (official page lists SmartGen live, pre-approved invite to existing customers)",
+   "eligibility": "Existing Utkarsh customers (current/savings/FD/loan account); pre-approved/pre-qualified link by email; Indian resident; age 21-65 (unsecured), 18-65 (FD-backed).",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Credit_Card_MITC.pdf v2.1 (schedule of charges)",
+     "SmartGen_KFS.pdf",
+     "https://www.utkarsh.bank.in/personal/cards/credit-card/smartgen"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active confirmed on official page",
+     "fees, waiver, 1% cashback, fuel surcharge refund added",
+     "eligibility existing customers/pre-approved"
+    ]
+   }
+  },
+  {
+   "name": "Suryoday SFB RuPay Select Credit Card",
+   "issuer": "Suryoday Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Stable Money",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 150,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.025,
+   "lounge_access": "Complimentary airport lounge access (physical card only) per official page",
+   "main_benefit": "FD-backed RuPay card with 0.5% cashback and nil joining fee; annual fee Rs150 waived on Rs50,000 annual spend.",
+   "key_benefits": [
+    "0.5% cashback on eligible spends (official page)",
+    "Joining fee nil; annual fee Rs150+GST, waived at Rs50,000 annual spend; physical card issuance Rs499+GST",
+    "1% fuel surcharge levied; waiver limited to Rs40,000 fuel spend/month, max Rs8,000 per txn",
+    "1% surcharge on rent payments (max 40% of limit/month)",
+    "Instant virtual card",
+    "Forex surcharge 2.5%",
+    "PA insurance up to Rs10 lakh; gym, spa, golf, health check-up, 24/7 concierge"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "0.5% cashback on eligible purchases, credited to statement. Monthly cap and exclusion list not stated in MITC/KFS (generic cash back clause)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-select/",
+   "source_type": "official",
+   "sources": [
+    "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-select/",
+    "https://suryoday.bank.in/assets/pdf/mitc-select-26-may.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + MITC/KFS 26-May-2026 read. Earlier aggregator (stablemoney) said lifetime free; official page says lifetime-free* with asterisk, MITC shows Rs150 annual fee waivable by spend; kept MITC. Cashback exclusions (jewellery etc.) not stated.",
+   "status_source": "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-select/ (official apply page live, KFS/MITC dated 26-May-2026)",
+   "eligibility": "Secured (FD-backed): resident individual 18-80 with existing un-liened, non-corporate, non-tax-saver FD with Suryoday SFB; apply via mobile banking app. Select variant for FD above Rs1,15,000.",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-select/",
+     "https://suryoday.bank.in/assets/pdf/mitc-select-26-may.pdf",
+     "https://suryoday.bank.in/assets/pdf/kfs-select-26-may.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee Rs150+GST waived at Rs50000 annual spend (MITC 26-May-2026)",
+     "forex 2.5%",
+     "fuel surcharge 1% levied (waiver cap Rs40k/month, max Rs8k/txn), rental surcharge 1%",
+     "FD requirement/eligibility added"
+    ]
+   }
+  },
+  {
+   "name": "Suryoday SFB RuPay Platinum Credit Card",
+   "issuer": "Suryoday Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Stable Money",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 150,
+   "fee_waiver_spend": 20000,
+   "forex_markup": 0.025,
+   "lounge_access": "Flight discounts and lounge access listed on official page (terms not quantified)",
+   "main_benefit": "FD-backed RuPay card with 0.5% cashback and nil joining fee; annual fee Rs150 waived on Rs20,000 annual spend.",
+   "key_benefits": [
+    "0.5% cashback on eligible spends (official page)",
+    "Joining fee nil; annual fee Rs150+GST, waived at Rs20,000 annual spend; physical card issuance Rs299+GST",
+    "1% fuel surcharge levied; waiver limited to Rs40,000 fuel spend/month, max Rs8,000 per txn",
+    "1% surcharge on rent payments (max 40% of limit/month)",
+    "Instant virtual card",
+    "Forex surcharge 2.5%",
+    "PA insurance and permanent disability cover up to Rs2 lakh; concierge"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.005,
+     "desc": "0.5% cashback on eligible purchases, credited to statement. Monthly cap and exclusion list not stated in MITC/KFS (generic cash back clause)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+   "source_type": "official",
+   "sources": [
+    "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+    "https://suryoday.bank.in/assets/pdf/mitc-platinum-26-may.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + MITC/KFS 26-May-2026 read. Earlier aggregator (stablemoney) said lifetime free; official page says lifetime-free* with asterisk, MITC shows Rs150 annual fee waivable by spend; kept MITC. Cashback exclusions (jewellery etc.) not stated.",
+   "status_source": "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/ (official apply page live, KFS/MITC dated 26-May-2026)",
+   "eligibility": "Secured (FD-backed): resident individual 18-80 with existing un-liened, non-corporate, non-tax-saver FD with Suryoday SFB; apply via mobile banking app. ",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://suryoday.bank.in/personal/cards/credit-cards/secured-ssfb-rupay-platinum/",
+     "https://suryoday.bank.in/assets/pdf/mitc-platinum-26-may.pdf",
+     "https://suryoday.bank.in/assets/pdf/kfs-platinum-26-may.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee Rs150+GST waived at Rs20000 annual spend (MITC 26-May-2026)",
+     "forex 2.5%",
+     "fuel surcharge 1% levied (waiver cap Rs40k/month, max Rs8k/txn), rental surcharge 1%",
+     "FD requirement/eligibility added"
+    ]
+   }
+  },
+  {
+   "name": "KVB Platinum Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 599,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry Visa Platinum card with 2 reward points per Rs150 and fuel surcharge waiver; annual fee Rs599 waived at Rs1 lakh prior-year spend.",
+   "key_benefits": [
+    "500 bonus points on activation",
+    "2 reward points per Rs150 spent; 1.5x on restaurants, medical, books, insurance, rail, movies, car rental",
+    "Fuel surcharge waiver (1% of txn, max Rs200/cycle, txns Rs500-4,000)",
+    "Annual fee Rs599 (not Rs999) waived on Rs1 lakh spend in prior year; EMI and balance transfer"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-platinum-credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-platinum-credit-card/",
+    "https://www.kvb.bank.in/docs/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC 2026 schedule: Visa Platinum joining nil, annual Rs599, waiver at Rs1.00 lakh retail spend. Point value not published; rate left null. Exclusions (jewellery etc.) not stated; net spends for waiver exclude fuel, EMI, fees, cash.",
+   "status_source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-platinum-credit-card/ (official card page live, listed in MITC schedule of charges)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "KVB does not publish INR value per point; Rs99 redemption fee, min 2,000 points first redemption (MITC)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-platinum-credit-card/",
+     "https://www.kvb.bank.in/docs/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee corrected to MITC schedule",
+     "status confirmed from official page",
+     "forex markup from MITC",
+     "reward construct added (point value not published)"
+    ]
+   }
+  },
+  {
+   "name": "KVB Honour Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 999,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "4 complimentary domestic lounge visits per year (official page)",
+   "main_benefit": "Visa Signature card with 3 points per Rs150, 4 domestic lounge visits and 700 bonus points; annual fee Rs999 waived at Rs3 lakh spend.",
+   "key_benefits": [
+    "4 complimentary domestic airport lounge visits",
+    "700 bonus points on activation",
+    "3 reward points per Rs150; 2x on restaurants, medical, books, insurance, rail, movies, car rental; 4x on travel/hotels/air tickets",
+    "Annual fee Rs999 waived on Rs3 lakh prior-year spend; credit limit Rs1.5-10 lakh"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-honour-credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-honour-credit-card/",
+    "https://www.kvb.bank.in/docs/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC schedule says Visa Signature (Honor) annual Rs999 (aggregators said 1299). Point value unpublished.",
+   "status_source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-honour-credit-card/ (official card page live, listed in MITC schedule of charges)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "KVB does not publish INR value per point; Rs99 redemption fee, min 2,000 points first redemption (MITC)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/kvb-honour-credit-card/",
+     "https://www.kvb.bank.in/docs/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee corrected to MITC schedule",
+     "status confirmed from official page",
+     "forex markup from MITC",
+     "reward construct added (point value not published)"
+    ]
+   }
+  },
+  {
+   "name": "KVB Corporate Credit Card",
+   "issuer": "Karur Vysya Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 1,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Corporate/business card for MSMEs with 2 reward points per Rs100 and fuel surcharge waiver.",
+   "key_benefits": [
+    "2 reward points per Rs100",
+    "Visa Business: joining Rs1, annual nil; Visa Platinum corporate: annual Rs1,000, no waiver",
+    "Fuel surcharge refund 2% of txn max Rs300/cycle (txns Rs400-4,000)",
+    "Up to 45 days grace; per-card limit allocation by corporate",
+    "Partner offers (Lenovo, Hotels.com, Treebo, Cleartrip, Zoho, Google Ads)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/business/products/cards/kvb-corporate-credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.kvb.bank.in/business/products/cards/kvb-corporate-credit-card/",
+    "https://www.kvb.bank.in/docs/mitc-english.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Two corporate variants in MITC (Platinum Business: joining Rs1, annual nil; Platinum: annual Rs1,000). Point value unpublished.",
+   "status_source": "https://www.kvb.bank.in/business/products/cards/kvb-corporate-credit-card/ (official page live)",
+   "eligibility": "Corporate/MSME entities: proprietors, partners, directors and employees; corporate liability",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kvb.bank.in/business/products/cards/kvb-corporate-credit-card/",
+     "https://www.kvb.bank.in/docs/mitc-english.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee per MITC: Platinum Business joining Rs1 annual nil; Platinum(Visa Platinum corporate) annual Rs1,000",
+     "2 points per Rs100; forex 3.5%; fuel surcharge 2%"
+    ]
+   }
+  },
+  {
+   "name": "Karur Vysya SBI Gold Credit Card",
+   "issuer": "Karur Vysya Bank (with SBI Card)",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry co-brand card: 10X points (2.5%) on dining, movies, department stores and groceries, 1% fuel surcharge waiver.",
+   "key_benefits": [
+    "2,000 bonus points on Rs2,000 spend in first 60 days",
+    "Rs100 cashback on first ATM withdrawal within 30 days",
+    "Annual fee Rs499 reversed on Rs1 lakh spend",
+    "1% fuel surcharge waiver on txns Rs500-3,000"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "desc": "10 points per Rs100 on dining, movies, departmental stores and grocery; 1 point = Rs0.25 => 2.5%. Caps not stated."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-gold-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-gold-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official KVB product page read (undated, no MITC/SBI Card T&C read): 1 point per Rs100 elsewhere (0.25%). Forex markup, exclusions, caps not stated.",
+   "status_source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-gold-card/ (official KVB page lists card live)",
+   "eligibility": "Annual income Rs4 lakh and above",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Each reward point = Rs0.25 (KVB page); redeem for dues or catalogue"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-gold-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee/waiver, reward construct and Rs0.25 point value from official KVB page",
+     "income eligibility added"
+    ]
+   }
+  },
+  {
+   "name": "Karur Vysya SBI Platinum Credit Card",
+   "issuer": "Karur Vysya Bank (with SBI Card)",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Complimentary domestic and international lounge visits (counts not found)",
+   "main_benefit": "Co-brand Visa Platinum with 5X points on dining, grocery, departmental and international spend, welcome voucher and Priority Pass.",
+   "key_benefits": [
+    "Rs3,000 welcome e-gift voucher",
+    "Complimentary Priority Pass membership ($99) and Visa lounge programme",
+    "5X points (10 points per Rs100, 2.5%) on dining, grocery, department stores and international",
+    "2 points per Rs100 elsewhere (0.5%)",
+    "Milestone rewards at Rs4 lakh and Rs5 lakh annual spend (amount not stated)",
+    "1% fuel surcharge waiver on txns Rs500-4,000"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries",
+      "international"
+     ],
+     "rate": 0.025,
+     "desc": "5X = 10 points per Rs100 on dining, grocery, departmental and international spends at Rs0.25 per point (2.5%). Caps not stated."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-platinum-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-platinum-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official KVB product page read (undated, no MITC/SBI Card T&C read): Renewal Rs2,999; annual fee waiver rule not stated. Forex markup, exclusions, caps not stated.",
+   "status_source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-platinum-card/ (official KVB page lists card live)",
+   "eligibility": "Annual income Rs8 lakh and above",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Each reward point = Rs0.25 (KVB page); redeem for dues or catalogue"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-platinum-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee/waiver, reward construct and Rs0.25 point value from official KVB page",
+     "income eligibility added"
+    ]
+   }
+  },
+  {
+   "name": "Karur Vysya SBI Signature Credit Card",
+   "issuer": "Karur Vysya Bank (with SBI Card)",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": 1000000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Premium co-brand Visa Signature with 5X dining/grocery/international points, annual milestone bonuses and BookMyShow offer.",
+   "key_benefits": [
+    "Rs3,000 welcome e-gift voucher (page also headlines Rs5,000)",
+    "Rs500 BookMyShow offer monthly (max Rs250/ticket, 2 tickets)",
+    "Priority Pass ($99) and Visa lounge access",
+    "Bonus points: 10,000 at Rs3-4 lakh spend, 15,000 at Rs5-8 lakh; up to 50,000 (Rs12,500)/year",
+    "Annual fee Rs4,999 reversed on Rs10 lakh spend",
+    "1% fuel surcharge waiver on txns Rs500-4,000"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries",
+      "international"
+     ],
+     "rate": 0.025,
+     "desc": "5X = 10 points per Rs100 on dining, grocery, departmental and international at Rs0.25/point (2.5%). Caps not stated."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-signature-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-signature-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official KVB product page read (undated, no MITC/SBI Card T&C read): Welcome voucher value inconsistent on page (Rs3,000 vs Rs5,000 headline). Forex markup, exclusions, caps not stated.",
+   "status_source": "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-signature-card/ (official KVB page lists card live)",
+   "eligibility": "Annual income Rs8 lakh and above",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Each reward point = Rs0.25 (KVB page); redeem for dues or catalogue"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.kvb.bank.in/personal/cards/kvb-credit-cards/co-branded-kvb-sbi-credit/kvb-sbi-signature-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee/waiver, reward construct and Rs0.25 point value from official KVB page",
+     "income eligibility added"
+    ]
+   }
+  },
+  {
+   "name": "South Indian Bank SimplySAVE SBI Card",
+   "issuer": "South Indian Bank (with SBI Card)",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry co-brand card: 10 points per Rs100 (up to 2.5% value) on dining, movies, department stores and groceries, 1 point per Rs100 elsewhere.",
+   "key_benefits": [
+    "2,000 bonus points on Rs2,000 spend in 60 days (brochure/aggregator)",
+    "Annual fee Rs500 (aggregators Rs499), waived on Rs1 lakh previous-year spend from year 2",
+    "1% fuel surcharge waiver on txns Rs500-3,000, max Rs100 per month per account",
+    "Fuel, cash and balance-transfer excluded from reward points"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries"
+     ],
+     "rate": 0.025,
+     "desc": "10 points per Rs100 on dining, movies, departmental stores, grocery (2.5% at Re0.25/point). Caps not stated."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_advance",
+    "balance_transfer"
+   ],
+   "source_url": "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/banking-partnership/sib-platinum-credit-card/south-indian-bank-simplysave-e-brochure.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/banking-partnership/sib-platinum-credit-card/south-indian-bank-simplysave-e-brochure.pdf",
+    "https://www.bankbazaar.com/credit-card/sbi-simply-save-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official SBI Card brochure is undated and legacy-branded; joining fee assumed equal to annual (aggregators). Forex markup not found. SIB page not readable (403).",
+   "status_source": "SBI Card co-brand brochure/page lists it; SIB site blocked (Cloudflare) so live status not confirmed on SIB site",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Brochure: 10 points per Rs100 = up to 2.5% value back => Re0.25 per point"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/sbi-card-en/assets/docs/pdf/personal/credit-cards/banking-partnership/sib-platinum-credit-card/south-indian-bank-simplysave-e-brochure.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "reward construct, fuel waiver cap, fee/waiver added from SBI Card brochure (undated, branded LVB legacy)"
+    ]
+   }
+  },
+  {
+   "name": "South Indian Bank SBI Platinum Card",
+   "issuer": "South Indian Bank (with SBI Card)",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "SBI Card",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Co-brand Visa Platinum: accelerated points on dining/grocery/department-store spends, Rs3,000 welcome voucher, lounge visits.",
+   "key_benefits": [
+    "Welcome e-gift voucher Rs3,000 (aggregator)",
+    "Annual spend milestones Rs4 lakh and Rs5 lakh each give Rs3,000 e-gift voucher",
+    "2 points per Rs100 base; accelerated 5X on dining, movies, department stores, grocery (aggregators); accelerated cap 7,500 points/month (SBI page snippet)",
+    "Domestic lounge: 2 visits per quarter (limited-period Visa offer)",
+    "1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbicard.com/en/personal/credit-cards/banking-partnership/south-india-bank-sbi-platinum-card.page",
+   "source_type": "official",
+   "sources": [
+    "https://www.sbicard.com/en/personal/credit-cards/banking-partnership/south-india-bank-sbi-platinum-card.page",
+    "https://www.wishfin.com/south-indian-bank-sbi-platinum-credit-card-6435/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee schedule from third-party listing dated Nov 2023; SBI/SIB official pages could not be read. Fee waiver, exclusions unconfirmed.",
+   "status_source": "SBI Card official co-brand page listed in search results (content JS-rendered, not read); SIB page blocked",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "SBI Card co-brand points typically Re0.25 (consistent with KVB SBI Platinum page); not confirmed for this card"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sbicard.com/en/personal/credit-cards/banking-partnership/south-india-bank-sbi-platinum-card.page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/rewards from aggregator and search snippet of SBI Card page"
+    ]
+   }
+  },
+  {
+   "name": "CUB SalarySe Level Up Credit Card",
+   "issuer": "City Union Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "SalarySe",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "Physical (paid) variant: RuPay domestic lounge list per CUB Aug-2026 document; quantity not read",
+   "main_benefit": "RuPay credit-on-UPI card for salaried users earning SalarySe Scoins (37.5% on salary days, 10%/5% otherwise on SalarySe UPI spends).",
+   "key_benefits": [
+    "Two variants: lifetime-free virtual (joining/annual nil) and paid physical+virtual (Rs500+GST joining, Rs500 annual waived at Rs2 lakh spend)",
+    "Scoins on SalarySe UPI spends: 5%/10%, 37.5% on 1st and last day of month (bank page)",
+    "Forex: 2% lifetime-free, 1% paid variant",
+    "Interest 3.5%/month; rent surcharge 1%; 1% fuel fee on cumulative fuel spend >= Rs50,000 per cycle",
+    "Add-on card Rs500+GST"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "salaryse"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "Bank page: 5% (below Rs20,000 monthly spend) / 10% (above) on SalarySe UPI spends, 37.5% on 1st and last day of month; one third-party lists Rs15,000 eligible-spend cap on salary-day bonus. Conservative 5% used."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.cityunionbank.bank.in/cub-salaryse-level-up-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.cityunionbank.bank.in/cub-salaryse-level-up-credit-card",
+    "https://www.cityunionbank.bank.in/filemanager/Nov25/MITC_Salary_SE.pdf",
+    "https://www.cityunionbank.bank.in/filemanager/Nov25/KFS_Salary_SE.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/forex now from official KFS/MITC Nov-2025. Reward Scoins terms and exclusions not in MITC text; earn rates retained from bank page. Lifetime_free left null because card has paid and free variants.",
+   "status_source": "https://www.cityunionbank.bank.in/cub-salaryse-level-up-credit-card (official page live; MITC/KFS Nov-2025)",
+   "eligibility": "Salaried users onboarded via SalarySe app (credit-on-UPI style)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.cityunionbank.bank.in/filemanager/Nov25/MITC_Salary_SE.pdf",
+     "https://www.cityunionbank.bank.in/filemanager/Nov25/KFS_Salary_SE.pdf",
+     "https://www.cityunionbank.bank.in/cub-salaryse-level-up-credit-card",
+     "rupay_lounge_CUB_Salaryse_levelup_physical.pdf (Aug26)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees resolved from official KFS: lifetime-free variant nil/nil; paid variant Rs500 joining + Rs500 annual (waived at Rs2 lakh spend)",
+     "forex 2% (lifetime-free) / 1% (paid)",
+     "fuel: 1% waiver; 1% fuel fee if fuel spend >=Rs50,000/cycle"
+    ]
+   }
+  },
+  {
+   "name": "Equitas Tiga",
+   "issuer": "Equitas Small Finance Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 120000,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Entry digital card: 3X points on UPI, contactless and Pay-by-3 merchants (about 0.3-0.45%), low annual fee, 1% fuel surcharge waiver.",
+   "key_benefits": [
+    "Limited-period lifetime-free offer (listed fee Rs500+GST); renewal waived at Rs1.2 lakh prior-year spend",
+    "3 points per Rs100 on UPI, contactless and Pay-by-3 merchants; 1 point per Rs100 otherwise",
+    "1 RP = Rs0.15 (travel/vouchers), Rs0.10 cashback; min 500 points for cashback, Rs99 redemption fee, 24-month validity",
+    "Fuel surcharge waiver 1% (max Rs100/cycle, txns Rs500-3,000)",
+    "Pay by 3: auto 3-month EMI at partner merchants; intro APR 0.99%/month for 3 months",
+    "Up to 50 days interest-free"
+   ],
+   "base_rate": 0.001,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.003,
+     "rate_best": 0.0045,
+     "desc": "3 RP per Rs100 on UPI, contactless and Pay-by-3 merchants at Rs0.10 (cash) / Rs0.15 (vouchers). Applies to listed channels only; caps not stated."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://equitas.bank.in/personal-banking/pay/credit-cards/tiga-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://equitas.bank.in/personal-banking/pay/credit-cards/tiga-credit-card",
+    "https://equitas.bank.in/strapi-dev/uploads/MITC_V1_1_51dd02b756.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network and forex markup not on page read; fee shown is list fee, current promo lifetime-free. MITC/KFS PDFs not readable (site blocks). Exclusions list not read.",
+   "status_source": "https://equitas.bank.in/personal-banking/pay/credit-cards/tiga-credit-card (official card page live; read 2026-10-11/12 from saved copy, site now blocks bots)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.1,
+    "best": 0.15,
+    "note": "Equitas page FAQ: Rs0.15 travel/vouchers, Rs0.10 cashback redemption"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://equitas.bank.in/personal-banking/pay/credit-cards/tiga-credit-card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "rates, point values, fuel waiver, fee waiver from official page"
+    ]
+   }
+  },
+  {
+   "name": "Equitas Selfe",
+   "issuer": "Equitas Small Finance Bank",
+   "network": "Visa/RuPay (customer choice)",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 240000,
+   "forex_markup": null,
+   "lounge_access": "1 complimentary domestic lounge visit per calendar quarter",
+   "main_benefit": "Customisable card: 5X points (about 3.5%) on 2 chosen categories of apparel, dining, grocery, utility, taxi, plus 2 complimentary OTT memberships.",
+   "key_benefits": [
+    "First year free limited-period offer; Rs1,000+GST otherwise; renewal waived at Rs2.4 lakh prior-year spend",
+    "Choose 2 of 5 categories for 5X points; base 2 RP per Rs100",
+    "1 RP = Rs0.35 (issuer statement)",
+    "Choose 2 memberships (Amazon Prime, JioHotstar, SonyLiv, Zee5) claimable within 90 days",
+    "1 domestic lounge visit per quarter",
+    "Fuel surcharge waiver 1% (max Rs250/cycle, txns Rs500-3,000)",
+    "Metal card option (Rs3,500 extra per aggregator)"
+   ],
+   "base_rate": 0.007,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries",
+      "bill_payments"
+     ],
+     "rate": 0.035,
+     "desc": "5X = 10 RP per Rs100 on the 2 categories chosen from apparel, dining (MCC 5462/5812/5814), grocery, utility, taxi (MCC 4121); at Rs0.35/RP => 3.5%. Only chosen categories; cap not stated."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card",
+    "https://equitas.bank.in/strapi-dev/uploads/MITC_V1_1_51dd02b756.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Utility 5X category conflicts with typical utility exclusion; terms not read. Forex markup, caps, exclusions not on page. Joining fee reversal for Selfe on Rs60,000 spend in 90 days (not for first-year-free/LTF variants) per FAQ.",
+   "status_source": "https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card (official card page live; read 2026-10-11/12 from saved copy, site now blocks bots)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.35,
+    "best": 0.35,
+    "note": "Page states 1 RP = Rs0.35; redemption via Xchange portal"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://equitas.bank.in/personal-banking/pay/credit-cards/selfe-credit-card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "5X category choice, 1RP=Rs0.35, lounge, fuel waiver, fee waivers from official page"
+    ]
+   }
+  },
+  {
+   "name": "Equitas PowerMiles",
+   "issuer": "Equitas Small Finance Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": 480000,
+   "forex_markup": 0.02,
+   "lounge_access": "2 domestic + 1 international complimentary visits per quarter (40+ domestic, 1000+ international lounges)",
+   "main_benefit": "Travel card: 3X points on international spends, 2% forex markup, quarterly lounge visits, Club Marriott and EazyDiner memberships.",
+   "key_benefits": [
+    "Joining Rs5,000+GST reversed on Rs1.2 lakh spend in 90 days; renewal waived at Rs4.8 lakh prior-year spend",
+    "3 RP per Rs100 on international (3X); 1 RP = Rs0.50",
+    "1:1 transfer to airline/hotel partners (feature live from Mar 2027 per page)",
+    "1:1 burn on e-gift cards: Apple Premium Imagine, Tanishq, Taj, M&S, Body Shop",
+    "Forex markup 2%",
+    "Fuel surcharge waiver 1% (max Rs450/cycle, txns Rs500-3,000)"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.015,
+     "rate_best": 0.015,
+     "desc": "3 RP per Rs100 on international spends at Rs0.50 per RP = 1.5%. Aggregators claim 9 RP per Rs100 international and 3 RP domestic (conflict); page figure used (conservative)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://equitas.bank.in/personal-banking/pay/credit-cards/powermiles-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://equitas.bank.in/personal-banking/pay/credit-cards/powermiles-credit-card",
+    "https://equitas.bank.in/strapi-dev/uploads/MITC_V1_1_51dd02b756.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Conflict with paisabazaar on earn rate; conservative page figure used. Base domestic earn not explicit on page (assumed 1X = 1RP/Rs100). Redeeming for Tanishq jewellery voucher is allowed but jewellery earn exclusion unconfirmed.",
+   "status_source": "https://equitas.bank.in/personal-banking/pay/credit-cards/powermiles-credit-card (official card page live; read 2026-10-11/12 from saved copy, site now blocks bots)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "Page: 1 RP = Rs0.50; paisabazaar says cash redemption 0.25 (unconfirmed)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://equitas.bank.in/personal-banking/pay/credit-cards/powermiles-credit-card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee Rs5,000 with waiver rules, forex 2%, lounge 2 dom + 1 intl per quarter, 1RP=Rs0.50 from official page"
+    ]
+   }
+  },
+  {
+   "name": "Bandhan Sparks",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic lounge visit per quarter (select airports)",
+   "main_benefit": "Entry Mastercard: 0.25% base, 5X on grocery/apparel, quarterly domestic lounge, fuel surcharge waiver.",
+   "key_benefits": [
+    "Rs499+GST annual fee waived at Rs50,000 spend; nil joining fee",
+    "2 RP per Rs200 (0.25%); 5X on grocery and apparel (paisabazaar)",
+    "500 RP welcome on Rs5,000 spend in 30 days",
+    "1 domestic lounge visit per quarter (select airports)",
+    "20% off BookMyShow up to Rs100/month; 1% fuel surcharge waiver; 10% cashback on first EMI"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.0125,
+     "desc": "5X (10 RP per Rs200) on grocery and apparel at Rs0.25/RP = 1.25% (paisabazaar; DesiDime lists only 0.25% flat). Cap unknown."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+    "https://cardinsider.com/bandhan-bank/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network per Business Today: Mastercard portfolio (savesage lists some as Visa/RuPay: conflict). No MITC/KFS read; caps and exclusions unknown.",
+   "status_source": "Launch of Bandhan credit cards Sep 2026 (Business Today, Mastercard partnership); official bandhanbank.com page not readable (card pages at creditcards.bandhan.bank JS-only)",
+   "eligibility": "Income Rs2.5 lakh/yr or more (DesiDime)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Rs0.25 per reward point per DesiDime; Bandhan has not clearly published point value (paisabazaar)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+     "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active (launched Sep 2026)",
+     "fees, waivers, reward rates, lounge, forex, eligibility updated from DesiDime table + paisabazaar/cardinsider"
+    ]
+   }
+  },
+  {
+   "name": "Bandhan Ignite",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 999,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic + 1 international lounge visit per quarter",
+   "main_benefit": "Everyday Mastercard: 0.5% base, 1% on grocery/travel, domestic and international lounge visits.",
+   "key_benefits": [
+    "Rs999+GST annual fee waived at Rs1 lakh; nil joining",
+    "4 RP per Rs200 (0.5%); 2X (1%) on grocery and travel",
+    "1,200 RP milestone on Rs30,000 monthly spend",
+    "1 domestic + 1 international lounge per quarter",
+    "15% off EazyDiner up to Rs500/month; 1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries",
+      "travel"
+     ],
+     "rate": 0.01,
+     "desc": "2X (8 RP per Rs200) on grocery and travel at Rs0.25/RP = 1%. Cap unknown."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+    "https://cardinsider.com/bandhan-bank/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network per Business Today: Mastercard portfolio (savesage lists some as Visa/RuPay: conflict). No MITC/KFS read; caps and exclusions unknown.",
+   "status_source": "Launch of Bandhan credit cards Sep 2026 (Business Today, Mastercard partnership); official bandhanbank.com page not readable (card pages at creditcards.bandhan.bank JS-only)",
+   "eligibility": "Income Rs6 lakh/yr or above (DesiDime)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Rs0.25 per reward point per DesiDime; Bandhan has not clearly published point value (paisabazaar)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+     "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active (launched Sep 2026)",
+     "fees, waivers, reward rates, lounge, forex, eligibility updated from DesiDime table + paisabazaar/cardinsider"
+    ]
+   }
+  },
+  {
+   "name": "Bandhan Flare",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 2499,
+   "annual_fee": 2499,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.0199,
+   "lounge_access": "4 domestic + 1 international lounge visits per quarter",
+   "main_benefit": "Travel Mastercard: 1.25% base, lounge access, golf, 5,000-point welcome bonus.",
+   "key_benefits": [
+    "Rs2,499+GST annual (joining listed same by cardinsider; DesiDime silent), waived at Rs6 lakh spend",
+    "10 RP per Rs200 (1.25%)",
+    "5,000 RP welcome on Rs10,000 in 30 days; 5,000 RP milestone on Rs75,000 monthly",
+    "4 domestic + 1 international lounge per quarter; 4 golf lessons/yr",
+    "25% off BookMyShow up to Rs500/month; 15% off EazyDiner up to Rs750/month; Amazon Pay voucher welcome (BT)"
+   ],
+   "base_rate": 0.0125,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+    "https://cardinsider.com/bandhan-bank/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network per Business Today: Mastercard portfolio (savesage lists some as Visa/RuPay: conflict). No MITC/KFS read; caps and exclusions unknown.",
+   "status_source": "Launch of Bandhan credit cards Sep 2026 (Business Today, Mastercard partnership); official bandhanbank.com page not readable (card pages at creditcards.bandhan.bank JS-only)",
+   "eligibility": "Income Rs12 lakh/yr or above (DesiDime)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Rs0.25 per reward point per DesiDime; Bandhan has not clearly published point value (paisabazaar)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+     "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active (launched Sep 2026)",
+     "fees, waivers, reward rates, lounge, forex, eligibility updated from DesiDime table + paisabazaar/cardinsider"
+    ]
+   }
+  },
+  {
+   "name": "Bandhan Lumina",
+   "issuer": "Bandhan Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 9999,
+   "annual_fee": 9999,
+   "fee_waiver_spend": 1200000,
+   "forex_markup": 0.01,
+   "lounge_access": "8 domestic visits per quarter + unlimited international",
+   "main_benefit": "Premium Mastercard: 2% domestic and 3% international on rewards, 8 domestic and unlimited international lounge visits, Oberoi voucher.",
+   "key_benefits": [
+    "Rs9,999+GST annual waived at Rs12 lakh spend",
+    "16 RP per Rs200 domestic (2%); 24 RP per Rs200 international (3%)",
+    "Rs10,000 e-voucher welcome on Rs20,000 in 30 days (Oberoi per BT); 10,000 RP milestone on Rs1 lakh monthly",
+    "8 domestic per quarter and unlimited international lounge; 4 airport meet & greet; 4 golf rounds/lessons",
+    "25% off BookMyShow and EazyDiner (up to Rs1,000/month each); concierge"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.03,
+     "desc": "24 RP per Rs200 on international at Rs0.25/RP = 3%. Paisabazaar quotes 12% (conflict, treated as unreliable). Cap unknown."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+    "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682",
+    "https://cardinsider.com/bandhan-bank/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Network per Business Today: Mastercard portfolio (savesage lists some as Visa/RuPay: conflict). No MITC/KFS read; caps and exclusions unknown.",
+   "status_source": "Launch of Bandhan credit cards Sep 2026 (Business Today, Mastercard partnership); official bandhanbank.com page not readable (card pages at creditcards.bandhan.bank JS-only)",
+   "eligibility": "Income above Rs18 lakh/yr (DesiDime)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Rs0.25 per reward point per DesiDime; Bandhan has not clearly published point value (paisabazaar)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.businesstoday.in/personal-finance/story/bandhan-bank-launches-4-credit-cards-check-rewards-lounge-access-and-benefits-across-variants-554063-2026-09-09",
+     "https://www.desidime.com/discussions/live-for-all-bandhan-bank-2160682"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active (launched Sep 2026)",
+     "fees, waivers, reward rates, lounge, forex, eligibility updated from DesiDime table + paisabazaar/cardinsider"
+    ]
+   }
+  },
+  {
+   "name": "Bandhan Bank Standard Chartered Credit Card",
+   "issuer": "Bandhan Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Standard Chartered",
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Bandhan-StanChart co-brand; closed to new applications.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/bandhan-bank-standard-chartered-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/bandhan-bank-standard-chartered-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "2019 co-brand/partnership (SC issuing for Bandhan). No official page found listing it; aggregator says discontinued. Not confirmed on issuer site, so status unknown.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.business-standard.com/amp/article/news-cm/bandhan-bank-partners-with-standard-chartered-bank-for-its-foray-into-credit-cards-segment-119082300731_1.html",
+     "https://www.businesstoday.in (Sep 2026 Bandhan own-card launch)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status kept unknown: 2019 partnership news; Bandhan launched own Mastercard cards Sep 2026 and no official wind-down notice found"
+    ]
+   }
+  },
+  {
+   "name": "J&K Bank Eminent Credit Card",
+   "issuer": "Jammu & Kashmir Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 1500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.0199,
+   "lounge_access": "2 domestic per quarter; 1 international per half-year",
+   "main_benefit": "Premium J&K Bank card (earlier World card): 3 points per Rs100 on online travel, apparel, dining and electronics, 1 point elsewhere, lounge access and milestone vouchers.",
+   "key_benefits": [
+    "Annual fee Rs1,500 waived at Rs3 lakh annual spend; no joining fee",
+    "Rs500 voucher on first eligible transaction",
+    "Quarterly Rs750 voucher on spends above Rs1.5 lakh; Rs1,000 dining voucher above Rs6 lakh annually",
+    "2 domestic lounge visits/quarter and 1 international per half-year",
+    "Rs150 monthly food-delivery benefit (min Rs500); BOGO movie tickets up to Rs500/month; Mastercard golf programme",
+    "1% fuel surcharge waiver up to Rs10,000 fuel spend/month; forex 1.99%"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "online_shopping",
+      "dining"
+     ],
+     "rate": null,
+     "desc": "3 reward points per Rs100 on online travel bookings (flights/hotels), apparel, dining and electronics; 1 point per Rs100 elsewhere. INR value per point not published so rate unset. Excludes insurance, education, rent, wallets, fuel, cash, select transport/toll."
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "education",
+    "rent",
+    "wallet_load",
+    "fuel",
+    "cash_advance",
+    "transport_toll"
+   ],
+   "source_url": "https://www.jkbank.com/transactions/services/credit-cards",
+   "source_type": "official",
+   "sources": [
+    "https://www.jkbank.com/transactions/services/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page (MCC exclusions list does not name jewellery). Point value not published, so INR rates left null.",
+   "status_source": "https://www.jkbank.com/transactions/services/credit-cards (official J&K Bank credit card page live with apply link; revised structure effective 01-04-2026)",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "J&K Bank page does not state INR value per reward point"
+   },
+   "jewellery_unconfirmed": true,
+   "eligibility": "Open to individuals; existing World cardholders migrate to Eminent on renewal",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.jkbank.com/transactions/services/credit-cards",
+     "J&K Bank MITC/KFS on same page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active; fees Rs1,500 annual (waiver Rs3 lakh), joining nil, forex 1.99%, 3X categories, lounge, milestones from official page",
+     "replaces earlier World Credit Card"
+    ]
+   }
+  },
+  {
+   "name": "J&K Bank Platinum Privilege Credit Card",
+   "issuer": "Jammu & Kashmir Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0199,
+   "lounge_access": "1 domestic visit per quarter",
+   "main_benefit": "Lifetime-free card for Govt MOU employees: tiered points and quarterly spend vouchers of Rs100-350.",
+   "key_benefits": [
+    "No joining/annual fee",
+    "Rs250 voucher on first eligible transaction",
+    "Quarterly voucher Rs100 (Rs30-49,999), Rs200 (Rs50-74,999), Rs350 (Rs75,000+)",
+    "15% off up to Rs75 monthly at lifestyle/food delivery (min Rs500)",
+    "1% fuel surcharge waiver up to Rs5,000 fuel spend/month; forex 1.99%"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": null,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 15000,
+       "rate": null,
+       "points_per_100": 1
+      },
+      {
+       "from_inr": 15000,
+       "to_inr": null,
+       "rate": null,
+       "points_per_100": 2
+      }
+     ],
+     "desc": "1 point per Rs100 on first Rs15,000 monthly spend; 2 points per Rs100 above. Point INR value not published."
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "education",
+    "rent",
+    "wallet_load",
+    "fuel",
+    "cash_advance",
+    "transport_toll"
+   ],
+   "source_url": "https://www.jkbank.com/transactions/services/credit-cards",
+   "source_type": "official",
+   "sources": [
+    "https://www.jkbank.com/transactions/services/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Existing record had Rs0 fees (ok). Card is employee-restricted, not generally available.",
+   "status_source": "https://www.jkbank.com/transactions/services/credit-cards (official J&K Bank credit card page live with apply link; revised structure effective 01-04-2026)",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "J&K Bank page does not state INR value per reward point"
+   },
+   "jewellery_unconfirmed": true,
+   "eligibility": "Only Govt MOU employees (earlier Government Card)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.jkbank.com/transactions/services/credit-cards",
+     "J&K Bank MITC/KFS on same page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "restricted to Govt MOU employees; nil fees; tiered points (1 per Rs100 up to Rs15,000/month, 2 per Rs100 above); quarterly vouchers"
+    ]
+   }
+  },
+  {
+   "name": "J&K Bank Platinum Credit Card",
+   "issuer": "Jammu & Kashmir Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic visits per year (1 per half-year)",
+   "main_benefit": "Entry J&K Bank card: 2 points per Rs100 on online, department store, pharmacy and utility spends, 1 point elsewhere; fee waived at Rs1 lakh.",
+   "key_benefits": [
+    "Annual Rs500 waived at Rs1 lakh annual spend; no joining fee",
+    "Rs250 voucher on first eligible transaction; Rs500 voucher on quarterly spends above Rs75,000",
+    "2 domestic lounge visits per year",
+    "10% off up to Rs50 monthly on utility bills",
+    "1% fuel surcharge waiver up to Rs5,000 fuel spend/month; forex 3.5%"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "online_shopping",
+      "bill_payments"
+     ],
+     "rate": null,
+     "desc": "2 points per Rs100 on online transactions, department stores, pharmacy/medical and utility payments; 1 point per Rs100 elsewhere. INR point value not published. (Utility listed as accelerated category though other cards' exclusion list is silent on utilities.)"
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "education",
+    "rent",
+    "wallet_load",
+    "fuel",
+    "cash_advance",
+    "transport_toll"
+   ],
+   "source_url": "https://www.jkbank.com/transactions/services/credit-cards",
+   "source_type": "official",
+   "sources": [
+    "https://www.jkbank.com/transactions/services/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Replaces aggregator Rs500 annual (consistent).",
+   "status_source": "https://www.jkbank.com/transactions/services/credit-cards (official J&K Bank credit card page live with apply link; revised structure effective 01-04-2026)",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "J&K Bank page does not state INR value per reward point"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.jkbank.com/transactions/services/credit-cards",
+     "J&K Bank MITC/KFS on same page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee Rs500 waived at Rs1 lakh, forex 3.5%, 2X on online/department store/pharmacy/utility, lounge 2/yr from official page"
+    ]
+   }
+  },
+  {
+   "name": "Dhanlaxmi Bank Dhan Vriddhi Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 400,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic lounge visit per half-year",
+   "main_benefit": "Entry RuPay Platinum card on UPI with Rs400 fee waived at Rs50,000 spend and 5% grocery cashback (max Rs50/cycle).",
+   "key_benefits": [
+    "Credit Card on UPI",
+    "Welcome bonus 1000 points on spends above Rs10,000 within 90 days",
+    "2 reward points per Rs100; 1 point = Rs0.05",
+    "5% cashback on grocery spends, max Rs50 per billing cycle",
+    "EMI conversion offer",
+    "Nil joining fee; annual fee Rs400 waived at Rs50,000 spend"
+   ],
+   "base_rate": 0.001,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "cap_inr": 50,
+     "period": "statement",
+     "desc": "5% cashback on grocery spends, max Rs50 per billing cycle (official page)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/rupay-cc-Dhan-Vriddhi",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/",
+    "https://www.dhan.bank.in/rupay-cc-Dhan-Vriddhi"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official card page read (T&C PDFs linked but not read); base earn 2 points per Rs100 at Rs0.05 = 0.1%. Forex, exclusions not read.",
+   "status_source": "https://www.dhan.bank.in/credit-card/ (official Dhanlaxmi Bank credit card page lists card with Apply link)",
+   "point_value_inr": {
+    "cash": 0.05,
+    "best": 0.05,
+    "note": "Redemption of reward points @ Rs0.05/point (official card page)"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dhan.bank.in/credit-card/",
+     "https://www.dhan.bank.in/rupay-cc-Dhan-Vriddhi"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active confirmed on official page",
+     "fees, waiver, rewards, point value Rs0.05, lounge from official page",
+     "Dhan Vriddhi is the RuPay Platinum card"
+    ]
+   }
+  },
+  {
+   "name": "Dhanlaxmi Bank RuPay Platinum Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 400,
+   "fee_waiver_spend": 50000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic lounge visit per half-year",
+   "main_benefit": "Entry RuPay Platinum card on UPI with Rs400 fee waived at Rs50,000 spend and 5% grocery cashback (max Rs50/cycle).",
+   "key_benefits": [
+    "Credit Card on UPI",
+    "Welcome bonus 1000 points on spends above Rs10,000 within 90 days",
+    "2 reward points per Rs100; 1 point = Rs0.05",
+    "5% cashback on grocery spends, max Rs50 per billing cycle",
+    "EMI conversion offer",
+    "Nil joining fee; annual fee Rs400 waived at Rs50,000 spend"
+   ],
+   "base_rate": 0.001,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "cap_inr": 50,
+     "period": "statement",
+     "desc": "5% cashback on grocery spends, max Rs50 per billing cycle (official page)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/rupay-cc-Dhan-Vriddhi",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/",
+    "https://www.dhan.bank.in/rupay-cc-Dhan-Vriddhi"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official card page read (T&C PDFs linked but not read); base earn 2 points per Rs100 at Rs0.05 = 0.1%. Forex, exclusions not read.",
+   "status_source": "https://www.dhan.bank.in/credit-card/ (official Dhanlaxmi Bank credit card page lists card with Apply link)",
+   "point_value_inr": {
+    "cash": 0.05,
+    "best": 0.05,
+    "note": "Redemption of reward points @ Rs0.05/point (official card page)"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dhan.bank.in/credit-card/",
+     "https://www.dhan.bank.in/rupay-cc-Dhan-Vriddhi"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active confirmed on official page",
+     "fees, waiver, rewards, point value Rs0.05, lounge from official page",
+     "Same card as Dhan Vriddhi (RuPay Platinum); duplicate listing"
+    ]
+   }
+  },
+  {
+   "name": "Dhanlaxmi Bank Dhan Samriddhi Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 800,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic visit per quarter and 1 abroad per half-year",
+   "main_benefit": "RuPay Select card on UPI with lounge access, Rs800 fee waived at Rs1 lakh spend and 5% grocery cashback (max Rs50/cycle).",
+   "key_benefits": [
+    "Credit Card on UPI",
+    "Welcome bonus 1000 points on spends above Rs10,000 within 90 days",
+    "2 reward points per Rs100; 1 point = Rs0.05",
+    "5% cashback on grocery spends, max Rs50 per billing cycle",
+    "EMI conversion offer",
+    "Nil joining fee; annual fee Rs800 waived at Rs100,000 spend"
+   ],
+   "base_rate": 0.001,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "cap_inr": 50,
+     "period": "statement",
+     "desc": "5% cashback on grocery spends, max Rs50 per billing cycle (official page)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/rupay-CC-Dhan-Samriddhi",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/",
+    "https://www.dhan.bank.in/rupay-CC-Dhan-Samriddhi"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official card page read (T&C PDFs linked but not read); base earn 2 points per Rs100 at Rs0.05 = 0.1%. Forex, exclusions not read.",
+   "status_source": "https://www.dhan.bank.in/credit-card/ (official Dhanlaxmi Bank credit card page lists card with Apply link)",
+   "point_value_inr": {
+    "cash": 0.05,
+    "best": 0.05,
+    "note": "Redemption of reward points @ Rs0.05/point (official card page)"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dhan.bank.in/credit-card/",
+     "https://www.dhan.bank.in/rupay-CC-Dhan-Samriddhi"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active confirmed on official page",
+     "fees, waiver, rewards, point value Rs0.05, lounge from official page",
+     "Dhan Samriddhi is the RuPay Select card"
+    ]
+   }
+  },
+  {
+   "name": "Dhanlaxmi Bank RuPay Select Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 800,
+   "fee_waiver_spend": 100000,
+   "forex_markup": null,
+   "lounge_access": "1 domestic visit per quarter and 1 abroad per half-year",
+   "main_benefit": "RuPay Select card on UPI with lounge access, Rs800 fee waived at Rs1 lakh spend and 5% grocery cashback (max Rs50/cycle).",
+   "key_benefits": [
+    "Credit Card on UPI",
+    "Welcome bonus 1000 points on spends above Rs10,000 within 90 days",
+    "2 reward points per Rs100; 1 point = Rs0.05",
+    "5% cashback on grocery spends, max Rs50 per billing cycle",
+    "EMI conversion offer",
+    "Nil joining fee; annual fee Rs800 waived at Rs100,000 spend"
+   ],
+   "base_rate": 0.001,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "groceries"
+     ],
+     "rate": 0.05,
+     "cap_inr": 50,
+     "period": "statement",
+     "desc": "5% cashback on grocery spends, max Rs50 per billing cycle (official page)."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/rupay-CC-Dhan-Samriddhi",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/",
+    "https://www.dhan.bank.in/rupay-CC-Dhan-Samriddhi"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official card page read (T&C PDFs linked but not read); base earn 2 points per Rs100 at Rs0.05 = 0.1%. Forex, exclusions not read.",
+   "status_source": "https://www.dhan.bank.in/credit-card/ (official Dhanlaxmi Bank credit card page lists card with Apply link)",
+   "point_value_inr": {
+    "cash": 0.05,
+    "best": 0.05,
+    "note": "Redemption of reward points @ Rs0.05/point (official card page)"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dhan.bank.in/credit-card/",
+     "https://www.dhan.bank.in/rupay-CC-Dhan-Samriddhi"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active confirmed on official page",
+     "fees, waiver, rewards, point value Rs0.05, lounge from official page",
+     "Same card as Dhan Samriddhi (RuPay Select); duplicate listing"
+    ]
+   }
+  },
+  {
+   "name": "Dhanlaxmi Bank Dhan Namaste Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Visa Platinum entry card from Dhanlaxmi Bank; details not published on the official listing page read.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/",
+    "https://www.paisabazaar.com/dhanlaxmi-bank/platinum-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only listing read; aggregators conflict on fee (nil vs Rs400+GST), mention 5% cashback at theatres/supermarkets, forex 3.5%, redemption from 600 points, Rs75 redemption fee (generic Platinum card, unverified).",
+   "status_source": "https://www.dhan.bank.in/credit-card/ (official page lists Dhan Namaste VISA Platinum with Apply link)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dhan.bank.in/credit-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active confirmed on official page",
+     "Dhan Namaste is the Visa Platinum card"
+    ]
+   }
+  },
+  {
+   "name": "Dhanlaxmi Bank Visa Platinum Credit Card",
+   "issuer": "Dhanlaxmi Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Visa Platinum entry card from Dhanlaxmi Bank; details not published on the official listing page read.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dhan.bank.in/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.dhan.bank.in/credit-card/",
+    "https://www.paisabazaar.com/dhanlaxmi-bank/platinum-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Only listing read; aggregators conflict on fee (nil vs Rs400+GST), mention 5% cashback at theatres/supermarkets, forex 3.5%, redemption from 600 points, Rs75 redemption fee (generic Platinum card, unverified).",
+   "status_source": "https://www.dhan.bank.in/credit-card/ (official page lists Dhan Namaste VISA Platinum with Apply link)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dhan.bank.in/credit-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status active confirmed on official page",
+     "Same card as Dhan Namaste (Visa Platinum); duplicate listing"
+    ]
+   }
+  },
+  {
+   "name": "TMB Titanium Credit Card",
+   "issuer": "Tamilnad Mercantile Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Unsecured TMB credit card (existence per Paisabazaar; conflicting sources say only one card).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.tmb.bank.in/personal/retail-cards",
+   "source_type": "official",
+   "sources": [
+    "https://www.tmb.bank.in/personal/retail-cards",
+    "https://www.bankbazaar.com/tamilnad-mercantile-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official listing confirms card exists but individual product page not readable. Aggregators: entry/annual fee nil, renewal Rs250, replacement Rs100, late fee Rs250, interest 2%/month, cash advance 3%; eligibility income Rs2 lakh, account with bank (conflicting annual Rs250 on one page). Rewards unknown. TMB also lists newer Vertex, Vibe360, Phoenix (RuPay), Wings (RuPay) cards not in this dataset.",
+   "status_source": "https://www.tmb.bank.in/personal/retail-cards (official TMB retail cards page lists Titanium Credit Card with Apply Now; credit-card-portal links VISA/Mastercard portal)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.tmb.bank.in/personal/retail-cards",
+     "https://www.tmb.bank.in/credit-card-portal"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status unknown->active (official listing live; Phoenix, Wings, Vertex, Vibe360 also listed)"
+    ]
+   }
+  },
+  {
+   "name": "TMB Platinum Credit Card",
+   "issuer": "Tamilnad Mercantile Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured TMB Platinum credit card (per Paisabazaar).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.tmb.bank.in/personal/retail-cards",
+   "source_type": "official",
+   "sources": [
+    "https://www.tmb.bank.in/personal/retail-cards",
+    "https://www.bankbazaar.com/tamilnad-mercantile-bank-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official listing confirms card exists but individual product page not readable. Aggregators: entry/annual fee nil, renewal Rs250, replacement Rs100, late fee Rs250, interest 2%/month, cash advance 3%; eligibility income Rs2 lakh, account with bank (conflicting annual Rs250 on one page). Rewards unknown. TMB also lists newer Vertex, Vibe360, Phoenix (RuPay), Wings (RuPay) cards not in this dataset.",
+   "status_source": "https://www.tmb.bank.in/personal/retail-cards (official TMB retail cards page lists Platinum Credit Card with Apply Now; credit-card-portal links VISA/Mastercard portal)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.tmb.bank.in/personal/retail-cards",
+     "https://www.tmb.bank.in/credit-card-portal"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status unknown->active (official listing live; Phoenix, Wings, Vertex, Vibe360 also listed)"
+    ]
+   }
+  },
+  {
+   "name": "LIC Titanium Credit Card",
+   "issuer": "LIC Cards Services (LIC CSL)",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "LIC",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "LIC policyholder card, entry variant (min income Rs 3 lakh).",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/lic-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.liccards.in/",
+    "https://www.bankbazaar.com/lic-credit-card.html",
+    "https://cardinsider.com/lic-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator: 2 points per Rs100 on LIC premium and foreign currency spends, 1 point per Rs100 elsewhere (excl fuel, EMI, wallet), 1% fuel waiver. Legacy Corporation Bank-era card; not shown on issuer site, so possibly discontinued but unproven.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.liccards.in/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status kept unknown: official LIC Cards Services site currently lists only LIC Classic/Select (IDFC FIRST), Eclat/Lumine (IDBI), Axis Signature/Platinum; this card not listed but no discontinuation notice found"
+    ]
+   }
+  },
+  {
+   "name": "LIC Gold EMV Credit Card",
+   "issuer": "LIC Cards Services (LIC CSL)",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "LIC",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "LIC no-fee EMV card earning 1 reward point per Rs 150.",
+   "key_benefits": [
+    "Nil joining and renewal fee (aggregator)",
+    "1 RP per Rs150 at Rs0.25 (about 0.17%)",
+    "Forex 3.5%; interest 2.75%/month",
+    "Fuel surcharge waiver 2.5% (aggregator, min Rs10)",
+    "Personal accident cover up to Rs1 lakh; purchase protection Rs50,000"
+   ],
+   "base_rate": 0.00167,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/lic-cards/lic-gold-emv-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.liccards.in/",
+    "https://www.bankbazaar.com/lic-credit-card.html",
+    "https://cardinsider.com/lic-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator: nil joining/annual, 1 RP = Rs0.25, forex 3.5%, interest 2.75%/month, 2.5% fuel waiver. Legacy Corporation Bank-era card; not shown on issuer site, so possibly discontinued but unproven.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.liccards.in/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status kept unknown: official LIC Cards Services site currently lists only LIC Classic/Select (IDFC FIRST), Eclat/Lumine (IDBI), Axis Signature/Platinum; this card not listed but no discontinuation notice found"
+    ]
+   },
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "cardinsider: 1 RP = Rs0.25, 1 RP per Rs150"
+   }
+  },
+  {
+   "name": "LIC Platinum EMV Credit Card",
+   "issuer": "LIC Cards Services (LIC CSL)",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "LIC",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "LIC platinum EMV variant for policyholders.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/lic-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.liccards.in/",
+    "https://www.bankbazaar.com/lic-credit-card.html",
+    "https://cardinsider.com/lic-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator: co-branded Visa launched with Corporation Bank; zero annual fee; 1 RP per Rs150; interest 3%/month. Legacy Corporation Bank-era card; not shown on issuer site, so possibly discontinued but unproven.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.liccards.in/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status kept unknown: official LIC Cards Services site currently lists only LIC Classic/Select (IDFC FIRST), Eclat/Lumine (IDBI), Axis Signature/Platinum; this card not listed but no discontinuation notice found"
+    ]
+   }
+  },
+  {
+   "name": "DCB PayLess Platinum Card",
+   "issuer": "DCB Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 350,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "FD-backed RuPay Platinum card with nil joining fee and Rs350 annual fee waived at Rs50,000 spend; 1% fuel surcharge waiver.",
+   "key_benefits": [
+    "Credit limit 90% of FD",
+    "Annual fee Rs350 (from 13th month) waived at Rs50,000 annual spend",
+    "Fuel surcharge waiver 1% up to Rs100 per cycle",
+    "Interest 3%/month; ATM fee 2.5% or Rs250",
+    "Aggregator: Rs250 cashback on Rs50,000 annual spend (unverified)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card",
+    "DCB PayLess Credit Card KFS/MITC (dcbbank.com/upload/pdf/DCB-Payless-Credit-Card-MITC.pdf)"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "KFS (undated copy) read. Reward/cashback terms not in KFS; aggregators mention milestone cashback only.",
+   "status_source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-platinum-card (official DCB apply page live; KFS dated 2026)",
+   "jewellery_unconfirmed": true,
+   "eligibility": "FD-backed: credit limit 90% of linked FD; cash limit 50% of limit",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "DCB PayLess Credit Card KFS/MITC (dcbbank.com/upload/pdf/DCB-Payless-Credit-Card-MITC.pdf)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from official KFS: joining nil, annual Rs350 waived at Rs50,000 spend; forex 3.5%; fuel waiver 1% up to Rs100/cycle on fuel txns up to Rs5,000"
+    ]
+   }
+  },
+  {
+   "name": "DCB PayLess Select Card",
+   "issuer": "DCB Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": "Aggregator: 1 domestic lounge visit per quarter on FD of Rs25,000+ (unverified)",
+   "main_benefit": "FD-backed RuPay Select card; Rs1,000 annual fee waived at Rs2 lakh spend, 1% fuel surcharge waiver.",
+   "key_benefits": [
+    "Credit limit 90% of FD",
+    "Annual fee Rs1,000 waived at Rs2 lakh annual spend",
+    "Fuel surcharge waiver 1% up to Rs100 per cycle",
+    "Aggregator: Rs1,000 cashback on Rs1 lakh spend"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-select-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-select-card",
+    "DCB PayLess Credit Card KFS"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Same KFS as PayLess Platinum. Rewards not in KFS.",
+   "status_source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-payless-select-card (official DCB apply page live; KFS dated 2026)",
+   "jewellery_unconfirmed": true,
+   "eligibility": "FD-backed: credit limit 90% of linked FD; Select variant lounge linked to FD of Rs25,000+ (aggregator)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "DCB PayLess Credit Card KFS"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from official KFS: annual Rs1,000 waived at Rs2 lakh spend; forex 3.5%"
+    ]
+   }
+  },
+  {
+   "name": "DCB Niyo Credit Card",
+   "issuer": "DCB Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Niyo",
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": null,
+   "main_benefit": "Lien-backed Visa card (Niyo Global) with nil fees and zero cross-currency markup, suited to international spend.",
+   "key_benefits": [
+    "Nil joining and annual fee",
+    "Zero cross-currency markup (Visa exchange rates apply)",
+    "Credit limit 90% of lien on Niyo savings account",
+    "ATM cash fee 2.5% or Rs250; interest 36% p.a.",
+    "Aggregator: up to 3% rewards (unverified)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-niyo-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards/secured-card/dcb-niyo-credit-card",
+    "https://www.dcb.bank.in/api/dcb/assets/2026-04/MITC-for-DCB-Niyo-Credit-Card.pdf",
+    "https://www.dcb.bank.in/api/dcb/assets/2026-04/KFS-for-DCB-Niyo-Credit-Card.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "KFS/MITC Apr-2026 official (fees only; reward structure not in them). Backing is account lien rather than FD per search snippets.",
+   "status_source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-niyo-credit-card (official DCB apply page live; KFS dated 2026)",
+   "jewellery_unconfirmed": true,
+   "eligibility": "DCB Niyo savings account holders; credit limit 90% of lien amount",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dcb.bank.in/api/dcb/assets/2026-04/MITC-for-DCB-Niyo-Credit-Card.pdf",
+     "https://www.dcb.bank.in/api/dcb/assets/2026-04/KFS-for-DCB-Niyo-Credit-Card.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil; forex NIL* cross-currency markup (Visa rates apply); backed by lien on Niyo savings account (not FD); finance charge 36%"
+    ]
+   }
+  },
+  {
+   "name": "DCB novio Credit Card",
+   "issuer": "DCB Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "novio",
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": "Select variant: 1 domestic lounge visit per quarter on FD of Rs25,000+ (aggregator)",
+   "main_benefit": "Lifetime-free FD-backed RuPay card on UPI with Novio Coins (up to 15% on eligible UPI spends per aggregator) and 2.5% forex markup.",
+   "key_benefits": [
+    "Nil joining and annual fee (Platinum and Select)",
+    "Credit limit 90% of FD; cash limit 50% of limit or Rs1 lakh",
+    "Fuel surcharge waiver 1% up to Rs100/cycle (eligible MCCs only; utilities, railways, insurance excluded)",
+    "Novio Coins up to 15% on eligible UPI spends; partner offers (Amazon, BookMyShow, Zepto, Swiggy) per aggregator",
+    "Rs599 closure fee if closed within a year"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-novio-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards/secured-card/dcb-novio-credit-card",
+    "https://www.dcb.bank.in/api/dcb/assets/KFS DCB novio Credit Card (Ver 1.1, 20-Apr-2026)"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "KFS official; Novio coin value not stated (aggregator). Min txn Rs100 within 30 days to activate (aggregator).",
+   "status_source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-novio-credit-card (official DCB apply page live; KFS dated 2026)",
+   "jewellery_unconfirmed": true,
+   "eligibility": "FD-backed: min FD Rs2,000 (virtual); physical card on cumulative FD of Rs10,000+; age 21-65; credit limit 90% of FD",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dcb.bank.in/api/dcb/assets/KFS DCB novio Credit Card (Ver 1.1, 20-Apr-2026)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "KFS 20-Apr-2026: nil/nil fees, RuPay Platinum/Select, forex 2.5%, fuel waiver 1% up to Rs100/cycle (txns up to Rs5,000), closure Rs599 within a year"
+    ]
+   }
+  },
+  {
+   "name": "DCB ZET Credit Card",
+   "issuer": "DCB Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "ZET",
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0249,
+   "lounge_access": null,
+   "main_benefit": "FD-backed ZET app card with nil fees; ZET Coins on spends.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-zet-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.dcb.bank.in/personal/cards/secured-card/dcb-zet-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official DCB apply page exists (JS only, not read). Figures from SaveSage aggregator only: 10 ZET Coins per Rs100, forex 2.49%, interest 42% p.a.",
+   "status_source": "https://www.dcb.bank.in/personal/cards/secured-card/dcb-zet-credit-card (official DCB apply page live; KFS dated 2026)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [],
+    "result": "corrected",
+    "changes": [
+     "aggregator: nil fees, forex 2.49%, 10 ZET coins per Rs100; no DCB KFS read"
+    ]
+   }
+  },
+  {
+   "name": "SBM ZET Credit Card",
+   "issuer": "SBM Bank (India)",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "ZET",
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0249,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free FD-backed card from SBM Bank via ZET app; rewards as ZET coins (1 point per Rs100 per StableMoney).",
+   "key_benefits": [
+    "Nil membership and annual fee; renewal nil",
+    "Credit limit 90% of FD; cash limit 50%",
+    "Forex fee 2.49%; rent and education payment fee 1%; surcharge 1%",
+    "Card replacement Rs249+GST; cancellation Rs499+GST within two years (from 23-Oct-2026)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.sbmbank.co.in/personal-banking/cards/secured-credit-card",
+   "source_type": "official",
+   "sources": [
+    "SBM ZET KFS",
+    "SBM ZET MITC",
+    "https://www.sbmbank.co.in/personal-banking/cards/secured-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Reward construct is on SBM website, not in MITC. Jewellery/gold explicitly excluded only for EMI conversion in MITC; reward exclusion unconfirmed.",
+   "status_source": "SBM Bank KFS and MITC for ZET card (current; late-fee change effective 23-Oct-2026)",
+   "eligibility": "FD-backed with SBM Bank (min FD Rs2,000-5,000 per sources); credit limit 90% of FD",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBM Bank ZET Credit Card KFS",
+     "SBM Secured Credit Card MITC & Cardholder Agreement"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil/nil, forex 2.49%, rental/education fee 1%, late fee 5% of dues (min Rs50, max Rs1,000) from 23-Oct-2026, interest 3.5%/month"
+    ]
+   }
+  },
+  {
+   "name": "OneCard",
+   "issuer": "Federal Bank / BOBCARD / CSB / SBM / South Indian Bank (via FPL Technologies)",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "OneCard (FPL Technologies)",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.01,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free app-first metal credit card with 1% forex and 1 reward point per Rs50 (about 0.2%) plus 5X on top-2 monthly categories (about 1%).",
+   "key_benefits": [
+    "Nil joining and annual fee (issuer KFS)",
+    "1% forex markup",
+    "Fuel surcharge waiver 1%, cap Rs400/month",
+    "Metal add-on card issuance Rs3,000",
+    "Utilities/bills earn no points from 30-Jul-2026 (SBM T&C)"
+   ],
+   "base_rate": 0.002,
+   "rules": [],
+   "excludes": [
+    "rent",
+    "fuel",
+    "cash_advance",
+    "wallet_load",
+    "money_transfer",
+    "utilities"
+   ],
+   "source_url": "https://www.getonecard.app/credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.getonecard.app/credit-card/",
+    "https://assets.getonecard.app/assets/legal/Federal_KFS.pdf",
+    "https://assets.getonecard.app/assets/legal/BOBCARD_TnC.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Umbrella record; SBM Bank KFS (w.e.f. 29-06-2026) read: forex 1%, rent transaction fee 1%, wallet upload fee 1% on cumulative spends of Rs10,000+/month, metal card Rs3,000. Reward T&C: 1 point per Rs50, top-2 categories 5X; INR value per point not stated in the document read.",
+   "point_value_inr": {
+    "cash": 0.1,
+    "best": 0.1,
+    "note": "UNCONFIRMED: Rs0.10 per point from third-party reviews only; official T&C do not state a rupee value"
+   },
+   "status_source": "SBM One co-branded credit card KFS w.e.f. 29-06-2026 (issuer SBM Bank) plus Federal Bank One KFS",
+   "eligibility": "Age 18-60; credit score 750+ for metal card (getonecard.app)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SBM One co-branded Credit Card KFS (w.e.f. 29-06-2026)",
+     "OneCard reward programme T&C"
+    ],
+    "result": "corrected",
+    "changes": [
+     "SBM variant: joining/annual nil, metal add-on Rs3,000, forex 1%, rent fee 1%, fuel surcharge waiver 1% capped Rs400/month, interest 3.75%/month"
+    ]
+   },
+   "jewellery_unconfirmed": true
+  },
+  {
+   "name": "American Express Platinum Corporate Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 40000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Priority Pass / lounge benefits per business page (details not retrieved)",
+   "main_benefit": "Corporate Amex Platinum card with Rs40,000 annual fee and 1 MR point per Rs40.",
+   "key_benefits": [
+    "No joining fee; annual fee Rs40,000",
+    "Membership Rewards: 1 MR point per Rs40 on purchases; 1 per Rs100 on telecom, insurance, utilities (cap 1,000 points/month) and wholesale; none on fuel",
+    "Fuel surcharge: 1% public sector (min Rs10), 2.5% private (min Rs10), HPCL 0% below Rs5,000 and 1% above",
+    "Foreign currency mark-up 3.5%; railway booking surcharge 1.8%"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "insurance_utilities_telecom_reduced"
+   ],
+   "source_url": "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+   "source_type": "official",
+   "sources": [
+    "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+    "American Express Corporate Card Key Fact Statement (americanexpress.com/in)",
+    "American Express Membership Rewards Program Terms & Conditions"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee updated from 2,500-ish aggregator null. MR T&C earn text mentions 15 Sep 2023 wholesale change.",
+   "status_source": "American Express Corporate Card KFS lists this variant; https://www.americanexpress.com/en-in/business/corporate-card-platinum/ (Platinum page live). Corporate programme: employer enrolment, no consumer application",
+   "eligibility": "Corporate-liability card issued via employer/corporate programme; MR enrolment subject to organisation approval; Amex India has paused new consumer applications",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "MR point INR value not stated in KFS/MR T&C read"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "American Express Corporate Card Key Fact Statement (americanexpress.com/in)",
+     "American Express Membership Rewards Program Terms & Conditions",
+     "https://www.americanexpress.com/en-in/business/corporate-card-platinum/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee from official KFS",
+     "forex 3.5%, fuel surcharge slabs, railway 1.8%",
+     "MR earn rates from MR T&C"
+    ]
+   }
+  },
+  {
+   "name": "American Express Gold Corporate Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 3100,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 complimentary Priority Pass visits per year (per Paisabazaar)",
+   "main_benefit": "Corporate Amex Gold card with Rs3,100 annual fee and 1 MR point per Rs50.",
+   "key_benefits": [
+    "No joining fee; annual fee Rs3,100",
+    "Membership Rewards: 1 MR point per Rs50 on purchases; 1 per Rs100 on telecom, insurance, utilities (cap 1,000/month) and wholesale; none on fuel",
+    "Fuel surcharge: 1% public sector (min Rs10), 2.5% private (min Rs10), HPCL 0% below Rs5,000 and 1% above",
+    "Foreign currency mark-up 3.5%; railway booking surcharge 1.8%"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "insurance_utilities_telecom_reduced"
+   ],
+   "source_url": "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+   "source_type": "official",
+   "sources": [
+    "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+    "American Express Corporate Card Key Fact Statement (americanexpress.com/in)",
+    "American Express Membership Rewards Program Terms & Conditions"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Status active: listed in current KFS. Existing record had 1% base from paisabazaar (aggregator), replaced by MR rule (point value unknown).",
+   "status_source": "American Express Corporate Card KFS lists this variant; https://www.americanexpress.com/en-in/business/corporate-card-platinum/ (Platinum page live). Corporate programme: employer enrolment, no consumer application",
+   "eligibility": "Corporate-liability card issued via employer/corporate programme; MR enrolment subject to organisation approval; Amex India has paused new consumer applications",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "MR point INR value not stated in KFS/MR T&C read"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "American Express Corporate Card Key Fact Statement (americanexpress.com/in)",
+     "American Express Membership Rewards Program Terms & Conditions",
+     "https://www.americanexpress.com/en-in/business/corporate-card-platinum/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee from official KFS",
+     "forex 3.5%, fuel surcharge slabs, railway 1.8%",
+     "MR earn rates from MR T&C"
+    ]
+   }
+  },
+  {
+   "name": "American Express Green Corporate Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 2100,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Corporate Amex Green card with Rs2,100 annual fee and 1 MR point per Rs50.",
+   "key_benefits": [
+    "No joining fee; annual fee Rs2,100",
+    "Membership Rewards: 1 MR point per Rs50 on purchases; 1 per Rs100 on telecom, insurance, utilities (cap 1,000/month) and wholesale; none on fuel",
+    "Fuel surcharge: 1% public sector (min Rs10), 2.5% private (min Rs10), HPCL 0% below Rs5,000 and 1% above",
+    "Foreign currency mark-up 3.5%; railway booking surcharge 1.8%"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "insurance_utilities_telecom_reduced"
+   ],
+   "source_url": "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+   "source_type": "official",
+   "sources": [
+    "https://www.americanexpress.com/en-in/business/corporate-card-platinum/",
+    "American Express Corporate Card Key Fact Statement (americanexpress.com/in)",
+    "American Express Membership Rewards Program Terms & Conditions"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Status active: listed in current KFS.",
+   "status_source": "American Express Corporate Card KFS lists this variant; https://www.americanexpress.com/en-in/business/corporate-card-platinum/ (Platinum page live). Corporate programme: employer enrolment, no consumer application",
+   "eligibility": "Corporate-liability card issued via employer/corporate programme; MR enrolment subject to organisation approval; Amex India has paused new consumer applications",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "MR point INR value not stated in KFS/MR T&C read"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "American Express Corporate Card Key Fact Statement (americanexpress.com/in)",
+     "American Express Membership Rewards Program Terms & Conditions",
+     "https://www.americanexpress.com/en-in/business/corporate-card-platinum/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee from official KFS",
+     "forex 3.5%, fuel surcharge slabs, railway 1.8%",
+     "MR earn rates from MR T&C"
+    ]
+   }
+  },
+  {
+   "name": "American Express Centurion Card",
+   "issuer": "American Express India",
+   "network": "Amex",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 700000,
+   "annual_fee": 275000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Unlimited domestic and international incl. Centurion Lounges and Priority Pass (Mumbai Centurion Lounge closed 1 Jul 2026 per source)",
+   "main_benefit": "Invitation-only top-tier charge card with 24x7 concierge, hotel elite status and 1.2% on all spends.",
+   "key_benefits": [
+    "24x7 concierge",
+    "Top-tier hotel elite status",
+    "Travel and medical insurance",
+    "Joining fee Rs7,00,000"
+   ],
+   "base_rate": 0.012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.012,
+     "desc": "2 pts/Rs100 at Rs0.60/pt assumed by source; jewellery not addressed (unconfirmed)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "insurance",
+    "utilities"
+   ],
+   "source_url": "https://cardadvisor.in/cards/amex-centurion",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/amex-centurion"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees from aggregators/2026 reviews: Rs7,00,000 joining + Rs2,75,000 annual plus GST (older ET report Rs2 lakh/2.5 lakh outdated). Value is concierge, elite status, lounge access rather than rewards. Reported closure of Mumbai Centurion Lounge on 1 Jul 2026.",
+   "status_source": "Invite-only; no Amex India application page; fee figures from cardadvisor and other 2026 reviews (not an official Amex fee schedule)",
+   "eligibility": "Invitation only (typically long-tenured, very-high-spend Platinum Charge members); not open to application",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardadvisor.in/articles/amex-centurion-card-india-review-2026"
+    ],
+    "result": "corrected",
+    "changes": [
+     "marked invite-only; confirmed fee Rs7 lakh joining + Rs2.75 lakh annual (third-party 2026)"
+    ]
+   }
+  },
+  {
+   "name": "American Express Jet Airways Platinum",
+   "issuer": "American Express India",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Jet Airways",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Legacy Jet Airways co-brand, no longer issued.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/jet-airways-american-express-platinum-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/jet-airways-american-express-platinum-credit-card.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Very likely discontinued (JetPrivilege renamed InterMiles Nov 2019; Amex card replaced by Platinum Travel from Jan 2021 per cardholder notice quoted by LiveFromALounge) but not confirmed on an Amex-owned page.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://livefromalounge.com/?p=31196",
+     "https://americanexpress.com/content/dam/amex/in/legal-disclosures/Jet-Terms-and-Conditions.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status left unknown: blog reports cardholders were told the card would be discontinued from 22-Jan-2021 and replaced by Amex Platinum Travel; Amex India site no longer lists it, but no official notice found"
+    ]
+   }
+  },
+  {
+   "name": "MobiKwik Blue American Express",
+   "issuer": "MobiKwik (Amex network)",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": "MobiKwik",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "2020 MobiKwik Amex card with Rs10,000 limit and 1% SuperCash.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://ibsintelligence.com/ibsi-news/mobikwik-blue-american-express-card-launched-in-india",
+   "source_type": "third_party",
+   "sources": [
+    "https://ibsintelligence.com/ibsi-news/mobikwik-blue-american-express-card-launched-in-india"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Launched Nov 2020 as a prepaid Amex card (not a credit card), so arguably out of scope. Likely ended 2022 per community thread. MobiKwik now offers the SBM MobiKwik First credit card (FD-backed, Visa/RuPay not confirmed): 1% cashback on e-commerce/offline POS, 1% on UPI via MobiKwik app (min Rs2,000), nil fees, forex 3%.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://technofino.in/community/threads/mobikwik-amex-card-ends-from-30th-september-2022.2565/latest"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status left unknown: it was a prepaid (not credit) card per The Paypers; forum reports services suspended 30-Sep-2022 due to RBI tokenisation rules; no official notice found"
+    ]
+   }
+  },
+  {
+   "name": "DBS Spark",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "Spark 5 and 10: 1 domestic visit per quarter; Spark 20: 2 per quarter",
+   "main_benefit": "Spend-milestone card: 5X Cash Points (about 1%) on all eligible spends after Rs10,000 monthly (Spark 5), up to 20X (about 4%) on grocery/dining/utility for Spark 20.",
+   "key_benefits": [
+    "Variants: Spark 5 (fee Rs499, milestone Rs10,000/month, bonus cap 3,000 CP/month, welcome 2,500 CP), Spark 10 (Rs999, Rs15,000, 10X online/5X offline, cap 5,000 CP, welcome 5,000 CP), Spark 20 (Rs1,499, Rs20,000, 20X grocery/dining/utility, 10X online, 5X offline, cap 7,000 CP, welcome 7,500 CP)",
+    "Quarterly milestone bonus: 2,500 / 3,500 / 5,000 CP at Rs50,000 / 75,000 / 1,00,000 quarterly spend",
+    "BookMyShow BOGO up to Rs200 once a month",
+    "Fuel surcharge waiver; 1-2 domestic lounge visits per quarter",
+    "Rent, wallet, fuel, cash and jewellery spends count toward milestones but earn no Cash Points"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 10000,
+       "rate": 0.002
+      },
+      {
+       "from_inr": 10000,
+       "to_inr": null,
+       "rate": 0.01
+      }
+     ],
+     "cap_inr": 600,
+     "period": "month",
+     "desc": "Spark 5: base 1 Cash Point per Rs100 (0.2% at Rs0.20/CP); once monthly spend reaches Rs10,000, 5X (1%) applies to all eligible spends; bonus capped at 3,000 CP (=Rs600) per month. Spark 10: 10X online (2%) / 5X offline above Rs15,000, cap 5,000 CP (Rs1,000). Spark 20: 20X (4%) grocery/dining/utility, 10X online, 5X offline above Rs20,000, cap 7,000 CP (Rs1,400)."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "cash_withdrawal",
+    "jewellery",
+    "utilities_for_milestone"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/spark/product-benefit-terms-and-conditions.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/spark/product-benefit-terms-and-conditions.html",
+    "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Modelled on Spark 5 (existing Rs499 record); other variants in key_benefits. Official product T&C and consolidated MITC read. Welcome bonus only on fee-based cards. Point value: docs say up to Rs0.25; illustrations imply Rs0.20 (used as conservative).",
+   "status_source": "https://www.dbs.bank.in/in/credit-cards/spark/product-benefit-terms-and-conditions.html (official DBS page; apply link live)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "DBS Spark T&C: 1 Cash Point = up to Rs0.25; reverse debit and benefit illustrations use Rs0.20/point"
+   },
+   "eligibility": "Salaried/self-employed per DBS policy; ASPIRE programme customers have separate fees",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dbs.bank.in/in/credit-cards/spark/product-benefit-terms-and-conditions.html",
+     "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "multi-variant card: Spark 5 / 10 / 20 with Rs499/999/1,499 annual fees (waiver at Rs1.5L/2L/2.5L)",
+     "earn structure with monthly spend milestones and bonus caps from official T&C",
+     "jewellery (MCC 5094/5944), rent, fuel, wallet, cash explicitly non-earning",
+     "forex 3.5% per consolidated MITC"
+    ]
+   }
+  },
+  {
+   "name": "DBS SuperX",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic lounge visit",
+   "main_benefit": "DBS SuperX: Rs1,499 annual-fee successor to the Bajaj Finserv DBS SuperCard with multiplied Cash Points.",
+   "key_benefits": [
+    "Annual fee Rs1,499 (no joining fee) per DBS MITC",
+    "Successor to Bajaj Finserv DBS SuperCard; multiplies Cash Points on monthly spend milestones (aggregator)",
+    "Rent fee 1% (min Rs199, MCC 6513); utility fee 1% if cumulative utility spend Rs20,000+ in a cycle; fuel fee 1% on fuel of Rs15,000+",
+    "Forex 3.5% per consolidated MITC"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+    "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "SuperX product page is JS-rendered; reward rates, lounge and waiver not retrievable. Fee and migration notice read from DBS consolidated MITC.",
+   "status_source": "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf (DBS consolidated MITC lists card; Bajaj SuperCard cardholders migrated here from 1-Aug-2026)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "DBS Spark T&C: 1 Cash Point = up to Rs0.25; reverse debit and benefit illustrations use Rs0.20/point"
+   },
+   "eligibility": "Existing Bajaj Finserv DBS SuperCard holders migrated; new-issue availability not confirmed",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+     "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee from DBS consolidated MITC: joining NA, annual Rs1,499",
+     "status active: successor to Bajaj Finserv DBS SuperCard (discontinued 1-Aug-2026)"
+    ]
+   }
+  },
+  {
+   "name": "DBS SuperX Plus",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "DBS SuperX Plus: Rs2,999 annual-fee premium variant, successor to the Bajaj Finserv DBS 10X SuperCard.",
+   "key_benefits": [
+    "Annual fee Rs2,999 (no joining fee) per DBS MITC",
+    "Successor to Bajaj Finserv DBS SuperCard; multiplies Cash Points on monthly spend milestones (aggregator)",
+    "Rent fee 1% (min Rs199, MCC 6513); utility fee 1% if cumulative utility spend Rs20,000+ in a cycle; fuel fee 1% on fuel of Rs15,000+",
+    "Forex 3.5% per consolidated MITC"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+    "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "SuperX product page is JS-rendered; reward rates, lounge and waiver not retrievable. Fee and migration notice read from DBS consolidated MITC.",
+   "status_source": "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf (DBS consolidated MITC lists card; Bajaj SuperCard cardholders migrated here from 1-Aug-2026)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "DBS Spark T&C: 1 Cash Point = up to Rs0.25; reverse debit and benefit illustrations use Rs0.20/point"
+   },
+   "eligibility": "Existing Bajaj Finserv DBS SuperCard holders migrated; new-issue availability not confirmed",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+     "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fee from DBS consolidated MITC: joining NA, annual Rs2,999",
+     "status active: successor to Bajaj Finserv DBS SuperCard (discontinued 1-Aug-2026)"
+    ]
+   }
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 5X Rewards SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic lounge no longer available (12-Aug-2025)",
+   "main_benefit": "Discontinued co-brand card: 1X base (2 Cash Points per Rs200), 5X on spends after Rs10,000 monthly milestone.",
+   "key_benefits": [
+    "Joining and annual fee Rs499 (+GST)",
+    "Welcome bonus 2,000 Cash Points on first spend within 60 days",
+    "Bonus capped at 3,000 Cash Points per month",
+    "Rent, fuel, wallet load, cash and utility spends earn no points",
+    "5% cashback on Bajaj Finance down payments (max Rs500/txn)",
+    "Spend-based fee waiver withdrawn 12-Aug-2025"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 10000,
+       "rate": 0.002
+      },
+      {
+       "from_inr": 10000,
+       "to_inr": null,
+       "rate": 0.01
+      }
+     ],
+     "cap_inr": 600,
+     "period": "month",
+     "desc": "2 CP per Rs200 base (0.2% at Rs0.20/CP); 5X on all eligible spends once monthly spend reaches Rs10,000; additional points capped at 3,000 CP per month. Excludes rent, fuel, wallet, cash, utilities."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "cash_withdrawal",
+    "jewellery",
+    "utilities_for_milestone"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-5X-rewards-supercard.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-5X-rewards-supercard.html",
+    "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+    "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Card discontinued; kept for completeness. Terms read from the official product page.",
+   "status_source": "https://www.dbs.bank.in/in/credit-cards/supercard.html (\"Effective 1st August 2026, the Bajaj Finserv DBS Bank SuperCard will be discontinued; cardholders migrated to DBS SuperX/SuperX Plus\"); also DBS consolidated MITC",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "DBS Spark T&C: 1 Cash Point = up to Rs0.25; reverse debit and benefit illustrations use Rs0.20/point"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-5X-rewards-supercard.html",
+     "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+     "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status confirmed discontinued from DBS official notice (1-Aug-2026)",
+     "fees, milestone rewards, caps, exclusions from official product T&C"
+    ]
+   }
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 5X Plus Rewards SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic lounge no longer available (12-Aug-2025)",
+   "main_benefit": "Discontinued co-brand card: 1X base (2 Cash Points per Rs200), 5X on spends after Rs10,000 monthly milestone.",
+   "key_benefits": [
+    "Joining and annual fee Rs999 (+GST)",
+    "Welcome bonus 4,000 Cash Points on first spend within 60 days",
+    "Bonus capped at 3,000 Cash Points per month",
+    "Rent, fuel, wallet load, cash and utility spends earn no points",
+    "5% cashback on Bajaj Finance down payments (max Rs500/txn)",
+    "Spend-based fee waiver withdrawn 12-Aug-2025"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 10000,
+       "rate": 0.002
+      },
+      {
+       "from_inr": 10000,
+       "to_inr": null,
+       "rate": 0.01
+      }
+     ],
+     "cap_inr": 600,
+     "period": "month",
+     "desc": "2 CP per Rs200 base (0.2% at Rs0.20/CP); 5X on all eligible spends once monthly spend reaches Rs10,000; additional points capped at 3,000 CP per month. Excludes rent, fuel, wallet, cash, utilities."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "cash_withdrawal",
+    "jewellery",
+    "utilities_for_milestone"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-5X-plus-rewards-supercard.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-5X-plus-rewards-supercard.html",
+    "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+    "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Card discontinued; kept for completeness. Terms read from the official product page.",
+   "status_source": "https://www.dbs.bank.in/in/credit-cards/supercard.html (\"Effective 1st August 2026, the Bajaj Finserv DBS Bank SuperCard will be discontinued; cardholders migrated to DBS SuperX/SuperX Plus\"); also DBS consolidated MITC",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "DBS Spark T&C: 1 Cash Point = up to Rs0.25; reverse debit and benefit illustrations use Rs0.20/point"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-5X-plus-rewards-supercard.html",
+     "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+     "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status confirmed discontinued from DBS official notice (1-Aug-2026)",
+     "fees, milestone rewards, caps, exclusions from official product T&C"
+    ]
+   }
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 10X Signature SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 2999,
+   "annual_fee": 2999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic lounge visits per quarter",
+   "main_benefit": "Discontinued co-brand card: 1X base (2 Cash Points per Rs200), 10X on spends after Rs20,000 monthly milestone.",
+   "key_benefits": [
+    "Joining and annual fee Rs2,999 (+GST)",
+    "Welcome bonus 12,000 Cash Points on first spend within 60 days",
+    "Bonus capped at 15,000 Cash Points per month",
+    "Rent, fuel, wallet load, cash and utility spends earn no points",
+    "5% cashback on Bajaj Finance down payments (max Rs500/txn)",
+    "Spend-based fee waiver withdrawn 12-Aug-2025"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 20000,
+       "rate": 0.002
+      },
+      {
+       "from_inr": 20000,
+       "to_inr": null,
+       "rate": 0.02
+      }
+     ],
+     "cap_inr": 3000,
+     "period": "month",
+     "desc": "2 CP per Rs200 base (0.2% at Rs0.20/CP); 10X on all eligible spends once monthly spend reaches Rs20,000; additional points capped at 15,000 CP per month. Excludes rent, fuel, wallet, cash, utilities."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "cash_withdrawal",
+    "jewellery",
+    "utilities_for_milestone"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-10X-signature-supercard.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-10X-signature-supercard.html",
+    "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+    "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Card discontinued; kept for completeness. Terms read from the official product page.",
+   "status_source": "https://www.dbs.bank.in/in/credit-cards/supercard.html (\"Effective 1st August 2026, the Bajaj Finserv DBS Bank SuperCard will be discontinued; cardholders migrated to DBS SuperX/SuperX Plus\"); also DBS consolidated MITC",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "DBS Spark T&C: 1 Cash Point = up to Rs0.25; reverse debit and benefit illustrations use Rs0.20/point"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-10X-signature-supercard.html",
+     "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+     "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status confirmed discontinued from DBS official notice (1-Aug-2026)",
+     "fees, milestone rewards, caps, exclusions from official product T&C"
+    ]
+   }
+  },
+  {
+   "name": "Bajaj Finserv DBS Bank 10X Plus Signature SuperCard",
+   "issuer": "DBS Bank India",
+   "network": "Visa",
+   "status": "discontinued",
+   "co_brand_partner": "Bajaj Finserv",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 4999,
+   "annual_fee": 4999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic lounge visits per quarter (see T&C)",
+   "main_benefit": "Discontinued co-brand card: 1X base (2 Cash Points per Rs200), 10X on spends after Rs20,000 monthly milestone.",
+   "key_benefits": [
+    "Joining and annual fee Rs4,999 (+GST)",
+    "Welcome bonus 20,000 Cash Points on first spend within 60 days",
+    "Bonus capped at 15,000 Cash Points per month",
+    "Rent, fuel, wallet load, cash and utility spends earn no points",
+    "5% cashback on Bajaj Finance down payments (max Rs500/txn)",
+    "Spend-based fee waiver withdrawn 12-Aug-2025"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 20000,
+       "rate": 0.002
+      },
+      {
+       "from_inr": 20000,
+       "to_inr": null,
+       "rate": 0.02
+      }
+     ],
+     "cap_inr": 3000,
+     "period": "month",
+     "desc": "2 CP per Rs200 base (0.2% at Rs0.20/CP); 10X on all eligible spends once monthly spend reaches Rs20,000; additional points capped at 15,000 CP per month. Excludes rent, fuel, wallet, cash, utilities."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "wallet_load",
+    "cash_withdrawal",
+    "jewellery",
+    "utilities_for_milestone"
+   ],
+   "source_url": "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-10X-plus-signature-supercard.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-10X-plus-signature-supercard.html",
+    "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+    "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Card discontinued; kept for completeness. Terms read from the official product page.",
+   "status_source": "https://www.dbs.bank.in/in/credit-cards/supercard.html (\"Effective 1st August 2026, the Bajaj Finserv DBS Bank SuperCard will be discontinued; cardholders migrated to DBS SuperX/SuperX Plus\"); also DBS consolidated MITC",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "DBS Spark T&C: 1 Cash Point = up to Rs0.25; reverse debit and benefit illustrations use Rs0.20/point"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.dbs.bank.in/in/credit-cards/supercard/bajaj-finserv-dbs-10X-plus-signature-supercard.html",
+     "https://www.dbs.bank.in/in/credit-cards/Credit-Card-Consolidated-MITC.pdf",
+     "https://www.dbs.bank.in/in/credit-cards/supercard.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status confirmed discontinued from DBS official notice (1-Aug-2026)",
+     "fees, milestone rewards, caps, exclusions from official product T&C"
+    ]
+   }
+  },
+  {
+   "name": "Standard Chartered Beyond",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 15000,
+   "annual_fee": 25000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic lounge access (Visa programme) with 4 guest visits per year; Priority Pass for international (T&C Section 10)",
+   "main_benefit": "Relationship-only SC card: 5 reward points per Rs150, 2% forex markup, unlimited domestic lounge and Taj/Luxe/MMT joining vouchers.",
+   "key_benefits": [
+    "Joining Rs15,000 with Rs15,000 vouchers (Taj, Luxe, MakeMyTrip); renewal Rs25,000 waived on FUM qualification",
+    "5 reward points per Rs150; 3 RP per Rs150 on utilities, supermarkets, insurance, property management, schools, government",
+    "Forex markup 2%",
+    "1% fuel surcharge waiver up to Rs5,000 per cycle (fuel earns no points)",
+    "Unlimited domestic lounge, 4 guest visits/yr; Priority Pass abroad; golf, EazyDiner, BookMyShow benefits"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.0083,
+     "rate_best": 0.0333,
+     "desc": "5 RP per Rs150 on all categories except fuel, ATM and listed lower-earn categories; Rs0.25/RP conservative (0.83%), Rs1/RP if SC Ultimate valuation applies (3.33%). Utilities, supermarkets, insurance, property management, schools, government earn 3 RP per Rs150."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_advance",
+    "atm",
+    "returned_purchases",
+    "fees_charges"
+   ],
+   "source_url": "https://www.sc.bank.in/credit-cards/beyond-credit-cards",
+   "source_type": "official",
+   "sources": [
+    "https://www.sc.bank.in/credit-cards/beyond-credit-cards",
+    "Standard Chartered India credit cards listing"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official Beyond T&C read (undated). Jewellery/gold is not in the non-earning list so it appears to earn 5 RP/Rs150, but not stated explicitly. Point value is the unresolved item, so confidence medium.",
+   "status_source": "Standard Chartered India credit cards page lists Beyond (\"Exclusive Card Launch\") and Beyond T&C page live on sc.bank.in; offered to Priority/Private clients by FUM",
+   "eligibility": "Offered to Priority and Private Banking clients meeting FUM (Rs50 lakh) qualification; renewal fee waived if FUM maintained",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 1.0,
+    "note": "Point value not stated in Beyond T&C; SC Ultimate card states 1 RP = Rs1 while aggregator CardAdvisor says Rs0.25 for Beyond (conflict)"
+   },
+   "jewellery_unconfirmed": false,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Standard Chartered Beyond Credit Card Terms and Conditions (sc.bank.in)",
+     "SC India credit card listing page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status closed_to_new -> active (official listing as current launch; relationship-restricted)",
+     "forex 2%, lounge unlimited domestic + 4 guest visits, fuel waiver cap Rs5,000, fuel/ATM excluded, 3 RP/Rs150 on utilities/supermarkets/insurance/schools/government from official T&C",
+     "joining Rs15,000 with Rs15,000 voucher; renewal Rs25,000 waived on FUM"
+    ]
+   }
+  },
+  {
+   "name": "Standard Chartered Priority Visa Infinite",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic per calendar quarter; 2 international per month via Priority Pass for FUM-qualified clients",
+   "main_benefit": "Relationship-only Priority Banking card, free for Priority clients: 5 RP per Rs100 overseas/retail fashion, 2 RP per Rs100 elsewhere.",
+   "key_benefits": [
+    "Complimentary for Priority relationship (no fee)",
+    "5 RP per Rs100 on overseas and retail fashion; 2 RP per Rs100 other spends",
+    "4 domestic lounge visits per quarter; 2 international per month via Priority Pass (FUM qualified)",
+    "Overseas air accident cover Rs1 crore; medical USD 25,000",
+    "Lifetime-free supplementary cards"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0125,
+     "desc": "5 pts/Rs100 at Rs0.25/pt"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "jewellery"
+     ],
+     "rate": 0.005,
+     "desc": "Jewellery not stated (unconfirmed)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.sc.com/in/credit-cards/",
+   "source_type": "official",
+   "sources": [
+    "https://www.sc.com/in/credit-cards/",
+    "https://cardadvisor.in/cards/sc-priority-visa-infinite"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read for fees/rewards/lounge; exclusions and point value not stated on page (point value from aggregator). Existing rules retained.",
+   "status_source": "SC India official page \"Visa Infinite Card - Priority Banking Credit Card\" live; listed under Other Credit Cards on sc.com credit cards page; complimentary for Priority Banking relationship",
+   "eligibility": "Reserved for Priority Banking customers (FUM qualified for international lounge benefit); complimentary for Priority relationship",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.25,
+    "note": "CardAdvisor: statement credit Rs0.20/pt, Rs0.25 catalogue; SC page does not state INR value"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.sc.com/in/credit-cards/ (Priority Visa Infinite page)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status closed_to_new -> active/relationship-only (page live)",
+     "official: 5 RP per Rs100 overseas or retail fashion, 2 RP per Rs100 other; 4 domestic lounge visits per quarter; 2 per month international Priority Pass for FUM-qualified"
+    ]
+   }
+  },
+  {
+   "name": "Standard Chartered Emirates World",
+   "issuer": "Standard Chartered Bank India",
+   "network": "Mastercard",
+   "status": "unknown",
+   "co_brand_partner": "Emirates",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Discontinued Emirates Skywards co-brand; partnership ended 31 Mar 2022.",
+   "key_benefits": [
+    "Historical: 6 miles/Rs150 on Emirates"
+   ],
+   "base_rate": 0.008,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/sc-emirates-world",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/sc-emirates-world"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Not listed on SC India current credit card page (Beyond, Rewards, Smart, Ultimate, Super Value Titanium, EaseMyTrip, Priority Visa Infinite). Likely discontinued but unproven on issuer site.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "SC India credit cards listing (no Emirates card listed)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status discontinued -> unknown: not on the current SC India card list, but no issuer notice found; aggregator says holders were offered SC Ultimate upgrade"
+    ]
+   }
+  },
+  {
+   "name": "HSBC Taj Credit Card",
+   "issuer": "HSBC India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Taj / IHCL",
+   "tier": "super_premium",
+   "lifetime_free": null,
+   "joining_fee": 110000,
+   "annual_fee": 110000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Unlimited domestic and international",
+   "main_benefit": "Taj/IHCL co-brand with annual Taj voucher package, NeuPass Platinum and 5 RP/Rs100 at Taj-group hotels.",
+   "key_benefits": [
+    "Annual voucher: 2 Taj nights, 1 Palaces night, 4 meals, 4 spa, 36 access vouchers",
+    "InnerCircle NeuPass Platinum",
+    "12 golf games/yr",
+    "~Rs30,000 milestone bonus"
+   ],
+   "base_rate": 0.0101,
+   "rules": [
+    {
+     "merchants": [
+      "taj",
+      "seleqtions",
+      "gateway",
+      "vivanta",
+      "ama stays & trails"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.0335,
+     "desc": "5 RP/Rs100 at source value Rs0.67/pt (conflicts with 1.5RP=Rs1)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "utilities",
+    "jewellery",
+    "wholesale_clubs",
+    "money_transfer"
+   ],
+   "source_url": "https://www.hsbc.bank.in/credit-cards/",
+   "source_type": "official",
+   "sources": [
+    "HSBC Taj MITC 7/26",
+    "https://www.hsbc.bank.in/credit-cards/",
+    "https://cardadvisor.in/cards/hsbc-taj"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC (July 2026) read for fees/eligibility/forex; reward rates (5 RP/Rs100 at Taj properties etc.) and exclusions retained from aggregator. Business Today headline in page lists \"HSBC India offers zero forex mark-up on all credit cards from August 15\" - unverified; MITC says 3.5%.",
+   "status_source": "HSBC India credit cards menu lists \"HSBC Taj Credit Card\" (hsbc.bank.in); MITC TAJ 7/26 (July 2026); invite-only",
+   "eligibility": "Invite only; age 25-75; income Rs40 lakh/yr (salaried) or Rs60 lakh/yr (self-employed); Indian resident; serviceable cities: Delhi NCR, Chandigarh, Jaipur, Mumbai, Pune, Ahmedabad, Kolkata, Bengaluru, Chennai, Hyderabad, Kochi, Coimbatore",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "HSBC Taj Credit Card MITC (TAJ MITC 7/26)",
+     "hsbc.bank.in credit cards menu"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from MITC 7/26: joining Rs1,10,000+tax, annual Rs1,10,000 from 2nd year (first-year annual NIL)",
+     "eligibility: invite-only, age 25-75, income Rs40L salaried / Rs60L self-employed, 13 cities",
+     "forex 3.5% per MITC (HSBC announced 0% forex on all cards from 15-Aug-2026 per Business Today headline, not read on HSBC site)"
+    ]
+   }
+  },
+  {
+   "name": "Unity Bank BharatPe Credit Card",
+   "issuer": "Unity Small Finance Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "BharatPe",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic and 2 international visits per year (RuPay)",
+   "main_benefit": "Lifetime-free card with 2% Zillion Coins reward and lounge access; bills of Rs1,000+ auto-converted to EMI.",
+   "key_benefits": [
+    "Min income Rs2.5L/yr salaried"
+   ],
+   "base_rate": 0.02,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardadvisor.in/cards/bharatpe",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardadvisor.in/cards/bharatpe"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Rate 4 coins = Rs1. The 2% reward applies only on EMI-converted transactions (bills Rs1,000+ auto-converted at ~2%/month interest), so net value is low. Lounge: sources conflict. No Unity SFB official page read (unity.bank.in not fetched).",
+   "status_source": "Launch coverage Aug 2025 (Business Today, The Paypers); no discontinuation notice found; listing updated Feb 2026 (aggregator)",
+   "eligibility": "App-first via BharatPe; salaried min income Rs2.5L/yr (aggregator)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://thepaypers.com/fintech/news/bharatpe-and-unity-bank-launch-credit-card",
+     "https://cardadvisor.in/cards/bharatpe"
+    ],
+    "result": "corrected",
+    "changes": [
+     "reward rule clarified: 2% Zillion Coins applies only to spends converted to EMI (not all spends)",
+     "lounge claims conflict (none / 2 intl per year)"
+    ]
+   }
+  },
+  {
+   "name": "Uni Pay 1/3rd Card",
+   "issuer": "YES Bank (per prior record); partners reported as RBL/SBM (unconfirmed)",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Uni",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Uni pay-in-3 card that splits each spend into three monthly parts at no extra charge; rewards as cashback if paid in full.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://emicalculator.net/uni-pay-1-3-card-spend-now-and-repay-over-3-months/",
+   "source_type": "third_party",
+   "sources": [
+    "https://emicalculator.net/uni-pay-1-3-card-spend-now-and-repay-over-3-months/",
+    "https://voice.lapaas.com/startup/uni-cards/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Suspended Aug 2022 per TechCrunch/Inc42 (news, not issuer notice). Uni now distributes co-brand cards (GoldX). Not confirmed discontinued on Uni/issuer site.",
+   "point_value_inr": {
+    "cash": null,
+    "best": null,
+    "note": "not found"
+   },
+   "status_source": null,
+   "eligibility": "Reportedly age 25-60 (third-party)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://techcrunch.com/2022/08/19/indian-fintech-uni-suspends-card-services-amid-central-banks-guidelines",
+     "https://voice.lapaas.com/startup/uni-cards/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status kept unknown: Uni suspended Pay 1/3rd and Pay 1/2 in Aug 2022 after RBI PPI-credit rule; no restart found; current Uni product is Uni GoldX (BOBCARD/YES Bank)"
+    ]
+   },
+   "jewellery_unconfirmed": true
+  },
+  {
+   "name": "AU Fi MagniFi",
+   "issuer": "AU Small Finance Bank (Fi Money app); Federal Bank variant discontinued",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Fi Money",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Fi-app weekend-reward card reported at 5% on weekend spends (capped at 2,000 Fi-Points/cycle) and 0.5% on weekdays; AU variant terms not confirmed.",
+   "key_benefits": [
+    "Reported: 20 Fi-Points/Rs100 on weekends (4 pts = Rs1), 2 pts/Rs100 weekdays",
+    "Reported: 20% off (max Rs100) once a month on Amazon/Zomato/Zepto/BookMyShow",
+    "Federal MagniFi KFS: joining/annual nil, forex 3.5%, replacement Rs250"
+   ],
+   "base_rate": 0.005,
+   "rules": [],
+   "excludes": [
+    "wallet_load",
+    "rent",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://fi.money/credit-cards/magnifi",
+   "source_type": "third_party",
+   "sources": [
+    "https://fi.money/credit-cards/magnifi",
+    "https://www.federal.bank.in/documents/d/guest/magnifi-mitc-1",
+    "https://fi.money/documents/credit-card/magnifi/key-fact-statement",
+    "https://www.paisabazaar.com/au-small-finance-bank/au-magnifi-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No AU document for this card found. Not in AU 2026 lineup; existing figures (20 Fi points/Rs100 weekend, 2 weekday per aggregators) unverified.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "4 Fi-Points = Rs1 (Fi FAQ / Federal MagniFi MITC); AU variant unconfirmed"
+   },
+   "status_source": null,
+   "eligibility": "Not confirmed (third-party: 18+, income ~Rs25k/month, score 730+)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.au.bank.in/pdfs/press-release/2026/AU-Small-Finance-Bank-unveils-a-curated-Credit-Cards-portfolio-aligned-with-Indias-evolving-aspirations.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status kept unknown: AU May-2026 portfolio (Ananta, Laksya, Tejas, Prathama) does not include MagniFi; fi.money says the Federal MagniFi was discontinued 20-Mar-2026"
+    ]
+   }
+  }
+ ],
+ "gaps": [
+  "AU Fi MagniFi: AU document; status",
+  "American Express Centurion Card: official Amex fee schedule; rewards",
+  "American Express Gold Corporate Card: MR point INR value; KFS/MR T&C dates; jewellery treatment",
+  "American Express Green Corporate Card: MR point INR value; KFS/MR T&C dates; jewellery treatment",
+  "American Express Jet Airways Platinum: issuer-site proof of discontinuation",
+  "American Express Platinum Corporate Card: MR point INR value; KFS/MR T&C dates; jewellery treatment",
+  "Bandhan Bank Standard Chartered Credit Card: status proof",
+  "Bandhan Flare: official MITC/KFS, exclusions, caps",
+  "Bandhan Ignite: official MITC/KFS, exclusions, caps",
+  "Bandhan Lumina: official MITC/KFS, exclusions, caps",
+  "Bandhan Sparks: official MITC/KFS, exclusions, caps",
+  "CUB SalarySe Level Up Credit Card: Scoin value, caps, exclusions; lounge visit count",
+  "DBS Spark: T&C undated; confidence high assumes current copy",
+  "DBS SuperX Plus: SuperX earn rates, lounge, waiver terms",
+  "DBS SuperX: SuperX earn rates, lounge, waiver terms",
+  "DCB Niyo Credit Card: reward structure",
+  "DCB PayLess Platinum Card: reward/cashback terms",
+  "DCB PayLess Select Card: reward/cashback terms",
+  "DCB ZET Credit Card: official DCB ZET KFS",
+  "DCB novio Credit Card: Novio coin value and reward caps",
+  "Dhanlaxmi Bank Dhan Namaste Credit Card: fees, rewards, forex unconfirmed for Namaste/Visa Platinum",
+  "Dhanlaxmi Bank Dhan Samriddhi Credit Card: forex markup, exclusions",
+  "Dhanlaxmi Bank Dhan Vriddhi Credit Card: forex markup, exclusions",
+  "Dhanlaxmi Bank RuPay Platinum Credit Card: forex markup, exclusions",
+  "Dhanlaxmi Bank RuPay Select Credit Card: forex markup, exclusions",
+  "Dhanlaxmi Bank Visa Platinum Credit Card: fees, rewards, forex unconfirmed for Namaste/Visa Platinum",
+  "Equitas PowerMiles: domestic base earn, exclusions, caps",
+  "Equitas Selfe: forex markup, caps, exclusions",
+  "Equitas Tiga: network, forex markup, exclusions, caps",
+  "HSBC Taj Credit Card: reward rates/exclusions from official doc; whether zero-forex applies to Taj",
+  "J&K Bank Eminent Credit Card: INR value per point; whether jewellery/gold earns (not in listed MCC exclusions); monthly reward caps",
+  "J&K Bank Platinum Credit Card: INR value per point; whether jewellery/gold earns (not in listed MCC exclusions); monthly reward caps",
+  "J&K Bank Platinum Privilege Credit Card: INR value per point; whether jewellery/gold earns (not in listed MCC exclusions); monthly reward caps",
+  "KVB Corporate Credit Card: point value; exclusions",
+  "KVB Honour Credit Card: point value INR and exclusions not published",
+  "KVB Platinum Credit Card: point value INR and exclusions not published",
+  "Karur Vysya SBI Gold Credit Card: forex markup, exclusions and caps not stated on KVB page",
+  "Karur Vysya SBI Platinum Credit Card: forex markup, exclusions and caps not stated on KVB page",
+  "Karur Vysya SBI Signature Credit Card: forex markup, exclusions and caps not stated on KVB page",
+  "LIC Gold EMV Credit Card: status proof; all terms unverified",
+  "LIC Platinum EMV Credit Card: status proof; all terms unverified",
+  "LIC Titanium Credit Card: status proof; all terms unverified",
+  "MobiKwik Blue American Express: official status proof",
+  "SBM ZET Credit Card: reward construct",
+  "South Indian Bank SBI Platinum Card: dated fee schedule, waiver, exclusions",
+  "South Indian Bank SimplySAVE SBI Card: forex markup; jewellery; current dated T&C",
+  "Standard Chartered Beyond: reward point INR value",
+  "Standard Chartered Emirates World: issuer proof of discontinuation",
+  "Standard Chartered Priority Visa Infinite: exclusions, point value, forex",
+  "Suryoday SFB RuPay Platinum Credit Card: cashback cap and exclusion list not stated",
+  "Suryoday SFB RuPay Select Credit Card: cashback cap and exclusion list not stated",
+  "TMB Platinum Credit Card: fees/rewards unverified; newer TMB cards Vertex, Vibe360, Phoenix RuPay, Wings RuPay not in dataset",
+  "TMB Titanium Credit Card: fees/rewards unverified; newer TMB cards Vertex, Vibe360, Phoenix RuPay, Wings RuPay not in dataset",
+  "Uni Pay 1/3rd Card: issuer proof of status",
+  "Unity Bank BharatPe Credit Card: official Unity SFB MITC",
+  "Utkarsh SFB SmartGen Credit Card: cashback cap, exclusions, forex markup, network not found",
+  "NOT IN LIST BUT FOUND: KVB also issues Oura, Samara, Alturas, Eternis cards; TMB Vertex, Vibe360, Phoenix RuPay, Wings RuPay; AU Ananta/Laksya/Tejas/Prathama (May 2026); Bandhan credit card official pages not readable; Equitas site blocks bots."
+ ]
+}

@@ -58,6 +58,12 @@ class RewardMath(unittest.TestCase):
         self.assertAlmostEqual(evaluate(c, Purchase(10000, "other", None, "offline")).reward, 100)
         self.assertAlmostEqual(evaluate(c, Purchase(10000, "other", None, "online")).reward, 500)
 
+    def test_rule_with_unpriced_tiers_is_ignored_not_a_crash(self):
+        c = card(base=None, rules=[{"merchants": [], "categories": ["other"], "rate": None,
+                                    "tiers": [{"from_inr": 0, "to_inr": None, "rate": None, "points_per_100": 1}]}])
+        r = evaluate(c, Purchase(10000, "other"))
+        self.assertFalse(r.rated)
+
     def test_unknown_reward_structure_is_unrated(self):
         c = card(base=None)
         self.assertFalse(evaluate(c, Purchase(1000, "other")).rated)

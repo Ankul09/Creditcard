@@ -20,7 +20,8 @@ RECURRING_CATEGORIES = {"fuel", "groceries", "dining", "bill_payments", "online_
 SENSITIVE_CATEGORIES = {"jewellery", "fuel", "rent", "utilities", "insurance", "wallet_load", "government",
                         "education", "emi", "gaming", "toll", "gift_cards"}
 RESTRICTED_NAME_HINTS = ("indian navy", "indian army", "indian air force", "assam rifles", "armed forces",
-                         "icai", "doctor", "defence", "burgundy")
+                         "icai", "doctor", "defence", "burgundy", "coast guard", "rakshamah", "rakshak",
+                         "shaurya", "ex-servicemen")
 
 
 @dataclass
@@ -81,7 +82,11 @@ def load_cards(path: str = DATA_PATH) -> List[dict]:
 # ---------------------------------------------------------------- rule matching
 
 def _rule_matches(rule: dict, p: Purchase) -> bool:
-    if rule.get("rate") is None and not rule.get("tiers"):
+    tiers = rule.get("tiers") or []
+    if tiers:
+        if any(t.get("rate") is None for t in tiers):  # value per point unknown: cannot price this rule
+            return False
+    elif rule.get("rate") is None:
         return False
     if p.amount < (rule.get("min_txn_inr") or 0):
         return False

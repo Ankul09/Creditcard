@@ -1,0 +1,4685 @@
+{
+ "cards": [
+  {
+   "name": "BOI Visa Gold International Credit Card",
+   "issuer": "Bank of India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 300,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Standard Visa Gold card; 51-day interest-free credit",
+   "key_benefits": [
+    "2X reward points on POS/e-commerce",
+    "51 days interest-free"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.wishfin.com/credit-cards/bank-of-india",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.wishfin.com/credit-cards/bank-of-india",
+    "https://cardinsider.com/bank-of-india/",
+    "https://www.paisabazaar.com/bank-of-india/rupay-select-credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Fees per Wishfin/CardInsider: joining nil, annual Rs300 (+GST). Official BOI site (bankofindia.bank.in / .co.in) returned HTTP 403 to curl and WebFetch on 2026-10-12, so no official MITC read. Data from aggregators (BankBazaar, Paisabazaar, Wishfin, CardInsider). Reward rate stated only as '2X reward points on POS/e-com excluding blocked categories' (base rate per Rs and point value unpublished) so no earn rule; jewellery/fuel exclusions unknown.",
+   "jewellery_unconfirmed": true,
+   "status_source": "aggregators list as current",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardinsider.com/bank-of-india/",
+     "https://www.wishfin.com/credit-cards/bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "joining fee nil confirmed by aggregators",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "BOI Visa Platinum International Credit Card",
+   "issuer": "Bank of India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Visa Platinum card",
+   "key_benefits": [
+    "F&B voucher Rs500 at domestic airport (1 visit/qtr)",
+    "Amazon and Swiggy vouchers Rs100 each",
+    "2X reward points on POS/e-commerce"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.wishfin.com/credit-cards/bank-of-india",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.wishfin.com/credit-cards/bank-of-india",
+    "https://cardinsider.com/bank-of-india/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Fees: joining nil, annual Rs500. Official BOI site (bankofindia.bank.in / .co.in) returned HTTP 403 to curl and WebFetch on 2026-10-12, so no official MITC read. Data from aggregators (BankBazaar, Paisabazaar, Wishfin, CardInsider). Reward rate stated only as '2X reward points on POS/e-com excluding blocked categories' (base rate per Rs and point value unpublished) so no earn rule; jewellery/fuel exclusions unknown.",
+   "jewellery_unconfirmed": true,
+   "status_source": "aggregators list as current",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardinsider.com/bank-of-india/",
+     "https://www.wishfin.com/credit-cards/bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "added benefits, fee confirmed",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "BOI RuPay Platinum Credit Card",
+   "issuer": "Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "RuPay Platinum with concierge; lifetime free per aggregators",
+   "key_benefits": [
+    "2X reward points on POS/e-commerce",
+    "PA/disability cover up to Rs2L (NPCI)",
+    "24x7 concierge",
+    "Up to 51 days interest-free"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.wishfin.com/credit-cards/bank-of-india",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.wishfin.com/credit-cards/bank-of-india",
+    "https://www.bankbazaar.com/credit-card/rupay-platinum-credit-card.html",
+    "https://cardinsider.com/bank-of-india/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Fees nil/nil per Wishfin (BankBazaar says 'low or nil annual fee'). NPCI accident cover Rs2L. Official BOI site (bankofindia.bank.in / .co.in) returned HTTP 403 to curl and WebFetch on 2026-10-12, so no official MITC read. Data from aggregators (BankBazaar, Paisabazaar, Wishfin, CardInsider). Reward rate stated only as '2X reward points on POS/e-com excluding blocked categories' (base rate per Rs and point value unpublished) so no earn rule; jewellery/fuel exclusions unknown.",
+   "jewellery_unconfirmed": true,
+   "status_source": "aggregators list as current",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardinsider.com/bank-of-india/",
+     "https://www.wishfin.com/credit-cards/bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "benefits added",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "BOI Swadhan RuPay Platinum Credit Card",
+   "issuer": "Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "RuPay Platinum with gift vouchers as welcome benefit",
+   "key_benefits": [
+    "2X reward points on POS/e-commerce",
+    "100 points one-time on Rs3,000 spend within 30 days",
+    "Cashback offers on utility bills/partner merchants"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/bank-of-india/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/bank-of-india/",
+    "https://www.wishfin.com/credit-cards/bank-of-india"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Secured card issued against term deposit (TDR/FD); fees nil. Official BOI site (bankofindia.bank.in / .co.in) returned HTTP 403 to curl and WebFetch on 2026-10-12, so no official MITC read. Data from aggregators (BankBazaar, Paisabazaar, Wishfin, CardInsider). Reward rate stated only as '2X reward points on POS/e-com excluding blocked categories' (base rate per Rs and point value unpublished) so no earn rule; jewellery/fuel exclusions unknown.",
+   "jewellery_unconfirmed": true,
+   "eligibility": "Issued against Term Deposit Receipt only; age 21-65 per CardInsider",
+   "status_source": "aggregators list as current",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardinsider.com/bank-of-india/",
+     "https://www.wishfin.com/credit-cards/bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "tier secured; TDR-backed",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "BOI RuPay Select Credit Card",
+   "issuer": "Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 800,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Domestic 8/yr (max 2/qtr), International 2/yr",
+   "main_benefit": "RuPay Select with concierge and Amazon Prime (aggregator claim)",
+   "key_benefits": [
+    "Amazon Prime annual membership",
+    "Swiggy One 3 months/yr",
+    "BigBasket Rs200 voucher monthly",
+    "BookMyShow Rs250 off on 2 tickets monthly",
+    "Health check-up once/yr",
+    "PA cover Rs10L (NPCI)",
+    "24x7 concierge",
+    "2X reward points on POS/e-commerce"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/bank-of-india-rupay-select-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/bank-of-india-rupay-select-credit-card.html",
+    "https://www.paisabazaar.com/bank-of-india/rupay-select-credit-card/",
+    "https://www.wishfin.com/credit-cards/bank-of-india",
+    "https://cardinsider.com/bank-of-india/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Joining nil, annual Rs800 (+GST) per BankBazaar/Paisabazaar/Wishfin. Add-on card fee Rs600 (one aggregator). Official BOI site (bankofindia.bank.in / .co.in) returned HTTP 403 to curl and WebFetch on 2026-10-12, so no official MITC read. Data from aggregators (BankBazaar, Paisabazaar, Wishfin, CardInsider). Reward rate stated only as '2X reward points on POS/e-com excluding blocked categories' (base rate per Rs and point value unpublished) so no earn rule; jewellery/fuel exclusions unknown.",
+   "jewellery_unconfirmed": true,
+   "status_source": "aggregators list as current",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardinsider.com/bank-of-india/",
+     "https://www.wishfin.com/credit-cards/bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "annual fee 800, lounge counts, benefits added",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Bank of India Taj Premium Credit Card",
+   "issuer": "Bank of India",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Taj",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Taj-group membership-linked card; may be legacy",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/bank-of-india/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/bank-of-india/credit-card/",
+    "https://www.wishfin.com/credit-cards/bank-of-india",
+    "https://cardinsider.com/bank-of-india/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Not listed by any BOI aggregator list (Wishfin, CardInsider, Paisabazaar) reviewed on 2026-10-12; likely legacy. Cannot confirm discontinuation from issuer. Official BOI site (bankofindia.bank.in / .co.in) returned HTTP 403 to curl and WebFetch on 2026-10-12, so no official MITC read. Data from aggregators (BankBazaar, Paisabazaar, Wishfin, CardInsider). Reward rate stated only as '2X reward points on POS/e-com excluding blocked categories' (base rate per Rs and point value unpublished) so no earn rule; jewellery/fuel exclusions unknown.",
+   "jewellery_unconfirmed": true,
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardinsider.com/bank-of-india/",
+     "https://www.wishfin.com/credit-cards/bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "status active -> unknown",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "BOI Celestia Credit Card",
+   "issuer": "Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 11999,
+   "annual_fee": 11999,
+   "fee_waiver_spend": 800000,
+   "forex_markup": null,
+   "lounge_access": "Domestic 2/qtr, International 4/yr, plus RuPay Delhi exclusive lounge",
+   "main_benefit": "Ultra-premium RuPay card for BOI customers with Rs15 lakh+ income, with lounge, dining, golf and concierge perks.",
+   "key_benefits": [
+    "Welcome e-vouchers worth Rs10,000",
+    "5X loyalty points on dining, airline booking and fuel (base rate unpublished)",
+    "BOGO movie ticket monthly",
+    "HoteLux membership",
+    "4 domestic golf rounds/lessons per year",
+    "Quarterly boutique spa",
+    "Insurance: PA Rs50L, air Rs1Cr, purchase protection Rs2L, baggage Rs20,000",
+    "24x7 concierge"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/bank-of-india/boi-celestia-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/bank-of-india/boi-celestia-credit-card/",
+    "https://cardinsider.com/bank-of-india/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "BOI Celestia RuPay Ekaa (metal-class ultra-premium). Joining Rs11,999 + GST, annual Rs11,999 + GST (earlier record said Rs5,000: corrected); annual fee waived on Rs8L spend; add-on Rs11,999. CardInsider updated 3 Sep 2026. Gross income Rs15L+ required. Official BOI site (bankofindia.bank.in / .co.in) returned HTTP 403 to curl and WebFetch on 2026-10-12, so no official MITC read. Data from aggregators (BankBazaar, Paisabazaar, Wishfin, CardInsider). Reward rate stated only as '2X reward points on POS/e-com excluding blocked categories' (base rate per Rs and point value unpublished) so no earn rule; jewellery/fuel exclusions unknown.",
+   "jewellery_unconfirmed": true,
+   "eligibility": "Gross annual income Rs15 lakh+",
+   "status_source": "CardInsider page updated 3 Sep 2026 (aggregator); not issuer-confirmed",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://cardinsider.com/bank-of-india/",
+     "https://www.wishfin.com/credit-cards/bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "fees 5000 -> 11,999 each, waiver Rs8L, lounge counts, welcome vouchers, income criterion",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank RuPay Select Credit Card",
+   "issuer": "Canara Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 2/qtr self; International 2/yr self",
+   "main_benefit": "Canara Bank Select card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt).",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs300 if annual turnover below Rs100,000 (no joining/annual fee)",
+    "Max credit limit Rs50 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). ",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank RuPay Platinum Credit Card",
+   "issuer": "Canara Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 2/qtr self (cap 4/yr)",
+   "main_benefit": "Canara Bank Platinum card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt).",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs200 if annual turnover below Rs50,000 (no joining/annual fee)",
+    "Max credit limit Rs50 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). ",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank RuPay Classic Credit Card",
+   "issuer": "Canara Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Not available",
+   "main_benefit": "Canara Bank Classic card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt).",
+   "key_benefits": [
+    "Fraudulent charge cover Rs2,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs100 if annual turnover below Rs12,000 (no joining/annual fee)",
+    "Max credit limit Rs5 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). ",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank Mastercard World Credit Card",
+   "issuer": "Canara Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 3 self + 2 guest/qtr; International 2 self + 2 guest/yr",
+   "main_benefit": "Canara Bank Select card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt).",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs300 if annual turnover below Rs100,000 (no joining/annual fee)",
+    "Max credit limit Rs50 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). ",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank Visa Gold Credit Card",
+   "issuer": "Canara Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Not available",
+   "main_benefit": "Canara Bank Gold card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt).",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs150 if annual turnover below Rs25,000 (no joining/annual fee)",
+    "Max credit limit Rs25 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). ",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank Visa Platinum Credit Card",
+   "issuer": "Canara Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 2/qtr self",
+   "main_benefit": "Canara Bank Platinum card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt).",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs200 if annual turnover below Rs50,000 (no joining/annual fee)",
+    "Max credit limit Rs50 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). ",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank Mastercard Platinum Credit Card",
+   "issuer": "Canara Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 2 self + 1 guest/qtr",
+   "main_benefit": "Canara Bank Platinum card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt).",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs200 if annual turnover below Rs50,000 (no joining/annual fee)",
+    "Max credit limit Rs50 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). ",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank RuPay Platinum Secured Credit Card",
+   "issuer": "Canara Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 2/qtr self (cap 4/yr)",
+   "main_benefit": "Canara Bank Platinum card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt); issued against a fixed deposit.",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs200 if annual turnover below Rs50,000 (no joining/annual fee)",
+    "Max credit limit Rs50 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). Secured variant: 2.0% pm finance charge on cash.",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": "Secured against fixed deposit",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank RuPay Select Secured Credit Card",
+   "issuer": "Canara Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 2/qtr self; International 2/yr self",
+   "main_benefit": "Canara Bank Select card with no joining/annual fee and a flat 0.5% reward rate (2 pts per Rs100 at Rs0.25/pt); issued against a fixed deposit.",
+   "key_benefits": [
+    "Fraudulent charge cover Rs5,00,000",
+    "Baggage insurance up to Rs50,000",
+    "Purchase protection up to Rs50,000",
+    "Air accident cover per comparison sheet (self/spouse)",
+    "Inactivity fee Rs300 if annual turnover below Rs100,000 (no joining/annual fee)",
+    "Max credit limit Rs50 lakh"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "cap_inr": 2500,
+     "period": "statement",
+     "desc": "2 reward points per Rs100 on POS/e-commerce (fractions of Rs100 excluded); 1 pt = Rs0.25 (Canara MITC); redeemed via Canara Rewardz or ai1 app (cashback min 1000 pts); cap 10,000 pts per billing cycle (= Rs2,500)"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "cash_withdrawal"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Canara variants/features sheet + MITC. Fuel and cash withdrawals earn no points; gold/jewellery explicitly excluded only for EMI conversion, earn exclusion unconfirmed. Interest 2%/month (secured) vs 2.5% (unsecured) beyond credit period. MITC tariff dated 01.04.2022 (older than 12 months) so not rated high. Secured variants share benefits per sheet (secured Gold/Platinum/Select). Secured variant: 2.0% pm finance charge on cash.",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Canara MITC: each reward point Rs0.25"
+   },
+   "eligibility": "Secured against fixed deposit",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 2pt/Rs100 Rs0.25, cap 10,000 pts/cycle, forex 3%, lounge by variant, fuel excluded",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Canara Bank Visa Corporate Credit Card",
+   "issuer": "Canara Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 250,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Canara corporate Visa card for business use; no reward points and no EMI.",
+   "key_benefits": [
+    "Enrolment fee Rs250 on primary; Rs400 annual fee per add-on card",
+    "Max credit limit up to Rs25 crore",
+    "Fraudulent charge cover Rs2L; baggage and purchase cover Rs50,000",
+    "No card inactivity fee"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+   "source_type": "official",
+   "sources": [
+    "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+    "https://www.canarabank.bank.in/documents/d/guest/mitc-202",
+    "https://www.canarabank.bank.in/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official comparison sheet: reward points 'Not Applicable' for corporate card. Forex 3% (all variants). Fees per tariff sheet 01.04.2022 (GST extra).",
+   "status_source": "https://www.canarabank.bank.in/credit-cards (variant listed in official comparison sheet)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": null,
+   "eligibility": "Corporate/business customers",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.canarabank.bank.in/documents/d/guest/credit-20card-20variants-20and-20features",
+     "https://www.canarabank.bank.in/documents/d/guest/mitc-202"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/forex/no rewards per official sheet",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Central Bank Visa Platinum Credit Card",
+   "issuer": "Central Bank of India",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "1 point per Rs100; Verified by Visa",
+   "key_benefits": [],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 Anmol/Cent Rewardz point per Rs100; 1 pt = Rs0.25 (BankBazaar)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+    "https://www.wishfin.com/credit-cards/central-bank-of-india"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Fees 'as applicable' on Wishfin (conflicts with earlier record of nil annual fee, left as previously recorded, unverified). Official page centralbank.bank.in/en/credit-cards loaded on 2026-10-12 but contains no card details/variant list or MITC (empty body); status therefore unconfirmed. Data from aggregators (BankBazaar, Wishfin, Paisabazaar); fee tables disagree. Jewellery/fuel exclusions unknown. Point value Rs0.25 per aggregator.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "BankBazaar: 1 Cent/Anmol Rewardz point = Rs0.25 (aggregator)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://centralbank.bank.in/en/credit-cards",
+     "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+     "https://www.wishfin.com/credit-cards/central-bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "earn 1pt/Rs100 added",
+     "status active -> unknown (official page empty)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Central Bank Visa Aspire Credit Card",
+   "issuer": "Central Bank of India",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Secured card against Cent Aspire FD; Rs1L accident cover",
+   "key_benefits": [
+    "Accidental death cover Rs1L"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.wishfin.com/credit-cards/central-bank-of-india",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.wishfin.com/credit-cards/central-bank-of-india",
+    "https://paisabazaar.com/central-bank-of-india/credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Joining/annual nil per Wishfin and Paisabazaar. Earn rate not published (Aspire not in BankBazaar reward eligibility list). Official page centralbank.bank.in/en/credit-cards loaded on 2026-10-12 but contains no card details/variant list or MITC (empty body); status therefore unconfirmed. Data from aggregators (BankBazaar, Wishfin, Paisabazaar); fee tables disagree. Jewellery/fuel exclusions unknown. Point value Rs0.25 per aggregator.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://centralbank.bank.in/en/credit-cards",
+     "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+     "https://www.wishfin.com/credit-cards/central-bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "fees nil, PA cover",
+     "status active -> unknown (official page empty)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Central Bank Titanium Credit Card",
+   "issuer": "Central Bank of India",
+   "network": "Mastercard",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Select Indian airports (count not published)",
+   "main_benefit": "Complimentary lounge access at select domestic airports",
+   "key_benefits": [
+    "Complimentary airport lounge access at select Indian airports (counts not published)",
+    "Card/add-on renewal or cancellation fee Rs100 (one source)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 Anmol Rewardz point per Rs100 (Master Titanium); 1 pt = Rs0.25"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/central-bank-of-india-titanium-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/central-bank-of-india-titanium-credit-card.html",
+    "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+    "https://www.wishfin.com/credit-cards/central-bank-of-india"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Mastercard Titanium; nil issuance/annual. Official page centralbank.bank.in/en/credit-cards loaded on 2026-10-12 but contains no card details/variant list or MITC (empty body); status therefore unconfirmed. Data from aggregators (BankBazaar, Wishfin, Paisabazaar); fee tables disagree. Jewellery/fuel exclusions unknown. Point value Rs0.25 per aggregator.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "BankBazaar: 1 Cent/Anmol Rewardz point = Rs0.25 (aggregator)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://centralbank.bank.in/en/credit-cards",
+     "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+     "https://www.wishfin.com/credit-cards/central-bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "network Mastercard, earn rate, lounge",
+     "status active -> unknown (official page empty)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Central Bank Mastercard World Credit Card",
+   "issuer": "Central Bank of India",
+   "network": "Mastercard",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "4 points per Rs100 on international spends; lounge access",
+   "key_benefits": [],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0075,
+     "desc": "3 points per Rs100 on domestic spends; 1 pt = Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.01,
+     "desc": "4 points per Rs100 on international spends; 1 pt = Rs0.25"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+    "https://www.wishfin.com/credit-cards/central-bank-of-india"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Annual fee Rs500 on one aggregator ('as applicable' on Wishfin): kept Rs500 as previously recorded, unverified. Points expire after 3 years. Official page centralbank.bank.in/en/credit-cards loaded on 2026-10-12 but contains no card details/variant list or MITC (empty body); status therefore unconfirmed. Data from aggregators (BankBazaar, Wishfin, Paisabazaar); fee tables disagree. Jewellery/fuel exclusions unknown. Point value Rs0.25 per aggregator.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "BankBazaar: 1 Cent/Anmol Rewardz point = Rs0.25 (aggregator)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://centralbank.bank.in/en/credit-cards",
+     "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+     "https://www.wishfin.com/credit-cards/central-bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "earn 3/4 pts per Rs100 domestic/international",
+     "status active -> unknown (official page empty)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Central Bank RuPay Platinum Credit Card",
+   "issuer": "Central Bank of India",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Concierge services",
+   "key_benefits": [
+    "5% cashback on utility bill payments (online and POS), max Rs50 per month",
+    "Insurance cover Rs2L (death, PA, disability)",
+    "24x7 concierge"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 point per Rs100; 1 pt = Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.05,
+     "cap_inr": 50,
+     "desc": "5% cashback on utility bill payments online/POS, capped Rs50 per month (BankBazaar)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.bankbazaar.com/credit-card/central-bank-of-india-rupay-platinum-credit-card.html",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/central-bank-of-india-rupay-platinum-credit-card.html",
+    "https://www.wishfin.com/credit-cards/central-bank-of-india"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Utility cashback 5% capped Rs50/month per BankBazaar (separate from points). Official page centralbank.bank.in/en/credit-cards loaded on 2026-10-12 but contains no card details/variant list or MITC (empty body); status therefore unconfirmed. Data from aggregators (BankBazaar, Wishfin, Paisabazaar); fee tables disagree. Jewellery/fuel exclusions unknown. Point value Rs0.25 per aggregator.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "BankBazaar: 1 Cent/Anmol Rewardz point = Rs0.25 (aggregator)"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://centralbank.bank.in/en/credit-cards",
+     "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+     "https://www.wishfin.com/credit-cards/central-bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "earn, utility cashback, insurance",
+     "status active -> unknown (official page empty)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Central Bank RuPay Select Credit Card",
+   "issuer": "Central Bank of India",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "4 international RuPay lounge visits per year (one aggregator)",
+   "main_benefit": "4 international RuPay lounge visits per year",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.wishfin.com/credit-cards/central-bank-of-india",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.wishfin.com/credit-cards/central-bank-of-india",
+    "https://paisabazaar.com/central-bank-of-india/credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Joining Rs500 and annual Rs500 per Wishfin. Earn rate not found. Official page centralbank.bank.in/en/credit-cards loaded on 2026-10-12 but contains no card details/variant list or MITC (empty body); status therefore unconfirmed. Data from aggregators (BankBazaar, Wishfin, Paisabazaar); fee tables disagree. Jewellery/fuel exclusions unknown. Point value Rs0.25 per aggregator.",
+   "status_source": null,
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://centralbank.bank.in/en/credit-cards",
+     "https://commonfloor.bankbazaar.com/central-bank-of-india-credit-card-reward-points.html",
+     "https://www.wishfin.com/credit-cards/central-bank-of-india"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "joining fee 500, lounge",
+     "status active -> unknown (official page empty)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Indian Bank Bharat Credit Card",
+   "issuer": "Indian Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free Visa Classic for India-only use, limit up to Rs19,999",
+   "key_benefits": [
+    "No joining fee, AMC nil",
+    "No add-on cards, no EMI",
+    "Cash limit 25% of credit limit",
+    "Interest 1.79% pm"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+   "source_type": "official",
+   "sources": [
+    "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+    "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+    "https://www.indianbank.bank.in/departments/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Visa Bharat: no reward points program per official sheet. Indian Bank official features sheet + MITC read 2026-10-12 (sheet undated; MITC filename 'effective Apr'). Earn exclusions (jewellery, wallet, utilities etc.) not stated, so jewellery_unconfirmed. Surcharge on petrol: Rs10 or 2.5% (no waiver stated).",
+   "status_source": "https://www.indianbank.bank.in/departments/credit-card/ (variant listed on official credit card page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+     "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+     "https://www.indianbank.bank.in/departments/credit-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/AMC, reward rate and point value from official features sheet",
+     "forex 3% from MITC",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Indian Bank Gold Credit Card",
+   "issuer": "Indian Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 250,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Gold card, 1 point (Re1) per Rs200 spent",
+   "key_benefits": [
+    "Joining fee nil; AMC nil first year, Rs250 from 2nd year",
+    "Add-on up to 4 cards",
+    "Air accident cover Rs5L",
+    "Interest 1.99% pm"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1 reward point valued at Re1 for every Rs100 spent (Indian Bank features sheet). AMC waived on prior-year spend above Rs50,000"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+   "source_type": "official",
+   "sources": [
+    "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+    "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+    "https://www.indianbank.bank.in/departments/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Visa Gold. 1 pt (Re1) per Rs100 = 1%. Indian Bank official features sheet + MITC read 2026-10-12 (sheet undated; MITC filename 'effective Apr'). Earn exclusions (jewellery, wallet, utilities etc.) not stated, so jewellery_unconfirmed. Surcharge on petrol: Rs10 or 2.5% (no waiver stated).",
+   "status_source": "https://www.indianbank.bank.in/departments/credit-card/ (variant listed on official credit card page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Official sheet: 1 point valued at Re1"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+     "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+     "https://www.indianbank.bank.in/departments/credit-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/AMC, reward rate and point value from official features sheet",
+     "forex 3% from MITC",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Indian Bank Platinum Credit Card",
+   "issuer": "Indian Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 250,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Platinum for limits Rs1L+",
+   "key_benefits": [
+    "AMC nil first year, Rs250 from 2nd year",
+    "Add-on up to 4 cards",
+    "Air accident cover Rs5L",
+    "Interest 1.66% pm"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1 reward point valued at Re1 for every Rs100 spent (Indian Bank features sheet). AMC waived on prior-year spend above Rs50,000"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+   "source_type": "official",
+   "sources": [
+    "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+    "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+    "https://www.indianbank.bank.in/departments/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Visa Platinum (card named 'Platinum' in earlier record). 1 pt (Re1) per Rs100 = 1%. Indian Bank official features sheet + MITC read 2026-10-12 (sheet undated; MITC filename 'effective Apr'). Earn exclusions (jewellery, wallet, utilities etc.) not stated, so jewellery_unconfirmed. Surcharge on petrol: Rs10 or 2.5% (no waiver stated).",
+   "status_source": "https://www.indianbank.bank.in/departments/credit-card/ (variant listed on official credit card page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Official sheet: 1 point valued at Re1"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+     "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+     "https://www.indianbank.bank.in/departments/credit-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/AMC, reward rate and point value from official features sheet",
+     "forex 3% from MITC",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Indian Bank Visa Business Credit Card",
+   "issuer": "Indian Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Business Gold/Platinum card with insurance cover up to Rs5L",
+   "key_benefits": [
+    "Variants Gold/Platinum business",
+    "AMC nil first year, Rs500 from 2nd year; waived if prior-year spend > Rs2,00,000",
+    "No EMI",
+    "Interest 1.99% pm"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "1 reward point valued at Re1 for every Rs200 spent (Indian Bank features sheet). AMC waived on prior-year spend above Rs200,000"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+   "source_type": "official",
+   "sources": [
+    "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+    "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+    "https://www.indianbank.bank.in/departments/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Business card: 1 pt (Re1) per Rs200 = 0.5%. Indian Bank official features sheet + MITC read 2026-10-12 (sheet undated; MITC filename 'effective Apr'). Earn exclusions (jewellery, wallet, utilities etc.) not stated, so jewellery_unconfirmed. Surcharge on petrol: Rs10 or 2.5% (no waiver stated).",
+   "status_source": "https://www.indianbank.bank.in/departments/credit-card/ (variant listed on official credit card page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "Official sheet: 1 point valued at Re1"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+     "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+     "https://www.indianbank.bank.in/departments/credit-card/"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/AMC, reward rate and point value from official features sheet",
+     "forex 3% from MITC",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Indian Bank Global Classic Credit Card",
+   "issuer": "Indian Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 250,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Classic variant with 1 point per Rs200 spent",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/indian-bank/credit-card",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/indian-bank/credit-card",
+    "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+    "https://www.indianbank.bank.in/departments/credit-card/"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Third-party/aggregator-derived (Paisabazaar/BankBazaar, fetched 2026-10-11); issuer page not verified. Reward rates not captured unless in main_benefit. Older aggregator content; cards may be partly legacy. | 2026-10-12: Not on the current official variant list (Bharat, Gold, Platinum, Business, RuPay Classic/Platinum/Select, secured). MITC still lists a Visa Classic variant (AMC Rs250 from 2nd yr, same as Gold/Platinum; air accident cover Rs2L). Official sheet gives no reward for Classic; the earlier 1pt/Rs200 appears to belong to Business. Status unconfirmed by issuer notice.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.indianbank.bank.in/documents/d/guest/CREDIT-CARD-FEATURES-AND-BENEFITS-6",
+     "https://indianbank.bank.in/documents/d/guest/mitc-final-with-effective-apr",
+     "https://www.indianbank.bank.in/departments/credit-card/"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "status -> unknown; AMC 250 from MITC (Visa Classic)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Indian Bank ONE Credit Card",
+   "issuer": "Indian Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "OneCard (One Consumer Services)",
+   "tier": "other",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.01,
+   "lounge_access": null,
+   "main_benefit": "Mobile-first metal co-brand with Indian Bank and OneCard: no joining/annual fee and 1% forex markup; reward rate not published in official documents.",
+   "key_benefits": [
+    "Nil joining/annual fee; metal add-on issuance Rs3,000",
+    "Forex markup 1%",
+    "Fuel surcharge waiver 1% capped Rs400/month; no rewards on fuel",
+    "Rent payments 2% fee; wallet load over Rs10,000/month 2% fee",
+    "Interest 3.75% pm (45% pa)",
+    "Visa physical/virtual and RuPay virtual floater (RuPay floater earns no rewards, UPI-linkable)",
+    "Interest-free up to 48 days"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://indianbank.bank.in/en/indian-bank-one-co-branded-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://assets.getonecard.app/assets/legal/IndianBank_KFS.pdf",
+    "https://assets.getonecard.app/assets/legal/IndianBank_MITC.pdf",
+    "https://indianbank.bank.in/en/indian-bank-one-co-branded-credit-card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official KFS (w.e.f. 7 Jul 2026) + MITC. Rewards: 'depending on transaction value and purchase category' only; no rate published (Paisabazaar claims 5X on top-2 categories, likely OneCard general; not used). Reward points not accrued on fuel; none on RuPay virtual floater. Forex 1% also applies to INR txns at foreign-based merchants.",
+   "status_source": "Indian Bank page /en/indian-bank-one-co-branded-credit-card live; KFS w.e.f. 7 July 2026",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": null,
+   "eligibility": "OneCard app based; limit visible in app",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://assets.getonecard.app/assets/legal/IndianBank_KFS.pdf",
+     "https://assets.getonecard.app/assets/legal/IndianBank_MITC.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, forex 1%, fuel waiver cap, exclusions, status confirmed from KFS",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IDBI Aspire Platinum Credit Card",
+   "issuer": "IDBI Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "2 Delight Points per Rs150; 500 welcome points",
+   "key_benefits": [
+    "500 bonus points on activation; 500 on first txn >= Rs1,500 in 30 days",
+    "Milestones: 1,000 pts at Rs1L, 1,500 pts at Rs2L annual spend",
+    "Fuel surcharge waiver 1% on Rs400-4000, max Rs300/month",
+    "Zero lost-card liability, 1 add-on card",
+    "Interest 2.9% pm"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0033,
+     "desc": "2 Delight Points per Rs150; 1 pt = Rs0.25 (assumed, aggregator)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://www.idbi.bank.in/aspire-credit-card.aspx",
+   "source_type": "official",
+   "sources": [
+    "https://www.idbi.bank.in/aspire-credit-card.aspx",
+    "https://www.idbi.bank.in/credit-card.aspx",
+    "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Earlier record annual fee Rs499 corrected to nil (official page: joining, annual, renewal nil; 'currently offered with no joining fee'). Official IDBI page read 2026-10-12 (fees, earn, fuel waiver, forex 3.5%). Delight point value and exempted-transaction categories (incl. jewellery) are not on the page ('refer exempted categories') and the MITC/KFS PDFs are not text-extractable, so jewellery_unconfirmed and point value from aggregator.",
+   "status_source": "https://www.idbi.bank.in/credit-card.aspx (listed under official card variants, apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Delight point value not published on IDBI card pages (MITC text not machine-readable); Rs0.25 per Paisabazaar assumed"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idbi.bank.in/aspire-credit-card.aspx",
+     "https://www.idbi.bank.in/credit-card.aspx",
+     "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee 499 -> 0",
+     "earn 2 pts/Rs150",
+     "fuel waiver cap Rs300",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IDBI Euphoria World Credit Card",
+   "issuer": "IDBI Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "12 complimentary domestic lounge visits per calendar year (Mastercard)",
+   "main_benefit": "6 Delight Points per Rs100 on travel; Rs25L air accident cover; fee from second year",
+   "key_benefits": [
+    "Annual fee Rs1,499 from second year; waived on spend > Rs1.5L",
+    "500 bonus pts on activation; 750 on first txn >= Rs5,000",
+    "Milestones 1,500 pts at Rs2L, 2,000 pts at Rs4L",
+    "Air accident cover Rs25L; fraud cover up to Rs5L",
+    "Fuel surcharge waiver 1% on Rs400-5000, max Rs500/month",
+    "Up to 2 add-ons; interest 2.9% pm"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.015,
+     "desc": "6 Delight Points per Rs100 on travel (hotels, airlines, IRCTC, bus bookings); 1 pt = Rs0.25 assumed"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0075,
+     "desc": "3 Delight Points per Rs100 on other spends; 1 pt = Rs0.25 assumed"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://www.idbi.bank.in/Euphoria-credit-card.aspx",
+   "source_type": "official",
+   "sources": [
+    "https://www.idbi.bank.in/Euphoria-credit-card.aspx",
+    "https://www.idbi.bank.in/credit-card.aspx",
+    "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Joining nil, annual Rs1,499 from year 2. Official IDBI page read 2026-10-12 (fees, earn, fuel waiver, forex 3.5%). Delight point value and exempted-transaction categories (incl. jewellery) are not on the page ('refer exempted categories') and the MITC/KFS PDFs are not text-extractable, so jewellery_unconfirmed and point value from aggregator.",
+   "status_source": "https://www.idbi.bank.in/credit-card.aspx (listed under official card variants, apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Delight point value not published on IDBI card pages (MITC text not machine-readable); Rs0.25 per Paisabazaar assumed"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idbi.bank.in/Euphoria-credit-card.aspx",
+     "https://www.idbi.bank.in/credit-card.aspx",
+     "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining fee nil, annual 1499 waiver Rs1.5L, 3/6 pts per Rs100, 12 lounge visits",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IDBI Winnings Credit Card",
+   "issuer": "IDBI Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 899,
+   "fee_waiver_spend": 90000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 2 per calendar quarter, international 2 per half-year (RuPay)",
+   "main_benefit": "Travel-oriented card per Paisabazaar; may be legacy",
+   "key_benefits": [
+    "Annual fee Rs899 from second year; waived on spend > Rs90,000",
+    "500 bonus pts on activation; 500 on first txn >= Rs1,000",
+    "Milestones 1,000 pts at Rs1L, 1,500 pts at Rs2L",
+    "PA cover Rs10L accidental death/disability",
+    "Fuel surcharge waiver 1% on Rs400-4000, max Rs400/month",
+    "Interest 3.4% pm"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 Delight Points per Rs100; 1 pt = Rs0.25 (assumed, aggregator)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://www.idbi.bank.in/Winnings-credit-card.aspx",
+   "source_type": "official",
+   "sources": [
+    "https://www.idbi.bank.in/Winnings-credit-card.aspx",
+    "https://www.idbi.bank.in/credit-card.aspx",
+    "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official card name 'Winnings' (RuPay Select). Official IDBI page read 2026-10-12 (fees, earn, fuel waiver, forex 3.5%). Delight point value and exempted-transaction categories (incl. jewellery) are not on the page ('refer exempted categories') and the MITC/KFS PDFs are not text-extractable, so jewellery_unconfirmed and point value from aggregator.",
+   "status_source": "https://www.idbi.bank.in/credit-card.aspx (listed under official card variants, apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Delight point value not published on IDBI card pages (MITC text not machine-readable); Rs0.25 per Paisabazaar assumed"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idbi.bank.in/Winnings-credit-card.aspx",
+     "https://www.idbi.bank.in/credit-card.aspx",
+     "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual 899 confirmed, waiver Rs90,000, earn 2 pts/Rs100, lounge counts",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IDBI Imperium Platinum Credit Card",
+   "issuer": "IDBI Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 75000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "FD-backed card listed with up to 0.5% rewards and Rs499 annual fee.",
+   "key_benefits": [
+    "Secured: limit up to 85% of FD; cash limit up to 70% of limit",
+    "Annual fee waived on spend > Rs75,000",
+    "500 bonus pts on activation; 500 on first txn >= Rs1,500",
+    "Milestones 1,000 pts at Rs1L, 1,500 pts at Rs2L",
+    "1 add-on card; interest 2.9% pm"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0033,
+     "desc": "2 Delight Points per Rs150; 1 pt = Rs0.25 (assumed, aggregator)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.idbi.bank.in/Imperium-credit-card.aspx",
+   "source_type": "official",
+   "sources": [
+    "https://www.idbi.bank.in/Imperium-credit-card.aspx",
+    "https://www.idbi.bank.in/credit-card.aspx",
+    "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official page: joining Rs499 and annual Rs499 (primary); add-on nil. No fuel surcharge waiver listed for Imperium. Official IDBI page read 2026-10-12 (fees, earn, fuel waiver, forex 3.5%). Delight point value and exempted-transaction categories (incl. jewellery) are not on the page ('refer exempted categories') and the MITC/KFS PDFs are not text-extractable, so jewellery_unconfirmed and point value from aggregator.",
+   "status_source": "https://www.idbi.bank.in/credit-card.aspx (listed under official card variants, apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Delight point value not published on IDBI card pages (MITC text not machine-readable); Rs0.25 per Paisabazaar assumed"
+   },
+   "jewellery_unconfirmed": true,
+   "eligibility": "Secured against own Fixed Deposit(s); limit up to 85% of FD",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idbi.bank.in/Imperium-credit-card.aspx",
+     "https://www.idbi.bank.in/credit-card.aspx",
+     "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+    ],
+    "result": "corrected",
+    "changes": [
+     "joining 499, annual 499, waiver Rs75,000, earn 2 pts/Rs150, secured against FD (limit 85% FD)",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IDBI LIC Eclat Credit Card",
+   "issuer": "IDBI Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "LIC Cards Services Ltd (LIC CSL)",
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Complimentary lounges via RuPay (2 per quarter per earlier record; counts not on current page text)",
+   "main_benefit": "IDBI-LIC co-brand earning 4 Delight Points per Rs100 (about 1% at Rs0.25/point) with nil fees.",
+   "key_benefits": [
+    "Joining/annual/renewal nil",
+    "500 bonus pts on activation; 1,000 on first txn >= Rs5,000",
+    "Milestones 1,500 pts at Rs2L, 2,000 pts at Rs4L",
+    "Air accident cover Rs25L; PA cover Rs10L; credit shield",
+    "Fuel surcharge waiver 1% on Rs400-5000, max Rs500/month",
+    "Redemption fee Rs99; interest 3.4% pm"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "4 Delight Points per Rs100; 1 pt = Rs0.25 (assumed, aggregator)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://www.idbi.bank.in/Eclat-credit-card.aspx",
+   "source_type": "official",
+   "sources": [
+    "https://www.idbi.bank.in/Eclat-credit-card.aspx",
+    "https://www.idbi.bank.in/credit-card.aspx",
+    "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official name 'IDBI Bank-LICCSL Eclat Select'. Earn 4 pts/Rs100 confirmed on IDBI Eclat page (Lumine page says 3 pts). Official IDBI page read 2026-10-12 (fees, earn, fuel waiver, forex 3.5%). Delight point value and exempted-transaction categories (incl. jewellery) are not on the page ('refer exempted categories') and the MITC/KFS PDFs are not text-extractable, so jewellery_unconfirmed and point value from aggregator.",
+   "status_source": "https://www.idbi.bank.in/credit-card.aspx (listed under official card variants, apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Delight point value not published on IDBI card pages (MITC text not machine-readable); Rs0.25 per Paisabazaar assumed"
+   },
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idbi.bank.in/Eclat-credit-card.aspx",
+     "https://www.idbi.bank.in/credit-card.aspx",
+     "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+    ],
+    "result": "corrected",
+    "changes": [
+     "network RuPay, earn confirmed on official page, fuel waiver cap Rs500, bonuses",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IDBI Royale Signature Credit Card",
+   "issuer": "IDBI Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": 1499,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "3 Delight Points per Rs100, 1 lounge visit per quarter, Rs25L cover, 1% fuel waiver",
+   "key_benefits": [
+    "Air accident cover Rs25L",
+    "Fraud cover up to Rs5L on lost/stolen card",
+    "Up to 2 add-on cards"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/idbi-bank/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/idbi-bank/credit-card/",
+    "https://www.idbi.bank.in/credit-card.aspx",
+    "https://www.idbi.bank.in/pdf/MITC-CC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Third-party/aggregator-derived (Paisabazaar/BankBazaar, fetched 2026-10-11); issuer page not verified. Reward rates not captured unless in main_benefit. IDBI is now classified private by RBI but included per assignment. Euphoria/Winnings possibly legacy; network guessed from product knowledge only where given - verify. | 2026-10-12: card confirmed on IDBI official variant list and FAQ (insurance), but its card page URL was not resolvable (returned error page), so fees/earn remain aggregator-derived and unverified.",
+   "status_source": "https://www.idbi.bank.in/credit-card.aspx (listed under official variants)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.idbi.bank.in/credit-card.aspx",
+     "IDBI FAQ page: Royale Signature has air accident cover Rs25L and fraud cover Rs5L, up to 2 add-ons"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "status confirmed on issuer listing; insurance benefits added",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "IOB Classic Credit Card",
+   "issuer": "Indian Overseas Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Classic Visa; limit Rs10,000-50,000",
+   "key_benefits": [
+    "Limit Rs10,000-50,000",
+    "Cashback Rs0.20 per point, 1 point per Rs100, adjusted in monthly bill",
+    "Baggage and purchase protection Rs25,000 each",
+    "Interest 30% pa"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.002,
+     "desc": "1 point per Rs100 at Rs0.20 cashback per point (IOB page)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.iob.bank.in/en/credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.iob.bank.in/en/credit-card",
+    "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+    "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official page marks Visa Classic/Gold as applicable only to existing holders; no 'no longer accepting applications' notice read, so status closed_to_new by that statement. IOB official card page (page dated 3 Oct 2026), schedule of charges and MITC read 2026-10-12; MITC/schedule undated examples from 2021-22 and call RuPay variants 'proposed', so not rated high. Forex 2.5%, fuel surcharge waiver 1% on Rs400-5000 capped Rs250/cycle (MITC). Gold purchase limit 50% of card limit (MITC). Earn exclusions (jewellery etc.) not stated.",
+   "status_source": "https://www.iob.bank.in/en/credit-card ('Features of IOB Classic Credit Card: applicable only for existing card holders')",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.2,
+    "note": "IOB page: cash back Rs0.20 per point"
+   },
+   "eligibility": "Existing cardholders only",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.iob.bank.in/en/credit-card",
+     "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+     "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status -> closed_to_new per official page; earn 0.2%",
+     "fees nil per schedule",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IOB Gold Credit Card",
+   "issuer": "Indian Overseas Bank",
+   "network": "Visa",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Gold Visa; limit up to Rs5L",
+   "key_benefits": [
+    "Limit Rs60,000-5,00,000",
+    "Cashback Rs0.20 per point, 1 point per Rs100",
+    "Air accident cover self Rs4L / spouse Rs2L; road/rail self Rs2L",
+    "Baggage and purchase protection Rs25,000 each"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.002,
+     "desc": "1 point per Rs100 at Rs0.20 cashback per point (IOB page)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.iob.bank.in/en/credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.iob.bank.in/en/credit-card",
+    "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+    "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": " IOB official card page (page dated 3 Oct 2026), schedule of charges and MITC read 2026-10-12; MITC/schedule undated examples from 2021-22 and call RuPay variants 'proposed', so not rated high. Forex 2.5%, fuel surcharge waiver 1% on Rs400-5000 capped Rs250/cycle (MITC). Gold purchase limit 50% of card limit (MITC). Earn exclusions (jewellery etc.) not stated.",
+   "status_source": "https://www.iob.bank.in/en/credit-card ('Features of IOB Gold Credit Card: applicable only for existing card holders')",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": 0.2,
+    "note": "IOB page: cash back Rs0.20 per point"
+   },
+   "eligibility": "Existing cardholders only",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.iob.bank.in/en/credit-card",
+     "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+     "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "status closed_to_new; earn 0.2%; fees nil",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IOB Visa Platinum Credit Card",
+   "issuer": "Indian Overseas Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 250,
+   "fee_waiver_spend": 60000,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Visa Platinum",
+   "key_benefits": [
+    "Limit Rs51,000-2,70,000",
+    "AMC Rs250+GST waived if annual spend > Rs60,000",
+    "1% flat cashback on selected transactions via Nth Rewards (details unpublished)",
+    "Visa offers (airport transfer, immigration services, car rental, Hotels.com 8% off, education merchants)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.iob.bank.in/en/credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.iob.bank.in/en/credit-card",
+    "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+    "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Reward rate only described as 'attractive reward points from Nth Rewards; 1% flat cash back on selected transactions' so no earn rule created. IOB official card page (page dated 3 Oct 2026), schedule of charges and MITC read 2026-10-12; MITC/schedule undated examples from 2021-22 and call RuPay variants 'proposed', so not rated high. Forex 2.5%, fuel surcharge waiver 1% on Rs400-5000 capped Rs250/cycle (MITC). Gold purchase limit 50% of card limit (MITC). Earn exclusions (jewellery etc.) not stated.",
+   "status_source": "https://www.iob.bank.in/en/credit-card (variant described on official page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.iob.bank.in/en/credit-card",
+     "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+     "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "AMC 250+GST, waiver Rs60,000",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IOB Visa Signature Credit Card",
+   "issuer": "Indian Overseas Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 750,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Visa Signature",
+   "key_benefits": [
+    "Limit Rs2,70,001-5,00,000",
+    "AMC Rs750+GST waived if annual spend > Rs1,00,000",
+    "PA cover up to Rs10L",
+    "BookMyShow 50% off up to Rs300 on 2 tickets",
+    "24x7 concierge, golf services, Visa Signature offers"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.iob.bank.in/en/credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.iob.bank.in/en/credit-card",
+    "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+    "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Earn rate not published ('attractive reward points from Nth Rewards'). IOB official card page (page dated 3 Oct 2026), schedule of charges and MITC read 2026-10-12; MITC/schedule undated examples from 2021-22 and call RuPay variants 'proposed', so not rated high. Forex 2.5%, fuel surcharge waiver 1% on Rs400-5000 capped Rs250/cycle (MITC). Gold purchase limit 50% of card limit (MITC). Earn exclusions (jewellery etc.) not stated.",
+   "status_source": "https://www.iob.bank.in/en/credit-card (variant described on official page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.iob.bank.in/en/credit-card",
+     "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+     "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "AMC 750+GST, waiver Rs1,00,000, PA cover",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IOB RuPay Classic Credit Card",
+   "issuer": "Indian Overseas Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "RuPay Classic",
+   "key_benefits": [
+    "Limit Rs10,000-50,000 (public)",
+    "Min 500 points for redemption",
+    "Fuel surcharge waiver not listed for Classic"
+   ],
+   "base_rate": 0.0017,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0017,
+     "desc": "1 reward point per Rs150; 1 pt = Rs0.25 (IOB page)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.iob.bank.in/en/credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.iob.bank.in/en/credit-card",
+    "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+    "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Schedule marks RuPay variants as 'proposed to be launched'. IOB official card page (page dated 3 Oct 2026), schedule of charges and MITC read 2026-10-12; MITC/schedule undated examples from 2021-22 and call RuPay variants 'proposed', so not rated high. Forex 2.5%, fuel surcharge waiver 1% on Rs400-5000 capped Rs250/cycle (MITC). Gold purchase limit 50% of card limit (MITC). Earn exclusions (jewellery etc.) not stated.",
+   "status_source": "https://www.iob.bank.in/en/credit-card (variant described on official page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "IOB page: each reward point Rs0.25"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.iob.bank.in/en/credit-card",
+     "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+     "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "earn 1 pt/Rs150 at Rs0.25; fees nil",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IOB RuPay Platinum Credit Card",
+   "issuer": "Indian Overseas Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 250,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": "Domestic 1/quarter, International 1/calendar year",
+   "main_benefit": "RuPay Platinum",
+   "key_benefits": [
+    "Limit Rs60,000 to under Rs2,00,000",
+    "Min 750 points for redemption",
+    "PA cover Rs2L (NPCI)",
+    "Fuel surcharge waiver 1% (Rs400-5000, cap Rs250/cycle)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 reward point per Rs100; 1 pt = Rs0.25 (IOB page)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.iob.bank.in/en/credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.iob.bank.in/en/credit-card",
+    "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+    "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Annual fee Rs250+GST per schedule (earlier record had none: corrected). Waiver condition not published. IOB official card page (page dated 3 Oct 2026), schedule of charges and MITC read 2026-10-12; MITC/schedule undated examples from 2021-22 and call RuPay variants 'proposed', so not rated high. Forex 2.5%, fuel surcharge waiver 1% on Rs400-5000 capped Rs250/cycle (MITC). Gold purchase limit 50% of card limit (MITC). Earn exclusions (jewellery etc.) not stated.",
+   "status_source": "https://www.iob.bank.in/en/credit-card (variant described on official page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "IOB page: each reward point Rs0.25"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.iob.bank.in/en/credit-card",
+     "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+     "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee 250+GST; lounge; earn 1 pt/Rs100",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "IOB RuPay Select Credit Card",
+   "issuer": "Indian Overseas Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": "Domestic 2/quarter, International 2/calendar year",
+   "main_benefit": "RuPay Select",
+   "key_benefits": [
+    "Limit Rs2,00,000 (public) to Rs5,00,000",
+    "Min 1,000 points for redemption",
+    "PA cover Rs10L (NPCI)",
+    "Fuel surcharge waiver 1% (Rs400-5000, cap Rs250/cycle)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 reward point per Rs100; 1 pt = Rs0.25 (IOB page)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.iob.bank.in/en/credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.iob.bank.in/en/credit-card",
+    "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+    "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Annual fee Rs500+GST per schedule. Page text for Select earn says 'RuPay Platinum Credit Cards' (likely typo): 1 pt per Rs100 used. IOB official card page (page dated 3 Oct 2026), schedule of charges and MITC read 2026-10-12; MITC/schedule undated examples from 2021-22 and call RuPay variants 'proposed', so not rated high. Forex 2.5%, fuel surcharge waiver 1% on Rs400-5000 capped Rs250/cycle (MITC). Gold purchase limit 50% of card limit (MITC). Earn exclusions (jewellery etc.) not stated.",
+   "status_source": "https://www.iob.bank.in/en/credit-card (variant described on official page)",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "IOB page: each reward point Rs0.25"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.iob.bank.in/en/credit-card",
+     "https://www.iob.bank.in/documents/d/guest/iobCredit_Card_Schedule_of_Charges",
+     "https://www.iob.bank.in/documents/d/guest/iobMost_Important_Terms_and_Conditions_Credit_Card"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee 500+GST; lounge; earn",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB RuPay Platinum Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 2/qtr, International 2/yr",
+   "main_benefit": "Entry RuPay card whose annual fee is waived with one use per quarter, with cashback offers on utilities/dining and 300+ welcome points.",
+   "key_benefits": [
+    "300 reward points on first txn within 90 days",
+    "Personal accident cover Rs2L",
+    "UPI-enabled"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if used at least once each quarter in preceding year"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types5.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types5.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB card page + MITC. Fuel surcharge waiver 1% on Rs500-4000 txns, cap Rs350/cycle. Jewellery/gold earn exclusion not stated (MITC: 50% of limit usable for gold/jewellery purchases). Forex 3.5% per MITC.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs2.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types5.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/waiver/earn/lounge from PNB page",
+     "network RuPay",
+     "forex 3.5%",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB RuPay Select Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 750,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 2/qtr, International 2/yr",
+   "main_benefit": "Mid RuPay card with 2X points on retail merchandise, lounge programme and annual fee waived by one use per quarter.",
+   "key_benefits": [
+    "300 reward points on first txn within 90 days",
+    "Health checkup, golf, spa, gym",
+    "PA cover Rs10L"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0033,
+     "desc": "2 pt per Rs150; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if used at least once each quarter in preceding year"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types6.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types6.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC. 2 pts per Rs150 (=0.33%). Jewellery earn exclusion not stated.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types6.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees/earn/lounge from PNB page",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB RuPay Millennial Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 399,
+   "annual_fee": 999,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 2/qtr, International 2/yr",
+   "main_benefit": "Youth-oriented RuPay card for mid-segment young customers.",
+   "key_benefits": [
+    "300 reward points on first txn",
+    "Health checkup, golf, spa, gym",
+    "PA cover Rs10L"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0033,
+     "desc": "2 pt per Rs150; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if annual spend >= Rs1,00,000 in preceding year"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types10.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types10.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types10.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "added earn rate, lounge, waiver",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Rakshak RuPay Platinum Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Defence personnel",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Not stated (assumed as RuPay Platinum; unconfirmed)",
+   "main_benefit": "Defence-personnel RuPay Platinum with no joining fee and annual fee waived on quarterly use.",
+   "key_benefits": [
+    "300 reward points on first usage",
+    "Insurance cover",
+    "PNB GENIE app"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if used at least once each quarter in preceding year"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "MITC fee table: joining NIL, annual Rs500 waived on quarterly usage (earlier record said annual 0; corrected). Earn rate assumed same as RuPay Platinum (rewards page lists 652858 BIN as RuPay Platinum): unconfirmed for Rakshak. Dedicated types7 page has only marketing bullets.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Rakshak variant (defence/armed-forces personnel; exact eligibility not stated on page)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee 0 -> 500 per MITC",
+     "earn rate added (assumed from variant BIN)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "PNB Rakshak RuPay Select Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Defence personnel",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 750,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic and international lounge program (counts not stated)",
+   "main_benefit": "Defence-personnel RuPay Select with no joining fee.",
+   "key_benefits": [
+    "300 reward points on first usage",
+    "2X reward points on retail",
+    "Insurance cover"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0033,
+     "desc": "2 pt per Rs150; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if used at least once each quarter in preceding year"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "MITC: joining NIL, annual Rs750 waived on quarterly usage. Earn assumed same as RuPay Select, unconfirmed.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Rakshak variant (defence/armed-forces personnel; exact eligibility not stated on page)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual fee 750 confirmed vs MITC; earn added",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "PNB Visa Classic Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "None",
+   "main_benefit": "Basic PNB Visa credit card.",
+   "key_benefits": [
+    "VISA offers"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: NA (no fee)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types2.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types2.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC. Fuel waiver on Rs400-3000.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs2.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types2.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, earn 1pt/Rs100, no lounge",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Visa Gold Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 300,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "None",
+   "main_benefit": "PNB Visa Gold credit card.",
+   "key_benefits": [
+    "VISA offers"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if prior-year usage > credit limit AND >=1 retail txn each quarter AND never irregular"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types1.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types1.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs3.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types1.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual 300, waiver, earn",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Visa Platinum Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "None",
+   "main_benefit": "PNB Visa Platinum credit card.",
+   "key_benefits": [
+    "VISA offers",
+    "Add-on joining Rs500"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if prior-year usage > credit limit AND >=1 retail txn each quarter AND never irregular"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types3.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types3.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC: 1 pt/Rs100. PNB rewards page instead says Visa Platinum earns 2 pts/Rs150 (conflict; conservative 1/100 kept). Fuel waiver Rs500-4000.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types3.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "annual 500, waiver, earn, lounge none",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Visa Signature Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 2000,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": "None (page: NIL)",
+   "main_benefit": "PNB Visa Signature premium card.",
+   "key_benefits": [
+    "24x7 concierge (flights, hotels)",
+    "VISA Signature offers",
+    "Add-on joining Rs500"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if annual spend >= Rs3,00,000 in preceding FY"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types9.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types9.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC. 2 pts per Rs100 = 0.5% at Rs0.25/pt.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs7.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types9.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees, waiver, earn 2pt/Rs100, lounge nil",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB BLISS Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 510,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 4/yr (1 per quarter), International 1/yr",
+   "main_benefit": "PNB BLISS credit card variant.",
+   "key_benefits": [
+    "Nykaa Rs500 voucher/qtr",
+    "Ola/Uber Rs100 voucher/qtr",
+    "BookMyShow Rs250 off/qtr",
+    "Swiggy One 3 months/yr",
+    "OTT membership/yr",
+    "Health check-up/yr",
+    "PA cover Rs2L",
+    "No add-on cards"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if annual spend >= Rs1,00,000 in preceding year"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types13.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types13.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC (BLISS RuPay Platinum). Network inferred from MITC name RuPay Platinum.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs3.6L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types13.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees, waiver, earn, lounge, voucher benefits",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB SALARY RuPay Platinum Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 4/yr (1 per qtr), International 1/yr",
+   "main_benefit": "RuPay Platinum for PNB salary-account holders.",
+   "key_benefits": [
+    "Myntra Rs250 voucher/qtr",
+    "Ola/Uber Rs100 voucher/qtr",
+    "Spa, health check-up, OTT per year",
+    "Netmeds 20% off",
+    "PA cover Rs2L",
+    "UPI-enabled",
+    "No add-on cards"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: no annual fee while salary account active with regular credit"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types14.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types14.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC. Lifetime free subject to salary account maintained.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "PNB salary account holders under EXCEL schemes",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types14.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, eligibility salary accounts, earn, lounge",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB SALARY RuPay Select Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 8/yr (2 per qtr), International 2/yr",
+   "main_benefit": "RuPay Select for PNB salary-account holders.",
+   "key_benefits": [
+    "Myntra Rs250 voucher/qtr",
+    "Ola/Uber Rs100 voucher/qtr",
+    "Spa, health check-up, OTT per year",
+    "Netmeds 20% off",
+    "PA cover Rs2L",
+    "UPI-enabled",
+    "No add-on cards"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0033,
+     "desc": "2 pt per Rs150; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: no annual fee while salary account active with regular credit"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types15.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types15.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC. Lifetime free subject to salary account maintained.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "PNB salary account holders under OPTIMA & IMPERIAL schemes",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types15.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees nil, eligibility salary accounts, earn, lounge",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Patanjali RuPay Select Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Patanjali Ayurved",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 750,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 2/qtr, International 2/yr",
+   "main_benefit": "Co-brand with Patanjali for Patanjali-store shoppers.",
+   "key_benefits": [
+    "Patanjali: 2% cashback on txns above Rs2,500, max Rs50 per txn",
+    "300 reward points on first usage",
+    "Patanjali Samridhi Card holders 5-7% extra on recharge (Patanjali offer)"
+   ],
+   "base_rate": 0.0033,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0033,
+     "desc": "2 pt per Rs150; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if used at least once each quarter in preceding year"
+    },
+    {
+     "merchants": [
+      "patanjali"
+     ],
+     "categories": [],
+     "rate": 0.02,
+     "min_txn_inr": 2500,
+     "desc": "2% cashback on transactions above Rs2,500 at authorised Patanjali stores/website, ceiling Rs50 per transaction (so effective 2% only up to Rs2,500 bill)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types11.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types11.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC. Issued by PNB, Patanjali is co-brand partner. ",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types11.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees, earn, Patanjali cashback rule, lounge",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Patanjali RuPay Platinum Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Patanjali Ayurved",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 2/qtr, International 2/yr",
+   "main_benefit": "Co-brand with Patanjali (Platinum).",
+   "key_benefits": [
+    "Patanjali: 2% cashback on txns above Rs2,500, max Rs50 per txn",
+    "300 reward points on first usage",
+    "Patanjali Samridhi Card holders 5-7% extra on recharge (Patanjali offer)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if used at least once each quarter in preceding year"
+    },
+    {
+     "merchants": [
+      "patanjali"
+     ],
+     "categories": [],
+     "rate": 0.02,
+     "min_txn_inr": 2500,
+     "desc": "2% cashback on transactions above Rs2,500 at authorised Patanjali stores/website, ceiling Rs50 per transaction (so effective 2% only up to Rs2,500 bill)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types12.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types12.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC. Issued by PNB, Patanjali is co-brand partner. ",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs2.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types12.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees, earn, Patanjali cashback rule, lounge",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB EMT RuPay Card",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "EaseMyTrip",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2000,
+   "annual_fee": 2000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "Domestic 2/qtr, International 2/yr",
+   "main_benefit": "PNB EMT RuPay card (purpose unclear; listed on PNB card-types).",
+   "key_benefits": [
+    "Welcome vouchers worth Rs3,000",
+    "EaseMyTrip: flat 10% off up to Rs1,000 domestic flights, 10% up to Rs5,000 intl flights, 20% up to Rs5,000 domestic hotels, 20% up to Rs10,000 intl hotels, Rs125 off buses (min Rs500)",
+    "PA cover Rs2L"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if annual spend > Rs1,00,000 in preceding year"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/EMT.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/EMT.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page+MITC (PNB EMT co-brand). Booking discounts are offers not earn rates, so not modelled as rules.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs2.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/EMT.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees 2000/2000, waiver, earn, EMT discounts",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB RuPay Metal Card LUXURA",
+   "issuer": "Punjab National Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 9000,
+   "annual_fee": 7500,
+   "fee_waiver_spend": 800000,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic and international complimentary lounge access (per PNB page)",
+   "main_benefit": "PNB metal card with unlimited lounge access, zero forex markup and 3X points on travel and dining (about 3% at Rs0.25/pt).",
+   "key_benefits": [
+    "Welcome: 20,000 reward points on Rs50,000 spend in 90 days",
+    "Milestones: 10,000 pts at Rs5L, 14,000 pts at Rs10L, 26,000 pts at Rs15L annual spend (about Rs2,500/3,500/6,500)",
+    "Joining fee charged only if spend < Rs2.5 lakh in first 3 billing cycles or card closed within 90 days",
+    "Nil forex markup",
+    "Concierge, BookMyShow BOGO monthly",
+    "PA cover Rs50L, air accident Rs1Cr, purchase protection Rs2L",
+    "ITC hotels 2+1 night, 1+1 dining and spa",
+    "HoteLux Elite Plus membership",
+    "Emergency cash USD 600",
+    "4 domestic golf rounds"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "4 reward points per Rs100 = Rs1 per Rs100 (PNB page states points worth Rs1); i.e. 1 pt = Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "dining"
+     ],
+     "rate": 0.03,
+     "desc": "3X reward points on travel and dining (3 x base 1%)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types16.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types16.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page + MITC (fee change w.e.f. 05.07.2026). MITC: joining fee waived if spend above threshold; replacement Rs4,000. Exclusions from earn (jewellery, wallet, fuel, rent) not stated.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "PNB Luxura page: 4 pts = Rs1 per Rs100 spent; milestone 10,000 pts = Rs2,500"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (Luxura listed; MITC changes w.e.f. 05.07.2026)",
+   "eligibility": "Age 21-70; salaried gross monthly Rs1.5L+, non-salaried Rs18L+ annual income, or FD-backed (min Rs1.5L)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types16.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees, waiver, earn, forex nil, unlimited lounge, milestones",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Visa Metal Card LUXURA",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 4999,
+   "annual_fee": 1999,
+   "fee_waiver_spend": 600000,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited domestic and international complimentary lounge access (per PNB page)",
+   "main_benefit": "PNB metal card with unlimited lounge access, zero forex markup and 3X points on travel and dining (about 3% at Rs0.25/pt).",
+   "key_benefits": [
+    "Welcome: 20,000 reward points on Rs50,000 spend in 90 days",
+    "Milestones: 10,000 pts at Rs5L, 14,000 pts at Rs10L, 26,000 pts at Rs15L annual spend (about Rs2,500/3,500/6,500)",
+    "Joining fee charged only if spend < Rs1.5 lakh in first 3 billing cycles or card closed within 90 days",
+    "Nil forex markup",
+    "Concierge, BookMyShow BOGO monthly",
+    "PA cover Rs50L, air accident Rs1Cr, purchase protection Rs2L",
+    "Ixigo flat 12% off up to Rs1,200 domestic / 10% up to Rs2,500 international monthly",
+    "Visa Infinite luxury hotel and dining offers"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "4 reward points per Rs100 = Rs1 per Rs100 (PNB page states points worth Rs1); i.e. 1 pt = Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel",
+      "dining"
+     ],
+     "rate": 0.03,
+     "desc": "3X reward points on travel and dining (3 x base 1%)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types17.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types17.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official PNB page + MITC (fee change w.e.f. 05.07.2026). MITC: joining fee waived if spend above threshold; replacement Rs4,000. Exclusions from earn (jewellery, wallet, fuel, rent) not stated.",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "PNB Luxura page: 4 pts = Rs1 per Rs100 spent; milestone 10,000 pts = Rs2,500"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (Luxura listed; MITC changes w.e.f. 05.07.2026)",
+   "eligibility": "Age 21-70; salaried gross monthly Rs1.5L+, non-salaried Rs18L+ annual income, or FD-backed (min Rs1.5L)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types17.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees, waiver, earn, forex nil, unlimited lounge, milestones",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Global Platinum Credit Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "None",
+   "main_benefit": "Legacy PNB Global Platinum card.",
+   "key_benefits": [
+    "Same as PNB Visa Platinum Card"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if prior-year usage > credit limit AND >=1 retail txn each quarter AND never irregular"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types3.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types3.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Listed under 'Card Types' as 'PNB Global X Card' on PNB index; its More link opens the same page as the Visa X card, so treated as the same product (Visa Global brand).",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types3.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "same terms as Visa Platinum page",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Global Gold Credit Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 300,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "None",
+   "main_benefit": "Legacy PNB Global Gold card.",
+   "key_benefits": [
+    "Same as PNB Visa Gold Card"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: waived if prior-year usage > credit limit AND >=1 retail txn each quarter AND never irregular"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types1.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types1.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Listed under 'Card Types' as 'PNB Global X Card' on PNB index; its More link opens the same page as the Visa X card, so treated as the same product (Visa Global brand).",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs3.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types1.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "same terms as Visa Gold page",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Global Classic Credit Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "None",
+   "main_benefit": "Legacy PNB Global Classic card.",
+   "key_benefits": [
+    "Same as PNB Visa Classic Card"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 pt per Rs100; 1 pt = Rs0.25 (PNB card page/MITC). Rs0.50/pt if PNB rewards page value applies. Fee waiver: NA (no fee)"
+    }
+   ],
+   "excludes": [
+    "fuel_surcharge"
+   ],
+   "source_url": "https://creditcard.pnb.bank.in/types2.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types2.html",
+    "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+    "https://creditcard.pnb.bank.in/rewards.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Listed under 'Card Types' as 'PNB Global X Card' on PNB index; its More link opens the same page as the Visa X card, so treated as the same product (Visa Global brand).",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.5,
+    "note": "PNB card pages and MITC: 1 pt = Rs0.25; PNB rewards page says 1 pt = Rs0.50 on portal/cashback redemption (conflict, conservative 0.25 used)"
+   },
+   "status_source": "https://creditcard.pnb.bank.in/types.html (card listed, apply portal live)",
+   "eligibility": "Income Rs2.5L p.a.",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types2.html",
+     "https://creditcard.pnb.bank.in/PDF/MITC.PDF",
+     "https://creditcard.pnb.bank.in/rewards.html",
+     "https://creditcard.pnb.bank.in/privileges6.html"
+    ],
+    "result": "corrected",
+    "changes": [
+     "same terms as Visa Classic page",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "PNB Wave & PayCredit Card",
+   "issuer": "Punjab National Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "PNB contactless (Wave) and PayCredit variant.",
+   "key_benefits": [
+    "Contactless tap-and-pay up to Rs5,000 without PIN (Rs6,000/day limit)"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://creditcard.pnb.bank.in/types4.html",
+   "source_type": "official",
+   "sources": [
+    "https://creditcard.pnb.bank.in/types4.html"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "PNB FAQ page (types4.html) describes Visa contactless (Wave n Pay) feature: tap up to Rs5,000 without PIN, Rs6,000/day. No fee, earn or eligibility data published; probably a contactless feature on Visa cards rather than separate fee/earn product. Earn assumed none/unknown.",
+   "status_source": null,
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://creditcard.pnb.bank.in/types4.html"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "network Visa, contactless details; status unknown (not in MITC fee table)",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank RuPay Select Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 550,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 8/yr (2 per qtr), International 2/yr",
+   "main_benefit": "Cashback card with 4 RP per Rs100 and 8 domestic + 2 international lounge visits (aggregator); fee Rs499-550 conflict",
+   "key_benefits": [
+    "PA cover Rs10L (NPCI) + Rs30L optional",
+    "Up to 3 add-ons (add-on annual fee Rs450)",
+    "UPI-linkable"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "4 points per Rs100; 1 pt = Rs0.25 (Union page). Excluded MCCs per KFS: jewellery, fuel, cash withdrawal, wallet load, alcohol, insurance"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/rupay-select-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/rupay-select-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Union page + KFS. Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and unioncards portal variant list (apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Union pages: 1 reward point = Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/rupay-select-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank RuPay Platinum Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 350,
+   "fee_waiver_spend": 30000,
+   "forex_markup": 0.03,
+   "lounge_access": "Complimentary lounge access mentioned on page, counts not stated",
+   "main_benefit": "Entry RuPay Platinum; fee Rs299-350 per aggregators",
+   "key_benefits": [
+    "PA cover Rs2L (NPCI) + Rs10L optional",
+    "Up to 3 add-ons (add-on annual Rs250)",
+    "UPI-linkable"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 points per Rs100; 1 pt = Rs0.25 (Union page). Excluded MCCs per KFS: jewellery, fuel, cash withdrawal, wallet load, alcohol, insurance"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/rupay-platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/rupay-platinum-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Union page + KFS. Page text mentions lounge but no visit counts published. Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and unioncards portal variant list (apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Union pages: 1 reward point = Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/rupay-platinum-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank Gold Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 350,
+   "fee_waiver_spend": 30000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Visa Gold card",
+   "key_benefits": [
+    "Accident cover Rs5L (premium paid by cardholder)",
+    "Up to 3 add-ons (add-on annual Rs250)"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "1 points per Rs100; 1 pt = Rs0.25 (Union page). Excluded MCCs per KFS: jewellery, fuel, cash withdrawal, wallet load, alcohol, insurance"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/visa-gold-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/visa-gold-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Mapped to official 'VISA Gold' variant (current Union listing has only the Visa Gold; legacy 'Union Bank Gold' name treated as same). Annual fee earlier Rs299 per aggregator corrected to Rs350 per KFS. Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and unioncards portal variant list (apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Union pages: 1 reward point = Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/visa-gold-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank Visa Platinum Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 450,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Visa Platinum card",
+   "key_benefits": [
+    "Accident cover Rs10L (premium paid by cardholder)",
+    "Up to 3 add-ons (add-on annual Rs350)"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 points per Rs100; 1 pt = Rs0.25 (Union page). Excluded MCCs per KFS: jewellery, fuel, cash withdrawal, wallet load, alcohol, insurance"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/visa-platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/visa-platinum-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Union page + KFS. Annual fee earlier Rs399 corrected to Rs450. Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and unioncards portal variant list (apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Union pages: 1 reward point = Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/visa-platinum-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank of India Signature Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 1999,
+   "fee_waiver_spend": 270000,
+   "forex_markup": 0.03,
+   "lounge_access": null,
+   "main_benefit": "Signature card with lounge access (Rs250 fee per Paisabazaar, unverified)",
+   "key_benefits": [
+    "Accident cover Rs30L (premium paid by cardholder)",
+    "Add-on annual Rs999",
+    "Up to 3 add-ons"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "4 points per Rs100; 1 pt = Rs0.25 (Union page). Excluded MCCs per KFS: jewellery, fuel, cash withdrawal, wallet load, alcohol, insurance"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/visa-signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/visa-signature-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Union page + KFS. Annual fee earlier Rs250 (aggregator) corrected to Rs1,999. Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and unioncards portal variant list (apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Union pages: 1 reward point = Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/visa-signature-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Union Divaa Icon Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 1499,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 2/qtr, International 2/yr",
+   "main_benefit": "Union Bank's premium women-focused credit card.",
+   "key_benefits": [
+    "Lakme salon e-gift Rs1,500/qtr",
+    "BookMyShow Rs250 off/qtr",
+    "MakeMyTrip Rs1,500 off flights/yr",
+    "Healthians Rs1,000/yr, Cult.fit 3 months",
+    "Swiggy One 3 months/yr",
+    "BigBasket Rs250/qtr, Flipkart Rs250 e-gift/qtr, Nykaa Rs500/qtr, Myntra Rs250 twice/qtr, Jockey Rs250/qtr",
+    "PA cover Rs2L + Rs10L optional; cyber and cancer insurance"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/divaa-icon-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/divaa-icon-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official page+KFS. Reward earn rate not published in accessible text (rewards tab empty), so no earn rules. Female customers only (RuPay Platinum). Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and unioncards portal variant list (apply live)",
+   "point_value_inr": null,
+   "eligibility": "Women only",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/divaa-icon-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->medium"
+    ]
+   }
+  },
+  {
+   "name": "Union Nexteria Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 12499,
+   "annual_fee": 12499,
+   "fee_waiver_spend": 800000,
+   "forex_markup": 0.03,
+   "lounge_access": "Unlimited domestic and international for self; 2 family visits/qtr (1+3)",
+   "main_benefit": "Union Bank's first metal credit card with family lounge access.",
+   "key_benefits": [
+    "ITC hotels 2+1 night, 1+1 dining and spa",
+    "HoteLux Elite Plus membership",
+    "Golf 4 lessons/rounds per year",
+    "Emergency cash USD 600",
+    "Insurance: PA Rs50L, air Rs1Cr, purchase protection Rs2L",
+    "BOGO movie up to Rs500 monthly",
+    "Annual milestones: 10,000 pts at Rs10L, 15,000 pts at Rs12L+ (cap 15,000)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "5 points per Rs125; 1 pt = Rs0.25 (Union page). Excluded MCCs per KFS: jewellery, fuel, cash withdrawal, wallet load, alcohol, insurance; reward cap 10000 pts/month (KFS, applies to Unicorn/Nexteria; assumed for variant)",
+     "cap_inr": 2500.0
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/nexteria-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/nexteria-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official Union page + KFS. Metal card on RuPay Ekaa. 5 pts/Rs125 = 0.04 pt/Rs; pt value Rs0.25 assumed from other Union cards (not stated for Nexteria). Birthday month 10X online/electronics, monthly 5X on Rs2L+ spends (cap 10,000 pts). Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and unioncards portal variant list (apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Union pages: 1 reward point = Rs0.25"
+   },
+   "eligibility": "Premium customers; invite/credit-profile based (not stated)",
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/nexteria-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->high"
+    ]
+   }
+  },
+  {
+   "name": "Union JCB Wellness Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.03,
+   "lounge_access": "Domestic 8/yr (2 per qtr), International 2/yr",
+   "main_benefit": "Wellness card with gym membership, annual health check-up and lounge access.",
+   "key_benefits": [
+    "Annual benefits worth about Rs22,000 (spa, health check-up, golf, gym trial)",
+    "PA cover Rs10L (NPCI) + Rs30L optional",
+    "Milestones: Rs1.5L/2L/2.5L annual spend gives 1,000/1,500/2,000 bonus points",
+    "Fuel surcharge waiver 1% cap Rs100/cycle"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "groceries",
+      "online_shopping"
+     ],
+     "rate": 0.01,
+     "desc": "4 points per Rs100 on dining, shopping, groceries, departmental stores and apparel; 1 pt = Rs0.25"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 points per Rs100 on all other non-fuel spends; 1 pt = Rs0.25"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash_withdrawal",
+    "wallet_load",
+    "insurance",
+    "alcohol"
+   ],
+   "source_url": "https://www.unionbankofindia.bank.in/en/Details/union-jcb-wellness-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.unionbankofindia.bank.in/en/Details/union-jcb-wellness-credit-card",
+    "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf",
+    "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Official page + KFS (joining and annual Rs999). 4 pts per Rs100 on dining, shopping, groceries, department stores and apparel; 2 pts on other non-fuel spends. Forex 3% per KFS. Fuel surcharge waiver 1% up to Rs100 per billing cycle (KFS). KFS and MITC are undated (v1.4). Exclusion MCC list printed in KFS under Unicorn/Nexteria reward structure; applied here as bank-wide list.",
+   "status_source": "https://www.unionbankofindia.bank.in/en/listing/credit-cards and card page (apply live)",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": 0.25,
+    "note": "Union pages: 1 reward point = Rs0.25"
+   },
+   "eligibility": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/Details/union-jcb-wellness-credit-card",
+     "https://www.unionbankofindia.bank.in/pdf/Key-Fact-Statement.pdf (v1.4, fees/rewards/exclusions)",
+     "https://www.unionbankofindia.bank.in/pdf/mitc-credit-cards.pdf"
+    ],
+    "result": "corrected",
+    "changes": [
+     "fees from KFS",
+     "earn rate/point value from page",
+     "exclusions from KFS",
+     "confidence low->high"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank Classic Credit Card",
+   "issuer": "Union Bank of India",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": null,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free classic card, 50-day interest-free period",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/union-bank-of-india/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/union-bank-of-india/credit-card/",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Third-party/aggregator-derived (Paisabazaar/BankBazaar, fetched 2026-10-11); issuer page not verified. Reward rates not captured unless in main_benefit. Fee figures conflict across aggregators; conservative listed. | 2026-10-12: Not on current Union listing or unioncards portal variant list (Gold/Platinum/Signature Visa and RuPay Platinum/Select only). Not confirmed discontinued by an issuer notice, so status set to unknown. Fees/rates retained from aggregator, unverified.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/listing/credit-cards",
+     "https://unioncards.unionbankofindia.bank.in/"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "status active -> unknown: absent from official current variant list",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank Usecure Credit Card",
+   "issuer": "Union Bank of India",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": null,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed card, FD Rs25,000-5L, lifetime free",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/union-bank-of-india/credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/union-bank-of-india/credit-card/",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Third-party/aggregator-derived (Paisabazaar/BankBazaar, fetched 2026-10-11); issuer page not verified. Reward rates not captured unless in main_benefit. Fee figures conflict across aggregators; conservative listed. | 2026-10-12: Not on current Union listing or portal variant list; secured card, may be legacy/merged-bank product. Not confirmed discontinued by an issuer notice, so status set to unknown. Fees/rates retained from aggregator, unverified.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/listing/credit-cards",
+     "https://unioncards.unionbankofindia.bank.in/"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "status active -> unknown: absent from official current variant list",
+     "confidence low->low"
+    ]
+   }
+  },
+  {
+   "name": "Union Bank RuPay Combo Debit cum Credit Card",
+   "issuer": "Union Bank of India",
+   "network": "RuPay",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "other",
+   "lifetime_free": null,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Single card combining a RuPay Platinum debit and RuPay Select credit card with separate chips and numbers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.unionbankofindia.co.in/English/Debit-cum-credit-card.aspx",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.unionbankofindia.co.in/English/Debit-cum-credit-card.aspx",
+    "https://www.unionbankofindia.bank.in/en/listing/credit-cards"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-12",
+   "last_verified": null,
+   "notes": "Fees/rates not retrieved. | 2026-10-12: Old URL (unionbankofindia.co.in Debit-cum-credit-card.aspx) now returns generic home page; not on current listing. Not confirmed discontinued by an issuer notice, so status set to unknown. Fees/rates retained from aggregator, unverified.",
+   "status_source": null,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "https://www.unionbankofindia.bank.in/en/listing/credit-cards",
+     "https://unioncards.unionbankofindia.bank.in/"
+    ],
+    "result": "unconfirmed",
+    "changes": [
+     "status active -> unknown: absent from official current variant list",
+     "confidence low->low"
+    ]
+   }
+  }
+ ],
+ "gaps": [
+  "BOI: official site blocked (403); no MITC; point value and base earn per Rs unknown for all cards; Taj Premium unconfirmed; forex unknown",
+  "Canara: jewellery earn exclusion not stated (only EMI); tariff sheet dated 01.04.2022; per-variant welcome/vouchers not published",
+  "Central Bank: official credit-card page has no content; no MITC found; Visa Platinum/Gold fees 'as applicable'; Aspire and Select earn rate unknown",
+  "Indian Bank: ONE earn rate not published; Classic status unconfirmed; secured/RuPay variants not in my list; earn exclusions unknown",
+  "IDBI: Delight point value and exempted-category list (jewellery) not in page text; MITC/KFS PDFs image-only; Royale Signature card page not found",
+  "IOB: Visa Platinum/Signature earn rate unpublished; RuPay waiver conditions unpublished; schedule undated; EKAA card not in scope",
+  "PNB: no earn-exclusion list (jewellery/wallet/rent/fuel) in MITC for rewards; PNB rewards page says 1 pt=Rs0.50 vs card pages Rs0.25 (conservative used)",
+  "PNB Wave&Pay: no fee/earn data",
+  "PNB Rakshak: eligibility and earn not published on dedicated pages",
+  "PNB Global cards appear to be the legacy names of Visa Classic/Gold/Platinum",
+  "Union: Divaa Icon earn rate not published; Classic/Gold(legacy)/Usecure/Combo status unconfirmed (absent from official list); KFS/MITC undated v1.4; Nexteria point value assumed Rs0.25"
+ ]
+}

@@ -1,0 +1,4696 @@
+{
+ "cards": [
+  {
+   "name": "Axis Olympus",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 20000,
+   "annual_fee": 20000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.018,
+   "lounge_access": null,
+   "main_benefit": "Super-premium card; only fees/forex confirmed from MITC.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/docs/default-source/default-document-library/credit-cards/mitc-credit-cards.pdf",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Axis MITC: Rs20,000/Rs20,000, no waiver listed. Earn rates not read from official source. | Prior notes: Not on official listing; no page found (404). Rates not found.",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status_source (confidence low->low)"
+    ]
+   },
+   "status_source": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf (Axis MITC, current) lists card; no issuer notice of closure"
+  },
+  {
+   "name": "Axis Primus",
+   "issuer": "Axis Bank",
+   "annual_fee": 300000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Correction: joining fee Rs5L (was 3L). | Prior notes: Only fee data from MITC (3,00,000 for cards issued after 31 Jul 2024; 1,80,000 earlier) and nil forex. Reward rates not collected. Effective 28 Aug 2026 (official notices summarised by third-party book1a.com): gift-card purchases and bridge/road/toll spends earn nothing; DCC markup 3.5% (forex 3.5% unchanged); late fee Rs1,300 at Rs50k+ outstanding. Fees exclude 18% GST. Point/mile value assumptions are estimates. Cardadvisor shows Primus as invite only.",
+   "co_brand_partner": null,
+   "network": "Visa",
+   "status": "unknown",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 500000,
+   "lounge_access": null,
+   "main_benefit": "Invite-only ultra-premium card: 1 EDGE Mile per Rs100, transferable 1:5; nil forex.",
+   "key_benefits": [
+    "Invite only"
+   ],
+   "eligibility": "Invite-only; Rs5,00,000 joining/Rs3,00,000 annual for cards issued after 31 Jul 2024 (Rs1,80,000 earlier)",
+   "status_source": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf (Axis MITC, current)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, eligibility, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Flipkart Axis Bank Super Elite",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Flipkart",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 200000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "For Flipkart Plus members: 12 SuperCoins per Rs100 on Flipkart.",
+   "key_benefits": [
+    "500 SuperCoins on activation",
+    "YouTube Premium trial, Gaana, Lenskart Gold",
+    "Rs500 off Myntra, 15% off Flipkart flights (max Rs1,500)"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [
+      "flipkart"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.12,
+     "desc": "12 SuperCoins per Rs100 on Flipkart for Plus members (page); assumes 1 SuperCoin=Rs1 (not stated by Axis)."
+    },
+    {
+     "merchants": [
+      "flipkart"
+     ],
+     "categories": [],
+     "rate": 0.06,
+     "desc": "6 SuperCoins per Rs100 on Flipkart for non-Plus (page)."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.02,
+     "desc": "2 SuperCoins per Rs100 elsewhere (page); SuperCoin=Rs1 assumed."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/flipkart-axis-bank-super-elite-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs500; page: waived on annual spends >Rs2L (MITC lists no waiver: conflict). Cap and jewellery not stated. Rent and wallet load excluded from waiver spends. | Prior notes: Details beyond cardadvisor listing not found.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "SuperCoin = Rs1 assumed, not stated on Axis page"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/flipkart-axis-bank-super-elite-credit-card (listed, apply page)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: fee_waiver_spend, base_rate, rules, excludes, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Miles & More World",
+   "issuer": "Axis Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "Lufthansa Miles & More",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 3500,
+   "annual_fee": 3500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 Priority Pass visits/year (page); 8 domestic MasterCard lounge visits/quarter per page text",
+   "main_benefit": "Lufthansa Miles & More members: 4 Award Miles per Rs200, non-expiring while card is active.",
+   "key_benefits": [
+    "5,000 welcome miles",
+    "Never-expiring miles while card active"
+   ],
+   "base_rate": 0.02,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.02,
+     "desc": "4 Award Miles per Rs200 eligible spend; assumes 1 mile=Rs1 (no official INR value)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "insurance",
+    "utilities",
+    "government",
+    "jewellery",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/miles-more-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page lists excluded MCCs incl gold & jewellery. Fees from official page: Rs3,500 +GST. | Prior notes: Rates not verified officially.",
+   "eligibility": "Miles & More members",
+   "point_value_inr": {
+    "cash": null,
+    "best": 1.0,
+    "note": "assumed ~Rs1/mile; unconfirmed"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/miles-more-credit-card",
+   "jewellery_unconfirmed": false,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: lounge_access, base_rate, rules, excludes, eligibility, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Miles & More World Select",
+   "issuer": "Axis Bank",
+   "network": "Mastercard",
+   "status": "active",
+   "co_brand_partner": "Lufthansa Miles & More",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 4500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 Priority Pass visits/year",
+   "main_benefit": "Miles & More members: 6 Award Miles per Rs200.",
+   "key_benefits": [],
+   "base_rate": 0.03,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "6 Award Miles per Rs200; 1 mile=Rs1 assumed."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "rent",
+    "insurance",
+    "utilities",
+    "government",
+    "jewellery",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/miles-more-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "CORRECTION: joining fee Rs10,000 (was 4,500); annual Rs4,500. Per official page and MITC. Welcome up to 15,000 bonus miles. | Prior notes: Only cardadvisor listing found.",
+   "eligibility": "Miles & More members",
+   "point_value_inr": {
+    "cash": null,
+    "best": 1.0,
+    "note": "assumed"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/miles-more-credit-card",
+   "jewellery_unconfirmed": false,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, lounge_access, base_rate, rules, excludes, eligibility, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Burgundy Private",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 100000,
+   "annual_fee": 100000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.0,
+   "lounge_access": "Unlimited",
+   "main_benefit": "Invite-only private banking card: 15 EDGE points per Rs200, nil forex markup.",
+   "key_benefits": [
+    "Invite only"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs1L per MITC, complimentary at TRV Rs5cr. Status per Axis MITC listing (aggregator said closed_to_new). | Prior notes: Burgundy Private is by invitation for Burgundy Private clients.",
+   "eligibility": "Burgundy Private clients; complimentary if Total Relationship Value >= Rs5 crore else Rs1,00,000",
+   "status_source": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf (Axis MITC, current)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, eligibility, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis SpiceJet Voyage",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "SpiceJet",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 750,
+   "annual_fee": 750,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic/year on Rs50,000 prior-quarter spend",
+   "main_benefit": "SpiceJet flyers: up to 18 SpiceClub points per Rs200 on SpiceJet bookings.",
+   "key_benefits": [
+    "Rs1,500 SpiceJet voucher after 2 txns in 30 days",
+    "Annual fee nil in year 1, Rs750 from 2nd",
+    "Milestones 2,000 pts at Rs1L, 3,000 at Rs2L"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [
+      "spicejet"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.045,
+     "desc": "18 SpiceClub points per Rs200 on SpiceJet app/website (12 as Silver member +6 card); Rs0.5/pt."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "bill_payments"
+     ],
+     "rate": 0.015,
+     "desc": "6 pts per Rs200 on online food, bill payment, entertainment (Rs0.5/pt)."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0075,
+     "desc": "3 pts per Rs200 other domestic and international retail (excl fuel, wallet, EMI)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + value chart; jewellery not stated. Fuel surcharge waiver Rs400-4000 max Rs400/month. | Prior notes: Per cardadvisor listing as Open; SpiceJet card status not confirmed.",
+   "point_value_inr": {
+    "cash": null,
+    "best": 0.5,
+    "note": "Value chart: 1 SpiceClub point = Rs0.5, redeemable only on SpiceJet"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, lounge_access, base_rate, rules, excludes, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis SpiceJet Voyage Black",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "SpiceJet",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 2000,
+   "annual_fee": 2000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic/year on Rs50,000 prior-quarter spend",
+   "main_benefit": "SpiceJet flyers: up to 28 SpiceClub points per Rs200 on SpiceJet.",
+   "key_benefits": [
+    "Rs4,000 SpiceJet voucher on 2 txns in 30 days",
+    "SpiceClub Gold + Rs7,500 add-on vouchers",
+    "Annual fee nil first year"
+   ],
+   "base_rate": 0.015,
+   "rules": [
+    {
+     "merchants": [
+      "spicejet"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.07,
+     "desc": "28 pts per Rs200 on SpiceJet (Gold member 16 + 12 card); Rs0.5/pt."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining",
+      "bill_payments"
+     ],
+     "rate": 0.03,
+     "desc": "12 pts per Rs200 online food, bill payment, entertainment."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.015,
+     "desc": "6 pts per Rs200 other retail (excl fuel, wallet, EMI)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-black-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page. Jewellery not stated. | Prior notes: Status unconfirmed.",
+   "point_value_inr": {
+    "cash": null,
+    "best": 0.5,
+    "note": "1 SpiceClub point = Rs0.5 (value chart), SpiceJet only"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/spicejet-axis-bank-voyage-black-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, lounge_access, base_rate, rules, excludes, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Fibe",
+   "issuer": "Axis Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Fibe",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic per calendar year",
+   "main_benefit": "RuPay card: 3% cashback on OTT, food delivery and commute with a combined cap.",
+   "key_benefits": [
+    "Credit card on UPI",
+    "1% fuel surcharge waiver max Rs400/month"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.03,
+     "desc": "3% cashback on food delivery, entertainment, local commute (cap not stated on page; see cashback T&C)."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% cashback on all other spends."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/fibe-axis-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page; cashback cap and exclusions in separate T&C PDF not read. | Prior notes: Cap not found.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/fibe-axis-bank-credit-card",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, lounge_access, base_rate, rules, excludes, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Google Pay Flex Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Google Pay",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "UPI-linked RuPay card: stars worth Rs1 each earned at about 0.2-0.4%.",
+   "key_benefits": [
+    "Lifetime free"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.002,
+     "desc": "1 star per Rs500 cumulative spend (0.2%); 2X (0.4%) if prior-cycle spend >=Rs100; 4X (0.8%) above Rs15,000 and 8X (1.6%) above Rs30,000 in cycle are promotional, set by Google Pay. Eligible spends include fuel.",
+     "rate_best": 0.016,
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 15000,
+       "rate": 0.004
+      },
+      {
+       "from_inr": 15000,
+       "to_inr": 30000,
+       "rate": 0.008
+      },
+      {
+       "from_inr": 30000,
+       "to_inr": null,
+       "rate": 0.016
+      }
+     ]
+    }
+   ],
+   "excludes": [
+    "rent"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/google-pay-flex-axis-bank-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page. Correction: status active; rate 0.2-1.6% by tier (was 0.3%). | Prior notes: Applications paused per cardadvisor.",
+   "point_value_inr": {
+    "cash": 1.0,
+    "best": 1.0,
+    "note": "1 star = Rs1; redeemed on Google Pay UPI as cashback"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/google-pay-flex-axis-bank-credit-card (apply instructions live)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, forex_markup, base_rate, rules, excludes, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Freecharge Plus Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Freecharge",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 350,
+   "annual_fee": 350,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "5% cashback on Freecharge app recharges and bill payments.",
+   "key_benefits": [],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "freecharge"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "5% cashback on Freecharge spends."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "2% on local commute."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% on all other spends."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page: first-year fee nil, Rs350 from year 2, waived at Rs50,000. Cashback cap not stated. | Prior notes: Applications paused per cardadvisor.",
+   "eligibility": "Invite-only via Freecharge app",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, fee_waiver_spend, base_rate, rules, excludes, eligibility, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Freecharge Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Freecharge",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 250,
+   "annual_fee": 250,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry card with EDGE points and monthly spend milestone bonus.",
+   "key_benefits": [],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0035,
+     "desc": "Monthly spend milestone EDGE points: Rs2,000-4,999 = 100 pts, Rs5,000+ = 350 pts (at Rs0.2 = Rs70; ~1.4% at Rs5,000).",
+     "tiers": [
+      {
+       "from_inr": 0,
+       "to_inr": 2000,
+       "rate": 0
+      },
+      {
+       "from_inr": 2000,
+       "to_inr": 5000,
+       "rate": 0.01
+      },
+      {
+       "from_inr": 5000,
+       "to_inr": null,
+       "rate": 0.014
+      }
+     ]
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Virtual Visa Platinum; first-year fee nil. | Prior notes: Applications paused per cardadvisor.",
+   "eligibility": "Invite-only via Freecharge app",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "EDGE point ~Rs0.20 (Axis pages: 10,000 EP = Rs2,000)"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, base_rate, rules, excludes, eligibility, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "LIC Axis Bank Signature",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "mid",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "8 domestic per calendar year",
+   "main_benefit": "2 reward points per Rs100 on LIC premiums and international spend.",
+   "key_benefits": [
+    "Lifetime free"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "lic"
+     ],
+     "categories": [],
+     "rate": null,
+     "desc": "2 reward points per Rs100 on LIC premium and foreign currency; 1 point per Rs100 other; point INR value not stated; no points on fuel, wallet, EMI."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Corrected: Axis lists as live card with Nil fees. Redemption value not stated. | Prior notes: Applications paused per cardadvisor. LIC Platinum variant named on bankbazaar without data.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-signature-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, forex_markup, lounge_access, rules, excludes, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "LIC Axis Bank Platinum",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "LIC",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "LIC co-brand platinum variant.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [
+      "lic"
+     ],
+     "categories": [],
+     "rate": null,
+     "desc": "2 points per Rs100 on LIC premium and foreign currency; 1 per Rs100 other; no points on fuel, wallet, EMI."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "wallet_load",
+    "emi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees Nil per page and MITC. | Prior notes: Named only; no data.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-platinum-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, annual_fee, forex_markup, rules, excludes, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Shoppers Stop Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "Shoppers Stop",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Shoppers Stop co-brand: 20 First Citizen pts/Rs200 on private labels, 12 on other brands there, 2 elsewhere.",
+   "key_benefits": [
+    "Vouchers worth Rs2,250 + 300 FC points welcome",
+    "Golden Glow membership",
+    "EazyDiner 15% max Rs500/month"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "shoppers stop"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "20 FC points per Rs200 on Shoppers Stop private labels (Rs0.5/pt)."
+    },
+    {
+     "merchants": [
+      "shoppers stop",
+      "homestop"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "12 pts per Rs200 on beauty and other brands at Shoppers Stop, Homestop etc."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 pts per Rs200 elsewhere; no points on fuel."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "utilities",
+    "education"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-shoppers-stop-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-shoppers-stop-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page and value chart; T&C updated 28 Aug 2026. Fees: 1% fee on fuel >Rs50,000/cycle, utility >Rs25,000, wallet >Rs10,000. Jewellery not stated. | Prior notes: Rates official; FC point value not in Axis docs, so rates are assumption-based.",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-shoppers-stop-credit-card",
+   "jewellery_unconfirmed": true,
+   "point_value_inr": {
+    "cash": null,
+    "best": 0.5,
+    "note": "Value chart: 1 First Citizen point = Rs0.5 at Shoppers Stop"
+   },
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: base_rate, rules, excludes, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis My Wings",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1200,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "One domestic lounge visit per quarter; travel offers lapsed.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees Rs1,200/Rs500 per MITC. Not on Axis cards listing. | Prior notes: Bankbazaar only; likely legacy.",
+   "status_source": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf (Axis MITC, current) (listed; no closure notice; not on Axis current listing)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Platinum",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 200,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy: 25% cashback on movie tickets, 6 points per Rs200.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: Rs500 joining (waived at Rs5,000 in 45 days), annual Rs200 waived at Rs1L. Not on Axis cards listing; discontinued unconfirmed. | Prior notes: Bankbazaar legacy listing; status unverified.",
+   "status_source": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf (Axis MITC, current)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, fee_waiver_spend, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Titanium Smart Traveler",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 250,
+   "annual_fee": 100,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy: 8 eDGE points per Rs200 abroad, 1% fuel waiver.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/banks/axis-bank-credit-cards",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Titanium card fees per MITC (Rs250 / Rs100 waived at Rs50,000). | Prior notes: Legacy listing.",
+   "status_source": "Not in Axis MITC (Titanium Credit Card Rs250/Rs100 is listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, fee_waiver_spend, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Signature Travel Benefits",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 240000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Signature card: Rs5,000 travel voucher on activation.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC lists \"Signature Credit Card with Travel Benefits\" Rs1,500/Rs1,000 waived at Rs2.4L spend. Correction: annual Rs1,000 (was 1,500). | Prior notes: Legacy listing.",
+   "status_source": "https://www.axis.bank.in/docs/default-source/default-document-library/mitc-credit-cards.pdf (Axis MITC, current)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, annual_fee, fee_waiver_spend, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Signature Lifestyle Benefits",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy: 50% cashback on movie tickets, dining discounts.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://cardadvisor.in/banks/axis-bank-credit-cards",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis MITC (absent)"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "No longer in Axis MITC fee table; discontinued unconfirmed. Prior fee data unverified. | Prior notes: Legacy listing.",
+   "status_source": "Not listed in Axis MITC fee table",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis MITC (absent)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Pride Platinum",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 250,
+   "fee_waiver_spend": 40000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Axis Pride Platinum card.",
+   "key_benefits": [],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "4 EDGE points per Rs200 (listing; Pride Signature page says 8) at Rs0.2/pt."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "government"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/pride-platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page: annual Rs250 from 2nd year waived at Rs40,000 (MITC says Rs20,000: conflict, kept 40,000 page, conservative). Rent/wallet/gift card/toll excluded from waiver spends. | Prior notes: Named on bankbazaar only; no data.",
+   "eligibility": "Defence personnel (Pride)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "EDGE point ~Rs0.20 (Axis pages)"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/pride-platinum-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, annual_fee, fee_waiver_spend, forex_markup, base_rate, rules, excludes, eligibility, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Pride Signature",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 500,
+   "fee_waiver_spend": 40000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "Legacy Axis Pride Signature card.",
+   "key_benefits": [],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "Axis listing: 4 EDGE pts/Rs200; card page says 8 pts/Rs200 (0.8%); conservative used.",
+     "rate_best": 0.008
+    }
+   ],
+   "excludes": [
+    "rent",
+    "wallet_load",
+    "government"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/pride-signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Conflict on earn rate noted. | Prior notes: Named on bankbazaar only; no data.",
+   "eligibility": "Defence personnel (Pride)",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "EDGE ~Rs0.20"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/pride-signature-credit-card (listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, annual_fee, fee_waiver_spend, forex_markup, lounge_access, base_rate, rules, excludes, eligibility, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Privilege Easy Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "FD-linked variant of Privilege.",
+   "key_benefits": [
+    "12,500 EDGE pts (Rs2,500) welcome",
+    "10,000 pts (Rs2,000) at Rs2.5L spend",
+    "Annual fee reversed at Rs5L",
+    "BOGO movies"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0,
+     "desc": "Earn rate table not captured from page."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/privilege-easy-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card",
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "CORRECTION: joining Rs1,500 (was 0) and annual Rs1,500; this and \"Axis Bank Privilege Easy Credit Card\" are the same card. | Prior notes: Details not found.",
+   "eligibility": "Against Axis FD; limit 80-90% of FD; joining nil for Priority customers",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "12,500 EDGE pts = Rs2,500 (page)"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/privilege-easy-credit-card and FD page",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, annual_fee, fee_waiver_spend, forex_markup, lounge_access, base_rate, rules, eligibility, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis My Zone Easy",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "FD-linked variant of My Zone.",
+   "key_benefits": [],
+   "base_rate": 0.004,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "4 EDGE pts per Rs200 domestic."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "entertainment"
+     ],
+     "rate": 0.25,
+     "desc": "25% cashback on movie tickets (cap not read)."
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/my-zone-easy-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card",
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "Axis page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Page: Rs500/500; Axis FD page shows Nil/Nil in its card strip: conflict, conservative Rs500. | Prior notes: Details not found.",
+   "eligibility": "Guaranteed approval; against Axis FD",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "EDGE ~Rs0.20"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/my-zone-easy-credit-card and FD page",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, annual_fee, forex_markup, base_rate, rules, excludes, eligibility, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "IndianOil Easy Axis Bank",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": "IndianOil",
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-linked IndianOil Axis variant, name seen in Axis site menus.",
+   "key_benefits": [],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [
+      "iocl",
+      "indianoil"
+     ],
+     "categories": [
+      "fuel"
+     ],
+     "rate": 0.04,
+     "desc": "4% value back at IOCL outlets (20 EDGE pts per Rs100); txn Rs400-4000; max Rs5,000 spend/month (IndianOil Axis page; assumed same for Easy).",
+     "cap_inr": 200,
+     "period": "month",
+     "min_txn_inr": 400,
+     "max_txn_inr": 4000
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "emi",
+    "government",
+    "insurance",
+    "jewellery"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/credit-card-against-fixed-deposit",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/indianoil-axis-bank-credit-card",
+    "https://cardadvisor.in/banks/axis-bank-credit-cards",
+    "https://bankbazaar.com/axis-credit-card.html",
+    "https://www.axis.bank.in/cards/credit-card",
+    "Axis FD page",
+    "IndianOil Axis page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees Nil from FD page; benefits assumed identical to IndianOil Axis page (unconfirmed). | Prior notes: Name only.",
+   "eligibility": "Against Axis FD",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "EDGE ~Rs0.20; fuel 20 pts per Rs100 = 4% per Axis IndianOil card"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/credit-card-against-fixed-deposit (lists IndianOil Easy; Nil fees)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis FD page",
+     "IndianOil Axis page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, annual_fee, base_rate, rules, eligibility, point_value_inr, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Shoppers Stop HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 299,
+   "annual_fee": 299,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry Shoppers Stop co-brand: points at Shoppers Stop and 1% on other spends, with Rs500 welcome voucher.",
+   "key_benefits": [
+    "Rs500 welcome voucher",
+    "Silver Edge membership worth Rs350",
+    "1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "shoppers stop"
+     ],
+     "categories": [
+      "online_shopping"
+     ],
+     "rate": 0.03,
+     "desc": "3% reward points on Shoppers Stop purchases (page)."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% reward points on non-Shoppers Stop spends."
+    },
+    {
+     "merchants": [
+      "shoppers stop"
+     ],
+     "categories": [],
+     "rate": null,
+     "desc": "Weekend: Rs500 reward points per month on a single Shoppers Stop purchase of Rs15,000+.",
+     "min_txn_inr": 15000
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming",
+    "fuel"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/shoppers-stop-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/shoppers-stop-credit-card",
+    "https://cardadvisor.in/banks/hdfc-bank-credit-cards",
+    "hdfc page",
+    "MITC v4.13"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs299 from MITC. Waiver spend not stated. Point value assumed 1 point=Rs1 (page calls them cashback/reward points). | Prior notes: Official page gives fee Rs299, 1% RP on non-Shoppers-Stop spends and the welcome voucher; Shoppers Stop earn rate (3%) from cardadvisor only; renewal waiver, RP value, caps and exclusions not found.",
+   "eligibility": "Salaried age 21-60 income Rs20,000/month; self-employed ITR >Rs6L",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/shoppers-stop-credit-card (apply page live)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, rules, excludes, eligibility, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Business Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Paytm-linked business card: 3% cashback on Paytm recharge/utility/movies (cap Rs500 per month), 2% other Paytm, 1% elsewhere.",
+   "key_benefits": [
+    "Paytm First membership on activation",
+    "First-year fee waived on Rs30,000 spend in 90 days",
+    "Renewal waived on Rs50,000 spend",
+    "Dineout up to 20% off partner restaurants"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [
+      "bill_payments"
+     ],
+     "rate": 0.03,
+     "desc": "3% cashback on Paytm Mall and monthly bill payments via standing instruction on Paytm app (old terms)."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% on other retail (excl fuel, EMI, rent, education)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "education"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+    "hdfc paytm notice",
+    "MITC v4.13"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official change notice; current feature status not confirmed. | Prior notes: Official page is mainly a Feb/April 2023 feature-change notice, so figures are 2023-era and may be stale; it is on the current official business-card listing. Two pages disagree on Select Business cashback (notice: 5% on Paytm recharge/utility/movies/mini-app/travel, 3% on Swiggy/AJIO/BigBasket/Uber; product block: 5% across Paytm, 2% other Paytm). Conservative values kept.",
+   "status_source": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card (change notice, not an apply page; card is on HDFC business listing)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc paytm notice",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, forex_markup, rules, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Select Business Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": "12 domestic per year (page)",
+   "main_benefit": "Premium Paytm business card: 5% cashback on Paytm (cap Rs1,500 per month), 3% on Swiggy/AJIO/BigBasket/Uber and 12 domestic lounge visits.",
+   "key_benefits": [
+    "Rs500 voucher on activation",
+    "Rs1,000 vouchers on Rs2L annual spend",
+    "1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "5% cashback on all Paytm purchases (Paytm change notice: cap Rs1,500/month).",
+     "cap_inr": 1500,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "ajio",
+      "bigbasket",
+      "uber"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "3% on Swiggy, AJIO, Big Basket, Uber (cap Rs2,000/month per page notice).",
+     "cap_inr": 2000,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% on other retail (excl fuel, EMI, rent, government)."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government",
+    "education"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-select-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-select-business-credit-card",
+    "hdfc select business page",
+    "paytm change notice",
+    "MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page read; MITC not fully matched; caps from change notice. Jewellery not stated. | Prior notes: Official page is mainly a Feb/April 2023 feature-change notice, so figures are 2023-era and may be stale; it is on the current official business-card listing. Two pages disagree on Select Business cashback (notice: 5% on Paytm recharge/utility/movies/mini-app/travel, 3% on Swiggy/AJIO/BigBasket/Uber; product block: 5% across Paytm, 2% other Paytm). Conservative values kept. Joining Rs1,000, renewal Rs500, renewal waived on Rs1L spend (page).",
+   "eligibility": "Self-employed age 21-65, ITR >Rs8L",
+   "status_source": "https://www.hdfc.bank.in/business-credit-cards/paytm-select-business-credit-card (apply page live, listed)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc select business page",
+     "paytm change notice",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: annual_fee, forex_markup, lounge_access, rules, excludes, eligibility, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Paytm co-brand (2023 data): 3% cashback on Paytm recharge/utility/movies and 1% elsewhere; not on the current personal-card listing.",
+   "key_benefits": [
+    "Paytm First membership",
+    "Fee waived on spend thresholds",
+    "Dineout up to 20% off"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "3% cashback on Paytm recharge/utility/movies/mini app, cap Rs500/month; 2% other Paytm; 1% other retail cap Rs1,000/month (official change notice).",
+     "cap_inr": 500,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% other retail excl fuel, EMI, rent, government.",
+     "cap_inr": 1000,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+    "paytm change notice",
+    "MITC v4.13"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official notice (undated, legacy). Fees per MITC fee table (Paytm HDFC Rs500; waiver Rs50,000 renewal, Rs30,000 first year). | Prior notes: Derived from the April 2023 change notice on the Paytm business page; fee Rs500 annual (monthly Rs49 fee variant also mentioned). Not on the current official personal listing; status unknown. Do not rely without verification.",
+   "status_source": "not on HDFC credit card listing; only legacy change notice",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "paytm change notice",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, forex_markup, rules, excludes, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Select Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 150000,
+   "forex_markup": 0.035,
+   "lounge_access": "12 domestic per year (older terms)",
+   "main_benefit": "Legacy premium Paytm card (2023 data): 5% cashback on Paytm (cap Rs1,500/month), 3% on Swiggy/AJIO/BigBasket/Uber, 12 lounge visits.",
+   "key_benefits": [
+    "12 domestic lounge visits per year",
+    "Rs500 activation voucher",
+    "Rs1,000 voucher on Rs2L spend"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "5% cashback on Paytm (recharge, utility, travel, movies), cap Rs1,500/month.",
+     "cap_inr": 1500,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "ajio",
+      "bigbasket",
+      "uber"
+     ],
+     "categories": [],
+     "rate": 0.03,
+     "desc": "3% on Swiggy, AJIO, Big Basket, Uber cap Rs2,000/month.",
+     "cap_inr": 2000,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "1% other retail excl fuel, EMI, rent, government."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+    "paytm notice",
+    "MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: renewal waiver Rs1.5L; first-year Rs50,000 within 90 days. | Prior notes: Derived from April 2023 notice on the Paytm business page (annual fee Rs1,000, renewal waived on Rs1L). Status unknown.",
+   "status_source": "not on HDFC credit card listing; legacy notice",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "paytm notice",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, fee_waiver_spend, forex_markup, lounge_access, rules, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Paytm HDFC Bank Mini Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 149,
+   "fee_waiver_spend": 25000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Paytm starter card (2023 data): 2% cashback on Paytm Mall/Movies/Mini App, 1% other Paytm, 0.5% elsewhere, Rs149 annual fee.",
+   "key_benefits": [
+    "Upgrade to Paytm HDFC card on Rs10,000 spend in 3 consecutive months",
+    "First-year fee waived on Rs1,000 spend in 30 days"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [
+      "paytm"
+     ],
+     "categories": [],
+     "rate": 0.02,
+     "desc": "2% cashback on Paytm Mall/Movies/Mini App cap Rs250/month; 1% other Paytm; 0.5% other retail.",
+     "cap_inr": 250,
+     "period": "month"
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "0.5% other retail excl fuel, EMI, rent, government."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "government"
+   ],
+   "source_url": "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/business-credit-cards/paytm-hdfc-bank-business-credit-card",
+    "paytm notice",
+    "MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee Rs149, renewal waiver Rs25,000 per MITC (Paytm Digital card). | Prior notes: Derived from April 2023 notice; monthly fee Rs29 alternative. Card name as inferred from notice (\"Mini\" not stated verbatim: section is a lower tier of Paytm HDFC Bank Credit Card). Status unknown.",
+   "status_source": "not on HDFC listing; MITC lists \"Paytm HDFC Bank Digital Credit Card\" Rs149",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "paytm notice",
+     "MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, rules, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC FD-Backed PIXEL Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 250,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Secured credit card against an HDFC fixed deposit (no income proof), issued as Pixel; limit up to 90% of FD value.",
+   "key_benefits": [
+    "Minimum FD Rs15,000",
+    "Credit limit up to 90% of FD",
+    "No income proof or credit score needed",
+    "Apply only via PayZapp",
+    "Earns Pixel cashback (1% on Pixel Go terms)"
+   ],
+   "base_rate": 0.01,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "Pixel Go-type: 1% cashback on all other spends (cap Rs15,000 CashPoints per month, MITC Oct 2025 fair-usage); 1 CashPoint=Rs1. Fuel, EMI, rent, wallet, government earn nothing; insurance capped 2,000 CashPoints/month.",
+     "cap_inr": 15000,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "wallet_load",
+    "government",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/credit-card-against-fd",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/credit-card-against-fd",
+    "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+    "HDFC Pixel MITC 7 Sep 2026",
+    "hdfc FD card page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Pixel MITC dated 7 Sep 2026: Pixel Go fee Rs250 waived at Rs50,000, Pixel Play Rs500 at Rs1L. Which Pixel variant the FD card is issued as is not stated; Go assumed. | Prior notes: HDFC page and Feb 2026 FD-backed Pixel FAQ (PDF unreadable here) confirm product; fee/earn terms are inferred from Pixel Go and not verified. HDFC lists other cards against FD (Millennia, MoneyBack+ etc.) per aggregators.",
+   "eligibility": "Existing/new HDFC FD of at least Rs15,000; age 18-75; limit 90% of FD",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/credit-card-against-fd",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "HDFC Pixel MITC 7 Sep 2026",
+     "hdfc FD card page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, rules, excludes, eligibility, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Regalia Activ Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": null,
+   "lounge_access": "12 domestic + 6 international (Priority Pass) per year",
+   "main_benefit": "Regalia Activ: 4 RP per Rs200 with up to 12 domestic and 6 international lounge visits.",
+   "key_benefits": [
+    "10,000 bonus RP on Rs5L annual spend, +5,000 RP at Rs8L",
+    "12 domestic + 6 international lounge visits",
+    "Renewal waived at Rs3L spend",
+    "1% fuel surcharge waiver (txn Rs400-5000, max Rs500/statement)"
+   ],
+   "base_rate": 0.003,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.003,
+     "desc": "4 RP per Rs200 from 15 May 2026 (earlier per Rs150) at Rs0.15/RP cash; Rs0.5/RP best via SmartBuy flights/hotels = 1%. UPI spends capped at 500 RP/month. Grocery 2000 RP/month, utility and telecom 2000 RP/month, insurance 2000 RP/month caps.",
+     "rate_best": 0.01,
+     "period": "month"
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/regalia-activ-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/regalia-activ-credit-card",
+    "hdfc.bank.in Regalia Activ page",
+    "HDFC MITC v4.13",
+    "generic-mailer-tnc 15 May 2026"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + MITC. Forex markup for Regalia Activ not itemised in MITC table extract (2% on older Regalia cards unconfirmed). Jewellery earn not stated. | Prior notes: Page live but no closure message; absent from the current official listing, so status unknown (likely not sold). A page FAQ line mentions fee-free first 3 years (promotional).",
+   "eligibility": "Net income at least Rs25,000/month; sourcing stopped",
+   "point_value_inr": {
+    "cash": 0.15,
+    "best": 0.5,
+    "note": "Official page: 1 RP=Rs0.15 cashback, up to Rs0.35 products/vouchers, Rs0.5 flights/hotels via SmartBuy"
+   },
+   "status_source": "https://www.hdfc.bank.in/credit-cards/regalia-activ-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc.bank.in Regalia Activ page",
+     "HDFC MITC v4.13",
+     "generic-mailer-tnc 15 May 2026"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, lounge_access, base_rate, rules, excludes, eligibility, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Doctor's Regalia Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.02,
+   "lounge_access": "6 international Priority Pass per year + domestic program",
+   "main_benefit": "Regalia for doctors: 4 RP per Rs150, professional-negligence cover up to Rs20 lakh, Priority Pass lounges.",
+   "key_benefits": [
+    "Welcome and renewal 2,500 RP",
+    "Bonus 10,000 RP on Rs5L and 5,000 RP on Rs8L spend",
+    "Flat 25% off at 2,000+ restaurants",
+    "Renewal waived on Rs3L spend"
+   ],
+   "base_rate": 0.0027,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0027,
+     "desc": "Page: 4 RP per Rs150 on retail incl. insurance, utilities, education, rent pay (page text; MITC v4.13 says rent/government/education... earn nothing, conflict: conservative). Cash value assumed Rs0.15/RP borrowed from Regalia Activ page (not stated on this page). Mailer of 15 May 2026 does not list Doctor's Regalia.",
+     "rate_best": 0.0133
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/doctors-regalia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/doctors-regalia-credit-card",
+    "hdfc.bank.in Doctors Regalia page",
+    "HDFC MITC v4.13"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page says sourcing stopped; forex 2% from page. Rate basis assumed. | Prior notes: Page live, no closure message, not on current listing; status unknown.",
+   "eligibility": "Doctors only; sourcing stopped",
+   "point_value_inr": {
+    "cash": 0.15,
+    "best": 0.5,
+    "note": "assumed from Regalia family page; unconfirmed for this card"
+   },
+   "status_source": "https://www.hdfc.bank.in/credit-cards/doctors-regalia-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc.bank.in Doctors Regalia page",
+     "HDFC MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, base_rate, rules, excludes, eligibility, point_value_inr, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Doctor's Superia Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry card for doctors: 3 RP per Rs200, 50% more at restaurants and Rs20 lakh professional-negligence cover.",
+   "key_benefits": [
+    "1,000 RP on joining and each year",
+    "Rs20L professional negligence cover",
+    "1% fuel surcharge waiver (max Rs250/cycle)"
+   ],
+   "base_rate": 0.00225,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.00225,
+     "desc": "3 RP per Rs200 (confirmed by 15 May 2026 mailer); 50% more RP on dining. Rs0.15/RP cash assumed (not stated).",
+     "rate_best": null
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/doctors-superia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/doctors-superia-credit-card",
+    "hdfc.bank.in Doctors Superia page",
+    "HDFC MITC v4.13",
+    "mailer"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee from MITC fee table (Superia/Doctors Superia grouping, flattened table: moderate certainty); forex 3.5% default for non-premium. | Prior notes: RP value not stated, so base_rate null. Status unknown.",
+   "eligibility": "Doctors only; sourcing stopped",
+   "point_value_inr": {
+    "cash": 0.15,
+    "best": null,
+    "note": "assumed"
+   },
+   "status_source": "https://www.hdfc.bank.in/credit-cards/doctors-superia-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc.bank.in Doctors Superia page",
+     "HDFC MITC v4.13",
+     "mailer"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, fee_waiver_spend, forex_markup, base_rate, rules, excludes, eligibility, point_value_inr, status_source, key_benefits (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Diners Club Premium Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "Diners",
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 2500,
+   "fee_waiver_spend": 300000,
+   "forex_markup": 0.02,
+   "lounge_access": null,
+   "main_benefit": "Legacy Diners Premium: 4 RP per Rs200, 2% forex markup, travel insurance.",
+   "key_benefits": [
+    "2,500 RP on activation",
+    "Travel insurance incl. Rs50k baggage, Rs1cr air accident, Rs25L overseas hospitalisation",
+    "1% fuel surcharge waiver (max Rs500/statement)"
+   ],
+   "base_rate": 0.003,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.003,
+     "desc": "4 RP per Rs200 (15 May 2026 mailer; page still says per Rs200). Rs0.15/RP cash assumed; RP to air miles 1 RP=0.5 mile.",
+     "rate_best": 0.0075
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/diners-club-premium-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/diners-club-premium-credit-card",
+    "hdfc.bank.in page",
+    "HDFC MITC v4.13",
+    "mailer"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official sourcing-stopped banner. Lounge access not stated on page. | Prior notes: Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Closure banner on this page mistakenly names the World MasterCard card, so closure is inferred.",
+   "point_value_inr": {
+    "cash": 0.15,
+    "best": 0.25,
+    "note": "assumed from HDFC Regalia family; not stated on page"
+   },
+   "status_source": "https://www.hdfc.bank.in/credit-cards/diners-club-premium-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc.bank.in page",
+     "HDFC MITC v4.13",
+     "mailer"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: base_rate, rules, excludes, point_value_inr, status_source, key_benefits (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Platinum Edge Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 599,
+   "annual_fee": 599,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy cashback-style card: 2 RP per Rs200 with fuel surcharge waiver.",
+   "key_benefits": [
+    "Renewal waived on Rs50,000 spend"
+   ],
+   "base_rate": 0.0015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0015,
+     "desc": "2 RP per Rs200 (mailer 15 May 2026); fuel surcharge waiver up to Rs250/month. Rs0.15/RP assumed.",
+     "rate_best": null
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/platinum-edge-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/platinum-edge-credit-card",
+    "hdfc page",
+    "MITC v4.13",
+    "mailer"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC table lists Platinum Edge Rs599 (waiver NA) but page says renewal waived on Rs50,000 annual spend: conflict; kept Rs599 and 50,000 per page. Reward point value not stated. | Prior notes: Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Fee and RP value not on page.",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/platinum-edge-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page",
+     "MITC v4.13",
+     "mailer"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, annual_fee, forex_markup, base_rate, rules, excludes, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Titanium Edge Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": 50000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy entry card: 2 RP per Rs200 with 100% fuel surcharge waiver.",
+   "key_benefits": [
+    "100 RP = Rs10 cashback",
+    "Renewal waived on Rs50,000 spend"
+   ],
+   "base_rate": 0.001,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.001,
+     "desc": "2 RP per Rs200; official page: 100 RP = Rs10 cashback (Rs0.10/RP); 50% more RP on dining; 100% fuel surcharge waiver max Rs250/cycle."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/titanium-edge-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/titanium-edge-credit-card",
+    "hdfc page",
+    "MITC v4.13"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee amount not stated on page/MITC extract (null). Renewal waiver at Rs50,000. | Prior notes: Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. ",
+   "point_value_inr": {
+    "cash": 0.1,
+    "best": null,
+    "note": "Official page: 100 RP = Rs10 CashBack"
+   },
+   "status_source": "https://www.hdfc.bank.in/credit-cards/titanium-edge-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page",
+     "MITC v4.13"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, base_rate, rules, excludes, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Platinum Plus Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy card: 4 RP per Rs200 with 50% bonus on Rs50,000 monthly spend.",
+   "key_benefits": [
+    "Extra cashback on utility bills via PayZapp"
+   ],
+   "base_rate": 0.0015,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0015,
+     "desc": "Page says 4 RP per Rs200 (+50% on months above Rs50,000) but 15 May 2026 mailer revises base to 2 RP per Rs200; used the mailer. Rs0.15/RP assumed."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/platinum-plus-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/platinum-plus-credit-card",
+    "hdfc page",
+    "mailer"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees not stated. Up to 3 free add-ons. | Prior notes: Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Fee and RP value not found.",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/platinum-plus-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page",
+     "mailer"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, base_rate, rules, excludes, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC All Miles Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy miles card: 3X RP per Rs150 and 2X on hotels/recharge/shopping.",
+   "key_benefits": [
+    "Free first year if Rs15,000 spent in 90 days",
+    "Renewal waived at Rs1L spend",
+    "1% fuel surcharge waiver"
+   ],
+   "base_rate": 0.00225,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.00225,
+     "desc": "3 RP per Rs200 (mailer 15 May 2026, earlier Rs150); 2X on hotel, recharge, shopping. Rs0.15/RP assumed."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load",
+    "emi",
+    "gaming"
+   ],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/all-miles-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/credit-cards/all-miles-credit-card",
+    "hdfc page",
+    "mailer"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee amount not stated. | Prior notes: Legacy card page on hdfc.bank.in says new applications are not accepted; existing holders keep benefits. Fee and RP value not found.",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/all-miles-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page",
+     "mailer"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, base_rate, rules, excludes, status_source, key_benefits (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Business Corporate Regalia Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "8 domestic per year (page)",
+   "main_benefit": "Corporate Regalia: 4X RP per Rs150, 8 domestic + 6 international lounge visits; sourcing stopped.",
+   "key_benefits": [
+    "Insurance Rs1 crore",
+    "Employee fraud cover Rs2 lakh per card"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.008,
+     "desc": "4X RP per Rs150 (page; may now be per Rs200 for Business Regalia per 15 May 2026 mailer); best value Rs0.30/RP via SmartBuy Corporate",
+     "portal_only": false,
+     "rate_best": 0.008
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/business-corporate-regalia-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/business-corporate-regalia-credit-card",
+    "hdfc page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fee amounts not stated on page; corporate MITC fees not extractable. Rate conservative: 4*0.30/150=0.8%. | Prior notes: Official: sourcing stopped. Fee not found.",
+   "eligibility": "Corporate/business cardholders",
+   "point_value_inr": {
+    "cash": null,
+    "best": 0.3,
+    "note": "Official page: 1 RP = Rs0.30 on SmartBuy Corporate"
+   },
+   "status_source": "https://www.hdfc.bank.in/commercial-credit-cards/business-corporate-regalia-credit-card (\"Sourcing of this Credit Card has been stopped\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: lounge_access, rules, eligibility, point_value_inr, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC Purchase Premium Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": null,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.025,
+   "lounge_access": null,
+   "main_benefit": "Commercial card: 4 RP per Rs150 and 5% cashback on essential business spend (cap Rs1,500 per cycle on Rs1L monthly spend).",
+   "key_benefits": [
+    "Minimum 30% payment option on revolving credit",
+    "2.5% forex markup"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.05,
+     "desc": "5% cashback on essential business spend up to Rs1,500 per statement cycle on min monthly spend Rs1,00,000.",
+     "cap_inr": 1500,
+     "period": "statement",
+     "min_txn_inr": null
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": null,
+     "desc": "4 RP per Rs150 (page)"
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/commercial-credit-cards/purchase-premium-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.hdfc.bank.in/commercial-credit-cards/purchase-premium-credit-card",
+    "hdfc page",
+    "Purchase MITC v2.7"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + Purchase MITC v2.7 (13 Aug 2026): forex 2.5%, fuel waiver 1% max Rs500/cycle. Fees and RP value not stated. | Prior notes: Official page read; fee and RP value not found.",
+   "status_source": "https://www.hdfc.bank.in/commercial-credit-cards/purchase-premium-credit-card (listed, no stopped banner)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page",
+     "Purchase MITC v2.7"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: rules, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI MakeMyTrip Signature",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "MakeMyTrip",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 2500,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 international/yr; 2 domestic + 1 railway per quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Older MakeMyTrip co-brand with MMTBLACK Platinum membership and 4 myCash per Rs200 on hotels; closed to new applicants.",
+   "key_benefits": [
+    "MMTBLACK Platinum tier",
+    "Milestone 1,100 myCash at Rs2.5L, 4,000 at Rs5L",
+    "Joining fee only, no annual fee"
+   ],
+   "base_rate": 0.00625,
+   "rules": [
+    {
+     "merchants": [
+      "makemytrip"
+     ],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.02,
+     "desc": "4 myCash per Rs200 on hotel bookings (MMT) at Rs1/myCash."
+    },
+    {
+     "merchants": [
+      "makemytrip"
+     ],
+     "categories": [],
+     "rate": 0.01,
+     "desc": "2 myCash per Rs200 on flights."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.00625,
+     "desc": "1.25 myCash per Rs200 on other domestic."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card",
+    "ICICI page",
+    "ICICI MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + MITC (9 Oct 2026): joining Rs2,500, annual nil. Insurance myCash capped 1,000 pts/anniversary year; jewellery not stated. | Prior notes: Official page: joining Rs2,500+GST, no annual fee, forex 3.5%, 1.25 myCash per Rs200 domestic; milestones 1,100 myCash at Rs2.5L, 4,000 at Rs5L. Page states no longer accepting applications. Domestic lounge needs Rs75k prior quarter from 1 Jul 2026. Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official pages fetched 2026-10-11 (icici.bank.in).",
+   "point_value_inr": {
+    "cash": null,
+    "best": 1.0,
+    "note": "myCash 1=Rs1 on MakeMyTrip"
+   },
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/signature-credit-card (\"We are no longer accepting applications\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI page",
+     "ICICI MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: lounge_access, rules, excludes, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI MakeMyTrip Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "MakeMyTrip",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 500,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter on Rs75k prior-quarter spend; 4 railway per year",
+   "main_benefit": "Older entry MakeMyTrip co-brand with holiday voucher and myCash on MMT bookings; closed to new applicants.",
+   "key_benefits": [
+    "Welcome MMT holiday voucher + Rs500 myCash",
+    "Milestone 1,000 myCash at Rs2.5L",
+    "No annual fee"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "Existing aggregator-derived rate kept; official MITC gives fees only."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "government",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card",
+    "ICICI page",
+    "ICICI MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: joining Rs500, annual nil. | Prior notes: Official page: joining Rs500+GST, no annual fee, forex 3.5%, 1 myCash per Rs200 domestic; page notes no longer accepting applications (note text names Signature variant). Exclusions and jewellery not found. 2026 changes (third-party reports, Jan 15/Feb 1 2026): 6x accelerated points removed on iShop vouchers incl. Kalyan/Tanishq/Reliance Jewels; jewellery vouchers NetBanking-only (no card payment); 3.5%+GST fee on selected iShop vouchers; 1% fee on wallet loads >= Rs5,000; 2% fee on gaming; 1% fee on transport spend >Rs50k; transport/insurance reward caps; BookMyShow benefit needs Rs25k prior-quarter spend (from 1 Apr 2026 per official pages).  Official page note on closure names the Signature variant; Platinum treated as closed too (page note ambiguous). Official pages fetched 2026-10-11 (icici.bank.in).",
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/makemytrip/platinum-credit-card (\"no longer accepting applications\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI page",
+     "ICICI MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: rules, excludes, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Manchester United Signature",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Manchester United",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 2499,
+   "annual_fee": 2499,
+   "fee_waiver_spend": 250000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Football co-brand with 3 RP per Rs100 domestic and 4 RP international; no longer widely offered.",
+   "key_benefits": [
+    "Manchester United merchandise/experience perks (third-party)"
+   ],
+   "base_rate": 0.0075,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0075,
+     "desc": "3 RP per Rs100 domestic, 4 international (older data); Rs0.25/RP.",
+     "rate_best": null
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "government",
+    "wallet_load"
+   ],
+   "source_url": "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://www.paisabazaar.com/icici-bank/icici-bank-manchester-united-signature-credit-card/",
+    "https://cardtrail.in/vs/icici-manchester-united-signature-vs-shoppers-stop-black-hdfc-bank/",
+    "https://cardexpress.in/cards/icici-manchester-united",
+    "ICICI MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/waiver from MITC. Points per ICICI MITC: no points on cash, rent, fuel, e-wallet. | Prior notes: Official page could not be read (URL returned generic page). Fee conflict: cardtrail Rs2,499 (waiver Rs2.5L) vs cardexpress Rs499 (waiver Rs1.3L); fee left null. Paisabazaar: 3 RP/Rs100 domestic, 4 intl, no fuel points; base ~0.5% at ~Rs0.25/RP. Platinum variant not found. Exclusions/jewellery not found. Status conflict: cardinsider says discontinued; ICICI listing path /manchester-signature-card exists but page content generic. Treated closed_to_new. Official pages fetched 2026-10-11 (icici.bank.in).",
+   "status_source": "In ICICI MITC 9 Oct 2026 fee table; absent from ICICI listing",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, annual_fee, fee_waiver_spend, forex_markup, base_rate, rules, excludes, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Instant Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Instant FD-backed secured card (limit up to 90% of FD, min FD Rs50,000) for building credit.",
+   "key_benefits": [
+    "Limit up to 90% of FD",
+    "Min FD Rs50,000, tenure >=180 days, auto-renewal",
+    "FD keeps earning interest"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "cash",
+    "government"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-against-fixed-deposit",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-against-fixed-deposit",
+    "ICICI FD page",
+    "ICICI MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees Nil per MITC; earn rate not found. | Prior notes: Official FD-card page lists Instant Platinum and Coral as the two FD-backed variants. Fees, forex and rewards not on page: left null; base_rate assumes Platinum Chip-like 2 RP/Rs100 (not verified). Official pages fetched 2026-10-11 (icici.bank.in).",
+   "eligibility": "FD of Rs50,000+, 180+ days tenure, auto-renew; limit up to 90%",
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/credit-card-against-fixed-deposit",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI FD page",
+     "ICICI MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, annual_fee, base_rate, excludes, eligibility, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Alumni",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": "Domestic airport lounge (count not stated)",
+   "main_benefit": "Zero-fee affinity card for college alumni with movie offers and domestic lounge access.",
+   "key_benefits": [
+    "No joining/annual fee",
+    "BookMyShow and INOX offers twice a month",
+    "1% fuel waiver at HPCL"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/alumni-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/alumni-credit-card",
+    "ICICI page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official FAQ: zero joining and annual fee. Not in MITC fee table. Earn not found. | Prior notes: Official page 2026-10-11 states no joining/annual fee; rewards rate, forex and status not stated. Affinity card; may be limited to partner colleges. Official pages fetched 2026-10-11 (icici.bank.in).",
+   "eligibility": "Graduates/alumni; age 23-65; salaried Rs20,000/month",
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/alumni-credit-card",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: eligibility, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Emirates Skywards Emeralde",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Emirates Skywards",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "Unlimited domestic and international",
+   "main_benefit": "Emirates Skywards co-brand earning 2 Skywards miles per Rs100 with tier benefits and up to 10% off Emirates flights.",
+   "key_benefits": [
+    "10,000 miles + Silver tier on joining/renewal",
+    "Gold tier at Rs15L spend (Rs50k on Emirates)",
+    "Up to 10% off Emirates flights"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": null,
+     "desc": "2 Skywards miles per Rs100 (from 15 Jan 2026, earlier 2.5); no miles on insurance, utility, government, education. Mile INR value not published."
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "utilities",
+    "government",
+    "education",
+    "rent",
+    "fuel",
+    "wallet_load"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-emeralde-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-emeralde-credit-card",
+    "ICICI page",
+    "ICICI MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Correction: earn 2 miles/Rs100; forex 2%. Jewellery not stated. | Prior notes: Official page 2026-10-11. Miles credited to Emirates Skywards; value assumed Rs0.50/mile (not stated) so rate=1.00%. Forex not on page.  Official pages fetched 2026-10-11 (icici.bank.in).",
+   "eligibility": "Salaried >=Rs2.5L/month or self-employed >=Rs30L/yr; age 21+",
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-emeralde-credit-card",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI page",
+     "ICICI MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, base_rate, rules, excludes, eligibility, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Emirates Skywards Sapphiro",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": "Emirates Skywards",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 5000,
+   "annual_fee": 5000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 international/yr; 2 domestic/quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Emirates Skywards co-brand earning 1.5 miles per Rs100 with tier benefits and up to 10% off Emirates flights.",
+   "key_benefits": [
+    "5,000 miles + Silver tier on joining and renewal",
+    "Up to 10% off Emirates flights via promo code"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": null,
+     "desc": "1.5 Skywards miles per Rs100 domestic and international (from 15 Jan 2026, earlier 2); no miles on insurance, utility, government, education."
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "utilities",
+    "government",
+    "education",
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-sapphiro",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-sapphiro",
+    "ICICI page",
+    "ICICI MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC: joining/annual Rs5,000/Rs5,000. Mile value unknown. | Prior notes: Official page 2026-10-11. Miles credited to Emirates Skywards; value assumed Rs0.50/mile (not stated) so rate=0.75%. Forex not on page.  Official pages fetched 2026-10-11 (icici.bank.in).",
+   "eligibility": "Salaried Rs1.5L/month or self-employed Rs18L/yr",
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-sapphiro",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI page",
+     "ICICI MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, lounge_access, base_rate, rules, excludes, eligibility, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Emirates Skywards Rubyx",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "closed_to_new",
+   "co_brand_partner": "Emirates Skywards",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic/quarter on Rs75k prior-quarter spend",
+   "main_benefit": "Emirates Skywards co-brand earning 1 mile per Rs100 with tier benefits and up to 10% off Emirates flights.",
+   "key_benefits": [
+    "Up to 10% off Emirates flights via promo code"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": null,
+     "desc": "1 Skywards mile per Rs100 (from 15 Jan 2026); no miles on insurance, utility, government, education."
+    }
+   ],
+   "excludes": [
+    "insurance",
+    "utilities",
+    "government",
+    "education",
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card",
+    "ICICI page",
+    "ICICI MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Annual fee cannot be waived (page FAQ). | Prior notes: Official page 2026-10-11. Miles credited to Emirates Skywards; value assumed Rs0.50/mile (not stated) so rate=0.50%. Forex not on page. Page says currently not accepting applications. Official pages fetched 2026-10-11 (icici.bank.in).",
+   "eligibility": "Salaried Rs75,000/month",
+   "status_source": "https://www.icici.bank.in/personal-banking/cards/credit-card/emirates-rubyx-credit-card (\"currently not accepting applications\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI page",
+     "ICICI MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, lounge_access, base_rate, rules, excludes, eligibility, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Manchester United Platinum",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "Manchester United",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 125000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Entry football fan co-brand; applications no longer accepted.",
+   "key_benefits": [
+    "Manchester United fan offers (third-party)"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 (3 on match days) at Rs0.25; no points on fuel, rent, e-wallet, cash, government."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "government",
+    "cash"
+   ],
+   "source_url": "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-platinum-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/personal-banking/cards/credit-card/manchester-platinum-card",
+    "https://www.bankbazaar.com/credit-card/icici-bank-manchester-united-platinum-credit-card.html",
+    "https://cardinsider.com/icici-bank/icici-bank-manchester-united-platinum-credit-card/",
+    "ICICI MITC",
+    "cardinsider"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "CORRECTION: waiver spend Rs1.25L (was 1.75L). Earn from aggregator. | Prior notes: Fee Rs499 per bankbazaar/cardinsider; waiver conflict Rs1.75L (bankbazaar) vs Rs1.25L (cardinsider), conservative Rs1.75L kept. ICICI page notes applications not being accepted. Rewards not found; base 0.5% assumed.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": null,
+    "note": "1 RP=Rs0.25 (cardinsider)"
+   },
+   "status_source": "In ICICI MITC fee table; page live without notice; cardinsider says Discontinued",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC",
+     "cardinsider"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, fee_waiver_spend, forex_markup, rules, excludes, point_value_inr, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Ferrari Signature",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Ferrari",
+   "tier": "premium",
+   "lifetime_free": null,
+   "joining_fee": 3999,
+   "annual_fee": 999,
+   "fee_waiver_spend": 250000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "2016 Ferrari co-brand (Signature tier); current availability unconfirmed.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100; no points on fuel."
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.cardexpert.in/icici-bank-launches-ferrari-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.forbesindia.com/article/special/icici-bank-launches-ferrari-range-of-credit-cards/42675/1",
+    "https://cardinsider.com/icici-bank/icici-bank-ferrari-signature-credit-card/",
+    "cardinsider"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator-only. | Prior notes: Only 2016-era launch coverage and aggregator pages; not on current ICICI card listing, so likely discontinued. Joining Rs3,999 is 2016/aggregator figure; all else null.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": null,
+    "note": "1 RP=Rs0.25 (aggregator)"
+   },
+   "status_source": "cardinsider says Discontinued; absent from ICICI MITC/listing",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "cardinsider"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: annual_fee, fee_waiver_spend, forex_markup, lounge_access, base_rate, rules, excludes, point_value_inr, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Ferrari Platinum",
+   "issuer": "ICICI Bank",
+   "network": "Visa",
+   "status": "unknown",
+   "co_brand_partner": "Ferrari",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 125000,
+   "forex_markup": 0.035,
+   "lounge_access": "1 domestic per quarter",
+   "main_benefit": "2016 Ferrari co-brand (Platinum tier); current availability unconfirmed.",
+   "key_benefits": [],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 points per Rs100 except fuel (credithita; 0.25/pt assumed)."
+    }
+   ],
+   "excludes": [
+    "fuel"
+   ],
+   "source_url": "https://www.cardexpert.in/icici-bank-launches-ferrari-credit-cards/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.forbesindia.com/article/special/icici-bank-launches-ferrari-range-of-credit-cards/42675/1",
+    "https://www.credithita.com/credit-card/icici-bank-ferrari-platinum-credit-card",
+    "credithita"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator-only. | Prior notes: Only 2016-era coverage; not on current ICICI listing, likely discontinued. Joining Rs999 is a 2016 figure; all else null.",
+   "status_source": "absent from ICICI MITC/listing; unconfirmed",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "credithita"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: joining_fee, annual_fee, fee_waiver_spend, forex_markup, lounge_access, base_rate, rules, excludes, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Platinum Business Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "Business credit card for SMEs/proprietors with lounge access and 1% fuel waiver.",
+   "key_benefits": [
+    "1% fuel surcharge waiver",
+    "2 domestic lounge visits per quarter"
+   ],
+   "base_rate": 0.00125,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.00125,
+     "desc": "1 point per Rs200 domestic (2 international); point value Rs0.25 assumed. Fuel waiver 1% (max txn Rs5,000, cap Rs500/month).",
+     "cap_inr": null
+    }
+   ],
+   "excludes": [
+    "cash",
+    "rent",
+    "fuel"
+   ],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/business-credit-card/platinum-business-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/business-banking/cards/business-credit-card/platinum-business-card",
+    "ICICI page",
+    "ICICI Business MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page + Business MITC 7 Aug 2026. Jewellery not stated. | Prior notes: Official page per search snippet: Rs999+GST joining and annual from year 2; 1 RP/Rs200 domestic, 2 RP/Rs200 international. Page not fetched directly; waiver spend not found. Rs0.25/RP assumed.",
+   "status_source": "https://www.icici.bank.in/business-banking/cards/business-credit-card/platinum-business-card",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI page",
+     "ICICI Business MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: rules, excludes, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Business Gold Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "No-fee business card for small businesses with standard bank/network offers.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/business-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.paisabazaar.com/icici-bank/business-gold-credit-card/",
+    "ICICI Business MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Business MITC: Nil/Nil. HPCL fuel waiver 1%, cap Rs500/month. | Prior notes: Paisabazaar lists nil joining/annual fee; official page not fetched. Rewards not found.",
+   "status_source": "https://www.icici.bank.in/business-banking/cards/business-credit-card",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI Business MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Corporate Platinum Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 999,
+   "annual_fee": 999,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Company-issued corporate card with lounge access, reward points and fuel waiver.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/corporate-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/business-banking/cards/corporate-card",
+    "ICICI corporate page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees and rates not published on page; earlier values unconfirmed. | Prior notes: Corporate FAQ (via search): Platinum Rs999+GST. Issued to companies not individuals; rewards not found.",
+   "eligibility": "Company-issued to employees",
+   "status_source": "https://www.icici.bank.in/business-banking/cards/corporate-card",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI corporate page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: eligibility, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Corporate Gold Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Company-issued corporate card with no joining/annual fee, reward points and cash withdrawal.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.icici.bank.in/business-banking/cards/corporate-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.icici.bank.in/business-banking/cards/corporate-card",
+    "ICICI corporate page"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees not published; unconfirmed. | Prior notes: Corporate FAQ (via search): no joining/annual fee. Issued to companies; rewards not found.",
+   "eligibility": "Company-issued to employees",
+   "status_source": "https://www.icici.bank.in/business-banking/cards/corporate-card",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI corporate page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: eligibility, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Privilege Easy Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": null,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": 500000,
+   "forex_markup": 0.035,
+   "lounge_access": "2 domestic per quarter",
+   "main_benefit": "Premium FD-backed card, limit 80-90% of FD, 12,500 welcome EDGE points.",
+   "key_benefits": [
+    "12,500 EDGE pts (Rs2,500) welcome",
+    "10,000 pts (Rs2,000) at Rs2.5L spend",
+    "Annual fee reversed at Rs5L",
+    "BOGO movies"
+   ],
+   "base_rate": 0.0,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0,
+     "desc": "Earn rate table not captured from page."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/privilege-easy-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://stablemoney.in/cards/best-credit-card-against-fixed-deposit",
+    "Axis page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "CORRECTION: joining Rs1,500 (was 0) and annual Rs1,500; this and \"Axis Bank Privilege Easy Credit Card\" are the same card. | Prior notes: From a 2026 aggregator list only; may overlap another collector (big bank). Reward values, forex, lounge not verified.",
+   "eligibility": "Against Axis FD; limit 80-90% of FD; joining nil for Priority customers",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "12,500 EDGE pts = Rs2,500 (page)"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/privilege-easy-credit-card and FD page",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, annual_fee, fee_waiver_spend, forex_markup, lounge_access, base_rate, rules, eligibility, point_value_inr, status_source, key_benefits (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Kwik RuPay Credit Card",
+   "issuer": "Axis Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Kiwi",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Lifetime-free RuPay credit card for credit-on-UPI spends via the Kiwi app, with 2 EDGE Reward Points per Rs 200.",
+   "key_benefits": [
+    "Lifetime free, no joining/annual fee",
+    "Credit on UPI via Kiwi/BHIM/Paytm",
+    "Virtual card via Kiwi app",
+    "1% cashback on Scan & Pay (Kiwi virtual card, 2023 press release)",
+    "1% fuel surcharge waiver Rs 400-4,000, max Rs 150/month"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.002,
+     "desc": "2 EDGE pts per Rs200 domestic and international; UPI credit-card txns under Rs2,000 earn nothing."
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "rent",
+    "cash",
+    "insurance",
+    "jewellery",
+    "education",
+    "government",
+    "emi",
+    "upi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-kwik-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/about-us/press-releases/axis-bank-partners-with-kiwi-to-bolster-credit-on-upi-accessibility-on-rupay-credit-cards",
+    "https://www.paisabazaar.com/axis-bank/axis-kwik-credit-card/",
+    "Axis Kwik page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "high",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page lists excluded categories incl jewellery; fees Nil (MITC). Fuel waiver 1% Rs400-4000 max Rs150/month. | Prior notes: Audit entry 'Axis Bank Kiwi RuPay Credit Card' treated as same product. Reward-point value assumed. Forex markup not found. Current open/closed status not confirmed on issuer page.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "EDGE ~Rs0.20"
+   },
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-kwik-credit-card",
+   "jewellery_unconfirmed": false,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis Kwik page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, rules, excludes, point_value_inr, status_source (confidence low->high)"
+    ]
+   }
+  },
+  {
+   "name": "IKEA Family Credit Card By Axis Bank",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "IKEA",
+   "tier": "entry",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Free IKEA co-brand card earning 3 EDGE points per Rs 100 at IKEA with IKEA Family perks and EMI.",
+   "key_benefits": [
+    "Lifetime free (CardTrail lists Rs 500 joining; conflicting, kept free per CardAdvisor/Paisabazaar - verify)",
+    "Low-cost EMI on IKEA purchases Rs 2,500+",
+    "1% fuel surcharge waiver Rs 400-5,000"
+   ],
+   "base_rate": 0.002,
+   "rules": [
+    {
+     "merchants": [
+      "ikea"
+     ],
+     "categories": [],
+     "rate": 0.006,
+     "desc": "3 EDGE pts/Rs 100 at IKEA; assumed 1 EDGE pt = Rs 0.20 (~0.6%)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "dining"
+     ],
+     "rate": 0.004,
+     "desc": "2 EDGE pts/Rs 100 on dining (~0.4%)."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "other"
+     ],
+     "rate": 0.002,
+     "desc": "1 EDGE pt/Rs 100 elsewhere (~0.2%)."
+    }
+   ],
+   "excludes": [
+    "rent",
+    "fuel",
+    "utilities",
+    "insurance",
+    "wallet_load"
+   ],
+   "source_url": "https://www.axis.bank.in/forward-together/migrate-credit-cards/transfer-citi-axis-ikea-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardadvisor.in/articles/ikea-family-axis-credit-card-review-2026",
+    "https://www.axis.bank.in/forward-together/migrate-credit-cards/transfer-citi-axis-ikea-credit-card",
+    "https://cardtrail.in/cards/ikea-family-axis-bank-credit-card/",
+    "Axis migration page",
+    "Axis MITC (Nil/Nil)"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "MITC lists Nil/Nil/Nil. Earn rules from earlier aggregator kept; unverified. | Prior notes: Migrated from IKEA Family Credit Card by Citi (2024). Per CardAdvisor, Axis removed it from its line-up; existing holders keep it. Network not found.",
+   "eligibility": "Migrated Citi IKEA Family cardholders",
+   "status_source": "https://www.axis.bank.in/forward-together/migrate-credit-cards/transfer-citi-axis-ikea-credit-card (Citi migration page, Jul 2024); not in Axis current listing",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis migration page",
+     "Axis MITC (Nil/Nil)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, eligibility, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Business Supreme Visa Credit Card",
+   "issuer": "Axis Bank",
+   "network": "Visa",
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Axis commercial card for business owners with no fees on the Visa variant and 4 points on domestic spends.",
+   "key_benefits": [
+    "No joining or annual fee (Axis fee page)",
+    "No lounge access"
+   ],
+   "base_rate": 0.0006,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [
+      "travel"
+     ],
+     "rate": 0.004,
+     "desc": "4 pts per Rs200 domestic on travel/tour operators, domestic airlines, direct marketing/advertising."
+    },
+    {
+     "merchants": [],
+     "categories": [
+      "international"
+     ],
+     "rate": 0.0012,
+     "desc": "3 pts per Rs200 international."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.001,
+     "desc": "1 pt per Rs200 other domestic; UPI txns under Rs2,000 earn nothing."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery",
+    "cash",
+    "wallet_load",
+    "insurance",
+    "education",
+    "government",
+    "rent",
+    "emi",
+    "upi"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/commercial-credit-card/business-supreme-visa-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/commercial-credit-card/business-supreme-visa-credit-card",
+    "https://cardinsider.com/business-cards/axis-business-supreme-master-credit-card/",
+    "Axis page"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page lists exclusions including jewellery; fees nil; EDGE value assumed Rs0.2. | Prior notes: Third-party: 4 points domestic, 3 international, 1 other (point value and denomination not found, so no rate modelled). Finance charge 3.6%/month. Issuer page exists.",
+   "point_value_inr": {
+    "cash": 0.2,
+    "best": null,
+    "note": "EDGE ~Rs0.20"
+   },
+   "status_source": "https://www.axis.bank.in/cards/commercial-credit-card/business-supreme-visa-credit-card",
+   "jewellery_unconfirmed": false,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, base_rate, rules, excludes, point_value_inr, status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Business Supreme Master Credit Card",
+   "issuer": "Axis Bank",
+   "network": "Mastercard",
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": "4 domestic per year",
+   "main_benefit": "Axis commercial Mastercard for businesses with 4 lounge visits a year and boosted rewards on business spends.",
+   "key_benefits": [
+    "4 complimentary airport lounge visits per year",
+    "4 RP/Rs 200 domestic, 6 RP business spends, 8 RP international (third-party)"
+   ],
+   "base_rate": 0.0008,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.004,
+     "desc": "4 pts/Rs200 domestic, 6 marketing/advertising, 8 international (cardinsider); EDGE Rs0.2."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "jewellery"
+   ],
+   "source_url": "https://cardinsider.com/business-cards/axis-business-supreme-master-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://cardinsider.com/business-cards/axis-business-supreme-master-credit-card/",
+    "cardinsider"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator only (cardinsider May 2026). | Prior notes: Fee Rs 1,500+GST from third-party only; point value not found so no rate modelled.",
+   "status_source": "cardinsider only; no Axis page found",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "cardinsider"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, lounge_access, base_rate, rules, excludes, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Executive Corporate Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "active",
+   "co_brand_partner": null,
+   "tier": "business",
+   "lifetime_free": null,
+   "joining_fee": 3500,
+   "annual_fee": 3500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.02,
+   "lounge_access": "8 international per calendar year, 4 domestic per quarter",
+   "main_benefit": "Axis corporate card for executives with lounge, golf and VIP airport assistance.",
+   "key_benefits": [
+    "3 complimentary VIP airport assistance per year",
+    "Up to 4 golf rounds and 1 lesson per year",
+    "1% fuel refund Rs 400-4,000, cap Rs 400/month"
+   ],
+   "base_rate": null,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": null,
+     "desc": "4 Plus points per Rs200 domestic, 8 per Rs200 international; savesage: excludes wallets, fuel, jewellery, rent, utilities, gift cards."
+    }
+   ],
+   "excludes": [
+    "wallet_load",
+    "fuel",
+    "jewellery",
+    "rent",
+    "utilities"
+   ],
+   "source_url": "https://www.axis.bank.in/cards/commercial-credit-card/axis-bank-executive-corporate-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/commercial-credit-card/axis-bank-executive-corporate-credit-card",
+    "https://savesage.club/credit-card/axis-executive-corporate",
+    "https://www.businesstoday.in/amp/personal-finance/news/story/credit-cards-axis-bank-launches-corporate-credit-card-suite-for-start-ups-top-points-here-447911-2024-09-28",
+    "Axis page",
+    "savesage"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official page for benefits and 2% forex; fee Rs3,500 from savesage (aggregator). | Prior notes: Launched Sept 2024 (start-up suite). Fees only from third-party SaveSage; reward rate not found. Forex 2%+GST per Axis page (stored 0.02).",
+   "eligibility": "Corporate-issued",
+   "status_source": "https://www.axis.bank.in/cards/commercial-credit-card/axis-bank-executive-corporate-credit-card (listed)",
+   "jewellery_unconfirmed": false,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis page",
+     "savesage"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: rules, excludes, eligibility, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Vistara Infinite Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "super_premium",
+   "lifetime_free": false,
+   "joining_fee": 10000,
+   "annual_fee": 10000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Vistara co-brand earning Maharaja points; sunsetting 31 Oct 2026.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF",
+    "Axis Vistara page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official Axis notice: card discontinued for spends after 31 Oct 2026 following Vistara-Air India merger; fees per Axis page/MITC. Club Vistara points per Rs200: 6; INR value unknown. | Prior notes: Fees from MITC. Reward rates not verified (Infinite page: 6 points/Rs200).",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card (\"will be discontinued for spends post 31 October 2026\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis Vistara page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Vistara Signature Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": 3000,
+   "annual_fee": 3000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Vistara co-brand earning Maharaja points; sunsetting 31 Oct 2026.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-signature-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF",
+    "Axis Vistara page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official Axis notice: card discontinued for spends after 31 Oct 2026 following Vistara-Air India merger; fees per Axis page/MITC. Club Vistara points per Rs200: 4 (assumed); INR value unknown. | Prior notes: Fees from MITC. Reward rates not verified (Infinite page: 6 points/Rs200).",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card (\"will be discontinued for spends post 31 October 2026\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis Vistara page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Vistara Platinum Credit Card",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "discontinued",
+   "co_brand_partner": "Vistara",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 1500,
+   "annual_fee": 1500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Legacy Vistara co-brand earning Maharaja points; sunsetting 31 Oct 2026.",
+   "key_benefits": [],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-credit-card",
+    "https://www.axis.bank.in/cards/credit-card",
+    "MITC credit cards PDF",
+    "Axis Vistara page",
+    "Axis MITC"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Official Axis notice: card discontinued for spends after 31 Oct 2026 following Vistara-Air India merger; fees per Axis page/MITC. Club Vistara points per Rs200: 2 (assumed); INR value unknown. | Prior notes: Fees from MITC. Reward rates not verified (Infinite page: 6 points/Rs200).",
+   "status_source": "https://www.axis.bank.in/cards/credit-card/axis-bank-vistara-infinite-credit-card (\"will be discontinued for spends post 31 October 2026\")",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "Axis Vistara page",
+     "Axis MITC"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status_source (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Axis Bank Insta Easy Credit Card (FD-backed)",
+   "issuer": "Axis Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": null,
+   "tier": "secured",
+   "lifetime_free": true,
+   "joining_fee": 0,
+   "annual_fee": 0,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "FD-backed Axis starter credit card with no joining or annual fee, limit up to 80% of FD.",
+   "key_benefits": [
+    "FD minimum Rs 20,000",
+    "Limit up to 80% of FD",
+    "Up to 50 days credit-free period"
+   ],
+   "base_rate": 0.0012,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0012,
+     "desc": "6 EDGE pts per Rs200 domestic, 12 international (paisabazaar, possibly stale); EDGE Rs0.2."
+    }
+   ],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/axis-bank/axis-bank-insta-easy-credit-cards/",
+   "source_type": "official",
+   "sources": [
+    "https://www.paisabazaar.com/axis-bank/axis-bank-insta-easy-credit-cards/",
+    "https://www.wishfin.com/axis-bank-insta-easy-credit-card-6288/",
+    "https://www.axis.bank.in/cards/credit-card/credit-card-against-fixed-deposit",
+    "paisabazaar",
+    "Axis FD page (absent)"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Likely superseded by Easy FD cards; unconfirmed. | Prior notes: One listing says new applications are not accepted; Axis FD page now lists three FD-backed options (incl. My Zone Easy).",
+   "status_source": "Not on Axis FD page (lists IndianOil Easy, Privilege Easy, My Zone Easy)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "paisabazaar",
+     "Axis FD page (absent)"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: base_rate, rules, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "HDFC InterMiles Platinum Credit Card",
+   "issuer": "HDFC Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "InterMiles",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Former entry InterMiles co-brand card from HDFC; discontinued.",
+   "key_benefits": [
+    "4 InterMiles per Rs150 retail, 8 per Rs150 on flights/hotels via InterMiles",
+    "Up to 3,000 bonus InterMiles",
+    "Rs500 flight + Rs1,000 hotel vouchers first year"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.hdfc.bank.in/credit-cards/intermiles-platinum-credit-card",
+   "source_type": "official",
+   "sources": [
+    "https://cardinsider.com/hdfc-bank/intermiles-hdfc-platinum-credit-card/",
+    "hdfc page",
+    "cardinsider"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Issuer page still live without sourcing-stopped banner, aggregator says discontinued: status left unknown. InterMiles value not stated. | Prior notes: Joining Rs 1,000+GST per CardInsider; other figures not found.",
+   "eligibility": "Salaried net income >Rs35,000/month; self-employed ITR >Rs6L (page)",
+   "status_source": "https://www.hdfc.bank.in/credit-cards/intermiles-platinum-credit-card (page live, no stopped banner) vs aggregator cardinsider \"Discontinued\"",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "hdfc page",
+     "cardinsider"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, annual_fee, forex_markup, eligibility, status_source, key_benefits (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Pixel Times Rush Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Times",
+   "tier": "mid",
+   "lifetime_free": null,
+   "joining_fee": 1000,
+   "annual_fee": 1000,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "HDFC PIXEL Times variant with UPI rewards on the RuPay version.",
+   "key_benefits": [
+    "Up to 2,000 RP/month on UPI (RuPay)",
+    "Monthly cap 20,000 RP",
+    "Fuel surcharge waiver cap Rs 250/cycle"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "2 RP per Rs200 on UPI and other spends = 0.25% at Rs0.25/RP; cap 20,000 RP/month; RuPay UPI RP up to 500/month per MITC (aggregator says 2,000).",
+     "cap_inr": 5000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "zepto",
+      "cleartrip",
+      "uber",
+      "decathlon",
+      "urban company",
+      "amazon",
+      "flipkart"
+     ],
+     "categories": [],
+     "rate": 0.025,
+     "desc": "10X RP on two chosen brand packs (Swiggy&Zepto, Cleartrip&Uber, Decathlon&Urban Company, Amazon&Flipkart) per aggregator; assumes multiplier on base 2 RP/Rs200 at Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0125,
+     "desc": "5X RP on SmartBuy spends (aggregator).",
+     "portal_only": true
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "wallet_load",
+    "government",
+    "gaming"
+   ],
+   "source_url": "https://cardinsider.com/blog/hdfc-launch-new-pixel-times-credit-cards-rush-move-variants/",
+   "source_type": "official",
+   "sources": [
+    "https://cardinsider.com/blog/hdfc-launch-new-pixel-times-credit-cards-rush-move-variants/",
+    "HDFC Pixel MITC 7 Sep 2026",
+    "cardinsider"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees, 2 RP/Rs200, Rs0.25 RP value, 20,000 RP monthly cap, RuPay-only, exclusions from official Pixel MITC; brand-pack multipliers and perks from cardinsider (Sep 2026) only. Jewellery not stated. | Prior notes: Newly launched (reported Sep 2026); terms may change; not seen on HDFC site.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": null,
+    "note": "HDFC Pixel MITC: 1 RP = Rs0.25 (PayZapp redemption)"
+   },
+   "status_source": "HDFC Pixel MITC 7 Sep 2026 (lists PIXEL Times Rush/Move)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "HDFC Pixel MITC 7 Sep 2026",
+     "cardinsider"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, rules, excludes, point_value_inr, status_source, network (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "Pixel Times Move Credit Card",
+   "issuer": "HDFC Bank",
+   "network": "RuPay",
+   "status": "active",
+   "co_brand_partner": "Times",
+   "tier": "entry",
+   "lifetime_free": null,
+   "joining_fee": 500,
+   "annual_fee": 500,
+   "fee_waiver_spend": 100000,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Basic PIXEL Times variant with 5X points on two chosen brand packs and entertainment perks.",
+   "key_benefits": [
+    "Choose two brand packs (e.g. Swiggy & Zepto, Amazon & Flipkart)",
+    "Sony LIV, Spotify Premium, BookMyShow/Cinepolis discounts"
+   ],
+   "base_rate": 0.0025,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0025,
+     "desc": "2 RP per Rs200 on UPI and other spends = 0.25% at Rs0.25/RP; cap 20,000 RP/month; RuPay UPI RP up to 500/month per MITC (aggregator says 2,000).",
+     "cap_inr": 5000,
+     "period": "month"
+    },
+    {
+     "merchants": [
+      "swiggy",
+      "zepto",
+      "cleartrip",
+      "uber",
+      "decathlon",
+      "urban company",
+      "amazon",
+      "flipkart"
+     ],
+     "categories": [],
+     "rate": 0.0125,
+     "desc": "5X RP on two chosen brand packs (Swiggy&Zepto, Cleartrip&Uber, Decathlon&Urban Company, Amazon&Flipkart) per aggregator; assumes multiplier on base 2 RP/Rs200 at Rs0.25."
+    },
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.0125,
+     "desc": "5X RP on SmartBuy spends (aggregator).",
+     "portal_only": true
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "emi",
+    "rent",
+    "wallet_load",
+    "government",
+    "gaming"
+   ],
+   "source_url": "https://cardinsider.com/hdfc-bank/pixel-times-move-credit-card/",
+   "source_type": "official",
+   "sources": [
+    "https://cardinsider.com/hdfc-bank/pixel-times-move-credit-card/",
+    "https://cardinsider.com/blog/hdfc-launch-new-pixel-times-credit-cards-rush-move-variants/",
+    "HDFC Pixel MITC 7 Sep 2026",
+    "cardinsider"
+   ],
+   "data_status": "unverified",
+   "confidence": "medium",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees, 2 RP/Rs200, Rs0.25 RP value, 20,000 RP monthly cap, RuPay-only, exclusions from official Pixel MITC; brand-pack multipliers and perks from cardinsider (Sep 2026) only. Jewellery not stated. | Prior notes: Rewards redeemed via PayZapp at 1 RP = Rs 0.25; base rate not found.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": null,
+    "note": "HDFC Pixel MITC: 1 RP = Rs0.25 (PayZapp redemption)"
+   },
+   "status_source": "HDFC Pixel MITC 7 Sep 2026 (lists PIXEL Times Rush/Move)",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "HDFC Pixel MITC 7 Sep 2026",
+     "cardinsider"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, forex_markup, base_rate, rules, excludes, point_value_inr, status_source, network (confidence low->medium)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Bank British Airways Classic Credit Card",
+   "issuer": "ICICI Bank",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": "British Airways",
+   "tier": "mid",
+   "lifetime_free": false,
+   "joining_fee": 0,
+   "annual_fee": 3500,
+   "fee_waiver_spend": null,
+   "forex_markup": 0.035,
+   "lounge_access": null,
+   "main_benefit": "Former BA Avios co-brand Amex from ICICI; no longer open to new applicants.",
+   "key_benefits": [
+    "3,500 Avios welcome",
+    "25,000 Avios on BA flight booking within 3 months"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://cardinsider.com/icici-bank/icici-bank-british-airways-classic-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.retailbankerinternational.com/news/icici-and-british-airways-team-up-for-credit-card/",
+    "https://www.paisabazaar.com/icici-bank/british-airways-classic-credit-card/",
+    "cardinsider"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator only: Avios earn (Amex 2/Rs100, 2.5 on BA). | Prior notes: Annual fee INR 3,500 per 2012-era press; BA now partners with IndusInd.",
+   "status_source": "absent from ICICI MITC/listing; cardinsider says Discontinued",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "cardinsider"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, joining_fee, forex_markup, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "ICICI Bank British Airways Premium Credit Card",
+   "issuer": "ICICI Bank",
+   "network": "Amex",
+   "status": "unknown",
+   "co_brand_partner": "British Airways",
+   "tier": "premium",
+   "lifetime_free": false,
+   "joining_fee": null,
+   "annual_fee": 7000,
+   "fee_waiver_spend": null,
+   "forex_markup": null,
+   "lounge_access": null,
+   "main_benefit": "Former premium BA Avios co-brand Amex from ICICI; no longer open to new applicants.",
+   "key_benefits": [
+    "8,000 Avios on first use"
+   ],
+   "base_rate": null,
+   "rules": [],
+   "excludes": [],
+   "source_url": "https://www.paisabazaar.com/icici-bank/british-airways-premium-credit-card/",
+   "source_type": "third_party",
+   "sources": [
+    "https://www.paisabazaar.com/icici-bank/british-airways-premium-credit-card/",
+    "paisabazaar"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Aggregator only. | Prior notes: Fee Rs 7,000+GST from year 2.",
+   "status_source": "absent from ICICI MITC/listing; paisabazaar \"not available\"",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "paisabazaar"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: status, status_source (confidence low->low)"
+    ]
+   }
+  },
+  {
+   "name": "Accelero ICICI Bank Credit Card",
+   "issuer": "ICICI Bank",
+   "network": null,
+   "status": "unknown",
+   "co_brand_partner": "HPCL",
+   "tier": "entry",
+   "lifetime_free": false,
+   "joining_fee": 499,
+   "annual_fee": 499,
+   "fee_waiver_spend": 125000,
+   "forex_markup": 0.035,
+   "lounge_access": "Requires Rs 5,000 spend in previous quarter",
+   "main_benefit": "Automobile-enthusiast card with roadside assistance and HPCL fuel cashback.",
+   "key_benefits": [
+    "24x7 roadside assistance and towing",
+    "One free car wash and check-up a year"
+   ],
+   "base_rate": 0.005,
+   "rules": [
+    {
+     "merchants": [],
+     "categories": [],
+     "rate": 0.005,
+     "desc": "2 RP per Rs100 retail; HPCL fuel surcharge waiver 1%."
+    }
+   ],
+   "excludes": [
+    "fuel",
+    "rent",
+    "wallet_load",
+    "cash"
+   ],
+   "source_url": "https://www.bankbazaar.com/credit-card/accelero-icici-bank-credit-card.html",
+   "source_type": "official",
+   "sources": [
+    "https://www.bankbazaar.com/credit-card/accelero-icici-bank-credit-card.html",
+    "ICICI MITC",
+    "bankbazaar"
+   ],
+   "data_status": "unverified",
+   "confidence": "low",
+   "retrieved_on": "2026-10-11",
+   "last_verified": null,
+   "notes": "Fees/waiver per MITC; MITC says this card keeps joining benefits. | Prior notes: Paisabazaar says not currently sourced; verify with ICICI. Partner HPCL per aggregator.",
+   "point_value_inr": {
+    "cash": 0.25,
+    "best": null,
+    "note": "1 RP=Rs0.25 (bankbazaar)"
+   },
+   "status_source": "In ICICI MITC fee table 9 Oct 2026; no closure notice",
+   "jewellery_unconfirmed": true,
+   "verification": {
+    "checked_on": "2026-10-12",
+    "documents": [
+     "ICICI MITC",
+     "bankbazaar"
+    ],
+    "result": "corrected",
+    "changes": [
+     "changed: forex_markup, base_rate, rules, excludes, point_value_inr, status_source (confidence low->low)"
+    ]
+   }
+  }
+ ],
+ "gaps": [
+  "Jewellery/gold earn status is not stated in HDFC MITC v4.13, ICICI MITCs or most Axis pages (only Axis Kwik, Miles & More, Business Supreme Visa state it); flagged jewellery_unconfirmed.",
+  "Point (RP/EDGE/Skywards mile/Avios/Club Vistara) INR values not published for many cards; assumptions flagged in desc.",
+  "HDFC MITC fee table is flattened in PDF extraction; fees for Titanium Edge, Platinum Plus, All Miles, Purchase Premium, Business Corporate Regalia not attributable with certainty (null).",
+  "Axis Olympus/Primus/Burgundy Private/My Wings/Platinum/Titanium Smart Traveler/Signature cards: fees from Axis MITC only; earn rates not read; status unknown (no closure notice).",
+  "ICICI Ferrari, British Airways, Manchester United, Accelero: absent from ICICI listing; closure not confirmed on issuer site, so status unknown.",
+  "ICICI corporate cards: fees and rates not published.",
+  "IKEA Axis, Business Supreme Master, Insta Easy: no current Axis page found."
+ ]
+}

@@ -6,10 +6,8 @@
 import sys
 
 from freshness import validate
-from info import lookup
-from parser import parse
-from present import to_text
-from recommender import load_data, recommend
+from answer import handle, render
+from recommender import load_data
 
 DATA = None
 
@@ -17,20 +15,7 @@ DATA = None
 def show(text: str, explain: bool) -> None:
     global DATA
     DATA = DATA or load_data()
-    info = lookup(text, DATA["cards"])
-    if info:
-        print(info)
-        return
-    try:
-        p = parse(text)
-    except ValueError as e:
-        print(e)
-        return
-    rec = recommend(p, DATA)
-    if explain:
-        print(to_text(rec))
-    else:
-        print(rec.primary.card["name"] if rec.primary else "No reliable recommendation for this purchase.")
+    print(render(handle(text, DATA), explain))
 
 
 def main() -> None:

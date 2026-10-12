@@ -32,6 +32,7 @@ class Purchase:
     channel: Optional[str] = None  # "online" | "offline" | None (unknown)
     monthly: bool = False  # True: the user said the amount is a recurring monthly spend
     tentative: bool = False  # True: the user said the plan may change (prefer trip-cancellation cover)
+    held: Optional[List[str]] = None  # names of cards the customer already holds (rank only these; fee is sunk)
 
     @property
     def occurrences(self) -> int:
@@ -67,7 +68,7 @@ class Result:
 
     def net(self, purchase: Purchase) -> float:
         """Value after the annual fee: per year for recurring spend, else for this one purchase."""
-        fee = 0.0 if self.fee_waived(purchase) else self.fee
+        fee = 0.0 if (self.fee_waived(purchase) or purchase.held) else self.fee
         return self.total * purchase.occurrences - fee
 
 
@@ -238,6 +239,12 @@ class Recommendation:
 def recommend(p: Purchase, data: Optional[dict] = None, limit: int = 5) -> Recommendation:
     """Main answer = best net value among apply-able cards with medium/high confidence data."""
     data = data or load_data()
+    if p.held:  # the customer already holds these cards: best among them, fee already paid, eligibility moot
+        mine = [r for r in rank(p, dict(data, cards=[c for c in data["cards"] if c["name"] in p.held]))]
+        mine += [evaluate(c, p, data.get("offers", [])) for c in data["cards"]
+                 if c["name"] in p.held and c.get("status") in UNAVAILABLE]
+        mine = sorted((r for r in mine if r.rated), key=lambda r: r.net(p), reverse=True)
+        return Recommendation(p, mine[0] if mine else None, mine[1:limit], [], [])
     solid, flagged, restricted = [], [], []
     for r in rank(p, data):
         c = r.card

@@ -34,6 +34,20 @@ def find_cards(text: str, cards: List[dict], min_score: float = 0.99) -> List[di
     return [h[3] for h in best]
 
 
+def find_all_cards(text: str, cards: List[dict]) -> List[dict]:
+    """Every card named in the text; a name that is a strict subset of a longer matched name is dropped."""
+    q = _tokens(text)
+    hits = [(c, _tokens(c["name"])) for c in cards if len(_tokens(c["name"])) >= 2 and _tokens(c["name"]) <= q]
+    keep = [(c, t) for c, t in hits if not any(t < t2 for _, t2 in hits)]
+    seen, out = set(), []
+    for c, t in sorted(keep, key=lambda x: (x[0].get("confidence") != "high", x[0].get("confidence") != "medium")):
+        key = frozenset(t)
+        if key not in seen:
+            seen.add(key)
+            out.append(c)
+    return out
+
+
 def intent_of(text: str) -> str:
     low = text.lower()
     for name, kws in INTENTS:

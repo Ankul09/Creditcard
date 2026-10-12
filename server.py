@@ -5,24 +5,15 @@ import sys
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import parse_qs, urlparse
 
-from info import lookup
-from parser import parse
-from present import to_dict
-from recommender import load_data, recommend
+from answer import handle, to_json
+from recommender import load_data
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA = load_data()
 
 
 def recommend_text(q: str) -> dict:
-    info = lookup(q, DATA["cards"])
-    if info:
-        return {"info": info}
-    try:
-        p = parse(q)
-    except ValueError as e:
-        return {"error": str(e)}
-    return to_dict(recommend(p, DATA))
+    return to_json(handle(q, DATA))
 
 
 class Handler(BaseHTTPRequestHandler):

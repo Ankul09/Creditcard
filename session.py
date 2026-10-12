@@ -59,7 +59,7 @@ class Session:
 
 
 def _key(q: str) -> str:
-    for k, needle in (("tentative", "confirmed"), ("airline", "airline are"), ("booking", "book directly"), ("intl", "domestic or"),
+    for k, needle in (("tentative", "confirmed"), ("airline", "airline are"), ("hotel", "Which hotel or chain"), ("booking", "book directly"), ("intl", "domestic or"),
                       ("pump", "pump"), ("monthly_fuel", "each month"), ("jeweller", "jeweller"), ("coins", "gold coins"),
                       ("emi", "EMI"), ("site", "site or app"), ("prime", "Prime"), ("dining", "food delivery"),
                       ("store", "store or app"), ("channel", "online or in a store"), ("what", "What are you buying"),

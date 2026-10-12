@@ -7,6 +7,9 @@ from recommender import Purchase
 AIRLINES = ["indigo", "air india", "vistara", "akasa", "spicejet", "emirates", "qatar", "singapore", "lufthansa", "air asia"]
 INTL_RE = re.compile(r"international|abroad|overseas|foreign|usa|uk|dubai|singapore|europe|thailand", re.I)
 INCOME_RE = re.compile(r"(lpa|lakh)\s*(per|a)?\s*(year|annum|pa)|salary|income|earn", re.I)
+HOTEL_RE = re.compile(r"hotel|resort|stay|room|villa|homestay|hostel|oyo|taj|marriott|itc|hyatt|hilton|airbnb|booking\\.com|agoda", re.I)
+FLIGHT_RE = re.compile(r"flight|airline|air ticket|airfare|plane|\\bticket", re.I)
+HOTEL_CHAINS = ["taj", "marriott", "itc", "hyatt", "hilton", "oberoi", "ihg", "radisson", "accor", "oyo", "leela", "lemon tree"]
 PRIME_RE = re.compile(r"\bprime\b", re.I)
 
 
@@ -16,12 +19,19 @@ def questions(p: Purchase, text: str, max_q: int = 4) -> List[str]:
     cat = p.category
 
     if cat == "travel":
+        hotel = bool(HOTEL_RE.search(low)) and not FLIGHT_RE.search(low)
         if not p.tentative and not re.search(r"confirmed|fixed|final|booked", low):
-            qs.append("Is the trip confirmed, or might your plans change? (Some cards, like IDFC FIRST Select/Wealth, include trip cancellation cover.)")
-        if not any(a in low for a in AIRLINES):
-            qs.append("Which airline are you flying? (Airline co-brand cards give bonuses on their own airline.)")
-        if not p.merchant and not p.channel:
-            qs.append("Will you book directly on the airline's site, through a travel app (MakeMyTrip, Scapia...) or a bank travel portal (HDFC SmartBuy, Axis Travel EDGE, HSBC Travel with Points)? The best card changes with this.")
+            qs.append("Is the trip confirmed, or might your plans change? (Some cards, like IDFC FIRST Select/Wealth, include trip cancellation cover for flight and hotel bookings.)")
+        if hotel:
+            if not any(h in low for h in HOTEL_CHAINS):
+                qs.append("Which hotel or chain (Taj, Marriott, ITC, Hyatt, Oyo...)? Co-brand cards give extra on their own chain.")
+            if not p.merchant and not p.channel:
+                qs.append("Will you book directly with the hotel, through a travel app (MakeMyTrip, Agoda, Booking.com...) or a bank travel portal (HDFC SmartBuy, Axis Travel EDGE, HSBC Travel with Points, Amex Travel)? Portals often pay several times more on hotels.")
+        else:
+            if not any(a in low for a in AIRLINES):
+                qs.append("Which airline are you flying? (Airline co-brand cards give bonuses on their own airline.)")
+            if not p.merchant and not p.channel:
+                qs.append("Will you book directly on the airline's site, through a travel app (MakeMyTrip, Scapia...) or a bank travel portal (HDFC SmartBuy, Axis Travel EDGE, HSBC Travel with Points)? The best card changes with this.")
         if not INTL_RE.search(low):
             qs.append("Is it a domestic or international trip? (Forex markup and international bonuses differ.)")
     elif cat == "fuel":

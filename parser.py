@@ -4,6 +4,7 @@ import os
 import re
 from typing import Optional
 
+from brand import NAME
 from recommender import Purchase
 
 CATEGORIES = ["jewellery", "international", "bill_payments", "online_shopping", "dining", "travel", "groceries", "fuel", "other"]
@@ -33,7 +34,7 @@ class OffTopic(ValueError):
 
 
 OFF_TOPIC_MESSAGE = (
-    "I can only help you pick the best credit card for a purchase. "
+    f"I'm {NAME}, and I can only help you pick the best credit card for a purchase. "
     "Tell me what you're buying and roughly how much, e.g. 'Rs 5000 on Swiggy'."
 )
 CARD_WORDS = ["credit card", "creditcard", "card", "cashback", "cash back", "reward", "rewards", "lounge",

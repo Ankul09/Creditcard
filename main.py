@@ -7,6 +7,7 @@ import sys
 
 from freshness import validate
 from answer import handle, render
+from brand import GREETING
 from session import Session, reply
 from recommender import load_data
 
@@ -35,7 +36,7 @@ def main() -> None:
     if args:
         show(" ".join(args), explain)
         return
-    print("Describe a purchase (e.g. 'Rs 5000 on Swiggy'). Ctrl-D to quit.")
+    print(GREETING + " (Ctrl-D to quit)")
     for line in sys.stdin:
         if line.strip():
             show(line, explain)

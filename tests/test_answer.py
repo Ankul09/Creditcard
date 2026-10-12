@@ -91,5 +91,5 @@ class Conversation(unittest.TestCase):
         s = Session()
         reply(s, "Rs 20000 shopping", DATA)
         reply(s, "yes", DATA)
-        out = reply(s, "Rs 5000 petrol", DATA)
+        out = reply(s, "Rs 5000 dining", DATA)
         self.assertIn("Best overall for this", out)

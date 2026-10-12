@@ -21,7 +21,7 @@ SENSITIVE_CATEGORIES = {"jewellery", "fuel", "rent", "utilities", "insurance", "
                         "education", "emi", "gaming", "toll", "gift_cards"}
 RESTRICTED_NAME_HINTS = ("indian navy", "indian army", "indian air force", "assam rifles", "armed forces",
                          "icai", "doctor", "defence", "burgundy", "coast guard", "rakshamah", "rakshak",
-                         "shaurya", "ex-servicemen")
+                         "shaurya", "ex-servicemen", "only for", "relationship", "existing customers only")
 
 
 @dataclass
@@ -31,6 +31,7 @@ class Purchase:
     merchant: Optional[str] = None
     channel: Optional[str] = None  # "online" | "offline" | None (unknown)
     monthly: bool = False  # True: the user said the amount is a recurring monthly spend
+    tentative: bool = False  # True: the user said the plan may change (prefer trip-cancellation cover)
 
     @property
     def occurrences(self) -> int:
@@ -227,22 +228,36 @@ class Recommendation:
     purchase: Purchase
     primary: Optional[Result]
     alternatives: List[Result]
-    flagged: List[Result]  # beat the primary on paper but are unverified, invite-only or restricted
+    flagged: List[Result]  # beat the primary on paper but have unverified / speculative data
     hidden: List[Result]  # closed/discontinued cards that would have ranked above the primary
+    trip_cover: List[Result] = field(default_factory=list)  # travel: cards with trip-cancellation cover
+    if_eligible: List[Result] = field(default_factory=list)  # invite-only / relationship / profession cards
+    fee_heavy: List[Result] = field(default_factory=list)  # higher return but the fee outweighs it for one purchase
 
 
 def recommend(p: Purchase, data: Optional[dict] = None, limit: int = 5) -> Recommendation:
     """Main answer = best net value among apply-able cards with medium/high confidence data."""
     data = data or load_data()
-    solid, flagged = [], []
+    solid, flagged, restricted = [], [], []
     for r in rank(p, data):
         c = r.card
-        if r.speculative or c.get("confidence") not in ("high", "medium") or is_restricted(c):
+        if r.speculative or c.get("confidence") not in ("high", "medium"):
             flagged.append(r)
+        elif is_restricted(c):
+            restricted.append(r)
         else:
             solid.append(r)
     unconditional = [r for r in solid if not r.conditional]
     primary = unconditional[0] if unconditional else None
+    trip_cover: List[Result] = []
+    if p.category == "travel":
+        covered = [r for r in rank(p, data) if r.card.get("trip_cancellation") and not r.speculative
+                   and r.card.get("confidence") in ("high", "medium") and not r.conditional]
+        trip_cover = sorted(covered, key=lambda r: ((r.card["trip_cancellation"].get("cover_inr") or 0), r.net(p)),
+                            reverse=True)[:4]
+        if p.tentative and trip_cover:
+            primary = max((r for r in trip_cover if (r.card["trip_cancellation"].get("cover_inr") or 0) > 0),
+                          key=lambda r: (r.net(p)), default=primary)
     threshold = primary.net(p) if primary else float("-inf")
     flagged = [r for r in flagged if r.net(p) > threshold][:limit]
     hidden = []
@@ -253,4 +268,8 @@ def recommend(p: Purchase, data: Optional[dict] = None, limit: int = 5) -> Recom
                 hidden.append(r)
     hidden = sorted(hidden, key=lambda r: r.net(p), reverse=True)[:3]
     alternatives = [r for r in solid if r is not primary][:limit]
-    return Recommendation(p, primary, alternatives, flagged, hidden)
+    gross = primary.total if primary else 0.0
+    if_eligible = sorted((r for r in restricted if r.total > gross), key=lambda r: r.total, reverse=True)[:3]
+    fee_heavy = [r for r in solid if primary and r.total > gross and r.net(p) < primary.net(p)]
+    fee_heavy = sorted(fee_heavy, key=lambda r: r.total, reverse=True)[:3]
+    return Recommendation(p, primary, alternatives, flagged, hidden, trip_cover, if_eligible, fee_heavy)

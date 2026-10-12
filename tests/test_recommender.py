@@ -122,6 +122,29 @@ class Policy(unittest.TestCase):
         self.assertEqual(rec.primary.card["name"], "Plain")
         self.assertEqual([r.card["name"] for r in rec.alternatives], ["Cond"])
 
+    def test_restricted_cards_are_listed_with_eligibility(self):
+        pub = card("Public", base=0.02)
+        vip = card("Vip", base=0.05, annual_fee=20000, eligibility="Only for Premier customers")
+        rec = recommend(Purchase(50000, "other"), self.data(pub, vip))
+        self.assertEqual(rec.primary.card["name"], "Public")
+        self.assertEqual([r.card["name"] for r in rec.if_eligible], ["Vip"])
+
+    def test_fee_heavy_card_is_mentioned(self):
+        pub = card("Public", base=0.02)
+        heavy = card("Heavy", base=0.04, annual_fee=5000)
+        rec = recommend(Purchase(50000, "other"), self.data(pub, heavy))
+        self.assertEqual(rec.primary.card["name"], "Public")
+        self.assertEqual([r.card["name"] for r in rec.fee_heavy], ["Heavy"])
+
+    def test_tentative_travel_prefers_trip_cancellation_cover(self):
+        plain = card("Plain", base=0.03)
+        cover = card("Cover", base=0.01, trip_cancellation={"cover_inr": 10000, "max_claims": 2})
+        normal = recommend(Purchase(50000, "travel"), self.data(plain, cover))
+        self.assertEqual(normal.primary.card["name"], "Plain")
+        self.assertEqual([r.card["name"] for r in normal.trip_cover], ["Cover"])
+        tentative = recommend(Purchase(50000, "travel", tentative=True), self.data(plain, cover))
+        self.assertEqual(tentative.primary.card["name"], "Cover")
+
     def test_no_reliable_card_gives_no_primary(self):
         rec = recommend(Purchase(5000, "fuel"), self.data(card("X", base=0.01)))
         self.assertIsNone(rec.primary)

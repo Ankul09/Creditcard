@@ -76,6 +76,9 @@ ONLINE_WORDS = ["online", "app", "website", "portal", "amazon", "flipkart", "myn
 MONTHLY_RE = re.compile(r"(a|per|every|each)\s+month|monthly|/month|per\s+month|in\s+a\s+month", re.I)
 
 
+TENTATIVE_RE = re.compile(r"tentative|not sure|unsure|uncertain|may cancel|might cancel|could cancel|may change|might change|plans (may|might|could) change|flexible|maybe", re.I)
+
+
 def _channel(low: str) -> Optional[str]:
     if _has(low, OFFLINE_WORDS):
         return "offline"
@@ -93,7 +96,8 @@ def parse_rules(text: str) -> Purchase:
     low = text.lower()
     merchant = next((m for m in MERCHANTS if m in low), None)
     category = next((c for c, kws in KEYWORDS.items() if any(k in low for k in kws)), "other")
-    return Purchase(amount, category, merchant, _channel(low), bool(MONTHLY_RE.search(text)))
+    return Purchase(amount, category, merchant, _channel(low), bool(MONTHLY_RE.search(text)),
+                    bool(TENTATIVE_RE.search(text)))
 
 
 def parse_llm(text: str) -> Purchase:
@@ -119,7 +123,8 @@ def parse_llm(text: str) -> Purchase:
     if data.get("off_topic") or not data.get("amount"):
         raise OffTopic(OFF_TOPIC_MESSAGE)
     return Purchase(float(data["amount"]), data.get("category") or "other", data.get("merchant"),
-                    _channel(text.lower()), bool(MONTHLY_RE.search(text)))
+                    _channel(text.lower()), bool(MONTHLY_RE.search(text)),
+                    bool(TENTATIVE_RE.search(text)))
 
 
 def parse(text: str) -> Purchase:

@@ -16,6 +16,90 @@
     }
    },
    "reason": "ICICI T&C: 5% on Amazon is for Prime members; 3% for non-Prime"
+  },
+  "IDFC FIRST Wealth": {
+   "fields": {
+    "trip_cancellation": {
+     "cover_inr": 10000,
+     "max_claims": null,
+     "conditions": "Reimburses only the non-refundable part of a flight/hotel booking made on the card; cancel at least 24 hours before travel (no-shows not covered); limited number of claims; card must be active with no overdue amount; confirm the current policy period and covered reasons with IDFC FIRST. Cover amount from IDFC card page; claim limit not stated.",
+     "source": "https://www.idfcfirst.bank.in/credit-card/wealth",
+     "confidence": "medium"
+    }
+   },
+   "reason": "IDFC FIRST trip cancellation (Cancel For Any Reason) cover, added 2026-10-12 on user request"
+  },
+  "IDFC FIRST Select": {
+   "fields": {
+    "trip_cancellation": {
+     "cover_inr": 10000,
+     "max_claims": 2,
+     "conditions": "Reimburses only the non-refundable part of a flight/hotel booking made on the card; cancel at least 24 hours before travel (no-shows not covered); limited number of claims; card must be active with no overdue amount; confirm the current policy period and covered reasons with IDFC FIRST.",
+     "source": "https://www.idfcfirst.bank.in/credit-card/select",
+     "confidence": "medium"
+    }
+   },
+   "reason": "IDFC FIRST trip cancellation (Cancel For Any Reason) cover, added 2026-10-12 on user request"
+  },
+  "IDFC FIRST WOW! Black": {
+   "fields": {
+    "trip_cancellation": {
+     "cover_inr": 10000,
+     "max_claims": null,
+     "conditions": "Reimburses only the non-refundable part of a flight/hotel booking made on the card; cancel at least 24 hours before travel (no-shows not covered); limited number of claims; card must be active with no overdue amount; confirm the current policy period and covered reasons with IDFC FIRST. Stated as Rs10,000 per year.",
+     "source": "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card",
+     "confidence": "low"
+    }
+   },
+   "reason": "IDFC FIRST trip cancellation (Cancel For Any Reason) cover, added 2026-10-12 on user request"
+  },
+  "IDFC FIRST Diamond Reserve": {
+   "fields": {
+    "trip_cancellation": {
+     "cover_inr": 25000,
+     "max_claims": null,
+     "conditions": "Reimburses only the non-refundable part of a flight/hotel booking made on the card; cancel at least 24 hours before travel (no-shows not covered); limited number of claims; card must be active with no overdue amount; confirm the current policy period and covered reasons with IDFC FIRST.",
+     "source": "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card",
+     "confidence": "medium"
+    }
+   },
+   "reason": "IDFC FIRST trip cancellation (Cancel For Any Reason) cover, added 2026-10-12 on user request"
+  },
+  "IDFC FIRST Gaj": {
+   "fields": {
+    "trip_cancellation": {
+     "cover_inr": 50000,
+     "max_claims": null,
+     "conditions": "Reimburses only the non-refundable part of a flight/hotel booking made on the card; cancel at least 24 hours before travel (no-shows not covered); limited number of claims; card must be active with no overdue amount; confirm the current policy period and covered reasons with IDFC FIRST.",
+     "source": "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj",
+     "confidence": "medium"
+    }
+   },
+   "reason": "IDFC FIRST trip cancellation (Cancel For Any Reason) cover, added 2026-10-12 on user request"
+  },
+  "IDFC FIRST Mayura": {
+   "fields": {
+    "trip_cancellation": {
+     "cover_inr": null,
+     "max_claims": null,
+     "conditions": "Reimburses only the non-refundable part of a flight/hotel booking made on the card; cancel at least 24 hours before travel (no-shows not covered); limited number of claims; card must be active with no overdue amount; confirm the current policy period and covered reasons with IDFC FIRST. CFAR policy document found but its policy period ended 7 May 2026; cover amount and current validity unconfirmed.",
+     "source": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/Mayura/docs/CFAR.pdf",
+     "confidence": "low"
+    }
+   },
+   "reason": "IDFC FIRST trip cancellation (Cancel For Any Reason) cover, added 2026-10-12 on user request"
+  },
+  "IDFC FIRST Ashva": {
+   "fields": {
+    "trip_cancellation": {
+     "cover_inr": null,
+     "max_claims": null,
+     "conditions": "Reimburses only the non-refundable part of a flight/hotel booking made on the card; cancel at least 24 hours before travel (no-shows not covered); limited number of claims; card must be active with no overdue amount; confirm the current policy period and covered reasons with IDFC FIRST. CFAR policy document found but its policy period ended 7 May 2026; cover amount and current validity unconfirmed.",
+     "source": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/Ashva/docs/CFAR.pdf",
+     "confidence": "low"
+    }
+   },
+   "reason": "IDFC FIRST trip cancellation (Cancel For Any Reason) cover, added 2026-10-12 on user request"
   }
  }
 }

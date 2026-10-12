@@ -7,15 +7,22 @@ import sys
 
 from freshness import validate
 from answer import handle, render
+from session import Session, reply
 from recommender import load_data
 
 DATA = None
 
 
+SESSION = Session()
+
+
 def show(text: str, explain: bool) -> None:
     global DATA
     DATA = DATA or load_data()
-    print(render(handle(text, DATA), explain))
+    if explain:  # one-shot detailed answer, no conversation
+        print(render(handle(text, DATA), True))
+    else:
+        print(reply(SESSION, text, DATA))
 
 
 def main() -> None:
@@ -32,6 +39,7 @@ def main() -> None:
     for line in sys.stdin:
         if line.strip():
             show(line, explain)
+            print()
 
 
 if __name__ == "__main__":

@@ -15,10 +15,11 @@ def _has_amount(text: str) -> bool:
     return bool(CURRENCY_RE.search(text)) or any(float(n.group().replace(",", "")) >= 100 for n in NUMBER_RE.finditer(text))
 
 
-def handle(text: str, data: dict) -> dict:
+def handle(text: str, data: dict, held: Optional[list] = None, income: Optional[float] = None) -> dict:
     """Returns {"type": "info"|"message"|"recommendation", ...}."""
     cards = data["cards"]
-    held = [c["name"] for c in find_all_cards(text, cards)] if HELD_RE.search(text) else None
+    if held is None:
+        held = [c["name"] for c in find_all_cards(text, cards)] if HELD_RE.search(text) else None
     if not _has_amount(text):
         info = lookup(text, cards)
         if info:
@@ -29,6 +30,7 @@ def handle(text: str, data: dict) -> dict:
         kind = "refusal" if isinstance(e, OffTopic) else "message"
         return {"type": "message", "kind": kind, "text": str(e)}
     p.held = held or None
+    p.income_inr = income
     rec = recommend(p, data)
     return {"type": "recommendation", "rec": rec, "questions": questions(p, text), "held": held}
 

@@ -8,6 +8,7 @@ Model (see docs/COLLECTION_BRIEF.md, Addendum v2):
 """
 import json
 import os
+import re
 from dataclasses import dataclass, field
 from datetime import date
 from typing import List, Optional, Tuple
@@ -33,6 +34,7 @@ class Purchase:
     monthly: bool = False  # True: the user said the amount is a recurring monthly spend
     tentative: bool = False  # True: the user said the plan may change (prefer trip-cancellation cover)
     held: Optional[List[str]] = None  # names of cards the customer already holds (rank only these; fee is sunk)
+    income_inr: Optional[float] = None  # customer's annual income, if given (checked against stated eligibility)
 
     @property
     def occurrences(self) -> int:
@@ -210,6 +212,26 @@ def evaluate(card: dict, p: Purchase, offers: Optional[List[dict]] = None) -> Re
 
 # ---------------------------------------------------------------- ranking policy
 
+_INCOME_REQ = re.compile(r"(?:income|salary)[^.;]{0,40}?(?:rs\.?|₹|inr)?\s*(\d+(?:\.\d+)?)\s*(lakh|lac|l\b|crore|cr\b)?", re.I)
+
+
+def required_income(card: dict) -> Optional[float]:
+    """Annual income (INR) the card's eligibility text asks for, if it states one in lakh/crore per year."""
+    text = card.get("eligibility") or ""
+    for m in _INCOME_REQ.finditer(text):
+        num, unit = float(m.group(1)), (m.group(2) or "").lower()
+        if unit in ("lakh", "lac", "l"):
+            return num * 1e5
+        if unit in ("crore", "cr"):
+            return num * 1e7
+    return None
+
+
+def meets_income(card: dict, income: Optional[float]) -> bool:
+    need = required_income(card)
+    return income is None or need is None or income >= need
+
+
 def is_restricted(card: dict) -> bool:
     text = " ".join([card.get("eligibility") or "", card["name"], card.get("main_benefit") or ""])
     low = text.lower()
@@ -250,7 +272,7 @@ def recommend(p: Purchase, data: Optional[dict] = None, limit: int = 5) -> Recom
         c = r.card
         if r.speculative or c.get("confidence") not in ("high", "medium"):
             flagged.append(r)
-        elif is_restricted(c):
+        elif is_restricted(c) or not meets_income(c, p.income_inr):
             restricted.append(r)
         else:
             solid.append(r)

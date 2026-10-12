@@ -58,3 +58,38 @@ class Questions(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Conversation(unittest.TestCase):
+    def test_first_answer_is_short_then_questions_only_on_yes(self):
+        from session import Session, reply
+        s = Session()
+        first = reply(s, "Rs 20000 shopping", DATA)
+        self.assertIn("Best overall for this", first)
+        self.assertNotIn("Question:", first)
+        self.assertIn("Say 'yes'", first)
+        asked = reply(s, "yes", DATA)
+        self.assertIn("Question:", asked)
+
+    def test_declining_ends_refinement(self):
+        from session import Session, reply
+        s = Session()
+        reply(s, "Rs 20000 shopping", DATA)
+        self.assertIn("another purchase", reply(s, "no thanks", DATA))
+        self.assertIsNone(s.stage)
+
+    def test_naming_held_cards_changes_the_pick(self):
+        from session import Session, reply
+        s = Session()
+        reply(s, "Rs 20000 shopping", DATA)
+        reply(s, "yes", DATA)
+        out = reply(s, "I have Gamma Plus Card", DATA) + reply(s, "done", DATA)
+        self.assertEqual(s.last_pick, "Gamma Plus Card")
+
+    def test_new_purchase_resets(self):
+        from session import Session, reply
+        s = Session()
+        reply(s, "Rs 20000 shopping", DATA)
+        reply(s, "yes", DATA)
+        out = reply(s, "Rs 5000 petrol", DATA)
+        self.assertIn("Best overall for this", out)

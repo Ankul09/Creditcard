@@ -69,7 +69,8 @@ def to_text(rec: Recommendation) -> str:
             cover = f"up to ₹{a['cover']:,}" if a["cover"] else "amount unconfirmed"
             share = f" (about {min(100, round(100 * a['cover'] / p['amount']))}% of this ticket)" if a["cover"] and p["amount"] else ""
             claims = f", {a['claims']} claims" if a["claims"] else ""
-            lines.append(f"  - {a['name']}: cover {cover}{claims}{share}; fee ₹{a['fee']:,}; earns ~₹{a['value']:,} here")
+            elig = f"; eligibility: {a['eligibility']}" if a.get("eligibility") else ""
+            lines.append(f"  - {a['name']}: cover {cover}{claims}{share}; fee ₹{a['fee']:,}; earns ~₹{a['value']:,} here{elig}")
         lines.append("  Covers only the non-refundable part, cancellations at least 24 hours before travel, a limited number of "
                      "claims; confirm the current policy and covered reasons with the bank.")
     if d["if_eligible"]:
